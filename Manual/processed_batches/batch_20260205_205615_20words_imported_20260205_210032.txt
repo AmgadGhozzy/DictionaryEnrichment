@@ -1,0 +1,580 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 196,
+    "wordEn": "such",
+    "pos": "pron",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 196,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sʌt͡ʃ",
+    "phoneticAr": "ساتش",
+    "translit": "hadhih",
+    "definitionEn": "[\"to so high a degree; so great .\", \"Having the particular quality or character specified.\"]",
+    "usageNote": "used to make a comparison with something implied by context.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"autumn's such a beautiful season\"], \"A2\": [\"there is no such thing as a free lunch\", \"I have been involved in many such courses\"], \"B1\": [\"we were second-class citizens and they treated us as such\", \"the wound was such that I had to have stitches\"], \"B2\": [\"such is the elegance of his typeface that it is still a favorite of designers\", \"I longed to find a kindred spirit, and in him I thought I had found such a person\", \"this material is of such importance that it has a powerful bearing on the case\"]}",
+    "collocations": "[\"You're all such kind people\", \"Such hypocrisy\", \"non such\", \"such cases\"]",
+    "synonyms": "[\"much\", \"specified\", \"so much\", \"such as\", \"such that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"specified\", \"much\", \"so much\", \"such as\", \"such that\"], \"ar\": [\"مِثل\", \"أمثال\", \"كبير\", \"هائل\", \"شديد إلى حدّ أنّه\", \"تلك\"]}",
+    "arabicAr": "هذه / مثل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 197,
+    "wordEn": "such",
+    "pos": "det",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 197,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sʌt͡ʃ",
+    "phoneticAr": "ساتش",
+    "translit": "hadhih",
+    "definitionEn": "[\"to so high a degree; so great .\", \"Having the particular quality or character specified.\"]",
+    "usageNote": "used to make a comparison with something implied by context.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"autumn's such a beautiful season\"], \"A2\": [\"there is no such thing as a free lunch\", \"I have been involved in many such courses\"], \"B1\": [\"we were second-class citizens and they treated us as such\", \"the wound was such that I had to have stitches\"], \"B2\": [\"such is the elegance of his typeface that it is still a favorite of designers\", \"I longed to find a kindred spirit, and in him I thought I had found such a person\", \"this material is of such importance that it has a powerful bearing on the case\"]}",
+    "collocations": "[\"You're all such kind people\", \"Such hypocrisy\", \"non such\", \"such cases\"]",
+    "synonyms": "[\"much\", \"specified\", \"so much\", \"such as\", \"such that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"specified\", \"much\", \"so much\", \"such as\", \"such that\"], \"ar\": [\"مِثل\", \"أمثال\", \"كبير\", \"هائل\", \"شديد إلى حدّ أنّه\", \"تلك\"]}",
+    "arabicAr": "هذه / مثل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 198,
+    "wordEn": "how",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 198,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "hæŏ",
+    "phoneticAr": "هآ",
+    "translit": "kayf",
+    "definitionEn": "[\"in what way or manner; by what means.\", \"ask about the condition or quality of something.\", \"ask about the extent or degree of something.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"how are the children?\", \"I'll do business how I like\", \"how did they play?\", \"how old are you?\", \"How often do you practice\", \"How do you solve this puzzle\", \"How very interesting\"], \"A2\": [\"how I wish I had been there!\", \"he did not know how he ought to behave\", \"I wasn't sure how fast to go\"], \"B2\": [\"she told us how she had lived out of a suitcase for a week\"]}",
+    "collocations": "[\"How often do you practice\", \"How do you solve this puzzle\", \"How very interesting\", \"technical how\", \"how does\"]",
+    "synonyms": "[\"then\", \"very\", \"often\", \"could\", \"however\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"however\", \"often\", \"then\", \"could\", \"very\"], \"ar\": [\"كيف\", \"لماذا\", \"كم\", \"بكم\", \"طريقة\", \"كيف؟\"]}",
+    "arabicAr": "كيف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 199,
+    "wordEn": "because",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 199,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "bɪˈkɒz",
+    "phoneticUk": "biˈkɔz",
+    "phoneticAr": "بيكأز",
+    "translit": "li'ana / li''ana",
+    "syllabify": "be•cause",
+    "definitionEn": "[\"for the reason that; since.\", \"By or for the cause that\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"we did it because we felt it our duty\"], \"B1\": [\"there's probably somebody out there who would argue the point because internet\", \"just because I'm inexperienced doesn't mean that I lack perception\", \"making a bag of popcorn with hot sauce for lunch because hungry\"]}",
+    "collocations": "[\"forgiveness because\", \"because clouds\"]",
+    "synonyms": "[\"since\", \"seeing that/as\", \"for the reason that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"cuz\", \"therefore\", \"consequently\", \"since\", \"than\"], \"ar\": [\"لَمّا\", \"لأنّ\", \"بسببٍ من\", \"بسبب من\", \"من أجل\", \"حمل\"]}",
+    "arabicAr": "لأن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 200,
+    "wordEn": "because",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 200,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "bɪˈkɒz",
+    "phoneticUk": "biˈkɔz",
+    "phoneticAr": "بيكأز",
+    "translit": "li'ana / li''ana",
+    "syllabify": "be•cause",
+    "definitionEn": "[\"for the reason that; since.\", \"By or for the cause that\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"we did it because we felt it our duty\"], \"B1\": [\"there's probably somebody out there who would argue the point because internet\", \"just because I'm inexperienced doesn't mean that I lack perception\", \"making a bag of popcorn with hot sauce for lunch because hungry\"]}",
+    "collocations": "[\"forgiveness because\", \"because clouds\"]",
+    "synonyms": "[\"since\", \"seeing that/as\", \"for the reason that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"cuz\", \"therefore\", \"consequently\", \"since\", \"than\"], \"ar\": [\"لَمّا\", \"لأنّ\", \"بسببٍ من\", \"بسبب من\", \"من أجل\", \"حمل\"]}",
+    "arabicAr": "لأن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 201,
+    "wordEn": "good",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 201,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡɪ̈d",
+    "phoneticUk": "ɡʊ(d)",
+    "phoneticAr": "جيد",
+    "translit": "jyid / jayid",
+    "definitionEn": "[\"to be desired or approved of.\", \"having the qualities required for a particular role.\", \"possessing or displaying moral virtue.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the schools here are good\", \"Good Friday\"], \"A2\": [\"my mother could never cook this good\", \"it'll be good and dark by then\", \"she was pleased to hear good news about him\", \"the good people of the city were disconcerted\"], \"B1\": [\"he went upstairs to change out of his good suit\", \"I am the eldest of five in a good Catholic family\", \"we live at peace with each other, which is good\"]}",
+    "collocations": "[\"good intentions\", \"a good swimmer\", \"a good worker\", \"in good sooth\", \"a good omen good weather\"]",
+    "synonyms": "[\"full\", \"super\", \"goodness\", \"commodity\", \"trade good\"]",
+    "antonyms": "[\"evil\", \"evilness\", \"bad\"]",
+    "relatedWords": "{\"en\": [\"reputable\", \"beneficent\", \"respectable\", \"honorable\", \"worthy\"], \"ar\": [\"حسن\", \"جيّد\", \"ملائمٌ أو صالحٌ لِ\", \"كامل\", \"حقيقيّ\", \"محقَّق\"]}",
+    "arabicAr": "جيد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 202,
+    "wordEn": "good",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 202,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡɪ̈d",
+    "phoneticUk": "ɡʊ(d)",
+    "phoneticAr": "جيد",
+    "translit": "jyid / jayid",
+    "definitionEn": "[\"to be desired or approved of.\", \"having the qualities required for a particular role.\", \"possessing or displaying moral virtue.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the schools here are good\", \"Good Friday\"], \"A2\": [\"my mother could never cook this good\", \"it'll be good and dark by then\", \"she was pleased to hear good news about him\", \"the good people of the city were disconcerted\"], \"B1\": [\"he went upstairs to change out of his good suit\", \"I am the eldest of five in a good Catholic family\", \"we live at peace with each other, which is good\"]}",
+    "collocations": "[\"good intentions\", \"a good swimmer\", \"a good worker\", \"in good sooth\", \"a good omen good weather\"]",
+    "synonyms": "[\"full\", \"super\", \"goodness\", \"commodity\", \"trade good\"]",
+    "antonyms": "[\"evil\", \"evilness\", \"bad\"]",
+    "relatedWords": "{\"en\": [\"reputable\", \"beneficent\", \"respectable\", \"honorable\", \"worthy\"], \"ar\": [\"حسن\", \"جيّد\", \"ملائمٌ أو صالحٌ لِ\", \"كامل\", \"حقيقيّ\", \"محقَّق\"]}",
+    "arabicAr": "جيد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 203,
+    "wordEn": "find",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 203,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "faɪnd",
+    "phoneticAr": "فآيند",
+    "translit": "yajid / tajid",
+    "definitionEn": "[\"discover or perceive by chance or unexpectedly.\", \"recognize or discover to be present.\", \"reach or arrive at, either of its own accord or without the human agent being known.\"]",
+    "usageNote": "usually valuable",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this resort is a real find\", \"to find leisure to find means\", \"to find food for workmen\"], \"A2\": [\"Lindsey looked up to find Neil watching her\", \"I did psychotherapy for years—I wanted to find myself\"], \"B1\": [\"a forum that attempts to find solutions for multimedia publishers\", \"the majority of staff find the magazine to be informative and useful\", \"phobia sufferers often find themselves virtual prisoners in their own home\", \"in this climate it could be hard to find a buyer\"]}",
+    "collocations": "[\"to find leisure to find means\", \"to find food for workmen\", \"hard find\", \"find command\"]",
+    "synonyms": "[\"happen\", \"discover\", \"discovery\", \"uncovering\", \"breakthrough\"]",
+    "antonyms": "[\"lose\"]",
+    "relatedWords": "{\"en\": [\"happen\", \"chance\", \"encounter\", \"discover\", \"get\"], \"ar\": [\"لَقْطَة\", \"لَقِيّة\", \"اكتشاف\", \"اللُّقية\", \"لُقْيَة\", \"شيء نفيس يُكتَشَف\"]}",
+    "arabicAr": "يجد / يبحث",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 204,
+    "wordEn": "find",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 204,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "faɪnd",
+    "phoneticAr": "فآيند",
+    "translit": "yajid / tajid",
+    "definitionEn": "[\"discover or perceive by chance or unexpectedly.\", \"recognize or discover to be present.\", \"reach or arrive at, either of its own accord or without the human agent being known.\"]",
+    "usageNote": "usually valuable",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this resort is a real find\", \"to find leisure to find means\", \"to find food for workmen\"], \"A2\": [\"Lindsey looked up to find Neil watching her\", \"I did psychotherapy for years—I wanted to find myself\"], \"B1\": [\"a forum that attempts to find solutions for multimedia publishers\", \"the majority of staff find the magazine to be informative and useful\", \"phobia sufferers often find themselves virtual prisoners in their own home\", \"in this climate it could be hard to find a buyer\"]}",
+    "collocations": "[\"to find leisure to find means\", \"to find food for workmen\", \"hard find\", \"find command\"]",
+    "synonyms": "[\"happen\", \"discover\", \"discovery\", \"uncovering\", \"breakthrough\"]",
+    "antonyms": "[\"lose\"]",
+    "relatedWords": "{\"en\": [\"happen\", \"chance\", \"encounter\", \"discover\", \"get\"], \"ar\": [\"لَقْطَة\", \"لَقِيّة\", \"اكتشاف\", \"اللُّقية\", \"لُقْيَة\", \"شيء نفيس يُكتَشَف\"]}",
+    "arabicAr": "يجد / يبحث",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 205,
+    "wordEn": "man",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 205,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "mɛn",
+    "phoneticUk": "mæn",
+    "phoneticAr": "ماين",
+    "translit": "rajul",
+    "definitionEn": "[\"an adult male human being.\", \"a human being of either sex; a person.\", \"a group or person in a position of authority over others, such as a corporate employer or the police.\"]",
+    "usageNote": "often implying on the part of the speaker some degree of authority, impatience, or haste.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a Harvard man\", \"Cro-Magnon man\", \"every man for himself\", \"Hey, man, how's it goin'\"], \"A2\": [\"Inspector Bull was sure they would find their man\", \"I'm more of a man than you'll ever be\", \"a tall man with a beard entered the restaurant\", \"places untouched by the ravages of man\"], \"B1\": [\"the two of them lived for a time as man and wife\", \"a man could buy a lot with eighteen million dollars\"]}",
+    "collocations": "[\"every man for himself\", \"Stay away from my man\", \"Man the machine guns\", \"young man\", \"man hours\"]",
+    "synonyms": "[\"carl\", \"serviceman\", \"adult male\", \"military man\", \"military personnel\"]",
+    "antonyms": "[\"woman\", \"civilian\"]",
+    "relatedWords": "{\"en\": [\"mankind\", \"humanity\", \"humankind\", \"human race\", \"homo\"], \"ar\": [\"المَرْء\", \"امْرُؤ\", \"انْس\", \"انْسان\", \"انْسِيّ\", \"بَشَر\"]}",
+    "arabicAr": "رجل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 206,
+    "wordEn": "our",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 206,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "aʊr",
+    "phoneticUk": "ˈaʊə(r)",
+    "phoneticAr": "اور",
+    "translit": "malikna / lana",
+    "definitionEn": "[\"belonging to or associated with the speaker and one or more other people previously mentioned or easily identified.\", \"used by a writer, editor, or monarch to refer to something belonging to or associated with himself or herself.\", \"variant spelling of -or1 .\"]",
+    "usageNote": "Used to imply connection between the speaker's experiences or activities and a group of listeners.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"Jo and I had our hair cut\", \"we want to know what you, our readers, think\"]}",
+    "collocations": "[\"christ our\", \"our lady\"]",
+    "synonyms": "[\"nos\", \"nous\", \"well\", \"mutual\", \"heavenly\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"nous\", \"heavenly\", \"well\", \"nos\", \"mutual\"], \"ar\": [\"مِلْكنا\", \"خاصَّتُنا\", \"مِلْكُنا\", \"نا\", \"لنا\", \"خاصتنا\"]}",
+    "arabicAr": "ملكنا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 207,
+    "wordEn": "our",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 207,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "aʊr",
+    "phoneticUk": "ˈaʊə(r)",
+    "phoneticAr": "اور",
+    "translit": "malikna / lana",
+    "definitionEn": "[\"belonging to or associated with the speaker and one or more other people previously mentioned or easily identified.\", \"used by a writer, editor, or monarch to refer to something belonging to or associated with himself or herself.\", \"variant spelling of -or1 .\"]",
+    "usageNote": "Used to imply connection between the speaker's experiences or activities and a group of listeners.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"Jo and I had our hair cut\", \"we want to know what you, our readers, think\"]}",
+    "collocations": "[\"christ our\", \"our lady\"]",
+    "synonyms": "[\"nos\", \"nous\", \"well\", \"mutual\", \"heavenly\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"nous\", \"heavenly\", \"well\", \"nos\", \"mutual\"], \"ar\": [\"مِلْكنا\", \"خاصَّتُنا\", \"مِلْكُنا\", \"نا\", \"لنا\", \"خاصتنا\"]}",
+    "arabicAr": "ملكنا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 208,
+    "wordEn": "want",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 208,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɔnt",
+    "phoneticUk": "wɐnt",
+    "phoneticAr": "وأونت",
+    "translit": "yurid / turid",
+    "definitionEn": "[\"have a desire to possess or do ; wish for.\", \"ought, should, or need to do something.\", \"lack or be short of something desirable or essential.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"freedom from want\", \"I want an apple\"], \"A2\": [\"you don't want to believe everything you hear\", \"Victorian houses which are in want of repair\", \"we want to go to the beach\", \"it won't be through want of trying\"], \"B1\": [\"you shall want for nothing while you are with me\", \"I'll give you a lift into town if you want\"]}",
+    "collocations": "[\"great want\", \"want something\"]",
+    "synonyms": "[\"lack\", \"privation\", \"neediness\", \"deprivation\", \"have a yen for\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"desire\", \"wish\", \"wishing\", \"need\", \"require\"], \"ar\": [\"إفْتِقَار\", \"إقْتِضَاء\", \"بُؤْس\", \"حِرْمان\", \"شِدّة\", \"ضِيْق\"]}",
+    "arabicAr": "يريد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 209,
+    "wordEn": "want",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 209,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɔnt",
+    "phoneticUk": "wɐnt",
+    "phoneticAr": "وأونت",
+    "translit": "yurid / turid",
+    "definitionEn": "[\"have a desire to possess or do ; wish for.\", \"ought, should, or need to do something.\", \"lack or be short of something desirable or essential.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"freedom from want\", \"I want an apple\"], \"A2\": [\"you don't want to believe everything you hear\", \"Victorian houses which are in want of repair\", \"we want to go to the beach\", \"it won't be through want of trying\"], \"B1\": [\"you shall want for nothing while you are with me\", \"I'll give you a lift into town if you want\"]}",
+    "collocations": "[\"great want\", \"want something\"]",
+    "synonyms": "[\"lack\", \"privation\", \"neediness\", \"deprivation\", \"have a yen for\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"desire\", \"wish\", \"wishing\", \"need\", \"require\"], \"ar\": [\"إفْتِقَار\", \"إقْتِضَاء\", \"بُؤْس\", \"حِرْمان\", \"شِدّة\", \"ضِيْق\"]}",
+    "arabicAr": "يريد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 210,
+    "wordEn": "day",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 210,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "deɪ",
+    "phoneticAr": "داي",
+    "translit": "yawm",
+    "definitionEn": "[\"a period of twenty-four hours as a unit of time, reckoned from one midnight to the next, corresponding to a rotation of the earth on its axis.\", \"a particular period of the past; an era.\", \"The time of light, or interval between one night and the next\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"graduation day\", \"the political issues of the day\", \"the animals hunt by day\", \"he works an eight-hour day\", \"we'll leave the day after tomorrow\"], \"A2\": [\"he had been a matinée idol in his day\", \"she sleeps all day and goes out at night\"], \"B1\": [\"by the time they had all gone it was broad day\"]}",
+    "collocations": "[\"Christmas Day\", \"Remembrance Day\", \"next day\", \"day period\"]",
+    "synonyms": "[\"solar day\", \"24-hour interval\", \"twenty-four hours\", \"twenty-four-hour period\", \"twenty-four hour period\"]",
+    "antonyms": "[\"night\"]",
+    "relatedWords": "{\"en\": [\"daytime\", \"daylight\", \"mean solar day\", \"solar day\", \"sidereal day\"], \"ar\": [\"نَهَار\", \"نَهَارِيّ\", \"عهد\", \"فجر\", \"مباراة\", \"نهارًا\"]}",
+    "arabicAr": "يوم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 211,
+    "wordEn": "between",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 211,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈtwiːn",
+    "phoneticUk": "bɪˈtwi:n",
+    "phoneticAr": "بيتوين",
+    "translit": "bayn / ma bayn",
+    "syllabify": "be•tween",
+    "definitionEn": "[\"at, into, or across the space separating .\", \"in the period separating .\", \"in the interval separating .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"links between science and industry\", \"conversation between friends\"], \"A2\": [\"those who travel by train between London and Paris\", \"a man aged between 18 and 30\", \"between 25 and 40 percent off children's clothes\", \"sets of exercises with no rest in between\"], \"B1\": [\"a collision in midair between two light aircraft above Geneva\", \"from Leipzig to Dresden, with the gentle Elbe flowing between\", \"if you have to choose between two or three different options\"]}",
+    "collocations": "[\"conversation between friends\", \"comparison between\", \"between group\"]",
+    "synonyms": "[\"'tween\", \"betwixt\", \"connecting\", \"in the middle of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"betwixt\", \"inter\", \"walk\", \"walks\", \"falls\"], \"ar\": [\"بَيْن\", \"نادرٌ\", \"بين\", \"في ما بين\", \"ما بين\", \"في الوسط\"]}",
+    "arabicAr": "بين",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 212,
+    "wordEn": "between",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 212,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈtwiːn",
+    "phoneticUk": "bɪˈtwi:n",
+    "phoneticAr": "بيتوين",
+    "translit": "bayn / ma bayn",
+    "syllabify": "be•tween",
+    "definitionEn": "[\"at, into, or across the space separating .\", \"in the period separating .\", \"in the interval separating .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"links between science and industry\", \"conversation between friends\"], \"A2\": [\"those who travel by train between London and Paris\", \"a man aged between 18 and 30\", \"between 25 and 40 percent off children's clothes\", \"sets of exercises with no rest in between\"], \"B1\": [\"a collision in midair between two light aircraft above Geneva\", \"from Leipzig to Dresden, with the gentle Elbe flowing between\", \"if you have to choose between two or three different options\"]}",
+    "collocations": "[\"conversation between friends\", \"comparison between\", \"between group\"]",
+    "synonyms": "[\"'tween\", \"betwixt\", \"connecting\", \"in the middle of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"betwixt\", \"inter\", \"walk\", \"walks\", \"falls\"], \"ar\": [\"بَيْن\", \"نادرٌ\", \"بين\", \"في ما بين\", \"ما بين\", \"في الوسط\"]}",
+    "arabicAr": "بين",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 213,
+    "wordEn": "between",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 213,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈtwiːn",
+    "phoneticUk": "bɪˈtwi:n",
+    "phoneticAr": "بيتوين",
+    "translit": "bayn / ma bayn",
+    "syllabify": "be•tween",
+    "definitionEn": "[\"at, into, or across the space separating .\", \"in the period separating .\", \"in the interval separating .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"links between science and industry\", \"conversation between friends\"], \"A2\": [\"those who travel by train between London and Paris\", \"a man aged between 18 and 30\", \"between 25 and 40 percent off children's clothes\", \"sets of exercises with no rest in between\"], \"B1\": [\"a collision in midair between two light aircraft above Geneva\", \"from Leipzig to Dresden, with the gentle Elbe flowing between\", \"if you have to choose between two or three different options\"]}",
+    "collocations": "[\"conversation between friends\", \"comparison between\", \"between group\"]",
+    "synonyms": "[\"'tween\", \"betwixt\", \"connecting\", \"in the middle of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"betwixt\", \"inter\", \"walk\", \"walks\", \"falls\"], \"ar\": [\"بَيْن\", \"نادرٌ\", \"بين\", \"في ما بين\", \"ما بين\", \"في الوسط\"]}",
+    "arabicAr": "بين",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 214,
+    "wordEn": "even",
+    "pos": "adj",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 214,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈiːvən",
+    "phoneticUk": "ˈi:vən",
+    "phoneticAr": "يفان",
+    "translit": "hataa / hataa fi",
+    "definitionEn": "[\"equal in number, amount, or value.\", \"divisible by two without a remainder.\", \"relating to the Even or their language.\"]",
+    "usageNote": "used to imply an extreme example in the case mentioned).",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it's not an even fight\"], \"A2\": [\"they have never even heard of the US\", \"the Dow Jones ended at an even 10,000\", \"what is this whole thing even about?\", \"he knows even less about it than I do\", \"a man of good humor and even temper\", \"they traveled at an even and leisurely pace\"], \"B1\": [\"she cut the hair again to even up the ends\"]}",
+    "collocations": "[\"odd even\", \"even number\"]",
+    "synonyms": "[\"eve\", \"flush\", \"planar\", \"evening\", \"eventide\"]",
+    "antonyms": "[\"odd\", \"uneven\"]",
+    "relatedWords": "{\"en\": [\"even out\", \"tied\", \"equal\", \"yet\", \"true\"], \"ar\": [\"مستو\", \"سهل\", \"أملس\", \"متوازٍ مع\", \"متساو\", \"مطّرد\"]}",
+    "arabicAr": "حتى",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 215,
+    "wordEn": "even",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 215,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈiːvən",
+    "phoneticUk": "ˈi:vən",
+    "phoneticAr": "يفان",
+    "translit": "hataa / hataa fi",
+    "definitionEn": "[\"equal in number, amount, or value.\", \"divisible by two without a remainder.\", \"relating to the Even or their language.\"]",
+    "usageNote": "used to imply an extreme example in the case mentioned).",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it's not an even fight\"], \"A2\": [\"they have never even heard of the US\", \"the Dow Jones ended at an even 10,000\", \"what is this whole thing even about?\", \"he knows even less about it than I do\", \"a man of good humor and even temper\", \"they traveled at an even and leisurely pace\"], \"B1\": [\"she cut the hair again to even up the ends\"]}",
+    "collocations": "[\"odd even\", \"even number\"]",
+    "synonyms": "[\"eve\", \"flush\", \"planar\", \"evening\", \"eventide\"]",
+    "antonyms": "[\"odd\", \"uneven\"]",
+    "relatedWords": "{\"en\": [\"even out\", \"tied\", \"equal\", \"yet\", \"true\"], \"ar\": [\"مستو\", \"سهل\", \"أملس\", \"متوازٍ مع\", \"متساو\", \"مطّرد\"]}",
+    "arabicAr": "حتى",
+    "addedFromOxford": 1
+  }
+]

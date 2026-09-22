@@ -1,0 +1,2337 @@
+{
+  "wordEntries": [
+    {
+      "id": 6433,
+      "wordEn": "gathering",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈɡæðərɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "جَاذِرِينْج",
+      "translit": "Tajammuʿ / Jalsah",
+      "definitionEn": "A meeting of people for a specific purpose, or the act of coming together.",
+      "definitionAr": "لما ناس تتجمع مع بعض عشان مناسبة أو سبب معين، زي حفلة أو اجتماع عائلي.",
+      "usageNote": "Commonly used for social events (family gathering) or collecting things (gathering information).",
+      "category": "Social Life & Communication",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Social",
+        "#Meeting",
+        "#Events",
+        "#Community"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Gathering\" جاية من \"Gather\" يجمع.. تخيل \"Gathering\" يعني \"قعدة\" أو \"لمة\" ناس مع بعض.",
+      "examples": {
+        "A1": "We have a family gathering every Sunday.",
+        "A2": "There was a large gathering of students in the hall.",
+        "B1": "The gathering of information took longer than expected.",
+        "B2": "She avoided the social gathering to finish her work.",
+        "C1": "The political gathering attracted thousands of supporters.",
+        "C2": "The ominous gathering of storm clouds signaled approaching danger."
+      },
+      "collocations": [
+        "family gathering",
+        "social gathering",
+        "large gathering",
+        "gathering storm"
+      ],
+      "synonyms": [
+        "assembly",
+        "meeting",
+        "congregation",
+        "get-together"
+      ],
+      "antonyms": [
+        "dispersal",
+        "separation"
+      ],
+      "relatedWords": {
+        "en": [
+          "gather",
+          "together",
+          "crowd",
+          "group"
+        ],
+        "ar": [
+          "يجمع",
+          "معاً",
+          "حشد",
+          "مجموعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "gatherer",
+        "verb": "gather",
+        "adj": "gathered",
+        "adv": ""
+      },
+      "arabicAr": "تجمع / جلسة",
+      "frenchFr": "rassemblement",
+      "germanDe": "Versammlung",
+      "spanishEs": "reunión",
+      "chineseZh": "聚会 (Jùhuì)",
+      "russianRu": "собрание",
+      "portuguesePt": "reunião",
+      "japaneseJa": "集まり (Atsumari)",
+      "italianIt": "raduno",
+      "turkishTr": "toplantı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6434,
+      "wordEn": "boil",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "bɔɪl",
+      "phoneticUk": null,
+      "phoneticAr": "بُويْل",
+      "translit": "Ghalayan",
+      "definitionEn": "The state of a liquid bubbling up because it is very hot.",
+      "definitionAr": "حالة الغليان، لما الماية أو السائل يسخن جداً ويبدأ يطلع فقاقيع.",
+      "usageNote": "Often used in the phrase 'bring to a boil' (cooking). Can also refer to a painful skin swelling (medical).",
+      "category": "Food & Drink",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Cooking",
+        "#Heat",
+        "#Water",
+        "#Medical"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Boy\".. الولد \"Boy\" دمه بيغلي \"Boil\" بسرعة.",
+      "examples": {
+        "A1": "Bring the water to a boil.",
+        "A2": "The soup needs a quick boil before serving.",
+        "B1": "Keep the sauce on a gentle boil.",
+        "B2": "The dispute finally came to a boil.",
+        "C1": "He had a painful boil on his neck.",
+        "C2": "The political tension reached a boil after the announcement."
+      },
+      "collocations": [
+        "bring to a boil",
+        "rolling boil",
+        "on the boil"
+      ],
+      "synonyms": [
+        "ebullition",
+        "seething",
+        "furuncle"
+      ],
+      "antonyms": [
+        "freeze"
+      ],
+      "relatedWords": {
+        "en": [
+          "heat",
+          "steam",
+          "cook",
+          "bubble"
+        ],
+        "ar": [
+          "حرارة",
+          "بخار",
+          "يطبخ",
+          "فقاعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "boiler",
+        "verb": "boil",
+        "adj": "boiled",
+        "adv": "boilingly"
+      },
+      "arabicAr": "غليان",
+      "frenchFr": "ébullition",
+      "germanDe": "Kochen",
+      "spanishEs": "ebullición",
+      "chineseZh": "沸腾 (Fèiténg)",
+      "russianRu": "кипение",
+      "portuguesePt": "fervura",
+      "japaneseJa": "沸騰 (Futtō)",
+      "italianIt": "bollore",
+      "turkishTr": "kaynama",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6435,
+      "wordEn": "boil",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "bɔɪl",
+      "phoneticUk": null,
+      "phoneticAr": "بُويْل",
+      "translit": "Yaghli",
+      "definitionEn": "To heat a liquid until it bubbles and turns into steam.",
+      "definitionAr": "تغلي حاجة، يعني تسخن الماية أو الأكل لحد ما يطلع بخار وفقاقيع.",
+      "usageNote": "Used for cooking (boil eggs) or physics (water boils at 100°C).",
+      "category": "Food & Drink",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Cooking",
+        "#Kitchen",
+        "#Chemistry"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي الـ \"Oil\" الزيت.. ممكن تغليه \"Boil\" عشان تقلي فيه.",
+      "examples": {
+        "A1": "Please boil some water for tea.",
+        "A2": "I boil eggs for breakfast every day.",
+        "B1": "You should boil the vegetables for ten minutes.",
+        "B2": "The anger began to boil inside him.",
+        "C1": "The ocean seemed to boil during the storm.",
+        "C2": "The scandal made the entire country boil with indignation."
+      },
+      "collocations": [
+        "boil water",
+        "boil dry",
+        "boil over",
+        "hard boiled"
+      ],
+      "synonyms": [
+        "simmer",
+        "cook",
+        "bubble",
+        "stew"
+      ],
+      "antonyms": [
+        "freeze",
+        "cool"
+      ],
+      "relatedWords": {
+        "en": [
+          "steam",
+          "hot",
+          "kettle",
+          "stove"
+        ],
+        "ar": [
+          "بخار",
+          "ساخن",
+          "غلاية",
+          "موقد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "boil",
+        "verb": "boil",
+        "adj": "boiling",
+        "adv": ""
+      },
+      "arabicAr": "يغلي / يسلق",
+      "frenchFr": "bouillir",
+      "germanDe": "kochen",
+      "spanishEs": "hervir",
+      "chineseZh": "煮 (Zhǔ)",
+      "russianRu": "варить",
+      "portuguesePt": "ferver",
+      "japaneseJa": "茹でる (Yuderu)",
+      "italianIt": "bollire",
+      "turkishTr": "haşlamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6436,
+      "wordEn": "cleaner",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈkliːnər",
+      "phoneticUk": null,
+      "phoneticAr": "كْلِينَار",
+      "translit": "Amil nazafa / Munazzif",
+      "definitionEn": "A person whose job is to clean, or a substance used for cleaning.",
+      "definitionAr": "الشخص اللي شغلته التنظيف، أو المادة اللي بنستخدمها عشان ننظف بيها زي الصابون.",
+      "usageNote": "Can refer to a human (office cleaner) or a product (floor cleaner).",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Jobs",
+        "#Hygiene",
+        "#Household",
+        "#Tools"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Clean\" ينظف.. الـ \"Cleaner\" هو اللي بيخلي الدنيا \"Clean\".",
+      "examples": {
+        "A1": "The cleaner comes every morning.",
+        "A2": "I need to buy some window cleaner.",
+        "B1": "She works as a cleaner at the hospital.",
+        "B2": "This chemical is a powerful industrial cleaner.",
+        "C1": "The vacuum cleaner is broken.",
+        "C2": "They hired a specialist cleaner to restore the ancient tapestry."
+      },
+      "collocations": [
+        "vacuum cleaner",
+        "dry cleaner",
+        "window cleaner",
+        "office cleaner"
+      ],
+      "synonyms": [
+        "janitor",
+        "detergent",
+        "cleanser",
+        "custodian"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "clean",
+          "wash",
+          "scrub",
+          "dirt"
+        ],
+        "ar": [
+          "ينظف",
+          "يغسل",
+          "يفرك",
+          "قذارة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cleaning",
+        "verb": "clean",
+        "adj": "clean",
+        "adv": "cleanly"
+      },
+      "arabicAr": "عامل نظافة / منظف",
+      "frenchFr": "nettoyeur",
+      "germanDe": "Reiniger",
+      "spanishEs": "limpiador",
+      "chineseZh": "清洁工 (Qīngjiégōng)",
+      "russianRu": "уборщик",
+      "portuguesePt": "faxineiro",
+      "japaneseJa": "清掃員 (Seisōin)",
+      "italianIt": "addetto alle pulizie",
+      "turkishTr": "temizlikçi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6437,
+      "wordEn": "disagreement",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "9",
+      "phoneticUs": "ˌdɪsəˈɡriːmənt",
+      "phoneticUk": null,
+      "phoneticAr": "دِسْأَجْرِيمَنْت",
+      "translit": "Khilaf / Adam ittifaq",
+      "definitionEn": "A lack of consensus or approval; an argument or difference of opinion.",
+      "definitionAr": "لما الناس متكونش متفقة على حاجة، أو يحصل بينهم جدال واختلاف في الرأي.",
+      "usageNote": "More formal than 'fight'. Can be mild (difference of opinion) or serious (conflict).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Conflict",
+        "#Opinion",
+        "#Debate",
+        "#Relations"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Agreement\" اتفاق.. الـ \"Dis\" بتنفي المعنى، فبقت \"Disagreement\" يعني اختلاف.",
+      "examples": {
+        "A1": "We had a small disagreement.",
+        "A2": "There is disagreement about the rules.",
+        "B1": "They settled their disagreement peacefully.",
+        "B2": "The main area of disagreement was the budget.",
+        "C1": "Widespread disagreement persists regarding the new policy.",
+        "C2": "The profound disagreement between the philosophers shaped the era."
+      },
+      "collocations": [
+        "strong disagreement",
+        "major disagreement",
+        "express disagreement",
+        "settle a disagreement"
+      ],
+      "synonyms": [
+        "dispute",
+        "argument",
+        "conflict",
+        "dissent"
+      ],
+      "antonyms": [
+        "agreement",
+        "consensus",
+        "accord"
+      ],
+      "relatedWords": {
+        "en": [
+          "disagree",
+          "argue",
+          "oppose",
+          "clash"
+        ],
+        "ar": [
+          "يختلف",
+          "يجادل",
+          "يعارض",
+          "يتصادم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "disagreement",
+        "verb": "disagree",
+        "adj": "disagreeable",
+        "adv": "disagreeably"
+      },
+      "arabicAr": "خلاف / عدم اتفاق",
+      "frenchFr": "désaccord",
+      "germanDe": "Meinungsverschiedenheit",
+      "spanishEs": "desacuerdo",
+      "chineseZh": "分歧 (Fēnqí)",
+      "russianRu": "разногласие",
+      "portuguesePt": "desacordo",
+      "japaneseJa": "不一致 (Fuitchi)",
+      "italianIt": "disaccordo",
+      "turkishTr": "anlaşmazlık",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6438,
+      "wordEn": "subjective",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "səbˈdʒɛktɪv",
+      "phoneticUk": null,
+      "phoneticAr": "سَبْجِكْتِيف",
+      "translit": "Shakhsi / Ghayr mawdu'i",
+      "definitionEn": "Based on personal feelings, tastes, or opinions rather than facts.",
+      "definitionAr": "حاجة بتعتمد على رأي الشخص ومشاعره هو، مش على حقائق ثابتة. يعني رأيي غير رأيك.",
+      "usageNote": "Opposite of 'objective'. Use it when talking about art, taste, or opinions.",
+      "category": "Mind & Thinking",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Opinion",
+        "#Philosophy",
+        "#Perspective",
+        "#Bias"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "جاية من \"Subject\" يعني فاعل/شخص.. فالموضوع \"Subjective\" يعني راجع للشخص نفسه وتفكيره مش للحقيقة المجردة.",
+      "examples": {
+        "A1": "Her taste in music is subjective.",
+        "A2": "Beauty is a subjective thing.",
+        "B1": "Grading art is often very subjective.",
+        "B2": "This is a subjective opinion, not a fact.",
+        "C1": "The interpretation of the law can be highly subjective.",
+        "C2": "Phenomenology focuses on the subjective experience of consciousness."
+      },
+      "collocations": [
+        "subjective opinion",
+        "highly subjective",
+        "subjective experience",
+        "subjective judgment"
+      ],
+      "synonyms": [
+        "personal",
+        "biased",
+        "individual",
+        "idiosyncratic"
+      ],
+      "antonyms": [
+        "objective",
+        "impartial",
+        "factual"
+      ],
+      "relatedWords": {
+        "en": [
+          "subject",
+          "opinion",
+          "bias",
+          "viewpoint"
+        ],
+        "ar": [
+          "موضوع",
+          "رأي",
+          "تحيز",
+          "وجهة نظر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "subjectivity",
+        "verb": "",
+        "adj": "subjective",
+        "adv": "subjectively"
+      },
+      "arabicAr": "شخصي / غير موضوعي",
+      "frenchFr": "subjectif",
+      "germanDe": "subjektiv",
+      "spanishEs": "subjetivo",
+      "chineseZh": "主观 (Zhǔguān)",
+      "russianRu": "субъективный",
+      "portuguesePt": "subjetivo",
+      "japaneseJa": "主観的 (Shukanteki)",
+      "italianIt": "soggettivo",
+      "turkishTr": "öznel",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6439,
+      "wordEn": "civilian",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "sɪˈvɪljən",
+      "phoneticUk": null,
+      "phoneticAr": "سِفِيلْيَان",
+      "translit": "Madani",
+      "definitionEn": "Relating to people who are not members of the armed forces or police.",
+      "definitionAr": "أي حاجة ليها علاقة بالناس العاديين اللي مش في الجيش ولا الشرطة.",
+      "usageNote": "Used to distinguish ordinary people/clothes from military ones.",
+      "category": "Politics & Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Society",
+        "#Military",
+        "#Law",
+        "#Status"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Civil\" يعني مدني أو متحضر.. الـ \"Civilian\" هو الشخص المدني.",
+      "examples": {
+        "A1": "He is a civilian now.",
+        "A2": "She wears civilian clothes.",
+        "B1": "The war affected many civilian areas.",
+        "B2": "It is hard to return to civilian life after the army.",
+        "C1": "The government must protect the civilian population.",
+        "C2": "International law strictly prohibits targeting civilian infrastructure."
+      },
+      "collocations": [
+        "civilian clothes",
+        "civilian life",
+        "civilian population",
+        "civilian casualties"
+      ],
+      "synonyms": [
+        "non-military",
+        "private",
+        "citizen"
+      ],
+      "antonyms": [
+        "military"
+      ],
+      "relatedWords": {
+        "en": [
+          "civil",
+          "citizen",
+          "army",
+          "public"
+        ],
+        "ar": [
+          "مدني",
+          "مواطن",
+          "جيش",
+          "عام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "civilian",
+        "verb": "",
+        "adj": "civilian",
+        "adv": ""
+      },
+      "arabicAr": "مدني",
+      "frenchFr": "civil",
+      "germanDe": "zivil",
+      "spanishEs": "civil",
+      "chineseZh": "平民的 (Píngmín de)",
+      "russianRu": "гражданский",
+      "portuguesePt": "civil",
+      "japaneseJa": "民間の (Minkan no)",
+      "italianIt": "civile",
+      "turkishTr": "sivil",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6440,
+      "wordEn": "civilian",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "sɪˈvɪljən",
+      "phoneticUk": null,
+      "phoneticAr": "سِفِيلْيَان",
+      "translit": "Madani / Muwatin",
+      "definitionEn": "A person who is not in the armed services or the police force.",
+      "definitionAr": "الشخص المدني اللي مش عسكري ولا ظابط شرطة.",
+      "usageNote": "Usually contrasted with 'soldier' or 'officer'.",
+      "category": "Politics & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#People",
+        "#Society",
+        "#Status",
+        "#War"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة الصفة.. \"Civil\" مدني، فالـ \"Civilian\" هو المواطن المدني.",
+      "examples": {
+        "A1": "He is not a soldier, he is a civilian.",
+        "A2": "Civilians were asked to leave the area.",
+        "B1": "The bomb injured three civilians.",
+        "B2": "Police officers must protect civilians.",
+        "C1": "The target was wrongly identified as a military base, but it was full of civilians.",
+        "C2": "Under the Geneva Convention, the rights of civilians in war zones are paramount."
+      },
+      "collocations": [
+        "innocent civilian",
+        "unarmed civilian",
+        "kill civilians",
+        "protect civilians"
+      ],
+      "synonyms": [
+        "citizen",
+        "non-combatant",
+        "resident"
+      ],
+      "antonyms": [
+        "soldier",
+        "serviceman",
+        "veteran"
+      ],
+      "relatedWords": {
+        "en": [
+          "society",
+          "peace",
+          "war",
+          "rights"
+        ],
+        "ar": [
+          "مجتمع",
+          "سلام",
+          "حرب",
+          "حقوق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "civilian",
+        "verb": "",
+        "adj": "civilian",
+        "adv": ""
+      },
+      "arabicAr": "مدني",
+      "frenchFr": "civil",
+      "germanDe": "Zivilist",
+      "spanishEs": "civil",
+      "chineseZh": "平民 (Píngmín)",
+      "russianRu": "гражданское лицо",
+      "portuguesePt": "civil",
+      "japaneseJa": "一般市民 (Ippanshimin)",
+      "italianIt": "civile",
+      "turkishTr": "sivil",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6441,
+      "wordEn": "scent",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "sɛnt",
+      "phoneticUk": "sɛnt",
+      "phoneticAr": "سِنْت",
+      "translit": "Ra'iha / Atr",
+      "definitionEn": "A distinctive smell, especially one that is pleasant.",
+      "definitionAr": "ريحة مميزة، وغالباً بتكون ريحة حلوة زي ريحة الورد أو العطر.",
+      "usageNote": "More pleasant than 'smell' or 'odor'. Can also mean the trail animals follow.",
+      "category": "Health & Senses",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Smell",
+        "#Perfume",
+        "#Nature",
+        "#Senses"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Scent\" قريبة من \"Sent\" يعني أرسل.. الرائحة بتتبعت وتنتشر في الهوا.",
+      "examples": {
+        "A1": "The flower has a nice scent.",
+        "A2": "I love the scent of vanilla.",
+        "B1": "The dog followed the scent of the rabbit.",
+        "B2": "This candle has a strong lemon scent.",
+        "C1": "The air was filled with the heady scent of jasmine.",
+        "C2": "Predators use the scent trail to track their prey over long distances."
+      },
+      "collocations": [
+        "sweet scent",
+        "follow the scent",
+        "pick up a scent",
+        "scent of danger"
+      ],
+      "synonyms": [
+        "aroma",
+        "fragrance",
+        "perfume",
+        "smell"
+      ],
+      "antonyms": [
+        "stench",
+        "stink"
+      ],
+      "relatedWords": {
+        "en": [
+          "smell",
+          "nose",
+          "sniff",
+          "odor"
+        ],
+        "ar": [
+          "يشم",
+          "أنف",
+          "يستنشق",
+          "رائحة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scent",
+        "verb": "scent",
+        "adj": "scented",
+        "adv": ""
+      },
+      "arabicAr": "رائحة / عطر",
+      "frenchFr": "parfum",
+      "germanDe": "Duft",
+      "spanishEs": "aroma",
+      "chineseZh": "气味 (Qìwèi)",
+      "russianRu": "аромат",
+      "portuguesePt": "aroma",
+      "japaneseJa": "香り (Kaori)",
+      "italianIt": "profumo",
+      "turkishTr": "koku",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6442,
+      "wordEn": "static",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈstætɪk",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَاتِيك",
+      "translit": "Thabit / Sakin",
+      "definitionEn": "Lacking in movement, action, or change; stationary.",
+      "definitionAr": "حاجة ثابتة مكانها مش بتتحرك ولا بتتغير، أو شحنة كهربائية ساكنة.",
+      "usageNote": "Can refer to objects not moving, or 'static electricity'.",
+      "category": "Science & Technology",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Physics",
+        "#Movement",
+        "#Electricity",
+        "#Stability"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Static\" زي \"Stay\".. حاجة بتفضل مكانها ومش بتتحرك.",
+      "examples": {
+        "A1": "The car remained static.",
+        "A2": "The image on the screen is static.",
+        "B1": "Static electricity makes my hair stand up.",
+        "B2": "House prices have remained static for months.",
+        "C1": "The website content is static and rarely updated.",
+        "C2": "A static interpretation of the constitution ignores modern context."
+      },
+      "collocations": [
+        "static electricity",
+        "remain static",
+        "static IP",
+        "static friction"
+      ],
+      "synonyms": [
+        "stationary",
+        "fixed",
+        "immobile",
+        "unchanging"
+      ],
+      "antonyms": [
+        "dynamic",
+        "variable",
+        "moving"
+      ],
+      "relatedWords": {
+        "en": [
+          "station",
+          "stay",
+          "stand",
+          "status"
+        ],
+        "ar": [
+          "محطة",
+          "بقاء",
+          "قف",
+          "حالة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "statics",
+        "verb": "",
+        "adj": "static",
+        "adv": "statically"
+      },
+      "arabicAr": "ثابت / جامد",
+      "frenchFr": "statique",
+      "germanDe": "statisch",
+      "spanishEs": "estático",
+      "chineseZh": "静止的 (Jìngzhǐ de)",
+      "russianRu": "статичный",
+      "portuguesePt": "estático",
+      "japaneseJa": "静的な (Seitekina)",
+      "italianIt": "statico",
+      "turkishTr": "statik",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6443,
+      "wordEn": "abruptly",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈbrʌptli",
+      "phoneticUk": "əˈbrʌptli",
+      "phoneticAr": "أَبْرَابْتْلِي",
+      "translit": "Faj'atan",
+      "definitionEn": "Suddenly and unexpectedly, often in a rude or unpleasant way.",
+      "definitionAr": "فجأة ومن غير مقدمات، وساعات بتدي معنى إن الشخص قطع الكلام بشكل مش ظريف.",
+      "usageNote": "Describes actions that stop or change suddenly (stopped abruptly).",
+      "category": "Time & Frequency",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Time",
+        "#Surprise",
+        "#Manner",
+        "#Change"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Interrupt\".. لما حاجة تحصل \"Abruptly\" بتقطع الهدوء فجأة وبتعمل صدمة.",
+      "examples": {
+        "A1": "The car stopped abruptly.",
+        "A2": "He left the room abruptly.",
+        "B1": "The music ended abruptly.",
+        "B2": "She turned abruptly and walked away.",
+        "C1": "The meeting was abruptly cancelled due to the emergency.",
+        "C2": "His career ended abruptly after the scandal broke."
+      },
+      "collocations": [
+        "stop abruptly",
+        "end abruptly",
+        "turn abruptly",
+        "leave abruptly"
+      ],
+      "synonyms": [
+        "suddenly",
+        "unexpectedly",
+        "sharply",
+        "curtly"
+      ],
+      "antonyms": [
+        "gradually",
+        "slowly",
+        "gently"
+      ],
+      "relatedWords": {
+        "en": [
+          "abrupt",
+          "sudden",
+          "quick",
+          "short"
+        ],
+        "ar": [
+          "مفاجئ",
+          "سريع",
+          "قصير",
+          "بغتة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "abruptness",
+        "verb": "",
+        "adj": "abrupt",
+        "adv": "abruptly"
+      },
+      "arabicAr": "فجأة",
+      "frenchFr": "brusquement",
+      "germanDe": "abrupt",
+      "spanishEs": "abruptamente",
+      "chineseZh": "突然地 (Tūrán de)",
+      "russianRu": "резко",
+      "portuguesePt": "abruptamente",
+      "japaneseJa": "突然 (Totsuzen)",
+      "italianIt": "bruscamente",
+      "turkishTr": "aniden",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6444,
+      "wordEn": "monk",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "mʌŋk",
+      "phoneticUk": null,
+      "phoneticAr": "مَانْك",
+      "translit": "Rahib",
+      "definitionEn": "A member of a religious community of men typically living under vows of poverty.",
+      "definitionAr": "الراهب، راجل كرس حياته للدين وعايش في دير بعيد عن الناس.",
+      "usageNote": "Female equivalent is 'nun'. Lives in a 'monastery'.",
+      "category": "Religion & Belief",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Religion",
+        "#Spirituality",
+        "#History",
+        "#Lifestyle"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Monk\" دايماً عايش في مكان هادي اسمه \"Monastery\" (دير).",
+      "examples": {
+        "A1": "The monk prays every day.",
+        "A2": "He lives like a monk.",
+        "B1": "The monks make their own food.",
+        "B2": "We visited an ancient monastery where monks still live.",
+        "C1": "The Buddhist monk meditated for hours in silence.",
+        "C2": "He renounced his worldly possessions to become a monk."
+      },
+      "collocations": [
+        "Buddhist monk",
+        "Shaolin monk",
+        "monk's robe",
+        "live like a monk"
+      ],
+      "synonyms": [
+        "friar",
+        "brother",
+        "hermit",
+        "ascetic"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "nun",
+          "monastery",
+          "temple",
+          "vow"
+        ],
+        "ar": [
+          "راهبة",
+          "دير",
+          "معبد",
+          "نذر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "monk",
+        "verb": "",
+        "adj": "monastic",
+        "adv": ""
+      },
+      "arabicAr": "راهب",
+      "frenchFr": "moine",
+      "germanDe": "Mönch",
+      "spanishEs": "monje",
+      "chineseZh": "和尚 (Héshàng)",
+      "russianRu": "монах",
+      "portuguesePt": "monge",
+      "japaneseJa": "修道士 (Shūdōshi)",
+      "italianIt": "monaco",
+      "turkishTr": "keşiş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6445,
+      "wordEn": "despair",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "dɪˈspɛr",
+      "phoneticUk": "dɪˈspeə",
+      "phoneticAr": "دِسْبِير",
+      "translit": "Ya's",
+      "definitionEn": "The complete loss or absence of hope.",
+      "definitionAr": "اليأس التام، لما تحس إن مفيش أي أمل في الموضوع.",
+      "usageNote": "Stronger than 'sadness'. Often paired with 'gloom'.",
+      "category": "Emotions & Feelings",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Sadness",
+        "#Hope",
+        "#Feelings",
+        "#MentalHealth"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Despair\" قريبة من \"Disappear\".. كأن الأمل اختفى \"Disappeared\".",
+      "examples": {
+        "A1": "He felt despair.",
+        "A2": "Her face showed deep despair.",
+        "B1": "Don't give in to despair.",
+        "B2": "A cry of despair came from the crowd.",
+        "C1": "The unemployment figures filled the country with despair.",
+        "C2": "He sank into a pit of existential despair."
+      },
+      "collocations": [
+        "deep despair",
+        "utter despair",
+        "cry of despair",
+        "overcome with despair"
+      ],
+      "synonyms": [
+        "hopelessness",
+        "anguish",
+        "misery",
+        "desperation"
+      ],
+      "antonyms": [
+        "hope",
+        "optimism",
+        "joy"
+      ],
+      "relatedWords": {
+        "en": [
+          "desperate",
+          "sad",
+          "hopeless",
+          "gloom"
+        ],
+        "ar": [
+          "يائس",
+          "حزين",
+          "فقدان الأمل",
+          "كآبة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "despair",
+        "verb": "despair",
+        "adj": "despairing",
+        "adv": "despairingly"
+      },
+      "arabicAr": "يأس",
+      "frenchFr": "désespoir",
+      "germanDe": "Verzweiflung",
+      "spanishEs": "desesperación",
+      "chineseZh": "绝望 (Juéwàng)",
+      "russianRu": "отчаяние",
+      "portuguesePt": "desespero",
+      "japaneseJa": "絶望 (Zetsubō)",
+      "italianIt": "disperazione",
+      "turkishTr": "umutsuzluk",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6446,
+      "wordEn": "hammer",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈhæmər",
+      "phoneticUk": null,
+      "phoneticAr": "هَامَر",
+      "translit": "Mitraqa / Shakush",
+      "definitionEn": "A tool with a heavy metal head used for hitting nails or breaking things.",
+      "definitionAr": "الشاكوش أو المطرقة اللي بنستخدمها عشان ندق المسامير.",
+      "usageNote": "Used in DIY and construction.",
+      "category": "Objects & Tools",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Construction",
+        "#DIY",
+        "#Metal",
+        "#Work"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Hammer\" بيعمل صوت \"Ham\" \"Ham\" وهو بيخبط.",
+      "examples": {
+        "A1": "I need a hammer and nails.",
+        "A2": "He hit his thumb with the hammer.",
+        "B1": "Use the hammer to break the wood.",
+        "B2": "The judge banged his hammer on the desk.",
+        "C1": "They went at it hammer and tongs (argued fiercely).",
+        "C2": "The auctioneer brought the hammer down, selling the painting for millions."
+      },
+      "collocations": [
+        "sledge hammer",
+        "claw hammer",
+        "hammer and nails",
+        "under the hammer"
+      ],
+      "synonyms": [
+        "mallet",
+        "gavel",
+        "sledgehammer"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "nail",
+          "hit",
+          "tool",
+          "build"
+        ],
+        "ar": [
+          "مسمار",
+          "يضرب",
+          "أداة",
+          "يبني"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hammer",
+        "verb": "hammer",
+        "adj": "hammered",
+        "adv": ""
+      },
+      "arabicAr": "مطرقة",
+      "frenchFr": "marteau",
+      "germanDe": "Hammer",
+      "spanishEs": "martillo",
+      "chineseZh": "锤子 (Chuízi)",
+      "russianRu": "молоток",
+      "portuguesePt": "martelo",
+      "japaneseJa": "ハンマー (Hanmā)",
+      "italianIt": "martello",
+      "turkishTr": "çekiç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6447,
+      "wordEn": "keyboard",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈkiːbɔːrd",
+      "phoneticUk": null,
+      "phoneticAr": "كِيبُورْد",
+      "translit": "Lawhat mafatih",
+      "definitionEn": "A set of keys used to operate a computer or typewriter, or a musical instrument.",
+      "definitionAr": "لوحة المفاتيح اللي بتكتب بيها على الكمبيوتر، أو الآلة الموسيقية (الأورج).",
+      "usageNote": "Context usually tells if it's computer or music.",
+      "category": "Technology & Computing",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Computer",
+        "#Music",
+        "#Typing",
+        "#Hardware"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "مكونة من كلمتين: \"Key\" مفتاح و \"Board\" لوحة.. يعني لوحة المفاتيح.",
+      "examples": {
+        "A1": "I use a keyboard to type.",
+        "A2": "She plays the keyboard very well.",
+        "B1": "My computer keyboard is wireless.",
+        "B2": "He spilled coffee on his keyboard.",
+        "C1": "The pianist practiced scales on the keyboard for hours.",
+        "C2": "Ergonomic keyboards are designed to reduce strain on the wrists."
+      },
+      "collocations": [
+        "computer keyboard",
+        "play the keyboard",
+        "keyboard shortcuts",
+        "virtual keyboard"
+      ],
+      "synonyms": [
+        "keypad",
+        "synthesizer",
+        "piano"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "mouse",
+          "screen",
+          "type",
+          "key"
+        ],
+        "ar": [
+          "فأرة",
+          "شاشة",
+          "يكتب",
+          "مفتاح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "keyboard",
+        "verb": "keyboard",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لوحة المفاتيح",
+      "frenchFr": "clavier",
+      "germanDe": "Tastatur",
+      "spanishEs": "teclado",
+      "chineseZh": "键盘 (Jiànpán)",
+      "russianRu": "клавиатура",
+      "portuguesePt": "teclado",
+      "japaneseJa": "キーボード (Kībōdo)",
+      "italianIt": "tastiera",
+      "turkishTr": "klavye",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6448,
+      "wordEn": "cheerful",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈtʃɪrfəl",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِيرْفُل",
+      "translit": "Mubtahij / Bashush",
+      "definitionEn": "Noticeably happy and optimistic.",
+      "definitionAr": "شخص بشوش ومبتسم دايماً، أو حاجة بتجيب البهجة والسعادة.",
+      "usageNote": "Can describe a person (cheerful guy) or a place/thing (cheerful room).",
+      "category": "Emotions & Feelings",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Happiness",
+        "#Mood",
+        "#Personality",
+        "#Optimism"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Cheer\" يعني يشجع ويفرح.. فالشخص الـ \"Cheerful\" كأنه بيشجع الناس بابتسامته.",
+      "examples": {
+        "A1": "He is a cheerful boy.",
+        "A2": "She gave a cheerful smile.",
+        "B1": "The room was painted in cheerful colors.",
+        "B2": "Despite the rain, he remained cheerful.",
+        "C1": "Her cheerful disposition made her popular with everyone.",
+        "C2": "He maintained a facade of cheerful indifference throughout the ordeal."
+      },
+      "collocations": [
+        "cheerful smile",
+        "cheerful voice",
+        "cheerful personality",
+        "stay cheerful"
+      ],
+      "synonyms": [
+        "happy",
+        "jolly",
+        "optimistic",
+        "bright"
+      ],
+      "antonyms": [
+        "sad",
+        "gloomy",
+        "miserable",
+        "depressed"
+      ],
+      "relatedWords": {
+        "en": [
+          "cheer",
+          "cheers",
+          "joy",
+          "smile"
+        ],
+        "ar": [
+          "فرحة",
+          "هتاف",
+          "بهجة",
+          "ابتسامة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cheerfulness",
+        "verb": "cheer",
+        "adj": "cheerful",
+        "adv": "cheerfully"
+      },
+      "arabicAr": "مبتهج / بهيج",
+      "frenchFr": "joyeux",
+      "germanDe": "fröhlich",
+      "spanishEs": "alegre",
+      "chineseZh": "愉快的 (Yúkuài de)",
+      "russianRu": "весёлый",
+      "portuguesePt": "alegre",
+      "japaneseJa": "陽気な (Yōkina)",
+      "italianIt": "allegro",
+      "turkishTr": "neşeli",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6449,
+      "wordEn": "entail",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ɛnˈteɪl",
+      "phoneticUk": "ɪnˈteɪl",
+      "phoneticAr": "إِنْتَيْل",
+      "translit": "Yastalzim / Yatatalab",
+      "definitionEn": "To involve something as a necessary part or consequence.",
+      "definitionAr": "يستلزم أو يتطلب. يعني عشان تعمل حاجة، لازم ييجي وراها حاجات تانية كجزء منها.",
+      "usageNote": "Formal. Used when explaining consequences or requirements (e.g., 'the job entails travel').",
+      "category": "Logic & Reasoning",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Consequence",
+        "#Requirement",
+        "#Logic",
+        "#Work"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Entail\" فيها \"Tail\" ديل.. الحاجة دي بتجر وراها حاجات تانية (تستلزم) زي الديل.",
+      "examples": {
+        "A1": "This job entails hard work.",
+        "A2": "Driving entails responsibility.",
+        "B1": "Does the plan entail much cost?",
+        "B2": "The project entails a lot of research.",
+        "C1": "Changing the system would entail significant risks.",
+        "C2": "The restructuring will entail the redundancy of several employees."
+      },
+      "collocations": [
+        "entail risks",
+        "entail costs",
+        "entail consequences",
+        "entail work"
+      ],
+      "synonyms": [
+        "involve",
+        "require",
+        "necessitate",
+        "imply"
+      ],
+      "antonyms": [
+        "exclude",
+        "omit"
+      ],
+      "relatedWords": {
+        "en": [
+          "tail",
+          "result",
+          "cause",
+          "need"
+        ],
+        "ar": [
+          "ذيل",
+          "نتيجة",
+          "سبب",
+          "احتياج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "entailment",
+        "verb": "entail",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يستلزم / يتطلب",
+      "frenchFr": "entraîner",
+      "germanDe": "zur Folge haben",
+      "spanishEs": "implicar",
+      "chineseZh": "牵涉 (Qiānshè)",
+      "russianRu": "влечь за собой",
+      "portuguesePt": "acarretar",
+      "japaneseJa": "伴う (Tomonau)",
+      "italianIt": "comportare",
+      "turkishTr": "gerektirmek",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6450,
+      "wordEn": "yell",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "jɛl",
+      "phoneticUk": null,
+      "phoneticAr": "يِيل",
+      "translit": "Sarkha",
+      "definitionEn": "A loud, sharp cry of pain, surprise, or delight.",
+      "definitionAr": "صرخة عالية وحادة، ممكن تكون من الوجع أو المفاجأة أو حتى الفرحة.",
+      "usageNote": "Similar to 'shout' and 'scream' but often sharper.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Sound",
+        "#Voice",
+        "#Emotion",
+        "#Action"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Yell\" قريبة من \"Yellow\".. تخيل حد وشه اصفر \"Yellow\" وبيصرخ \"Yell\" من الخوف.",
+      "examples": {
+        "A1": "I heard a loud yell.",
+        "A2": "He gave a yell of pain.",
+        "B1": "She let out a yell when she saw the mouse.",
+        "B2": "His yell startled everyone in the room.",
+        "C1": "The crowd let out a collective yell of triumph.",
+        "C2": "The primal yell echoed through the canyon."
+      },
+      "collocations": [
+        "let out a yell",
+        "yell of pain",
+        "loud yell",
+        "give a yell"
+      ],
+      "synonyms": [
+        "shout",
+        "scream",
+        "cry",
+        "shriek"
+      ],
+      "antonyms": [
+        "whisper",
+        "murmur"
+      ],
+      "relatedWords": {
+        "en": [
+          "loud",
+          "voice",
+          "noise",
+          "scare"
+        ],
+        "ar": [
+          "عالي",
+          "صوت",
+          "ضوضاء",
+          "خوف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "yell",
+        "verb": "yell",
+        "adj": "yelling",
+        "adv": ""
+      },
+      "arabicAr": "صرخة",
+      "frenchFr": "cri",
+      "germanDe": "Schrei",
+      "spanishEs": "grito",
+      "chineseZh": "叫喊 (Jiàohǎn)",
+      "russianRu": "крик",
+      "portuguesePt": "grito",
+      "japaneseJa": "叫び声 (Sakebigoe)",
+      "italianIt": "urlo",
+      "turkishTr": "bağırma",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6451,
+      "wordEn": "yell",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "jɛl",
+      "phoneticUk": null,
+      "phoneticAr": "يِيل",
+      "translit": "Yasrukh / Yasih",
+      "definitionEn": "To shout in a loud, sharp way.",
+      "definitionAr": "يزعق أو يصرخ بصوت عالي جداً.",
+      "usageNote": "You yell AT someone (anger) or yell FOR help (urgency).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Sound",
+        "#Anger",
+        "#Communication",
+        "#Voice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "ممكن تربطها بـ \"Yalla\".. لما حد يزعق ويقولك \"Yalla\" بسرعة.",
+      "examples": {
+        "A1": "Don't yell at me.",
+        "A2": "She yelled for help.",
+        "B1": "The coach yelled instructions to the players.",
+        "B2": "He yelled out in pain when he fell.",
+        "C1": "They yelled abuse at the referee.",
+        "C2": "The protesters yelled slogans against the regime."
+      },
+      "collocations": [
+        "yell at someone",
+        "yell for help",
+        "yell out",
+        "stop yelling"
+      ],
+      "synonyms": [
+        "shout",
+        "scream",
+        "holler",
+        "bellow"
+      ],
+      "antonyms": [
+        "whisper",
+        "mumble"
+      ],
+      "relatedWords": {
+        "en": [
+          "angry",
+          "loud",
+          "call",
+          "voice"
+        ],
+        "ar": [
+          "غاضب",
+          "عالي",
+          "ينادي",
+          "صوت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "yell",
+        "verb": "yell",
+        "adj": "yelling",
+        "adv": ""
+      },
+      "arabicAr": "يصرخ / يصيح",
+      "frenchFr": "hurler",
+      "germanDe": "schreien",
+      "spanishEs": "gritar",
+      "chineseZh": "大叫 (Dàjiào)",
+      "russianRu": "кричать",
+      "portuguesePt": "gritar",
+      "japaneseJa": "怒鳴る (Donaru)",
+      "italianIt": "urlare",
+      "turkishTr": "bağırmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6452,
+      "wordEn": "habitat",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈhæbɪtæt",
+      "phoneticUk": null,
+      "phoneticAr": "هَابِيتَات",
+      "translit": "Mawtin / Bi'ah",
+      "definitionEn": "The natural home or environment of an animal, plant, or other organism.",
+      "definitionAr": "الموطن الطبيعي أو البيئة اللي بيعيش فيها الحيوان أو النبات.",
+      "usageNote": "Specific to biology/nature. Don't use for human houses (use 'home').",
+      "category": "Animals & Nature",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Nature",
+        "#Environment",
+        "#Biology",
+        "#Animals"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Habitat\" هو المكان اللي بتمارس فيه الـ \"Habit\" عاداتك الطبيعية.",
+      "examples": {
+        "A1": "Fish live in a water habitat.",
+        "A2": "The jungle is the habitat of monkeys.",
+        "B1": "We must protect the panda's natural habitat.",
+        "B2": "Pollution is destroying the habitat of many birds.",
+        "C1": "Loss of habitat is the main threat to this species.",
+        "C2": "The study focused on the micro-habitat of the rainforest floor."
+      },
+      "collocations": [
+        "natural habitat",
+        "loss of habitat",
+        "wildlife habitat",
+        "habitat destruction"
+      ],
+      "synonyms": [
+        "environment",
+        "home",
+        "territory",
+        "surroundings"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "inhabit",
+          "nature",
+          "animal",
+          "live"
+        ],
+        "ar": [
+          "يسكن",
+          "طبيعة",
+          "حيوان",
+          "يعيش"
+        ]
+      },
+      "wordFamily": {
+        "noun": "habitation",
+        "verb": "inhabit",
+        "adj": "habitable",
+        "adv": ""
+      },
+      "arabicAr": "موطن / بيئة",
+      "frenchFr": "habitat",
+      "germanDe": "Lebensraum",
+      "spanishEs": "hábitat",
+      "chineseZh": "栖息地 (Qīxīdì)",
+      "russianRu": "среда обитания",
+      "portuguesePt": "habitat",
+      "japaneseJa": "生息地 (Seisokuchi)",
+      "italianIt": "habitat",
+      "turkishTr": "yaşam alanı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6453,
+      "wordEn": "legally",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈliːɡəli",
+      "phoneticUk": null,
+      "phoneticAr": "لِيجَالِي",
+      "translit": "Qanuniyan",
+      "definitionEn": "In a way that conforms to or is permitted by the law.",
+      "definitionAr": "بشكل قانوني، يعني حاجة مسموح بيها حسب القانون.",
+      "usageNote": "Often used with 'binding', 'responsible', or 'permitted'.",
+      "category": "Law & Justice",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Law",
+        "#Rules",
+        "#Court",
+        "#Rights"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Legal\" قانوني.. \"Legally\" يعني بالقانون.",
+      "examples": {
+        "A1": "He is legally an adult.",
+        "A2": "You must park legally.",
+        "B1": "They are legally married.",
+        "B2": "The contract is legally binding.",
+        "C1": "The company is legally responsible for the damage.",
+        "C2": "He was legally exonerated from all charges."
+      },
+      "collocations": [
+        "legally binding",
+        "legally required",
+        "legally responsible",
+        "legally blind"
+      ],
+      "synonyms": [
+        "lawfully",
+        "legitimately",
+        "officially"
+      ],
+      "antonyms": [
+        "illegally",
+        "unlawfully"
+      ],
+      "relatedWords": {
+        "en": [
+          "legal",
+          "law",
+          "lawyer",
+          "court"
+        ],
+        "ar": [
+          "قانوني",
+          "قانون",
+          "محامي",
+          "محكمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "legality",
+        "verb": "legalize",
+        "adj": "legal",
+        "adv": "legally"
+      },
+      "arabicAr": "قانونيا",
+      "frenchFr": "légalement",
+      "germanDe": "legal",
+      "spanishEs": "legalmente",
+      "chineseZh": "合法地 (Héfǎ de)",
+      "russianRu": "законно",
+      "portuguesePt": "legalmente",
+      "japaneseJa": "法的に (Hōteki ni)",
+      "italianIt": "legalmente",
+      "turkishTr": "yasal olarak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6454,
+      "wordEn": "patience",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈpeɪʃəns",
+      "phoneticUk": null,
+      "phoneticAr": "بَيْشَانْس",
+      "translit": "Sabr",
+      "definitionEn": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry.",
+      "definitionAr": "الصبر، إنك تقدر تستحمل التأخير أو المشاكل من غير ما تتعصب.",
+      "usageNote": "We say 'have patience' or 'lose patience'.",
+      "category": "Emotions & Feelings",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Character",
+        "#Time",
+        "#Virtue",
+        "#Waiting"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Patience\" محتاجة \"Passion\" (شغف) عشان تقدر تستحمل وتكمل.",
+      "examples": {
+        "A1": "Have some patience.",
+        "A2": "Teaching requires patience.",
+        "B1": "I am losing my patience with you.",
+        "B2": "He showed great patience during the long wait.",
+        "C1": "Her patience wore thin after hours of delay.",
+        "C2": "Patience is a virtue often tested in times of crisis."
+      },
+      "collocations": [
+        "lose patience",
+        "have patience",
+        "run out of patience",
+        "infinite patience"
+      ],
+      "synonyms": [
+        "tolerance",
+        "forbearance",
+        "endurance",
+        "calmness"
+      ],
+      "antonyms": [
+        "impatience",
+        "agitation"
+      ],
+      "relatedWords": {
+        "en": [
+          "patient",
+          "wait",
+          "calm",
+          "tolerate"
+        ],
+        "ar": [
+          "صبور",
+          "ينتظر",
+          "هادئ",
+          "يتحمل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "patience",
+        "verb": "",
+        "adj": "patient",
+        "adv": "patiently"
+      },
+      "arabicAr": "صبر",
+      "frenchFr": "patience",
+      "germanDe": "Geduld",
+      "spanishEs": "paciencia",
+      "chineseZh": "耐心 (Nàixīn)",
+      "russianRu": "терпение",
+      "portuguesePt": "paciência",
+      "japaneseJa": "忍耐 (Nintai)",
+      "italianIt": "pazienza",
+      "turkishTr": "sabır",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6455,
+      "wordEn": "reconstruction",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "10",
+      "phoneticUs": "ˌrikənˈstrʌkʃən",
+      "phoneticUk": "ˌriːkənˈstrʌkʃən",
+      "phoneticAr": "رِيكُونْسْتْرَاكْشَان",
+      "translit": "I'adat i'mar / I'adat bina'",
+      "definitionEn": "The action or process of building something again after it has been damaged or destroyed.",
+      "definitionAr": "إعادة الإعمار أو البناء، لما نبني حاجة تاني بعد ما اتهدمت.",
+      "usageNote": "Used for buildings, economies, or crime scenes (reconstruction of the crime).",
+      "category": "Buildings & Places",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Building",
+        "#History",
+        "#Recovery",
+        "#Crime"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "الـ \"Construction\" هو البناء.. والـ \"Re\" يعني إعادة.. يبقى \"Reconstruction\" إعادة البناء.",
+      "examples": {
+        "A1": "The reconstruction started yesterday.",
+        "A2": "The bridge needs reconstruction.",
+        "B1": "Reconstruction of the city will take years.",
+        "B2": "They did a reconstruction of the accident.",
+        "C1": "Post-war reconstruction is a slow process.",
+        "C2": "The historical reconstruction of the ancient text required immense scholarship."
+      },
+      "collocations": [
+        "post-war reconstruction",
+        "reconstruction costs",
+        "facial reconstruction",
+        "under reconstruction"
+      ],
+      "synonyms": [
+        "rebuilding",
+        "restoration",
+        "renovation",
+        "recreation"
+      ],
+      "antonyms": [
+        "destruction",
+        "demolition"
+      ],
+      "relatedWords": {
+        "en": [
+          "construct",
+          "build",
+          "structure",
+          "repair"
+        ],
+        "ar": [
+          "يبني",
+          "بناء",
+          "هيكل",
+          "يصلح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "reconstruction",
+        "verb": "reconstruct",
+        "adj": "reconstructive",
+        "adv": ""
+      },
+      "arabicAr": "إعادة إعمار / إعادة بناء",
+      "frenchFr": "reconstruction",
+      "germanDe": "Wiederaufbau",
+      "spanishEs": "reconstrucción",
+      "chineseZh": "重建 (Chóngjiàn)",
+      "russianRu": "реконструкция",
+      "portuguesePt": "reconstrução",
+      "japaneseJa": "復興 (Fukkō)",
+      "italianIt": "ricostruzione",
+      "turkishTr": "yeniden inşa",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6456,
+      "wordEn": "queue",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "kju",
+      "phoneticUk": "kjuː",
+      "phoneticAr": "كْيُو",
+      "translit": "Tabur",
+      "definitionEn": "A line of people or vehicles waiting for something.",
+      "definitionAr": "طابور ناس أو عربيات واقفين مستنيين دورهم.",
+      "usageNote": "Mainly British English. Americans say 'line'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Waiting",
+        "#Line",
+        "#People",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "حرف الـ \"Q\" شكله زي واحد واقف في طابور وراسه مدورة.",
+      "examples": {
+        "A1": "There is a long queue.",
+        "A2": "We waited in the queue for tickets.",
+        "B1": "Don't jump the queue.",
+        "B2": "The queue for the bus was huge.",
+        "C1": "We joined the queue at the end.",
+        "C2": "The chaotic queue management led to significant delays."
+      },
+      "collocations": [
+        "join the queue",
+        "jump the queue",
+        "long queue",
+        "wait in a queue"
+      ],
+      "synonyms": [
+        "line",
+        "row",
+        "file",
+        "procession"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "wait",
+          "line",
+          "order",
+          "ticket"
+        ],
+        "ar": [
+          "ينتظر",
+          "خط",
+          "نظام",
+          "تذكرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "queue",
+        "verb": "queue",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "طابور",
+      "frenchFr": "file d'attente",
+      "germanDe": "Warteschlange",
+      "spanishEs": "cola",
+      "chineseZh": "排队 (Páiduì)",
+      "russianRu": "очередь",
+      "portuguesePt": "fila",
+      "japaneseJa": "行列 (Gyōretsu)",
+      "italianIt": "coda",
+      "turkishTr": "kuyruk",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6457,
+      "wordEn": "queue",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "kju",
+      "phoneticUk": "kjuː",
+      "phoneticAr": "كْيُو",
+      "translit": "Yaqif fi tabur",
+      "definitionEn": "To wait in a line of people or vehicles.",
+      "definitionAr": "يقف في الطابور عشان يستنى دوره.",
+      "usageNote": "Often used with 'up' (queue up). US: 'line up'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Waiting",
+        "#Patience",
+        "#Order",
+        "#Crowd"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الاسم.. \"Queue\" يعني يقف في الطابور.",
+      "examples": {
+        "A1": "We queue for the bus.",
+        "A2": "People queued to buy bread.",
+        "B1": "We had to queue for an hour.",
+        "B2": "Fans queued up all night for tickets.",
+        "C1": "Cars were queuing for miles due to the accident.",
+        "C2": "Customers patiently queued outside the store before opening time."
+      },
+      "collocations": [
+        "queue up",
+        "queue for tickets",
+        "queue for hours",
+        "queue outside"
+      ],
+      "synonyms": [
+        "line up",
+        "wait",
+        "fall in"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "wait",
+          "line",
+          "stand",
+          "slow"
+        ],
+        "ar": [
+          "ينتظر",
+          "خط",
+          "يقف",
+          "بطيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "queue",
+        "verb": "queue",
+        "adj": "queued",
+        "adv": ""
+      },
+      "arabicAr": "يقف في طابور",
+      "frenchFr": "faire la queue",
+      "germanDe": "Schlange stehen",
+      "spanishEs": "hacer cola",
+      "chineseZh": "排队 (Páiduì)",
+      "russianRu": "стоять в очереди",
+      "portuguesePt": "ficar na fila",
+      "japaneseJa": "並ぶ (Narabu)",
+      "italianIt": "fare la coda",
+      "turkishTr": "kuyruğa girmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6458,
+      "wordEn": "given",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɡɪvən",
+      "phoneticUk": null,
+      "phoneticAr": "جِيفِن",
+      "translit": "Mu'ta / Nazaran li",
+      "definitionEn": "Specified, stated, or taking something into account.",
+      "definitionAr": "حاجة محددة (في وقت معين)، أو بمعنى 'نظراً لـ' لما نتكلم عن الأسباب.",
+      "usageNote": "Common structures: 'at a given time' (specific) or 'given the weather' (considering).",
+      "category": "Logic & Reasoning",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Time",
+        "#Logic",
+        "#Condition",
+        "#Reason"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Give\" يعطي.. يعني حاجة \"معطاة\" أو موجودة قدامنا كأمر واقع.",
+      "examples": {
+        "A1": "Given the choice, I'd stay.",
+        "A2": "At any given time, he is busy.",
+        "B1": "Given his age, he runs fast.",
+        "B2": "We have to finish within a given period.",
+        "C1": "Given the circumstances, we did well.",
+        "C2": "It is a given that prices will rise."
+      },
+      "collocations": [
+        "given time",
+        "given that",
+        "take for granted",
+        "given name"
+      ],
+      "synonyms": [
+        "specified",
+        "particular",
+        "considering",
+        "granted"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "give",
+          "consider",
+          "specific",
+          "fact"
+        ],
+        "ar": [
+          "يعطي",
+          "يعتبر",
+          "محدد",
+          "حقيقة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "giver",
+        "verb": "give",
+        "adj": "given",
+        "adv": ""
+      },
+      "arabicAr": "محدد / نظرا لـ",
+      "frenchFr": "donné",
+      "germanDe": "gegeben",
+      "spanishEs": "dado",
+      "chineseZh": "特定的 (Tèdìng de)",
+      "russianRu": "данный",
+      "portuguesePt": "dado",
+      "japaneseJa": "所定の (Shotei no)",
+      "italianIt": "dato",
+      "turkishTr": "belirli",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 6459,
+      "wordEn": "spectator",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈspɛkteɪtər",
+      "phoneticUk": "spekˈteɪtə",
+      "phoneticAr": "سْبِكْتَيْتَر",
+      "translit": "Mushahid / Mutafarrij",
+      "definitionEn": "A person who watches a show, game, or other event.",
+      "definitionAr": "المتفرج أو المشاهد اللي بيحضر ماتش أو عرض.",
+      "usageNote": "Unlike 'audience' (listening/theater), 'spectator' is mostly for sports or outdoor events.",
+      "category": "Sports & Hobbies",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Sports",
+        "#Events",
+        "#People",
+        "#Crowd"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Spectator\" بيلبس \"Spectacles\" (نضارة) عشان يشوف الماتش كويس.",
+      "examples": {
+        "A1": "He is a spectator.",
+        "A2": "The spectators cheered loudly.",
+        "B1": "Thousands of spectators filled the stadium.",
+        "B2": "The match attracted over 50,000 spectators.",
+        "C1": "He preferred being a spectator rather than a participant.",
+        "C2": "The safety of the spectators is the organizers' primary concern."
+      },
+      "collocations": [
+        "football spectator",
+        "spectator sport",
+        "cheering spectators",
+        "mere spectator"
+      ],
+      "synonyms": [
+        "watcher",
+        "onlooker",
+        "viewer",
+        "observer"
+      ],
+      "antonyms": [
+        "participant",
+        "player",
+        "performer"
+      ],
+      "relatedWords": {
+        "en": [
+          "watch",
+          "see",
+          "stadium",
+          "sport"
+        ],
+        "ar": [
+          "يشاهد",
+          "يرى",
+          "استاد",
+          "رياضة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "spectator",
+        "verb": "spectate",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مشاهد / متفرج",
+      "frenchFr": "spectateur",
+      "germanDe": "Zuschauer",
+      "spanishEs": "espectador",
+      "chineseZh": "观众 (Guānzhòng)",
+      "russianRu": "зритель",
+      "portuguesePt": "espectador",
+      "japaneseJa": "観客 (Kankyaku)",
+      "italianIt": "spettatore",
+      "turkishTr": "seyirci",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6460,
+      "wordEn": "purple",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈpɜrpəl",
+      "phoneticUk": "ˈpɜːpl",
+      "phoneticAr": "بِيرْبَل",
+      "translit": "Banafsaji / Urjuwani",
+      "definitionEn": "Having a color between red and blue.",
+      "definitionAr": "اللون البنفسجي أو الأرجواني، اللي هو خليط بين الأحمر والأزرق.",
+      "usageNote": "Common color word.",
+      "category": "Arts & Crafts",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Art",
+        "#Description",
+        "#Visual"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Purple\" قريبة من \"People\".. تخيل ناس \"People\" لونهم بنفسجي \"Purple\".",
+      "examples": {
+        "A1": "I have a purple bag.",
+        "A2": "She loves purple flowers.",
+        "B1": "The sky turned purple at sunset.",
+        "B2": "He wore a bright purple tie.",
+        "C1": "The prose was overly purple (elaborate).",
+        "C2": "The emperor was dressed in imperial purple robes."
+      },
+      "collocations": [
+        "dark purple",
+        "light purple",
+        "purple rain",
+        "purple heart"
+      ],
+      "synonyms": [
+        "violet",
+        "lavender",
+        "plum",
+        "lilac"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "color",
+          "red",
+          "blue",
+          "paint"
+        ],
+        "ar": [
+          "لون",
+          "أحمر",
+          "أزرق",
+          "دهان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "purple",
+        "verb": "",
+        "adj": "purple",
+        "adv": "purply"
+      },
+      "arabicAr": "أرجواني / بنفسجي",
+      "frenchFr": "violet",
+      "germanDe": "lila",
+      "spanishEs": "morado",
+      "chineseZh": "紫色的 (Zǐsè de)",
+      "russianRu": "фиолетовый",
+      "portuguesePt": "roxo",
+      "japaneseJa": "紫の (Murasaki no)",
+      "italianIt": "viola",
+      "turkishTr": "mor",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6461,
+      "wordEn": "purple",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈpɜrpəl",
+      "phoneticUk": "ˈpɜːpl",
+      "phoneticAr": "بِيرْبَل",
+      "translit": "Al-lawn al-banafsaji",
+      "definitionEn": "A color intermediate between red and blue.",
+      "definitionAr": "اللون البنفسجي نفسه.",
+      "usageNote": "Used when referring to the color as a noun.",
+      "category": "Arts & Crafts",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Art",
+        "#Visual",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الصفة.. \"Purple\" هو اللون البنفسجي.",
+      "examples": {
+        "A1": "Purple is my favorite color.",
+        "A2": "The painting uses a lot of purple.",
+        "B1": "Purple looks good on you.",
+        "B2": "She mixed red and blue to make purple.",
+        "C1": "The room was decorated in shades of purple.",
+        "C2": "In ancient Rome, purple was the color of royalty."
+      },
+      "collocations": [
+        "shades of purple",
+        "wear purple",
+        "deep purple",
+        "royal purple"
+      ],
+      "synonyms": [
+        "violet",
+        "lavender"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "color",
+          "rainbow",
+          "dye",
+          "shade"
+        ],
+        "ar": [
+          "لون",
+          "قوس قزح",
+          "صبغة",
+          "درجة لون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "purple",
+        "verb": "",
+        "adj": "purple",
+        "adv": ""
+      },
+      "arabicAr": "اللون البنفسجي",
+      "frenchFr": "violet",
+      "germanDe": "Lila",
+      "spanishEs": "morado",
+      "chineseZh": "紫色 (Zǐsè)",
+      "russianRu": "фиолетовый цвет",
+      "portuguesePt": "roxo",
+      "japaneseJa": "紫 (Murasaki)",
+      "italianIt": "viola",
+      "turkishTr": "mor",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6462,
+      "wordEn": "canvas",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈkænvəs",
+      "phoneticUk": "ˈkænvəs",
+      "phoneticAr": "كَانْفَاس",
+      "translit": "Qumash / Lawha",
+      "definitionEn": "A strong, coarse cloth used for sails, tents, or as a surface for painting.",
+      "definitionAr": "قماش قوي وخشن بيستخدموه في عمل الخيم والأشرعة، أو اللوحة القماش اللي الرسام بيرسم عليها.",
+      "usageNote": "Often associated with oil painting or camping (tents).",
+      "category": "Arts & Crafts",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Art",
+        "#Painting",
+        "#Material",
+        "#Fabric"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Canvas\" قريبة من \"Can\" (علبة).. تخيل علبة ألوان جنب لوحة الـ \"Canvas\".",
+      "examples": {
+        "A1": "He paints on canvas.",
+        "A2": "We slept in a canvas tent.",
+        "B1": "The artist bought a blank canvas.",
+        "B2": "She wears canvas shoes in summer.",
+        "C1": "The whole city was his canvas.",
+        "C2": "The sails were made of heavy-duty canvas to withstand the storm."
+      },
+      "collocations": [
+        "blank canvas",
+        "oil on canvas",
+        "canvas bag",
+        "canvas shoes"
+      ],
+      "synonyms": [
+        "fabric",
+        "cloth",
+        "material",
+        "tarp"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "paint",
+          "art",
+          "tent",
+          "sail"
+        ],
+        "ar": [
+          "يرسم",
+          "فن",
+          "خيمة",
+          "شراع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "canvas",
+        "verb": "canvas",
+        "adj": "canvas",
+        "adv": ""
+      },
+      "arabicAr": "قماش / لوحة رسم",
+      "frenchFr": "toile",
+      "germanDe": "Leinwand",
+      "spanishEs": "lienzo",
+      "chineseZh": "帆布 (Fānbù)",
+      "russianRu": "холст",
+      "portuguesePt": "lona",
+      "japaneseJa": "キャンバス (Kyanbasu)",
+      "italianIt": "tela",
+      "turkishTr": "tuval",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

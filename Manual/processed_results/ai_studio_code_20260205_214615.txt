@@ -1,0 +1,1885 @@
+{
+  "wordEntries": [
+    {
+      "id": 296,
+      "wordEn": "group",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɡɹuːp",
+      "phoneticUk": null,
+      "phoneticAr": "جْرُوب",
+      "translit": "Majmūʿah",
+      "definitionEn": "A number of people or things gathered or located together.",
+      "definitionAr": "مجموعة من الناس أو الحاجات موجودين مع بعض في مكان واحد أو ليهم صفات مشتركة.",
+      "usageNote": "Used for people, animals, or things. Can be small (friends) or large (organizations).",
+      "category": "Social Life & Communication",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Collection",
+        "#Team",
+        "#Social",
+        "#Organization"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Group\" تشبه \"Grapes\" \"عنب\".. العنب دايمًا بيجي في \"Group\" (عنقود/مجموعة) مع بعض.",
+      "examples": {
+        "A1": "I saw a group of children playing.",
+        "A2": "We work in a small group.",
+        "B1": "A group of tourists visited the museum.",
+        "B2": "The chemical group contains several rare elements.",
+        "C1": "The lobby group exerted pressure on the government.",
+        "C2": "This disparate group of individuals coalesced into a movement."
+      },
+      "collocations": [
+        "small group",
+        "age group",
+        "group discussion",
+        "support group"
+      ],
+      "synonyms": [
+        "cluster",
+        "collection",
+        "team",
+        "band",
+        "crowd"
+      ],
+      "antonyms": [
+        "individual",
+        "one"
+      ],
+      "relatedWords": {
+        "en": [
+          "team",
+          "crowd",
+          "gathering",
+          "member"
+        ],
+        "ar": [
+          "فريق",
+          "حشد",
+          "تجمع",
+          "عضو"
+        ]
+      },
+      "wordFamily": {
+        "noun": "group",
+        "verb": "group",
+        "adj": "grouped",
+        "adv": ""
+      },
+      "arabicAr": "مجموعة",
+      "frenchFr": "groupe",
+      "germanDe": "Gruppe",
+      "spanishEs": "grupo",
+      "chineseZh": "组 (Zǔ)",
+      "russianRu": "группа",
+      "portuguesePt": "grupo",
+      "japaneseJa": "グループ (Gurūpu)",
+      "italianIt": "gruppo",
+      "turkishTr": "grup",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 297,
+      "wordEn": "number",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈnʌmbə",
+      "phoneticUk": "ˈnʌmbə",
+      "phoneticAr": "نَمْبَر",
+      "translit": "Raqm / ʿAdad",
+      "definitionEn": "A word or symbol that represents an amount or quantity.",
+      "definitionAr": "الرقم أو العدد اللي بنستخدمه عشان نعد الحاجات أو نعرف كميتها.",
+      "usageNote": "Use 'number' for countable things (people, cars) and 'amount' for uncountable things (water, money).",
+      "category": "Science & Technology",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Math",
+        "#Counting",
+        "#Quantity",
+        "#Identification"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Number\" قريبة من \"Name\" \"اسم\".. كل لاعب كورة عنده \"Name\" وكمان \"Number\" مميز على ظهره.",
+      "examples": {
+        "A1": "What is your phone number?",
+        "A2": "I have a large number of books.",
+        "B1": "The number of students increased this year.",
+        "B2": "A significant number of people disagreed with the plan.",
+        "C1": "We need to crunch the numbers before deciding.",
+        "C2": "The sheer number of variables makes prediction impossible."
+      },
+      "collocations": [
+        "phone number",
+        "lucky number",
+        "serial number",
+        "large number"
+      ],
+      "synonyms": [
+        "figure",
+        "digit",
+        "quantity",
+        "numeral",
+        "integer"
+      ],
+      "antonyms": [
+        "letter"
+      ],
+      "relatedWords": {
+        "en": [
+          "count",
+          "calculate",
+          "math",
+          "digit"
+        ],
+        "ar": [
+          "يعد",
+          "يحسب",
+          "رياضيات",
+          "خانة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "number",
+        "verb": "number",
+        "adj": "numerical",
+        "adv": "numerically"
+      },
+      "arabicAr": "رقم / عدد",
+      "frenchFr": "nombre",
+      "germanDe": "Nummer",
+      "spanishEs": "número",
+      "chineseZh": "数字 (Shùzì)",
+      "russianRu": "номер",
+      "portuguesePt": "número",
+      "japaneseJa": "数 (Kazu)",
+      "italianIt": "numero",
+      "turkishTr": "numara",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 298,
+      "wordEn": "number",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈnʌmbə",
+      "phoneticUk": "ˈnʌmbə",
+      "phoneticAr": "نَمْبَر",
+      "translit": "Yaʿud / Yablugh",
+      "definitionEn": "To give a number to something or to amount to a specific total.",
+      "definitionAr": "إنك ترقم حاجات (تحط عليها أرقام) أو إن العدد الكلي يوصل لرقم معين.",
+      "usageNote": "Often used in the passive voice (e.g., 'The days are numbered').",
+      "category": "Actions & Processes",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Count",
+        "#Total",
+        "#List",
+        "#Organize"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الاسم \"Number\".. بس هنا فعل بمعنى تحط \"Numbers\" على الصفحات.",
+      "examples": {
+        "A1": "Please number the pages from one to ten.",
+        "A2": "The guests numbered more than fifty.",
+        "B1": "We numbered the boxes to keep track of them.",
+        "B2": "His days as the manager are numbered.",
+        "C1": "The crowd numbered in the thousands.",
+        "C2": "I count myself among those who number him as a friend."
+      },
+      "collocations": [
+        "days are numbered",
+        "number among",
+        "number the pages"
+      ],
+      "synonyms": [
+        "count",
+        "total",
+        "label",
+        "enumerate"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "count",
+          "tally",
+          "list",
+          "calculate"
+        ],
+        "ar": [
+          "يحصي",
+          "يسجل",
+          "قائمة",
+          "يحسب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "number",
+        "verb": "number",
+        "adj": "numbered",
+        "adv": ""
+      },
+      "arabicAr": "يُرَقِّم / يَبْلُغ عدده",
+      "frenchFr": "numéroter",
+      "germanDe": "nummerieren",
+      "spanishEs": "numerar",
+      "chineseZh": "编号 (Biānhào)",
+      "russianRu": "нумеровать",
+      "portuguesePt": "numerar",
+      "japaneseJa": "番号を付ける (Bangō o tsukeru)",
+      "italianIt": "numerare",
+      "turkishTr": "numaralamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 299,
+      "wordEn": "yes",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "jɛs",
+      "phoneticUk": null,
+      "phoneticAr": "يِس",
+      "translit": "Naʿam",
+      "definitionEn": "Used to give an affirmative response.",
+      "definitionAr": "الكلمة اللي بنقولها لما نوافق على حاجة أو نرد بالإيجاب.",
+      "usageNote": "The most common way to agree. More formal than 'yeah'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Agreement",
+        "#Response",
+        "#Positive",
+        "#Basics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Yes, I want coffee.",
+        "A2": "Do you like this color? Yes, I do.",
+        "B1": "He said yes to the invitation immediately.",
+        "B2": "We are hoping for a yes vote in the election.",
+        "C1": "It was a tentative yes, subject to conditions.",
+        "C2": "Responding with a categorical yes, she ended the debate."
+      },
+      "collocations": [
+        "say yes",
+        "yes or no",
+        "vote yes"
+      ],
+      "synonyms": [
+        "affirmative",
+        "agreed",
+        "certainly",
+        "indeed"
+      ],
+      "antonyms": [
+        "no"
+      ],
+      "relatedWords": {
+        "en": [
+          "agree",
+          "accept",
+          "confirm",
+          "okay"
+        ],
+        "ar": [
+          "يوافق",
+          "يقبل",
+          "يؤكد",
+          "حسنا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "yes",
+        "verb": "",
+        "adj": "",
+        "adv": "yes"
+      },
+      "arabicAr": "نعم",
+      "frenchFr": "oui",
+      "germanDe": "ja",
+      "spanishEs": "sí",
+      "chineseZh": "是 (Shì)",
+      "russianRu": "да",
+      "portuguesePt": "sim",
+      "japaneseJa": "はい (Hai)",
+      "italianIt": "sì",
+      "turkishTr": "evet",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 300,
+      "wordEn": "yes",
+      "pos": "excl",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "jɛs",
+      "phoneticUk": null,
+      "phoneticAr": "يِس",
+      "translit": "Naʿam / Yīs",
+      "definitionEn": "Used to express great pleasure, excitement, or triumph.",
+      "definitionAr": "صيحة بنقولها لما نفرح بحاجة أو ننتصر، زي لما فريقك يجيب جول.",
+      "usageNote": "Often accompanied by a fist pump gesture.",
+      "category": "Emotion & Feelings",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Excitement",
+        "#Victory",
+        "#Celebration",
+        "#Interjection"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "لما تكسب في اللعبة بتقول \"Yes!\" بصوت عالي عشان تعبر عن الفرحة.",
+      "examples": {
+        "A1": "Yes! We won the game!",
+        "A2": "Yes! I found my keys.",
+        "B1": "She shouted 'Yes!' when she saw the results.",
+        "B2": "Yes! That is exactly what I was looking for.",
+        "C1": "With a triumphant 'Yes!', he crossed the finish line.",
+        "C2": "The crowd erupted in a collective 'Yes!' as the goal was scored."
+      },
+      "collocations": [
+        "oh yes",
+        "yes!"
+      ],
+      "synonyms": [
+        "hooray",
+        "yay",
+        "woohoo"
+      ],
+      "antonyms": [
+        "oh no"
+      ],
+      "relatedWords": {
+        "en": [
+          "cheer",
+          "celebrate",
+          "triumph"
+        ],
+        "ar": [
+          "يهتف",
+          "يحتفل",
+          "انتصار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نعم! (للفرحة)",
+      "frenchFr": "ouais",
+      "germanDe": "jawohl",
+      "spanishEs": "¡sí!",
+      "chineseZh": "太棒了 (Tài bàng le)",
+      "russianRu": "есть!",
+      "portuguesePt": "isso!",
+      "japaneseJa": "やった (Yatta)",
+      "italianIt": "sì!",
+      "turkishTr": "oleyy",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 301,
+      "wordEn": "however",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "hɑʊˈɛvə",
+      "phoneticUk": "haʊˈevə",
+      "phoneticAr": "هَاوْإِڤَر",
+      "translit": "Lākin / Wa-maʿa dhālik",
+      "definitionEn": "Used to introduce a statement that contrasts with something just said.",
+      "definitionAr": "كلمة بنستخدمها عشان نقول حاجة عكس اللي لسه قايلينه، بمعنى 'لكن' أو 'ومع ذلك'.",
+      "usageNote": "More formal than 'but'. Usually followed by a comma when starting a sentence.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Contrast",
+        "#Transition",
+        "#Grammar",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قسمها: \"How\" \"كيف\" + \"Ever\" \"أبداً\".. مهما كان \"How\" الوضع، \"However\" (ومع ذلك) أنا موافق.",
+      "examples": {
+        "A1": "I like sun. However, I hate heat.",
+        "A2": "The food was good; however, it was expensive.",
+        "B1": "He studied hard. However, he did not pass the test.",
+        "B2": "We have not yet won; however, we shall try again.",
+        "C1": "The data is incomplete. However, we can observe a trend.",
+        "C2": "However viewed, the situation remains precarious and volatile."
+      },
+      "collocations": [
+        "however small",
+        "however hard"
+      ],
+      "synonyms": [
+        "but",
+        "nevertheless",
+        "yet",
+        "still",
+        "although"
+      ],
+      "antonyms": [
+        "furthermore",
+        "additionally"
+      ],
+      "relatedWords": {
+        "en": [
+          "although",
+          "despite",
+          "contrast",
+          "instead"
+        ],
+        "ar": [
+          "رغم",
+          "على الرغم من",
+          "تناقض",
+          "بدلا من"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "however"
+      },
+      "arabicAr": "لكن / ومع ذلك",
+      "frenchFr": "cependant",
+      "germanDe": "jedoch",
+      "spanishEs": "sin embargo",
+      "chineseZh": "然而 (Rán'ér)",
+      "russianRu": "однако",
+      "portuguesePt": "contudo",
+      "japaneseJa": "しかし (Shikashi)",
+      "italianIt": "tuttavia",
+      "turkishTr": "ancak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 302,
+      "wordEn": "another",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈnʌðə",
+      "phoneticUk": "əˈnʌðə",
+      "phoneticAr": "أَنَاذَر",
+      "translit": "Ākhar",
+      "definitionEn": "One more person or thing of the same type.",
+      "definitionAr": "واحد كمان من نفس النوع، أو حاجة تانية إضافية.",
+      "usageNote": "Combines 'an' + 'other'. Written as one word.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Addition",
+        "#Choice",
+        "#Alternative",
+        "#Quantity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها كلمة \"Other\" \"آخر\".. يعني واحد \"Other\" (تاني) زيادة.",
+      "examples": {
+        "A1": "I want another.",
+        "A2": "One left, another arrived.",
+        "B1": "I don't like this one, show me another.",
+        "B2": "He finished one project and started another.",
+        "C1": "One theory contradicts another.",
+        "C2": "To know one language is to know another."
+      },
+      "collocations": [
+        "one another",
+        "love one another"
+      ],
+      "synonyms": [
+        "one more",
+        "addition",
+        "alternative"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "other",
+          "extra",
+          "more",
+          "additional"
+        ],
+        "ar": [
+          "آخر",
+          "إضافي",
+          "مزيد",
+          "زائد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "another",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "آخر / واحد آخر",
+      "frenchFr": "un autre",
+      "germanDe": "ein anderer",
+      "spanishEs": "otro",
+      "chineseZh": "另一个 (Lìng yīgè)",
+      "russianRu": "другой",
+      "portuguesePt": "outro",
+      "japaneseJa": "もう一つ (Mō hitotsu)",
+      "italianIt": "un altro",
+      "turkishTr": "bir diğeri",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 303,
+      "wordEn": "another",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈnʌðə",
+      "phoneticUk": "əˈnʌðə",
+      "phoneticAr": "أَنَاذَر",
+      "translit": "Ākhar",
+      "definitionEn": "An additional person or thing; a different one.",
+      "definitionAr": "شخص تاني أو حاجة تانية مختلفة عن اللي موجود.",
+      "usageNote": "Used in place of a noun (e.g., 'I'll have another').",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Pronoun",
+        "#Substitute",
+        "#Addition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Please give me another.",
+        "A2": "That cup is dirty, take another.",
+        "B1": "They love one another.",
+        "B2": "One man's meat is another's poison.",
+        "C1": "Such a scandal is just another in a long series.",
+        "C2": "He is a fool, and his brother is another."
+      },
+      "collocations": [
+        "one another",
+        "another one"
+      ],
+      "synonyms": [
+        "someone else",
+        "something else"
+      ],
+      "antonyms": [
+        "same"
+      ],
+      "relatedWords": {
+        "en": [
+          "other",
+          "else",
+          "different"
+        ],
+        "ar": [
+          "غيره",
+          "مختلف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "آخر",
+      "frenchFr": "un autre",
+      "germanDe": "ein anderer",
+      "spanishEs": "otro",
+      "chineseZh": "另一个 (Lìng yīgè)",
+      "russianRu": "другой",
+      "portuguesePt": "outro",
+      "japaneseJa": "別の人 (Betsu no hito)",
+      "italianIt": "un altro",
+      "turkishTr": "başkası",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 304,
+      "wordEn": "another",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈnʌðə",
+      "phoneticUk": "əˈnʌðə",
+      "phoneticAr": "أَنَاذَر",
+      "translit": "Ākhar",
+      "definitionEn": "Used to refer to an additional person or thing of the same type.",
+      "definitionAr": "بنستخدمها قبل الاسم عشان نقول إننا عايزين واحد كمان منه.",
+      "usageNote": "Used with singular countable nouns (e.g., 'another apple').",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#Modification",
+        "#More"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I want another apple.",
+        "A2": "Can we meet another day?",
+        "B1": "There is another way to do this.",
+        "B2": "She has another reason for leaving.",
+        "C1": "This is yet another example of his incompetence.",
+        "C2": "Another factor to consider is the economic impact."
+      },
+      "collocations": [
+        "another time",
+        "another day",
+        "another thing"
+      ],
+      "synonyms": [
+        "additional",
+        "further",
+        "extra"
+      ],
+      "antonyms": [
+        "same"
+      ],
+      "relatedWords": {
+        "en": [
+          "more",
+          "new",
+          "fresh"
+        ],
+        "ar": [
+          "جديد",
+          "مزيد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "آخر",
+      "frenchFr": "un autre",
+      "germanDe": "ein weiterer",
+      "spanishEs": "otro",
+      "chineseZh": "另一个 (Lìng yīgè)",
+      "russianRu": "еще один",
+      "portuguesePt": "outro",
+      "japaneseJa": "別の (Betsu no)",
+      "italianIt": "un altro",
+      "turkishTr": "başka bir",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 305,
+      "wordEn": "again",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈɡɛn",
+      "phoneticUk": "əˈɡeɪn",
+      "phoneticAr": "أَگَيْن",
+      "translit": "Marrah ukhrā",
+      "definitionEn": "Another time; once more.",
+      "definitionAr": "مرة تانية، أو إنك تعمل الحاجة من جديد.",
+      "usageNote": "Often placed at the end of a sentence.",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Repetition",
+        "#Time",
+        "#Frequency",
+        "#Restart"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Again\" تشبه \"Gain\" \"يكسب\".. عشان تـ \"Gain\" (تكسب) لازم تحاول \"Again\" (تاني) وتاني.",
+      "examples": {
+        "A1": "Say it again, please.",
+        "A2": "I will never do it again.",
+        "B1": "He tried again and again.",
+        "B2": "We must start all over again.",
+        "C1": "Here we go again with the same old story.",
+        "C2": "The issue has surfaced again, demanding immediate attention."
+      },
+      "collocations": [
+        "once again",
+        "never again",
+        "try again",
+        "all over again"
+      ],
+      "synonyms": [
+        "once more",
+        "anew",
+        "repeatedly"
+      ],
+      "antonyms": [
+        "never"
+      ],
+      "relatedWords": {
+        "en": [
+          "repeat",
+          "restart",
+          "redo",
+          "return"
+        ],
+        "ar": [
+          "يكرر",
+          "يعيد",
+          "عودة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "again"
+      },
+      "arabicAr": "مرة أخرى",
+      "frenchFr": "encore",
+      "germanDe": "wieder",
+      "spanishEs": "otra vez",
+      "chineseZh": "再 (Zài)",
+      "russianRu": "снова",
+      "portuguesePt": "novamente",
+      "japaneseJa": "また (Mata)",
+      "italianIt": "ancora",
+      "turkishTr": "tekrar",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 306,
+      "wordEn": "world",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɝld",
+      "phoneticUk": "wɜːld",
+      "phoneticAr": "وُرْلْد",
+      "translit": "ʿĀlam",
+      "definitionEn": "The earth and all the people and things on it.",
+      "definitionAr": "كوكب الأرض وكل الناس والبلاد اللي عليه، أو الدنيا بحالها.",
+      "usageNote": "Often preceded by 'the'. Can refer to a specific sphere (e.g., 'the business world').",
+      "category": "Nature & Environment",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Earth",
+        "#Global",
+        "#Universe",
+        "#Society"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"World\" تشبه \"Word\" \"كلمة\".. في البدء كانت الـ \"Word\" وخلقت الـ \"World\".",
+      "examples": {
+        "A1": "He travels around the world.",
+        "A2": "It is the best pizza in the world.",
+        "B1": "The business world is very competitive.",
+        "B2": "She lives in a world of her own.",
+        "C1": "The news shook the political world.",
+        "C2": "This discovery will change our view of the natural world."
+      },
+      "collocations": [
+        "around the world",
+        "whole world",
+        "real world",
+        "world peace"
+      ],
+      "synonyms": [
+        "earth",
+        "globe",
+        "planet",
+        "universe"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "global",
+          "international",
+          "earth",
+          "planet"
+        ],
+        "ar": [
+          "عالمي",
+          "دولي",
+          "أرض",
+          "كوكب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "world",
+        "verb": "",
+        "adj": "worldly",
+        "adv": "worldwide"
+      },
+      "arabicAr": "عالم / العالم",
+      "frenchFr": "monde",
+      "germanDe": "Welt",
+      "spanishEs": "mundo",
+      "chineseZh": "世界 (Shìjiè)",
+      "russianRu": "мир",
+      "portuguesePt": "mundo",
+      "japaneseJa": "世界 (Sekai)",
+      "italianIt": "mondo",
+      "turkishTr": "dünya",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 307,
+      "wordEn": "area",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɛɹiə",
+      "phoneticUk": "ˈeəriə",
+      "phoneticAr": "إِرِيَا",
+      "translit": "Minṭaqah",
+      "definitionEn": "A part of a place, piece of land, or country.",
+      "definitionAr": "جزء محدد من مكان أو أرض، زي منطقة سكنية أو مساحة معينة.",
+      "usageNote": "Can be physical (land) or abstract (area of study).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Space",
+        "#Region",
+        "#Zone"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Area\" قريبة من \"Arena\" \"ساحة\".. الـ \"Arena\" هي \"Area\" كبيرة مخصصة للرياضة.",
+      "examples": {
+        "A1": "This is a play area for kids.",
+        "A2": "Do you live in this area?",
+        "B1": "The kitchen area is very small.",
+        "B2": "Mathematics is not my area of expertise.",
+        "C1": "The government declared it a disaster area.",
+        "C2": "There are grey areas in the law that need clarification."
+      },
+      "collocations": [
+        "rural area",
+        "area code",
+        "dining area",
+        "grey area"
+      ],
+      "synonyms": [
+        "region",
+        "zone",
+        "district",
+        "sector"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "zone",
+          "space",
+          "place",
+          "location"
+        ],
+        "ar": [
+          "نطاق",
+          "فضاء",
+          "مكان",
+          "موقع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "area",
+        "verb": "",
+        "adj": "areal",
+        "adv": ""
+      },
+      "arabicAr": "منطقة / المنطقة",
+      "frenchFr": "zone",
+      "germanDe": "Bereich",
+      "spanishEs": "área",
+      "chineseZh": "区域 (Qūyù)",
+      "russianRu": "область",
+      "portuguesePt": "área",
+      "japaneseJa": "地域 (Chiiki)",
+      "italianIt": "area",
+      "turkishTr": "alan",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 308,
+      "wordEn": "show",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ʃoʊ",
+      "phoneticUk": "ʃəʊ",
+      "phoneticAr": "شُو",
+      "translit": "ʿArḍ",
+      "definitionEn": "A spectacle or display, typically an impressive one.",
+      "definitionAr": "عرض أو برنامج بنشوفه، زي عرض مسرحي أو برنامج تلفزيوني.",
+      "usageNote": "Commonly refers to TV programs or theatrical performances.",
+      "category": "Arts & Media",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Entertainment",
+        "#TV",
+        "#Performance",
+        "#Display"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Show\" يعني \"شوف\".. وريني وخليني أـ \"Show\" (أشوف) العرض.",
+      "examples": {
+        "A1": "I watch a TV show.",
+        "A2": "The fashion show was great.",
+        "B1": "They put on a show for the children.",
+        "B2": "He runs the whole show around here.",
+        "C1": "It was all just for show; he didn't mean it.",
+        "C2": "The show of solidarity was impressive but hollow."
+      },
+      "collocations": [
+        "TV show",
+        "talk show",
+        "steal the show",
+        "on show"
+      ],
+      "synonyms": [
+        "performance",
+        "display",
+        "exhibition",
+        "program"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "perform",
+          "act",
+          "display",
+          "stage"
+        ],
+        "ar": [
+          "يؤدي",
+          "يمثل",
+          "يعرض",
+          "مسرح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "show",
+        "verb": "show",
+        "adj": "showy",
+        "adv": ""
+      },
+      "arabicAr": "عرض",
+      "frenchFr": "spectacle",
+      "germanDe": "Show",
+      "spanishEs": "espectáculo",
+      "chineseZh": "表演 (Biǎoyǎn)",
+      "russianRu": "шоу",
+      "portuguesePt": "show",
+      "japaneseJa": "ショー (Shō)",
+      "italianIt": "spettacolo",
+      "turkishTr": "gösteri",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 309,
+      "wordEn": "show",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ʃoʊ",
+      "phoneticUk": "ʃəʊ",
+      "phoneticAr": "شُو",
+      "translit": "Yaʿriḍ / Yuẓhir",
+      "definitionEn": "To allow something to be seen; to display.",
+      "definitionAr": "إنك توري حاجة لحد أو تخليها ظاهرة.",
+      "usageNote": "Can be physical (show a picture) or abstract (show respect).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Display",
+        "#Reveal",
+        "#Teach",
+        "#Demonstrate"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الاسم.. \"Show\" me يعني \"شوفـ\"ـفني (وريني).",
+      "examples": {
+        "A1": "Show me your hands.",
+        "A2": "Can you show me the way?",
+        "B1": "The map shows the road clearly.",
+        "B2": "He showed great courage in the fire.",
+        "C1": "The data shows a marked improvement.",
+        "C2": "Her face showed no sign of the turmoil within."
+      },
+      "collocations": [
+        "show respect",
+        "show off",
+        "show up",
+        "show the way"
+      ],
+      "synonyms": [
+        "display",
+        "reveal",
+        "demonstrate",
+        "exhibit"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "relatedWords": {
+        "en": [
+          "reveal",
+          "guide",
+          "teach",
+          "present"
+        ],
+        "ar": [
+          "يكشف",
+          "يرشد",
+          "يعلم",
+          "يقدم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "show",
+        "verb": "show",
+        "adj": "shown",
+        "adv": ""
+      },
+      "arabicAr": "يعرض / يظهر",
+      "frenchFr": "montrer",
+      "germanDe": "zeigen",
+      "spanishEs": "mostrar",
+      "chineseZh": "展示 (Zhǎnshì)",
+      "russianRu": "показывать",
+      "portuguesePt": "mostrar",
+      "japaneseJa": "見せる (Miseru)",
+      "italianIt": "mostrare",
+      "turkishTr": "göstermek",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 310,
+      "wordEn": "course",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kɔːɹs",
+      "phoneticUk": "kɔːs",
+      "phoneticAr": "كُورْس",
+      "translit": "Dawrah",
+      "definitionEn": "A series of lessons or lectures on a particular subject.",
+      "definitionAr": "سلسلة دروس أو محاضرات في موضوع معين، زي كورس إنجليزي.",
+      "usageNote": "Also refers to a direction (of a ship) or a part of a meal (main course).",
+      "category": "Education & Learning",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Education",
+        "#Direction",
+        "#Food",
+        "#Training"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Course\" زي \"Cars\".. الـ \"Cars\" بتمشي في \"Course\" (مسار) السباق.",
+      "examples": {
+        "A1": "I am taking an English course.",
+        "A2": "The main course was delicious.",
+        "B1": "The ship changed its course.",
+        "B2": "In the course of time, things will improve.",
+        "C1": "He is on a collision course with the management.",
+        "C2": "The river runs its natural course to the sea."
+      },
+      "collocations": [
+        "of course",
+        "main course",
+        "training course",
+        "change course"
+      ],
+      "synonyms": [
+        "class",
+        "program",
+        "route",
+        "path"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "lesson",
+          "class",
+          "route",
+          "track"
+        ],
+        "ar": [
+          "درس",
+          "فصل",
+          "طريق",
+          "مسار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "course",
+        "verb": "course",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "دورة",
+      "frenchFr": "cours",
+      "germanDe": "Kurs",
+      "spanishEs": "curso",
+      "chineseZh": "课程 (Kèchéng)",
+      "russianRu": "курс",
+      "portuguesePt": "curso",
+      "japaneseJa": "コース (Kōsu)",
+      "italianIt": "corso",
+      "turkishTr": "kurs",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 311,
+      "wordEn": "company",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈkʌmpəni",
+      "phoneticUk": "ˈkʌmpəni",
+      "phoneticAr": "كَمْبَنِي",
+      "translit": "Sharikah",
+      "definitionEn": "A commercial business.",
+      "definitionAr": "مؤسسة تجارية أو شركة بيشتغل فيها ناس عشان يكسبوا فلوس.",
+      "usageNote": "Also means 'being with others' (e.g., 'I enjoy your company').",
+      "category": "Work & Business",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Business",
+        "#Work",
+        "#Social",
+        "#Organization"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاي منها \"Companion\" \"رفيق\".. الـ \"Company\" هي الناس اللي معاك سواء في الشغل (شركة) أو في القعدة (صحبة).",
+      "examples": {
+        "A1": "He works for a big company.",
+        "A2": "I enjoy her company.",
+        "B1": "The company produces cars.",
+        "B2": "We are expecting company for dinner.",
+        "C1": "He keeps bad company.",
+        "C2": "The company's assets were liquidated after the scandal."
+      },
+      "collocations": [
+        "good company",
+        "software company",
+        "keep company",
+        "company car"
+      ],
+      "synonyms": [
+        "business",
+        "firm",
+        "corporation",
+        "companionship"
+      ],
+      "antonyms": [
+        "isolation"
+      ],
+      "relatedWords": {
+        "en": [
+          "business",
+          "firm",
+          "office",
+          "colleague"
+        ],
+        "ar": [
+          "عمل",
+          "مؤسسة",
+          "مكتب",
+          "زميل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "company",
+        "verb": "accompany",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "شركة",
+      "frenchFr": "entreprise",
+      "germanDe": "Firma",
+      "spanishEs": "empresa",
+      "chineseZh": "公司 (Gōngsī)",
+      "russianRu": "компания",
+      "portuguesePt": "empresa",
+      "japaneseJa": "会社 (Kaisha)",
+      "italianIt": "azienda",
+      "turkishTr": "şirket",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 312,
+      "wordEn": "shall",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "ʃæl",
+      "phoneticUk": "ʃæl",
+      "phoneticAr": "شَال",
+      "translit": "Sawf",
+      "definitionEn": "A command, duty, or mandatory requirement.",
+      "definitionAr": "أمر واجب التنفيذ أو إلزام (استخدام نادر كاسم).",
+      "usageNote": "Extremely rare as a noun. Usually found in legal phrases like 'the shalls and shall nots'.",
+      "category": "Law & Order",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Rule",
+        "#Command",
+        "#Duty"
+      ],
+      "register": "Archaic",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "This is a shall, not a maybe.",
+        "A2": "He listed the shalls for the project.",
+        "B1": "There are many shalls in this contract.",
+        "B2": "Life is full of shalls and shall nots.",
+        "C1": "The document is a list of bureaucratic shalls.",
+        "C2": "He resented the imposition of so many moral shalls."
+      },
+      "collocations": [
+        "shalls and shall nots"
+      ],
+      "synonyms": [
+        "command",
+        "must",
+        "requirement"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "must",
+          "rule",
+          "law"
+        ],
+        "ar": [
+          "يجب",
+          "قاعدة",
+          "قانون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "shall",
+        "verb": "shall",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "سوف",
+      "frenchFr": "devoir",
+      "germanDe": "Gebot",
+      "spanishEs": "deber",
+      "chineseZh": "必须 (Bìxū)",
+      "russianRu": "долженствование",
+      "portuguesePt": "dever",
+      "japaneseJa": "義務 (Gimu)",
+      "italianIt": "dovere",
+      "turkishTr": "zorunluluk",
+      "aiConfidence": 0.6
+    },
+    {
+      "id": 313,
+      "wordEn": "shall",
+      "pos": "modal",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "ʃæl",
+      "phoneticUk": "ʃæl",
+      "phoneticAr": "شَال",
+      "translit": "Sawf",
+      "definitionEn": "Used to express future actions, suggestions, or determination.",
+      "definitionAr": "فعل مساعد بنستخدمه عشان نتكلم عن المستقبل أو نقترح حاجة، زي 'سوف'.",
+      "usageNote": "Formal. 'Will' is more common for future. 'Shall' is common in offers (Shall I...?).",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Future",
+        "#Offer",
+        "#Suggestion",
+        "#Formal"
+      ],
+      "register": "Formal",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Shall we go now?",
+        "A2": "I shall call you tomorrow.",
+        "B1": "We shall see what happens.",
+        "B2": "You shall not pass!",
+        "C1": "The tenant shall maintain the property in good condition.",
+        "C2": "We shall overcome these difficulties with time."
+      },
+      "collocations": [
+        "shall we",
+        "shall I",
+        "we shall see"
+      ],
+      "synonyms": [
+        "will",
+        "should"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "will",
+          "must",
+          "should"
+        ],
+        "ar": [
+          "سوف",
+          "يجب",
+          "ينبغي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "shall",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "سوف",
+      "frenchFr": "devrai",
+      "germanDe": "sollen",
+      "spanishEs": "deber",
+      "chineseZh": "将 (Jiāng)",
+      "russianRu": "буду",
+      "portuguesePt": "dever",
+      "japaneseJa": "でしょう (Deshō)",
+      "italianIt": "dovere",
+      "turkishTr": "-ecek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 314,
+      "wordEn": "under",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈʌndəɹ",
+      "phoneticUk": "ˈʌndə",
+      "phoneticAr": "أَنْدَر",
+      "translit": "Taḥt",
+      "definitionEn": "Located below or beneath something else.",
+      "definitionAr": "حاجة موجودة تحت حاجة تانية أو في مستوى أقل.",
+      "usageNote": "Often used in compound words like 'underground' or 'underwater'.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Position",
+        "#Below",
+        "#Lower",
+        "#Location"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The under side of the table is rough.",
+        "A2": "He wears an under shirt.",
+        "B1": "The under layer of soil is clay.",
+        "B2": "The under secretary spoke to the press.",
+        "C1": "There is an under current of dissatisfaction.",
+        "C2": "The under belly of the city is full of crime."
+      },
+      "collocations": [
+        "under dog",
+        "under age",
+        "under water"
+      ],
+      "synonyms": [
+        "lower",
+        "bottom",
+        "beneath"
+      ],
+      "antonyms": [
+        "upper",
+        "over"
+      ],
+      "relatedWords": {
+        "en": [
+          "below",
+          "down",
+          "bottom"
+        ],
+        "ar": [
+          "أسفل",
+          "تحت",
+          "قاع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "under",
+        "adv": ""
+      },
+      "arabicAr": "تحت",
+      "frenchFr": "sous",
+      "germanDe": "unter",
+      "spanishEs": "bajo",
+      "chineseZh": "下面的 (Xiàmian de)",
+      "russianRu": "нижний",
+      "portuguesePt": "inferior",
+      "japaneseJa": "下の (Shita no)",
+      "italianIt": "sotto",
+      "turkishTr": "alt",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 315,
+      "wordEn": "under",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈʌndəɹ",
+      "phoneticUk": "ˈʌndə",
+      "phoneticAr": "أَنْدَر",
+      "translit": "Taḥt",
+      "definitionEn": "Directly below or covered by something.",
+      "definitionAr": "تحت حاجة مباشرة، أو متغطي بيها.",
+      "usageNote": "Can also mean 'controlled by' (under the law) or 'less than' (under $5).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Control",
+        "#Less",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Under\" قريبة من \"Andar\" (جوة/تحت في بعض اللغات) أو \"Underground\" (تحت الأرض).",
+      "examples": {
+        "A1": "The cat is under the table.",
+        "A2": "We sat under a tree.",
+        "B1": "He is under a lot of pressure.",
+        "B2": "Children under 12 enter for free.",
+        "C1": "The project is under construction.",
+        "C2": "Under the circumstances, we must accept the offer."
+      },
+      "collocations": [
+        "under control",
+        "under pressure",
+        "under arrest",
+        "under the weather"
+      ],
+      "synonyms": [
+        "below",
+        "beneath",
+        "underneath"
+      ],
+      "antonyms": [
+        "over",
+        "above"
+      ],
+      "relatedWords": {
+        "en": [
+          "below",
+          "down",
+          "beneath"
+        ],
+        "ar": [
+          "أسفل",
+          "دون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تحت",
+      "frenchFr": "sous",
+      "germanDe": "unter",
+      "spanishEs": "debajo de",
+      "chineseZh": "在...下面 (Zài...xiàmian)",
+      "russianRu": "под",
+      "portuguesePt": "embaixo de",
+      "japaneseJa": "の下に (No shita ni)",
+      "italianIt": "sotto",
+      "turkishTr": "altında",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 316,
+      "wordEn": "under",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈʌndəɹ",
+      "phoneticUk": "ˈʌndə",
+      "phoneticAr": "أَنْدَر",
+      "translit": "Taḥt",
+      "definitionEn": "In or into a position below or beneath something.",
+      "definitionAr": "في مكان تحت أو لأسفل.",
+      "usageNote": "Used with verbs like 'go', 'pull', 'keep'.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Movement",
+        "#Direction",
+        "#Down"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The ship went under.",
+        "A2": "He pushed him under.",
+        "B1": "The swimmer stayed under for two minutes.",
+        "B2": "The business went under after a year.",
+        "C1": "They plowed the weeds under.",
+        "C2": "The sedative put him under quickly."
+      },
+      "collocations": [
+        "go under",
+        "pull under"
+      ],
+      "synonyms": [
+        "down",
+        "below"
+      ],
+      "antonyms": [
+        "up",
+        "above"
+      ],
+      "relatedWords": {
+        "en": [
+          "down",
+          "submerged",
+          "sinking"
+        ],
+        "ar": [
+          "غرق",
+          "أسفل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "under"
+      },
+      "arabicAr": "تحت",
+      "frenchFr": "dessous",
+      "germanDe": "unten",
+      "spanishEs": "debajo",
+      "chineseZh": "在下面 (Zài xiàmian)",
+      "russianRu": "внизу",
+      "portuguesePt": "embaixo",
+      "japaneseJa": "下に (Shita ni)",
+      "italianIt": "sotto",
+      "turkishTr": "aşağıya",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 317,
+      "wordEn": "problem",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈpɹɑbləm",
+      "phoneticUk": "ˈpɹɒbləm",
+      "phoneticAr": "پْرُوبْلَم",
+      "translit": "Mushkilah",
+      "definitionEn": "A matter or situation regarded as unwelcome or harmful.",
+      "definitionAr": "حاجة صعبة أو موقف مش كويس محتاج حل.",
+      "usageNote": "Can refer to a personal issue or a mathematical question.",
+      "category": "General / Common",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Difficulty",
+        "#Challenge",
+        "#Issue",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Problem\" فيها \"Prob\" زي \"Probe\" (تحقيق).. لما يكون فيه \"Problem\" لازم نعمل \"Probe\" عشان نحلها.",
+      "examples": {
+        "A1": "I have a problem.",
+        "A2": "No problem!",
+        "B1": "We need to solve this problem.",
+        "B2": "Pollution is a major global problem.",
+        "C1": "He has a drinking problem.",
+        "C2": "The problem lies in the fundamental assumptions of the theory."
+      },
+      "collocations": [
+        "no problem",
+        "big problem",
+        "solve a problem",
+        "problem solving"
+      ],
+      "synonyms": [
+        "issue",
+        "trouble",
+        "difficulty",
+        "dilemma"
+      ],
+      "antonyms": [
+        "solution",
+        "answer"
+      ],
+      "relatedWords": {
+        "en": [
+          "solve",
+          "trouble",
+          "issue",
+          "challenge"
+        ],
+        "ar": [
+          "حل",
+          "متاعب",
+          "قضية",
+          "تحدي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "problem",
+        "verb": "",
+        "adj": "problematic",
+        "adv": "problematically"
+      },
+      "arabicAr": "مشكلة / المشكلة",
+      "frenchFr": "problème",
+      "germanDe": "Problem",
+      "spanishEs": "problema",
+      "chineseZh": "问题 (Wèntí)",
+      "russianRu": "проблема",
+      "portuguesePt": "problema",
+      "japaneseJa": "問題 (Mondai)",
+      "italianIt": "problema",
+      "turkishTr": "sorun",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 318,
+      "wordEn": "against",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈɡɛnst",
+      "phoneticUk": "əˈɡeɪnst",
+      "phoneticAr": "أَگَيْنْسْت",
+      "translit": "Ḍid",
+      "definitionEn": "A disadvantage or opposing factor.",
+      "definitionAr": "عامل سلبي أو معارضة (استخدام نادر كاسم).",
+      "usageNote": "Rare. Mostly used in betting (odds against) or 'pros and againsts' (though 'cons' is better).",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Opposition",
+        "#Negative",
+        "#Contrast"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "It is a race against time.",
+        "A2": "The odds are against us.",
+        "B1": "He weighed the fors and againsts.",
+        "B2": "There are too many againsts in this proposal.",
+        "C1": "The againsts outweigh the benefits.",
+        "C2": "In the final tally, the againsts carried the vote."
+      },
+      "collocations": [
+        "odds against"
+      ],
+      "synonyms": [
+        "con",
+        "disadvantage",
+        "drawback"
+      ],
+      "antonyms": [
+        "for",
+        "pro"
+      ],
+      "relatedWords": {
+        "en": [
+          "opposition",
+          "con",
+          "negative"
+        ],
+        "ar": [
+          "معارضة",
+          "سلبية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "against",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ضد / مقابل",
+      "frenchFr": "contre",
+      "germanDe": "Gegenstimme",
+      "spanishEs": "contra",
+      "chineseZh": "反对 (Fǎnduì)",
+      "russianRu": "против",
+      "portuguesePt": "contra",
+      "japaneseJa": "反対 (Hantai)",
+      "italianIt": "contro",
+      "turkishTr": "karşı",
+      "aiConfidence": 0.7
+    },
+    {
+      "id": 319,
+      "wordEn": "against",
+      "pos": "prep",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈɡɛnst",
+      "phoneticUk": "əˈɡeɪnst",
+      "phoneticAr": "أَگَيْنْسْت",
+      "translit": "Ḍid",
+      "definitionEn": "In opposition to; in contact with.",
+      "definitionAr": "ضد حاجة، أو ساند على حاجة، أو مخالف لرأي حد.",
+      "usageNote": "Used for physical contact (leaning against) or conflict (fight against).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Opposition",
+        "#Contact",
+        "#Conflict",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Against\" يعني \"Again\" (تاني) + \"st\" (قف).. كأنك واقف \"Against\" (ضد) التيار.",
+      "examples": {
+        "A1": "Don't lean against the wall.",
+        "A2": "I am against this idea.",
+        "B1": "They played against a strong team.",
+        "B2": "It is against the law.",
+        "C1": "We must save money against a rainy day.",
+        "C2": "The silhouette stood out sharply against the bright sky."
+      },
+      "collocations": [
+        "against the law",
+        "against the rules",
+        "fight against",
+        "lean against"
+      ],
+      "synonyms": [
+        "opposed to",
+        "versus",
+        "anti"
+      ],
+      "antonyms": [
+        "for",
+        "pro"
+      ],
+      "relatedWords": {
+        "en": [
+          "oppose",
+          "fight",
+          "resist",
+          "versus"
+        ],
+        "ar": [
+          "يعارض",
+          "يقاتل",
+          "يقاوم",
+          "مقابل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ضد / مقابل",
+      "frenchFr": "contre",
+      "germanDe": "gegen",
+      "spanishEs": "contra",
+      "chineseZh": "反对 (Fǎnduì)",
+      "russianRu": "против",
+      "portuguesePt": "contra",
+      "japaneseJa": "に対して (Ni taishite)",
+      "italianIt": "contro",
+      "turkishTr": "karşı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 320,
+      "wordEn": "never",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈnɛvəɹ",
+      "phoneticUk": "ˈnɛvə",
+      "phoneticAr": "نِڤَر",
+      "translit": "Abadan",
+      "definitionEn": "At no time; not ever.",
+      "definitionAr": "أبدًا، يعني محصلش ولا مرة ومش هيحصل.",
+      "usageNote": "Used with present perfect (I have never...) or simple past/present.",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Frequency",
+        "#Negative",
+        "#Absolute"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Never\" يعني \"Not\" + \"Ever\".. مش ممكن يحصل \"Ever\" (أبدًا).",
+      "examples": {
+        "A1": "I never eat meat.",
+        "A2": "He never arrived.",
+        "B1": "I have never been to Paris.",
+        "B2": "She never ceases to amaze me.",
+        "C1": "Never have I seen such a thing.",
+        "C2": "Better late than never."
+      },
+      "collocations": [
+        "never mind",
+        "never ever",
+        "never again",
+        "now or never"
+      ],
+      "synonyms": [
+        "not ever",
+        "at no time",
+        "not once"
+      ],
+      "antonyms": [
+        "always",
+        "ever",
+        "forever"
+      ],
+      "relatedWords": {
+        "en": [
+          "no",
+          "not",
+          "none",
+          "nothing"
+        ],
+        "ar": [
+          "لا",
+          "ليس",
+          "لا شيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "never"
+      },
+      "arabicAr": "أبداً",
+      "frenchFr": "jamais",
+      "germanDe": "nie",
+      "spanishEs": "nunca",
+      "chineseZh": "从不 (Cóngbù)",
+      "russianRu": "никогда",
+      "portuguesePt": "nunca",
+      "japaneseJa": "決して (Kesshite)",
+      "italianIt": "mai",
+      "turkishTr": "asla",
+      "aiConfidence": 0.99
+    }
+  ]
+} 

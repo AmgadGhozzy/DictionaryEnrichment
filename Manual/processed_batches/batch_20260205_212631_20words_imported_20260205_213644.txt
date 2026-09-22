@@ -1,0 +1,571 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 276,
+    "wordEn": "same",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 276,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "seɪm",
+    "phoneticAr": "سايم",
+    "translit": "nafs / nafsih",
+    "definitionEn": "[\"identical; not different.\", \"of an identical type; exactly similar.\", \"the same thing as something previously mentioned.\"]",
+    "usageNote": "Used to express the unity of an object or person which has various different descriptions or qualities.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"treating women the same as men\"], \"A2\": [\"they drank out of the same glass\", \"that same year I went to Boston\", \"I have never made the same mistake since\", \"he gave me five dollars, same as usual\"], \"B1\": [\"people will always notice if you wear the same shirt two days running\", \"there are several brands and they're not all the same\", \"he's worked at the same place for quite a few years\"]}",
+    "collocations": "[\"oral same\", \"same time\"]",
+    "synonyms": "[\"Lapp\", \"Sami\", \"Saami\", \"Lapplander\", \"the identical\"]",
+    "antonyms": "[\"other\", \"different\", \"unlike\"]",
+    "relatedWords": "{\"en\": [\"selfsame\", \"identical\", \"one and the same\", \"comparable\", \"equivalent\"], \"ar\": [\"نفسُه\", \"عينُهُ\", \"بالطريقة نفسها\", \"نفسه\", \"الشخص نفسه\", \"المذكور أنفا\"]}",
+    "arabicAr": "نفس",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 277,
+    "wordEn": "same",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 277,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "seɪm",
+    "phoneticAr": "سايم",
+    "translit": "nafs / nafsih",
+    "definitionEn": "[\"identical; not different.\", \"of an identical type; exactly similar.\", \"the same thing as something previously mentioned.\"]",
+    "usageNote": "Used to express the unity of an object or person which has various different descriptions or qualities.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"treating women the same as men\"], \"A2\": [\"they drank out of the same glass\", \"that same year I went to Boston\", \"I have never made the same mistake since\", \"he gave me five dollars, same as usual\"], \"B1\": [\"people will always notice if you wear the same shirt two days running\", \"there are several brands and they're not all the same\", \"he's worked at the same place for quite a few years\"]}",
+    "collocations": "[\"oral same\", \"same time\"]",
+    "synonyms": "[\"Lapp\", \"Sami\", \"Saami\", \"Lapplander\", \"the identical\"]",
+    "antonyms": "[\"other\", \"different\", \"unlike\"]",
+    "relatedWords": "{\"en\": [\"selfsame\", \"identical\", \"one and the same\", \"comparable\", \"equivalent\"], \"ar\": [\"نفسُه\", \"عينُهُ\", \"بالطريقة نفسها\", \"نفسه\", \"الشخص نفسه\", \"المذكور أنفا\"]}",
+    "arabicAr": "نفس",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 278,
+    "wordEn": "us",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 278,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "əs",
+    "phoneticAr": "اس",
+    "translit": "nahn",
+    "definitionEn": "[\"used by a speaker to refer to himself or herself and one or more other people as the object of a verb or preposition.\", \"The persons speaking, regarded as an object\"]",
+    "usageNote": "Used to imply connection between the speaker's experiences or activities and a group of listeners.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"let us know\", \"both of us\", \"give us a kiss\", \"it's us or them\", \"they are richer than us\", \"Could you do that for us\"], \"A2\": [\"we asked him to come with us\"]}",
+    "collocations": "[\"She's turned the weans against us\", \"Could ye dee that for us\"]",
+    "synonyms": "[\"usa\", \"America\", \"the States\", \"United States\", \"United States of America\"]",
+    "antonyms": "[\"them\"]",
+    "relatedWords": "{\"en\": [\"america\", \"usa\", \"united states\", \"united states of america\", \"rok\"], \"ar\": [\"نا\", \"ضمير المتكلمين في النصب والجر\", \"لنا\", \"نحن\", \"ضمير المتكلمين\"]}",
+    "arabicAr": "نحن / نا (ضمير المتكلمين)",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 279,
+    "wordEn": "need",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 279,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "niːd",
+    "phoneticUk": "ni:d",
+    "phoneticAr": "نيد",
+    "translit": "yahtaj / bihajat ''iilaa",
+    "definitionEn": "[\"require because it is essential or very important.\", \"expressing necessity or obligation.\", \"circumstances in which something is necessary, or that require some course of action; necessity.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't need your sarcasm\", \"there's no need to cry\", \"they need to win tomorrow\", \"need I say more?\", \"the basic human need for food\", \"I need help now\", \"children in need\"], \"A2\": [\"help us in our hour of need\"]}",
+    "collocations": "[\"urgent need\", \"need based\"]",
+    "synonyms": "[\"want\", \"demand\", \"motive\", \"require\", \"motivation\"]",
+    "antonyms": "[\"obviate\"]",
+    "relatedWords": "{\"en\": [\"necessitate\", \"must\", \"have got\", \"have\", \"ought\"], \"ar\": [\"إرْب\", \"إفْتِقَار\", \"إقْتِضاء\", \"داعٍ\", \"فَقْر\", \"لُزُوم\"]}",
+    "arabicAr": "يحتاج",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 280,
+    "wordEn": "need",
+    "pos": "modal",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 280,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "niːd",
+    "phoneticUk": "ni:d",
+    "phoneticAr": "نيد",
+    "translit": "yahtaj / bihajat ''iilaa",
+    "definitionEn": "[\"require because it is essential or very important.\", \"expressing necessity or obligation.\", \"circumstances in which something is necessary, or that require some course of action; necessity.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't need your sarcasm\", \"there's no need to cry\", \"they need to win tomorrow\", \"need I say more?\", \"the basic human need for food\", \"I need help now\", \"children in need\"], \"A2\": [\"help us in our hour of need\"]}",
+    "collocations": "[\"urgent need\", \"need based\"]",
+    "synonyms": "[\"want\", \"demand\", \"motive\", \"require\", \"motivation\"]",
+    "antonyms": "[\"obviate\"]",
+    "relatedWords": "{\"en\": [\"necessitate\", \"must\", \"have got\", \"have\", \"ought\"], \"ar\": [\"إرْب\", \"إفْتِقَار\", \"إقْتِضاء\", \"داعٍ\", \"فَقْر\", \"لُزُوم\"]}",
+    "arabicAr": "يحتاج",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 281,
+    "wordEn": "need",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 281,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "niːd",
+    "phoneticUk": "ni:d",
+    "phoneticAr": "نيد",
+    "translit": "yahtaj / bihajat ''iilaa",
+    "definitionEn": "[\"require because it is essential or very important.\", \"expressing necessity or obligation.\", \"circumstances in which something is necessary, or that require some course of action; necessity.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't need your sarcasm\", \"there's no need to cry\", \"they need to win tomorrow\", \"need I say more?\", \"the basic human need for food\", \"I need help now\", \"children in need\"], \"A2\": [\"help us in our hour of need\"]}",
+    "collocations": "[\"urgent need\", \"need based\"]",
+    "synonyms": "[\"want\", \"demand\", \"motive\", \"require\", \"motivation\"]",
+    "antonyms": "[\"obviate\"]",
+    "relatedWords": "{\"en\": [\"necessitate\", \"must\", \"have got\", \"have\", \"ought\"], \"ar\": [\"إرْب\", \"إفْتِقَار\", \"إقْتِضاء\", \"داعٍ\", \"فَقْر\", \"لُزُوم\"]}",
+    "arabicAr": "يحتاج",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 282,
+    "wordEn": "feel",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 282,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "fiːl",
+    "phoneticUk": "fi:l",
+    "phoneticAr": "فيل",
+    "translit": "yasheur",
+    "definitionEn": "[\"be aware of through touching or being touched.\", \"have a belief or impression, especially without an identifiable reason.\", \"an act of touching something to examine it.\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"poor woman—I feel for her\", \"the dead cannot feel\", \"nylon cloth with a cotton feel\", \"Feel my wrath\"], \"A2\": [\"the restaurant has a modern bistro feel\", \"they want to feel out the situation\", \"he worked by feel rather than using his eyes\", \"we feel very strongly about freedom of expression\"], \"B1\": [\"he didn't feel the loss of his mother so keenly\"]}",
+    "collocations": "[\"Feel my wrath\", \"many feel\", \"feel ings\"]",
+    "synonyms": "[\"tone\", \"spirit\", \"flavor\", \"feeling\", \"perceive\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"sense\", \"find\", \"spirit\", \"experience\", \"look\"], \"ar\": [\"لَمْس\", \"مَلْمَس\", \"إحساس\", \"حَدْس\", \"حاسّة اللمس\", \"جوّ أو صفة خاصَّة\"]}",
+    "arabicAr": "يشعر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 283,
+    "wordEn": "feel",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 283,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "fiːl",
+    "phoneticUk": "fi:l",
+    "phoneticAr": "فيل",
+    "translit": "yasheur",
+    "definitionEn": "[\"be aware of through touching or being touched.\", \"have a belief or impression, especially without an identifiable reason.\", \"an act of touching something to examine it.\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"poor woman—I feel for her\", \"the dead cannot feel\", \"nylon cloth with a cotton feel\", \"Feel my wrath\"], \"A2\": [\"the restaurant has a modern bistro feel\", \"they want to feel out the situation\", \"he worked by feel rather than using his eyes\", \"we feel very strongly about freedom of expression\"], \"B1\": [\"he didn't feel the loss of his mother so keenly\"]}",
+    "collocations": "[\"Feel my wrath\", \"many feel\", \"feel ings\"]",
+    "synonyms": "[\"tone\", \"spirit\", \"flavor\", \"feeling\", \"perceive\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"sense\", \"find\", \"spirit\", \"experience\", \"look\"], \"ar\": [\"لَمْس\", \"مَلْمَس\", \"إحساس\", \"حَدْس\", \"حاسّة اللمس\", \"جوّ أو صفة خاصَّة\"]}",
+    "arabicAr": "يشعر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 284,
+    "wordEn": "system",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 284,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈsɪstəm",
+    "phoneticAr": "سيستام",
+    "translit": "nizam / alnizam",
+    "syllabify": "sys•tem",
+    "definitionEn": "[\"a set of things working together as parts of a mechanism or an interconnecting network.\", \"a set of principles or procedures according to which something is done; an organized framework or method.\", \"the prevailing political or social order, especially when regarded as oppressive and intransigent.\"]",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the digestive system\", \"the Devonian system\", \"don't try bucking the system\", \"the public school system\", \"the metric system\"], \"A2\": [\"there was no system at all in the company\"], \"B1\": [\"you need to get the cholesterol out of your system\", \"the system of bright stars known as the Gould Belt\"]}",
+    "collocations": "[\"the digestive system the nervous system\", \"The capitalist system\", \"nervous system\", \"system level\"]",
+    "synonyms": "[\"setup\", \"scheme\", \"arrangement\", \"organization\", \"system of rules\"]",
+    "antonyms": "[\"disorder\"]",
+    "relatedWords": "{\"en\": [\"organisation\", \"organization\", \"arrangement\", \"unit\", \"system of rules\"], \"ar\": [\"أُسْلُوب\", \"جُمْلَة\", \"كَيْفِيّة\", \"مُجَمّع\", \"مَجْمُوعَة\", \"مَنْهَج\"]}",
+    "arabicAr": "نظام",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 285,
+    "wordEn": "each",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 285,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "iːt͡ʃ",
+    "phoneticUk": "i:tʃ",
+    "phoneticAr": "يتش",
+    "translit": "kulu / kl",
+    "definitionEn": "[\"refer to every one of two or more people or things, regarded and identified separately.\", \"every one of two or more people or things, regarded and identified separately.\", \"to, for, or by every one of a group .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they each have their own personality\", \"they cost $11 each\"], \"A2\": [\"Doug had money from each of his five uncles\", \"each battery is in a separate compartment\", \"Paul and Bill have a glass each\", \"each one of us was asked what went on\"]}",
+    "collocations": "[\"price each\", \"each volume\"]",
+    "synonyms": "[\"apiece\", \"every one\", \"to each one\", \"for each one\", \"from each one\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apiece\", \"all\", \"all of\", \"for each one\", \"from each one\"], \"ar\": [\"كلّ\", \"لكلّ قطعة\", \"لكلّ واحد\", \"كل\", \"كل امرأ\", \"كل واحد\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 286,
+    "wordEn": "each",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 286,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "iːt͡ʃ",
+    "phoneticUk": "i:tʃ",
+    "phoneticAr": "يتش",
+    "translit": "kulu / kl",
+    "definitionEn": "[\"refer to every one of two or more people or things, regarded and identified separately.\", \"every one of two or more people or things, regarded and identified separately.\", \"to, for, or by every one of a group .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they each have their own personality\", \"they cost $11 each\"], \"A2\": [\"Doug had money from each of his five uncles\", \"each battery is in a separate compartment\", \"Paul and Bill have a glass each\", \"each one of us was asked what went on\"]}",
+    "collocations": "[\"price each\", \"each volume\"]",
+    "synonyms": "[\"apiece\", \"every one\", \"to each one\", \"for each one\", \"from each one\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apiece\", \"all\", \"all of\", \"for each one\", \"from each one\"], \"ar\": [\"كلّ\", \"لكلّ قطعة\", \"لكلّ واحد\", \"كل\", \"كل امرأ\", \"كل واحد\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 287,
+    "wordEn": "each",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 287,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "iːt͡ʃ",
+    "phoneticUk": "i:tʃ",
+    "phoneticAr": "يتش",
+    "translit": "kulu / kl",
+    "definitionEn": "[\"refer to every one of two or more people or things, regarded and identified separately.\", \"every one of two or more people or things, regarded and identified separately.\", \"to, for, or by every one of a group .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they each have their own personality\", \"they cost $11 each\"], \"A2\": [\"Doug had money from each of his five uncles\", \"each battery is in a separate compartment\", \"Paul and Bill have a glass each\", \"each one of us was asked what went on\"]}",
+    "collocations": "[\"price each\", \"each volume\"]",
+    "synonyms": "[\"apiece\", \"every one\", \"to each one\", \"for each one\", \"from each one\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apiece\", \"all\", \"all of\", \"for each one\", \"from each one\"], \"ar\": [\"كلّ\", \"لكلّ قطعة\", \"لكلّ واحد\", \"كل\", \"كل امرأ\", \"كل واحد\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 288,
+    "wordEn": "each",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 288,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "iːt͡ʃ",
+    "phoneticUk": "i:tʃ",
+    "phoneticAr": "يتش",
+    "translit": "kulu / kl",
+    "definitionEn": "[\"refer to every one of two or more people or things, regarded and identified separately.\", \"every one of two or more people or things, regarded and identified separately.\", \"to, for, or by every one of a group .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they each have their own personality\", \"they cost $11 each\"], \"A2\": [\"Doug had money from each of his five uncles\", \"each battery is in a separate compartment\", \"Paul and Bill have a glass each\", \"each one of us was asked what went on\"]}",
+    "collocations": "[\"price each\", \"each volume\"]",
+    "synonyms": "[\"apiece\", \"every one\", \"to each one\", \"for each one\", \"from each one\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apiece\", \"all\", \"all of\", \"for each one\", \"from each one\"], \"ar\": [\"كلّ\", \"لكلّ قطعة\", \"لكلّ واحد\", \"كل\", \"كل امرأ\", \"كل واحد\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 289,
+    "wordEn": "might",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 289,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "maɪt",
+    "phoneticAr": "مآيت",
+    "translit": "qad / rubama",
+    "definitionEn": "[\"used tentatively to ask permission or to express a polite request.\", \"express possibility or make a suggestion.\", \"great and impressive power or strength, especially of a nation, large organization, or natural force.\"]",
+    "usageNote": "Used to indicate a desired past action that was not done.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he said he might be late\", \"you might have told me!\", \"you might try nonprescription pain relievers\", \"this might be true\", \"a convincing display of military might\"], \"A2\": [\"he avoided social engagements so that he might work\", \"we might have won if we'd played better\"], \"B1\": [\"you might just call me Jane, if you don't mind\"]}",
+    "collocations": "[\"military might\", \"might been\"]",
+    "synonyms": "[\"power\", \"force\", \"vigor\", \"strength\", \"mightiness\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"mightiness\", \"power\", \"can\", \"could\", \"potency\"], \"ar\": [\"أزْر\", \"إيَاد\", \"بَأس\", \"جاه\", \"جَبْر\", \"حَوْل\"]}",
+    "arabicAr": "قد / قوة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 290,
+    "wordEn": "might",
+    "pos": "modal",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 290,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "maɪt",
+    "phoneticAr": "مآيت",
+    "translit": "qad / rubama",
+    "definitionEn": "[\"used tentatively to ask permission or to express a polite request.\", \"express possibility or make a suggestion.\", \"great and impressive power or strength, especially of a nation, large organization, or natural force.\"]",
+    "usageNote": "Used to indicate a desired past action that was not done.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he said he might be late\", \"you might have told me!\", \"you might try nonprescription pain relievers\", \"this might be true\", \"a convincing display of military might\"], \"A2\": [\"he avoided social engagements so that he might work\", \"we might have won if we'd played better\"], \"B1\": [\"you might just call me Jane, if you don't mind\"]}",
+    "collocations": "[\"military might\", \"might been\"]",
+    "synonyms": "[\"power\", \"force\", \"vigor\", \"strength\", \"mightiness\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"mightiness\", \"power\", \"can\", \"could\", \"potency\"], \"ar\": [\"أزْر\", \"إيَاد\", \"بَأس\", \"جاه\", \"جَبْر\", \"حَوْل\"]}",
+    "arabicAr": "قد / قوة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 291,
+    "wordEn": "much",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 291,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mʌt͡ʃ",
+    "phoneticAr": "ماتش",
+    "translit": "kthyraan / kthyr",
+    "definitionEn": "[\"a great amount or quantity of.\", \"a great amount or quantity.\", \"High in rank or position.\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the quantity of something.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Nicolai's English was much the worst\", \"there's so much traffic\", \"I didn't get much sleep\", \"did it hurt much?\", \"I'm not there much\", \"I'm not much of a gardener\", \"Does he get drunk much\"], \"A2\": [\"they must bear much of the blame\"], \"B2\": [\"we should see lots of sun and not much rain over the next few days\"]}",
+    "collocations": "[\"Does he get drunk much\", \"how much\", \"much time\"]",
+    "synonyms": "[\"lots\", \"a lot\", \"lots of\", \"a good deal\", \"a great deal\"]",
+    "antonyms": "[\"little\"]",
+    "relatedWords": "{\"en\": [\"a lot\", \"so much\", \"very much\", \"a good deal\", \"overmuch\"], \"ar\": [\"كثير\", \"بكثير\", \"إلى حد بعيد\", \"كثيراً\", \"تقريباً\", \"كثيرا\"]}",
+    "arabicAr": "كثيراً / كثير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 292,
+    "wordEn": "much",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 292,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mʌt͡ʃ",
+    "phoneticAr": "ماتش",
+    "translit": "kthyraan / kthyr",
+    "definitionEn": "[\"a great amount or quantity of.\", \"a great amount or quantity.\", \"High in rank or position.\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the quantity of something.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Nicolai's English was much the worst\", \"there's so much traffic\", \"I didn't get much sleep\", \"did it hurt much?\", \"I'm not there much\", \"I'm not much of a gardener\", \"Does he get drunk much\"], \"A2\": [\"they must bear much of the blame\"], \"B2\": [\"we should see lots of sun and not much rain over the next few days\"]}",
+    "collocations": "[\"Does he get drunk much\", \"how much\", \"much time\"]",
+    "synonyms": "[\"lots\", \"a lot\", \"lots of\", \"a good deal\", \"a great deal\"]",
+    "antonyms": "[\"little\"]",
+    "relatedWords": "{\"en\": [\"a lot\", \"so much\", \"very much\", \"a good deal\", \"overmuch\"], \"ar\": [\"كثير\", \"بكثير\", \"إلى حد بعيد\", \"كثيراً\", \"تقريباً\", \"كثيرا\"]}",
+    "arabicAr": "كثيراً / كثير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 293,
+    "wordEn": "much",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 293,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mʌt͡ʃ",
+    "phoneticAr": "ماتش",
+    "translit": "kthyraan / kthyr",
+    "definitionEn": "[\"a great amount or quantity of.\", \"a great amount or quantity.\", \"High in rank or position.\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the quantity of something.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Nicolai's English was much the worst\", \"there's so much traffic\", \"I didn't get much sleep\", \"did it hurt much?\", \"I'm not there much\", \"I'm not much of a gardener\", \"Does he get drunk much\"], \"A2\": [\"they must bear much of the blame\"], \"B2\": [\"we should see lots of sun and not much rain over the next few days\"]}",
+    "collocations": "[\"Does he get drunk much\", \"how much\", \"much time\"]",
+    "synonyms": "[\"lots\", \"a lot\", \"lots of\", \"a good deal\", \"a great deal\"]",
+    "antonyms": "[\"little\"]",
+    "relatedWords": "{\"en\": [\"a lot\", \"so much\", \"very much\", \"a good deal\", \"overmuch\"], \"ar\": [\"كثير\", \"بكثير\", \"إلى حد بعيد\", \"كثيراً\", \"تقريباً\", \"كثيرا\"]}",
+    "arabicAr": "كثيراً / كثير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 294,
+    "wordEn": "much",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 294,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mʌt͡ʃ",
+    "phoneticAr": "ماتش",
+    "translit": "kthyraan / kthyr",
+    "definitionEn": "[\"a great amount or quantity of.\", \"a great amount or quantity.\", \"High in rank or position.\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the quantity of something.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Nicolai's English was much the worst\", \"there's so much traffic\", \"I didn't get much sleep\", \"did it hurt much?\", \"I'm not there much\", \"I'm not much of a gardener\", \"Does he get drunk much\"], \"A2\": [\"they must bear much of the blame\"], \"B2\": [\"we should see lots of sun and not much rain over the next few days\"]}",
+    "collocations": "[\"Does he get drunk much\", \"how much\", \"much time\"]",
+    "synonyms": "[\"lots\", \"a lot\", \"lots of\", \"a good deal\", \"a great deal\"]",
+    "antonyms": "[\"little\"]",
+    "relatedWords": "{\"en\": [\"a lot\", \"so much\", \"very much\", \"a good deal\", \"overmuch\"], \"ar\": [\"كثير\", \"بكثير\", \"إلى حد بعيد\", \"كثيراً\", \"تقريباً\", \"كثيرا\"]}",
+    "arabicAr": "كثيراً / كثير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 295,
+    "wordEn": "ask",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 295,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈask",
+    "phoneticAr": "آسك",
+    "translit": "bisa'al / yatlub",
+    "definitionEn": "[\"say something in order to obtain an answer or some information.\", \"request to do or give something.\", \"invite to one's home or a function.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"to ask a question\"], \"A2\": [\"do you want to ask him along?\", \"don't be afraid to ask for advice\"]}",
+    "collocations": "[\"to ask for help with homework\", \"to ask a favour\", \"to ask a question\", \"to ask a riddle\", \"bid ask\"]",
+    "synonyms": "[\"grill\", \"expect\", \"inquire\", \"enquire\", \"require\"]",
+    "antonyms": "[\"obviate\"]",
+    "relatedWords": "{\"en\": [\"inquire\", \"enquire\", \"require\", \"demand\", \"necessitate\"], \"ar\": [\"اسْتَخْبَر\", \"سَأَل عن\", \"يتطلّب\", \"يَدْعو\", \"يسأل\", \"يَطْلب\"]}",
+    "arabicAr": "بسأل / يسأل",
+    "addedFromOxford": 0
+  }
+]

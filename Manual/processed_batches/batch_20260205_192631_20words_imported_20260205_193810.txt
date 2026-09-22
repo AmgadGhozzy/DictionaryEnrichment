@@ -1,0 +1,580 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 76,
+    "wordEn": "their",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 76,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðɛɚ",
+    "phoneticUk": "ðeə",
+    "phoneticAr": "ذاير",
+    "translit": "hum",
+    "definitionEn": "[\"belonging to or associated with the people or things previously mentioned or easily identified.\", \"The possessive case of the personal pronoun they .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"her taunts had lost their power to touch him\", \"parents are keen to help their children\", \"she heard someone blow their nose loudly\"], \"B1\": [\"Sasha feels comfortable wearing a skirt. It's part of their style\"]}",
+    "collocations": "[\"preventing their\", \"their construction\"]",
+    "synonyms": "[\"personal\", \"specially\", \"aboriginal\", \"particular\", \"respective\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"aboriginal\", \"particular\", \"personal\", \"specially\", \"respective\"], \"ar\": [\"هُمْ\", \"ها\", \"هما\", \"هنّ\", \"ـهُمْ\", \"هُنّ\"]}",
+    "arabicAr": "هُم / هم / ضمير متصل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 77,
+    "wordEn": "go",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 77,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡəʉ",
+    "phoneticUk": "ɡɐʉ",
+    "phoneticAr": "جاو",
+    "translit": "yadhhab / adhhab",
+    "definitionEn": "[\"move from one place to another; travel.\", \"intend or be likely or intended to be or do something; be about to .\", \"pass into a specified state, especially an undesirable one.\"]",
+    "usageNote": "often in a specified manner, indicating the perceived quality of an event or state).",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"how did the weekend go?\", \"ready, set, go!\", \"the kids go, “Yeah, sure.”\", \"she longs to go back home\", \"quite the go\", \"a high go\", \"ate it all in one go\", \"Get ready, get set, go\"], \"A2\": [\"this seems a rum sort of go\", \"a little luck can go a long way\", \"I thought I'd give it a go\"], \"B1\": [\"a large part of the museum's resources go toward maintaining the exhibits\"]}",
+    "collocations": "[\"Please don't go\", \"Go, girl You can do it\", \"ate it all in one go\", \"quite the go\", \"a high go\"]",
+    "synonyms": "[\"tour\", \"turn\", \"Adam\", \"spell\", \"betake oneself\"]",
+    "antonyms": "[\"stay in place\", \"come\", \"malfunction\"]",
+    "relatedWords": "{\"en\": [\"a-ok\", \"work\", \"tour\", \"spell\", \"belong\"], \"ar\": [\"إجْتَاز\", \"إشْتَغَل\", \"أيّد\", \"تَحَرّك\", \"تَحَزّب لِ\", \"تَحَيّز لِ\"]}",
+    "arabicAr": "يذهب",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 78,
+    "wordEn": "go",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 78,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡəʉ",
+    "phoneticUk": "ɡɐʉ",
+    "phoneticAr": "جاو",
+    "translit": "yadhhab / adhhab",
+    "definitionEn": "[\"move from one place to another; travel.\", \"intend or be likely or intended to be or do something; be about to .\", \"pass into a specified state, especially an undesirable one.\"]",
+    "usageNote": "often in a specified manner, indicating the perceived quality of an event or state).",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"how did the weekend go?\", \"ready, set, go!\", \"the kids go, “Yeah, sure.”\", \"she longs to go back home\", \"quite the go\", \"a high go\", \"ate it all in one go\", \"Get ready, get set, go\"], \"A2\": [\"this seems a rum sort of go\", \"a little luck can go a long way\", \"I thought I'd give it a go\"], \"B1\": [\"a large part of the museum's resources go toward maintaining the exhibits\"]}",
+    "collocations": "[\"Please don't go\", \"Go, girl You can do it\", \"ate it all in one go\", \"quite the go\", \"a high go\"]",
+    "synonyms": "[\"tour\", \"turn\", \"Adam\", \"spell\", \"betake oneself\"]",
+    "antonyms": "[\"stay in place\", \"come\", \"malfunction\"]",
+    "relatedWords": "{\"en\": [\"a-ok\", \"work\", \"tour\", \"spell\", \"belong\"], \"ar\": [\"إجْتَاز\", \"إشْتَغَل\", \"أيّد\", \"تَحَرّك\", \"تَحَزّب لِ\", \"تَحَيّز لِ\"]}",
+    "arabicAr": "يذهب",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 79,
+    "wordEn": "what",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 79,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɔt",
+    "phoneticUk": "wʌt",
+    "phoneticAr": "وأوت",
+    "translit": "madha",
+    "definitionEn": "[\"asking for information specifying something.\", \"the thing or things that .\", \"emphasizing something surprising or remarkable.\"]",
+    "usageNote": "often 'some'.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what some people do for attention!\", \"what luck!\", \"what a fool she was\", \"what does it matter?\", \"see you, what, about four?\", \"what? I can't hear you\", \"What a beautiful day\"], \"A2\": [\"do you know what excuse he gave me?\"], \"B1\": [\"I want to do what I can to make a difference\"]}",
+    "collocations": "[\"What nonsense\", \"What does it matter\", \"What do you care\", \"What That s amazing\", \"say what\"]",
+    "synonyms": "[\"guess\", \"really\", \"whereof\", \"whatever\", \"anything\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"whereof\", \"really\", \"anything\", \"guess\"], \"ar\": [\"أيّ\", \"يا له من\", \"الّذِي\", \"ما\", \"أيّما\", \"تعنيف\"]}",
+    "arabicAr": "ماذا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 80,
+    "wordEn": "what",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 80,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɔt",
+    "phoneticUk": "wʌt",
+    "phoneticAr": "وأوت",
+    "translit": "madha",
+    "definitionEn": "[\"asking for information specifying something.\", \"the thing or things that .\", \"emphasizing something surprising or remarkable.\"]",
+    "usageNote": "often 'some'.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what some people do for attention!\", \"what luck!\", \"what a fool she was\", \"what does it matter?\", \"see you, what, about four?\", \"what? I can't hear you\", \"What a beautiful day\"], \"A2\": [\"do you know what excuse he gave me?\"], \"B1\": [\"I want to do what I can to make a difference\"]}",
+    "collocations": "[\"What nonsense\", \"What does it matter\", \"What do you care\", \"What That s amazing\", \"say what\"]",
+    "synonyms": "[\"guess\", \"really\", \"whereof\", \"whatever\", \"anything\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"whereof\", \"really\", \"anything\", \"guess\"], \"ar\": [\"أيّ\", \"يا له من\", \"الّذِي\", \"ما\", \"أيّما\", \"تعنيف\"]}",
+    "arabicAr": "ماذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 81,
+    "wordEn": "what",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 81,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɔt",
+    "phoneticUk": "wʌt",
+    "phoneticAr": "وأوت",
+    "translit": "madha",
+    "definitionEn": "[\"asking for information specifying something.\", \"the thing or things that .\", \"emphasizing something surprising or remarkable.\"]",
+    "usageNote": "often 'some'.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what some people do for attention!\", \"what luck!\", \"what a fool she was\", \"what does it matter?\", \"see you, what, about four?\", \"what? I can't hear you\", \"What a beautiful day\"], \"A2\": [\"do you know what excuse he gave me?\"], \"B1\": [\"I want to do what I can to make a difference\"]}",
+    "collocations": "[\"What nonsense\", \"What does it matter\", \"What do you care\", \"What That s amazing\", \"say what\"]",
+    "synonyms": "[\"guess\", \"really\", \"whereof\", \"whatever\", \"anything\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"whereof\", \"really\", \"anything\", \"guess\"], \"ar\": [\"أيّ\", \"يا له من\", \"الّذِي\", \"ما\", \"أيّما\", \"تعنيف\"]}",
+    "arabicAr": "ماذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 82,
+    "wordEn": "there",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 82,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðeː(ɹ)",
+    "phoneticUk": "ðɛə(ɹ)",
+    "phoneticAr": "ذاي",
+    "translit": "hunak / hnak",
+    "definitionEn": "[\"in, at, or to that place or position.\", \"used in attracting someone's attention or calling attention to someone or something.\", \"indicate the fact or existence of something.\"]",
+    "usageNote": "used to emphasise demonstrative sense; see also them there.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't agree with you there\", \"hello there!\", \"there goes the phone\", \"there on the right\", \"therefor, thereat, thereunder\"], \"A2\": [\"there has been a big change in attitude\", \"the opportunity is right there in front of you\"], \"B1\": [\"we went on to Paris and stayed there eleven days\", \"at the end of the day, we are there to make money\"]}",
+    "collocations": "[\"therefor, thereat, thereunder\", \"getting there\", \"there records\"]",
+    "synonyms": "[\"thither\", \"at that place\", \"on that point\", \"in that respect\", \"in that location\"]",
+    "antonyms": "[\"here\"]",
+    "relatedWords": "{\"en\": [\"thither\", \"at that place\", \"in that location\", \"in that respect\", \"on that point\"], \"ar\": [\"هناك\", \"إلى هناك\", \"في تلك المسألة أو النقطة\", \"ثمةَ\", \"يوجد\", \"هُوَذا\"]}",
+    "arabicAr": "هناك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 83,
+    "wordEn": "all",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 83,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɔːl",
+    "phoneticUk": "ɑl",
+    "phoneticAr": "أول",
+    "translit": "aljamie / alkulu",
+    "definitionEn": "[\"refer to the whole quantity or extent of a particular group or thing.\", \"used after a number to indicate an equal score.\", \"the whole of one's energy or interest.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been all around the world\", \"all leather varsity jacket\", \"all by himself\", \"dressed all in black\"], \"A2\": [\"after extra time it was still two all\", \"giving their all for what they believed\"]}",
+    "collocations": "[\"cell all\", \"all out\"]",
+    "synonyms": "[\"wholly\", \"totally\", \"entirely\", \"completely\", \"each of\"]",
+    "antonyms": "[\"some\", \"partly\"]",
+    "relatedWords": "{\"en\": [\"totally\", \"wholly\", \"entirely\", \"completely\", \"altogether\"], \"ar\": [\"كلّ\", \"جميع\", \"تماماً\", \"بكل ما في الكلمة من معنى\", \"لكلّ فريق\", \"الجميع\"]}",
+    "arabicAr": "الجميع / الكل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 84,
+    "wordEn": "all",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 84,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɔːl",
+    "phoneticUk": "ɑl",
+    "phoneticAr": "أول",
+    "translit": "aljamie / alkulu",
+    "definitionEn": "[\"refer to the whole quantity or extent of a particular group or thing.\", \"used after a number to indicate an equal score.\", \"the whole of one's energy or interest.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been all around the world\", \"all leather varsity jacket\", \"all by himself\", \"dressed all in black\"], \"A2\": [\"after extra time it was still two all\", \"giving their all for what they believed\"]}",
+    "collocations": "[\"cell all\", \"all out\"]",
+    "synonyms": "[\"wholly\", \"totally\", \"entirely\", \"completely\", \"each of\"]",
+    "antonyms": "[\"some\", \"partly\"]",
+    "relatedWords": "{\"en\": [\"totally\", \"wholly\", \"entirely\", \"completely\", \"altogether\"], \"ar\": [\"كلّ\", \"جميع\", \"تماماً\", \"بكل ما في الكلمة من معنى\", \"لكلّ فريق\", \"الجميع\"]}",
+    "arabicAr": "الجميع / الكل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 85,
+    "wordEn": "all",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 85,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɔːl",
+    "phoneticUk": "ɑl",
+    "phoneticAr": "أول",
+    "translit": "aljamie / alkulu",
+    "definitionEn": "[\"refer to the whole quantity or extent of a particular group or thing.\", \"used after a number to indicate an equal score.\", \"the whole of one's energy or interest.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been all around the world\", \"all leather varsity jacket\", \"all by himself\", \"dressed all in black\"], \"A2\": [\"after extra time it was still two all\", \"giving their all for what they believed\"]}",
+    "collocations": "[\"cell all\", \"all out\"]",
+    "synonyms": "[\"wholly\", \"totally\", \"entirely\", \"completely\", \"each of\"]",
+    "antonyms": "[\"some\", \"partly\"]",
+    "relatedWords": "{\"en\": [\"totally\", \"wholly\", \"entirely\", \"completely\", \"altogether\"], \"ar\": [\"كلّ\", \"جميع\", \"تماماً\", \"بكل ما في الكلمة من معنى\", \"لكلّ فريق\", \"الجميع\"]}",
+    "arabicAr": "الجميع / الكل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 86,
+    "wordEn": "all",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 86,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɔːl",
+    "phoneticUk": "ɑl",
+    "phoneticAr": "أول",
+    "translit": "aljamie / alkulu",
+    "definitionEn": "[\"refer to the whole quantity or extent of a particular group or thing.\", \"used after a number to indicate an equal score.\", \"the whole of one's energy or interest.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been all around the world\", \"all leather varsity jacket\", \"all by himself\", \"dressed all in black\"], \"A2\": [\"after extra time it was still two all\", \"giving their all for what they believed\"]}",
+    "collocations": "[\"cell all\", \"all out\"]",
+    "synonyms": "[\"wholly\", \"totally\", \"entirely\", \"completely\", \"each of\"]",
+    "antonyms": "[\"some\", \"partly\"]",
+    "relatedWords": "{\"en\": [\"totally\", \"wholly\", \"entirely\", \"completely\", \"altogether\"], \"ar\": [\"كلّ\", \"جميع\", \"تماماً\", \"بكل ما في الكلمة من معنى\", \"لكلّ فريق\", \"الجميع\"]}",
+    "arabicAr": "الجميع / الكل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 87,
+    "wordEn": "get",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 87,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡɛt",
+    "phoneticUk": "ɡet",
+    "phoneticAr": "جايت",
+    "translit": "yahsul / ahsil ealaa",
+    "definitionEn": "[\"come to have or hold ; receive.\", \"succeed in attaining, achieving, or experiencing; obtain.\", \"enter or reach a specified state or condition; become.\"]",
+    "usageNote": "usually as a criminal",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'll get you for this!\", \"I'll get it!\", \"get her!\", \"I'm getting hungry how about you\", \"to get a mile\", \"Did you get her temperature\"], \"A2\": [\"wait until dad comes home, then you'll get it!\", \"get the form signed by a doctor\", \"he passes this on to his get\", \"I'll get the sack if things go wrong\", \"What do you mean? I don't get it\"]}",
+    "collocations": "[\"I'm getting hungry how about you\", \"to get a mile\", \"Did you get her temperature\", \"few get\", \"get togethers\"]",
+    "synonyms": "[\"let\", \"become\", \"acquire\"]",
+    "antonyms": "[\"leave\", \"take away\", \"end\"]",
+    "relatedWords": "{\"en\": [\"obtain\", \"acquire\", \"bring\", \"bring forth\", \"begin\"], \"ar\": [\"ذرّيّة\", \"نَسْل\", \"وَلَد\", \"جلب\", \"كسب\", \"حصل\"]}",
+    "arabicAr": "يحصل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 88,
+    "wordEn": "get",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 88,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɡɛt",
+    "phoneticUk": "ɡet",
+    "phoneticAr": "جايت",
+    "translit": "yahsul / ahsil ealaa",
+    "definitionEn": "[\"come to have or hold ; receive.\", \"succeed in attaining, achieving, or experiencing; obtain.\", \"enter or reach a specified state or condition; become.\"]",
+    "usageNote": "usually as a criminal",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'll get you for this!\", \"I'll get it!\", \"get her!\", \"I'm getting hungry how about you\", \"to get a mile\", \"Did you get her temperature\"], \"A2\": [\"wait until dad comes home, then you'll get it!\", \"get the form signed by a doctor\", \"he passes this on to his get\", \"I'll get the sack if things go wrong\", \"What do you mean? I don't get it\"]}",
+    "collocations": "[\"I'm getting hungry how about you\", \"to get a mile\", \"Did you get her temperature\", \"few get\", \"get togethers\"]",
+    "synonyms": "[\"let\", \"become\", \"acquire\"]",
+    "antonyms": "[\"leave\", \"take away\", \"end\"]",
+    "relatedWords": "{\"en\": [\"obtain\", \"acquire\", \"bring\", \"bring forth\", \"begin\"], \"ar\": [\"ذرّيّة\", \"نَسْل\", \"وَلَد\", \"جلب\", \"كسب\", \"حصل\"]}",
+    "arabicAr": "يحصل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 89,
+    "wordEn": "her",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 89,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ə(ɹ)",
+    "phoneticUk": "hɜ:",
+    "phoneticAr": "ا",
+    "translit": "ha / laha",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to a female person or animal previously mentioned or easily identified.\", \"belonging to or associated with a female person or animal previously mentioned or easily identified.\", \"The form of the objective and the possessive case of the personal pronoun she .\"]",
+    "category": "General / Common",
+    "register": "Informal",
+    "examples": "{\"A1\": [\"it must be her\", \"he was younger than her\", \"Patricia loved her job\", \"she knew I hated her\"], \"A2\": [\"I told Hannah I would wait for her\"], \"B1\": [\"the crew tried to sail her through a narrow gap\", \"at her launch, she was the ultimate in luxury transatlantic travel\"]}",
+    "collocations": "[\"Give it to her\", \"what her\", \"her majesty\"]",
+    "synonyms": "[\"she\", \"him\", \"son\", \"girl\", \"daughter\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"girl\", \"him\", \"daughter\", \"son\", \"sound\"], \"ar\": [\"خاصّ بالمفردة الغائبة\", \"ضمير الغائبة المتصل الواقع في محل نصب\", \"لها\", \"كتابها\", \"رايتها\"]}",
+    "arabicAr": "ها / ملكها",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 90,
+    "wordEn": "her",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 90,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ə(ɹ)",
+    "phoneticUk": "hɜ:",
+    "phoneticAr": "ا",
+    "translit": "ha / laha",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to a female person or animal previously mentioned or easily identified.\", \"belonging to or associated with a female person or animal previously mentioned or easily identified.\", \"The form of the objective and the possessive case of the personal pronoun she .\"]",
+    "category": "General / Common",
+    "register": "Informal",
+    "examples": "{\"A1\": [\"it must be her\", \"he was younger than her\", \"Patricia loved her job\", \"she knew I hated her\"], \"A2\": [\"I told Hannah I would wait for her\"], \"B1\": [\"the crew tried to sail her through a narrow gap\", \"at her launch, she was the ultimate in luxury transatlantic travel\"]}",
+    "collocations": "[\"Give it to her\", \"what her\", \"her majesty\"]",
+    "synonyms": "[\"she\", \"him\", \"son\", \"girl\", \"daughter\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"girl\", \"him\", \"daughter\", \"son\", \"sound\"], \"ar\": [\"خاصّ بالمفردة الغائبة\", \"ضمير الغائبة المتصل الواقع في محل نصب\", \"لها\", \"كتابها\", \"رايتها\"]}",
+    "arabicAr": "ها / ملكها",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 91,
+    "wordEn": "her",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 91,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ə(ɹ)",
+    "phoneticUk": "hɜ:",
+    "phoneticAr": "ا",
+    "translit": "ha / laha",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to a female person or animal previously mentioned or easily identified.\", \"belonging to or associated with a female person or animal previously mentioned or easily identified.\", \"The form of the objective and the possessive case of the personal pronoun she .\"]",
+    "category": "General / Common",
+    "register": "Informal",
+    "examples": "{\"A1\": [\"it must be her\", \"he was younger than her\", \"Patricia loved her job\", \"she knew I hated her\"], \"A2\": [\"I told Hannah I would wait for her\"], \"B1\": [\"the crew tried to sail her through a narrow gap\", \"at her launch, she was the ultimate in luxury transatlantic travel\"]}",
+    "collocations": "[\"Give it to her\", \"what her\", \"her majesty\"]",
+    "synonyms": "[\"she\", \"him\", \"son\", \"girl\", \"daughter\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"girl\", \"him\", \"daughter\", \"son\", \"sound\"], \"ar\": [\"خاصّ بالمفردة الغائبة\", \"ضمير الغائبة المتصل الواقع في محل نصب\", \"لها\", \"كتابها\", \"رايتها\"]}",
+    "arabicAr": "ها / ملكها",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 92,
+    "wordEn": "make",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 92,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "meɪk",
+    "phoneticAr": "مايك",
+    "translit": "yasnae",
+    "definitionEn": "[\"form by putting parts together or combining substances; construct; create.\", \"cause to exist or come about; bring about.\", \"compel to do something.\"]",
+    "usageNote": "often in the phrase to meddle or make.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"decorative features make brickwork more interesting\", \"let's make it 7:30\", \"he wasn't going to make captain\", \"Did I make myself heard\", \"made a questionable decision\", \"make a leap\"], \"A2\": [\"the make, model, and year of his car\", \"he waited confidently for his band to make it\"], \"B1\": [\"the sale price and extended warranty make it an excellent value\", \"the best way to disarm your critics is to make them laugh\", \"we've got a lot to do if you're going to make the shuttle\"]}",
+    "collocations": "[\"make war\", \"What time do you make it\", \"make plans\", \"make a leap\", \"make a pass\"]",
+    "synonyms": "[\"brand\", \"build\", \"shuffle\", \"shuffling\", \"construct\"]",
+    "antonyms": "[\"unmake\", \"break\"]",
+    "relatedWords": "{\"en\": [\"produce\", \"bring in\", \"take in\", \"build\", \"prepare\"], \"ar\": [\"بِنْيَة\", \"تَرْكِيب\", \"تَكْوِين\", \"دَخْل\", \"سَجِيّة\", \"طَبْع\"]}",
+    "arabicAr": "يصنع",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 93,
+    "wordEn": "make",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 93,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "meɪk",
+    "phoneticAr": "مايك",
+    "translit": "yasnae",
+    "definitionEn": "[\"form by putting parts together or combining substances; construct; create.\", \"cause to exist or come about; bring about.\", \"compel to do something.\"]",
+    "usageNote": "often in the phrase to meddle or make.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"decorative features make brickwork more interesting\", \"let's make it 7:30\", \"he wasn't going to make captain\", \"Did I make myself heard\", \"made a questionable decision\", \"make a leap\"], \"A2\": [\"the make, model, and year of his car\", \"he waited confidently for his band to make it\"], \"B1\": [\"the sale price and extended warranty make it an excellent value\", \"the best way to disarm your critics is to make them laugh\", \"we've got a lot to do if you're going to make the shuttle\"]}",
+    "collocations": "[\"make war\", \"What time do you make it\", \"make plans\", \"make a leap\", \"make a pass\"]",
+    "synonyms": "[\"brand\", \"build\", \"shuffle\", \"shuffling\", \"construct\"]",
+    "antonyms": "[\"unmake\", \"break\"]",
+    "relatedWords": "{\"en\": [\"produce\", \"bring in\", \"take in\", \"build\", \"prepare\"], \"ar\": [\"بِنْيَة\", \"تَرْكِيب\", \"تَكْوِين\", \"دَخْل\", \"سَجِيّة\", \"طَبْع\"]}",
+    "arabicAr": "يصنع",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 94,
+    "wordEn": "who",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 94,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "huː",
+    "phoneticUk": "hu:",
+    "phoneticAr": "هو",
+    "translit": "man / munazamat alsihat alealamia",
+    "definitionEn": "[\"what or which person or people.\", \"introduce a clause giving further information about a person or people previously mentioned.\", \"World Health Organization.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"who is that woman?\"], \"A2\": [\"who holds the sea, perforce doth hold the land\", \"Joan Fontaine plays the mouse who married the playboy\", \"I wonder who that letter was from\"]}",
+    "collocations": "[\"You're getting married Who to\", \"Who phone just rang\"]",
+    "synonyms": "[\"whom\", \"whoever\", \"whomever\", \"whosoever\", \"World Health Organization\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whom\", \"whoever\", \"whomever\", \"whosoever\", \"whoso\"], \"ar\": [\"مَن\", \"الّذِي\", \"التي\", \"الذين\", \"اللذان\", \"اللواتي\"]}",
+    "arabicAr": "من / مَن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 95,
+    "wordEn": "who",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 95,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "huː",
+    "phoneticUk": "hu:",
+    "phoneticAr": "هو",
+    "translit": "man / munazamat alsihat alealamia",
+    "definitionEn": "[\"what or which person or people.\", \"introduce a clause giving further information about a person or people previously mentioned.\", \"World Health Organization.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"who is that woman?\"], \"A2\": [\"who holds the sea, perforce doth hold the land\", \"Joan Fontaine plays the mouse who married the playboy\", \"I wonder who that letter was from\"]}",
+    "collocations": "[\"You're getting married Who to\", \"Who phone just rang\"]",
+    "synonyms": "[\"whom\", \"whoever\", \"whomever\", \"whosoever\", \"World Health Organization\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whom\", \"whoever\", \"whomever\", \"whosoever\", \"whoso\"], \"ar\": [\"مَن\", \"الّذِي\", \"التي\", \"الذين\", \"اللذان\", \"اللواتي\"]}",
+    "arabicAr": "من / مَن",
+    "addedFromOxford": 1
+  }
+]

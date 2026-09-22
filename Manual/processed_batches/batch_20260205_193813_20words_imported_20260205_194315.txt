@@ -1,0 +1,570 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 96,
+    "wordEn": "out",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 96,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æɔt",
+    "phoneticUk": "ʌʊt",
+    "phoneticAr": "آأوت",
+    "translit": "kharij",
+    "definitionEn": "[\"moving or appearing to move away from a particular place, especially one that is enclosed or hidden.\", \"situated far or at a particular distance from somewhere.\", \"so as to be revealed or known.\"]",
+    "usageNote": "relative to, and usually after, the present or a stated event",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"find out what you can\", \"he scored from 70 meters out\", \"Miss Beard cried out in horror\", \"he ran out the door\", \"Let's eat out tonight\", \"Keep out\"], \"A2\": [\"they lived eight miles out of town\", \"it works as well as any system that's out\", \"a trip to the seaside is out\", \"I had been out since I was 17\"]}",
+    "collocations": "[\"Let s eat out tonight\", \"write out\", \"all out\", \"out doors\"]",
+    "synonyms": "[\"extinct\", \"forbidden\", \"come out\", \"not here\", \"come out of the closet\"]",
+    "antonyms": "[\"safe\"]",
+    "relatedWords": "{\"en\": [\"away\", \"outer\", \"exterior\", \"retired\", \"extinct\"], \"ar\": [\"خارجيّ\", \"بعيد\", \"ناءٍ\", \"مخطئ\", \"خارجاً\", \"إلى الخارج\"]}",
+    "arabicAr": "خارج / خارجي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 97,
+    "wordEn": "out",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 97,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æɔt",
+    "phoneticUk": "ʌʊt",
+    "phoneticAr": "آأوت",
+    "translit": "kharij",
+    "definitionEn": "[\"moving or appearing to move away from a particular place, especially one that is enclosed or hidden.\", \"situated far or at a particular distance from somewhere.\", \"so as to be revealed or known.\"]",
+    "usageNote": "relative to, and usually after, the present or a stated event",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"find out what you can\", \"he scored from 70 meters out\", \"Miss Beard cried out in horror\", \"he ran out the door\", \"Let's eat out tonight\", \"Keep out\"], \"A2\": [\"they lived eight miles out of town\", \"it works as well as any system that's out\", \"a trip to the seaside is out\", \"I had been out since I was 17\"]}",
+    "collocations": "[\"Let s eat out tonight\", \"write out\", \"all out\", \"out doors\"]",
+    "synonyms": "[\"extinct\", \"forbidden\", \"come out\", \"not here\", \"come out of the closet\"]",
+    "antonyms": "[\"safe\"]",
+    "relatedWords": "{\"en\": [\"away\", \"outer\", \"exterior\", \"retired\", \"extinct\"], \"ar\": [\"خارجيّ\", \"بعيد\", \"ناءٍ\", \"مخطئ\", \"خارجاً\", \"إلى الخارج\"]}",
+    "arabicAr": "خارج / خارجي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 98,
+    "wordEn": "out",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 98,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æɔt",
+    "phoneticUk": "ʌʊt",
+    "phoneticAr": "آأوت",
+    "translit": "kharij",
+    "definitionEn": "[\"moving or appearing to move away from a particular place, especially one that is enclosed or hidden.\", \"situated far or at a particular distance from somewhere.\", \"so as to be revealed or known.\"]",
+    "usageNote": "relative to, and usually after, the present or a stated event",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"find out what you can\", \"he scored from 70 meters out\", \"Miss Beard cried out in horror\", \"he ran out the door\", \"Let's eat out tonight\", \"Keep out\"], \"A2\": [\"they lived eight miles out of town\", \"it works as well as any system that's out\", \"a trip to the seaside is out\", \"I had been out since I was 17\"]}",
+    "collocations": "[\"Let s eat out tonight\", \"write out\", \"all out\", \"out doors\"]",
+    "synonyms": "[\"extinct\", \"forbidden\", \"come out\", \"not here\", \"come out of the closet\"]",
+    "antonyms": "[\"safe\"]",
+    "relatedWords": "{\"en\": [\"away\", \"outer\", \"exterior\", \"retired\", \"extinct\"], \"ar\": [\"خارجيّ\", \"بعيد\", \"ناءٍ\", \"مخطئ\", \"خارجاً\", \"إلى الخارج\"]}",
+    "arabicAr": "خارج / خارجي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 99,
+    "wordEn": "up",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 99,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ap",
+    "phoneticUk": "ʌp",
+    "phoneticAr": "آب",
+    "translit": "'aelaa / fawq",
+    "definitionEn": "[\"toward a higher place or position.\", \"at or to a higher level of intensity, volume, or activity.\", \"toward or in the capital or a major city.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he jumped up\", \"the up escalator\", \"I zipped up my sweater\", \"the mood here is resolutely up\", \"AAKK aces up\", \"Can you sum up your research\"], \"A2\": [\"going for a walk up to the stores\", \"give me a ring when you're up in London\", \"I don't think anything's going to cheer me up\", \"his contract was up in three weeks\"]}",
+    "collocations": "[\"What's up, bro\", \"AAKK aces up\", \"QQ33 queens up\"]",
+    "synonyms": "[\"astir\", \"upward\", \"upwards\", \"upbound\", \"improving\"]",
+    "antonyms": "[\"down\", \"downwards\", \"downward\"]",
+    "relatedWords": "{\"en\": [\"upbound\", \"upwardly\", \"ascending\", \"upward\", \"upwards\"], \"ar\": [\"يرتفع\", \"يرفع\", \"يرقّي\", \"ينهض\", \"فوق\", \"إلى فوق\"]}",
+    "arabicAr": "أعلى / فوق",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 100,
+    "wordEn": "up",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 100,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ap",
+    "phoneticUk": "ʌp",
+    "phoneticAr": "آب",
+    "translit": "'aelaa / fawq",
+    "definitionEn": "[\"toward a higher place or position.\", \"at or to a higher level of intensity, volume, or activity.\", \"toward or in the capital or a major city.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he jumped up\", \"the up escalator\", \"I zipped up my sweater\", \"the mood here is resolutely up\", \"AAKK aces up\", \"Can you sum up your research\"], \"A2\": [\"going for a walk up to the stores\", \"give me a ring when you're up in London\", \"I don't think anything's going to cheer me up\", \"his contract was up in three weeks\"]}",
+    "collocations": "[\"What's up, bro\", \"AAKK aces up\", \"QQ33 queens up\"]",
+    "synonyms": "[\"astir\", \"upward\", \"upwards\", \"upbound\", \"improving\"]",
+    "antonyms": "[\"down\", \"downwards\", \"downward\"]",
+    "relatedWords": "{\"en\": [\"upbound\", \"upwardly\", \"ascending\", \"upward\", \"upwards\"], \"ar\": [\"يرتفع\", \"يرفع\", \"يرقّي\", \"ينهض\", \"فوق\", \"إلى فوق\"]}",
+    "arabicAr": "أعلى / فوق",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 101,
+    "wordEn": "up",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 101,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ap",
+    "phoneticUk": "ʌp",
+    "phoneticAr": "آب",
+    "translit": "'aelaa / fawq",
+    "definitionEn": "[\"toward a higher place or position.\", \"at or to a higher level of intensity, volume, or activity.\", \"toward or in the capital or a major city.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he jumped up\", \"the up escalator\", \"I zipped up my sweater\", \"the mood here is resolutely up\", \"AAKK aces up\", \"Can you sum up your research\"], \"A2\": [\"going for a walk up to the stores\", \"give me a ring when you're up in London\", \"I don't think anything's going to cheer me up\", \"his contract was up in three weeks\"]}",
+    "collocations": "[\"What's up, bro\", \"AAKK aces up\", \"QQ33 queens up\"]",
+    "synonyms": "[\"astir\", \"upward\", \"upwards\", \"upbound\", \"improving\"]",
+    "antonyms": "[\"down\", \"downwards\", \"downward\"]",
+    "relatedWords": "{\"en\": [\"upbound\", \"upwardly\", \"ascending\", \"upward\", \"upwards\"], \"ar\": [\"يرتفع\", \"يرفع\", \"يرقّي\", \"ينهض\", \"فوق\", \"إلى فوق\"]}",
+    "arabicAr": "أعلى / فوق",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 102,
+    "wordEn": "see",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 102,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "siː",
+    "phoneticUk": "si:",
+    "phoneticAr": "سي",
+    "translit": "yaraa / naraa",
+    "definitionEn": "[\"perceive with the eyes; discern visually.\", \"discern or deduce mentally after reflection or from information; understand.\", \"experience or witness .\"]",
+    "usageNote": "Used to emphasise a proposition.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she could see what Rhoda meant\", \"the doctor will see you now\", \"you and I see things differently\"], \"A2\": [\"see that no harm comes to him\", \"I can't bear to see you so unhappy\", \"I shall not live to see it\", \"in the distance she could see the blue sea\"], \"B1\": [\"he left the priesthood and his episcopal see to become a politician\"]}",
+    "collocations": "[\"Now I've seen it all\", \"Do you see what I mean\", \"I'll see you hang for this\", \"more see\", \"see saw\"]",
+    "synonyms": "[\"behold\", \"realize\", \"realise\", \"witness\", \"understand\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ascertain\", \"realize\", \"witness\", \"see to it\", \"confer\"], \"ar\": [\"أبْرَشِيّة\", \"الأُسقفيّة\", \"أبرشيّة\", \"مقرّ الأسقف\", \"شاهد\", \"رأى\"]}",
+    "arabicAr": "يرى",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 103,
+    "wordEn": "see",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 103,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "siː",
+    "phoneticUk": "si:",
+    "phoneticAr": "سي",
+    "translit": "yaraa / naraa",
+    "definitionEn": "[\"perceive with the eyes; discern visually.\", \"discern or deduce mentally after reflection or from information; understand.\", \"experience or witness .\"]",
+    "usageNote": "Used to emphasise a proposition.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she could see what Rhoda meant\", \"the doctor will see you now\", \"you and I see things differently\"], \"A2\": [\"see that no harm comes to him\", \"I can't bear to see you so unhappy\", \"I shall not live to see it\", \"in the distance she could see the blue sea\"], \"B1\": [\"he left the priesthood and his episcopal see to become a politician\"]}",
+    "collocations": "[\"Now I've seen it all\", \"Do you see what I mean\", \"I'll see you hang for this\", \"more see\", \"see saw\"]",
+    "synonyms": "[\"behold\", \"realize\", \"realise\", \"witness\", \"understand\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ascertain\", \"realize\", \"witness\", \"see to it\", \"confer\"], \"ar\": [\"أبْرَشِيّة\", \"الأُسقفيّة\", \"أبرشيّة\", \"مقرّ الأسقف\", \"شاهد\", \"رأى\"]}",
+    "arabicAr": "يرى",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 104,
+    "wordEn": "know",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 104,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "noʊ",
+    "phoneticUk": "nəʊ",
+    "phoneticAr": "ناو",
+    "translit": "yueraf / aerf",
+    "definitionEn": "[\"be aware of through observation, inquiry, or information.\", \"have developed a relationship with through meeting and spending time with them; be familiar or friendly with.\", \"have sexual intercourse with .\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I know what I'm doing\", \"Do you know Blueberry Hill\"], \"A2\": [\"I know of one local who shot himself\"], \"B1\": [\"most people know that CFCs can damage the ozone layer\"], \"B2\": [\"you are convinced you know your own baby from any other in the world\"]}",
+    "collocations": "[\"to know right from wrong\", \"Do you know Blueberry Hill\", \"few know\", \"know how\"]",
+    "synonyms": "[\"live\", \"savvy\", \"cognize\", \"cognise\", \"experience\"]",
+    "antonyms": "[\"ignore\"]",
+    "relatedWords": "{\"en\": [\"informed\", \"knowledgeable\", \"enlightened\", \"well-read\", \"wise\"], \"ar\": [\"معرفة\", \"علم\", \"عرف\", \"فهم\", \"درى\", \"ميز\"]}",
+    "arabicAr": "يعرف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 105,
+    "wordEn": "know",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 105,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "noʊ",
+    "phoneticUk": "nəʊ",
+    "phoneticAr": "ناو",
+    "translit": "yueraf / aerf",
+    "definitionEn": "[\"be aware of through observation, inquiry, or information.\", \"have developed a relationship with through meeting and spending time with them; be familiar or friendly with.\", \"have sexual intercourse with .\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I know what I'm doing\", \"Do you know Blueberry Hill\"], \"A2\": [\"I know of one local who shot himself\"], \"B1\": [\"most people know that CFCs can damage the ozone layer\"], \"B2\": [\"you are convinced you know your own baby from any other in the world\"]}",
+    "collocations": "[\"to know right from wrong\", \"Do you know Blueberry Hill\", \"few know\", \"know how\"]",
+    "synonyms": "[\"live\", \"savvy\", \"cognize\", \"cognise\", \"experience\"]",
+    "antonyms": "[\"ignore\"]",
+    "relatedWords": "{\"en\": [\"informed\", \"knowledgeable\", \"enlightened\", \"well-read\", \"wise\"], \"ar\": [\"معرفة\", \"علم\", \"عرف\", \"فهم\", \"درى\", \"ميز\"]}",
+    "arabicAr": "يعرف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 106,
+    "wordEn": "time",
+    "pos": "adj",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 106,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "tɑem",
+    "phoneticUk": "taɪm",
+    "phoneticAr": "تآايم",
+    "translit": "waqt / zaman",
+    "definitionEn": "[\"the indefinite continued progress of existence and events in the past, present, and future regarded as a whole.\", \"a point of time as measured in hours and minutes past midnight or noon.\", \"time as allotted, available, or used.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the scheduled departure time\", \"it was time to go\", \"we need more time\", \"tunes in waltz time\", \"our conception of time\", \"the time of a verb\"], \"A2\": [\"I've known a lot of women in my time\", \"it would be a waste of time\", \"she was having a rough time of it\"]}",
+    "collocations": "[\"a long time\", \"Roman times\", \"the time of the dinosaurs\", \"one more time\", \"dance time march time\"]",
+    "synonyms": "[\"clip\", \"meter\", \"o'clock\", \"clock time\", \"fourth dimension\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"fourth dimension\", \"clock\", \"meter\", \"clip\", \"sentence\"], \"ar\": [\"زمنيّ\", \"موقوت\", \"إبّان\", \"أجَل\", \"أمَد\", \"آن\"]}",
+    "arabicAr": "وقت",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 107,
+    "wordEn": "time",
+    "pos": "verb",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 107,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "tɑem",
+    "phoneticUk": "taɪm",
+    "phoneticAr": "تآايم",
+    "translit": "waqt / zaman",
+    "definitionEn": "[\"the indefinite continued progress of existence and events in the past, present, and future regarded as a whole.\", \"a point of time as measured in hours and minutes past midnight or noon.\", \"time as allotted, available, or used.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the scheduled departure time\", \"it was time to go\", \"we need more time\", \"tunes in waltz time\", \"our conception of time\", \"the time of a verb\"], \"A2\": [\"I've known a lot of women in my time\", \"it would be a waste of time\", \"she was having a rough time of it\"]}",
+    "collocations": "[\"a long time\", \"Roman times\", \"the time of the dinosaurs\", \"one more time\", \"dance time march time\"]",
+    "synonyms": "[\"clip\", \"meter\", \"o'clock\", \"clock time\", \"fourth dimension\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"fourth dimension\", \"clock\", \"meter\", \"clip\", \"sentence\"], \"ar\": [\"زمنيّ\", \"موقوت\", \"إبّان\", \"أجَل\", \"أمَد\", \"آن\"]}",
+    "arabicAr": "وقت",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 108,
+    "wordEn": "time",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 108,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "tɑem",
+    "phoneticUk": "taɪm",
+    "phoneticAr": "تآايم",
+    "translit": "waqt / zaman",
+    "definitionEn": "[\"the indefinite continued progress of existence and events in the past, present, and future regarded as a whole.\", \"a point of time as measured in hours and minutes past midnight or noon.\", \"time as allotted, available, or used.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the scheduled departure time\", \"it was time to go\", \"we need more time\", \"tunes in waltz time\", \"our conception of time\", \"the time of a verb\"], \"A2\": [\"I've known a lot of women in my time\", \"it would be a waste of time\", \"she was having a rough time of it\"]}",
+    "collocations": "[\"a long time\", \"Roman times\", \"the time of the dinosaurs\", \"one more time\", \"dance time march time\"]",
+    "synonyms": "[\"clip\", \"meter\", \"o'clock\", \"clock time\", \"fourth dimension\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"fourth dimension\", \"clock\", \"meter\", \"clip\", \"sentence\"], \"ar\": [\"زمنيّ\", \"موقوت\", \"إبّان\", \"أجَل\", \"أمَد\", \"آن\"]}",
+    "arabicAr": "وقت",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 109,
+    "wordEn": "take",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 109,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "teɪk",
+    "phoneticAr": "تايك",
+    "translit": "yakhudh",
+    "definitionEn": "[\"lay hold of with one's hands; reach for and hold.\", \"remove from a particular place.\", \"carry or bring with one; convey.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I can't take the humidity\", \"they don't take children\", \"I take your point\", \"take an aspirin and lie down\", \"I'll take you to your room\", \"take two eggs from the carton\", \"take her word for it\", \"took a chill\", \"took her attention\"], \"A2\": [\"he leaned forward to take her hand\", \"take half the marzipan and roll out\"], \"B2\": [\"West leads a club enabling his partner to take three tricks in the suit\"]}",
+    "collocations": "[\"take the guards prisoner\", \"take prisoners\", \"take a toll\", \"take revenge\", \"Do you take plastic\"]",
+    "synonyms": "[\"issue\", \"return\", \"takings\", \"proceeds\", \"lay hold of\"]",
+    "antonyms": "[\"give\", \"refuse\", \"obviate\"]",
+    "relatedWords": "{\"en\": [\"get hold of\", \"take up\", \"undergo\", \"pick out\", \"hold\"], \"ar\": [\"استجابة\", \"استيلاء\", \"الأخْذ\", \"الحَصِيلة\", \"أيُزيل\", \"أيلتقط\"]}",
+    "arabicAr": "يأخذ",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 110,
+    "wordEn": "take",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 110,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "teɪk",
+    "phoneticAr": "تايك",
+    "translit": "yakhudh",
+    "definitionEn": "[\"lay hold of with one's hands; reach for and hold.\", \"remove from a particular place.\", \"carry or bring with one; convey.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I can't take the humidity\", \"they don't take children\", \"I take your point\", \"take an aspirin and lie down\", \"I'll take you to your room\", \"take two eggs from the carton\", \"take her word for it\", \"took a chill\", \"took her attention\"], \"A2\": [\"he leaned forward to take her hand\", \"take half the marzipan and roll out\"], \"B2\": [\"West leads a club enabling his partner to take three tricks in the suit\"]}",
+    "collocations": "[\"take the guards prisoner\", \"take prisoners\", \"take a toll\", \"take revenge\", \"Do you take plastic\"]",
+    "synonyms": "[\"issue\", \"return\", \"takings\", \"proceeds\", \"lay hold of\"]",
+    "antonyms": "[\"give\", \"refuse\", \"obviate\"]",
+    "relatedWords": "{\"en\": [\"get hold of\", \"take up\", \"undergo\", \"pick out\", \"hold\"], \"ar\": [\"استجابة\", \"استيلاء\", \"الأخْذ\", \"الحَصِيلة\", \"أيُزيل\", \"أيلتقط\"]}",
+    "arabicAr": "يأخذ",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 111,
+    "wordEn": "them",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 111,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðʌm",
+    "phoneticAr": "ذام",
+    "translit": "hum / maeahum",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to two or more people or things previously mentioned or easily identified.\", \"The objective case of they\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"look at them eyes\", \"we're better than them\", \"you think that's them?\"], \"A2\": [\"rows of doors, most of them locked\", \"I bathed the kids and read them stories\", \"they bethought them of a new expedient\"], \"B1\": [\"Rowan stopped being a mod on this blog, but we still contact them\"], \"B2\": [\"how well do you have to know someone before you call them a friend?\"]}",
+    "collocations": "[\"forgive them\", \"them the\"]",
+    "synonyms": "[\"ces\", \"both\", \"elles\", \"enemy\", \"children\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"both\", \"ces\", \"children\", \"elles\", \"enemy\"], \"ar\": [\"هُمْ\", \"هُنَّ\", \"ها\", \"هما\", \"ـهُمْ\", \"هم\"]}",
+    "arabicAr": "هم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 112,
+    "wordEn": "them",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 112,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðʌm",
+    "phoneticAr": "ذام",
+    "translit": "hum / maeahum",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to two or more people or things previously mentioned or easily identified.\", \"The objective case of they\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"look at them eyes\", \"we're better than them\", \"you think that's them?\"], \"A2\": [\"rows of doors, most of them locked\", \"I bathed the kids and read them stories\", \"they bethought them of a new expedient\"], \"B1\": [\"Rowan stopped being a mod on this blog, but we still contact them\"], \"B2\": [\"how well do you have to know someone before you call them a friend?\"]}",
+    "collocations": "[\"forgive them\", \"them the\"]",
+    "synonyms": "[\"ces\", \"both\", \"elles\", \"enemy\", \"children\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"both\", \"ces\", \"children\", \"elles\", \"enemy\"], \"ar\": [\"هُمْ\", \"هُنَّ\", \"ها\", \"هما\", \"ـهُمْ\", \"هم\"]}",
+    "arabicAr": "هم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 113,
+    "wordEn": "some",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 113,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "sɐm",
+    "phoneticAr": "سام",
+    "translit": "baed / bed",
+    "definitionEn": "[\"an unspecified amount or number of.\", \"refer to someone or something that is unknown or unspecified.\", \"a considerable amount or number of.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he went to some trouble\", \"that was some goal\", \"surely some have noticed\", \"he's in some kind of trouble\", \"I made some money running errands\"], \"A2\": [\"if you want whiskey I'll give you some\", \"I was talking to some journalist the other day\", \"I've known you for some years now\"]}",
+    "collocations": "[\"Would you like some grapes\", \"Would you like some water\", \"part some\", \"some aspects\"]",
+    "synonyms": "[\"about\", \"approximately\", \"close to\", \"just about\", \"more or less\"]",
+    "antonyms": "[\"all\"]",
+    "relatedWords": "{\"en\": [\"approximately\", \"more or less\", \"close to\", \"just about\", \"about\"], \"ar\": [\"ما\", \"بعض\", \"بضعة\", \"بضع\", \"هامّ\", \"رائع\"]}",
+    "arabicAr": "بعض",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 114,
+    "wordEn": "some",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 114,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "sɐm",
+    "phoneticAr": "سام",
+    "translit": "baed / bed",
+    "definitionEn": "[\"an unspecified amount or number of.\", \"refer to someone or something that is unknown or unspecified.\", \"a considerable amount or number of.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he went to some trouble\", \"that was some goal\", \"surely some have noticed\", \"he's in some kind of trouble\", \"I made some money running errands\"], \"A2\": [\"if you want whiskey I'll give you some\", \"I was talking to some journalist the other day\", \"I've known you for some years now\"]}",
+    "collocations": "[\"Would you like some grapes\", \"Would you like some water\", \"part some\", \"some aspects\"]",
+    "synonyms": "[\"about\", \"approximately\", \"close to\", \"just about\", \"more or less\"]",
+    "antonyms": "[\"all\"]",
+    "relatedWords": "{\"en\": [\"approximately\", \"more or less\", \"close to\", \"just about\", \"about\"], \"ar\": [\"ما\", \"بعض\", \"بضعة\", \"بضع\", \"هامّ\", \"رائع\"]}",
+    "arabicAr": "بعض",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 115,
+    "wordEn": "some",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 115,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "sɐm",
+    "phoneticAr": "سام",
+    "translit": "baed / bed",
+    "definitionEn": "[\"an unspecified amount or number of.\", \"refer to someone or something that is unknown or unspecified.\", \"a considerable amount or number of.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he went to some trouble\", \"that was some goal\", \"surely some have noticed\", \"he's in some kind of trouble\", \"I made some money running errands\"], \"A2\": [\"if you want whiskey I'll give you some\", \"I was talking to some journalist the other day\", \"I've known you for some years now\"]}",
+    "collocations": "[\"Would you like some grapes\", \"Would you like some water\", \"part some\", \"some aspects\"]",
+    "synonyms": "[\"about\", \"approximately\", \"close to\", \"just about\", \"more or less\"]",
+    "antonyms": "[\"all\"]",
+    "relatedWords": "{\"en\": [\"approximately\", \"more or less\", \"close to\", \"just about\", \"about\"], \"ar\": [\"ما\", \"بعض\", \"بضعة\", \"بضع\", \"هامّ\", \"رائع\"]}",
+    "arabicAr": "بعض",
+    "addedFromOxford": 1
+  }
+]

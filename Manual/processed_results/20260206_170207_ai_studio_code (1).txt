@@ -1,0 +1,2202 @@
+{
+  "wordEntries": [
+    {
+      "id": 1533,
+      "wordEn": "except",
+      "pos": "conj",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ɪkˈsɛpt",
+      "phoneticUk": null,
+      "phoneticAr": "إِكْسِبْت",
+      "translit": "Illā / Mā 'adā",
+      "definitionEn": "Used to introduce a statement that forms an exception to what was just said.",
+      "definitionAr": "كلمة بنستخدمها عشان نقول \"ما عدا\" أو نستثني حاجة من كلامنا. يعني لو قلت كل الناس جت \"except\" فلان، يبقى فلان ده هو الوحيد اللي ماجاش.",
+      "usageNote": "Commonly followed by 'for' (except for) or used directly before a clause.",
+      "category": "Social Life & Communication",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Exclusion",
+        "#Grammar",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Except\" شبه \"Accept\" (يقبل) بس العكس.. لما تعمل \"Accept\" لحد بتدخله معاك، لكن \"Except\" بتخرجه برا الحساب.",
+      "examples": {
+        "A1": "I like all fruit except apples.",
+        "A2": "Everyone was there except for John.",
+        "B1": "The museum is open daily except Mondays.",
+        "B2": "She remembered nothing about the accident except that it was raining.",
+        "C1": "I would go with you, except I have a meeting.",
+        "C2": "He is a fine worker, except that he is occasionally late."
+      },
+      "collocations": [
+        "except for",
+        "except that",
+        "everyone except",
+        "nothing except"
+      ],
+      "synonyms": [
+        "but",
+        "barring",
+        "excluding",
+        "save",
+        "apart from"
+      ],
+      "antonyms": [
+        "including"
+      ],
+      "relatedWords": {
+        "en": [
+          "exception",
+          "exceptional",
+          "exclude"
+        ],
+        "ar": [
+          "استثناء",
+          "استثنائي",
+          "يستبعد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "exception",
+        "verb": "except",
+        "adj": "exceptional",
+        "adv": "exceptionally"
+      },
+      "arabicAr": "إلا / ما عدا",
+      "frenchFr": "sauf",
+      "germanDe": "außer",
+      "spanishEs": "excepto",
+      "chineseZh": "除了 (Chúle)",
+      "russianRu": "кроме",
+      "portuguesePt": "exceto",
+      "japaneseJa": "〜を除いて (…o nozoite)",
+      "italianIt": "eccetto",
+      "turkishTr": "haricinde",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1534,
+      "wordEn": "physical",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈfɪzɪkəl",
+      "phoneticUk": null,
+      "phoneticAr": "فِزِيكَال",
+      "translit": "Jasadī / Māddī",
+      "definitionEn": "Relating to the body as opposed to the mind; tangible or concrete.",
+      "definitionAr": "حاجة ليها علاقة بالجسم \"الجسد\" مش العقل، أو حاجة مادية ملموسة تقدر تمسكها بإيدك عكس الحاجات المعنوية.",
+      "usageNote": "Used for both bodily health (physical fitness) and material objects (physical world).",
+      "category": "Health & Senses",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Body",
+        "#Science",
+        "#Health"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Physics\" (الفيزياء) علم الطبيعة والمادة.. فالـ \"Physical\" هو أي حاجة مادية أو جسدية.",
+      "examples": {
+        "A1": "Football is a physical game.",
+        "A2": "He has great physical strength.",
+        "B1": "Regular physical exercise is good for your heart.",
+        "B2": "There was no physical evidence of the crime.",
+        "C1": "The job requires physical stamina and mental alertness.",
+        "C2": "She felt a physical revulsion at the sight of the wound."
+      },
+      "collocations": [
+        "physical education",
+        "physical health",
+        "physical appearance",
+        "physical contact"
+      ],
+      "synonyms": [
+        "bodily",
+        "corporeal",
+        "material",
+        "tangible",
+        "concrete"
+      ],
+      "antonyms": [
+        "mental",
+        "spiritual"
+      ],
+      "relatedWords": {
+        "en": [
+          "physics",
+          "physique",
+          "physically"
+        ],
+        "ar": [
+          "فيزياء",
+          "بنية جسدية",
+          "جسديا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "physique",
+        "verb": "",
+        "adj": "physical",
+        "adv": "physically"
+      },
+      "arabicAr": "جسدي / مادي",
+      "frenchFr": "physique",
+      "germanDe": "körperlich",
+      "spanishEs": "físico",
+      "chineseZh": "身体的 (Shēntǐ de)",
+      "russianRu": "физический",
+      "portuguesePt": "físico",
+      "japaneseJa": "身体の (Shintai no)",
+      "italianIt": "fisico",
+      "turkishTr": "fiziksel",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1535,
+      "wordEn": "check",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "tʃɛk",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِك",
+      "translit": "Fahṣ / Shīk",
+      "definitionEn": "An examination to test accuracy or quality; also a bill in a restaurant (US).",
+      "definitionAr": "ممكن تكون عملية فحص وتأكد من حاجة، وممكن تكون الفاتورة اللي بتدفعها في المطعم (بالأمريكي)، أو الشيك البنكي.",
+      "usageNote": "In US English, 'check' is also the bill in a restaurant. In UK English, 'bill' is used.",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Money",
+        "#Inspection",
+        "#Banking"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "افتكر \"Check\" البنك (الشيك).. لازم البنك يعمل \"Check\" (فحص) وتأكد من رصيدك قبل ما يصرفه.",
+      "examples": {
+        "A1": "Can I have the check, please?",
+        "A2": "We did a quick check of the car before driving.",
+        "B1": "The security check at the airport took a long time.",
+        "B2": "Regular health checks are important.",
+        "C1": "There needs to be a check on government spending.",
+        "C2": "The system provides a check against unauthorized access."
+      },
+      "collocations": [
+        "security check",
+        "background check",
+        "pay by check",
+        "rain check"
+      ],
+      "synonyms": [
+        "inspection",
+        "examination",
+        "bill",
+        "audit"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "checkout",
+          "checklist",
+          "checker"
+        ],
+        "ar": [
+          "نقطة تفتيش",
+          "قائمة مراجعة",
+          "فاحص"
+        ]
+      },
+      "wordFamily": {
+        "noun": "check",
+        "verb": "check",
+        "adj": "checked",
+        "adv": ""
+      },
+      "arabicAr": "فحص / شيك",
+      "frenchFr": "vérification",
+      "germanDe": "Scheck",
+      "spanishEs": "cheque",
+      "chineseZh": "支票 (Zhīpiào)",
+      "russianRu": "проверка",
+      "portuguesePt": "cheque",
+      "japaneseJa": "小切手 (Kogitte)",
+      "italianIt": "controllo",
+      "turkishTr": "kontrol",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1536,
+      "wordEn": "check",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "tʃɛk",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِك",
+      "translit": "Yafḥaṣ / Yata'akkad",
+      "definitionEn": "To examine something to determine its accuracy, quality, or condition.",
+      "definitionAr": "يعني تفحص حاجة وتتأكد إنها صح أو شغالة تمام. زي لما تعمل تشِك على الزيت في العربية.",
+      "usageNote": "Often used with prepositions like 'check in', 'check out', 'check up'.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Verification",
+        "#Travel",
+        "#DailyLife"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Check\" بنستخدمها في العربي كتير.. \"شيك\" على الباب يعني اتأكد إنه مقفول.",
+      "examples": {
+        "A1": "Please check your answers.",
+        "A2": "I need to check my email.",
+        "B1": "Check that all the windows are closed.",
+        "B2": "You should check with your doctor before starting this diet.",
+        "C1": "We need to check the spread of the disease.",
+        "C2": "The regulations are designed to check the abuse of power."
+      },
+      "collocations": [
+        "check in",
+        "check out",
+        "check up",
+        "check for"
+      ],
+      "synonyms": [
+        "examine",
+        "inspect",
+        "verify",
+        "investigate"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ],
+      "relatedWords": {
+        "en": [
+          "checker",
+          "checked",
+          "checklist"
+        ],
+        "ar": [
+          "فاحص",
+          "مفحوص",
+          "قائمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "check",
+        "verb": "check",
+        "adj": "checked",
+        "adv": ""
+      },
+      "arabicAr": "يفحص / يتأكد",
+      "frenchFr": "vérifier",
+      "germanDe": "prüfen",
+      "spanishEs": "comprobar",
+      "chineseZh": "检查 (Jiǎnchá)",
+      "russianRu": "проверять",
+      "portuguesePt": "verificar",
+      "japaneseJa": "確認する (Kakunin suru)",
+      "italianIt": "controllare",
+      "turkishTr": "kontrol etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1537,
+      "wordEn": "sun",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "sʌn",
+      "phoneticUk": null,
+      "phoneticAr": "سان",
+      "translit": "Shams",
+      "definitionEn": "The star around which the earth orbits; the light or warmth received from this star.",
+      "definitionAr": "النجم الكبير اللي بينور الأرض الصبح وبيدفينا. الشمس.",
+      "usageNote": "Usually preceded by 'the' (The sun).",
+      "category": "Nature & Environment",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Space",
+        "#Weather",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نطقها زي \"Son\" (ابن).. الشمس هي الـ \"Sun\".",
+      "examples": {
+        "A1": "The sun is hot today.",
+        "A2": "The sun rises in the east.",
+        "B1": "We sat in the sun to keep warm.",
+        "B2": "Too much sun can damage your skin.",
+        "C1": "The sun was beating down on the desert.",
+        "C2": "He was the sun around whom the whole family revolved."
+      },
+      "collocations": [
+        "sun rise",
+        "sun set",
+        "bright sun",
+        "hot sun"
+      ],
+      "synonyms": [
+        "star",
+        "daylight",
+        "sunlight"
+      ],
+      "antonyms": [
+        "moon"
+      ],
+      "relatedWords": {
+        "en": [
+          "sunny",
+          "solar",
+          "sunshine"
+        ],
+        "ar": [
+          "مشمس",
+          "شمسي",
+          "أشعة الشمس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sun",
+        "verb": "sun",
+        "adj": "sunny",
+        "adv": "unnily"
+      },
+      "arabicAr": "شمس",
+      "frenchFr": "soleil",
+      "germanDe": "Sonne",
+      "spanishEs": "sol",
+      "chineseZh": "太阳 (Tàiyáng)",
+      "russianRu": "солнце",
+      "portuguesePt": "sol",
+      "japaneseJa": "太陽 (Taiyō)",
+      "italianIt": "sole",
+      "turkishTr": "güneş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1538,
+      "wordEn": "possibility",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "9",
+      "phoneticUs": "ˌpɑsəˈbɪlɪti",
+      "phoneticUk": "ˌpɒsɪˈbɪlɪti",
+      "phoneticAr": "پاسِبِلِتِي",
+      "translit": "Iḥtimāliyya / Imkāniyya",
+      "definitionEn": "A thing that may happen or be the case; the state of being possible.",
+      "definitionAr": "احتمالية حدوث شيء. يعني حاجة ممكن تحصل وممكن لأ. فرصة إن الموضوع يتم.",
+      "usageNote": "Often followed by 'of' + gerund (possibility of rain) or 'that' clause.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Chance",
+        "#Future",
+        "#Planning"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Possible\" (ممكن).. الـ \"Possibility\" هي الإمكانية نفسها.",
+      "examples": {
+        "A1": "Is there a possibility of rain?",
+        "A2": "There is a strong possibility that he will win.",
+        "B1": "We need to consider every possibility.",
+        "B2": "The possibility of failure did not scare him.",
+        "C1": "She ruled out the possibility of a mistake.",
+        "C2": "We discussed the possibilities for future collaboration."
+      },
+      "collocations": [
+        "strong possibility",
+        "distinct possibility",
+        "rule out a possibility",
+        "face the possibility"
+      ],
+      "synonyms": [
+        "chance",
+        "likelihood",
+        "prospect",
+        "feasibility"
+      ],
+      "antonyms": [
+        "impossibility",
+        "certainty"
+      ],
+      "relatedWords": {
+        "en": [
+          "possible",
+          "possibly",
+          "impossible"
+        ],
+        "ar": [
+          "ممكن",
+          "ربما",
+          "مستحيل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "possibility",
+        "verb": "",
+        "adj": "possible",
+        "adv": "possibly"
+      },
+      "arabicAr": "إمكانية / احتمالية",
+      "frenchFr": "possibilité",
+      "germanDe": "Möglichkeit",
+      "spanishEs": "posibilidad",
+      "chineseZh": "可能性 (Kěnéng xìng)",
+      "russianRu": "возможность",
+      "portuguesePt": "possibilidade",
+      "japaneseJa": "可能性 (Kanōsei)",
+      "italianIt": "possibilità",
+      "turkishTr": "olasılık",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1539,
+      "wordEn": "species",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈspiːʃiːz",
+      "phoneticUk": "ˈspiːʃiːz",
+      "phoneticAr": "سْبِيشِيز",
+      "translit": "Faṣīla / Naw'",
+      "definitionEn": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding.",
+      "definitionAr": "فصيلة أو نوع من الكائنات الحية. مجموعة حيوانات أو نباتات شبه بعض وبيقدروا يتكاثروا مع بعض.",
+      "usageNote": "The word 'species' is both singular and plural (one species, two species).",
+      "category": "Nature & Environment",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Biology",
+        "#Animals",
+        "#Science"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Species\" قريبة من \"Specific\" (محدد).. لأن كل فصيلة ليها صفات محددة بتميزها.",
+      "examples": {
+        "A1": "Pandas are a rare species.",
+        "A2": "Many bird species live in this forest.",
+        "B1": "The park protects endangered species.",
+        "B2": "Scientists discovered a new species of frog.",
+        "C1": "Climate change threatens the survival of many species.",
+        "C2": "The origin of species is a fundamental concept in biology."
+      },
+      "collocations": [
+        "endangered species",
+        "new species",
+        "rare species",
+        "human species"
+      ],
+      "synonyms": [
+        "type",
+        "kind",
+        "breed",
+        "variety"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "specimen",
+          "special",
+          "specific"
+        ],
+        "ar": [
+          "عينة",
+          "خاص",
+          "محدد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "species",
+        "verb": "",
+        "adj": "specific",
+        "adv": "specifically"
+      },
+      "arabicAr": "فصيلة / نوع",
+      "frenchFr": "espèce",
+      "germanDe": "Art",
+      "spanishEs": "especie",
+      "chineseZh": "物种 (Wùzhǒng)",
+      "russianRu": "вид",
+      "portuguesePt": "espécie",
+      "japaneseJa": "種 (Shu)",
+      "italianIt": "specie",
+      "turkishTr": "tür",
+      "aiConfidence": 0.88
+    },
+    {
+      "id": 1540,
+      "wordEn": "official",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈfɪʃəl",
+      "phoneticUk": null,
+      "phoneticAr": "أُفِشَل",
+      "translit": "Rasmī",
+      "definitionEn": "Relating to an authority or public body; approved or authorized.",
+      "definitionAr": "رسمي. يعني حاجة طالعة من جهة مسؤولة زي الحكومة أو الشركة، مش حاجة ودية أو غير معتمدة.",
+      "usageNote": "Used for documents, announcements, and roles.",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Government",
+        "#Authority",
+        "#Law"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Office\" (مكتب).. الشغل الرسمي بيطلع من الـ \"Office\".",
+      "examples": {
+        "A1": "This is an official document.",
+        "A2": "English is the official language here.",
+        "B1": "We are waiting for an official announcement.",
+        "B2": "The visit was official, not personal.",
+        "C1": "He paid an official visit to the headquarters.",
+        "C2": "Despite the lack of official sanction, the project proceeded."
+      },
+      "collocations": [
+        "official language",
+        "official visit",
+        "official website",
+        "make it official"
+      ],
+      "synonyms": [
+        "authorized",
+        "formal",
+        "certified",
+        "legal"
+      ],
+      "antonyms": [
+        "unofficial",
+        "informal"
+      ],
+      "relatedWords": {
+        "en": [
+          "office",
+          "officer",
+          "officially"
+        ],
+        "ar": [
+          "مكتب",
+          "ضابط",
+          "رسميا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "official",
+        "verb": "officiate",
+        "adj": "official",
+        "adv": "officially"
+      },
+      "arabicAr": "رسمي",
+      "frenchFr": "officiel",
+      "germanDe": "offiziell",
+      "spanishEs": "oficial",
+      "chineseZh": "官方的 (Guānfāng de)",
+      "russianRu": "официальный",
+      "portuguesePt": "oficial",
+      "japaneseJa": "公式の (Kōshiki no)",
+      "italianIt": "ufficiale",
+      "turkishTr": "resmi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1541,
+      "wordEn": "official",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈfɪʃəl",
+      "phoneticUk": null,
+      "phoneticAr": "أُفِشَل",
+      "translit": "Mas'ūl rasmī",
+      "definitionEn": "A person holding public office or having official duties.",
+      "definitionAr": "مسؤول أو موظف حكومي. شخص عنده منصب وليه سلطة في مكان شغله.",
+      "usageNote": "Refers to a person, unlike the adjective which refers to a quality.",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Jobs",
+        "#Government",
+        "#Roles"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الشخص اللي بيشتغل في الـ \"Office\" (المكتب) الحكومي بنسميه \"Official\".",
+      "examples": {
+        "A1": "He is a government official.",
+        "A2": "Ask the official for help.",
+        "B1": "Several high-ranking officials attended the meeting.",
+        "B2": "The election officials counted the votes.",
+        "C1": "Union officials are negotiating a new contract.",
+        "C2": "Corrupt officials were removed from their posts."
+      },
+      "collocations": [
+        "government official",
+        "public official",
+        "senior official",
+        "city official"
+      ],
+      "synonyms": [
+        "officer",
+        "executive",
+        "administrator",
+        "bureaucrat"
+      ],
+      "antonyms": [
+        "civilian"
+      ],
+      "relatedWords": {
+        "en": [
+          "office",
+          "officer",
+          "officiate"
+        ],
+        "ar": [
+          "مكتب",
+          "ضابط",
+          "يدير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "official",
+        "verb": "officiate",
+        "adj": "official",
+        "adv": "officially"
+      },
+      "arabicAr": "مسؤول رسمي",
+      "frenchFr": "fonctionnaire",
+      "germanDe": "Beamte",
+      "spanishEs": "funcionario",
+      "chineseZh": "官员 (Guānyuán)",
+      "russianRu": "чиновник",
+      "portuguesePt": "funcionário",
+      "japaneseJa": "役人 (Yakunin)",
+      "italianIt": "funzionario",
+      "turkishTr": "yetkili",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 1542,
+      "wordEn": "chairman",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈtʃɛrmən",
+      "phoneticUk": "ˈtʃeəmən",
+      "phoneticAr": "تْشِيرْمَان",
+      "translit": "Ra'īs majlis al-idāra",
+      "definitionEn": "A person designated to preside over a meeting or lead a committee or organization.",
+      "definitionAr": "رئيس مجلس الإدارة أو الشخص اللي بيرأس الاجتماع وبيدير الكلام.",
+      "usageNote": "Often replaced by 'chairperson' or 'chair' to be gender-neutral.",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Leadership",
+        "#Business",
+        "#Meetings"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "هو الـ \"Man\" (الراجل) اللي قاعد على أهم \"Chair\" (كرسي) في الاجتماع.",
+      "examples": {
+        "A1": "He is the chairman.",
+        "A2": "The chairman opened the meeting.",
+        "B1": "She was elected chairman of the committee.",
+        "B2": "The chairman of the company resigned yesterday.",
+        "C1": "The role of the chairman is to facilitate discussion.",
+        "C2": "The founding chairman exercised absolute control over the board."
+      },
+      "collocations": [
+        "company chairman",
+        "vice chairman",
+        "appoint a chairman",
+        "board chairman"
+      ],
+      "synonyms": [
+        "president",
+        "chair",
+        "chairperson",
+        "leader"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "chair",
+          "chairwoman",
+          "chairperson"
+        ],
+        "ar": [
+          "كرسي",
+          "رئيسة",
+          "رئيس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "chairmanship",
+        "verb": "chair",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "رئيس (مجلس إدارة / جلسة)",
+      "frenchFr": "président",
+      "germanDe": "Vorsitzender",
+      "spanishEs": "presidente",
+      "chineseZh": "主席 (Zhǔxí)",
+      "russianRu": "председатель",
+      "portuguesePt": "presidente",
+      "japaneseJa": "議長 (Gichō)",
+      "italianIt": "presidente",
+      "turkishTr": "başkan",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1543,
+      "wordEn": "speaker",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈspiːkər",
+      "phoneticUk": "ˈspiːkə",
+      "phoneticAr": "سْبِيكَر",
+      "translit": "Mutakaalim / Mukabbir ṣawt",
+      "definitionEn": "A person who speaks; or a device that produces sound.",
+      "definitionAr": "ممكن يكون الشخص اللي بيتكلم (زي المتحدث الرسمي)، أو الجهاز اللي بيطلع صوت (السماعة).",
+      "usageNote": "Context determines if it's a person or a device. Also used for 'native speaker'.",
+      "category": "Technology & Media",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Audio",
+        "#Language",
+        "#Communication"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من الفعل \"Speak\" (يتكلم).. فالـ \"Speaker\" هو اللي بيتكلم أو اللي بيخليك تسمع الكلام.",
+      "examples": {
+        "A1": "The music is coming from that speaker.",
+        "A2": "He is a good speaker.",
+        "B1": "I am a native English speaker.",
+        "B2": "The guest speaker gave an interesting talk.",
+        "C1": "Connect the amplifier to the speakers.",
+        "C2": "As a public speaker, he commands the room's attention."
+      },
+      "collocations": [
+        "native speaker",
+        "public speaker",
+        "guest speaker",
+        "loud speaker"
+      ],
+      "synonyms": [
+        "orator",
+        "presenter",
+        "loudspeaker"
+      ],
+      "antonyms": [
+        "listener"
+      ],
+      "relatedWords": {
+        "en": [
+          "speak",
+          "speech",
+          "loudspeaker"
+        ],
+        "ar": [
+          "يتكلم",
+          "خطاب",
+          "مكبر صوت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "speaker",
+        "verb": "speak",
+        "adj": "spoken",
+        "adv": ""
+      },
+      "arabicAr": "متحدث / سماعة",
+      "frenchFr": "orateur",
+      "germanDe": "Sprecher",
+      "spanishEs": "altavoz",
+      "chineseZh": "演讲者 (Yǎnjiǎng zhě)",
+      "russianRu": "докладчик",
+      "portuguesePt": "orador",
+      "japaneseJa": "スピーカー (Supīkā)",
+      "italianIt": "altoparlante",
+      "turkishTr": "konuşmacı",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 1544,
+      "wordEn": "second",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənd",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْد",
+      "translit": "Thānī",
+      "definitionEn": "Coming after the first in time or order; number two in a sequence.",
+      "definitionAr": "التاني. اللي بيجي بعد الأول.",
+      "usageNote": "Used to order things (first, second, third).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Ordering",
+        "#Rank",
+        "#Numbers"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"Secondary\" (ثانوي) يعني مرحلة تانية.",
+      "examples": {
+        "A1": "This is my second car.",
+        "A2": "They live on the second floor.",
+        "B1": "It was the second time I met him.",
+        "B2": "English is his second language.",
+        "C1": "He is second to none in his field.",
+        "C2": "The second phase of the project is more complex."
+      },
+      "collocations": [
+        "second place",
+        "second chance",
+        "second opinion",
+        "second half"
+      ],
+      "synonyms": [
+        "next",
+        "following"
+      ],
+      "antonyms": [
+        "first",
+        "last"
+      ],
+      "relatedWords": {
+        "en": [
+          "secondary",
+          "secondly",
+          "two"
+        ],
+        "ar": [
+          "ثانوي",
+          "ثانيا",
+          "اثنين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "second",
+        "verb": "second",
+        "adj": "secondary",
+        "adv": "secondly"
+      },
+      "arabicAr": "ثاني",
+      "frenchFr": "deuxième",
+      "germanDe": "zweite",
+      "spanishEs": "segundo",
+      "chineseZh": "第二 (Dì èr)",
+      "russianRu": "второй",
+      "portuguesePt": "segundo",
+      "japaneseJa": "二番目の (Nibanme no)",
+      "italianIt": "secondo",
+      "turkishTr": "ikinci",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1545,
+      "wordEn": "second",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənd",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْد",
+      "translit": "Thānī",
+      "definitionEn": "The ordinal number matching the number two.",
+      "definitionAr": "رقم اتنين في الترتيب.",
+      "usageNote": "Functionally similar to the adjective form but classified as a numeral in some grammars.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Math",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He finished second in the race.",
+        "A2": "My birthday is on the second of May.",
+        "B1": "Second, we need to discuss the budget.",
+        "B2": "Charles the Second was a king.",
+        "C1": "The second of the two options is better.",
+        "C2": "In the second of these examples, the meaning is ambiguous."
+      },
+      "collocations": [
+        "finish second",
+        "come second",
+        "July second"
+      ],
+      "synonyms": [
+        "2nd"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "relatedWords": {
+        "en": [
+          "two",
+          "secondary"
+        ],
+        "ar": [
+          "اثنين",
+          "ثانوي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "second",
+        "adv": "secondly"
+      },
+      "arabicAr": "الثاني",
+      "frenchFr": "deuxième",
+      "germanDe": "zweite",
+      "spanishEs": "segundo",
+      "chineseZh": "第二 (Dì èr)",
+      "russianRu": "второй",
+      "portuguesePt": "segundo",
+      "japaneseJa": "二番目 (Nibanme)",
+      "italianIt": "secondo",
+      "turkishTr": "ikinci",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1546,
+      "wordEn": "second",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənd",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْد",
+      "translit": "Thāniya",
+      "definitionEn": "A unit of time equal to one-sixtieth of a minute.",
+      "definitionAr": "الثانية. وحدة قياس وقت صغيرة جداً، الدقيقة فيها 60 ثانية.",
+      "usageNote": "Used for very short durations.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Measurement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بنقول في العربي \"ثانية واحدة\".. هي الـ \"Second\".",
+      "examples": {
+        "A1": "Wait a second.",
+        "A2": "There are sixty seconds in a minute.",
+        "B1": "I'll be there in a few seconds.",
+        "B2": "The runner finished 10 seconds ahead of the others.",
+        "C1": "Every second counts in an emergency.",
+        "C2": "The decision was made in a split second."
+      },
+      "collocations": [
+        "wait a second",
+        "split second",
+        "last second",
+        "per second"
+      ],
+      "synonyms": [
+        "moment",
+        "instant",
+        "jiffy"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "minute",
+          "hour",
+          "time"
+        ],
+        "ar": [
+          "دقيقة",
+          "ساعة",
+          "وقت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "second",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ثانية (وقت)",
+      "frenchFr": "seconde",
+      "germanDe": "Sekunde",
+      "spanishEs": "segundo",
+      "chineseZh": "秒 (Miǎo)",
+      "russianRu": "секунда",
+      "portuguesePt": "segundo",
+      "japaneseJa": "秒 (Byō)",
+      "italianIt": "secondo",
+      "turkishTr": "saniye",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1547,
+      "wordEn": "second",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənd",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْد",
+      "translit": "Thānī",
+      "definitionEn": "Positioned as number two in a series.",
+      "definitionAr": "صفة بتحدد إن الحاجة دي ترتيبها رقم اتنين.",
+      "usageNote": "Functions as a determiner when identifying a specific item in a sequence (the second house).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Rank",
+        "#Sequence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Take the second street on the left.",
+        "A2": "This is the second time I've called.",
+        "B1": "The second reason is more important.",
+        "B2": "On second thought, I will stay home.",
+        "C1": "He is a second cousin.",
+        "C2": "She played second fiddle to her brother."
+      },
+      "collocations": [
+        "the second time",
+        "second thought",
+        "second cousin"
+      ],
+      "synonyms": [
+        "next"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "relatedWords": {
+        "en": [
+          "first",
+          "third"
+        ],
+        "ar": [
+          "أول",
+          "ثالث"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "second",
+        "adv": ""
+      },
+      "arabicAr": "ثاني",
+      "frenchFr": "deuxième",
+      "germanDe": "zweite",
+      "spanishEs": "segundo",
+      "chineseZh": "第二 (Dì èr)",
+      "russianRu": "второй",
+      "portuguesePt": "segundo",
+      "japaneseJa": "二番目の (Nibanme no)",
+      "italianIt": "secondo",
+      "turkishTr": "ikinci",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1548,
+      "wordEn": "second",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənd",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْد",
+      "translit": "Thāniyan",
+      "definitionEn": "In the second place (used to introduce a second point).",
+      "definitionAr": "ثانياً. لما تكون بترتب كلامك وبتقول أولاً كذا، وثانياً كذا.",
+      "usageNote": "Often used in lists or arguments (First... Second...).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Logic",
+        "#Argumentation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I came second in the race.",
+        "A2": "First, wash your hands. Second, dry them.",
+        "B1": "I don't like it; second, it's too expensive.",
+        "B2": "He ranks second in the league.",
+        "C1": "The motion was proposed and second.",
+        "C2": "We must consider, second, the implications of this policy."
+      },
+      "collocations": [
+        "rank second",
+        "come second",
+        "finish second"
+      ],
+      "synonyms": [
+        "secondly"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "relatedWords": {
+        "en": [
+          "first",
+          "thirdly"
+        ],
+        "ar": [
+          "أولا",
+          "ثالثا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "secondly"
+      },
+      "arabicAr": "ثانياً",
+      "frenchFr": "deuxièmement",
+      "germanDe": "zweitens",
+      "spanishEs": "en segundo lugar",
+      "chineseZh": "第二 (Dì èr)",
+      "russianRu": "во-вторых",
+      "portuguesePt": "em segundo lugar",
+      "japaneseJa": "第二に (Daini ni)",
+      "italianIt": "in secondo luogo",
+      "turkishTr": "ikinci olarak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1549,
+      "wordEn": "career",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "kəˈrɪr",
+      "phoneticUk": "kəˈrɪə",
+      "phoneticAr": "كَرِير",
+      "translit": "Mihna / Masār wazīfī",
+      "definitionEn": "An occupation undertaken for a significant period of a person's life and with opportunities for progress.",
+      "definitionAr": "المسار المهني أو الوظيفي. الشغل اللي بتشتغله وبتكبر فيه سنين طويلة.",
+      "usageNote": "Differs from 'job' (which can be temporary). Career implies long-term growth.",
+      "category": "Work & Business",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Jobs",
+        "#Future",
+        "#Ambition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"Car\" (عربية).. حياتك المهنية زي العربية اللي لازم تسوقها صح عشان توصل لهدفك.",
+      "examples": {
+        "A1": "He wants a career in music.",
+        "A2": "She started her career as a teacher.",
+        "B1": "It is important to choose the right career.",
+        "B2": "He decided to change his career path.",
+        "C1": "She sacrificed her personal life for her career.",
+        "C2": "His political career ended in scandal."
+      },
+      "collocations": [
+        "career path",
+        "career goal",
+        "start a career",
+        "successful career"
+      ],
+      "synonyms": [
+        "profession",
+        "occupation",
+        "vocation",
+        "calling"
+      ],
+      "antonyms": [
+        "hobby",
+        "pastime"
+      ],
+      "relatedWords": {
+        "en": [
+          "job",
+          "work",
+          "profession"
+        ],
+        "ar": [
+          "وظيفة",
+          "عمل",
+          "مهنة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "career",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مهنة / مسار وظيفي",
+      "frenchFr": "carrière",
+      "germanDe": "Karriere",
+      "spanishEs": "carrera",
+      "chineseZh": "职业 (Zhíyè)",
+      "russianRu": "карьера",
+      "portuguesePt": "carreira",
+      "japaneseJa": "経歴 (Keireki)",
+      "italianIt": "carriera",
+      "turkishTr": "kariyer",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1550,
+      "wordEn": "laugh",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "læf",
+      "phoneticUk": "lɑːf",
+      "phoneticAr": "لاف",
+      "translit": "Ḍiḥka",
+      "definitionEn": "The act or sound of laughing.",
+      "definitionAr": "الضحكة نفسها. الصوت اللي بيطلع منك لما تكون مبسوط.",
+      "usageNote": "Can refer to the sound or the action.",
+      "category": "Emotions & Feelings",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Happiness",
+        "#Sound",
+        "#Fun"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Laugh\" أولها \"La\".. زي لما تضحك وتقول \"لا لا لا\".",
+      "examples": {
+        "A1": "She has a loud laugh.",
+        "A2": "We had a good laugh about it.",
+        "B1": "His laugh is contagious.",
+        "B2": "It was just a laugh, nothing serious.",
+        "C1": "She let out a hollow laugh.",
+        "C2": "The play was a laugh a minute."
+      },
+      "collocations": [
+        "loud laugh",
+        "good laugh",
+        "nervous laugh",
+        "have a laugh"
+      ],
+      "synonyms": [
+        "chuckle",
+        "giggle",
+        "laughter"
+      ],
+      "antonyms": [
+        "cry",
+        "sob"
+      ],
+      "relatedWords": {
+        "en": [
+          "funny",
+          "joke",
+          "smile"
+        ],
+        "ar": [
+          "مضحك",
+          "نكتة",
+          "ابتسامة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "laughter",
+        "verb": "laugh",
+        "adj": "laughable",
+        "adv": "laughably"
+      },
+      "arabicAr": "ضحكة",
+      "frenchFr": "rire",
+      "germanDe": "Lachen",
+      "spanishEs": "risa",
+      "chineseZh": "笑声 (Xiàoshēng)",
+      "russianRu": "смех",
+      "portuguesePt": "risada",
+      "japaneseJa": "笑い (Warai)",
+      "italianIt": "risata",
+      "turkishTr": "kahkaha",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1551,
+      "wordEn": "laugh",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "læf",
+      "phoneticUk": "lɑːf",
+      "phoneticAr": "لاف",
+      "translit": "Yaḍḥak",
+      "definitionEn": "To make the spontaneous sounds and movements of the face and body that express amusement.",
+      "definitionAr": "يضحك. يطلع صوت ويبتسم عشان حاجة مضحكة أو مفرحة.",
+      "usageNote": "Followed by 'at' (laugh at someone) or 'with' (laugh with someone).",
+      "category": "Emotions & Feelings",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Happiness",
+        "#Social",
+        "#BodyLanguage"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما حد بيقول نكتة بتقول \"لا.. فـ\" (Laugh) بجد حلوة وتضحك.",
+      "examples": {
+        "A1": "Please don't laugh.",
+        "A2": "They laughed at the joke.",
+        "B1": "We laughed about the mistake later.",
+        "B2": "He laughed off the criticism.",
+        "C1": "She laughed in his face.",
+        "C2": "Fate laughed at their plans."
+      },
+      "collocations": [
+        "laugh at",
+        "laugh out loud",
+        "make someone laugh",
+        "stop laughing"
+      ],
+      "synonyms": [
+        "giggle",
+        "chuckle",
+        "snicker"
+      ],
+      "antonyms": [
+        "cry",
+        "weep"
+      ],
+      "relatedWords": {
+        "en": [
+          "laughter",
+          "funny",
+          "smile"
+        ],
+        "ar": [
+          "ضحك",
+          "مضحك",
+          "يبتسم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "laughter",
+        "verb": "laugh",
+        "adj": "laughable",
+        "adv": "laughably"
+      },
+      "arabicAr": "يضحك",
+      "frenchFr": "rire",
+      "germanDe": "lachen",
+      "spanishEs": "reír",
+      "chineseZh": "笑 (Xiào)",
+      "russianRu": "смеяться",
+      "portuguesePt": "rir",
+      "japaneseJa": "笑う (Warau)",
+      "italianIt": "ridere",
+      "turkishTr": "gülmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1552,
+      "wordEn": "weight",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "weɪt",
+      "phoneticUk": null,
+      "phoneticAr": "وِيت",
+      "translit": "Wazn",
+      "definitionEn": "The heaviness of a person or thing.",
+      "definitionAr": "الوزن. قد إيه الحاجة تقيلة.",
+      "usageNote": "Often used with 'lose' or 'gain' regarding body weight.",
+      "category": "Health & Senses",
+      "primarySense": "Measure",
+      "semanticTags": [
+        "#Measurement",
+        "#Health",
+        "#Physics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نطقها زي \"Wait\" (انتظر).. استنى شوية عشان الحمل تقيل \"Weight\".",
+      "examples": {
+        "A1": "What is your weight?",
+        "A2": "I want to lose weight.",
+        "B1": "The weight of the box is 10 kilos.",
+        "B2": "He felt the weight of responsibility on his shoulders.",
+        "C1": "Her opinion carries a lot of weight.",
+        "C2": "The pillars support the full weight of the roof."
+      },
+      "collocations": [
+        "lose weight",
+        "gain weight",
+        "heavy weight",
+        "weight loss"
+      ],
+      "synonyms": [
+        "heaviness",
+        "mass",
+        "load",
+        "burden"
+      ],
+      "antonyms": [
+        "lightness"
+      ],
+      "relatedWords": {
+        "en": [
+          "weigh",
+          "heavy",
+          "overweight"
+        ],
+        "ar": [
+          "يزن",
+          "ثقيل",
+          "وزن زائد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "weight",
+        "verb": "weigh",
+        "adj": "weighty",
+        "adv": "weightlessly"
+      },
+      "arabicAr": "وزن",
+      "frenchFr": "poids",
+      "germanDe": "Gewicht",
+      "spanishEs": "peso",
+      "chineseZh": "重量 (Zhòngliàng)",
+      "russianRu": "вес",
+      "portuguesePt": "peso",
+      "japaneseJa": "重さ (Omosa)",
+      "italianIt": "peso",
+      "turkishTr": "ağırlık",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1553,
+      "wordEn": "responsible",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "rɪˈspɑnsəbəl",
+      "phoneticUk": "rɪˈspɒnsəbl",
+      "phoneticAr": "رِسْبُونْسِبَل",
+      "translit": "Mas'ūl",
+      "definitionEn": "Having an obligation to do something, or having control over or care for someone.",
+      "definitionAr": "مسؤول. يعني شخص يعتمد عليه، أو هو اللي مكلف بحاجة معينة ولازم يعملها.",
+      "usageNote": "Followed by 'for' (responsible for something) or 'to' (responsible to a boss).",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Character",
+        "#Duty",
+        "#Work"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الشخص الـ \"Responsible\" هو اللي بيعرف يعمل \"Respond\" (رد فعل) صح ومناسب للموقف.",
+      "examples": {
+        "A1": "Who is responsible for this mess?",
+        "A2": "Parents are responsible for their children.",
+        "B1": "She is a very responsible worker.",
+        "B2": "The manager is responsible for the team's performance.",
+        "C1": "He held himself responsible for the accident.",
+        "C2": "We need a socially responsible approach to business."
+      },
+      "collocations": [
+        "responsible for",
+        "held responsible",
+        "socially responsible",
+        "responsible adult"
+      ],
+      "synonyms": [
+        "accountable",
+        "liable",
+        "in charge",
+        "trustworthy"
+      ],
+      "antonyms": [
+        "irresponsible"
+      ],
+      "relatedWords": {
+        "en": [
+          "responsibility",
+          "responsibly",
+          "respond"
+        ],
+        "ar": [
+          "مسؤولية",
+          "بمسؤولية",
+          "يرد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "responsibility",
+        "verb": "",
+        "adj": "responsible",
+        "adv": "responsibly"
+      },
+      "arabicAr": "مسؤول",
+      "frenchFr": "responsable",
+      "germanDe": "verantwortlich",
+      "spanishEs": "responsable",
+      "chineseZh": "负责的 (Fùzé de)",
+      "russianRu": "ответственный",
+      "portuguesePt": "responsável",
+      "japaneseJa": "責任がある (Sekinin ga aru)",
+      "italianIt": "responsabile",
+      "turkishTr": "sorumlu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1554,
+      "wordEn": "document",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈdɑkjəmənt",
+      "phoneticUk": "ˈdɒkjʊmənt",
+      "phoneticAr": "دَاكْيُمَنْت",
+      "translit": "Wathīqa",
+      "definitionEn": "A piece of written, printed, or electronic matter that provides information or evidence.",
+      "definitionAr": "وثيقة أو مستند. ورقة مهمة فيها معلومات رسمية زي العقد أو الشهادة.",
+      "usageNote": "Can refer to physical papers or digital files (Word document).",
+      "category": "Work & Business",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Paperwork",
+        "#Office",
+        "#Legal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Doc\" (الدكتور) بيكتب \"Document\" (روشتة/تقرير) عن حالة المريض.",
+      "examples": {
+        "A1": "Please sign this document.",
+        "A2": "I saved the document on my computer.",
+        "B1": "Keep your travel documents in a safe place.",
+        "B2": "This document proves ownership of the house.",
+        "C1": "The leaked document caused a scandal.",
+        "C2": "It is a historical document of great importance."
+      },
+      "collocations": [
+        "legal document",
+        "official document",
+        "travel document",
+        "sign a document"
+      ],
+      "synonyms": [
+        "paper",
+        "record",
+        "file",
+        "certificate"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "documentation",
+          "documentary",
+          "file"
+        ],
+        "ar": [
+          "توثيق",
+          "وثائقي",
+          "ملف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "document",
+        "verb": "document",
+        "adj": "documented",
+        "adv": ""
+      },
+      "arabicAr": "وثيقة / مستند",
+      "frenchFr": "document",
+      "germanDe": "Dokument",
+      "spanishEs": "documento",
+      "chineseZh": "文件 (Wénjiàn)",
+      "russianRu": "документ",
+      "portuguesePt": "documento",
+      "japaneseJa": "文書 (Bunsho)",
+      "italianIt": "documento",
+      "turkishTr": "belge",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1555,
+      "wordEn": "document",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈdɑkjəˌmɛnt",
+      "phoneticUk": "ˈdɒkjʊmɛnt",
+      "phoneticAr": "دَاكْيُمَنْت",
+      "translit": "Yuwaththiq",
+      "definitionEn": "To record something in written, photographic, or other form.",
+      "definitionAr": "يوثّق. يسجل حاجة بالكتابة أو التصوير عشان تفضل موجودة ومحفوظة.",
+      "usageNote": "Stress may shift slightly to the last syllable in the verb form compared to the noun.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Recording",
+        "#History",
+        "#Evidence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "We document the process.",
+        "A2": "He documented his trip with photos.",
+        "B1": "The study documents the effects of the drug.",
+        "B2": "It is important to document all expenses.",
+        "C1": "The film documents the lives of refugees.",
+        "C2": "Her work documents the decline of the local industry."
+      },
+      "collocations": [
+        "well documented",
+        "document evidence",
+        "document the history"
+      ],
+      "synonyms": [
+        "record",
+        "register",
+        "report",
+        "chronicle"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "documentation",
+          "documentary",
+          "record"
+        ],
+        "ar": [
+          "توثيق",
+          "وثائقي",
+          "سجل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "document",
+        "verb": "document",
+        "adj": "documented",
+        "adv": ""
+      },
+      "arabicAr": "يوثق / يسجل",
+      "frenchFr": "documenter",
+      "germanDe": "dokumentieren",
+      "spanishEs": "documentar",
+      "chineseZh": "记录 (Jìlù)",
+      "russianRu": "документировать",
+      "portuguesePt": "documentar",
+      "japaneseJa": "記録する (Kiroku suru)",
+      "italianIt": "documentare",
+      "turkishTr": "belgelemek",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 1556,
+      "wordEn": "november",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "noʊˈvɛmbər",
+      "phoneticUk": "nəʊˈvɛmbə",
+      "phoneticAr": "نُوفِمْبَر",
+      "translit": "Nūfimbir",
+      "definitionEn": "The eleventh month of the year.",
+      "definitionAr": "شهر نوفمبر. الشهر رقم 11 في السنة.",
+      "usageNote": "Capitalize the first letter (November).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Calendar",
+        "#Months",
+        "#Autumn"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شهر \"نوفمبر\".. نوفا (جديد) + إمبر.",
+      "examples": {
+        "A1": "My birthday is in November.",
+        "A2": "November is in autumn.",
+        "B1": "We are going on holiday in November.",
+        "B2": "The project starts next November.",
+        "C1": "It was a cold November morning.",
+        "C2": "By late November, the trees were bare."
+      },
+      "collocations": [
+        "in November",
+        "last November",
+        "next November",
+        "mid-November"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "month",
+          "October",
+          "December"
+        ],
+        "ar": [
+          "شهر",
+          "أكتوبر",
+          "ديسمبر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "November",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نوفمبر",
+      "frenchFr": "novembre",
+      "germanDe": "November",
+      "spanishEs": "noviembre",
+      "chineseZh": "十一月 (Shíyī yuè)",
+      "russianRu": "ноябрь",
+      "portuguesePt": "novembro",
+      "japaneseJa": "11月 (Jūichigatsu)",
+      "italianIt": "novembre",
+      "turkishTr": "kasım",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 1557,
+      "wordEn": "december",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "dɪˈsɛmbər",
+      "phoneticUk": "dɪˈsɛmbə",
+      "phoneticAr": "دِيسِمْبَر",
+      "translit": "Dīsimbir",
+      "definitionEn": "The twelfth and last month of the year.",
+      "definitionAr": "شهر ديسمبر. آخر شهر في السنة، شهر 12.",
+      "usageNote": "Capitalize the first letter (December).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Calendar",
+        "#Months",
+        "#Winter"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Christmas is in December.",
+        "A2": "It snows in December.",
+        "B1": "We have a break in December.",
+        "B2": "The report is due by December.",
+        "C1": "He retired last December.",
+        "C2": "The bleak mid-December weather affected everyone."
+      },
+      "collocations": [
+        "in December",
+        "late December",
+        "December 25th"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "month",
+          "November",
+          "January"
+        ],
+        "ar": [
+          "شهر",
+          "نوفمبر",
+          "يناير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "December",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ديسمبر",
+      "frenchFr": "décembre",
+      "germanDe": "Dezember",
+      "spanishEs": "diciembre",
+      "chineseZh": "十二月 (Shí'èr yuè)",
+      "russianRu": "декабрь",
+      "portuguesePt": "dezembro",
+      "japaneseJa": "12月 (Jūnigatsu)",
+      "italianIt": "dicembre",
+      "turkishTr": "aralık",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 1558,
+      "wordEn": "sunday",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsʌndeɪ",
+      "phoneticUk": "ˈsʌndeɪ",
+      "phoneticAr": "سَانْدِي",
+      "translit": "Al-Aḥad",
+      "definitionEn": "The day of the week before Monday and following Saturday.",
+      "definitionAr": "يوم الأحد. أول يوم شغل في الأسبوع عند العرب، ويوم إجازة عند الغرب.",
+      "usageNote": "Capitalize the first letter (Sunday). On Sunday (not in).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Days",
+        "#Weekend",
+        "#Calendar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "يوم الـ \"Sun\" (الشمس).. \"Sun-day\".",
+      "examples": {
+        "A1": "I do not work on Sunday.",
+        "A2": "We go to church on Sunday.",
+        "B1": "Last Sunday we went to the beach.",
+        "B2": "The shop is closed on Sundays.",
+        "C1": "He spent a lazy Sunday reading.",
+        "C2": "Sunday lunch is a tradition in Britain."
+      },
+      "collocations": [
+        "on Sunday",
+        "next Sunday",
+        "Sunday morning",
+        "Sunday roast"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "weekend",
+          "Saturday",
+          "Monday"
+        ],
+        "ar": [
+          "عطلة نهاية الأسبوع",
+          "السبت",
+          "الاثنين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "Sunday",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الأحد",
+      "frenchFr": "dimanche",
+      "germanDe": "Sonntag",
+      "spanishEs": "domingo",
+      "chineseZh": "星期日 (Xīngqīrì)",
+      "russianRu": "воскресенье",
+      "portuguesePt": "domingo",
+      "japaneseJa": "日曜日 (Nichiyōbi)",
+      "italianIt": "domenica",
+      "turkishTr": "pazar",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 1559,
+      "wordEn": "solution",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "səˈluʃən",
+      "phoneticUk": "səˈluːʃən",
+      "phoneticAr": "سُلُوشَن",
+      "translit": "Ḥall / Maḥlūl",
+      "definitionEn": "A means of solving a problem; or a liquid mixture.",
+      "definitionAr": "الحل لمشكلة معينة، أو المحلول (سائل) في الكيمياء.",
+      "usageNote": "Followed by 'to' (solution to a problem).",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#ProblemSolving",
+        "#Chemistry",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Solution\" جاية من \"Solve\" (يحل).. يعني الحل.",
+      "examples": {
+        "A1": "I have the solution.",
+        "A2": "We need to find a solution to this problem.",
+        "B1": "It was a simple solution.",
+        "B2": "Diplomacy is the only solution to the conflict.",
+        "C1": "The chemical solution turned blue.",
+        "C2": "There is no easy solution to the economic crisis."
+      },
+      "collocations": [
+        "find a solution",
+        "perfect solution",
+        "chemical solution",
+        "solution to"
+      ],
+      "synonyms": [
+        "answer",
+        "resolution",
+        "remedy",
+        "mixture"
+      ],
+      "antonyms": [
+        "problem",
+        "difficulty"
+      ],
+      "relatedWords": {
+        "en": [
+          "solve",
+          "soluble",
+          "solubility"
+        ],
+        "ar": [
+          "يحل",
+          "قابل للذوبان",
+          "ذوبانية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "solution",
+        "verb": "solve",
+        "adj": "soluble",
+        "adv": ""
+      },
+      "arabicAr": "حل / محلول",
+      "frenchFr": "solution",
+      "germanDe": "Lösung",
+      "spanishEs": "solución",
+      "chineseZh": "解决方案 (Jiějué fāng'àn)",
+      "russianRu": "решение",
+      "portuguesePt": "solução",
+      "japaneseJa": "解決策 (Kaiketsusaku)",
+      "italianIt": "soluzione",
+      "turkishTr": "çözüm",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1560,
+      "wordEn": "medical",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈmɛdɪkəl",
+      "phoneticUk": "ˈmedɪkəl",
+      "phoneticAr": "مِدِيكَال",
+      "translit": "Ṭibbī",
+      "definitionEn": "Relating to the science of medicine or the treatment of illness.",
+      "definitionAr": "طبي. أي حاجة ليها علاقة بالطب والدكاترة والعلاج.",
+      "usageNote": "Used for professional contexts (medical school, medical advice).",
+      "category": "Health & Senses",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Health",
+        "#Doctors",
+        "#Hospital"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Medi\" زي \"Medicine\" (دواء) و \"Medicine\" (طب).",
+      "examples": {
+        "A1": "He needs medical help.",
+        "A2": "She is a medical student.",
+        "B1": "I have a medical appointment.",
+        "B2": "The medical records are confidential.",
+        "C1": "The condition requires immediate medical attention.",
+        "C2": "He was discharged on medical grounds."
+      },
+      "collocations": [
+        "medical care",
+        "medical school",
+        "medical treatment",
+        "medical history"
+      ],
+      "synonyms": [
+        "clinical",
+        "medicinal",
+        "therapeutic"
+      ],
+      "antonyms": [
+        "non-medical"
+      ],
+      "relatedWords": {
+        "en": [
+          "medicine",
+          "medic",
+          "medication"
+        ],
+        "ar": [
+          "طب / دواء",
+          "مسعف",
+          "دواء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "medicine",
+        "verb": "medicate",
+        "adj": "medical",
+        "adv": "medically"
+      },
+      "arabicAr": "طبي",
+      "frenchFr": "médical",
+      "germanDe": "medizinisch",
+      "spanishEs": "médico",
+      "chineseZh": "医疗的 (Yīliáo de)",
+      "russianRu": "медицинский",
+      "portuguesePt": "médico",
+      "japaneseJa": "医療の (Iryō no)",
+      "italianIt": "medico",
+      "turkishTr": "tıbbi",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1561,
+      "wordEn": "hot",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hɑt",
+      "phoneticUk": "hɒt",
+      "phoneticAr": "هَات",
+      "translit": "Ḥārr / Sākhin",
+      "definitionEn": "Having a high degree of heat or a high temperature.",
+      "definitionAr": "سخن أو حار. ممكن توصف الجو، أو الأكل السخن، أو الأكل الحراق (سبايسي).",
+      "usageNote": "Can mean 'spicy' in food contexts. Also slang for 'attractive' or 'popular'.",
+      "category": "Health & Senses",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Weather",
+        "#Temperature",
+        "#Food"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه \"Hat\" (طاقية).. لما الجو يبقى \"Hot\" والشمش حامية بنلبس \"Hat\".",
+      "examples": {
+        "A1": "The tea is hot.",
+        "A2": "It is hot in the summer.",
+        "B1": "I like hot spicy food.",
+        "B2": "This is a hot topic right now.",
+        "C1": "She has a hot temper.",
+        "C2": "The competition is heating up."
+      },
+      "collocations": [
+        "hot water",
+        "hot weather",
+        "hot dog",
+        "hot topic"
+      ],
+      "synonyms": [
+        "warm",
+        "boiling",
+        "spicy",
+        "scorching"
+      ],
+      "antonyms": [
+        "cold",
+        "cool"
+      ],
+      "relatedWords": {
+        "en": [
+          "heat",
+          "hotly",
+          "heater"
+        ],
+        "ar": [
+          "حرارة",
+          "بحرارة",
+          "دفاية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "heat",
+        "verb": "heat",
+        "adj": "hot",
+        "adv": "hotly"
+      },
+      "arabicAr": "حار / ساخن",
+      "frenchFr": "chaud",
+      "germanDe": "heiß",
+      "spanishEs": "caliente",
+      "chineseZh": "热 (Rè)",
+      "russianRu": "горячий",
+      "portuguesePt": "quente",
+      "japaneseJa": "暑い (Atsui)",
+      "italianIt": "caldo",
+      "turkishTr": "sıcak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1562,
+      "wordEn": "recognise",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈrɛkəɡˌnaɪz",
+      "phoneticUk": "ˈrekəɡnaɪz",
+      "phoneticAr": "رِيكَجْنَايْز",
+      "translit": "Yata'arraf 'alā",
+      "definitionEn": "To identify someone or something from having encountered them before.",
+      "definitionAr": "يتعرف على. لما تشوف حد أو حاجة وتفتكر إنك شفتها قبل كده وتعرف هي إيه.",
+      "usageNote": "This is the British spelling. American spelling is 'recognize'.",
+      "category": "Mind & Thinking",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Memory",
+        "#Perception",
+        "#Identity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "مكونة من \"Re\" (تاني) + \"Cognize\" (يعرف/يدرك).. يعني يعرفه تاني لما يشوفه.",
+      "examples": {
+        "A1": "I recognise that man.",
+        "A2": "Do you recognise this song?",
+        "B1": "She didn't recognise me in my new glasses.",
+        "B2": "The machine can recognise voice commands.",
+        "C1": "He is recognised as an expert in his field.",
+        "C2": "The government refused to recognise the new regime."
+      },
+      "collocations": [
+        "recognise a face",
+        "recognise the importance",
+        "officially recognise",
+        "fail to recognise"
+      ],
+      "synonyms": [
+        "identify",
+        "know",
+        "acknowledge",
+        "admit"
+      ],
+      "antonyms": [
+        "ignore",
+        "forget"
+      ],
+      "relatedWords": {
+        "en": [
+          "recognition",
+          "recognisable",
+          "cognition"
+        ],
+        "ar": [
+          "تعرف / تقدير",
+          "ممكن التعرف عليه",
+          "إدراك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "recognition",
+        "verb": "recognise",
+        "adj": "recognisable",
+        "adv": "recognisably"
+      },
+      "arabicAr": "يتعرف على / يدرك",
+      "frenchFr": "reconnaître",
+      "germanDe": "erkennen",
+      "spanishEs": "reconocer",
+      "chineseZh": "认出 (Rènchū)",
+      "russianRu": "узнавать",
+      "portuguesePt": "reconhecer",
+      "japaneseJa": "認識する (Ninshiki suru)",
+      "italianIt": "riconoscere",
+      "turkishTr": "tanımak",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

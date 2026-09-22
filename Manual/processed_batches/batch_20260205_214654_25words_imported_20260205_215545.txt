@@ -1,0 +1,703 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 321,
+    "wordEn": "most",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 321,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈməʊst",
+    "phoneticUk": "məʊst",
+    "phoneticAr": "ماوست",
+    "translit": "muezam / mezm",
+    "definitionEn": "[\"greatest in amount, quantity, or degree.\", \"the greatest amount or quantity.\", \"forming the superlative of adjectives and adverbs, especially those of more than one syllable.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've had the most success\", \"what she wanted most of all\", \"it was most kind of you\", \"the candidate with most votes wins\", \"most oranges are sweeter than these\"], \"A2\": [\"I spent most of the winter on the coast\", \"sandy plains where fire tends to spread most quickly\"], \"B1\": [\"it's the most I can expect to accomplish in one day\"]}",
+    "collocations": "[\"other most\", \"most part\"]",
+    "synonyms": "[\"about\", \"almost\", \"nearly\", \"nearly all\", \"to the highest degree\"]",
+    "antonyms": "[\"fewest\", \"least\"]",
+    "relatedWords": "{\"en\": [\"all but\", \"just about\", \"virtually\", \"about\", \"nearly\"], \"ar\": [\"معظم\", \"أقصى\", \"إلى أبعد حد\", \"أغلب\", \"الجزء الأكبر\", \"معظم الناس عادة\"]}",
+    "arabicAr": "معظم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 322,
+    "wordEn": "most",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 322,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈməʊst",
+    "phoneticUk": "məʊst",
+    "phoneticAr": "ماوست",
+    "translit": "muezam / mezm",
+    "definitionEn": "[\"greatest in amount, quantity, or degree.\", \"the greatest amount or quantity.\", \"forming the superlative of adjectives and adverbs, especially those of more than one syllable.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've had the most success\", \"what she wanted most of all\", \"it was most kind of you\", \"the candidate with most votes wins\", \"most oranges are sweeter than these\"], \"A2\": [\"I spent most of the winter on the coast\", \"sandy plains where fire tends to spread most quickly\"], \"B1\": [\"it's the most I can expect to accomplish in one day\"]}",
+    "collocations": "[\"other most\", \"most part\"]",
+    "synonyms": "[\"about\", \"almost\", \"nearly\", \"nearly all\", \"to the highest degree\"]",
+    "antonyms": "[\"fewest\", \"least\"]",
+    "relatedWords": "{\"en\": [\"all but\", \"just about\", \"virtually\", \"about\", \"nearly\"], \"ar\": [\"معظم\", \"أقصى\", \"إلى أبعد حد\", \"أغلب\", \"الجزء الأكبر\", \"معظم الناس عادة\"]}",
+    "arabicAr": "معظم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 323,
+    "wordEn": "most",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 323,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈməʊst",
+    "phoneticUk": "məʊst",
+    "phoneticAr": "ماوست",
+    "translit": "muezam / mezm",
+    "definitionEn": "[\"greatest in amount, quantity, or degree.\", \"the greatest amount or quantity.\", \"forming the superlative of adjectives and adverbs, especially those of more than one syllable.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've had the most success\", \"what she wanted most of all\", \"it was most kind of you\", \"the candidate with most votes wins\", \"most oranges are sweeter than these\"], \"A2\": [\"I spent most of the winter on the coast\", \"sandy plains where fire tends to spread most quickly\"], \"B1\": [\"it's the most I can expect to accomplish in one day\"]}",
+    "collocations": "[\"other most\", \"most part\"]",
+    "synonyms": "[\"about\", \"almost\", \"nearly\", \"nearly all\", \"to the highest degree\"]",
+    "antonyms": "[\"fewest\", \"least\"]",
+    "relatedWords": "{\"en\": [\"all but\", \"just about\", \"virtually\", \"about\", \"nearly\"], \"ar\": [\"معظم\", \"أقصى\", \"إلى أبعد حد\", \"أغلب\", \"الجزء الأكبر\", \"معظم الناس عادة\"]}",
+    "arabicAr": "معظم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 324,
+    "wordEn": "most",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 324,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈməʊst",
+    "phoneticUk": "məʊst",
+    "phoneticAr": "ماوست",
+    "translit": "muezam / mezm",
+    "definitionEn": "[\"greatest in amount, quantity, or degree.\", \"the greatest amount or quantity.\", \"forming the superlative of adjectives and adverbs, especially those of more than one syllable.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've had the most success\", \"what she wanted most of all\", \"it was most kind of you\", \"the candidate with most votes wins\", \"most oranges are sweeter than these\"], \"A2\": [\"I spent most of the winter on the coast\", \"sandy plains where fire tends to spread most quickly\"], \"B1\": [\"it's the most I can expect to accomplish in one day\"]}",
+    "collocations": "[\"other most\", \"most part\"]",
+    "synonyms": "[\"about\", \"almost\", \"nearly\", \"nearly all\", \"to the highest degree\"]",
+    "antonyms": "[\"fewest\", \"least\"]",
+    "relatedWords": "{\"en\": [\"all but\", \"just about\", \"virtually\", \"about\", \"nearly\"], \"ar\": [\"معظم\", \"أقصى\", \"إلى أبعد حد\", \"أغلب\", \"الجزء الأكبر\", \"معظم الناس عادة\"]}",
+    "arabicAr": "معظم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 325,
+    "wordEn": "service",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 325,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈsɜːvɪs",
+    "phoneticUk": "ˈsɝvɪs",
+    "phoneticAr": "سيرفيس",
+    "translit": "khidma / alkhadamat",
+    "syllabify": "ser•vice",
+    "definitionEn": "[\"the action of helping or doing work for someone.\", \"assistance or advice given to customers during and after the sale of goods.\", \"a piece of work done for a client or customer that does not involve manufacturing goods.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"service personnel\", \"he retired after 40 years' service\", \"a funeral service\"], \"A2\": [\"the pitifully low wages gained from domestic service\", \"they aim to provide better quality of service\", \"he took his car in for service\", \"the computer should provide good service for years\"], \"B1\": [\"one dog could presumably service several bitches in a day\"]}",
+    "collocations": "[\"the service\", \"to service a target target servicing\", \"military service\", \"service training\"]",
+    "synonyms": "[\"armed service\", \"divine service\", \"military service\", \"religious service\", \"act of assistance\"]",
+    "antonyms": "[\"disservice\"]",
+    "relatedWords": "{\"en\": [\"help\", \"avail\", \"serving\", \"overhaul\", \"overhauling\"], \"ar\": [\"إحْسان\", \"إدَارَة\", \"حِمَايَة\", \"دائِرَة\", \"رِبَاء\", \"شُعْبَة\"]}",
+    "arabicAr": "خدمة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 326,
+    "wordEn": "try",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 326,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɹaɪ",
+    "phoneticAr": "ترآي",
+    "translit": "yuhawil / muhawala",
+    "definitionEn": "[\"make an attempt or effort to do something.\", \"make severe demands on .\", \"smooth with a plane to give an accurately flat surface.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I decided to try writing fiction\"], \"A2\": [\"I started to try and untangle the mystery\", \"they should give the idea a try\", \"she's not here, but you could try her room\", \"they decided to try for another baby\", \"he got his membership card on his third try\"]}",
+    "collocations": "[\"How do you try\", \"first try\", \"try this\"]",
+    "synonyms": "[\"essay\", \"effort\", \"attempt\", \"endeavor\", \"endeavour\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"attempt\", \"assay\", \"endeavour\", \"endeavor\", \"seek\"], \"ar\": [\"تَجْرِبَة\", \"محاولة\", \"تجربة\", \"حاول\", \"جرب\", \"بحث\"]}",
+    "arabicAr": "يحاول",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 327,
+    "wordEn": "try",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 327,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɹaɪ",
+    "phoneticAr": "ترآي",
+    "translit": "yuhawil / muhawala",
+    "definitionEn": "[\"make an attempt or effort to do something.\", \"make severe demands on .\", \"smooth with a plane to give an accurately flat surface.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I decided to try writing fiction\"], \"A2\": [\"I started to try and untangle the mystery\", \"they should give the idea a try\", \"she's not here, but you could try her room\", \"they decided to try for another baby\", \"he got his membership card on his third try\"]}",
+    "collocations": "[\"How do you try\", \"first try\", \"try this\"]",
+    "synonyms": "[\"essay\", \"effort\", \"attempt\", \"endeavor\", \"endeavour\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"attempt\", \"assay\", \"endeavour\", \"endeavor\", \"seek\"], \"ar\": [\"تَجْرِبَة\", \"محاولة\", \"تجربة\", \"حاول\", \"جرب\", \"بحث\"]}",
+    "arabicAr": "يحاول",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 328,
+    "wordEn": "call",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 328,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kɔl",
+    "phoneticUk": "kɔːɫ",
+    "phoneticAr": "كأول",
+    "translit": "yatasil / mukalima",
+    "definitionEn": "[\"give a specified name.\", \"contact or attempt to contact by phone.\", \"order or request the attendance of.\"]",
+    "usageNote": "often used with \"on\", \"round\", or \"at\"; used by salespeople with \"again\" to invite customers to come again).",
+    "category": "Social Life & Communication",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"the call for action was welcomed\"], \"A2\": [\"a ten-minute call to the emergency services\", \"a bugle call to rise at 5:30\", \"hikers can't resist the call of the Sierras\"], \"B1\": [\"there appeared to be no alternative but to call a general election\", \"a call to all sides to remain calm and refrain from violence\", \"feeling the call to ministry, I started looking for a Bible college\", \"the two old foes are so evenly matched that it's anyone's call\"]}",
+    "collocations": "[\"Why don t you call tomorrow\", \"first call\", \"call vote\"]",
+    "synonyms": "[\"cry\", \"clepe\", \"outcry\", \"phone call\", \"telephone call\"]",
+    "antonyms": "[\"put option\"]",
+    "relatedWords": "{\"en\": [\"phone call\", \"telephone call\", \"call in\", \"telephone\", \"phone\"], \"ar\": [\"دُعاء\", \"زِيَارَة\", \"عِيَادَة\", \"مُنَادَاة\", \"مُنَاشَدَة\", \"دَعْوَة\"]}",
+    "arabicAr": "يتصل / مكالمة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 329,
+    "wordEn": "call",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 329,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kɔl",
+    "phoneticUk": "kɔːɫ",
+    "phoneticAr": "كأول",
+    "translit": "yatasil / mukalima",
+    "definitionEn": "[\"give a specified name.\", \"contact or attempt to contact by phone.\", \"order or request the attendance of.\"]",
+    "usageNote": "often used with \"on\", \"round\", or \"at\"; used by salespeople with \"again\" to invite customers to come again).",
+    "category": "Social Life & Communication",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"the call for action was welcomed\"], \"A2\": [\"a ten-minute call to the emergency services\", \"a bugle call to rise at 5:30\", \"hikers can't resist the call of the Sierras\"], \"B1\": [\"there appeared to be no alternative but to call a general election\", \"a call to all sides to remain calm and refrain from violence\", \"feeling the call to ministry, I started looking for a Bible college\", \"the two old foes are so evenly matched that it's anyone's call\"]}",
+    "collocations": "[\"Why don t you call tomorrow\", \"first call\", \"call vote\"]",
+    "synonyms": "[\"cry\", \"clepe\", \"outcry\", \"phone call\", \"telephone call\"]",
+    "antonyms": "[\"put option\"]",
+    "relatedWords": "{\"en\": [\"phone call\", \"telephone call\", \"call in\", \"telephone\", \"phone\"], \"ar\": [\"دُعاء\", \"زِيَارَة\", \"عِيَادَة\", \"مُنَادَاة\", \"مُنَاشَدَة\", \"دَعْوَة\"]}",
+    "arabicAr": "يتصل / مكالمة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 330,
+    "wordEn": "hand",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 330,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hænd",
+    "phoneticAr": "هآند",
+    "translit": "yusllim / kaf",
+    "definitionEn": "[\"the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.\", \"a pointer on a clock or watch indicating the passing of units of time.\", \"used in reference to the power to direct something.\"]",
+    "usageNote": "used to indicate the time of day.",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hand signals\", \"a factory hand\", \"the second hand\", \"hand in the main!\", \"hand luggage\", \"a good hand\"], \"A2\": [\"he had a big hand in organizing the event\"], \"B1\": [\"this should be a clue in attributing other work to his hand\", \"his idea of a good time would be a hand of bridge\"]}",
+    "collocations": "[\"an old hand at public speaking\", \"a good hand\", \"in safe hands\", \"in good hands\", \"to buy at first hand\"]",
+    "synonyms": "[\"paw\", \"mitt\", \"duke\", \"manus\", \"hired hand\"]",
+    "antonyms": "[\"take\"]",
+    "relatedWords": "{\"en\": [\"manus\", \"paw\", \"hired hand\", \"mitt\", \"mauler\"], \"ar\": [\"إصْبَع\", \"حِيَازَة\", \"كَفّ\", \"إمْضاء\", \"تَوْقِيع\", \"دَور\"]}",
+    "arabicAr": "يُسلِّم / يد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 331,
+    "wordEn": "hand",
+    "pos": "verb",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 331,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hænd",
+    "phoneticAr": "هآند",
+    "translit": "yusllim / kaf",
+    "definitionEn": "[\"the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.\", \"a pointer on a clock or watch indicating the passing of units of time.\", \"used in reference to the power to direct something.\"]",
+    "usageNote": "used to indicate the time of day.",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hand signals\", \"a factory hand\", \"the second hand\", \"hand in the main!\", \"hand luggage\", \"a good hand\"], \"A2\": [\"he had a big hand in organizing the event\"], \"B1\": [\"this should be a clue in attributing other work to his hand\", \"his idea of a good time would be a hand of bridge\"]}",
+    "collocations": "[\"an old hand at public speaking\", \"a good hand\", \"in safe hands\", \"in good hands\", \"to buy at first hand\"]",
+    "synonyms": "[\"paw\", \"mitt\", \"duke\", \"manus\", \"hired hand\"]",
+    "antonyms": "[\"take\"]",
+    "relatedWords": "{\"en\": [\"manus\", \"paw\", \"hired hand\", \"mitt\", \"mauler\"], \"ar\": [\"إصْبَع\", \"حِيَازَة\", \"كَفّ\", \"إمْضاء\", \"تَوْقِيع\", \"دَور\"]}",
+    "arabicAr": "يُسلِّم / يد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 332,
+    "wordEn": "party",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 332,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈpɑ(ː)ɾi",
+    "phoneticUk": "ˈpɑɹ.ti",
+    "phoneticAr": "بآري",
+    "translit": "hizb / hafl",
+    "syllabify": "par•ty",
+    "definitionEn": "[\"a social gathering of invited guests, typically involving eating, drinking, and entertainment.\", \"a formally constituted political group, typically operating on a national basis, that contests elections and attempts to form or take part in a government.\", \"a person or people forming one side in an agreement or dispute.\"]",
+    "usageNote": "often held to celebrate a particular occasion.",
+    "category": "Social Life & Communication",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"the fishing party\", \"an engagement party\", \"party per fess, or, and azure\"], \"A2\": [\"will you help the party on line 2?\", \"put on your glad rags and party!\"]}",
+    "collocations": "[\"boarding party\", \"Tupperware party\", \"lingerie party\", \"an escutcheon party per pale\", \"political party\"]",
+    "synonyms": "[\"bash\", \"shindy\", \"company\", \"shindig\", \"political party\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"company\", \"political party\", \"partisan\", \"partizan\", \"litigant\"], \"ar\": [\"حزبيّ\", \"تَجَمّع\", \"ثُلّة\", \"جَمَاعَة\", \"جِهَة\", \"حَفْلَة\"]}",
+    "arabicAr": "حزب / طرف / حفل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 333,
+    "wordEn": "party",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 333,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈpɑ(ː)ɾi",
+    "phoneticUk": "ˈpɑɹ.ti",
+    "phoneticAr": "بآري",
+    "translit": "hizb / hafl",
+    "syllabify": "par•ty",
+    "definitionEn": "[\"a social gathering of invited guests, typically involving eating, drinking, and entertainment.\", \"a formally constituted political group, typically operating on a national basis, that contests elections and attempts to form or take part in a government.\", \"a person or people forming one side in an agreement or dispute.\"]",
+    "usageNote": "often held to celebrate a particular occasion.",
+    "category": "Social Life & Communication",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"the fishing party\", \"an engagement party\", \"party per fess, or, and azure\"], \"A2\": [\"will you help the party on line 2?\", \"put on your glad rags and party!\"]}",
+    "collocations": "[\"boarding party\", \"Tupperware party\", \"lingerie party\", \"an escutcheon party per pale\", \"political party\"]",
+    "synonyms": "[\"bash\", \"shindy\", \"company\", \"shindig\", \"political party\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"company\", \"political party\", \"partisan\", \"partizan\", \"litigant\"], \"ar\": [\"حزبيّ\", \"تَجَمّع\", \"ثُلّة\", \"جَمَاعَة\", \"جِهَة\", \"حَفْلَة\"]}",
+    "arabicAr": "حزب / طرف / حفل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 334,
+    "wordEn": "high",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 334,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "haɪ",
+    "phoneticAr": "هآي",
+    "translit": "eali",
+    "definitionEn": "[\"of great vertical extent.\", \"great, or greater than normal, in quantity, size, or intensity.\", \"great in rank, status, or importance.\"]",
+    "usageNote": "often to the point of arrogant, haughty, boastful, proud.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"high summer\", \"the top of a high mountain\", \"how high is the fence?\", \"high latitude, high antiquity\", \"in high spirits\", \"high living, the high life\", \"a high tone\"], \"A2\": [\"they had been playing for high stakes\"], \"B1\": [\"the team is still on a high from Saturday's victory\", \"he ranked high among the pioneers of twentieth-century chemical technology\", \"it's a type of preserved butter, used for cooking, smells a little high\", \"some of them were already high on alcohol and Ecstasy\"]}",
+    "collocations": "[\"high church High Tory\", \"in high spirits\", \"high living, the high life\", \"a high tone\", \"9-high straight 98765 unsuited\"]",
+    "synonyms": "[\"tall\", \"heights\", \"highschool\", \"senior high\", \"senior high school\"]",
+    "antonyms": "[\"low\", \"low spirits\"]",
+    "relatedWords": "{\"en\": [\"towering\", \"high-level\", \"altitudinous\", \"upper\", \"lofty\"], \"ar\": [\"عالٍ\", \"مرتفع\", \"بالغٌ ارتفاعاً معيّناً\", \"بالغٌ ذروته وأشدّه\", \"سامٍ\", \"نبيل\"]}",
+    "arabicAr": "عالي / عال",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 335,
+    "wordEn": "high",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 335,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "haɪ",
+    "phoneticAr": "هآي",
+    "translit": "eali",
+    "definitionEn": "[\"of great vertical extent.\", \"great, or greater than normal, in quantity, size, or intensity.\", \"great in rank, status, or importance.\"]",
+    "usageNote": "often to the point of arrogant, haughty, boastful, proud.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"high summer\", \"the top of a high mountain\", \"how high is the fence?\", \"high latitude, high antiquity\", \"in high spirits\", \"high living, the high life\", \"a high tone\"], \"A2\": [\"they had been playing for high stakes\"], \"B1\": [\"the team is still on a high from Saturday's victory\", \"he ranked high among the pioneers of twentieth-century chemical technology\", \"it's a type of preserved butter, used for cooking, smells a little high\", \"some of them were already high on alcohol and Ecstasy\"]}",
+    "collocations": "[\"high church High Tory\", \"in high spirits\", \"high living, the high life\", \"a high tone\", \"9-high straight 98765 unsuited\"]",
+    "synonyms": "[\"tall\", \"heights\", \"highschool\", \"senior high\", \"senior high school\"]",
+    "antonyms": "[\"low\", \"low spirits\"]",
+    "relatedWords": "{\"en\": [\"towering\", \"high-level\", \"altitudinous\", \"upper\", \"lofty\"], \"ar\": [\"عالٍ\", \"مرتفع\", \"بالغٌ ارتفاعاً معيّناً\", \"بالغٌ ذروته وأشدّه\", \"سامٍ\", \"نبيل\"]}",
+    "arabicAr": "عالي / عال",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 336,
+    "wordEn": "high",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 336,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "haɪ",
+    "phoneticAr": "هآي",
+    "translit": "eali",
+    "definitionEn": "[\"of great vertical extent.\", \"great, or greater than normal, in quantity, size, or intensity.\", \"great in rank, status, or importance.\"]",
+    "usageNote": "often to the point of arrogant, haughty, boastful, proud.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"high summer\", \"the top of a high mountain\", \"how high is the fence?\", \"high latitude, high antiquity\", \"in high spirits\", \"high living, the high life\", \"a high tone\"], \"A2\": [\"they had been playing for high stakes\"], \"B1\": [\"the team is still on a high from Saturday's victory\", \"he ranked high among the pioneers of twentieth-century chemical technology\", \"it's a type of preserved butter, used for cooking, smells a little high\", \"some of them were already high on alcohol and Ecstasy\"]}",
+    "collocations": "[\"high church High Tory\", \"in high spirits\", \"high living, the high life\", \"a high tone\", \"9-high straight 98765 unsuited\"]",
+    "synonyms": "[\"tall\", \"heights\", \"highschool\", \"senior high\", \"senior high school\"]",
+    "antonyms": "[\"low\", \"low spirits\"]",
+    "relatedWords": "{\"en\": [\"towering\", \"high-level\", \"altitudinous\", \"upper\", \"lofty\"], \"ar\": [\"عالٍ\", \"مرتفع\", \"بالغٌ ارتفاعاً معيّناً\", \"بالغٌ ذروته وأشدّه\", \"سامٍ\", \"نبيل\"]}",
+    "arabicAr": "عالي / عال",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 337,
+    "wordEn": "something",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 337,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈsamθɪŋ",
+    "phoneticUk": "ˈsʌmθɪŋ",
+    "phoneticAr": "سآمثينج",
+    "translit": "shi ma / shayyanaan ma",
+    "syllabify": "some•thing",
+    "definitionEn": "[\"a thing that is unspecified or unknown.\", \"used in various expressions indicating that a description or amount being stated is not exact.\", \"used for emphasis with a following adjective functioning as an adverb.\"]",
+    "usageNote": "used to refer to an object earlier indefinitely referred to as 'something' (pronoun sense).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"something about her frightened me\", \"there were something like fifty applications\", \"I knew something terrible had happened\", \"the people were something scared\", \"my back hurts something terrible\", \"we stopped for something to eat\"], \"A2\": [\"grassland totaling something over three hundred acres\", \"a wry look, something between amusement and regret\"]}",
+    "collocations": "[\"little something\", \"something special\"]",
+    "synonyms": "[\"entity\", \"somehow\", \"someone\", \"incredible\", \"unbelievable\"]",
+    "antonyms": "[\"a lot\"]",
+    "relatedWords": "{\"en\": [\"entity\", \"unbelievable\", \"incredible\", \"somehow\", \"someone\"], \"ar\": [\"أمْر\", \"شيء\", \"شيءٌ ما\", \"شىء ما\", \"شخص ذو شأن\"]}",
+    "arabicAr": "شئ ما / شيء ما",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 338,
+    "wordEn": "something",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 338,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈsamθɪŋ",
+    "phoneticUk": "ˈsʌmθɪŋ",
+    "phoneticAr": "سآمثينج",
+    "translit": "shi ma / shayyanaan ma",
+    "syllabify": "some•thing",
+    "definitionEn": "[\"a thing that is unspecified or unknown.\", \"used in various expressions indicating that a description or amount being stated is not exact.\", \"used for emphasis with a following adjective functioning as an adverb.\"]",
+    "usageNote": "used to refer to an object earlier indefinitely referred to as 'something' (pronoun sense).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"something about her frightened me\", \"there were something like fifty applications\", \"I knew something terrible had happened\", \"the people were something scared\", \"my back hurts something terrible\", \"we stopped for something to eat\"], \"A2\": [\"grassland totaling something over three hundred acres\", \"a wry look, something between amusement and regret\"]}",
+    "collocations": "[\"little something\", \"something special\"]",
+    "synonyms": "[\"entity\", \"somehow\", \"someone\", \"incredible\", \"unbelievable\"]",
+    "antonyms": "[\"a lot\"]",
+    "relatedWords": "{\"en\": [\"entity\", \"unbelievable\", \"incredible\", \"somehow\", \"someone\"], \"ar\": [\"أمْر\", \"شيء\", \"شيءٌ ما\", \"شىء ما\", \"شخص ذو شأن\"]}",
+    "arabicAr": "شئ ما / شيء ما",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 339,
+    "wordEn": "school",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 339,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "skul",
+    "phoneticUk": "skuːl",
+    "phoneticAr": "سكول",
+    "translit": "madrasa",
+    "definitionEn": "[\"an institution for educating children.\", \"any institution at which instruction is given in a particular discipline.\", \"a group of people, particularly writers, artists, or philosophers, sharing the same or similar ideas, methods, or style.\"]",
+    "usageNote": "often, but not necessarily, in a school",
+    "category": "Social Life & Communication",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"the Frankfurt school of critical theory\", \"a school of dolphins\", \"school started at 7 a.m\", \"a dancing school\", \"school supplies\"], \"A2\": [\"the cost of building a new school\", \"the principal was addressing the whole school\", \"filmmakers are tired of the skin-deep school of cinema\"]}",
+    "collocations": "[\"high school\", \"school house\"]",
+    "synonyms": "[\"schooling\", \"schooltime\", \"schoolhouse\", \"phrontistery\", \"school day\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"cultivate\", \"train\", \"shoal\", \"civilize\", \"schoolhouse\"], \"ar\": [\"دِرَاسِيّ\", \"طَرِيقَة\", \"كُتّاب\", \"كُلّيّة\", \"مَذْهَب\", \"مَدْرَسَة\"]}",
+    "arabicAr": "مدرسة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 340,
+    "wordEn": "small",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 340,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "smoːl",
+    "phoneticUk": "smɑl",
+    "phoneticAr": "سماول",
+    "translit": "saghir",
+    "definitionEn": "[\"Having little size, compared with other things of the same kind\", \"Being of slight consequence\", \"Envincing little worth or ability\"]",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a rather small amount of money\", \"cut the okra up small\", \"a small farmer\", \"the room was small and quiet\", \"a small space of time\"], \"A2\": [\"“I'm scared,” she said in a small voice\", \"the small hill that sheltered the house\", \"the captain had been paying small attention\"], \"B1\": [\"as a small boy, he spent his days either reading or watching TV\"]}",
+    "collocations": "[\"a small space of time\", \"small science\", \"Don't write very small\", \"large small\", \"small number\"]",
+    "synonyms": "[\"minor\", \"little\", \"modest\", \"compact\", \"small-scale\"]",
+    "antonyms": "[\"large\", \"big\"]",
+    "relatedWords": "{\"en\": [\"undersize\", \"small-scale\", \"undersized\", \"lowercase\", \"puny\"], \"ar\": [\"صغير\", \"ضعيف\", \"خفيض\", \"زهيد\", \"طفيف\", \"تافه\"]}",
+    "arabicAr": "صغير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 341,
+    "wordEn": "place",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 341,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pleɪs",
+    "phoneticAr": "بلايس",
+    "translit": "makan",
+    "definitionEn": "[\"a particular position or point in space.\", \"a portion of space available or designated for or being used by someone.\", \"a position in a sequence or series, typically one ordered on the basis of merit.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what about dinner at my place?\", \"the monastery was a peaceful place\", \"three decimal places the hundreds place\"], \"A2\": [\"his score left him in ninth place\", \"she eventually said she couldn't place him\", \"calculate the ratios to one decimal place\", \"occupation structures a person's place in society\", \"he was watching from his place across the room\"], \"B1\": [\"the place of computers in improving office efficiency varies between companies\"]}",
+    "collocations": "[\"Which place hurts the most\", \"three decimal places the hundreds place\", \"to place someone on a pedestal\", \"to place a call\", \"to place an order\"]",
+    "synonyms": "[\"spot\", \"stead\", \"locus\", \"property\", \"topographic point\"]",
+    "antonyms": "[\"divest\"]",
+    "relatedWords": "{\"en\": [\"plaza\", \"piazza\", \"stead\", \"home\", \"station\"], \"ar\": [\"بُقْعَة\", \"بَلَد\", \"بَيْت\", \"جِهَة\", \"حَيّز\", \"خانَة\"]}",
+    "arabicAr": "مكان",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 342,
+    "wordEn": "place",
+    "pos": "verb",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 342,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pleɪs",
+    "phoneticAr": "بلايس",
+    "translit": "makan",
+    "definitionEn": "[\"a particular position or point in space.\", \"a portion of space available or designated for or being used by someone.\", \"a position in a sequence or series, typically one ordered on the basis of merit.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what about dinner at my place?\", \"the monastery was a peaceful place\", \"three decimal places the hundreds place\"], \"A2\": [\"his score left him in ninth place\", \"she eventually said she couldn't place him\", \"calculate the ratios to one decimal place\", \"occupation structures a person's place in society\", \"he was watching from his place across the room\"], \"B1\": [\"the place of computers in improving office efficiency varies between companies\"]}",
+    "collocations": "[\"Which place hurts the most\", \"three decimal places the hundreds place\", \"to place someone on a pedestal\", \"to place a call\", \"to place an order\"]",
+    "synonyms": "[\"spot\", \"stead\", \"locus\", \"property\", \"topographic point\"]",
+    "antonyms": "[\"divest\"]",
+    "relatedWords": "{\"en\": [\"plaza\", \"piazza\", \"stead\", \"home\", \"station\"], \"ar\": [\"بُقْعَة\", \"بَلَد\", \"بَيْت\", \"جِهَة\", \"حَيّز\", \"خانَة\"]}",
+    "arabicAr": "مكان",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 343,
+    "wordEn": "before",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 343,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈfɔː",
+    "phoneticUk": "bɪˈfɔ:",
+    "phoneticAr": "بيفأو",
+    "translit": "qabl",
+    "syllabify": "be•fore",
+    "definitionEn": "[\"during the period of time preceding a particular event or time.\", \"in front of someone or something.\", \"in advance of the time when.\"]",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"she had to rest before dinner\", \"Matilda stood before her, panting\", \"before the war\", \"it's never happened to me before\", \"the day before yesterday\"], \"A2\": [\"a skilled warrior who places duty before all else\", \"it wasn't long before I dozed off\"], \"B1\": [\"they began trotting through the city with guards running before and behind\"]}",
+    "collocations": "[\"look before\", \"before hand\"]",
+    "synonyms": "[\"ahead\", \"earlier\", \"in front\", \"prior to\", \"anterior to\"]",
+    "antonyms": "[\"after\", \"afterwards\", \"later\"]",
+    "relatedWords": "{\"en\": [\"earlier\", \"ahead\", \"in front\", \"afore\", \"beforehand\"], \"ar\": [\"قبلُ\", \"من قبلُ\", \"سابقاً\", \"إحَالَة\", \"آنِفاً\", \"تَقْدِيم\"]}",
+    "arabicAr": "قبل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 344,
+    "wordEn": "before",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 344,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈfɔː",
+    "phoneticUk": "bɪˈfɔ:",
+    "phoneticAr": "بيفأو",
+    "translit": "qabl",
+    "syllabify": "be•fore",
+    "definitionEn": "[\"during the period of time preceding a particular event or time.\", \"in front of someone or something.\", \"in advance of the time when.\"]",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"she had to rest before dinner\", \"Matilda stood before her, panting\", \"before the war\", \"it's never happened to me before\", \"the day before yesterday\"], \"A2\": [\"a skilled warrior who places duty before all else\", \"it wasn't long before I dozed off\"], \"B1\": [\"they began trotting through the city with guards running before and behind\"]}",
+    "collocations": "[\"look before\", \"before hand\"]",
+    "synonyms": "[\"ahead\", \"earlier\", \"in front\", \"prior to\", \"anterior to\"]",
+    "antonyms": "[\"after\", \"afterwards\", \"later\"]",
+    "relatedWords": "{\"en\": [\"earlier\", \"ahead\", \"in front\", \"afore\", \"beforehand\"], \"ar\": [\"قبلُ\", \"من قبلُ\", \"سابقاً\", \"إحَالَة\", \"آنِفاً\", \"تَقْدِيم\"]}",
+    "arabicAr": "قبل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 345,
+    "wordEn": "before",
+    "pos": "conj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 345,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bɪˈfɔː",
+    "phoneticUk": "bɪˈfɔ:",
+    "phoneticAr": "بيفأو",
+    "translit": "qabl",
+    "syllabify": "be•fore",
+    "definitionEn": "[\"during the period of time preceding a particular event or time.\", \"in front of someone or something.\", \"in advance of the time when.\"]",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"she had to rest before dinner\", \"Matilda stood before her, panting\", \"before the war\", \"it's never happened to me before\", \"the day before yesterday\"], \"A2\": [\"a skilled warrior who places duty before all else\", \"it wasn't long before I dozed off\"], \"B1\": [\"they began trotting through the city with guards running before and behind\"]}",
+    "collocations": "[\"look before\", \"before hand\"]",
+    "synonyms": "[\"ahead\", \"earlier\", \"in front\", \"prior to\", \"anterior to\"]",
+    "antonyms": "[\"after\", \"afterwards\", \"later\"]",
+    "relatedWords": "{\"en\": [\"earlier\", \"ahead\", \"in front\", \"afore\", \"beforehand\"], \"ar\": [\"قبلُ\", \"من قبلُ\", \"سابقاً\", \"إحَالَة\", \"آنِفاً\", \"تَقْدِيم\"]}",
+    "arabicAr": "قبل",
+    "addedFromOxford": 1
+  }
+]

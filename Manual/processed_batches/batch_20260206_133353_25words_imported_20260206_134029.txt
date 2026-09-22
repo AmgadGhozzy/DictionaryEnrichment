@@ -1,0 +1,705 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 377,
+    "wordEn": "without",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 377,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "wɪθˈʌʊt",
+    "phoneticUk": "wɪðˈaʊt",
+    "phoneticAr": "ويثاوت",
+    "translit": "bidun",
+    "syllabify": "with•out",
+    "definitionEn": "[\"without it being the case that.\", \"On or at the outside of\", \"Out of the limits of\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the enemy without\", \"the barbarians without the gates\", \"he went to Sweden without her\"], \"A2\": [\"they sat looking at each other without speaking\", \"the first person to make the ascent without oxygen\"], \"B1\": [\"I'd never have known you without you spoke to me\", \"he won't be able to go without we know it\"]}",
+    "collocations": "[\"28-30 without\", \"without tears\"]",
+    "synonyms": "[\"lacking\", \"unescorted by\", \"unaccompanied by\", \"in need of\", \"in the absence of\"]",
+    "antonyms": "[\"with\", \"within\"]",
+    "relatedWords": "{\"en\": [\"outside\", \"out\", \"off\", \"apart\", \"beyond\"], \"ar\": [\"خارجياً\", \"خارجاً\", \"خارجَ المنزل\", \"بِاسْتثْنَاء\", \"سَلِيم مِن\", \"عَدِيم\"]}",
+    "arabicAr": "بدون",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 378,
+    "wordEn": "turn",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 378,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɜːn",
+    "phoneticUk": "tɜ:n",
+    "phoneticAr": "تيرن",
+    "translit": "dawr / muneataf ''aw dawr",
+    "definitionEn": "[\"move in a circular direction wholly or partly around an axis or point.\", \"move so that it is in a different position in relation to its surroundings or its previous position.\", \"change in nature, state, form, or color; become.\"]",
+    "usageNote": "note above the one indicated, the note itself, the note below the one indicated, and the note itself again.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the turn of the tide\", \"you gave us quite a turn!\", \"turn the mould upside down\", \"it was his turn to speak\", \"to turn the Iliad\"], \"A2\": [\"he made the turn in one under par\", \"why don't you take a turn around the garden?\", \"turn to page five for the answer\"], \"B1\": [\"if I could turn a tune, I even think I should sing\"]}",
+    "collocations": "[\"the Earth turns\", \"turn on the spot\", \"to turn cider or wine\", \"to turn the Iliad\", \"new turn\"]",
+    "synonyms": "[\"bend\", \"crook\", \"twist\", \"turning\", \"go around\"]",
+    "antonyms": "[\"unbend\"]",
+    "relatedWords": "{\"en\": [\"reverse\", \"turn to\", \"bend\", \"move around\", \"crook\"], \"ar\": [\"إتّجاه\", \"اسْتدَارَة\", \"إعْوِجاج\", \"إلْتِفات\", \"إلْتِفَاتَة\", \"إلْتِوَاء\"]}",
+    "arabicAr": "دور / منعطف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 379,
+    "wordEn": "turn",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 379,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɜːn",
+    "phoneticUk": "tɜ:n",
+    "phoneticAr": "تيرن",
+    "translit": "dawr / muneataf ''aw dawr",
+    "definitionEn": "[\"move in a circular direction wholly or partly around an axis or point.\", \"move so that it is in a different position in relation to its surroundings or its previous position.\", \"change in nature, state, form, or color; become.\"]",
+    "usageNote": "note above the one indicated, the note itself, the note below the one indicated, and the note itself again.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the turn of the tide\", \"you gave us quite a turn!\", \"turn the mould upside down\", \"it was his turn to speak\", \"to turn the Iliad\"], \"A2\": [\"he made the turn in one under par\", \"why don't you take a turn around the garden?\", \"turn to page five for the answer\"], \"B1\": [\"if I could turn a tune, I even think I should sing\"]}",
+    "collocations": "[\"the Earth turns\", \"turn on the spot\", \"to turn cider or wine\", \"to turn the Iliad\", \"new turn\"]",
+    "synonyms": "[\"bend\", \"crook\", \"twist\", \"turning\", \"go around\"]",
+    "antonyms": "[\"unbend\"]",
+    "relatedWords": "{\"en\": [\"reverse\", \"turn to\", \"bend\", \"move around\", \"crook\"], \"ar\": [\"إتّجاه\", \"اسْتدَارَة\", \"إعْوِجاج\", \"إلْتِفات\", \"إلْتِفَاتَة\", \"إلْتِوَاء\"]}",
+    "arabicAr": "دور / منعطف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 380,
+    "wordEn": "end",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 380,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɛnd",
+    "phoneticAr": "ايند",
+    "translit": "nihaya / alnihaya",
+    "definitionEn": "[\"a final part of something, especially a period of time, an activity, or a story.\", \"the furthest or most extreme part or point of something.\", \"a goal or result that one seeks to achieve.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she wanted to end the relationship\", \"a defensive end\", \"The Pavillion End\", \"odds and ends\"], \"A2\": [\"you're going to honor your end of the deal\", \"“Hello,” said a voice at the other end\", \"the end of that man is peace\", \"Mario led the race from beginning to end\"], \"B1\": [\"to this end, schools were set up for peasant women\", \"you will go to church and that's the end of it\"]}",
+    "collocations": "[\"For what end should I toil\", \"The Pavillion End\", \"odds and ends\", \"other end\", \"end user\"]",
+    "synonyms": "[\"last\", \"ending\", \"terminal\", \"conclusion\", \"final stage\"]",
+    "antonyms": "[\"beginning\", \"middle\", \"begin\"]",
+    "relatedWords": "{\"en\": [\"finish\", \"conclusion\", \"close\", \"remainder\", \"remnant\"], \"ar\": [\"أرَب\", \"أسْفَل\", \"أسَلَة\", \"أقْصَى\", \"أمَد\", \"انْتِهاء\"]}",
+    "arabicAr": "نهاية",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 381,
+    "wordEn": "end",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 381,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɛnd",
+    "phoneticAr": "ايند",
+    "translit": "nihaya / alnihaya",
+    "definitionEn": "[\"a final part of something, especially a period of time, an activity, or a story.\", \"the furthest or most extreme part or point of something.\", \"a goal or result that one seeks to achieve.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she wanted to end the relationship\", \"a defensive end\", \"The Pavillion End\", \"odds and ends\"], \"A2\": [\"you're going to honor your end of the deal\", \"“Hello,” said a voice at the other end\", \"the end of that man is peace\", \"Mario led the race from beginning to end\"], \"B1\": [\"to this end, schools were set up for peasant women\", \"you will go to church and that's the end of it\"]}",
+    "collocations": "[\"For what end should I toil\", \"The Pavillion End\", \"odds and ends\", \"other end\", \"end user\"]",
+    "synonyms": "[\"last\", \"ending\", \"terminal\", \"conclusion\", \"final stage\"]",
+    "antonyms": "[\"beginning\", \"middle\", \"begin\"]",
+    "relatedWords": "{\"en\": [\"finish\", \"conclusion\", \"close\", \"remainder\", \"remnant\"], \"ar\": [\"أرَب\", \"أسْفَل\", \"أسَلَة\", \"أقْصَى\", \"أمَد\", \"انْتِهاء\"]}",
+    "arabicAr": "نهاية",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 382,
+    "wordEn": "within",
+    "pos": "adv",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 382,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "wɪˈθɪn",
+    "phoneticUk": "wɪðˈɪn",
+    "phoneticAr": "ويثين",
+    "translit": "dakhil / fi ghdwn",
+    "syllabify": "with•in",
+    "definitionEn": "[\"In the inner or interior part of\", \"In the limits or compass of\", \"Hence, inside the limits, reach, or influence of\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"within reach\", \"inquire within\", \"a field located within the city\", \"beauty coming from within\", \"the within appeal\", \"within her studio\"], \"A2\": [\"full cooperation within the terms of the treaty\", \"the spread of fire within the building\", \"33% were rearrested within two years of their release\", \"Bob lives within a few miles of Honesdale\"]}",
+    "collocations": "[\"within her studio\", \"the within appeal\", \"christ within\", \"within group\"]",
+    "synonyms": "[\"inside\", \"enclosed by\", \"surrounded by\", \"inside the range/limits of\", \"within the bounds/confines of\"]",
+    "antonyms": "[\"outside\"]",
+    "relatedWords": "{\"en\": [\"inside\", \"interior\", \"inner\", \"internally\", \"indoors\"], \"ar\": [\"داخلاً\", \"من الداخل\", \"داخل الجسم\", \"الداخل\", \"داخلّ المبنى\", \"باطنيّاً\"]}",
+    "arabicAr": "داخل / ضمن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 383,
+    "wordEn": "within",
+    "pos": "prep",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 383,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "wɪˈθɪn",
+    "phoneticUk": "wɪðˈɪn",
+    "phoneticAr": "ويثين",
+    "translit": "dakhil / fi ghdwn",
+    "syllabify": "with•in",
+    "definitionEn": "[\"In the inner or interior part of\", \"In the limits or compass of\", \"Hence, inside the limits, reach, or influence of\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"within reach\", \"inquire within\", \"a field located within the city\", \"beauty coming from within\", \"the within appeal\", \"within her studio\"], \"A2\": [\"full cooperation within the terms of the treaty\", \"the spread of fire within the building\", \"33% were rearrested within two years of their release\", \"Bob lives within a few miles of Honesdale\"]}",
+    "collocations": "[\"within her studio\", \"the within appeal\", \"christ within\", \"within group\"]",
+    "synonyms": "[\"inside\", \"enclosed by\", \"surrounded by\", \"inside the range/limits of\", \"within the bounds/confines of\"]",
+    "antonyms": "[\"outside\"]",
+    "relatedWords": "{\"en\": [\"inside\", \"interior\", \"inner\", \"internally\", \"indoors\"], \"ar\": [\"داخلاً\", \"من الداخل\", \"داخل الجسم\", \"الداخل\", \"داخلّ المبنى\", \"باطنيّاً\"]}",
+    "arabicAr": "داخل / ضمن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 384,
+    "wordEn": "local",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 384,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈləʊkl̩",
+    "phoneticUk": "ˈləʊkəl",
+    "phoneticAr": "لاوكل",
+    "translit": "mahaliy / mahaliyin",
+    "syllabify": "lo•cal",
+    "definitionEn": "[\"belonging or relating to a particular area or neighborhood, typically exclusively so.\", \"an inhabitant of a particular area or neighborhood.\", \"A train which receives and deposits passengers or freight along the line of the road\"]",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"catch the local into New Delhi\", \"a local infection\", \"researching local history\", \"the local post office\"], \"A2\": [\"the town has an excellent local bus service\", \"migration can regulate the local density of animals\"]}",
+    "collocations": "[\"local disk drive\", \"local file\", \"local lesion\", \"state local\", \"local authorities\"]",
+    "synonyms": "[\"community\", \"local anesthetic\", \"local anaesthetic\", \"topical anesthetic\", \"topical anaesthetic\"]",
+    "antonyms": "[\"express\", \"national\", \"general\"]",
+    "relatedWords": "{\"en\": [\"localized\", \"community\", \"native\", \"district\", \"homegrown\"], \"ar\": [\"موضعيّ\", \"محليّ\", \"إقْلِيمِيّ\", \"بَلَدِيّ\", \"حَيّزِيّ\", \"مَكَانِيّ\"]}",
+    "arabicAr": "محلي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 385,
+    "wordEn": "local",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 385,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈləʊkl̩",
+    "phoneticUk": "ˈləʊkəl",
+    "phoneticAr": "لاوكل",
+    "translit": "mahaliy / mahaliyin",
+    "syllabify": "lo•cal",
+    "definitionEn": "[\"belonging or relating to a particular area or neighborhood, typically exclusively so.\", \"an inhabitant of a particular area or neighborhood.\", \"A train which receives and deposits passengers or freight along the line of the road\"]",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"catch the local into New Delhi\", \"a local infection\", \"researching local history\", \"the local post office\"], \"A2\": [\"the town has an excellent local bus service\", \"migration can regulate the local density of animals\"]}",
+    "collocations": "[\"local disk drive\", \"local file\", \"local lesion\", \"state local\", \"local authorities\"]",
+    "synonyms": "[\"community\", \"local anesthetic\", \"local anaesthetic\", \"topical anesthetic\", \"topical anaesthetic\"]",
+    "antonyms": "[\"express\", \"national\", \"general\"]",
+    "relatedWords": "{\"en\": [\"localized\", \"community\", \"native\", \"district\", \"homegrown\"], \"ar\": [\"موضعيّ\", \"محليّ\", \"إقْلِيمِيّ\", \"بَلَدِيّ\", \"حَيّزِيّ\", \"مَكَانِيّ\"]}",
+    "arabicAr": "محلي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 386,
+    "wordEn": "during",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 386,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈdjɔː.ɹɪŋ",
+    "phoneticUk": "ˈdʒɔːɹɪŋ",
+    "phoneticAr": "ديأورينج",
+    "translit": "khilal / ''athna''",
+    "syllabify": "dur•ing",
+    "definitionEn": "[\"throughout the course or duration of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"the period during which he grew to adulthood\", \"the restaurant is open during the day\"], \"B1\": [\"the stabbing took place during an argument at a party\"]}",
+    "collocations": "[\"france during\", \"during the\"]",
+    "synonyms": "[\"through\", \"throughout\", \"for the time of\", \"in the course of\", \"throughout the time of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"courts\", \"durant\", \"courses\", \"cours\", \"throughout\"], \"ar\": [\"إبّان\", \"بَيْنَمَا\", \"حِيْنَمَا\", \"طِيْلَة\", \"عِنْدَمَا\", \"فِيمَا\"]}",
+    "arabicAr": "خلال / أثناء",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 387,
+    "wordEn": "during",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 387,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈdjɔː.ɹɪŋ",
+    "phoneticUk": "ˈdʒɔːɹɪŋ",
+    "phoneticAr": "ديأورينج",
+    "translit": "khilal / ''athna''",
+    "syllabify": "dur•ing",
+    "definitionEn": "[\"throughout the course or duration of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"the period during which he grew to adulthood\", \"the restaurant is open during the day\"], \"B1\": [\"the stabbing took place during an argument at a party\"]}",
+    "collocations": "[\"france during\", \"during the\"]",
+    "synonyms": "[\"through\", \"throughout\", \"for the time of\", \"in the course of\", \"throughout the time of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"courts\", \"durant\", \"courses\", \"cours\", \"throughout\"], \"ar\": [\"إبّان\", \"بَيْنَمَا\", \"حِيْنَمَا\", \"طِيْلَة\", \"عِنْدَمَا\", \"فِيمَا\"]}",
+    "arabicAr": "خلال / أثناء",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 388,
+    "wordEn": "bring",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 388,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈbɹɪŋ",
+    "phoneticAr": "برينج",
+    "translit": "yahdur / ahdur",
+    "definitionEn": "[\"take or go with to a place.\", \"cause to be in a particular state or condition.\", \"initiate against someone.\"]",
+    "usageNote": "often referring to a particularly hard thrown fastball.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"What does coal bring per ton\"], \"A2\": [\"she could not bring herself to mention it\"], \"B1\": [\"I'll give you an aspirin to bring down your temperature\"]}",
+    "collocations": "[\"What does coal bring per ton\", \"leave bring\", \"bring back\"]",
+    "synonyms": "[\"take\", \"work\", \"play\", \"convey\", \"conduct\"]",
+    "antonyms": "[\"take away\"]",
+    "relatedWords": "{\"en\": [\"bring in\", \"get\", \"contribute\", \"fetch\", \"impart\"], \"ar\": [\"اسْتَقْدَم\", \"إجْتَلَب\", \"أتَى بِ\", \"أحْضَر\", \"أرْسَل\", \"جاء ب\"]}",
+    "arabicAr": "يحضر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 389,
+    "wordEn": "word",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 389,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wɜːd",
+    "phoneticUk": "wɜ:d",
+    "phoneticAr": "ويرد",
+    "translit": "kalima",
+    "definitionEn": "[\"a single distinct meaningful element of speech or writing, used with others to form a sentence and typically shown with a space on either side when written or printed.\", \"a command, password, or signal.\", \"one's account of the truth, especially when it differs from that of another person.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't like the word “unofficial”\", \"a word of warning\", \"don't believe a word of it\", \"mum's the word\"], \"A2\": [\"everything will be taken care of—you have my word\"], \"B1\": [\"the prince sent word to the king asking him to send reinforcements\", \"in court it would have been his word against mine\"], \"B2\": [\"I was afraid to leave Edinburgh in case there was word from the War Office\", \"he conforms in word and deed to the values of a society that he rejects\"]}",
+    "collocations": "[\"mum's the word\", \"last word\", \"word mouth\"]",
+    "synonyms": "[\"news\", \"tidings\", \"discussion\", \"appellation\", \"intelligence\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"phrase\", \"logos\", \"watchword\", \"articulate\", \"formulate\"], \"ar\": [\"إلْتِزام\", \"تَعْبِير\", \"تَعَهّد\", \"حَدِيث\", \"عِبَارَة\", \"قَوْل\"]}",
+    "arabicAr": "كلمة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 390,
+    "wordEn": "begin",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 390,
+    "frequency": 4,
+    "difficultyScore": 6,
+    "phoneticUs": "biˈɡɪn",
+    "phoneticAr": "بيجين",
+    "translit": "yabda / abda",
+    "syllabify": "be•gin",
+    "definitionEn": "[\"start; perform or undergo the first part of .\", \"not have any chance or likelihood of doing a specified thing.\", \"To have or commence an independent or first existence\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"rooms begin at $139\"], \"A2\": [\"circuitry that Karen could not begin to comprehend\"]}",
+    "collocations": "[\"prime begin\", \"begin end\"]",
+    "synonyms": "[\"get\", \"get down\", \"start out\", \"Menachem Begin\", \"get cracking on\"]",
+    "antonyms": "[\"end\"]",
+    "relatedWords": "{\"en\": [\"commence\", \"start\", \"set about\", \"get\", \"set out\"], \"ar\": [\"أولًا\", \"بدأ\", \"استهل\", \"وقع\", \"أخذ في\"]}",
+    "arabicAr": "يبدأ",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 391,
+    "wordEn": "begin",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 391,
+    "frequency": 4,
+    "difficultyScore": 6,
+    "phoneticUs": "biˈɡɪn",
+    "phoneticAr": "بيجين",
+    "translit": "yabda / abda",
+    "syllabify": "be•gin",
+    "definitionEn": "[\"start; perform or undergo the first part of .\", \"not have any chance or likelihood of doing a specified thing.\", \"To have or commence an independent or first existence\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"rooms begin at $139\"], \"A2\": [\"circuitry that Karen could not begin to comprehend\"]}",
+    "collocations": "[\"prime begin\", \"begin end\"]",
+    "synonyms": "[\"get\", \"get down\", \"start out\", \"Menachem Begin\", \"get cracking on\"]",
+    "antonyms": "[\"end\"]",
+    "relatedWords": "{\"en\": [\"commence\", \"start\", \"set about\", \"get\", \"set out\"], \"ar\": [\"أولًا\", \"بدأ\", \"استهل\", \"وقع\", \"أخذ في\"]}",
+    "arabicAr": "يبدأ",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 392,
+    "wordEn": "although",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 392,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ɔːlˈðəʊ",
+    "phoneticUk": "ɔ:lˈðəʊ",
+    "phoneticAr": "أولذاو",
+    "translit": "bialraghm min / barughm min",
+    "syllabify": "al•though",
+    "definitionEn": "[\"in spite of the fact that; even though.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"although small, the room has a spacious feel\", \"although the sun was shining it wasn't that warm\"], \"B2\": [\"he says he has the team jersey, although I've never seen him wear it\"]}",
+    "collocations": "[\"note although\"]",
+    "synonyms": "[\"even though\", \"notwithstanding that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"though\", \"after\", \"albeit\", \"but\", \"cordero\"], \"ar\": [\"وَإن\", \"مع أنّ\", \"برغم أنّ\", \"رغم أن\", \"مع ان\"]}",
+    "arabicAr": "بالرغم من",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 393,
+    "wordEn": "although",
+    "pos": "conj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 393,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ɔːlˈðəʊ",
+    "phoneticUk": "ɔ:lˈðəʊ",
+    "phoneticAr": "أولذاو",
+    "translit": "bialraghm min / barughm min",
+    "syllabify": "al•though",
+    "definitionEn": "[\"in spite of the fact that; even though.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"although small, the room has a spacious feel\", \"although the sun was shining it wasn't that warm\"], \"B2\": [\"he says he has the team jersey, although I've never seen him wear it\"]}",
+    "collocations": "[\"note although\"]",
+    "synonyms": "[\"even though\", \"notwithstanding that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"though\", \"after\", \"albeit\", \"but\", \"cordero\"], \"ar\": [\"وَإن\", \"مع أنّ\", \"برغم أنّ\", \"رغم أن\", \"مع ان\"]}",
+    "arabicAr": "بالرغم من",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 394,
+    "wordEn": "example",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 394,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "əɡˈzæmpl̩",
+    "phoneticUk": "ɘɡˈzɐːmpɯ",
+    "phoneticAr": "اجزآمبل",
+    "translit": "mithal",
+    "syllabify": "ex•am•ple",
+    "definitionEn": "[\"a thing characteristic of its kind or illustrating a general rule.\", \"a person or thing regarded in terms of their fitness to be imitated or the likelihood of their being imitated.\", \"be illustrated or exemplified.\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"she followed her brother's example and deserted her family\"], \"B1\": [\"it's a good example of how European action can produce results\", \"it is vitally important that parents should set an example\"]}",
+    "collocations": "[\"good example\", \"example problem\"]",
+    "synonyms": "[\"model\", \"instance\", \"specimen\", \"illustration\", \"representative\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"representative\", \"exemplar\", \"object lesson\", \"lesson\", \"illustration\"], \"ar\": [\"أُسْوَة\", \"إمام\", \"آيَة\", \"حَذْو\", \"دَلِيل\", \"رائِد\"]}",
+    "arabicAr": "مثال",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 395,
+    "wordEn": "family",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 395,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈfɛm(ɘ)li",
+    "phoneticUk": "ˈfæməlɪ",
+    "phoneticAr": "فايملي",
+    "translit": "eayila / ''usra",
+    "syllabify": "fam•i•ly",
+    "definitionEn": "[\"a group of one or more parents and their children living together as a unit.\", \"all the descendants of a common ancestor.\", \"a group of related things.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the cabbage family\", \"the family home\", \"the Austronesian language family\", \"friends and family can provide support\", \"the brass family the violin family\"], \"A2\": [\"all manuscripts that share this reading constitute a family\", \"she has the sole responsibility for a large family\"], \"B1\": [\"the house has been owned by the same family for 300 years\", \"I could not turn him away, for he was family\"]}",
+    "collocations": "[\"crime family, Mafia family\", \"the brass family the violin family\", \"the Indo-European family\", \"the Afroasiatic family\", \"whole family\"]",
+    "synonyms": "[\"home\", \"house\", \"menage\", \"ménage\", \"household\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"family unit\", \"kin\", \"kinfolk\", \"kinsfolk\", \"kinsperson\"], \"ar\": [\"أصْل\", \"أقْرِباء\", \"آل\", \"أهْل\", \"أهْلِيّ\", \"بَيْت\"]}",
+    "arabicAr": "عائلة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 396,
+    "wordEn": "family",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 396,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈfɛm(ɘ)li",
+    "phoneticUk": "ˈfæməlɪ",
+    "phoneticAr": "فايملي",
+    "translit": "eayila / ''usra",
+    "syllabify": "fam•i•ly",
+    "definitionEn": "[\"a group of one or more parents and their children living together as a unit.\", \"all the descendants of a common ancestor.\", \"a group of related things.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the cabbage family\", \"the family home\", \"the Austronesian language family\", \"friends and family can provide support\", \"the brass family the violin family\"], \"A2\": [\"all manuscripts that share this reading constitute a family\", \"she has the sole responsibility for a large family\"], \"B1\": [\"the house has been owned by the same family for 300 years\", \"I could not turn him away, for he was family\"]}",
+    "collocations": "[\"crime family, Mafia family\", \"the brass family the violin family\", \"the Indo-European family\", \"the Afroasiatic family\", \"whole family\"]",
+    "synonyms": "[\"home\", \"house\", \"menage\", \"ménage\", \"household\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"family unit\", \"kin\", \"kinfolk\", \"kinsfolk\", \"kinsperson\"], \"ar\": [\"أصْل\", \"أقْرِباء\", \"آل\", \"أهْل\", \"أهْلِيّ\", \"بَيْت\"]}",
+    "arabicAr": "عائلة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 397,
+    "wordEn": "rather",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 397,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈɹɑːðə",
+    "phoneticUk": "ˌɹɑːˈðɜː(ɹ)",
+    "phoneticAr": "رآذا",
+    "translit": "bdlaan / badalanaan",
+    "definitionEn": "[\"indicate one's preference in a particular matter.\", \"precede an idea that is different or opposite to a previous statement.\", \"More readily or willingly\"]",
+    "usageNote": "Used to specify a choice or preference; preferably, in preference to.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'd rather you not tell him\", \"she's been behaving rather strangely\", \"he's rather an unpleasant man\", \"she seemed indifferent rather than angry\", \"Would you like some -- Rather\"], \"A2\": [\"“You'd better ask her.” “I'd rather not.”\", \"I walked, or rather limped, the two miles home\", \"she'd rather die than cause a scene\"], \"B1\": [\"we were rather hoping you might do that for us\"]}",
+    "collocations": "[\"Would you like some Rather\", \"hereditary rather\", \"rather than\"]",
+    "synonyms": "[\"kinda\", \"instead\", \"kind of\", \"sort of\", \"by preference\"]",
+    "antonyms": "[\"total\"]",
+    "relatedWords": "{\"en\": [\"sooner\", \"preferably\", \"quite\", \"sort of\", \"kinda\"], \"ar\": [\"على الأصحّ\", \"بالأحرى\", \"مُفضِّلاً ذلك على\", \"إلى حدّ ما\", \"على العكس\", \"إنّما\"]}",
+    "arabicAr": "بدلاً / إلى حد ما",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 398,
+    "wordEn": "fact",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 398,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "fækt",
+    "phoneticAr": "فآكت",
+    "translit": "haqiqatan / hqyq",
+    "definitionEn": "[\"a thing that is known or proved to be true.\", \"A doing, making, or preparing.\", \"An effect produced or achieved\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a body of fact\"], \"B2\": [\"there was a question of fact as to whether they had received the letter\"]}",
+    "collocations": "[\"establish the facts\", \"hard facts\", \"facts and figures\", \"very fact\", \"fact way\"]",
+    "synonyms": "[\"reality\", \"actuality\", \"certainty\", \"certitude\", \"factuality\"]",
+    "antonyms": "[\"fiction\"]",
+    "relatedWords": "{\"en\": [\"reality\", \"really\", \"factual\", \"actuality\", \"factually\"], \"ar\": [\"الحَقِيقَة\", \"حَدَث\", \"مَعْلُومَة\", \"الواقِع\", \"حادِثَة\", \"واقِعَة\"]}",
+    "arabicAr": "حقيقة / الحقيقة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 399,
+    "wordEn": "social",
+    "pos": "adj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 399,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈsəʊʃəl",
+    "phoneticAr": "ساوشال",
+    "translit": "ajtimaeiun / alaijtimaeia",
+    "syllabify": "so•cial",
+    "definitionEn": "[\"relating to society or its organization.\", \"needing companionship and therefore best suited to living in communities.\", \"gregarious; breeding or nesting in colonies.\"]",
+    "usageNote": "often held for a couple to be married.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Guy led a full social life\", \"a traditional Japanese social structure\", \"a church social\", \"social gaming\", \"a social insect\"], \"A2\": [\"we are social beings as well as individuals\", \"a recent analysis of social class in Britain\", \"alcoholism is recognized as a major social problem\"], \"B1\": [\"her mother is a lady of the highest social standing\"]}",
+    "collocations": "[\"social gaming\", \"the Social War\", \"a social insect\", \"What's your social\", \"psycho social\"]",
+    "synonyms": "[\"mixer\", \"sociable\", \"societal\", \"communal\", \"community\"]",
+    "antonyms": "[\"unsocial\"]",
+    "relatedWords": "{\"en\": [\"gregarious\", \"sociable\", \"friendly\", \"cultural\", \"societal\"], \"ar\": [\"إجْتِمَاعِيّ\", \"مُجْتَمَعِيّ\", \"مُخَالِط\", \"اجتماعيّ\", \"تناسُليّ\", \"رسميّ\"]}",
+    "arabicAr": "اجتماعي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 400,
+    "wordEn": "write",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 400,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɹaɪt",
+    "phoneticAr": "رآيت",
+    "translit": "yaktub / kitaba",
+    "definitionEn": "[\"mark on a surface, typically paper, with a pen, pencil, or similar implement.\", \"compose, write, and send to someone.\", \"compose for written or printed reproduction or publication; put into literary form and set down in writing.\"]",
+    "usageNote": "often used reflexively.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he couldn't read or write\", \"truth written on the heart\"], \"A2\": [\"Thank you and goodbye. I'll write soon\", \"he had to write a check for $800\", \"if I could write the beauty of your eyes\"]}",
+    "collocations": "[\"read write\", \"write statement\"]",
+    "synonyms": "[\"pen\", \"indite\", \"compose\", \"publish\", \"put in writing\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"indite\", \"publish\", \"compose\", \"spell\", \"pen\"], \"ar\": [\"انْشَأ\", \"انْشَأ رِسَالَة\", \"ألّف\", \"تَرَسّل\", \"حَبّر\", \"حَدّد النّصّ\"]}",
+    "arabicAr": "يكتب",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 401,
+    "wordEn": "state",
+    "pos": "adj",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 401,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "steɪt",
+    "phoneticAr": "ستايت",
+    "translit": "wilaya / hala",
+    "definitionEn": "[\"the particular condition that someone or something is in at a specific time.\", \"a nation or territory considered as an organized political community under one government.\", \"the civil government of a country.\"]",
+    "usageNote": "often standing on a dais; a seat of dignity; also, the canopy itself.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was buried in state\", \"the future of state education\", \"the state of the company's finances\", \"services provided by the state\", \"the German state of Bavaria\"], \"A2\": [\"look at the state of you—what a mess!\", \"we're worried about her state of mind\"], \"B1\": [\"King Fahd appointed a council to advise him on affairs of state\"]}",
+    "collocations": "[\"a state of being\", \"a state of emergency\", \"absolute state\", \"in a state\", \"in a bit of a state\"]",
+    "synonyms": "[\"land\", \"nation\", \"country\", \"province\", \"condition\"]",
+    "antonyms": "[\"occurrence\"]",
+    "relatedWords": "{\"en\": [\"state of matter\", \"land\", \"country\", \"express\", \"province\"], \"ar\": [\"حكوميّ\", \"رسميّ\", \"إقْلِيم\", \"أمْر\", \"أمِيرِيّ\", \"بال\"]}",
+    "arabicAr": "ولاية / ولاية (داخل بلد)",
+    "addedFromOxford": 0
+  }
+]

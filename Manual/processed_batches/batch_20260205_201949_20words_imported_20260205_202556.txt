@@ -1,0 +1,582 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 136,
+    "wordEn": "than",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 136,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðæn",
+    "phoneticUk": "ðn̩",
+    "phoneticAr": "ذآن",
+    "translit": "man / min",
+    "definitionEn": "[\"introduce the second element in a comparison.\", \"used in expressions introducing an exception or contrast.\", \"used in expressions indicating one thing happening immediately after another.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they observe rather than act\"], \"A2\": [\"he was much smaller than his son\", \"scarcely was the work completed than it was abandoned\", \"Jack doesn't know any more than I do\"], \"B1\": [\"he claims not to own anything other than his home\", \"a single banana is a lot cheaper than a chocolate bar\", \"they go out less than they did when they first moved to Paris\", \"he's playing better than when he won the title last year\"]}",
+    "collocations": "[\"more than\", \"than air\"]",
+    "synonyms": "[\"then\", \"rather\", \"whereas\", \"besides\", \"because\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whereas\", \"then\", \"besides\", \"rather\", \"because\"], \"ar\": [\"إلّا\", \"حتى\", \"غير\", \"مِن\", \"إلاّ\", \"على أن\"]}",
+    "arabicAr": "من / على أن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 137,
+    "wordEn": "more",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 137,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈmɔɹ",
+    "phoneticUk": "ˈmɔː",
+    "phoneticAr": "مأور",
+    "translit": "'akthar / ''akthar",
+    "definitionEn": "[\"a greater or additional amount or degree of.\", \"a greater or additional amount of something.\", \"Greater in quality, amount, degree, quality, and the like\"]",
+    "usageNote": "Used to form the comparative form of adjectives and adverbs.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell me more\", \"she poured herself more coffee\"], \"A2\": [\"products of superior quality usually cost more\", \"they proved more of a hindrance than a help\"], \"B1\": [\"you guys will probably know more than me about this\", \"I feel better in myself and I have more energy\"]}",
+    "collocations": "[\"many more\", \"more time\"]",
+    "synonyms": "[\"additional\", \"more than\", \"Thomas More\", \"Sir Thomas More\", \"to a greater extent\"]",
+    "antonyms": "[\"less\", \"fewer\"]",
+    "relatedWords": "{\"en\": [\"additional\", \"further\", \"added\", \"more than\", \"to a greater extent\"], \"ar\": [\"أكثر\", \"إضافيّ\", \"إلى حدّ أبعد\", \"إضافي\", \"مرة أخرى\", \"بدرجة أكبر\"]}",
+    "arabicAr": "أكثر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 138,
+    "wordEn": "more",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 138,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈmɔɹ",
+    "phoneticUk": "ˈmɔː",
+    "phoneticAr": "مأور",
+    "translit": "'akthar / ''akthar",
+    "definitionEn": "[\"a greater or additional amount or degree of.\", \"a greater or additional amount of something.\", \"Greater in quality, amount, degree, quality, and the like\"]",
+    "usageNote": "Used to form the comparative form of adjectives and adverbs.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell me more\", \"she poured herself more coffee\"], \"A2\": [\"products of superior quality usually cost more\", \"they proved more of a hindrance than a help\"], \"B1\": [\"you guys will probably know more than me about this\", \"I feel better in myself and I have more energy\"]}",
+    "collocations": "[\"many more\", \"more time\"]",
+    "synonyms": "[\"additional\", \"more than\", \"Thomas More\", \"Sir Thomas More\", \"to a greater extent\"]",
+    "antonyms": "[\"less\", \"fewer\"]",
+    "relatedWords": "{\"en\": [\"additional\", \"further\", \"added\", \"more than\", \"to a greater extent\"], \"ar\": [\"أكثر\", \"إضافيّ\", \"إلى حدّ أبعد\", \"إضافي\", \"مرة أخرى\", \"بدرجة أكبر\"]}",
+    "arabicAr": "أكثر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 139,
+    "wordEn": "more",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 139,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈmɔɹ",
+    "phoneticUk": "ˈmɔː",
+    "phoneticAr": "مأور",
+    "translit": "'akthar / ''akthar",
+    "definitionEn": "[\"a greater or additional amount or degree of.\", \"a greater or additional amount of something.\", \"Greater in quality, amount, degree, quality, and the like\"]",
+    "usageNote": "Used to form the comparative form of adjectives and adverbs.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell me more\", \"she poured herself more coffee\"], \"A2\": [\"products of superior quality usually cost more\", \"they proved more of a hindrance than a help\"], \"B1\": [\"you guys will probably know more than me about this\", \"I feel better in myself and I have more energy\"]}",
+    "collocations": "[\"many more\", \"more time\"]",
+    "synonyms": "[\"additional\", \"more than\", \"Thomas More\", \"Sir Thomas More\", \"to a greater extent\"]",
+    "antonyms": "[\"less\", \"fewer\"]",
+    "relatedWords": "{\"en\": [\"additional\", \"further\", \"added\", \"more than\", \"to a greater extent\"], \"ar\": [\"أكثر\", \"إضافيّ\", \"إلى حدّ أبعد\", \"إضافي\", \"مرة أخرى\", \"بدرجة أكبر\"]}",
+    "arabicAr": "أكثر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 140,
+    "wordEn": "more",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 140,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈmɔɹ",
+    "phoneticUk": "ˈmɔː",
+    "phoneticAr": "مأور",
+    "translit": "'akthar / ''akthar",
+    "definitionEn": "[\"a greater or additional amount or degree of.\", \"a greater or additional amount of something.\", \"Greater in quality, amount, degree, quality, and the like\"]",
+    "usageNote": "Used to form the comparative form of adjectives and adverbs.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell me more\", \"she poured herself more coffee\"], \"A2\": [\"products of superior quality usually cost more\", \"they proved more of a hindrance than a help\"], \"B1\": [\"you guys will probably know more than me about this\", \"I feel better in myself and I have more energy\"]}",
+    "collocations": "[\"many more\", \"more time\"]",
+    "synonyms": "[\"additional\", \"more than\", \"Thomas More\", \"Sir Thomas More\", \"to a greater extent\"]",
+    "antonyms": "[\"less\", \"fewer\"]",
+    "relatedWords": "{\"en\": [\"additional\", \"further\", \"added\", \"more than\", \"to a greater extent\"], \"ar\": [\"أكثر\", \"إضافيّ\", \"إلى حدّ أبعد\", \"إضافي\", \"مرة أخرى\", \"بدرجة أكبر\"]}",
+    "arabicAr": "أكثر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 141,
+    "wordEn": "about",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 141,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "əˈbɛʊt",
+    "phoneticUk": "əˈbaʊt",
+    "phoneticAr": "ابايوت",
+    "translit": "ean / hawl",
+    "definitionEn": "[\"on the subject of; concerning.\", \"In the immediate neighborhood of\", \"Over or upon different parts of\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he's about 35\", \"it's all about having fun\", \"an article about yellow fever\", \"reduced by about 5 percent\", \"I was thinking about you\", \"messing about fooling about loafing about\", \"to be about one's business\"], \"A2\": [\"there's nothing we can do about it\"]}",
+    "collocations": "[\"just going about their business\", \"messing about fooling about loafing about\", \"to bring about, to come about\", \"out and about up and about\", \"right about\"]",
+    "synonyms": "[\"astir\", \"regarding\", \"approximately\", \"close to\", \"just about\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"near\", \"nigh\", \"well-nigh\", \"almost\", \"virtually\"], \"ar\": [\"حول\", \"حوالي\", \"نحو\", \"تقريباً\", \"هنا وهناك\", \"على مقربة\"]}",
+    "arabicAr": "عن / حول",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 142,
+    "wordEn": "about",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 142,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "əˈbɛʊt",
+    "phoneticUk": "əˈbaʊt",
+    "phoneticAr": "ابايوت",
+    "translit": "ean / hawl",
+    "definitionEn": "[\"on the subject of; concerning.\", \"In the immediate neighborhood of\", \"Over or upon different parts of\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he's about 35\", \"it's all about having fun\", \"an article about yellow fever\", \"reduced by about 5 percent\", \"I was thinking about you\", \"messing about fooling about loafing about\", \"to be about one's business\"], \"A2\": [\"there's nothing we can do about it\"]}",
+    "collocations": "[\"just going about their business\", \"messing about fooling about loafing about\", \"to bring about, to come about\", \"out and about up and about\", \"right about\"]",
+    "synonyms": "[\"astir\", \"regarding\", \"approximately\", \"close to\", \"just about\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"near\", \"nigh\", \"well-nigh\", \"almost\", \"virtually\"], \"ar\": [\"حول\", \"حوالي\", \"نحو\", \"تقريباً\", \"هنا وهناك\", \"على مقربة\"]}",
+    "arabicAr": "عن / حول",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 143,
+    "wordEn": "now",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 143,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "naʊ",
+    "phoneticAr": "ناو",
+    "translit": "alan",
+    "definitionEn": "[\"at the present time or moment.\", \"used, especially in conversation, to draw attention to a particular statement or point in a narrative.\", \"used in or as a request, instruction, or question, typically to give a slight emphasis to one's words.\"]",
+    "usageNote": "Used to introduce a point, a qualification of what has previously been said, a remonstration or a rebuke.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've been married four years now\", \"run along now\", \"what do you want now?\", \"they should be back by now\", \"Now stop that, Jimmy\"], \"A2\": [\"we can hardly send her back, now can we?\", \"it's the most popular style of jazz right now\"], \"B1\": [\"they spent a lot of time together now that he had retired\"], \"B2\": [\"“Mom says for you to give me some of your stamps.” “Does she now?”\"]}",
+    "collocations": "[\"Stop that now, Jimmy\", \"what now\", \"now days\"]",
+    "synonyms": "[\"today\", \"nowadays\", \"immediately\", \"at present\", \"at the minute\"]",
+    "antonyms": "[\"then\", \"later\"]",
+    "relatedWords": "{\"en\": [\"nowadays\", \"at once\", \"instantly\", \"immediately\", \"right away\"], \"ar\": [\"الآن\", \"الحاضِر\", \"الحال\", \"السّاعَة\", \"حالِيّاً\", \"توًّا\"]}",
+    "arabicAr": "الآن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 144,
+    "wordEn": "now",
+    "pos": "conj",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 144,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "naʊ",
+    "phoneticAr": "ناو",
+    "translit": "alan",
+    "definitionEn": "[\"at the present time or moment.\", \"used, especially in conversation, to draw attention to a particular statement or point in a narrative.\", \"used in or as a request, instruction, or question, typically to give a slight emphasis to one's words.\"]",
+    "usageNote": "Used to introduce a point, a qualification of what has previously been said, a remonstration or a rebuke.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they've been married four years now\", \"run along now\", \"what do you want now?\", \"they should be back by now\", \"Now stop that, Jimmy\"], \"A2\": [\"we can hardly send her back, now can we?\", \"it's the most popular style of jazz right now\"], \"B1\": [\"they spent a lot of time together now that he had retired\"], \"B2\": [\"“Mom says for you to give me some of your stamps.” “Does she now?”\"]}",
+    "collocations": "[\"Stop that now, Jimmy\", \"what now\", \"now days\"]",
+    "synonyms": "[\"today\", \"nowadays\", \"immediately\", \"at present\", \"at the minute\"]",
+    "antonyms": "[\"then\", \"later\"]",
+    "relatedWords": "{\"en\": [\"nowadays\", \"at once\", \"instantly\", \"immediately\", \"right away\"], \"ar\": [\"الآن\", \"الحاضِر\", \"الحال\", \"السّاعَة\", \"حالِيّاً\", \"توًّا\"]}",
+    "arabicAr": "الآن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 145,
+    "wordEn": "last",
+    "pos": "adj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 145,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "last",
+    "phoneticUk": "ɫast",
+    "phoneticAr": "لآست",
+    "translit": "akhar / al''akhir",
+    "definitionEn": "[\"coming after all others in time or order; final.\", \"most recent in time; latest.\", \"on the last occasion before the present; previously.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"their last album\", \"childhood seems to last forever\", \"last year\", \"it's our last hope\", \"finishing in last place\", \"the last prize\"], \"A2\": [\"she did love me to the last\"], \"B1\": [\"his condition is so serious that he won't last the night\", \"addicts are often the last people to face up to their problems\"]}",
+    "collocations": "[\"last but not least\", \"to last a boot\", \"his last\", \"last years\"]",
+    "synonyms": "[\"finis\", \"finale\", \"finish\", \"rearmost\", \"stopping point\"]",
+    "antonyms": "[\"first\", \"intermediate\"]",
+    "relatedWords": "{\"en\": [\"ultimate\", \"endmost\", \"latest\", \"next-to-last\", \"penultimate\"], \"ar\": [\"أخير\", \"آخِر\", \"سابق\", \"في المؤخّرة\", \"أخرَ مرة قبل الزمن الحاضر\", \"أخيراً\"]}",
+    "arabicAr": "آخر / أخير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 146,
+    "wordEn": "last",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 146,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "last",
+    "phoneticUk": "ɫast",
+    "phoneticAr": "لآست",
+    "translit": "akhar / al''akhir",
+    "definitionEn": "[\"coming after all others in time or order; final.\", \"most recent in time; latest.\", \"on the last occasion before the present; previously.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"their last album\", \"childhood seems to last forever\", \"last year\", \"it's our last hope\", \"finishing in last place\", \"the last prize\"], \"A2\": [\"she did love me to the last\"], \"B1\": [\"his condition is so serious that he won't last the night\", \"addicts are often the last people to face up to their problems\"]}",
+    "collocations": "[\"last but not least\", \"to last a boot\", \"his last\", \"last years\"]",
+    "synonyms": "[\"finis\", \"finale\", \"finish\", \"rearmost\", \"stopping point\"]",
+    "antonyms": "[\"first\", \"intermediate\"]",
+    "relatedWords": "{\"en\": [\"ultimate\", \"endmost\", \"latest\", \"next-to-last\", \"penultimate\"], \"ar\": [\"أخير\", \"آخِر\", \"سابق\", \"في المؤخّرة\", \"أخرَ مرة قبل الزمن الحاضر\", \"أخيراً\"]}",
+    "arabicAr": "آخر / أخير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 147,
+    "wordEn": "last",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 147,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "last",
+    "phoneticUk": "ɫast",
+    "phoneticAr": "لآست",
+    "translit": "akhar / al''akhir",
+    "definitionEn": "[\"coming after all others in time or order; final.\", \"most recent in time; latest.\", \"on the last occasion before the present; previously.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"their last album\", \"childhood seems to last forever\", \"last year\", \"it's our last hope\", \"finishing in last place\", \"the last prize\"], \"A2\": [\"she did love me to the last\"], \"B1\": [\"his condition is so serious that he won't last the night\", \"addicts are often the last people to face up to their problems\"]}",
+    "collocations": "[\"last but not least\", \"to last a boot\", \"his last\", \"last years\"]",
+    "synonyms": "[\"finis\", \"finale\", \"finish\", \"rearmost\", \"stopping point\"]",
+    "antonyms": "[\"first\", \"intermediate\"]",
+    "relatedWords": "{\"en\": [\"ultimate\", \"endmost\", \"latest\", \"next-to-last\", \"penultimate\"], \"ar\": [\"أخير\", \"آخِر\", \"سابق\", \"في المؤخّرة\", \"أخرَ مرة قبل الزمن الحاضر\", \"أخيراً\"]}",
+    "arabicAr": "آخر / أخير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 148,
+    "wordEn": "last",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 148,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "last",
+    "phoneticUk": "ɫast",
+    "phoneticAr": "لآست",
+    "translit": "akhar / al''akhir",
+    "definitionEn": "[\"coming after all others in time or order; final.\", \"most recent in time; latest.\", \"on the last occasion before the present; previously.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"their last album\", \"childhood seems to last forever\", \"last year\", \"it's our last hope\", \"finishing in last place\", \"the last prize\"], \"A2\": [\"she did love me to the last\"], \"B1\": [\"his condition is so serious that he won't last the night\", \"addicts are often the last people to face up to their problems\"]}",
+    "collocations": "[\"last but not least\", \"to last a boot\", \"his last\", \"last years\"]",
+    "synonyms": "[\"finis\", \"finale\", \"finish\", \"rearmost\", \"stopping point\"]",
+    "antonyms": "[\"first\", \"intermediate\"]",
+    "relatedWords": "{\"en\": [\"ultimate\", \"endmost\", \"latest\", \"next-to-last\", \"penultimate\"], \"ar\": [\"أخير\", \"آخِر\", \"سابق\", \"في المؤخّرة\", \"أخرَ مرة قبل الزمن الحاضر\", \"أخيراً\"]}",
+    "arabicAr": "آخر / أخير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 149,
+    "wordEn": "last",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 149,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "last",
+    "phoneticUk": "ɫast",
+    "phoneticAr": "لآست",
+    "translit": "akhar / al''akhir",
+    "definitionEn": "[\"coming after all others in time or order; final.\", \"most recent in time; latest.\", \"on the last occasion before the present; previously.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"their last album\", \"childhood seems to last forever\", \"last year\", \"it's our last hope\", \"finishing in last place\", \"the last prize\"], \"A2\": [\"she did love me to the last\"], \"B1\": [\"his condition is so serious that he won't last the night\", \"addicts are often the last people to face up to their problems\"]}",
+    "collocations": "[\"last but not least\", \"to last a boot\", \"his last\", \"last years\"]",
+    "synonyms": "[\"finis\", \"finale\", \"finish\", \"rearmost\", \"stopping point\"]",
+    "antonyms": "[\"first\", \"intermediate\"]",
+    "relatedWords": "{\"en\": [\"ultimate\", \"endmost\", \"latest\", \"next-to-last\", \"penultimate\"], \"ar\": [\"أخير\", \"آخِر\", \"سابق\", \"في المؤخّرة\", \"أخرَ مرة قبل الزمن الحاضر\", \"أخيراً\"]}",
+    "arabicAr": "آخر / أخير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 150,
+    "wordEn": "your",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 150,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "jʊr",
+    "phoneticUk": "jɔ:(r)",
+    "phoneticAr": "يور",
+    "translit": "lak / alkhasu bik",
+    "definitionEn": "[\"belonging to or associated with the person or people that the speaker is addressing.\", \"belonging to or associated with any person in general.\", \"used when addressing the holder of certain titles.\"]",
+    "usageNote": "usually used with a human referent",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'm just your average Joe\", \"what is your name?\"], \"A2\": [\"she is one of your chatty types\", \"the sight is enough to break your heart\"]}",
+    "collocations": "[\"Your Show of Shows\", \"Your World with Neil Cavuto\", \"check your\", \"your life\"]",
+    "synonyms": "[\"bek\", \"apply\", \"bring\", \"assume\", \"barely\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apply\", \"assume\", \"barely\", \"bek\", \"bring\"], \"ar\": [\"مِلْكُكَ\", \"ك\", \"لكم\", \"كاف الملك\", \"كم\", \"لحضرتك\"]}",
+    "arabicAr": "لك / خاص بك / بكم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 151,
+    "wordEn": "your",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 151,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "jʊr",
+    "phoneticUk": "jɔ:(r)",
+    "phoneticAr": "يور",
+    "translit": "lak / alkhasu bik",
+    "definitionEn": "[\"belonging to or associated with the person or people that the speaker is addressing.\", \"belonging to or associated with any person in general.\", \"used when addressing the holder of certain titles.\"]",
+    "usageNote": "usually used with a human referent",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'm just your average Joe\", \"what is your name?\"], \"A2\": [\"she is one of your chatty types\", \"the sight is enough to break your heart\"]}",
+    "collocations": "[\"Your Show of Shows\", \"Your World with Neil Cavuto\", \"check your\", \"your life\"]",
+    "synonyms": "[\"bek\", \"apply\", \"bring\", \"assume\", \"barely\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"apply\", \"assume\", \"barely\", \"bek\", \"bring\"], \"ar\": [\"مِلْكُكَ\", \"ك\", \"لكم\", \"كاف الملك\", \"كم\", \"لحضرتك\"]}",
+    "arabicAr": "لك / خاص بك / بكم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 152,
+    "wordEn": "me",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 152,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "miː",
+    "phoneticUk": "mi:",
+    "phoneticAr": "مي",
+    "translit": "'ana / ''ana",
+    "definitionEn": "[\"used by a speaker to refer to himself or herself as the object of a verb or preposition.\", \"used in exclamations.\", \"British spelling of mi.\"]",
+    "usageNote": "used to indicate or imitate limited English fluency.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"dear me!\", \"do you understand me?\", \"you have more than me\", \"wait for me!\", \"silly me!\", \"hi, it's me\", \"Can you hear me\"]}",
+    "collocations": "[\"Can you hear me\"]",
+    "synonyms": "[\"too\", \"Maine\", \"forgive\", \"my ass\", \"Pine Tree State\"]",
+    "antonyms": "[\"you\"]",
+    "relatedWords": "{\"en\": [\"too\", \"forgive\", \"meet\", \"nots\", \"i\"], \"ar\": [\"ضمير المتكلّم في حالة النصب والجر\", \"أنا\", \"ضمير المتكلم في حالة النصب\"]}",
+    "arabicAr": "أنا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 153,
+    "wordEn": "no",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 153,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "noʊ",
+    "phoneticUk": "nəʊ",
+    "phoneticAr": "ناو",
+    "translit": "la",
+    "definitionEn": "[\"give a negative response.\", \"not at all; to no extent.\", \"a negative answer or decision, as in voting.\"]",
+    "usageNote": "Used to show disagreement, negation, denial, refusal, or prohibition.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"no two plants are alike\", \"no nukes\", \"Toby is no fool\", \"oh no, look at this!\", \"you'll be back in no time\"], \"A2\": [\"they would never cause a fuss, oh no\", \"it was no easy task persuading her\"], \"B1\": [\"they were no more able to perform the task than I was\"]}",
+    "collocations": "[\"no one\", \"Can ye no help me\", \"David, no\", \"Look Ma, no hands\"]",
+    "synonyms": "[\"nah\", \"nope\", \"nobelium\", \"no more\", \"atomic number 102\"]",
+    "antonyms": "[\"yes\", \"all\", \"some\"]",
+    "relatedWords": "{\"en\": [\"zero\", \"nobelium\", \"no more\", \"nary\", \"atomic number 102\"], \"ar\": [\"ليس\", \"لا\", \"كلاّ\", \"أبدا\", \"لا أحد\", \"ما من احد\"]}",
+    "arabicAr": "لا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 154,
+    "wordEn": "no",
+    "pos": "excl",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 154,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "noʊ",
+    "phoneticUk": "nəʊ",
+    "phoneticAr": "ناو",
+    "translit": "la",
+    "definitionEn": "[\"give a negative response.\", \"not at all; to no extent.\", \"a negative answer or decision, as in voting.\"]",
+    "usageNote": "Used to show disagreement, negation, denial, refusal, or prohibition.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"no two plants are alike\", \"no nukes\", \"Toby is no fool\", \"oh no, look at this!\", \"you'll be back in no time\"], \"A2\": [\"they would never cause a fuss, oh no\", \"it was no easy task persuading her\"], \"B1\": [\"they were no more able to perform the task than I was\"]}",
+    "collocations": "[\"no one\", \"Can ye no help me\", \"David, no\", \"Look Ma, no hands\"]",
+    "synonyms": "[\"nah\", \"nope\", \"nobelium\", \"no more\", \"atomic number 102\"]",
+    "antonyms": "[\"yes\", \"all\", \"some\"]",
+    "relatedWords": "{\"en\": [\"zero\", \"nobelium\", \"no more\", \"nary\", \"atomic number 102\"], \"ar\": [\"ليس\", \"لا\", \"كلاّ\", \"أبدا\", \"لا أحد\", \"ما من احد\"]}",
+    "arabicAr": "لا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 155,
+    "wordEn": "no",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 155,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "noʊ",
+    "phoneticUk": "nəʊ",
+    "phoneticAr": "ناو",
+    "translit": "la",
+    "definitionEn": "[\"give a negative response.\", \"not at all; to no extent.\", \"a negative answer or decision, as in voting.\"]",
+    "usageNote": "Used to show disagreement, negation, denial, refusal, or prohibition.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"no two plants are alike\", \"no nukes\", \"Toby is no fool\", \"oh no, look at this!\", \"you'll be back in no time\"], \"A2\": [\"they would never cause a fuss, oh no\", \"it was no easy task persuading her\"], \"B1\": [\"they were no more able to perform the task than I was\"]}",
+    "collocations": "[\"no one\", \"Can ye no help me\", \"David, no\", \"Look Ma, no hands\"]",
+    "synonyms": "[\"nah\", \"nope\", \"nobelium\", \"no more\", \"atomic number 102\"]",
+    "antonyms": "[\"yes\", \"all\", \"some\"]",
+    "relatedWords": "{\"en\": [\"zero\", \"nobelium\", \"no more\", \"nary\", \"atomic number 102\"], \"ar\": [\"ليس\", \"لا\", \"كلاّ\", \"أبدا\", \"لا أحد\", \"ما من احد\"]}",
+    "arabicAr": "لا",
+    "addedFromOxford": 1
+  }
+]

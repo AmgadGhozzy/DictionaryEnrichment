@@ -1,0 +1,2205 @@
+{
+  "wordEntries": [
+    {
+      "id": 487,
+      "wordEn": "policy",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈpɑləsi",
+      "phoneticUk": "ˈpɒləsi",
+      "phoneticAr": "بَالِسي",
+      "translit": "Siyasa",
+      "definitionEn": "A set of ideas or a plan of what to do in particular situations agreed by a group.",
+      "definitionAr": "طريقة أو خطة بتمشي عليها عشان تحقق هدف معين، زي القواعد اللي بتحطها الشركة أو الدولة.",
+      "usageNote": "Commonly used in business and government contexts (e.g., 'foreign policy', 'company policy').",
+      "category": "Work & Business",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Rules",
+        "#Government",
+        "#Strategy"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Policy\" قريبة من \"Police\".. الـ \"Police\" هما اللي بيطبقوا الـ \"Policy\" (السياسة والقوانين).",
+      "examples": {
+        "A1": "The store has a no return policy.",
+        "A2": "It is our policy to help everyone.",
+        "B1": "The government introduced a new economic policy.",
+        "B2": "Honesty is the best policy in this business.",
+        "C1": "The insurance policy covers accidental damage and theft.",
+        "C2": "They debated the nuances of the foreign policy regarding trade sanctions."
+      },
+      "collocations": [
+        "foreign policy",
+        "insurance policy",
+        "company policy",
+        "privacy policy"
+      ],
+      "synonyms": [
+        "strategy",
+        "plan",
+        "rule",
+        "approach"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "politics",
+          "police",
+          "regulate"
+        ],
+        "ar": [
+          "سياسة",
+          "شرطة",
+          "ينظم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "policy",
+        "verb": "",
+        "adj": "political",
+        "adv": ""
+      },
+      "arabicAr": "سياسة",
+      "frenchFr": "politique",
+      "germanDe": "Politik",
+      "spanishEs": "política",
+      "chineseZh": "政策 (Zhèngcè)",
+      "russianRu": "политика",
+      "portuguesePt": "política",
+      "japaneseJa": "方針 (Hōshin)",
+      "italianIt": "politica",
+      "turkishTr": "politika",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 488,
+      "wordEn": "include",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ɪnˈkluːd",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْكْلُود",
+      "translit": "Yashmal / Tadman",
+      "definitionEn": "To contain something as part of a whole.",
+      "definitionAr": "يعني تحط حاجة جوة مجموعة، زي لما تقول السعر بيشمل الضريبة أو القائمة فيها أسماء معينة.",
+      "usageNote": "Use 'include' when listing some parts of a whole; use 'consist of' when listing all parts.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Contain",
+        "#Parts",
+        "#Whole"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Include\" فيها \"Cloud\".. تخيل \"Cloud\" سحابة كبيرة بتضم وبتشمل كل حاجة تحتها.",
+      "examples": {
+        "A1": "The price includes tax.",
+        "A2": "My family includes my mother and father.",
+        "B1": "The tour includes a visit to the museum.",
+        "B2": "Duties include answering the phone and typing letters.",
+        "C1": "The report includes several recommendations for improvement.",
+        "C2": "His repertoire includes works by Beethoven and Mozart."
+      },
+      "collocations": [
+        "include details",
+        "include information",
+        "include a section"
+      ],
+      "synonyms": [
+        "contain",
+        "comprise",
+        "involve",
+        "incorporate"
+      ],
+      "antonyms": [
+        "exclude",
+        "omit"
+      ],
+      "relatedWords": {
+        "en": [
+          "inclusion",
+          "inclusive",
+          "container"
+        ],
+        "ar": [
+          "تضمين",
+          "شامل",
+          "حاوية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "inclusion",
+        "verb": "include",
+        "adj": "inclusive",
+        "adv": "inclusively"
+      },
+      "arabicAr": "يشمل / يتضمن",
+      "frenchFr": "inclure",
+      "germanDe": "einschließen",
+      "spanishEs": "incluir",
+      "chineseZh": "包括 (Bāokuò)",
+      "russianRu": "включать",
+      "portuguesePt": "incluir",
+      "japaneseJa": "含む (Fukumu)",
+      "italianIt": "includere",
+      "turkishTr": "kapsamak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 489,
+      "wordEn": "believe",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "bɪˈliːv",
+      "phoneticUk": null,
+      "phoneticAr": "بِلِيف",
+      "translit": "Ya'taqid",
+      "definitionEn": "To think that something is true, correct, or real.",
+      "definitionAr": "إنك تكون متأكد إن حاجة حقيقية أو تصدق كلام حد من غير دليل ملموس.",
+      "usageNote": "Often followed by 'that' or 'in'. 'Believe in' means to have faith or trust.",
+      "category": "Mind & Thinking",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Faith",
+        "#Trust",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Be\" و \"Live\".. عشان تصدق مبدأ لازم تعيشه \"Live\" ويكون \"Be\" حقيقي في حياتك.",
+      "examples": {
+        "A1": "I believe you.",
+        "A2": "She believes in ghosts.",
+        "B1": "I believe that he is a good man.",
+        "B2": "Experts believe the economy will improve soon.",
+        "C1": "It is widely believed that the painting is a fake.",
+        "C2": "I couldn't believe my ears when I heard the news."
+      },
+      "collocations": [
+        "believe in",
+        "firmly believe",
+        "hard to believe"
+      ],
+      "synonyms": [
+        "think",
+        "trust",
+        "suppose"
+      ],
+      "antonyms": [
+        "doubt",
+        "disbelieve"
+      ],
+      "relatedWords": {
+        "en": [
+          "belief",
+          "believer",
+          "believable"
+        ],
+        "ar": [
+          "إيمان",
+          "مؤمن",
+          "مصدق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "belief",
+        "verb": "believe",
+        "adj": "believable",
+        "adv": "believably"
+      },
+      "arabicAr": "يعتقد",
+      "frenchFr": "croire",
+      "germanDe": "glauben",
+      "spanishEs": "creer",
+      "chineseZh": "相信 (Xiāngxìn)",
+      "russianRu": "верить",
+      "portuguesePt": "acreditar",
+      "japaneseJa": "信じる (Shinjiru)",
+      "italianIt": "credere",
+      "turkishTr": "inanmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 490,
+      "wordEn": "council",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈkaʊnsəl",
+      "phoneticUk": null,
+      "phoneticAr": "كَاوْنْسِل",
+      "translit": "Majlis",
+      "definitionEn": "A group of people elected or chosen to make decisions or give advice.",
+      "definitionAr": "مجموعة ناس بيقعدوا مع بعض عشان ياخدوا قرارات أو ينصحوا، زي مجلس المدينة أو مجلس الإدارة.",
+      "usageNote": "Do not confuse with 'counsel' (advice/lawyer), though they sound the same.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Government",
+        "#Meeting",
+        "#Authority"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Counsel\" يعني نصيحة.. الـ \"Council\" هو المكان اللي بناخد فيه النصيحة والقرارات.",
+      "examples": {
+        "A1": "The city council meets today.",
+        "A2": "He works for the local council.",
+        "B1": "The student council voted on the new rules.",
+        "B2": "She was elected to the town council last year.",
+        "C1": "The Security Council issued a statement regarding the conflict.",
+        "C2": "Ecumenical councils have shaped church history for centuries."
+      },
+      "collocations": [
+        "city council",
+        "student council",
+        "security council"
+      ],
+      "synonyms": [
+        "board",
+        "committee",
+        "assembly"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "counsel",
+          "councillor",
+          "meeting"
+        ],
+        "ar": [
+          "استشارة",
+          "عضو مجلس",
+          "اجتماع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "council",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مجلس",
+      "frenchFr": "conseil",
+      "germanDe": "Rat",
+      "spanishEs": "consejo",
+      "chineseZh": "委员会 (Wěiyuánhuì)",
+      "russianRu": "совет",
+      "portuguesePt": "conselho",
+      "japaneseJa": "評議会 (Hyōgikai)",
+      "italianIt": "consiglio",
+      "turkishTr": "konsey",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 491,
+      "wordEn": "already",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ɔlˈrɛdi",
+      "phoneticUk": null,
+      "phoneticAr": "أُولْرِيدِي",
+      "translit": "Bi-l-fi'l",
+      "definitionEn": "Before the present time; sooner than expected.",
+      "definitionAr": "يعني الحاجة حصلت خلاص قبل ما نتكلم، أو حصلت بدري عن المتوقع.",
+      "usageNote": "Usually used in positive sentences. In questions/negatives, 'yet' is more common.",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Past",
+        "#Completion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قسمها لـ \"All\" و \"Ready\".. يعني كل حاجة \"All\" بقت جاهزة \"Ready\" وحصلت خلاص.",
+      "examples": {
+        "A1": "I am already home.",
+        "A2": "She has already finished her work.",
+        "B1": "Is it 5 o'clock already?",
+        "B2": "I have already told you that I cannot go.",
+        "C1": "The tickets were already sold out when we arrived.",
+        "C2": "He had already established a reputation as a brilliant scholar."
+      },
+      "collocations": [
+        "have already",
+        "already done",
+        "already exists"
+      ],
+      "synonyms": [
+        "previously",
+        "before",
+        "by now"
+      ],
+      "antonyms": [
+        "not yet",
+        "later"
+      ],
+      "relatedWords": {
+        "en": [
+          "yet",
+          "just",
+          "soon"
+        ],
+        "ar": [
+          "ليس بعد",
+          "فقط",
+          "قريبا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "already"
+      },
+      "arabicAr": "بالفعل",
+      "frenchFr": "déjà",
+      "germanDe": "schon",
+      "spanishEs": "ya",
+      "chineseZh": "已经 (Yǐjīng)",
+      "russianRu": "уже",
+      "portuguesePt": "já",
+      "japaneseJa": "すでに (Su-de-ni)",
+      "italianIt": "già",
+      "turkishTr": "zaten",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 492,
+      "wordEn": "possible",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈpɑsəbəl",
+      "phoneticUk": "ˈpɒsəbl",
+      "phoneticAr": "بَاسِبَل",
+      "translit": "Mumkin",
+      "definitionEn": "Able to be done or achieved; that may exist or happen.",
+      "definitionAr": "يعني حاجة ممكن تحصل أو تقدر تعملها، مش مستحيلة.",
+      "usageNote": "Often used with 'as soon as' or 'if' phrases.",
+      "category": "Mind & Thinking",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Chance",
+        "#Feasibility",
+        "#Future"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Possible\" فيها \"Pass\".. يعني الامتحان ده ممكن تنجح وتعمل فيه \"Pass\" لأنه \"Possible\".",
+      "examples": {
+        "A1": "Is it possible to walk there?",
+        "A2": "Please come as soon as possible.",
+        "B1": "It is possible that it will rain tomorrow.",
+        "B2": "We are looking for a possible solution to the problem.",
+        "C1": "Space travel made the impossible possible.",
+        "C2": "They discussed all possible contingencies before starting the project."
+      },
+      "collocations": [
+        "as soon as possible",
+        "make possible",
+        "possible cause"
+      ],
+      "synonyms": [
+        "feasible",
+        "likely",
+        "achievable"
+      ],
+      "antonyms": [
+        "impossible",
+        "unlikely"
+      ],
+      "relatedWords": {
+        "en": [
+          "possibility",
+          "possibly",
+          "potential"
+        ],
+        "ar": [
+          "احتمال",
+          "ربما",
+          "إمكانية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "possibility",
+        "verb": "",
+        "adj": "possible",
+        "adv": "possibly"
+      },
+      "arabicAr": "ممكن",
+      "frenchFr": "possible",
+      "germanDe": "möglich",
+      "spanishEs": "posible",
+      "chineseZh": "可能 (Kěnéng)",
+      "russianRu": "возможный",
+      "portuguesePt": "possível",
+      "japaneseJa": "可能 (Kanō)",
+      "italianIt": "possibile",
+      "turkishTr": "mümkün",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 493,
+      "wordEn": "nothing",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈnʌθɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "نَاثِينْج",
+      "translit": "La shay'",
+      "definitionEn": "Not anything; no single thing.",
+      "definitionAr": "ولا حاجة، الفراغ، أو عدم وجود أي شيء.",
+      "usageNote": "Can act as a subject or object. Double negatives (e.g., 'I didn't see nothing') are incorrect in standard English.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Zero",
+        "#Empty",
+        "#Absence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "There is nothing in the box.",
+        "A2": "I have nothing to do today.",
+        "B1": "Nothing happened yesterday.",
+        "B2": "There is nothing better than a cold drink on a hot day.",
+        "C1": "He said nothing of the incident to his wife.",
+        "C2": "The concept of creating something from nothing is philosophical."
+      },
+      "collocations": [
+        "nothing else",
+        "nothing wrong",
+        "absolutely nothing"
+      ],
+      "synonyms": [
+        "naught",
+        "nil",
+        "zero"
+      ],
+      "antonyms": [
+        "something",
+        "everything",
+        "anything"
+      ],
+      "relatedWords": {
+        "en": [
+          "none",
+          "nobody",
+          "nowhere"
+        ],
+        "ar": [
+          "لا أحد",
+          "لا مكان",
+          "فارغ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "nothingness",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا شيء",
+      "frenchFr": "rien",
+      "germanDe": "nichts",
+      "spanishEs": "nada",
+      "chineseZh": "没有什么 (Méiyǒu shé me)",
+      "russianRu": "ничего",
+      "portuguesePt": "nada",
+      "japaneseJa": "何も (Nani mo)",
+      "italianIt": "niente",
+      "turkishTr": "hiçbir şey",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 494,
+      "wordEn": "nothing",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈnʌθɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "نَاثِينْج",
+      "translit": "La shay'",
+      "definitionEn": "Not anything; no single thing.",
+      "definitionAr": "ولا حاجة، بتستخدمها لما ميكونش فيه أي شيء.",
+      "usageNote": "Used to refer to the absence of anything.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Zero",
+        "#Empty",
+        "#Absence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I saw nothing.",
+        "A2": "Nothing is important right now.",
+        "B1": "He does nothing but sleep all day.",
+        "B2": "There is nothing to worry about.",
+        "C1": "Nothing ventured, nothing gained.",
+        "C2": "Apart from the occasional letter, we heard nothing from him."
+      },
+      "collocations": [
+        "nothing special",
+        "nothing at all",
+        "good for nothing"
+      ],
+      "synonyms": [
+        "zilch",
+        "none"
+      ],
+      "antonyms": [
+        "everything",
+        "something"
+      ],
+      "relatedWords": {
+        "en": [
+          "void",
+          "empty",
+          "null"
+        ],
+        "ar": [
+          "فراغ",
+          "خالي",
+          "باطل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "nothingness",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا شيء",
+      "frenchFr": "rien",
+      "germanDe": "nichts",
+      "spanishEs": "nada",
+      "chineseZh": "无 (Wú)",
+      "russianRu": "ничего",
+      "portuguesePt": "nada",
+      "japaneseJa": "無 (Mu)",
+      "italianIt": "niente",
+      "turkishTr": "hiç",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 495,
+      "wordEn": "line",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "laɪn",
+      "phoneticUk": null,
+      "phoneticAr": "لَاين",
+      "translit": "Khat",
+      "definitionEn": "A long, thin mark on a surface.",
+      "definitionAr": "خط مرسوم، أو طابور ناس واقفين ورا بعض، أو سطر في كتابة.",
+      "usageNote": "Can refer to a physical mark, a queue of people, or a connection (phone line).",
+      "category": "Social Life & Communication",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Shape",
+        "#Queue",
+        "#Connection"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Line\" زي \"Lane\" الحارة في الطريق.. العربيات بتمشي في \"Line\" واحد.",
+      "examples": {
+        "A1": "Draw a straight line.",
+        "A2": "There is a long line at the bank.",
+        "B1": "The train stopped at the end of the line.",
+        "B2": "Hold the line, please (on the phone).",
+        "C1": "There is a fine line between genius and insanity.",
+        "C2": "He took a hard line on the budget negotiations."
+      },
+      "collocations": [
+        "straight line",
+        "phone line",
+        "finish line",
+        "bottom line"
+      ],
+      "synonyms": [
+        "stripe",
+        "queue",
+        "row",
+        "border"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "linear",
+          "align",
+          "outline"
+        ],
+        "ar": [
+          "خطي",
+          "يحاذي",
+          "مخطط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "line",
+        "verb": "line",
+        "adj": "linear",
+        "adv": "linearly"
+      },
+      "arabicAr": "خط",
+      "frenchFr": "ligne",
+      "germanDe": "Linie",
+      "spanishEs": "línea",
+      "chineseZh": "线 (Xiàn)",
+      "russianRu": "линия",
+      "portuguesePt": "linha",
+      "japaneseJa": "線 (Sen)",
+      "italianIt": "linea",
+      "turkishTr": "hat",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 496,
+      "wordEn": "line",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "laɪn",
+      "phoneticUk": null,
+      "phoneticAr": "لَاين",
+      "translit": "Yastaf / Yubattin",
+      "definitionEn": "To stand in a row or cover the inside of something.",
+      "definitionAr": "يا إما الناس تقف طابور، يا إما تبطّن حاجة (زي الجاكت) من جوة بقماش.",
+      "usageNote": "Often used as 'line up' (arrange in a row) or 'lined with' (covered inside).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Order",
+        "#Cover",
+        "#Arrange"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Please line up by the door.",
+        "A2": "Trees line the street.",
+        "B1": "People lined the streets to see the parade.",
+        "B2": "She lined the drawers with paper.",
+        "C1": "His face was lined with age and worry.",
+        "C2": "The pockets were lined with silk for a luxurious feel."
+      },
+      "collocations": [
+        "line up",
+        "lined with",
+        "silver lining"
+      ],
+      "synonyms": [
+        "border",
+        "edge",
+        "align"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "alignment",
+          "lining",
+          "liner"
+        ],
+        "ar": [
+          "محاذاة",
+          "بطانة",
+          "قلم تحديد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "line",
+        "verb": "line",
+        "adj": "lined",
+        "adv": ""
+      },
+      "arabicAr": "يصطف / يبطن",
+      "frenchFr": "aligner",
+      "germanDe": "auskleiden",
+      "spanishEs": "alinear",
+      "chineseZh": "排队 (Páiduì)",
+      "russianRu": "выстраивать",
+      "portuguesePt": "alinhar",
+      "japaneseJa": "並ぶ (Narabu)",
+      "italianIt": "foderare",
+      "turkishTr": "dizmek",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 497,
+      "wordEn": "allow",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈlaʊ",
+      "phoneticUk": null,
+      "phoneticAr": "أَلَاو",
+      "translit": "Yasmah",
+      "definitionEn": "To give permission for someone to do something.",
+      "definitionAr": "تدي إذن لحد يعمل حاجة، أو تسيب الأمور تمشي وتسمح بحدوثها.",
+      "usageNote": "Formal way to say 'let'. 'Allow' is often passive (e.g., 'Smoking is not allowed').",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Permission",
+        "#Rules",
+        "#Enable"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Allow\" شبه \"Low\".. يعني توطي \"Low\" الحواجز وتسمح للناس تعدي.",
+      "examples": {
+        "A1": "Please allow me to help.",
+        "A2": "My parents do not allow me to stay out late.",
+        "B1": "Smoking is not allowed in this building.",
+        "B2": "The new system allows for faster processing.",
+        "C1": "We must allow for some margin of error.",
+        "C2": "The evidence does not allow of any other interpretation."
+      },
+      "collocations": [
+        "allow time",
+        "not allowed",
+        "allow access"
+      ],
+      "synonyms": [
+        "permit",
+        "let",
+        "authorize"
+      ],
+      "antonyms": [
+        "forbid",
+        "prevent",
+        "prohibit"
+      ],
+      "relatedWords": {
+        "en": [
+          "allowance",
+          "allowable",
+          "permission"
+        ],
+        "ar": [
+          "علاوة",
+          "مسموح",
+          "إذن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "allowance",
+        "verb": "allow",
+        "adj": "allowable",
+        "adv": "allowably"
+      },
+      "arabicAr": "يسمح",
+      "frenchFr": "permettre",
+      "germanDe": "erlauben",
+      "spanishEs": "permitir",
+      "chineseZh": "允许 (Yǔnxǔ)",
+      "russianRu": "позволять",
+      "portuguesePt": "permitir",
+      "japaneseJa": "許可する (Kyoka suru)",
+      "italianIt": "permettere",
+      "turkishTr": "izin vermek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 498,
+      "wordEn": "effect",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈfɛkt",
+      "phoneticUk": "ɪˈfɛkt",
+      "phoneticAr": "إِفِكْت",
+      "translit": "Ta'thir",
+      "definitionEn": "A change that is a result or consequence of an action or other cause.",
+      "definitionAr": "النتيجة اللي بتحصل بسبب حاجة تانية، زي تأثير الدوا على الجسم.",
+      "usageNote": "Don't confuse with 'affect' (verb). Effect is usually the noun (The effect), Affect is the verb (To affect).",
+      "category": "Nature & Science",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Result",
+        "#Change",
+        "#Impact"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Effect\" قريبة من \"Fact\".. التأثير بيخلي الحاجة حقيقة \"Fact\" وواقع ملموس.",
+      "examples": {
+        "A1": "The medicine had a good effect.",
+        "A2": "What is the effect of this change?",
+        "B1": "The new law will come into effect next month.",
+        "B2": "Pollution has a negative effect on the environment.",
+        "C1": "The special effects in the movie were amazing.",
+        "C2": "The cumulative effect of these policies was disastrous."
+      },
+      "collocations": [
+        "side effect",
+        "cause and effect",
+        "take effect",
+        "special effects"
+      ],
+      "synonyms": [
+        "result",
+        "outcome",
+        "consequence",
+        "impact"
+      ],
+      "antonyms": [
+        "cause",
+        "origin"
+      ],
+      "relatedWords": {
+        "en": [
+          "effective",
+          "effectively",
+          "affect"
+        ],
+        "ar": [
+          "فعال",
+          "بفعالية",
+          "يؤثر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "effect",
+        "verb": "effect",
+        "adj": "effective",
+        "adv": "effectively"
+      },
+      "arabicAr": "تأثير",
+      "frenchFr": "effet",
+      "germanDe": "Wirkung",
+      "spanishEs": "efecto",
+      "chineseZh": "效果 (Xiàoguǒ)",
+      "russianRu": "эффект",
+      "portuguesePt": "efeito",
+      "japaneseJa": "効果 (Kōka)",
+      "italianIt": "effetto",
+      "turkishTr": "etki",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 499,
+      "wordEn": "big",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "bɪɡ",
+      "phoneticUk": null,
+      "phoneticAr": "بِيج",
+      "translit": "Kabir / Dakhm",
+      "definitionEn": "Large in size, degree, or amount.",
+      "definitionAr": "حجمه ضخم أو كبير في السن أو المقام، عكس صغير.",
+      "usageNote": "Very common word. For more formal contexts, use 'large' or 'significant'.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Size",
+        "#Important",
+        "#Large"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Big\" قريبة من \"Bag\" شنطة.. تخيل شنطة \"Bag\" ضخمة و \"Big\" جداً.",
+      "examples": {
+        "A1": "He has a big house.",
+        "A2": "This is a big problem.",
+        "B1": "She made a big mistake.",
+        "B2": "They are big fans of the band.",
+        "C1": "He is a big name in the industry.",
+        "C2": "It was big of him to apologize."
+      },
+      "collocations": [
+        "big deal",
+        "big brother",
+        "big surprise"
+      ],
+      "synonyms": [
+        "large",
+        "huge",
+        "giant"
+      ],
+      "antonyms": [
+        "small",
+        "little",
+        "tiny"
+      ],
+      "relatedWords": {
+        "en": [
+          "size",
+          "bigger",
+          "biggest"
+        ],
+        "ar": [
+          "حجم",
+          "أكبر",
+          "الأكبر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bigness",
+        "verb": "",
+        "adj": "big",
+        "adv": "big"
+      },
+      "arabicAr": "كبير / ضخم",
+      "frenchFr": "grand",
+      "germanDe": "groß",
+      "spanishEs": "grande",
+      "chineseZh": "大 (Dà)",
+      "russianRu": "большой",
+      "portuguesePt": "grande",
+      "japaneseJa": "大きい (Ōkii)",
+      "italianIt": "grande",
+      "turkishTr": "büyük",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 500,
+      "wordEn": "lead",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "liːd",
+      "phoneticUk": null,
+      "phoneticAr": "لِيد",
+      "translit": "Qiyada / Riyada",
+      "definitionEn": "The initiative in an action; an example for others to follow.",
+      "definitionAr": "القيادة أو المقدمة، إنك تكون في المركز الأول أو بتدل الناس.",
+      "usageNote": "Pronounced /liːd/ when meaning 'leadership'. Pronounced /lɛd/ when referring to the metal.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#First",
+        "#Control",
+        "#Advantage"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Leader\" القائد هو اللي ماسك الـ \"Lead\" وبيمشي في الأول.",
+      "examples": {
+        "A1": "Our team is in the lead.",
+        "A2": "He took the lead in the race.",
+        "B1": "The dog was on a lead.",
+        "B2": "She followed her boss's lead.",
+        "C1": "The police are following a new lead in the case.",
+        "C2": "The lead in the play was performed brilliantly."
+      },
+      "collocations": [
+        "take the lead",
+        "lead role",
+        "follow someone's lead"
+      ],
+      "synonyms": [
+        "advantage",
+        "guidance",
+        "clue"
+      ],
+      "antonyms": [
+        "last",
+        "follower"
+      ],
+      "relatedWords": {
+        "en": [
+          "leader",
+          "leadership",
+          "leading"
+        ],
+        "ar": [
+          "قائد",
+          "قيادة",
+          "رائد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lead",
+        "verb": "lead",
+        "adj": "leading",
+        "adv": ""
+      },
+      "arabicAr": "قيادة / ريادة",
+      "frenchFr": "avance",
+      "germanDe": "Führung",
+      "spanishEs": "liderazgo",
+      "chineseZh": "领先 (Lǐngxiān)",
+      "russianRu": "лидерство",
+      "portuguesePt": "liderança",
+      "japaneseJa": "リード (Rīdo)",
+      "italianIt": "guida",
+      "turkishTr": "liderlik",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 501,
+      "wordEn": "lead",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "liːd",
+      "phoneticUk": null,
+      "phoneticAr": "لِيد",
+      "translit": "Yaqud",
+      "definitionEn": "To show the way to a destination by going in front of or beside someone.",
+      "definitionAr": "تمشي قدام الناس عشان تدلهم على الطريق، أو تكون المسؤول عن مجموعة.",
+      "usageNote": "Past tense is 'led'.",
+      "category": "General / Common",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Guide",
+        "#Direct",
+        "#Control"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "This road leads to the city.",
+        "A2": "She leads the team.",
+        "B1": "He led us to a safe place.",
+        "B2": "Eating too much sugar can lead to health problems.",
+        "C1": "The investigation led to several arrests.",
+        "C2": "His charisma led him to become a powerful figure."
+      },
+      "collocations": [
+        "lead the way",
+        "lead to",
+        "lead a life"
+      ],
+      "synonyms": [
+        "guide",
+        "conduct",
+        "direct"
+      ],
+      "antonyms": [
+        "follow",
+        "trail"
+      ],
+      "relatedWords": {
+        "en": [
+          "leader",
+          "mislead",
+          "leadership"
+        ],
+        "ar": [
+          "قائد",
+          "يضلل",
+          "زعامة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "leader",
+        "verb": "lead",
+        "adj": "leading",
+        "adv": ""
+      },
+      "arabicAr": "يقود",
+      "frenchFr": "mener",
+      "germanDe": "führen",
+      "spanishEs": "liderar",
+      "chineseZh": "领导 (Lǐngdǎo)",
+      "russianRu": "вести",
+      "portuguesePt": "liderar",
+      "japaneseJa": "導く (Michibiku)",
+      "italianIt": "condurre",
+      "turkishTr": "yönetmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 502,
+      "wordEn": "stand",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "stænd",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَانْد",
+      "translit": "Mawqif / Minassa",
+      "definitionEn": "An attitude towards a particular issue; a position taken in an argument.",
+      "definitionAr": "موقفك أو رأيك الصريح في موضوع معين، أو مكان مخصص للوقوف زي الكشك.",
+      "usageNote": "Also refers to physical furniture (e.g., 'nightstand') or a stall (e.g., 'fruit stand').",
+      "category": "Objects & Tools",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Opinion",
+        "#Position",
+        "#Furniture"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Stand\" هو المكان اللي بتقدر تعمل فيه \"Stand\" (تقف) وتثبت وجودك.",
+      "examples": {
+        "A1": "Put the book on the night stand.",
+        "A2": "We bought vegetables at a roadside stand.",
+        "B1": "The taxi stand is over there.",
+        "B2": "You must take a stand against bullying.",
+        "C1": "His stand on the political issue was controversial.",
+        "C2": "The witness took the stand in court."
+      },
+      "collocations": [
+        "take a stand",
+        "music stand",
+        "witness stand"
+      ],
+      "synonyms": [
+        "position",
+        "stance",
+        "attitude",
+        "stall"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "standard",
+          "standing",
+          "standpoint"
+        ],
+        "ar": [
+          "معيار",
+          "مكانة",
+          "وجهة نظر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "stand",
+        "verb": "stand",
+        "adj": "standing",
+        "adv": ""
+      },
+      "arabicAr": "موقف / منصة",
+      "frenchFr": "position",
+      "germanDe": "Standpunkt",
+      "spanishEs": "postura",
+      "chineseZh": "立场 (Lìchǎng)",
+      "russianRu": "позиция",
+      "portuguesePt": "posição",
+      "japaneseJa": "立場 (Tachiba)",
+      "italianIt": "posizione",
+      "turkishTr": "duruş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 503,
+      "wordEn": "stand",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "stænd",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَانْد",
+      "translit": "Yaqif",
+      "definitionEn": "To have or maintain an upright position, supported by one's feet.",
+      "definitionAr": "تكون واقف على رجلك مش قاعد.",
+      "usageNote": "Also means 'to tolerate' (e.g., 'I can't stand it').",
+      "category": "Objects & Tools",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Body",
+        "#Posture",
+        "#Tolerate"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Please stand up.",
+        "A2": "Don't stand in the rain.",
+        "B1": "I can't stand this noise.",
+        "B2": "The house has stood for 100 years.",
+        "C1": "He stands accused of murder.",
+        "C2": "We must stand united against this threat."
+      },
+      "collocations": [
+        "stand up",
+        "stand by",
+        "can't stand"
+      ],
+      "synonyms": [
+        "rise",
+        "arise",
+        "endure"
+      ],
+      "antonyms": [
+        "sit",
+        "lie"
+      ],
+      "relatedWords": {
+        "en": [
+          "standing",
+          "standstill",
+          "understand"
+        ],
+        "ar": [
+          "واقف",
+          "توقف",
+          "يفهم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "stand",
+        "verb": "stand",
+        "adj": "standing",
+        "adv": ""
+      },
+      "arabicAr": "يقف",
+      "frenchFr": "se tenir debout",
+      "germanDe": "stehen",
+      "spanishEs": "estar de pie",
+      "chineseZh": "站立 (Zhànlì)",
+      "russianRu": "стоять",
+      "portuguesePt": "ficar de pé",
+      "japaneseJa": "立つ (Tatsu)",
+      "italianIt": "stare in piedi",
+      "turkishTr": "ayakta durmak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 504,
+      "wordEn": "idea",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "aɪˈdiə",
+      "phoneticUk": null,
+      "phoneticAr": "آيْدِيا",
+      "translit": "Fikra",
+      "definitionEn": "A thought or suggestion as to a possible course of action.",
+      "definitionAr": "خاطر أو تفكير بيجي في بالك عشان تعمل حاجة أو تحل مشكلة.",
+      "usageNote": "Commonly used with 'have', 'give', or 'get'.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Thought",
+        "#Plan",
+        "#Imagination"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Idea\" قريبة من \"ID\".. فكرتك هي هويتك.",
+      "examples": {
+        "A1": "I have a good idea.",
+        "A2": "Do you like my idea?",
+        "B1": "She has no idea where he went.",
+        "B2": "The main idea of the book is freedom.",
+        "C1": "He toyed with the idea of moving to France.",
+        "C2": "The very idea of it is preposterous."
+      },
+      "collocations": [
+        "good idea",
+        "have an idea",
+        "bright idea"
+      ],
+      "synonyms": [
+        "thought",
+        "concept",
+        "plan",
+        "notion"
+      ],
+      "antonyms": [
+        "fact",
+        "reality"
+      ],
+      "relatedWords": {
+        "en": [
+          "ideal",
+          "ideology",
+          "idealist"
+        ],
+        "ar": [
+          "مثالي",
+          "أيديولوجية",
+          "حالم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "idea",
+        "verb": "ideate",
+        "adj": "ideal",
+        "adv": "ideally"
+      },
+      "arabicAr": "فكرة",
+      "frenchFr": "idée",
+      "germanDe": "Idee",
+      "spanishEs": "idea",
+      "chineseZh": "主意 (Zhǔyi)",
+      "russianRu": "идея",
+      "portuguesePt": "ideia",
+      "japaneseJa": "アイデア (Aidea)",
+      "italianIt": "idea",
+      "turkishTr": "fikir",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 505,
+      "wordEn": "study",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈstʌdi",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَادِي",
+      "translit": "Dirasa",
+      "definitionEn": "The devotion of time and attention to acquiring knowledge.",
+      "definitionAr": "عملية التعلم والبحث في موضوع معين، أو البحث نفسه.",
+      "usageNote": "Can also refer to a room in a house used for work.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Education",
+        "#Research",
+        "#Room"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Study\" شبه \"Stadium\".. بس بدل ما تلعب كورة في الـ \"Stadium\" قاعد بتعمل \"Study\" (بتذاكر).",
+      "examples": {
+        "A1": "English study is important.",
+        "A2": "He is in his study reading.",
+        "B1": "A recent study shows that sleep is vital.",
+        "B2": "She went abroad for further study.",
+        "C1": "The report is a detailed study of the local economy.",
+        "C2": "He made a careful study of the documents."
+      },
+      "collocations": [
+        "case study",
+        "field of study",
+        "scientific study"
+      ],
+      "synonyms": [
+        "research",
+        "learning",
+        "investigation"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "student",
+          "studious",
+          "studio"
+        ],
+        "ar": [
+          "طالب",
+          "دريّس",
+          "استوديو"
+        ]
+      },
+      "wordFamily": {
+        "noun": "study",
+        "verb": "study",
+        "adj": "studious",
+        "adv": "studiously"
+      },
+      "arabicAr": "دراسة",
+      "frenchFr": "étude",
+      "germanDe": "Studium",
+      "spanishEs": "estudio",
+      "chineseZh": "研究 (Yánjiū)",
+      "russianRu": "изучение",
+      "portuguesePt": "estudo",
+      "japaneseJa": "勉強 (Benkyō)",
+      "italianIt": "studio",
+      "turkishTr": "çalışma",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 506,
+      "wordEn": "study",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈstʌdi",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَادِي",
+      "translit": "Yadrus / Yudhakir",
+      "definitionEn": "To learn about a subject, usually at school or university.",
+      "definitionAr": "تخصص وقت ومجهود عشان تتعلم حاجة أو تفهم موضوع، زي المذاكرة.",
+      "usageNote": "You 'study' a subject to 'learn' it (gain knowledge).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Learn",
+        "#School",
+        "#Examine"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I study English every day.",
+        "A2": "She is studying to be a doctor.",
+        "B1": "He studied the map carefully.",
+        "B2": "Scientists are studying the effects of the virus.",
+        "C1": "We need to study the proposal in detail.",
+        "C2": "He studied his opponent's face for any sign of weakness."
+      },
+      "collocations": [
+        "study hard",
+        "study for an exam",
+        "study abroad"
+      ],
+      "synonyms": [
+        "learn",
+        "revise",
+        "examine"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "student",
+          "studies",
+          "learning"
+        ],
+        "ar": [
+          "طالب",
+          "دراسات",
+          "تعلم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "study",
+        "verb": "study",
+        "adj": "studious",
+        "adv": "studiously"
+      },
+      "arabicAr": "يدرس / يذاكر",
+      "frenchFr": "étudier",
+      "germanDe": "lernen",
+      "spanishEs": "estudiar",
+      "chineseZh": "学习 (Xuéxí)",
+      "russianRu": "учиться",
+      "portuguesePt": "estudar",
+      "japaneseJa": "勉強する (Benkyō suru)",
+      "italianIt": "studiare",
+      "turkishTr": "ders çalışmak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 507,
+      "wordEn": "lot",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɑt",
+      "phoneticUk": "lɒt",
+      "phoneticAr": "لُوت",
+      "translit": "Kathir",
+      "definitionEn": "A large number or amount; a great deal.",
+      "definitionAr": "كمية كبيرة من حاجة، أو مجموعة أشياء مع بعض.",
+      "usageNote": "Informal. 'A lot of' is used with both countable and uncountable nouns.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Many",
+        "#Much",
+        "#Group"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have a lot of friends.",
+        "A2": "Thanks a lot!",
+        "B1": "He knows a lot about cars.",
+        "B2": "They have a lot to learn.",
+        "C1": "It falls to his lot to make the decision.",
+        "C2": "The parking lot was full."
+      },
+      "collocations": [
+        "a lot of",
+        "thanks a lot",
+        "parking lot"
+      ],
+      "synonyms": [
+        "plenty",
+        "bunch",
+        "many"
+      ],
+      "antonyms": [
+        "little",
+        "few"
+      ],
+      "relatedWords": {
+        "en": [
+          "lots",
+          "allot",
+          "lottery"
+        ],
+        "ar": [
+          "الكثير",
+          "يخصص",
+          "يانصيب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lot",
+        "verb": "allot",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كثير / الكثير",
+      "frenchFr": "beaucoup",
+      "germanDe": "Menge",
+      "spanishEs": "mucho",
+      "chineseZh": "很多 (Hěnduō)",
+      "russianRu": "много",
+      "portuguesePt": "muito",
+      "japaneseJa": "たくさん (Takusan)",
+      "italianIt": "molto",
+      "turkishTr": "çok",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 508,
+      "wordEn": "lot",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɑt",
+      "phoneticUk": "lɒt",
+      "phoneticAr": "لُوت",
+      "translit": "Kathir",
+      "definitionEn": "A large number or amount.",
+      "definitionAr": "عدد كبير أو كمية كبيرة.",
+      "usageNote": "Used as a pronoun standing for 'a lot of things/people'.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Many",
+        "#Amount"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I ate a lot.",
+        "A2": "A lot has happened since we met.",
+        "B1": "Don't worry, we have a lot.",
+        "B2": "A lot depends on the result.",
+        "C1": "He's a bad lot (referring to a person).",
+        "C2": "We have seen the lot (everything)."
+      },
+      "collocations": [
+        "the whole lot",
+        "quite a lot",
+        "an awful lot"
+      ],
+      "synonyms": [
+        "plenty",
+        "much"
+      ],
+      "antonyms": [
+        "little",
+        "none"
+      ],
+      "relatedWords": {
+        "en": [
+          "plenty",
+          "deal",
+          "heap"
+        ],
+        "ar": [
+          "وفرة",
+          "قدر",
+          "كومة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كثير",
+      "frenchFr": "beaucoup",
+      "germanDe": "viel",
+      "spanishEs": "mucho",
+      "chineseZh": "大量 (Dàliàng)",
+      "russianRu": "многое",
+      "portuguesePt": "muito",
+      "japaneseJa": "多く (Ōku)",
+      "italianIt": "molto",
+      "turkishTr": "pek çok",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 509,
+      "wordEn": "lot",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɑt",
+      "phoneticUk": "lɒt",
+      "phoneticAr": "لُوت",
+      "translit": "Kathir",
+      "definitionEn": "A large number or amount of something.",
+      "definitionAr": "الكثير من، بتيجي قبل الاسم.",
+      "usageNote": "Usually 'a lot of'. Informal.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Many",
+        "#Much",
+        "#Plural"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "A lot of people are here.",
+        "A2": "There is a lot of water.",
+        "B1": "I have a lot of work to do.",
+        "B2": "She has a lot of experience.",
+        "C1": "There's a lot of truth in what he says.",
+        "C2": "We spent a lot of time on this project."
+      },
+      "collocations": [
+        "a lot of",
+        "lots of"
+      ],
+      "synonyms": [
+        "many",
+        "much",
+        "numerous"
+      ],
+      "antonyms": [
+        "few",
+        "little"
+      ],
+      "relatedWords": {
+        "en": [
+          "many",
+          "several",
+          "numerous"
+        ],
+        "ar": [
+          "العديد",
+          "عدة",
+          "متعدد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كثير من",
+      "frenchFr": "beaucoup de",
+      "germanDe": "viele",
+      "spanishEs": "muchos",
+      "chineseZh": "许多 (Xǔduō)",
+      "russianRu": "много",
+      "portuguesePt": "muitos",
+      "japaneseJa": "多くの (Ōku no)",
+      "italianIt": "molti",
+      "turkishTr": "bir sürü",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 510,
+      "wordEn": "lot",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɑt",
+      "phoneticUk": "lɒt",
+      "phoneticAr": "لُوت",
+      "translit": "Kathiran",
+      "definitionEn": "To a great extent.",
+      "definitionAr": "بشكل كبير أو كتير جداً.",
+      "usageNote": "Used to modify verbs or comparatives (e.g., 'thanks a lot', 'a lot better').",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Degree",
+        "#Very",
+        "#Extent"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I like him a lot.",
+        "A2": "He travels a lot.",
+        "B1": "I feel a lot better now.",
+        "B2": "It costs a lot more than I expected.",
+        "C1": "He cares a lot about his image.",
+        "C2": "The situation has improved a lot since last year."
+      },
+      "collocations": [
+        "thanks a lot",
+        "a lot better",
+        "miss you a lot"
+      ],
+      "synonyms": [
+        "greatly",
+        "much",
+        "often"
+      ],
+      "antonyms": [
+        "little",
+        "slightly"
+      ],
+      "relatedWords": {
+        "en": [
+          "frequently",
+          "significantly",
+          "considerably"
+        ],
+        "ar": [
+          "تكرارا",
+          "بشكل ملحوظ",
+          "إلى حد كبير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كثيراً",
+      "frenchFr": "beaucoup",
+      "germanDe": "sehr",
+      "spanishEs": "mucho",
+      "chineseZh": "非常 (Fēicháng)",
+      "russianRu": "сильно",
+      "portuguesePt": "muito",
+      "japaneseJa": "ずっと (Zutto)",
+      "italianIt": "molto",
+      "turkishTr": "çok",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 511,
+      "wordEn": "live",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "laɪv",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْف",
+      "translit": "Mubashir / Hayy",
+      "definitionEn": "Not dead or inanimate; broadcast at the time of occurrence.",
+      "definitionAr": "يا إما كائن حي وممتش، يا إما بث مباشر بيحصل دلوقتي.",
+      "usageNote": "Pronounced /laɪv/ (rhymes with five). Don't confuse with the verb /lɪv/.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Alive",
+        "#Broadcast",
+        "#RealTime"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Live\" يعني \"Life\".. الحياة بتبقى \"Live\" مش متسجلة.",
+      "examples": {
+        "A1": "We saw real live animals.",
+        "A2": "There is live music at the cafe.",
+        "B1": "The match was shown live on TV.",
+        "B2": "Be careful, that is a live wire (electricity).",
+        "C1": "It is a live issue in politics today.",
+        "C2": "They used live ammunition in the training."
+      },
+      "collocations": [
+        "live music",
+        "live broadcast",
+        "live wire"
+      ],
+      "synonyms": [
+        "living",
+        "alive",
+        "real-time"
+      ],
+      "antonyms": [
+        "dead",
+        "recorded"
+      ],
+      "relatedWords": {
+        "en": [
+          "life",
+          "alive",
+          "lively"
+        ],
+        "ar": [
+          "حياة",
+          "حي",
+          "مفعم بالحيوية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "life",
+        "verb": "live",
+        "adj": "live",
+        "adv": "live"
+      },
+      "arabicAr": "حي / مباشر",
+      "frenchFr": "en direct",
+      "germanDe": "lebend",
+      "spanishEs": "en vivo",
+      "chineseZh": "现场 (Xiànchǎng)",
+      "russianRu": "живой",
+      "portuguesePt": "ao vivo",
+      "japaneseJa": "生 (Nama)",
+      "italianIt": "dal vivo",
+      "turkishTr": "canlı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 512,
+      "wordEn": "live",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɪv",
+      "phoneticUk": null,
+      "phoneticAr": "لِيف",
+      "translit": "Ya'ish",
+      "definitionEn": "To remain alive; to have one's home in a particular place.",
+      "definitionAr": "تسكن في مكان، أو تكون عايش وممتش.",
+      "usageNote": "Pronounced /lɪv/ (rhymes with give).",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Home",
+        "#Life",
+        "#Exist"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I live in Cairo.",
+        "A2": "She lives with her parents.",
+        "B1": "He lived to be 90 years old.",
+        "B2": "They live a happy life.",
+        "C1": "You have to live with the consequences.",
+        "C2": "He lives for his work."
+      },
+      "collocations": [
+        "live in",
+        "live with",
+        "live a life"
+      ],
+      "synonyms": [
+        "reside",
+        "dwell",
+        "survive"
+      ],
+      "antonyms": [
+        "die"
+      ],
+      "relatedWords": {
+        "en": [
+          "life",
+          "living",
+          "alive"
+        ],
+        "ar": [
+          "حياة",
+          "معيشة",
+          "على قيد الحياة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "life",
+        "verb": "live",
+        "adj": "living",
+        "adv": ""
+      },
+      "arabicAr": "يعيش",
+      "frenchFr": "vivre",
+      "germanDe": "leben",
+      "spanishEs": "vivir",
+      "chineseZh": "居住 (Jūzhù)",
+      "russianRu": "жить",
+      "portuguesePt": "viver",
+      "japaneseJa": "住む (Sumu)",
+      "italianIt": "vivere",
+      "turkishTr": "yaşamak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 513,
+      "wordEn": "live",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "laɪv",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْف",
+      "translit": "Mubasharan",
+      "definitionEn": "At the actual time of occurrence; not recorded.",
+      "definitionAr": "بشكل مباشر، يعني الحدث بيتعرض وقت حدوثه.",
+      "usageNote": "Used with broadcast verbs (e.g., 'broadcast live'). Pronounced /laɪv/.",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Broadcast",
+        "#Now",
+        "#Media"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The show is live.",
+        "A2": "They are performing live tonight.",
+        "B1": "The game was broadcast live.",
+        "B2": "Reporting live from the scene.",
+        "C1": "The band played live to a sold-out crowd.",
+        "C2": "The experiment was conducted live on air."
+      },
+      "collocations": [
+        "broadcast live",
+        "perform live",
+        "go live"
+      ],
+      "synonyms": [
+        "in real time",
+        "directly"
+      ],
+      "antonyms": [
+        "recorded"
+      ],
+      "relatedWords": {
+        "en": [
+          "livestream",
+          "alive",
+          "life"
+        ],
+        "ar": [
+          "بث مباشر",
+          "حي",
+          "حياة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "live",
+        "adv": "live"
+      },
+      "arabicAr": "على الهواء / مباشرة",
+      "frenchFr": "en direct",
+      "germanDe": "live",
+      "spanishEs": "en directo",
+      "chineseZh": "现场直播 (Xiànchǎng zhíbō)",
+      "russianRu": "в прямом эфире",
+      "portuguesePt": "ao vivo",
+      "japaneseJa": "生放送で (Namahōsō de)",
+      "italianIt": "in diretta",
+      "turkishTr": "canlı olarak",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 514,
+      "wordEn": "job",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "dʒɑb",
+      "phoneticUk": "dʒɒb",
+      "phoneticAr": "جُوب",
+      "translit": "Wazifa",
+      "definitionEn": "A paid position of regular employment.",
+      "definitionAr": "الشغل اللي بتعمله عشان تاخد فلوس، أو مهمة لازم تخلصها.",
+      "usageNote": "'Job' is countable (a job); 'Work' is uncountable (I have work).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Work",
+        "#Career",
+        "#Money"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Job\" قريبة من \"Jib\" (جيب).. الـ \"Job\" هو اللي بيملى الـ \"Jib\" فلوس.",
+      "examples": {
+        "A1": "I have a new job.",
+        "A2": "She is looking for a job.",
+        "B1": "He lost his job last month.",
+        "B2": "Good job on the presentation!",
+        "C1": "It's a tough job, but someone has to do it.",
+        "C2": "The job market is very competitive right now."
+      },
+      "collocations": [
+        "full-time job",
+        "good job",
+        "job interview",
+        "apply for a job"
+      ],
+      "synonyms": [
+        "work",
+        "occupation",
+        "profession",
+        "task"
+      ],
+      "antonyms": [
+        "unemployment",
+        "hobby"
+      ],
+      "relatedWords": {
+        "en": [
+          "career",
+          "employment",
+          "profession"
+        ],
+        "ar": [
+          "مسار مهني",
+          "توظيف",
+          "مهنة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "job",
+        "verb": "",
+        "adj": "jobless",
+        "adv": ""
+      },
+      "arabicAr": "وظيفة",
+      "frenchFr": "emploi",
+      "germanDe": "Job",
+      "spanishEs": "trabajo",
+      "chineseZh": "工作 (Gōngzuò)",
+      "russianRu": "работа",
+      "portuguesePt": "emprego",
+      "japaneseJa": "仕事 (Shigoto)",
+      "italianIt": "lavoro",
+      "turkishTr": "iş",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 515,
+      "wordEn": "since",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɪns",
+      "phoneticUk": null,
+      "phoneticAr": "سِينْس",
+      "translit": "Mundhu dhalika al-hin",
+      "definitionEn": "From a past time until now; ago.",
+      "definitionAr": "من الوقت ده لحد دلوقتي، أو من زمان.",
+      "usageNote": "As an adverb, it implies 'since then'.",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Past",
+        "#Duration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Since\" قريبة من \"Sense\".. \"Since\" I got \"Sense\" (من ساعة ما عقلت).",
+      "examples": {
+        "A1": "I haven't seen him since.",
+        "A2": "He left home in 1990 and hasn't been back since.",
+        "B1": "She moved to London and has lived there ever since.",
+        "B2": "The original building has long since been demolished.",
+        "C1": "He was a famous actor, but has since faded into obscurity.",
+        "C2": "Arguments we had long since forgotten resurfaced."
+      },
+      "collocations": [
+        "ever since",
+        "long since"
+      ],
+      "synonyms": [
+        "ago",
+        "before",
+        "subsequently"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "ago",
+          "from",
+          "then"
+        ],
+        "ar": [
+          "مضى",
+          "من",
+          "ثم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "since"
+      },
+      "arabicAr": "منذ ذلك الحين",
+      "frenchFr": "depuis",
+      "germanDe": "seitdem",
+      "spanishEs": "desde entonces",
+      "chineseZh": "此后 (Cǐhòu)",
+      "russianRu": "с тех пор",
+      "portuguesePt": "desde então",
+      "japaneseJa": "それ以来 (Sore irai)",
+      "italianIt": "da allora",
+      "turkishTr": "o zamandan beri",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 516,
+      "wordEn": "since",
+      "pos": "prep",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "sɪns",
+      "phoneticUk": null,
+      "phoneticAr": "سِينْس",
+      "translit": "Mundhu",
+      "definitionEn": "In the period after a specified time in the past.",
+      "definitionAr": "من وقت معين في الماضي ومستمر لحد دلوقتي.",
+      "usageNote": "Used with a specific point in time (e.g., 'since Monday'). For duration, use 'for' (e.g., 'for 2 days').",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Start",
+        "#Duration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have been here since Monday.",
+        "A2": "She has known him since childhood.",
+        "B1": "It has been raining since this morning.",
+        "B2": "Since the war began, many have fled.",
+        "C1": "Since the dawn of time, humans have looked at the stars.",
+        "C2": "The regulations have changed since the last audit."
+      },
+      "collocations": [
+        "since then",
+        "since yesterday",
+        "since childhood"
+      ],
+      "synonyms": [
+        "from",
+        "after"
+      ],
+      "antonyms": [
+        "until"
+      ],
+      "relatedWords": {
+        "en": [
+          "for",
+          "from",
+          "until"
+        ],
+        "ar": [
+          "لمدة",
+          "من",
+          "حتى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "منذ",
+      "frenchFr": "depuis",
+      "germanDe": "seit",
+      "spanishEs": "desde",
+      "chineseZh": "自...以来 (Zì... yǐlái)",
+      "russianRu": "с",
+      "portuguesePt": "desde",
+      "japaneseJa": "以来 (Irai)",
+      "italianIt": "da",
+      "turkishTr": "-den beri",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

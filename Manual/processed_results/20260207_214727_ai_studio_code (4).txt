@@ -1,0 +1,2278 @@
+{
+  "wordEntries": [
+    {
+      "id": 5433,
+      "wordEn": "signature",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈsɪɡnətʃər",
+      "phoneticUk": "ˈsɪɡnətʃə",
+      "phoneticAr": "سِجْنَتْشَر",
+      "translit": "Imḍāʾ / Tawqīʿ",
+      "definitionEn": "A person's name written in a unique way on documents, or a distinctive characteristic.",
+      "definitionAr": "توقيعك المميز اللي بتكتبه في آخر الورق الرسمي، أو أي حاجة بتميزك عن غيرك وتعتبر علامتك الخاصة.",
+      "usageNote": "Can refer to a literal autograph or a metaphorical 'trademark' quality (e.g., signature dish).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Legal",
+        "#Identity",
+        "#Writing",
+        "#Business"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Sign\" يعني يوقع.. الـ \"Signature\" هو التوقيع اللي بيميز طبيعتك \"Nature\".",
+      "examples": {
+        "A1": "Please write your signature here.",
+        "A2": "I need your signature on this form.",
+        "B1": "The chef is famous for his signature dish.",
+        "B2": "Her signature is very difficult to copy.",
+        "C1": "The treaty requires the signature of all delegates.",
+        "C2": "The distinctive brushwork is the artist's signature style."
+      },
+      "collocations": [
+        "digital signature",
+        "signature dish",
+        "for signature",
+        "signature tune"
+      ],
+      "synonyms": [
+        "autograph",
+        "endorsement",
+        "mark",
+        "inscription"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "sign",
+          "signatory",
+          "autograph"
+        ],
+        "ar": [
+          "يوقع",
+          "موقع",
+          "أوتوجراف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "signer",
+        "verb": "sign",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إمضاء / توقيع",
+      "frenchFr": "signature",
+      "germanDe": "Unterschrift",
+      "spanishEs": "firma",
+      "chineseZh": "签名 (Qiānmíng)",
+      "russianRu": "подпись",
+      "portuguesePt": "assinatura",
+      "japaneseJa": "署名 (Shomei)",
+      "italianIt": "firma",
+      "turkishTr": "imza",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5434,
+      "wordEn": "verdict",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈvɜːrdɪkt",
+      "phoneticUk": "ˈvɜːdɪkt",
+      "phoneticAr": "ڤِرْدِكْت",
+      "translit": "Ḥukm",
+      "definitionEn": "A decision made by a jury in a court, or an opinion about something.",
+      "definitionAr": "الحكم النهائي اللي القاضي أو المحلفين بيقولوه في المحكمة، أو رأيك النهائي في موضوع معين.",
+      "usageNote": "Primarily legal, but often used metaphorically for personal judgments.",
+      "category": "Actions & Processes",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Law",
+        "#Court",
+        "#Decision",
+        "#Justice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Ver\" يعني حقيقة و \"Dict\" يعني قول.. الـ \"Verdict\" هو قول الحقيقة والحكم النهائي.",
+      "examples": {
+        "A1": "The judge gave the verdict.",
+        "A2": "We are waiting for the verdict.",
+        "B1": "The jury reached a verdict after two hours.",
+        "B2": "What is your verdict on the new movie?",
+        "C1": "The coroner recorded a verdict of accidental death.",
+        "C2": "History will deliver its final verdict on his presidency."
+      },
+      "collocations": [
+        "guilty verdict",
+        "reach a verdict",
+        "final verdict",
+        "jury verdict"
+      ],
+      "synonyms": [
+        "judgment",
+        "decision",
+        "ruling",
+        "finding"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "judge",
+          "jury",
+          "trial",
+          "court"
+        ],
+        "ar": [
+          "قاضي",
+          "هيئة المحلفين",
+          "محاكمة",
+          "محكمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "حكم / قرار المحلفين",
+      "frenchFr": "verdict",
+      "germanDe": "Urteil",
+      "spanishEs": "veredicto",
+      "chineseZh": "裁决 (Cáijué)",
+      "russianRu": "вердикт",
+      "portuguesePt": "veredicto",
+      "japaneseJa": "評決 (Hyōketsu)",
+      "italianIt": "verdetto",
+      "turkishTr": "karar",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 5435,
+      "wordEn": "aunt",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ænt",
+      "phoneticUk": "ɑːnt",
+      "phoneticAr": "آنْت",
+      "translit": "ʿAmmah / Khālah",
+      "definitionEn": "The sister of your father or mother, or the wife of your uncle.",
+      "definitionAr": "أخت الأب (عمة) أو أخت الأم (خالة)، أو مرات عمك أو خالك.",
+      "usageNote": "In English, the same word is used for both paternal and maternal aunts.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Family",
+        "#Relationships",
+        "#People",
+        "#Relatives"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Aunt\" قريبة من \"أنتِ\".. هي زي أمك الثانية وبنقولها يا \"طنط\".",
+      "examples": {
+        "A1": "My aunt lives in London.",
+        "A2": "I visited my aunt yesterday.",
+        "B1": "My aunt and uncle are coming for dinner.",
+        "B2": "She is a favorite aunt to her nieces.",
+        "C1": "He inherited the estate from a wealthy maiden aunt.",
+        "C2": "She played the role of the agony aunt for the community."
+      },
+      "collocations": [
+        "great aunt",
+        "maiden aunt",
+        "agony aunt",
+        "auntie"
+      ],
+      "synonyms": [
+        "relative",
+        "kinswoman"
+      ],
+      "antonyms": [
+        "uncle"
+      ],
+      "relatedWords": {
+        "en": [
+          "uncle",
+          "niece",
+          "nephew",
+          "cousin"
+        ],
+        "ar": [
+          "عم/خال",
+          "ابنة الأخ/الأخت",
+          "ابن الأخ/الأخت",
+          "ابن العم/الخال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "auntie",
+        "verb": "",
+        "adj": "avuncular",
+        "adv": ""
+      },
+      "arabicAr": "عمة / خالة",
+      "frenchFr": "tante",
+      "germanDe": "Tante",
+      "spanishEs": "tía",
+      "chineseZh": "阿姨 (Āyí)",
+      "russianRu": "тётя",
+      "portuguesePt": "tia",
+      "japaneseJa": "叔母 (Oba)",
+      "italianIt": "zia",
+      "turkishTr": "teyze",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 5436,
+      "wordEn": "container",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "kənˈteɪnər",
+      "phoneticUk": "kənˈteɪnə",
+      "phoneticAr": "كَنْتايْنَر",
+      "translit": "Ḥāwiyah / Wiʿāʾ",
+      "definitionEn": "An object used for holding or transporting something, like a box or bottle.",
+      "definitionAr": "أي صندوق أو علبة أو زجاجة بنحط جواها حاجات عشان نحفظها أو ننقلها.",
+      "usageNote": "Can range from small food boxes to massive shipping containers.",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Storage",
+        "#Shipping",
+        "#Packaging",
+        "#Logistics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Contain\" يعني يحتوي.. الـ \"Container\" هو الشيء اللي بيحتوي البضاعة جواه.",
+      "examples": {
+        "A1": "Put the food in a container.",
+        "A2": "This plastic container is for water.",
+        "B1": "The ship carried many large containers.",
+        "B2": "Store the chemicals in an airtight container.",
+        "C1": "The port was blocked by stackable shipping containers.",
+        "C2": "The software runs in an isolated container within the system."
+      },
+      "collocations": [
+        "plastic container",
+        "shipping container",
+        "airtight container",
+        "food container"
+      ],
+      "synonyms": [
+        "receptacle",
+        "vessel",
+        "holder",
+        "box"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "contain",
+          "content",
+          "containment"
+        ],
+        "ar": [
+          "يحتوي",
+          "محتوى",
+          "احتواء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "containment",
+        "verb": "contain",
+        "adj": "contained",
+        "adv": ""
+      },
+      "arabicAr": "حاوية / وعاء",
+      "frenchFr": "récipient",
+      "germanDe": "Behälter",
+      "spanishEs": "recipiente",
+      "chineseZh": "容器 (Róngqì)",
+      "russianRu": "контейнер",
+      "portuguesePt": "recipiente",
+      "japaneseJa": "容器 (Yōki)",
+      "italianIt": "contenitore",
+      "turkishTr": "konteyner",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 5437,
+      "wordEn": "dramatically",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "10",
+      "phoneticUs": "drəˈmætɪkli",
+      "phoneticUk": null,
+      "phoneticAr": "دْرَاماتِكْلي",
+      "translit": "Bishakl Kabīr / Dramātīkiyyan",
+      "definitionEn": "In a sudden, great, and surprising manner; or in a way that relates to drama.",
+      "definitionAr": "لما حاجة تتغير بشكل مفاجئ وكبير جداً وملحوظ، أو بطريقة مسرحية ومبالغ فيها.",
+      "usageNote": "Often used with verbs of change like increase, fall, improve.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Change",
+        "#Degree",
+        "#Theater",
+        "#Emphasis"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من كلمة \"Drama\".. لما الأحداث تتغير \"Dramatically\" يعني بتتغير بـ \"Drama\" وإثارة كبيرة.",
+      "examples": {
+        "A1": "The story ends dramatically.",
+        "A2": "Prices increased dramatically.",
+        "B1": "Her life changed dramatically after the lottery.",
+        "B2": "The landscape varies dramatically across the island.",
+        "C1": "Output has fallen dramatically due to the strike.",
+        "C2": "He gestured dramatically to emphasize his point."
+      },
+      "collocations": [
+        "change dramatically",
+        "increase dramatically",
+        "fall dramatically",
+        "improve dramatically"
+      ],
+      "synonyms": [
+        "significantly",
+        "substantially",
+        "radically",
+        "theatrically"
+      ],
+      "antonyms": [
+        "slightly",
+        "gradually"
+      ],
+      "relatedWords": {
+        "en": [
+          "drama",
+          "dramatic",
+          "dramatize"
+        ],
+        "ar": [
+          "دراما",
+          "درامي",
+          "يهول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "drama",
+        "verb": "dramatize",
+        "adj": "dramatic",
+        "adv": ""
+      },
+      "arabicAr": "بشكل كبير / دراماتيكياً",
+      "frenchFr": "dramatiquement",
+      "germanDe": "dramatisch",
+      "spanishEs": "dramáticamente",
+      "chineseZh": "急剧地 (Jíjù de)",
+      "russianRu": "драматично",
+      "portuguesePt": "dramaticamente",
+      "japaneseJa": "劇的に (Gekiteki ni)",
+      "italianIt": "drammaticamente",
+      "turkishTr": "önemli ölçüde",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 5438,
+      "wordEn": "dock",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "dɑːk",
+      "phoneticUk": "dɒk",
+      "phoneticAr": "دَاك",
+      "translit": "Raṣīf / Qafaṣ al-ittihām",
+      "definitionEn": "An area of water for ships to load or unload, or the place where a defendant stands in court.",
+      "definitionAr": "المكان اللي السفينة بتركن فيه في المينا عشان تحمل بضاعة، أو القفص اللي بيقف فيه المتهم في المحكمة.",
+      "usageNote": "Context determines meaning: maritime (ships) vs. legal (court).",
+      "category": "Objects & Tools",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Shipping",
+        "#Port",
+        "#Law",
+        "#Court"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "السفينة محتاجة \"Dock\" عشان تقف.. والمتهم بيقف في الـ \"Dock\" عشان يتحاكم.",
+      "examples": {
+        "A1": "The ship is at the dock.",
+        "A2": "We walked along the dock.",
+        "B1": "The ferry will leave the dock at noon.",
+        "B2": "The prisoner stood in the dock waiting for the verdict.",
+        "C1": "The vessel is in dry dock for repairs.",
+        "C2": "He was cross-examined while standing in the dock."
+      },
+      "collocations": [
+        "dry dock",
+        "loading dock",
+        "in the dock",
+        "dock worker"
+      ],
+      "synonyms": [
+        "pier",
+        "wharf",
+        "harbor",
+        "quay"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "port",
+          "harbor",
+          "pier",
+          "court"
+        ],
+        "ar": [
+          "ميناء",
+          "مرفأ",
+          "رصيف",
+          "محكمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "docker",
+        "verb": "dock",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "رصيف الميناء / قفص الاتهام",
+      "frenchFr": "quai",
+      "germanDe": "Dock",
+      "spanishEs": "muelle",
+      "chineseZh": "码头 (Mǎtóu)",
+      "russianRu": "док",
+      "portuguesePt": "cais",
+      "japaneseJa": "波止場 (Hatoba)",
+      "italianIt": "molo",
+      "turkishTr": "rıhtım",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 5439,
+      "wordEn": "submission",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "səbˈmɪʃən",
+      "phoneticUk": null,
+      "phoneticAr": "سَبْمِشَن",
+      "translit": "Istislām / Taslīm",
+      "definitionEn": "The act of accepting someone else's authority, or presenting a document for consideration.",
+      "definitionAr": "لما تقدم ورق رسمي أو طلب لجهة معينة (تسليم)، أو لما تستسلم وتخضع لسلطة حد تاني (خضوع).",
+      "usageNote": "Can mean 'handing in work' (academic/bureaucratic) or 'surrender' (military/combat).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Authority",
+        "#Documents",
+        "#Compliance",
+        "#Work"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Submit\".. لما تعمل \"Submit\" للواجب يعني سلمته.. أو استسلمت للأمر الواقع.",
+      "examples": {
+        "A1": "The submission of the homework is today.",
+        "A2": "We need your submission by Friday.",
+        "B1": "The deadline for submission is next week.",
+        "B2": "His submission to the new rules was surprising.",
+        "C1": "The army forced the rebels into submission.",
+        "C2": "Several written submissions were presented to the council."
+      },
+      "collocations": [
+        "deadline for submission",
+        "beat into submission",
+        "force into submission",
+        "written submission"
+      ],
+      "synonyms": [
+        "compliance",
+        "surrender",
+        "presentation",
+        "yielding"
+      ],
+      "antonyms": [
+        "resistance",
+        "defiance"
+      ],
+      "relatedWords": {
+        "en": [
+          "submit",
+          "submissive",
+          "surrender"
+        ],
+        "ar": [
+          "يخضع",
+          "خاضع",
+          "استسلام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "submit",
+        "adj": "submissive",
+        "adv": "submissively"
+      },
+      "arabicAr": "استسلام / تسليم",
+      "frenchFr": "soumission",
+      "germanDe": "Unterwerfung",
+      "spanishEs": "sumisión",
+      "chineseZh": "提交 (Tíjiāo)",
+      "russianRu": "подчинение",
+      "portuguesePt": "submissão",
+      "japaneseJa": "提出 (Teishutsu)",
+      "italianIt": "sottomissione",
+      "turkishTr": "teslim",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 5440,
+      "wordEn": "certainty",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈsɜːrtnti",
+      "phoneticUk": "ˈsɜːtnti",
+      "phoneticAr": "سِرْتِنْتي",
+      "translit": "Yaqīn / Taʾakkud",
+      "definitionEn": "The state of being completely sure about something, or a fact that is definitely true.",
+      "definitionAr": "اليقين، لما تكون متأكد من حاجة 100% وماعندكش أي شك فيها.",
+      "usageNote": "Often used in phrases like 'with certainty' or 'absolute certainty'.",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Belief",
+        "#Truth",
+        "#Knowledge",
+        "#Confidence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Certain\" يعني متأكد.. الـ \"Certainty\" هي حالة اليقين التام وعدم الشك.",
+      "examples": {
+        "A1": "There is no certainty.",
+        "A2": "I can say with certainty that he is nice.",
+        "B1": "There is a lack of certainty about the future.",
+        "B2": "She knew with absolute certainty that she was right.",
+        "C1": "The scientific evidence provides a high degree of certainty.",
+        "C2": "Mathematical proof offers a level of certainty rare in other fields."
+      },
+      "collocations": [
+        "absolute certainty",
+        "degree of certainty",
+        "with certainty",
+        "moral certainty"
+      ],
+      "synonyms": [
+        "assurance",
+        "confidence",
+        "conviction",
+        "sureness"
+      ],
+      "antonyms": [
+        "doubt",
+        "uncertainty",
+        "ambiguity"
+      ],
+      "relatedWords": {
+        "en": [
+          "certain",
+          "certainly",
+          "sure"
+        ],
+        "ar": [
+          "متأكد",
+          "بالتأكيد",
+          "أكيد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "certain",
+        "adv": "certainly"
+      },
+      "arabicAr": "يقين / تأكيد",
+      "frenchFr": "certitude",
+      "germanDe": "Gewissheit",
+      "spanishEs": "certeza",
+      "chineseZh": "确定性 (Quèdìngxìng)",
+      "russianRu": "уверенность",
+      "portuguesePt": "certeza",
+      "japaneseJa": "確実性 (Kakujitsusei)",
+      "italianIt": "certezza",
+      "turkishTr": "kesinlik",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5441,
+      "wordEn": "boring",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈbɔːrɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "بُورِنْج",
+      "translit": "Mumill",
+      "definitionEn": "Not interesting or exciting; tedious.",
+      "definitionAr": "ممل، وصف للحاجة اللي بتخليك تزهق وعايز الوقت يعدي بسرعة لأنها مش ممتعة.",
+      "usageNote": "Don't confuse 'boring' (cause) with 'bored' (feeling). The movie is boring; I am bored.",
+      "category": "Actions & Processes",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Feelings",
+        "#Description",
+        "#Opinion",
+        "#Entertainment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Boring\" بتفكرك بـ \"Bore\" يعني يخرم.. الملل بيخرم دماغك من كتر الزهق.",
+      "examples": {
+        "A1": "The movie was very boring.",
+        "A2": "It is boring to wait for the bus.",
+        "B1": "He has a boring job at the bank.",
+        "B2": "I found the lecture incredibly boring.",
+        "C1": "The routine became mundane and boring over time.",
+        "C2": "His speech was a tedious, boring recitation of facts."
+      },
+      "collocations": [
+        "boring job",
+        "boring life",
+        "deadly boring",
+        "get boring"
+      ],
+      "synonyms": [
+        "dull",
+        "tedious",
+        "uninteresting",
+        "monotonous"
+      ],
+      "antonyms": [
+        "interesting",
+        "exciting",
+        "fun"
+      ],
+      "relatedWords": {
+        "en": [
+          "bore",
+          "boredom",
+          "bored"
+        ],
+        "ar": [
+          "يضجر",
+          "ملل",
+          "ضجران"
+        ]
+      },
+      "wordFamily": {
+        "noun": "boredom",
+        "verb": "bore",
+        "adj": "bored",
+        "adv": "boringly"
+      },
+      "arabicAr": "ممل",
+      "frenchFr": "ennuyeux",
+      "germanDe": "langweilig",
+      "spanishEs": "aburrido",
+      "chineseZh": "无聊 (Wúliáo)",
+      "russianRu": "скучный",
+      "portuguesePt": "chato",
+      "japaneseJa": "退屈な (Taikutsu na)",
+      "italianIt": "noioso",
+      "turkishTr": "sıkıcı",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 5442,
+      "wordEn": "electron",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɪˈlɛktrɑːn",
+      "phoneticUk": "ɪˈlektrɒn",
+      "phoneticAr": "إِليكْتْرَان",
+      "translit": "Iliktrūn",
+      "definitionEn": "A very small particle of matter that has a negative electric charge.",
+      "definitionAr": "جسيم صغير جداً بيلف حول نواة الذرة وشايل شحنة سالبة، وهو أساس التيار الكهربائي.",
+      "usageNote": "Scientific term used in physics and chemistry.",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Physics",
+        "#Science",
+        "#Atom",
+        "#Energy"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "هي نفس الكلمة بالعربي \"إلكترون\".. ومسؤولة عن الـ \"Electricity\" الكهرباء.",
+      "examples": {
+        "A1": "An electron is very small.",
+        "A2": "Electrons move around the atom.",
+        "B1": "Electricity is the flow of electrons.",
+        "B2": "The electron has a negative charge.",
+        "C1": "Electron microscopy allows us to see tiny structures.",
+        "C2": "Quantum mechanics describes the behavior of the electron."
+      },
+      "collocations": [
+        "electron microscope",
+        "electron beam",
+        "free electron",
+        "valence electron"
+      ],
+      "synonyms": [
+        "particle",
+        "negative charge"
+      ],
+      "antonyms": [
+        "proton"
+      ],
+      "relatedWords": {
+        "en": [
+          "atom",
+          "proton",
+          "neutron",
+          "electricity"
+        ],
+        "ar": [
+          "ذرة",
+          "بروتون",
+          "نيوترون",
+          "كهرباء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "electronics",
+        "verb": "",
+        "adj": "electronic",
+        "adv": "electronically"
+      },
+      "arabicAr": "إلكترون",
+      "frenchFr": "électron",
+      "germanDe": "Elektron",
+      "spanishEs": "electrón",
+      "chineseZh": "电子 (Diànzǐ)",
+      "russianRu": "электрон",
+      "portuguesePt": "elétron",
+      "japaneseJa": "電子 (Denshi)",
+      "italianIt": "elettrone",
+      "turkishTr": "elektron",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 5443,
+      "wordEn": "drum",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "drʌm",
+      "phoneticUk": null,
+      "phoneticAr": "دْرَم",
+      "translit": "Ṭabl / Barmīl",
+      "definitionEn": "A musical instrument played by hitting with sticks or hands, or a cylindrical container.",
+      "definitionAr": "آلة موسيقية (طبلة) بتخبط عليها عشان تطلع إيقاع، أو برميل كبير أسطواني الشكل.",
+      "usageNote": "Can refer to the instrument, a container (oil drum), or the ear part (eardrum).",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Music",
+        "#Instrument",
+        "#Container",
+        "#Sound"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Drum\" صوتها زي الخبط على الطبلة.. درم درم.",
+      "examples": {
+        "A1": "He plays the drum.",
+        "A2": "I can hear a drum beat.",
+        "B1": "They stored the oil in a large metal drum.",
+        "B2": "The drummer hit the bass drum loudly.",
+        "C1": "He drummed his fingers on the table impatiently.",
+        "C2": "The constant drum of propaganda influenced the public."
+      },
+      "collocations": [
+        "play the drum",
+        "oil drum",
+        "ear drum",
+        "drum beat"
+      ],
+      "synonyms": [
+        "percussion",
+        "barrel",
+        "canister",
+        "cylinder"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "beat",
+          "rhythm",
+          "stick",
+          "percussion"
+        ],
+        "ar": [
+          "إيقاع",
+          "نغمة",
+          "عصا",
+          "قرع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "drummer",
+        "verb": "drum",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "طبل / برميل",
+      "frenchFr": "tambour",
+      "germanDe": "Trommel",
+      "spanishEs": "tambor",
+      "chineseZh": "鼓 (Gǔ)",
+      "russianRu": "барабан",
+      "portuguesePt": "tambor",
+      "japaneseJa": "太鼓 (Taiko)",
+      "italianIt": "tamburo",
+      "turkishTr": "davul",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 5444,
+      "wordEn": "antibody",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈæntibɑːdi",
+      "phoneticUk": "ˈæntibɒdi",
+      "phoneticAr": "آنْتيبَادِي",
+      "translit": "Jism Muḍādd",
+      "definitionEn": "A protein produced in the blood to fight diseases and foreign substances.",
+      "definitionAr": "مادة (بروتين) جسمك بيفرزها عشان تحارب الأمراض والبكتيريا اللي بتهاجمك.",
+      "usageNote": "Key term in immunology and medicine.",
+      "category": "Food & Drink",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Health",
+        "#Biology",
+        "#Medicine",
+        "#Immunity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Anti\" يعني ضد.. و \"Body\" يعني جسم.. هو جسم صغير \"Anti\" (ضد) الأمراض.",
+      "examples": {
+        "A1": "The body fights germs.",
+        "A2": "Antibodies help us stay healthy.",
+        "B1": "The vaccine helps your body make antibodies.",
+        "B2": "Tests showed a high level of antibodies in her blood.",
+        "C1": "The virus mutates to escape antibody detection.",
+        "C2": "Monoclonal antibody therapy is used for certain cancers."
+      },
+      "collocations": [
+        "antibody test",
+        "produce antibodies",
+        "monoclonal antibody",
+        "antibody response"
+      ],
+      "synonyms": [
+        "immunoglobulin"
+      ],
+      "antonyms": [
+        "antigen"
+      ],
+      "relatedWords": {
+        "en": [
+          "immune",
+          "virus",
+          "bacteria",
+          "vaccine"
+        ],
+        "ar": [
+          "مناعة",
+          "فيروس",
+          "بكتيريا",
+          "لقاح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "جسم مضاد",
+      "frenchFr": "anticorps",
+      "germanDe": "Antikörper",
+      "spanishEs": "anticuerpo",
+      "chineseZh": "抗体 (Kàngtǐ)",
+      "russianRu": "антитело",
+      "portuguesePt": "anticorpo",
+      "japaneseJa": "抗体 (Kōtai)",
+      "italianIt": "anticorpo",
+      "turkishTr": "antikor",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 5445,
+      "wordEn": "wisdom",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈwɪzdəm",
+      "phoneticUk": null,
+      "phoneticAr": "وِزْدَم",
+      "translit": "Ḥikmah",
+      "definitionEn": "The quality of having experience, knowledge, and good judgment.",
+      "definitionAr": "الحكمة، يعني لما يكون عندك خبرة ومعرفة تخليك تاخد قرارات صح.",
+      "usageNote": "Associated with age and experience, distinct from just 'intelligence'.",
+      "category": "Mind & Thinking",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Knowledge",
+        "#Experience",
+        "#Philosophy",
+        "#Mind"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Wise\" حكيم.. الـ \"Wisdom\" هي الحكمة اللي بتيجي مع السن والخبرة.",
+      "examples": {
+        "A1": "He has much wisdom.",
+        "A2": "Listen to the wisdom of your parents.",
+        "B1": "Wisdom comes with age.",
+        "B2": "I question the wisdom of that decision.",
+        "C1": "Traditional folk wisdom suggests honey for a cough.",
+        "C2": "The conventional wisdom was challenged by new findings."
+      },
+      "collocations": [
+        "conventional wisdom",
+        "words of wisdom",
+        "wisdom tooth",
+        "infinite wisdom"
+      ],
+      "synonyms": [
+        "sagacity",
+        "prudence",
+        "insight",
+        "intelligence"
+      ],
+      "antonyms": [
+        "folly",
+        "stupidity",
+        "ignorance"
+      ],
+      "relatedWords": {
+        "en": [
+          "wise",
+          "wisely",
+          "sage"
+        ],
+        "ar": [
+          "حكيم",
+          "بحكمة",
+          "عاقل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "wise",
+        "adv": "wisely"
+      },
+      "arabicAr": "حكمة",
+      "frenchFr": "sagesse",
+      "germanDe": "Weisheit",
+      "spanishEs": "sabiduría",
+      "chineseZh": "智慧 (Zhìhuì)",
+      "russianRu": "мудрость",
+      "portuguesePt": "sabedoria",
+      "japaneseJa": "知恵 (Chie)",
+      "italianIt": "saggezza",
+      "turkishTr": "bilgelik",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 5446,
+      "wordEn": "alteration",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˌɔːltəˈreɪʃən",
+      "phoneticUk": "ˌɔːltəˈreɪʃən",
+      "phoneticAr": "أُولْتَرَيْشَن",
+      "translit": "Taghyīr / Taʿdīl",
+      "definitionEn": "A change or modification made to something, often a small one.",
+      "definitionAr": "تغيير أو تعديل بسيط بتعمله في حاجة عشان تحسنها أو تظبطها، زي تضييق الملابس.",
+      "usageNote": "Commonly used for clothing adjustments (tailoring) or building modifications.",
+      "category": "General / Common",
+      "primarySense": "Change",
+      "semanticTags": [
+        "#Change",
+        "#Tailoring",
+        "#Modification",
+        "#Adjustment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Alter\" يغير.. لما تروح للخياط عشان يعمل \"Alteration\" للبنطلون يعني يغير مقاسه.",
+      "examples": {
+        "A1": "The house needs alteration.",
+        "A2": "We made a small alteration to the plan.",
+        "B1": "The dress needs some alteration to fit perfectly.",
+        "B2": "Any alteration to the contract must be signed.",
+        "C1": "The landscape has undergone significant alteration.",
+        "C2": "Genetic alteration of crops is a controversial topic."
+      },
+      "collocations": [
+        "make an alteration",
+        "structural alteration",
+        "minor alteration",
+        "clothing alteration"
+      ],
+      "synonyms": [
+        "change",
+        "modification",
+        "adjustment",
+        "amendment"
+      ],
+      "antonyms": [
+        "preservation",
+        "stagnation"
+      ],
+      "relatedWords": {
+        "en": [
+          "alter",
+          "alternate",
+          "alternative"
+        ],
+        "ar": [
+          "يغير",
+          "بديل",
+          "متناوب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "alter",
+        "adj": "altered",
+        "adv": ""
+      },
+      "arabicAr": "تغيير / تعديل",
+      "frenchFr": "altération",
+      "germanDe": "Änderung",
+      "spanishEs": "alteración",
+      "chineseZh": "改变 (Gǎibiàn)",
+      "russianRu": "изменение",
+      "portuguesePt": "alteração",
+      "japaneseJa": "変更 (Henkō)",
+      "italianIt": "alterazione",
+      "turkishTr": "değişiklik",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 5447,
+      "wordEn": "circulation",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "10",
+      "phoneticUs": "ˌsɜːrkjəˈleɪʃən",
+      "phoneticUk": "ˌsɜːkjʊˈleɪʃən",
+      "phoneticAr": "سِرْكْيُلَيْشَن",
+      "translit": "Dawrah Damawiyyah / Tadāwul",
+      "definitionEn": "The movement of something around a closed system, or the distribution of information/money.",
+      "definitionAr": "حركة الدوران، زي حركة الدم في الجسم (الدورة الدموية)، أو انتشار الجرائد والفلوس بين الناس.",
+      "usageNote": "Medical (blood), Media (newspaper copies), or Economic (money flow).",
+      "category": "Social Life & Communication",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Health",
+        "#Media",
+        "#Money",
+        "#Flow"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Circle\" دائرة.. الدم بيلف في \"Circle\" جوا جسمك ودي الـ \"Circulation\".",
+      "examples": {
+        "A1": "Exercise is good for circulation.",
+        "A2": "The fan improves air circulation.",
+        "B1": "The newspaper has a daily circulation of one million.",
+        "B2": "Poor circulation can cause cold hands and feet.",
+        "C1": "The coins were taken out of circulation.",
+        "C2": "He has returned to social circulation after his illness."
+      },
+      "collocations": [
+        "blood circulation",
+        "wide circulation",
+        "in circulation",
+        "poor circulation"
+      ],
+      "synonyms": [
+        "flow",
+        "distribution",
+        "dissemination",
+        "movement"
+      ],
+      "antonyms": [
+        "blockage",
+        "stagnation"
+      ],
+      "relatedWords": {
+        "en": [
+          "circle",
+          "circulate",
+          "circular"
+        ],
+        "ar": [
+          "دائرة",
+          "يدور",
+          "دائري"
+        ]
+      },
+      "wordFamily": {
+        "noun": "circle",
+        "verb": "circulate",
+        "adj": "circular",
+        "adv": ""
+      },
+      "arabicAr": "دورة دموية / تداول",
+      "frenchFr": "circulation",
+      "germanDe": "Zirkulation",
+      "spanishEs": "circulación",
+      "chineseZh": "循环 (Xúnhuán)",
+      "russianRu": "циркуляция",
+      "portuguesePt": "circulação",
+      "japaneseJa": "循環 (Junkan)",
+      "italianIt": "circolazione",
+      "turkishTr": "dolaşım",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 5448,
+      "wordEn": "terrorist",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈterərɪst",
+      "phoneticUk": null,
+      "phoneticAr": "تِيرُرِسْت",
+      "translit": "Irhābī",
+      "definitionEn": "A person who uses violence and fear to achieve political aims.",
+      "definitionAr": "شخص بيستخدم العنف والتخويف (الإرهاب) عشان يحقق أهداف سياسية.",
+      "usageNote": "Highly charged political term.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Crime",
+        "#Politics",
+        "#Violence",
+        "#Conflict"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Terror\" رعب.. الشخص اللي بيسبب \"Terror\" للناس هو \"Terrorist\".",
+      "examples": {
+        "A1": "The police caught the terrorist.",
+        "A2": "It was a terrorist attack.",
+        "B1": "They are fighting against terrorist groups.",
+        "B2": "The government refused to negotiate with terrorists.",
+        "C1": "The definition of a terrorist can be controversial.",
+        "C2": "Counter-terrorist measures were implemented at the airport."
+      },
+      "collocations": [
+        "terrorist attack",
+        "terrorist group",
+        "suspected terrorist",
+        "terrorist threat"
+      ],
+      "synonyms": [
+        "extremist",
+        "radical",
+        "militant"
+      ],
+      "antonyms": [
+        "pacifist"
+      ],
+      "relatedWords": {
+        "en": [
+          "terror",
+          "terrorism",
+          "terrify"
+        ],
+        "ar": [
+          "رعب",
+          "إرهاب",
+          "يرعب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "terrorism",
+        "verb": "terrorize",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إرهابي",
+      "frenchFr": "terroriste",
+      "germanDe": "Terrorist",
+      "spanishEs": "terrorista",
+      "chineseZh": "恐怖分子 (Kǒngbù fènzǐ)",
+      "russianRu": "террорист",
+      "portuguesePt": "terrorista",
+      "japaneseJa": "テロリスト (Terorisuto)",
+      "italianIt": "terrorista",
+      "turkishTr": "terörist",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5449,
+      "wordEn": "ambitious",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "9",
+      "phoneticUs": "æmˈbɪʃəs",
+      "phoneticUk": null,
+      "phoneticAr": "أَمْبِشَس",
+      "translit": "Ṭamūḥ",
+      "definitionEn": "Having a strong desire and determination to succeed.",
+      "definitionAr": "طموح، صفة للشخص اللي عنده رغبة قوية إنه ينجح ويوصل لمراكز عالية.",
+      "usageNote": "Can describe a person (driven) or a plan (difficult/grand).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Personality",
+        "#Success",
+        "#Goals",
+        "#Character"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الشخص الـ \"Ambitious\" عنده \"Ambition\" طموح عالي.. عايز يوصل لـ \"Ambit\" (نطاق) أوسع.",
+      "examples": {
+        "A1": "He is an ambitious student.",
+        "A2": "She has ambitious plans for the future.",
+        "B1": "The company has set ambitious goals for growth.",
+        "B2": "It was an ambitious project that required a lot of money.",
+        "C1": "Though ambitious, the plan is risky.",
+        "C2": "Her ambitious nature drove her to the top of the profession."
+      },
+      "collocations": [
+        "ambitious plan",
+        "ambitious goal",
+        "highly ambitious",
+        "ambitious project"
+      ],
+      "synonyms": [
+        "aspiring",
+        "determined",
+        "driven",
+        "enterprising"
+      ],
+      "antonyms": [
+        "lazy",
+        "unambitious",
+        "apathetic"
+      ],
+      "relatedWords": {
+        "en": [
+          "ambition",
+          "ambitiously"
+        ],
+        "ar": [
+          "طموح",
+          "بطموح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "ambition",
+        "verb": "",
+        "adj": "",
+        "adv": "ambitiously"
+      },
+      "arabicAr": "طموح",
+      "frenchFr": "ambitieux",
+      "germanDe": "ehrgeizig",
+      "spanishEs": "ambicioso",
+      "chineseZh": "有雄心的 (Yǒu xióngxīn de)",
+      "russianRu": "амбициозный",
+      "portuguesePt": "ambicioso",
+      "japaneseJa": "野心的な (Yashinteki na)",
+      "italianIt": "ambizioso",
+      "turkishTr": "hırslı",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 5450,
+      "wordEn": "fluid",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfluːɪd",
+      "phoneticUk": "ˈfluːɪd",
+      "phoneticAr": "فْلُوِيد",
+      "translit": "Sāʾil / Mārīn",
+      "definitionEn": "Able to flow easily; not fixed or stable.",
+      "definitionAr": "حاجة مرنة بتتحرك وتتشكل بسهولة، أو موقف قابل للتغيير ومش ثابت.",
+      "usageNote": "Used for liquids/gases or abstractly for situations (fluid situation).",
+      "category": "Food & Drink",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Science",
+        "#Movement",
+        "#Change",
+        "#Flexibility"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Fluid\" زي الماية \"Flow\" بتجري.. أي حاجة بتتحرك بسهولة بنقول عليها \"Fluid\".",
+      "examples": {
+        "A1": "Water is fluid.",
+        "A2": "The dancer's movements were fluid.",
+        "B1": "The situation is fluid and changing fast.",
+        "B2": "We need to be fluid in our planning.",
+        "C1": "A fluid society where class distinctions are blurred.",
+        "C2": "His writing style is elegant and fluid."
+      },
+      "collocations": [
+        "fluid situation",
+        "fluid mechanics",
+        "fluid movement",
+        "bodily fluid"
+      ],
+      "synonyms": [
+        "flowing",
+        "flexible",
+        "changeable",
+        "liquid"
+      ],
+      "antonyms": [
+        "solid",
+        "fixed",
+        "rigid"
+      ],
+      "relatedWords": {
+        "en": [
+          "flow",
+          "fluidity",
+          "liquid"
+        ],
+        "ar": [
+          "تدفق",
+          "سيولة",
+          "سائل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fluidity",
+        "verb": "",
+        "adj": "",
+        "adv": "fluidly"
+      },
+      "arabicAr": "سائل / مرن",
+      "frenchFr": "fluide",
+      "germanDe": "flüssig",
+      "spanishEs": "fluido",
+      "chineseZh": "流动的 (Liúdòng de)",
+      "russianRu": "жидкий",
+      "portuguesePt": "fluido",
+      "japaneseJa": "流動的な (Ryūdōteki na)",
+      "italianIt": "fluido",
+      "turkishTr": "akışkan",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 5451,
+      "wordEn": "fluid",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfluːɪd",
+      "phoneticUk": "ˈfluːɪd",
+      "phoneticAr": "فْلُوِيد",
+      "translit": "Sāʾil",
+      "definitionEn": "A substance that flows, such as a liquid or a gas.",
+      "definitionAr": "مادة سائلة أو غازية، أي حاجة بتسيل ومش صلبة.",
+      "usageNote": "Often refers to bodily fluids or mechanical fluids (brake fluid).",
+      "category": "Food & Drink",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Science",
+        "#Liquid",
+        "#Mechanics",
+        "#Health"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Fluid\" زي الماية \"Flow\" بتجري.. أي مادة بتسيل بنسميها \"Fluid\".",
+      "examples": {
+        "A1": "Drink plenty of fluid.",
+        "A2": "Water is a common fluid.",
+        "B1": "The car is leaking fluid.",
+        "B2": "Cleaning fluid can be dangerous.",
+        "C1": "The doctor checked the spinal fluid.",
+        "C2": "Physics studies the dynamics of different fluids."
+      },
+      "collocations": [
+        "brake fluid",
+        "bodily fluid",
+        "cleaning fluid",
+        "drink fluids"
+      ],
+      "synonyms": [
+        "liquid",
+        "solution"
+      ],
+      "antonyms": [
+        "solid"
+      ],
+      "relatedWords": {
+        "en": [
+          "liquid",
+          "gas",
+          "water"
+        ],
+        "ar": [
+          "سائل",
+          "غاز",
+          "ماء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fluidity",
+        "verb": "",
+        "adj": "fluid",
+        "adv": "fluidly"
+      },
+      "arabicAr": "سائل / مائع",
+      "frenchFr": "fluide",
+      "germanDe": "Flüssigkeit",
+      "spanishEs": "fluido",
+      "chineseZh": "流体 (Liútǐ)",
+      "russianRu": "жидкость",
+      "portuguesePt": "fluido",
+      "japaneseJa": "流体 (Ryūtai)",
+      "italianIt": "fluido",
+      "turkishTr": "sıvı",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 5452,
+      "wordEn": "socially",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈsoʊʃəli",
+      "phoneticUk": "ˈsəʊʃəli",
+      "phoneticAr": "سُوشَلي",
+      "translit": "Ijtimāʿiyyan",
+      "definitionEn": "In a way that relates to society or meeting people.",
+      "definitionAr": "بشكل اجتماعي، يعني في التعامل مع الناس والمجتمع والخروجات.",
+      "usageNote": "Used for behavior (socially acceptable) or interaction (meet socially).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Society",
+        "#People",
+        "#Interaction",
+        "#Culture"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Social\".. لما تتصرف \"Socially\" يعني بتتعامل مع الناس بأسلوب اجتماعي.",
+      "examples": {
+        "A1": "He is socially active.",
+        "A2": "We meet socially on weekends.",
+        "B1": "Smoking is not socially acceptable here.",
+        "B2": "She is socially awkward at parties.",
+        "C1": "The project is socially and economically beneficial.",
+        "C2": "Language varies socially across different classes."
+      },
+      "collocations": [
+        "socially acceptable",
+        "socially awkward",
+        "socially responsible",
+        "interact socially"
+      ],
+      "synonyms": [
+        "communally",
+        "collectively"
+      ],
+      "antonyms": [
+        "individually",
+        "privately"
+      ],
+      "relatedWords": {
+        "en": [
+          "social",
+          "society",
+          "socialize"
+        ],
+        "ar": [
+          "اجتماعي",
+          "مجتمع",
+          "يخالط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "society",
+        "verb": "socialize",
+        "adj": "social",
+        "adv": ""
+      },
+      "arabicAr": "اجتماعياً",
+      "frenchFr": "socialement",
+      "germanDe": "sozial",
+      "spanishEs": "socialmente",
+      "chineseZh": "在社交方面 (Zài shèjiāo fāngmiàn)",
+      "russianRu": "социально",
+      "portuguesePt": "socialmente",
+      "japaneseJa": "社会的に (Shakaiteki ni)",
+      "italianIt": "socialmente",
+      "turkishTr": "sosyal olarak",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 5453,
+      "wordEn": "fox",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "fɑːks",
+      "phoneticUk": "fɒks",
+      "phoneticAr": "فَاكْس",
+      "translit": "Thaʿlab",
+      "definitionEn": "A wild animal like a dog with a bushy tail and red fur, known for being clever.",
+      "definitionAr": "الثعلب، حيوان ماكر شكله زي الكلب بس ديله كثيف ولونه غالباً أحمر.",
+      "usageNote": "Symbol of cunning or trickery in many cultures.",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Animals",
+        "#Wildlife",
+        "#Nature",
+        "#Mammals"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Fox\" حيوان مشهور بالمكر.. كلمة سهلة زي \"Box\" بس بتبدأ بـ F.",
+      "examples": {
+        "A1": "The fox is red.",
+        "A2": "A fox ran across the road.",
+        "B1": "The farmer keeps chickens safe from the fox.",
+        "B2": "He is as cunning as a fox.",
+        "C1": "Fox hunting was a traditional sport in England.",
+        "C2": "The politician was a sly old fox who outwitted his opponents."
+      },
+      "collocations": [
+        "red fox",
+        "sly as a fox",
+        "fox hunting",
+        "crazy like a fox"
+      ],
+      "synonyms": [
+        "reynard"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "wolf",
+          "dog",
+          "cunning",
+          "sly"
+        ],
+        "ar": [
+          "ذئب",
+          "كلب",
+          "ماكر",
+          "خبيث"
+        ]
+      },
+      "wordFamily": {
+        "noun": "foxy",
+        "verb": "fox",
+        "adj": "foxy",
+        "adv": ""
+      },
+      "arabicAr": "ثعلب",
+      "frenchFr": "renard",
+      "germanDe": "Fuchs",
+      "spanishEs": "zorro",
+      "chineseZh": "狐狸 (Húlí)",
+      "russianRu": "лиса",
+      "portuguesePt": "raposa",
+      "japaneseJa": "狐 (Kitsune)",
+      "italianIt": "volpe",
+      "turkishTr": "tilki",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 5454,
+      "wordEn": "petition",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "pəˈtɪʃən",
+      "phoneticUk": "pəˈtɪʃən",
+      "phoneticAr": "بَتِشَن",
+      "translit": "Iltimās / ʿArīḍah",
+      "definitionEn": "A formal written request signed by many people, usually to a government or authority.",
+      "definitionAr": "طلب رسمي مكتوب وموقع من ناس كتير عشان يغيروا حاجة أو يطلبوا حق من الحكومة.",
+      "usageNote": "Common in politics and law (divorce petition).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Law",
+        "#Politics",
+        "#Request",
+        "#Documents"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Petition\" طلب رسمي.. زي الـ \"Competition\" بس الناس بتجمع توقيعات مش بتتسابق.",
+      "examples": {
+        "A1": "Sign the petition.",
+        "A2": "We started a petition for a new park.",
+        "B1": "They presented a petition to the mayor.",
+        "B2": "She filed a petition for divorce.",
+        "C1": "The online petition garnered thousands of signatures.",
+        "C2": "The group circulated a petition demanding electoral reform."
+      },
+      "collocations": [
+        "sign a petition",
+        "file a petition",
+        "online petition",
+        "petition for divorce"
+      ],
+      "synonyms": [
+        "appeal",
+        "request",
+        "plea",
+        "application"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "request",
+          "appeal",
+          "signature"
+        ],
+        "ar": [
+          "طلب",
+          "استئناف",
+          "توقيع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "petitioner",
+        "verb": "petition",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "التماس / عريضة",
+      "frenchFr": "pétition",
+      "germanDe": "Petition",
+      "spanishEs": "petición",
+      "chineseZh": "请愿书 (Qǐngyuàn shū)",
+      "russianRu": "петиция",
+      "portuguesePt": "petição",
+      "japaneseJa": "請願 (Seigan)",
+      "italianIt": "petizione",
+      "turkishTr": "dilekçe",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 5455,
+      "wordEn": "riot",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈraɪət",
+      "phoneticUk": "ˈraɪət",
+      "phoneticAr": "رَايَت",
+      "translit": "Shaghab",
+      "definitionEn": "A violent disturbance of the peace by a crowd of people.",
+      "definitionAr": "لما مجموعة كبيرة من الناس تتظاهر وتعمل شغب وعنف وتكسر في الشارع.",
+      "usageNote": "Can also mean a very funny person (He's a riot) or a colorful display (riot of color).",
+      "category": "Actions & Processes",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Violence",
+        "#Protest",
+        "#Crowd",
+        "#Conflict"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Riot\" بيحصل فيه \"Rot\" (فساد) وتخريب.. والشرطة بتلبس \"Riot gear\".",
+      "examples": {
+        "A1": "The riot was scary.",
+        "A2": "Police stopped the riot.",
+        "B1": "A riot broke out after the game.",
+        "B2": "Riot police used tear gas to disperse the crowd.",
+        "C1": "The comedy show was a riot.",
+        "C2": "The garden was a riot of color in the spring."
+      },
+      "collocations": [
+        "riot police",
+        "incite a riot",
+        "prison riot",
+        "run riot"
+      ],
+      "synonyms": [
+        "uprising",
+        "disturbance",
+        "disorder",
+        "revolt"
+      ],
+      "antonyms": [
+        "peace",
+        "order"
+      ],
+      "relatedWords": {
+        "en": [
+          "protest",
+          "violence",
+          "mob"
+        ],
+        "ar": [
+          "احتجاج",
+          "عنف",
+          "غوغاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rioter",
+        "verb": "riot",
+        "adj": "riotous",
+        "adv": ""
+      },
+      "arabicAr": "أعمال شغب / شغب",
+      "frenchFr": "émeute",
+      "germanDe": "Aufstand",
+      "spanishEs": "disturbio",
+      "chineseZh": "暴动 (Bàodòng)",
+      "russianRu": "бунт",
+      "portuguesePt": "motim",
+      "japaneseJa": "暴動 (Bōdō)",
+      "italianIt": "sommossa",
+      "turkishTr": "isyan",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 5456,
+      "wordEn": "recruitment",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "rɪˈkruːtmənt",
+      "phoneticUk": "rɪˈkruːtmənt",
+      "phoneticAr": "رِكْرُوتْمَنْت",
+      "translit": "Tawẓīf / Tajnīd",
+      "definitionEn": "The process of finding and hiring new people for a company or organization.",
+      "definitionAr": "عملية البحث عن موظفين جدد وتشغيلهم في الشركة، أو تجنيد ناس في الجيش.",
+      "usageNote": "Common in HR (Human Resources) and military contexts.",
+      "category": "Actions & Processes",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Business",
+        "#HR",
+        "#Jobs",
+        "#Work"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Recruit\" يجند أو يوظف.. الـ \"Recruitment\" هو تجميع الـ \"Crew\" (الطاقم) الجديد.",
+      "examples": {
+        "A1": "Recruitment is happening now.",
+        "A2": "The recruitment office is open.",
+        "B1": "The company started a recruitment drive.",
+        "B2": "Recruitment of skilled staff is difficult.",
+        "C1": "They are using an agency for executive recruitment.",
+        "C2": "The army's recruitment figures have dropped this year."
+      },
+      "collocations": [
+        "recruitment agency",
+        "recruitment process",
+        "job recruitment",
+        "recruitment drive"
+      ],
+      "synonyms": [
+        "hiring",
+        "enlistment",
+        "staffing"
+      ],
+      "antonyms": [
+        "dismissal",
+        "firing"
+      ],
+      "relatedWords": {
+        "en": [
+          "recruit",
+          "hire",
+          "employ"
+        ],
+        "ar": [
+          "يوظف",
+          "يستأجر",
+          "يعين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "recruit",
+        "verb": "recruit",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "توظيف / تجنيد",
+      "frenchFr": "recrutement",
+      "germanDe": "Rekrutierung",
+      "spanishEs": "reclutamiento",
+      "chineseZh": "招聘 (Zhāopìn)",
+      "russianRu": "набор (персонала)",
+      "portuguesePt": "recrutamento",
+      "japaneseJa": "採用 (Saiyō)",
+      "italianIt": "reclutamento",
+      "turkishTr": "işe alım",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5457,
+      "wordEn": "well-known",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˌwelˈnoʊn",
+      "phoneticUk": "ˌwelˈnəʊn",
+      "phoneticAr": "وِلْ نُون",
+      "translit": "Mashhūr",
+      "definitionEn": "Known by many people; famous.",
+      "definitionAr": "مشهور، صفة للحاجة أو الشخص اللي ناس كتير عارفاه.",
+      "usageNote": "Hyphenated before a noun (a well-known actor), usually not after (he is well known).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Fame",
+        "#People",
+        "#Reputation",
+        "#Status"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Well\" يعني جيداً.. و \"Known\" معروف.. يعني معروف كويس جداً عند الناس.",
+      "examples": {
+        "A1": "He is a well-known singer.",
+        "A2": "It is a well-known fact.",
+        "B1": "This brand is well-known in Europe.",
+        "B2": "She became well-known for her charity work.",
+        "C1": "The author is well-known to the police.",
+        "C2": "It is a well-known phenomenon in physics."
+      },
+      "collocations": [
+        "well-known author",
+        "well-known fact",
+        "become well-known",
+        "well-known brand"
+      ],
+      "synonyms": [
+        "famous",
+        "renowned",
+        "celebrated",
+        "familiar"
+      ],
+      "antonyms": [
+        "unknown",
+        "obscure"
+      ],
+      "relatedWords": {
+        "en": [
+          "know",
+          "fame",
+          "popular"
+        ],
+        "ar": [
+          "يعرف",
+          "شهرة",
+          "محبوب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مشهور / معروف",
+      "frenchFr": "célèbre",
+      "germanDe": "bekannt",
+      "spanishEs": "conocido",
+      "chineseZh": "著名的 (Zhùmíng de)",
+      "russianRu": "известный",
+      "portuguesePt": "conhecido",
+      "japaneseJa": "有名な (Yūmei na)",
+      "italianIt": "famoso",
+      "turkishTr": "ünlü",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 5458,
+      "wordEn": "flood",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "flʌd",
+      "phoneticUk": null,
+      "phoneticAr": "فْلَد",
+      "translit": "Fayaḍān",
+      "definitionEn": "A large amount of water covering an area that is usually dry.",
+      "definitionAr": "الفيضان، لما الماية تزيد عن حدها وتغرق الأرض والشوارع.",
+      "usageNote": "Can be literal (water) or metaphorical (flood of tears/letters).",
+      "category": "Nature & Science",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Disaster",
+        "#Weather",
+        "#Water",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Flood\" زي \"Blood\" في النطق.. لما النهر ينزف ماية زيادة بيحصل \"Flood\".",
+      "examples": {
+        "A1": "The flood came after the rain.",
+        "A2": "Water from the flood entered the house.",
+        "B1": "The heavy rain caused a flood in the city.",
+        "B2": "The government sent aid to the flood victims.",
+        "C1": "We received a flood of complaints about the service.",
+        "C2": "The biblical story of the Great Flood is well-known."
+      },
+      "collocations": [
+        "flash flood",
+        "flood warning",
+        "in flood",
+        "flood of tears"
+      ],
+      "synonyms": [
+        "deluge",
+        "inundation",
+        "torrent"
+      ],
+      "antonyms": [
+        "drought"
+      ],
+      "relatedWords": {
+        "en": [
+          "rain",
+          "river",
+          "disaster"
+        ],
+        "ar": [
+          "مطر",
+          "نهر",
+          "كارثة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "flood",
+        "adj": "flooded",
+        "adv": ""
+      },
+      "arabicAr": "فيضان",
+      "frenchFr": "inondation",
+      "germanDe": "Flut",
+      "spanishEs": "inundación",
+      "chineseZh": "洪水 (Hóngshuǐ)",
+      "russianRu": "наводнение",
+      "portuguesePt": "inundação",
+      "japaneseJa": "洪水 (Kōzui)",
+      "italianIt": "alluvione",
+      "turkishTr": "sel",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 5459,
+      "wordEn": "flood",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "flʌd",
+      "phoneticUk": null,
+      "phoneticAr": "فْلَد",
+      "translit": "Yafīḍ / Yaghmar",
+      "definitionEn": "To cover with water; to arrive in large numbers.",
+      "definitionAr": "يغرق المكان بالماية، أو لما حاجات كتير تيجي مرة واحدة (زي الرسايل أو الناس).",
+      "usageNote": "Transitive (flood the room) or Intransitive (the river flooded).",
+      "category": "Nature & Science",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Disaster",
+        "#Water",
+        "#Action",
+        "#Quantity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي الاسم \"Flood\".. الفعل معناه إن الماية تغرق الدنيا أو الناس تهجم زي الطوفان.",
+      "examples": {
+        "A1": "The rain flooded the street.",
+        "A2": "Don't flood the engine.",
+        "B1": "The river might flood if it rains more.",
+        "B2": "Light flooded into the room when I opened the curtains.",
+        "C1": "Refugees flooded across the border.",
+        "C2": "Cheap imports have flooded the market."
+      },
+      "collocations": [
+        "flood the market",
+        "flood with light",
+        "river floods",
+        "flood back"
+      ],
+      "synonyms": [
+        "inundate",
+        "swamp",
+        "overflow",
+        "submerge"
+      ],
+      "antonyms": [
+        "dry up",
+        "drain"
+      ],
+      "relatedWords": {
+        "en": [
+          "flow",
+          "pour",
+          "surge"
+        ],
+        "ar": [
+          "يتدفق",
+          "يصب",
+          "يندفع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "flood",
+        "verb": "",
+        "adj": "flooded",
+        "adv": ""
+      },
+      "arabicAr": "يفيض / يغمر",
+      "frenchFr": "inonder",
+      "germanDe": "überfluten",
+      "spanishEs": "inundar",
+      "chineseZh": "淹没 (Yānmò)",
+      "russianRu": "затоплять",
+      "portuguesePt": "inundar",
+      "japaneseJa": "氾濫する (Hanran suru)",
+      "italianIt": "inondare",
+      "turkishTr": "su basmak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 5460,
+      "wordEn": "memorial",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "məˈmɔːriəl",
+      "phoneticUk": "məˈmɔːriəl",
+      "phoneticAr": "مَمُورِيَل",
+      "translit": "Tadhkārī",
+      "definitionEn": "Serving to remember a person or event who has died.",
+      "definitionAr": "تذكاري، حاجة بتتعمل عشان تخلد ذكرى شخص مات أو حدث مهم.",
+      "usageNote": "Often used in phrases like 'memorial service' or 'memorial statue'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Memory",
+        "#Death",
+        "#Honor",
+        "#Events"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Memory\" ذاكرة.. الـ \"Memorial\" معمول عشان يخلي الـ \"Memory\" حية.",
+      "examples": {
+        "A1": "It is a memorial day.",
+        "A2": "We went to a memorial service.",
+        "B1": "They built a memorial statue.",
+        "B2": "The memorial concert was very moving.",
+        "C1": "A memorial fund was set up in his honor.",
+        "C2": "The plaque bears a memorial inscription."
+      },
+      "collocations": [
+        "memorial service",
+        "memorial fund",
+        "memorial day",
+        "memorial plaque"
+      ],
+      "synonyms": [
+        "commemorative",
+        "remembrance"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "memory",
+          "remember",
+          "memorize"
+        ],
+        "ar": [
+          "ذاكرة",
+          "يتذكر",
+          "يحفظ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "memorial",
+        "verb": "memorialize",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تذكاري",
+      "frenchFr": "commémoratif",
+      "germanDe": "Gedenk-",
+      "spanishEs": "conmemorativo",
+      "chineseZh": "纪念的 (Jìniàn de)",
+      "russianRu": "мемориальный",
+      "portuguesePt": "comemorativo",
+      "japaneseJa": "記念の (Kinen no)",
+      "italianIt": "commemorativo",
+      "turkishTr": "anma",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 5461,
+      "wordEn": "memorial",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "məˈmɔːriəl",
+      "phoneticUk": "məˈmɔːriəl",
+      "phoneticAr": "مَمُورِيَل",
+      "translit": "Nuṣb Tadhkārī",
+      "definitionEn": "A statue or structure established to remind people of a person or event.",
+      "definitionAr": "نصب تذكاري، تمثال أو مبنى بيتعمل عشان الناس تفتكر شخص عظيم أو حدث تاريخي.",
+      "usageNote": "Specific physical object (The Lincoln Memorial).",
+      "category": "Social Life & Communication",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Monuments",
+        "#History",
+        "#Memory",
+        "#Structures"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Memory\" ذاكرة.. الـ \"Memorial\" هو المبنى اللي بيحفظ الـ \"Memory\".",
+      "examples": {
+        "A1": "We visited the war memorial.",
+        "A2": "The memorial is made of stone.",
+        "B1": "People laid flowers at the memorial.",
+        "B2": "The city unveiled a new memorial to the victims.",
+        "C1": "The Lincoln Memorial is in Washington D.C.",
+        "C2": "They are planning a permanent memorial for the disaster."
+      },
+      "collocations": [
+        "war memorial",
+        "unveil a memorial",
+        "public memorial",
+        "living memorial"
+      ],
+      "synonyms": [
+        "monument",
+        "shrine",
+        "cenotaph"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "monument",
+          "statue",
+          "tribute"
+        ],
+        "ar": [
+          "أثر",
+          "تمثال",
+          "تقدير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "memorialize",
+        "adj": "memorial",
+        "adv": ""
+      },
+      "arabicAr": "نصب تذكاري",
+      "frenchFr": "mémorial",
+      "germanDe": "Denkmal",
+      "spanishEs": "monumento conmemorativo",
+      "chineseZh": "纪念碑 (Jìniàn bēi)",
+      "russianRu": "мемориал",
+      "portuguesePt": "memorial",
+      "japaneseJa": "記念碑 (Kinenhi)",
+      "italianIt": "memoriale",
+      "turkishTr": "anıt",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5462,
+      "wordEn": "correspondence",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "10",
+      "phoneticUs": "ˌkɔːrəˈspɑːndəns",
+      "phoneticUk": "ˌkɒrəˈspɒndəns",
+      "phoneticAr": "كُورِسْبَانْدَنْس",
+      "translit": "Murāsalāh / Taṭābuq",
+      "definitionEn": "Communication by exchanging letters/emails, or a close similarity between things.",
+      "definitionAr": "المراسلات (جوابات أو إيميلات) بين الناس، أو وجود تطابق وتشابه بين حاجتين.",
+      "usageNote": "Meaning depends on context: 'enter into correspondence' (writing) vs 'direct correspondence' (similarity).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Writing",
+        "#Letters",
+        "#Business",
+        "#Logic"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "\"Co\" يعني مع بعض.. و \"Respond\" يرد.. يعني بنرد على بعض في \"Correspondence\" (مراسلات).",
+      "examples": {
+        "A1": "I kept our correspondence.",
+        "A2": "She deals with the mail correspondence.",
+        "B1": "We have been in correspondence for months.",
+        "B2": "The correspondence between the two cases is striking.",
+        "C1": "There is a direct correspondence between money supply and inflation.",
+        "C2": "His private correspondence was published after his death."
+      },
+      "collocations": [
+        "enter into correspondence",
+        "private correspondence",
+        "direct correspondence",
+        "correspondence course"
+      ],
+      "synonyms": [
+        "communication",
+        "letters",
+        "correlation",
+        "agreement"
+      ],
+      "antonyms": [
+        "discrepancy",
+        "difference"
+      ],
+      "relatedWords": {
+        "en": [
+          "correspond",
+          "correspondent",
+          "corresponding"
+        ],
+        "ar": [
+          "يراسل",
+          "مراسل",
+          "موافق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "correspondent",
+        "verb": "correspond",
+        "adj": "corresponding",
+        "adv": "correspondingly"
+      },
+      "arabicAr": "مراسلة / تطابق",
+      "frenchFr": "correspondance",
+      "germanDe": "Korrespondenz",
+      "spanishEs": "correspondencia",
+      "chineseZh": "通信 (Tōngxìn)",
+      "russianRu": "переписка",
+      "portuguesePt": "correspondência",
+      "japaneseJa": "通信 (Tsūshin)",
+      "italianIt": "corrispondenza",
+      "turkishTr": "yazışma",
+      "aiConfidence": 0.94
+    }
+  ]
+} 

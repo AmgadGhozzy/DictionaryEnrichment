@@ -1,0 +1,1848 @@
+{
+  "wordEntries": [
+    {
+      "id": 346,
+      "wordEn": "why",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "waɪ",
+      "phoneticUk": null,
+      "phoneticAr": "واي",
+      "translit": "limadha",
+      "definitionEn": "For what reason or purpose.",
+      "definitionAr": "بنستخدمها لما نسأل عن السبب أو الغرض. يعني \"ليه؟\" أو \"عشان إيه؟\".",
+      "usageNote": "Commonly used to ask questions, but can also express surprise (e.g., 'Why, it's you!').",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Question",
+        "#Reason",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Why\" نطقها زي حرف \"Y\".. اسأل نفسك \"Why\" (ليه) حرف الـ \"Y\" شكله كدة؟",
+      "examples": {
+        "A1": "Why are you late?",
+        "A2": "I don't know why she is crying.",
+        "B1": "That is the reason why we moved here.",
+        "B2": "Experts are trying to understand why the system failed.",
+        "C1": "Why he chose to resign remains a mystery.",
+        "C2": "One might well ask why such a policy was ever implemented."
+      },
+      "collocations": [
+        "why not",
+        "that is why",
+        "reason why",
+        "wonder why"
+      ],
+      "synonyms": [
+        "how come",
+        "for what reason"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "reason",
+          "cause",
+          "question"
+        ],
+        "ar": [
+          "سبب",
+          "سؤال",
+          "استفهام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لماذا",
+      "frenchFr": "pourquoi",
+      "germanDe": "warum",
+      "spanishEs": "por qué",
+      "chineseZh": "为什么 (Wèishéme)",
+      "russianRu": "почему",
+      "portuguesePt": "por que",
+      "japaneseJa": "なぜ (Naze)",
+      "italianIt": "perché",
+      "turkishTr": "neden",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 347,
+      "wordEn": "while",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "waɪl",
+      "phoneticUk": null,
+      "phoneticAr": "وايْل",
+      "translit": "baynama",
+      "definitionEn": "A period of time.",
+      "definitionAr": "فترة من الوقت. بنستخدمها لما نقول إننا قعدنا شوية أو استنينا حبة.",
+      "usageNote": "As a noun, it is almost always used in phrases like 'a while', 'for a while', or 'worth your while'.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Duration",
+        "#Period",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"While\" قريبة من \"طويل\".. الانتظار لـ \"While\" (فترة) ممكن يبان \"طويل\".",
+      "examples": {
+        "A1": "I waited for a while.",
+        "A2": "Let's rest for a little while.",
+        "B1": "It took a long while to fix the car.",
+        "B2": "It is worth your while to visit the museum.",
+        "C1": "After a goodly while, he finally replied.",
+        "C2": "She stared at the painting for quite a while, lost in thought."
+      },
+      "collocations": [
+        "for a while",
+        "worth your while",
+        "little while",
+        "short while"
+      ],
+      "synonyms": [
+        "period",
+        "time",
+        "spell",
+        "stretch"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "duration",
+          "moment",
+          "interval"
+        ],
+        "ar": [
+          "فترة",
+          "مدة",
+          "لحظة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "while",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بينما",
+      "frenchFr": "moment",
+      "germanDe": "Weile",
+      "spanishEs": "rato",
+      "chineseZh": "一会儿 (Yīhuìr)",
+      "russianRu": "время",
+      "portuguesePt": "tempo",
+      "japaneseJa": "間 (Aida)",
+      "italianIt": "momento",
+      "turkishTr": "süre",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 348,
+      "wordEn": "while",
+      "pos": "conj",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "waɪl",
+      "phoneticUk": null,
+      "phoneticAr": "وايْل",
+      "translit": "baynama",
+      "definitionEn": "During the time that; at the same time as.",
+      "definitionAr": "معناها \"في الوقت اللي\" أو \"بينما\". بنستخدمها لما حاجتين يحصلوا مع بعض في نفس الوقت.",
+      "usageNote": "Can also mean 'whereas' to show contrast (e.g., 'I like tea, while he likes coffee').",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Simultaneity",
+        "#Contrast",
+        "#Conjunction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"ويل\".. \"While\" (بينما) أنت بتلعب، الـ \"ويل\" (الوقت) بيجري.",
+      "examples": {
+        "A1": "I read while I eat.",
+        "A2": "She called while you were out.",
+        "B1": "While I understand your point, I disagree.",
+        "B2": "He likes football, while she prefers tennis.",
+        "C1": "While acknowledging the risks, we must proceed.",
+        "C2": "The system is efficient, while at the same time being cost-effective."
+      },
+      "collocations": [
+        "while ago",
+        "all the while",
+        "meanwhile"
+      ],
+      "synonyms": [
+        "as",
+        "whilst",
+        "whereas"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "during",
+          "when",
+          "simultaneously"
+        ],
+        "ar": [
+          "خلال",
+          "عندما",
+          "في حين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "while",
+        "verb": "while",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بينما",
+      "frenchFr": "pendant que",
+      "germanDe": "während",
+      "spanishEs": "mientras",
+      "chineseZh": "当...的时候 (Dāng... de shíhòu)",
+      "russianRu": "пока",
+      "portuguesePt": "enquanto",
+      "japaneseJa": "間に (Aida ni)",
+      "italianIt": "mentre",
+      "turkishTr": "iken",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 349,
+      "wordEn": "away",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈweɪ",
+      "phoneticUk": null,
+      "phoneticAr": "أَوَيْ",
+      "translit": "baeid / baeidanaan",
+      "definitionEn": "Absent or at a distance from a particular place.",
+      "definitionAr": "يعني مش موجود هنا، أو في مكان بعيد. زي لما تقول \"أنا مسافر\" (I am away).",
+      "usageNote": "Often used in sports to refer to games played at the opponent's ground (an away game).",
+      "category": "Travel & Movement",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Distance",
+        "#Absence",
+        "#Location"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Away\" فيها \"Way\" (طريق).. يعني خد \"طريقك\" وامشي \"Away\" (بعيد).",
+      "examples": {
+        "A1": "Is the station far away?",
+        "A2": "She is away on holiday.",
+        "B1": "The team is playing an away game.",
+        "B2": "He has been away from his desk all morning.",
+        "C1": "We are miles away from a solution.",
+        "C2": "The music faded away into the distance."
+      },
+      "collocations": [
+        "far away",
+        "go away",
+        "right away",
+        "away game"
+      ],
+      "synonyms": [
+        "absent",
+        "distant",
+        "gone"
+      ],
+      "antonyms": [
+        "here",
+        "present",
+        "home"
+      ],
+      "relatedWords": {
+        "en": [
+          "distance",
+          "absence",
+          "remote"
+        ],
+        "ar": [
+          "مسافة",
+          "غياب",
+          "نائي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "away"
+      },
+      "arabicAr": "بعيد / بعيدا",
+      "frenchFr": "absent",
+      "germanDe": "abwesend",
+      "spanishEs": "ausente",
+      "chineseZh": "不在 (Bùzài)",
+      "russianRu": "отсутствующий",
+      "portuguesePt": "ausente",
+      "japaneseJa": "不在 (Fuzai)",
+      "italianIt": "via",
+      "turkishTr": "uzakta",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 350,
+      "wordEn": "away",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "əˈweɪ",
+      "phoneticUk": null,
+      "phoneticAr": "أَوَيْ",
+      "translit": "baeid / baeidanaan",
+      "definitionEn": "To or at a distance from a particular place or person.",
+      "definitionAr": "يعني بعيد عن المكان. بنستخدمها مع الأفعال زي \"يمشي\" أو \"يجري\" بعيد.",
+      "usageNote": "Used with verbs of movement (go, run, walk) to indicate increasing distance.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Distance",
+        "#Action"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Away\" فيها \"Way\" (طريق).. يعني خد \"طريقك\" وامشي \"Away\" (بعيد).",
+      "examples": {
+        "A1": "Go away!",
+        "A2": "He walked away from the house.",
+        "B1": "Put your toys away.",
+        "B2": "They danced the night away.",
+        "C1": "The noise died away gradually.",
+        "C2": "She was typing away furiously at her computer."
+      },
+      "collocations": [
+        "run away",
+        "walk away",
+        "throw away",
+        "pass away"
+      ],
+      "synonyms": [
+        "off",
+        "aside",
+        "apart"
+      ],
+      "antonyms": [
+        "towards",
+        "near"
+      ],
+      "relatedWords": {
+        "en": [
+          "apart",
+          "aside",
+          "off"
+        ],
+        "ar": [
+          "جانباً",
+          "بعيداً",
+          "خارج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "away",
+        "adv": ""
+      },
+      "arabicAr": "بعيد / بعيدا",
+      "frenchFr": "au loin",
+      "germanDe": "weg",
+      "spanishEs": "lejos",
+      "chineseZh": "离开 (Líkāi)",
+      "russianRu": "прочь",
+      "portuguesePt": "embora",
+      "japaneseJa": "離れて (Hanarete)",
+      "italianIt": "via",
+      "turkishTr": "uzak",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 351,
+      "wordEn": "keep",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kiːp",
+      "phoneticUk": null,
+      "phoneticAr": "كيب",
+      "translit": "yahfaz / aihtafaz",
+      "definitionEn": "Food, clothes, and other things necessary for living.",
+      "definitionAr": "تكاليف المعيشة أو الأكل والشرب. زي لما تقول \"بيشتغل عشان ياكل عيش\" (earn his keep).",
+      "usageNote": "Mostly used in the phrase 'earn one's keep'. Can also mean the strongest part of a castle.",
+      "category": "Work & Business",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Livelihood",
+        "#Cost",
+        "#Castle"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Keep\" شبه \"جيب\" (Pocket).. لازم تشتغل عشان تملى \"جيبك\" وتجيب الـ \"Keep\" (مصاريفك).",
+      "examples": {
+        "A1": "He works to earn his keep.",
+        "A2": "The castle keep is very old.",
+        "B1": "It barely covers her keep.",
+        "B2": "She pays for her own keep.",
+        "C1": "The animals are in good keep.",
+        "C2": "He is not worth his keep if he doesn't work hard."
+      },
+      "collocations": [
+        "earn your keep",
+        "for keeps",
+        "castle keep"
+      ],
+      "synonyms": [
+        "maintenance",
+        "support",
+        "living"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "sustenance",
+          "livelihood",
+          "maintenance"
+        ],
+        "ar": [
+          "معيشة",
+          "قوت",
+          "صيانة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "keep",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يحفظ / يحتفظ",
+      "frenchFr": "subsistance",
+      "germanDe": "Lebensunterhalt",
+      "spanishEs": "manutención",
+      "chineseZh": "生计 (Shēngjì)",
+      "russianRu": "содержание",
+      "portuguesePt": "sustento",
+      "japaneseJa": "生活費 (Seikatsuhi)",
+      "italianIt": "mantenimento",
+      "turkishTr": "geçim",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 352,
+      "wordEn": "keep",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kiːp",
+      "phoneticUk": null,
+      "phoneticAr": "كيب",
+      "translit": "yahfaz / aihtafaz",
+      "definitionEn": "To have or continue to have in your possession.",
+      "definitionAr": "يعني يخلي الحاجة معاه وما يرميهاش أو يديها لحد تاني. وممكن تيجي بمعنى يستمر في عمل حاجة.",
+      "usageNote": "Very common auxiliary verb (keep doing something). Also means to fulfill a promise.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Possession",
+        "#Continuity",
+        "#Protection"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Keep\" شبه \"كب\".. بس هنا العكس، إنت مش بتكب الحاجة، إنت بتعمل \"Keep\" (بتحتفظ) بيها.",
+      "examples": {
+        "A1": "Can I keep this pen?",
+        "A2": "Please keep quiet.",
+        "B1": "I keep forgetting his name.",
+        "B2": "Keep going straight ahead.",
+        "C1": "He failed to keep his appointment.",
+        "C2": "She managed to keep her composure despite the chaos."
+      },
+      "collocations": [
+        "keep going",
+        "keep quiet",
+        "keep a promise",
+        "keep in touch"
+      ],
+      "synonyms": [
+        "retain",
+        "hold",
+        "maintain"
+      ],
+      "antonyms": [
+        "lose",
+        "discard",
+        "give up"
+      ],
+      "relatedWords": {
+        "en": [
+          "retain",
+          "preserve",
+          "save"
+        ],
+        "ar": [
+          "يصون",
+          "يبقي",
+          "يستمر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "keep",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يحفظ / يحتفظ",
+      "frenchFr": "garder",
+      "germanDe": "behalten",
+      "spanishEs": "guardar",
+      "chineseZh": "保持 (Bǎochí)",
+      "russianRu": "держать",
+      "portuguesePt": "manter",
+      "japaneseJa": "保つ (Tamotsu)",
+      "italianIt": "tenere",
+      "turkishTr": "tutmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 353,
+      "wordEn": "point",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pɔɪnt",
+      "phoneticUk": "pɒɪnt",
+      "phoneticAr": "بُوينْت",
+      "translit": "nuqta",
+      "definitionEn": "A small round mark or a specific place or moment.",
+      "definitionAr": "نقطة، سواء كانت علامة صغيرة، أو مكان محدد، أو حتى فكرة معينة في الكلام عايز توضحها.",
+      "usageNote": "Has many meanings: a dot, a score in a game, a sharp end, or the main idea of an argument.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Idea",
+        "#Location",
+        "#Score"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Point\" زي \"بونت\" في اللعب.. كل \"Point\" (نقطة) بتكسبها بتفرق في النتيجة.",
+      "examples": {
+        "A1": "That is a good point.",
+        "A2": "We met at a specific point on the map.",
+        "B1": "What is the point of this meeting?",
+        "B2": "The boiling point of water is 100 degrees.",
+        "C1": "He was on the point of leaving when the phone rang.",
+        "C2": "I don't see the point in arguing about this further."
+      },
+      "collocations": [
+        "good point",
+        "point of view",
+        "at this point",
+        "make a point"
+      ],
+      "synonyms": [
+        "spot",
+        "tip",
+        "idea",
+        "purpose"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "dot",
+          "spot",
+          "score"
+        ],
+        "ar": [
+          "هدف",
+          "رأس",
+          "موضوع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "point",
+        "adj": "pointed",
+        "adv": "pointedly"
+      },
+      "arabicAr": "نقطة",
+      "frenchFr": "point",
+      "germanDe": "Punkt",
+      "spanishEs": "punto",
+      "chineseZh": "点 (Diǎn)",
+      "russianRu": "точка",
+      "portuguesePt": "ponto",
+      "japaneseJa": "点 (Ten)",
+      "italianIt": "punto",
+      "turkishTr": "nokta",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 354,
+      "wordEn": "point",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "pɔɪnt",
+      "phoneticUk": "pɒɪnt",
+      "phoneticAr": "بُوينْت",
+      "translit": "nuqta",
+      "definitionEn": "To direct someone's attention by extending a finger.",
+      "definitionAr": "يعني يشاور بصباعه أو بحاجة على حد أو حاجة تانية عشان يوجه النظر ليها.",
+      "usageNote": "It's considered rude to point at people in some cultures. Also used for aiming a weapon.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Gesture",
+        "#Direction",
+        "#Aim"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Point\" زي \"بونت\".. لما تجيب \"بونت\" (هدف) الناس كلها بتعمل \"Point\" (بتشاور) عليك.",
+      "examples": {
+        "A1": "Don't point at people.",
+        "A2": "She pointed to the door.",
+        "B1": "The sign points north.",
+        "B2": "Evidence points to his guilt.",
+        "C1": "He pointed out the mistakes in my report.",
+        "C2": "The gun was pointed directly at the target."
+      },
+      "collocations": [
+        "point out",
+        "point at",
+        "point to"
+      ],
+      "synonyms": [
+        "indicate",
+        "aim",
+        "direct"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "aim",
+          "direct",
+          "show"
+        ],
+        "ar": [
+          "يشير",
+          "يوجه",
+          "يدل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "point",
+        "verb": "",
+        "adj": "pointed",
+        "adv": "pointedly"
+      },
+      "arabicAr": "نقطة",
+      "frenchFr": "pointer",
+      "germanDe": "zeigen",
+      "spanishEs": "apuntar",
+      "chineseZh": "指 (Zhǐ)",
+      "russianRu": "указывать",
+      "portuguesePt": "apontar",
+      "japaneseJa": "指差す (Yubisasu)",
+      "italianIt": "indicare",
+      "turkishTr": "işaret etmek",
+      "aiConfidence": 0.88
+    },
+    {
+      "id": 355,
+      "wordEn": "house",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hʌʊs",
+      "phoneticUk": null,
+      "phoneticAr": "هاوْس",
+      "translit": "manzil",
+      "definitionEn": "A building for human habitation.",
+      "definitionAr": "المكان اللي الناس بتعيش فيه، زي البيت أو الفيلا. مبنى مخصص للسكن.",
+      "usageNote": "Distinct from 'home' (which is emotional). 'House' refers to the physical building.",
+      "category": "Objects & Tools",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Building",
+        "#Residence",
+        "#Family"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"House\" شبه \"هوس\".. الناس عندها \"هوس\" تشتري \"House\" (بيت) كبير وشيك.",
+      "examples": {
+        "A1": "I live in a big house.",
+        "A2": "They bought a new house.",
+        "B1": "We are painting the house.",
+        "B2": "The opera house is famous.",
+        "C1": "The bill was passed by the House of Commons.",
+        "C2": "They keep a good house, always welcoming guests."
+      },
+      "collocations": [
+        "white house",
+        "house party",
+        "clean the house"
+      ],
+      "synonyms": [
+        "home",
+        "residence",
+        "dwelling"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "apartment",
+          "building",
+          "roof"
+        ],
+        "ar": [
+          "شقة",
+          "مبنى",
+          "سقف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "house",
+        "adj": "household",
+        "adv": ""
+      },
+      "arabicAr": "منزل",
+      "frenchFr": "maison",
+      "germanDe": "Haus",
+      "spanishEs": "casa",
+      "chineseZh": "房子 (Fángzi)",
+      "russianRu": "дом",
+      "portuguesePt": "casa",
+      "japaneseJa": "家 (Ie)",
+      "italianIt": "casa",
+      "turkishTr": "ev",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 356,
+      "wordEn": "house",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "hʌʊs",
+      "phoneticUk": null,
+      "phoneticAr": "هاوْس",
+      "translit": "manzil",
+      "definitionEn": "To provide space for; to contain or accommodate.",
+      "definitionAr": "يعني توفر مكان لحد يسكن فيه، أو مكان تخزن فيه حاجات. زي المتحف اللي بيضم آثار.",
+      "usageNote": "Pronunciation changes slightly: the 's' sounds like 'z' (hauz) when used as a verb.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Accommodate",
+        "#Shelter",
+        "#Store"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"House\" (بيت).. لما تستخدمها كفعل معناها إنك بتدخل حد جوه الـ \"House\" (بتسكنه).",
+      "examples": {
+        "A1": "The building houses a library.",
+        "A2": "We need to house the refugees.",
+        "B1": "This gallery houses a collection of modern art.",
+        "B2": "The university houses 5000 students.",
+        "C1": "The old barn was converted to house the equipment.",
+        "C2": "The government struggled to house the growing population."
+      },
+      "collocations": [
+        "house the collection",
+        "house refugees",
+        "house staff"
+      ],
+      "synonyms": [
+        "accommodate",
+        "shelter",
+        "contain"
+      ],
+      "antonyms": [
+        "evict"
+      ],
+      "relatedWords": {
+        "en": [
+          "shelter",
+          "harbor",
+          "lodge"
+        ],
+        "ar": [
+          "يؤوي",
+          "يسكن",
+          "يضم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "house",
+        "verb": "",
+        "adj": "housing",
+        "adv": ""
+      },
+      "arabicAr": "منزل",
+      "frenchFr": "loger",
+      "germanDe": "unterbringen",
+      "spanishEs": "alojar",
+      "chineseZh": "安置 (Ānzhì)",
+      "russianRu": "размещать",
+      "portuguesePt": "abrigar",
+      "japaneseJa": "収容する (Shūyō suru)",
+      "italianIt": "ospitare",
+      "turkishTr": "barındırmak",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 357,
+      "wordEn": "different",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈdɪf.(ə)ɹ.ənt",
+      "phoneticUk": null,
+      "phoneticAr": "دِفْرَنْت",
+      "translit": "mukhtalif",
+      "definitionEn": "Not the same as another or each other.",
+      "definitionAr": "يعني مش زي بعض. حاجة تانية مختلفة في الشكل أو النوع أو الصفات.",
+      "usageNote": "Followed by 'from' (standard), 'to' (British), or 'than' (American). 'Different from' is safest.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Comparison",
+        "#Variety",
+        "#Contrast"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Different\" أولها \"Diff\".. زي الـ \"Difference\" (الفرق) بين الحاجات.",
+      "examples": {
+        "A1": "My car is different from yours.",
+        "A2": "I want to try something different.",
+        "B1": "They have very different opinions.",
+        "B2": "The reality was quite different from what I expected.",
+        "C1": "He viewed the situation in a completely different light.",
+        "C2": "The cultures are fundamentally different in their approach to time."
+      },
+      "collocations": [
+        "different from",
+        "very different",
+        "completely different",
+        "different types"
+      ],
+      "synonyms": [
+        "dissimilar",
+        "distinct",
+        "unlike"
+      ],
+      "antonyms": [
+        "same",
+        "similar",
+        "identical"
+      ],
+      "relatedWords": {
+        "en": [
+          "difference",
+          "differ",
+          "variety"
+        ],
+        "ar": [
+          "اختلاف",
+          "يختلف",
+          "تنوع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "difference",
+        "verb": "differ",
+        "adj": "",
+        "adv": "differently"
+      },
+      "arabicAr": "مختلف",
+      "frenchFr": "différent",
+      "germanDe": "anders",
+      "spanishEs": "diferente",
+      "chineseZh": "不同 (Bùtóng)",
+      "russianRu": "разный",
+      "portuguesePt": "diferente",
+      "japaneseJa": "違う (Chigau)",
+      "italianIt": "diverso",
+      "turkishTr": "farklı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 358,
+      "wordEn": "country",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈkɐntɹi",
+      "phoneticUk": "ˈkʌntɹi",
+      "phoneticAr": "كانْتْري",
+      "translit": "dawla / balad",
+      "definitionEn": "Relating to rural areas rather than the city.",
+      "definitionAr": "حاجة ليها علاقة بالريف أو المناطق اللي بره المدينة. زي \"موسيقى الكانتري\" أو \"طريق ريفي\".",
+      "usageNote": "Used to describe things typical of the countryside (e.g., country music, country road).",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Rural",
+        "#Nature",
+        "#Style"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Country\" فيها \"Count\".. في الـ \"Country\" (الريف) ممكن تعمل \"Count\" (تعد) النجوم بوضوح.",
+      "examples": {
+        "A1": "I like country music.",
+        "A2": "We drove down a country road.",
+        "B1": "She prefers the country life.",
+        "B2": "They have a small country cottage.",
+        "C1": "The hotel has a distinct country club atmosphere.",
+        "C2": "He adopted the manners of a country squire."
+      },
+      "collocations": [
+        "country music",
+        "country side",
+        "country road"
+      ],
+      "synonyms": [
+        "rural",
+        "rustic",
+        "pastoral"
+      ],
+      "antonyms": [
+        "urban",
+        "city"
+      ],
+      "relatedWords": {
+        "en": [
+          "rural",
+          "village",
+          "farm"
+        ],
+        "ar": [
+          "ريفي",
+          "قرية",
+          "مزرعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "country",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "دولة / بلد",
+      "frenchFr": "campagnard",
+      "germanDe": "ländlich",
+      "spanishEs": "campestre",
+      "chineseZh": "乡村的 (Xiāngcūn de)",
+      "russianRu": "деревенский",
+      "portuguesePt": "rural",
+      "japaneseJa": "田舎の (Inaka no)",
+      "italianIt": "di campagna",
+      "turkishTr": "kırsal",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 359,
+      "wordEn": "country",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈkɐntɹi",
+      "phoneticUk": "ˈkʌntɹi",
+      "phoneticAr": "كانْتْري",
+      "translit": "dawla / balad",
+      "definitionEn": "A nation with its own government, or rural areas.",
+      "definitionAr": "دولة أو بلد ليها حكومة وحدود، وممكن كمان نقصد بيها المناطق الريفية (The country).",
+      "usageNote": "Can mean a political state (France is a country) or land outside cities (Let's go to the country).",
+      "category": "Social Life & Communication",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Nation",
+        "#Geography",
+        "#Politics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Country\" فيها \"Count\".. الحكومة لازم تعمل \"Count\" (تعداد) لسكان الـ \"Country\" (الدولة).",
+      "examples": {
+        "A1": "Japan is a beautiful country.",
+        "A2": "Which country are you from?",
+        "B1": "We spent the weekend in the country.",
+        "B2": "The whole country voted in the election.",
+        "C1": "It is a rugged country with few roads.",
+        "C2": "He did it for the good of his country."
+      },
+      "collocations": [
+        "foreign country",
+        "in the country",
+        "whole country",
+        "developing country"
+      ],
+      "synonyms": [
+        "nation",
+        "state",
+        "land"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "nation",
+          "state",
+          "region"
+        ],
+        "ar": [
+          "أمة",
+          "وطن",
+          "إقليم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "country",
+        "adv": ""
+      },
+      "arabicAr": "دولة / بلد",
+      "frenchFr": "pays",
+      "germanDe": "Land",
+      "spanishEs": "país",
+      "chineseZh": "国家 (Guójiā)",
+      "russianRu": "страна",
+      "portuguesePt": "país",
+      "japaneseJa": "国 (Kuni)",
+      "italianIt": "paese",
+      "turkishTr": "ülke",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 360,
+      "wordEn": "really",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈɹɪəli",
+      "phoneticUk": "ˈrɪəlɪ",
+      "phoneticAr": "رِيلي",
+      "translit": "hqan / hal haqana",
+      "definitionEn": "In actual fact, as opposed to what is said or imagined.",
+      "definitionAr": "يعني بجد أو فعلاً. بنستخدمها عشان نأكد على الكلام أو لما نكون مستغربين.",
+      "usageNote": "Used to emphasize adjectives (really good) or question truth (Did he really say that?).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Emphasis",
+        "#Truth",
+        "#Degree"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Really\" جاية من \"Real\" (حقيقي).. يعني بتتكلم عن حاجة \"Real\" حصلت \"Really\" (بجد).",
+      "examples": {
+        "A1": "I am really hungry.",
+        "A2": "Do you really like it?",
+        "B1": "It wasn't really a surprise.",
+        "B2": "You really should see a doctor.",
+        "C1": "I really must insist on an answer.",
+        "C2": "Is that really the best approach to such a complex problem?"
+      },
+      "collocations": [
+        "really good",
+        "not really",
+        "really want",
+        "really like"
+      ],
+      "synonyms": [
+        "truly",
+        "actually",
+        "very",
+        "genuinely"
+      ],
+      "antonyms": [
+        "falsely",
+        "hardly"
+      ],
+      "relatedWords": {
+        "en": [
+          "real",
+          "reality",
+          "true"
+        ],
+        "ar": [
+          "حقيقي",
+          "واقع",
+          "صحيح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "reality",
+        "verb": "realize",
+        "adj": "real",
+        "adv": ""
+      },
+      "arabicAr": "حقًا / بالفعل",
+      "frenchFr": "vraiment",
+      "germanDe": "wirklich",
+      "spanishEs": "realmente",
+      "chineseZh": "真的 (Zhēn de)",
+      "russianRu": "действительно",
+      "portuguesePt": "realmente",
+      "japaneseJa": "本当に (Hontō ni)",
+      "italianIt": "veramente",
+      "turkishTr": "gerçekten",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 361,
+      "wordEn": "provide",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "pɹəˈvaɪd",
+      "phoneticUk": null,
+      "phoneticAr": "بْرُوفايْد",
+      "translit": "yamudu / tuzawid",
+      "definitionEn": "To make available for use; supply.",
+      "definitionAr": "يعني يوفر أو يقدم حاجة لحد محتاجها. زي لما الشركة توفر سكن للموظفين.",
+      "usageNote": "Often followed by 'with' (provide someone with something) or 'for' (provide for a family).",
+      "category": "General / Common",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Supply",
+        "#Give",
+        "#Help"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Provide\" فيها \"Pro\".. الـ \"Pro\" (المحترف) هو اللي بيعرف \"Provide\" (يوفر) الحلول.",
+      "examples": {
+        "A1": "Cows provide milk.",
+        "A2": "The hotel provides free Wi-Fi.",
+        "B1": "They provided us with a map.",
+        "B2": "The law provides for these cases.",
+        "C1": "The contract provides that work must be completed by June.",
+        "C2": "Nature provides a wealth of resources if we use them wisely."
+      },
+      "collocations": [
+        "provide information",
+        "provide support",
+        "provide a service",
+        "provide for"
+      ],
+      "synonyms": [
+        "supply",
+        "give",
+        "offer",
+        "furnish"
+      ],
+      "antonyms": [
+        "withhold",
+        "take",
+        "refuse"
+      ],
+      "relatedWords": {
+        "en": [
+          "provision",
+          "provider",
+          "supply"
+        ],
+        "ar": [
+          "مؤونة",
+          "مزود",
+          "إمداد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "provision",
+        "verb": "",
+        "adj": "provided",
+        "adv": ""
+      },
+      "arabicAr": "يمد / يوفر / يقدم",
+      "frenchFr": "fournir",
+      "germanDe": "anbieten",
+      "spanishEs": "proveer",
+      "chineseZh": "提供 (Tígōng)",
+      "russianRu": "обеспечивать",
+      "portuguesePt": "fornecer",
+      "japaneseJa": "提供する (Teikyō suru)",
+      "italianIt": "fornire",
+      "turkishTr": "sağlamak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 362,
+      "wordEn": "week",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wik",
+      "phoneticUk": "wiːk",
+      "phoneticAr": "ويك",
+      "translit": "'usbue / ''usbue",
+      "definitionEn": "A period of seven days.",
+      "definitionAr": "مدة زمنية مكونة من سبع أيام، من السبت للجمعة مثلًا.",
+      "usageNote": "Can refer to the work week (Mon-Fri) or the calendar week (Sun-Sat).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Calendar",
+        "#Time",
+        "#Schedule"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Week\" نفس نطق \"Weak\" (ضعيف).. لو اشتغلت طول الـ \"Week\" من غير راحة هتبقى \"Weak\".",
+      "examples": {
+        "A1": "I go to school every week.",
+        "A2": "See you next week.",
+        "B1": "She works three days a week.",
+        "B2": "The project will take a week to complete.",
+        "C1": "It has been a hectic week at the office.",
+        "C2": "He is paid on a week-by-week basis."
+      },
+      "collocations": [
+        "last week",
+        "next week",
+        "this week",
+        "once a week"
+      ],
+      "synonyms": [
+        "seven days"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "month",
+          "day",
+          "year"
+        ],
+        "ar": [
+          "شهر",
+          "يوم",
+          "سنة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "weekly",
+        "adv": "weekly"
+      },
+      "arabicAr": "أسبوع",
+      "frenchFr": "semaine",
+      "germanDe": "Woche",
+      "spanishEs": "semana",
+      "chineseZh": "周 (Zhōu)",
+      "russianRu": "неделя",
+      "portuguesePt": "semana",
+      "japaneseJa": "週 (Shū)",
+      "italianIt": "settimana",
+      "turkishTr": "hafta",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 363,
+      "wordEn": "hold",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "həʊld",
+      "phoneticUk": null,
+      "phoneticAr": "هولْد",
+      "translit": "yumsik / muealaq",
+      "definitionEn": "An act or manner of grasping something; power or control.",
+      "definitionAr": "مسكة أو قبضة الإيد على حاجة عشان ما تقعش. وممكن تيجي بمعنى السيطرة أو النفوذ.",
+      "usageNote": "Common in phrases like 'get a hold of' (contact someone) or 'put on hold' (wait).",
+      "category": "Actions & Processes",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Grip",
+        "#Control",
+        "#Pause"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Hold\" زي \"هولد\" في التليفون.. لما حد يقولك \"Put on hold\" يعني خليك ماسك الخط.",
+      "examples": {
+        "A1": "Keep a tight hold on my hand.",
+        "A2": "He lost his hold and fell.",
+        "B1": "The company has a strong hold on the market.",
+        "B2": "Please put my calls on hold.",
+        "C1": "She managed to get a hold of the manager.",
+        "C2": "The rebels lost their hold over the northern territory."
+      },
+      "collocations": [
+        "on hold",
+        "get hold of",
+        "take hold",
+        "lose hold"
+      ],
+      "synonyms": [
+        "grip",
+        "grasp",
+        "control"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "relatedWords": {
+        "en": [
+          "grip",
+          "clutch",
+          "control"
+        ],
+        "ar": [
+          "قبضة",
+          "سيطرة",
+          "تحكم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "hold",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يمسك",
+      "frenchFr": "prise",
+      "germanDe": "Halt",
+      "spanishEs": "agarre",
+      "chineseZh": "控制 (Kòngzhì)",
+      "russianRu": "хватка",
+      "portuguesePt": "controle",
+      "japaneseJa": "保持 (Hoji)",
+      "italianIt": "presa",
+      "turkishTr": "tutuş",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 364,
+      "wordEn": "hold",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "həʊld",
+      "phoneticUk": null,
+      "phoneticAr": "هولْد",
+      "translit": "yumsik / muealaq",
+      "definitionEn": "To grasp, carry, or support with one's hands.",
+      "definitionAr": "يعني يمسك حاجة بإيده كويس، أو يشيلها. وممكن تيجي بمعنى يحتوي على حاجة.",
+      "usageNote": "Extremely versatile: hold a meeting, hold a baby, hold your breath, hold a position.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Grasp",
+        "#Contain",
+        "#Organize"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Hold\" زي \"هولد\".. لما تعمل \"Hold\" للمكالمة يعني بتمسك الخط.",
+      "examples": {
+        "A1": "Hold my hand.",
+        "A2": "Can you hold this bag for me?",
+        "B1": "The room can hold 50 people.",
+        "B2": "They will hold a meeting tomorrow.",
+        "C1": "I don't hold it against you.",
+        "C2": "The theory does not hold water when examined closely."
+      },
+      "collocations": [
+        "hold on",
+        "hold a meeting",
+        "hold hands",
+        "hold back"
+      ],
+      "synonyms": [
+        "grasp",
+        "grip",
+        "contain",
+        "conduct"
+      ],
+      "antonyms": [
+        "drop",
+        "release",
+        "let go"
+      ],
+      "relatedWords": {
+        "en": [
+          "keep",
+          "carry",
+          "contain"
+        ],
+        "ar": [
+          "يحمل",
+          "يحتوي",
+          "يقيم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hold",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يمسك",
+      "frenchFr": "tenir",
+      "germanDe": "halten",
+      "spanishEs": "sostener",
+      "chineseZh": "持有 (Chíyǒu)",
+      "russianRu": "держать",
+      "portuguesePt": "segurar",
+      "japaneseJa": "持つ (Motsu)",
+      "italianIt": "tenere",
+      "turkishTr": "tutmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 365,
+      "wordEn": "large",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈlɑɹd͡ʒ",
+      "phoneticUk": "ˈlɑːd͡ʒ",
+      "phoneticAr": "لارْج",
+      "translit": "kabir",
+      "definitionEn": "Of considerable or relatively great size, extent, or capacity.",
+      "definitionAr": "يعني حجمه كبير أو واسع. عكس كلمة \"صغير\". بنستخدمها كتير في المقاسات.",
+      "usageNote": "More formal than 'big'. Used for sizes (S, M, L) and quantities.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Size",
+        "#Quantity",
+        "#Big"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Large\" بنستخدمها في المقاسات \"L\".. يعني مقاس \"Large\" (كبير).",
+      "examples": {
+        "A1": "I want a large pizza.",
+        "A2": "They have a large family.",
+        "B1": "A large number of people attended.",
+        "B2": "The company operates on a large scale.",
+        "C1": "He is a larger-than-life character.",
+        "C2": "The fugitive is still at large."
+      },
+      "collocations": [
+        "large amount",
+        "large number",
+        "at large",
+        "large scale"
+      ],
+      "synonyms": [
+        "big",
+        "huge",
+        "massive",
+        "sizable"
+      ],
+      "antonyms": [
+        "small",
+        "tiny",
+        "little"
+      ],
+      "relatedWords": {
+        "en": [
+          "big",
+          "size",
+          "huge"
+        ],
+        "ar": [
+          "ضخم",
+          "حجم",
+          "واسع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "largeness",
+        "verb": "enlarge",
+        "adj": "",
+        "adv": "largely"
+      },
+      "arabicAr": "كبير",
+      "frenchFr": "grand",
+      "germanDe": "groß",
+      "spanishEs": "grande",
+      "chineseZh": "大 (Dà)",
+      "russianRu": "большой",
+      "portuguesePt": "grande",
+      "japaneseJa": "大きい (Ōkii)",
+      "italianIt": "grande",
+      "turkishTr": "büyük",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 366,
+      "wordEn": "member",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmɛmbə",
+      "phoneticUk": "ˈmembə",
+      "phoneticAr": "مِمْبَر",
+      "translit": "eudw",
+      "definitionEn": "A person, animal, or plant belonging to a particular group.",
+      "definitionAr": "شخص مشترك في مجموعة أو نادي أو عيلة. فرد من أفراد المجموعة.",
+      "usageNote": "Can refer to a person in a club, a body part (limb), or a structural element.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Group",
+        "#Person",
+        "#Belonging"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Member\" شبه \"منبر\".. الـ \"Member\" (العضو) النشيط هو اللي بيطلع على \"المنبر\" يتكلم.",
+      "examples": {
+        "A1": "He is a member of the club.",
+        "A2": "Family members are invited.",
+        "B1": "She is a staff member.",
+        "B2": "Only members can enter this area.",
+        "C1": "He is a respected member of the community.",
+        "C2": "The bridge consists of several structural members."
+      },
+      "collocations": [
+        "family member",
+        "staff member",
+        "team member",
+        "board member"
+      ],
+      "synonyms": [
+        "associate",
+        "fellow",
+        "representative"
+      ],
+      "antonyms": [
+        "nonmember"
+      ],
+      "relatedWords": {
+        "en": [
+          "membership",
+          "group",
+          "club"
+        ],
+        "ar": [
+          "عضوية",
+          "مجموعة",
+          "نادي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "membership",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "عضو",
+      "frenchFr": "membre",
+      "germanDe": "Mitglied",
+      "spanishEs": "miembro",
+      "chineseZh": "成员 (Chéngyuán)",
+      "russianRu": "член",
+      "portuguesePt": "membro",
+      "japaneseJa": "メンバー (Menbā)",
+      "italianIt": "membro",
+      "turkishTr": "üye",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 367,
+      "wordEn": "off",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɔːf",
+      "phoneticUk": "ɑf",
+      "phoneticAr": "أُوف",
+      "translit": "ean / ''iiqaf",
+      "definitionEn": "Not operating or being used; canceled.",
+      "definitionAr": "يعني مقفول (زي النور) أو مش شغال، أو حد مشي وساب المكان.",
+      "usageNote": "Used for machines (TV is off), events (wedding is off), or food (milk is off/bad).",
+      "category": "Social Life & Communication",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Inactive",
+        "#Away",
+        "#Canceled"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Off\" زي \"أُف\".. بتقول \"أُف\" لما النور يقطع ويبقى \"Off\".",
+      "examples": {
+        "A1": "The TV is off.",
+        "A2": "I am off today (not working).",
+        "B1": "The meeting is off.",
+        "B2": "This milk tastes off.",
+        "C1": "He is having an off day.",
+        "C2": "The deal is definitely off."
+      },
+      "collocations": [
+        "day off",
+        "turn off",
+        "time off",
+        "off duty"
+      ],
+      "synonyms": [
+        "inactive",
+        "canceled",
+        "bad"
+      ],
+      "antonyms": [
+        "on"
+      ],
+      "relatedWords": {
+        "en": [
+          "away",
+          "down",
+          "out"
+        ],
+        "ar": [
+          "بعيد",
+          "مغلق",
+          "خارج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "عن / بعيداً",
+      "frenchFr": "éteint",
+      "germanDe": "aus",
+      "spanishEs": "apagado",
+      "chineseZh": "关 (Guān)",
+      "russianRu": "выключенный",
+      "portuguesePt": "desligado",
+      "japaneseJa": "オフ (Ofu)",
+      "italianIt": "spento",
+      "turkishTr": "kapalı",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 368,
+      "wordEn": "off",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɔːf",
+      "phoneticUk": "ɑf",
+      "phoneticAr": "أُوف",
+      "translit": "ean / ''iiqaf",
+      "definitionEn": "Away from; down from.",
+      "definitionAr": "بتدل على الانفصال أو البعد عن حاجة. زي \"وقع من على الكرسي\" (fell off the chair).",
+      "usageNote": "Indicates separation or disconnection from a surface or place.",
+      "category": "Social Life & Communication",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Separation",
+        "#Direction",
+        "#Movement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Off\" زي \"أُف\".. لما تقع \"Off\" (من على) العجلة بتقول \"أُف\".",
+      "examples": {
+        "A1": "He fell off his bike.",
+        "A2": "Take your coat off.",
+        "B1": "Keep off the grass.",
+        "B2": "We live just off the main road.",
+        "C1": "They live off the land.",
+        "C2": "He skimmed the cream off the milk."
+      },
+      "collocations": [
+        "fall off",
+        "get off",
+        "take off",
+        "keep off"
+      ],
+      "synonyms": [
+        "from",
+        "away from"
+      ],
+      "antonyms": [
+        "on",
+        "onto"
+      ],
+      "relatedWords": {
+        "en": [
+          "down",
+          "from",
+          "away"
+        ],
+        "ar": [
+          "من",
+          "عن",
+          "أسفل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "عن / بعيداً",
+      "frenchFr": "de",
+      "germanDe": "von",
+      "spanishEs": "de",
+      "chineseZh": "从...离开 (Cóng... líkāi)",
+      "russianRu": "с",
+      "portuguesePt": "de",
+      "japaneseJa": "から (Kara)",
+      "italianIt": "da",
+      "turkishTr": "-den",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 369,
+      "wordEn": "off",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɔːf",
+      "phoneticUk": "ɑf",
+      "phoneticAr": "أُوف",
+      "translit": "ean / ''iiqaf",
+      "definitionEn": "Away from the place in question; at a distance.",
+      "definitionAr": "يعني بعيد عن المكان، أو إنهاء تشغيل جهاز. زي \"Go off\" (امشي).",
+      "usageNote": "Used with verbs to indicate departure (set off) or disconnection (switch off).",
+      "category": "Social Life & Communication",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Departure",
+        "#Disconnection",
+        "#Distance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Off\" زي \"أُف\".. لما حد يزن عليك بتقوله \"Go off\" (امشي) وتقول \"أُف\".",
+      "examples": {
+        "A1": "She took her shoes off.",
+        "A2": "The plane took off.",
+        "B1": "They drove off in a hurry.",
+        "B2": "The alarm went off.",
+        "C1": "He was laid off from his job.",
+        "C2": "The effects of the drug wore off."
+      },
+      "collocations": [
+        "go off",
+        "take off",
+        "set off",
+        "show off"
+      ],
+      "synonyms": [
+        "away",
+        "apart"
+      ],
+      "antonyms": [
+        "on"
+      ],
+      "relatedWords": {
+        "en": [
+          "away",
+          "out",
+          "aside"
+        ],
+        "ar": [
+          "بعيداً",
+          "خارجاً",
+          "جانباً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "عن / بعيداً",
+      "frenchFr": "au loin",
+      "germanDe": "weg",
+      "spanishEs": "fuera",
+      "chineseZh": "离开 (Líkāi)",
+      "russianRu": "прочь",
+      "portuguesePt": "embora",
+      "japaneseJa": "離れて (Hanarete)",
+      "italianIt": "via",
+      "turkishTr": "uzak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 370,
+      "wordEn": "always",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɔl.weɪz",
+      "phoneticUk": "ˈɔː(l).weɪz",
+      "phoneticAr": "أولْوَيْز",
+      "translit": "daymaan / dayimaan",
+      "definitionEn": "At all times; on all occasions.",
+      "definitionAr": "يعني دايماً، في كل وقت وكل مرة، مفيش استثناء.",
+      "usageNote": "Used with present continuous to express annoyance (He is always complaining).",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Frequency",
+        "#Time",
+        "#Constancy"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Always\" فيها \"All\" و \"Ways\".. يعني في \"All ways\" (كل الطرق) و \"Always\" (دايماً) معاك.",
+      "examples": {
+        "A1": "I always eat breakfast.",
+        "A2": "She is always happy.",
+        "B1": "You can always call me.",
+        "B2": "He is always losing his keys.",
+        "C1": "As always, he was polite.",
+        "C2": "We should always strive for excellence."
+      },
+      "collocations": [
+        "as always",
+        "always be",
+        "can always"
+      ],
+      "synonyms": [
+        "forever",
+        "constantly",
+        "continually"
+      ],
+      "antonyms": [
+        "never",
+        "rarely",
+        "seldom"
+      ],
+      "relatedWords": {
+        "en": [
+          "forever",
+          "ever",
+          "often"
+        ],
+        "ar": [
+          "أبداً",
+          "غالباً",
+          "باستمرار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "دائماً",
+      "frenchFr": "toujours",
+      "germanDe": "immer",
+      "spanishEs": "siempre",
+      "chineseZh": "总是 (Zǒngshì)",
+      "russianRu": "всегда",
+      "portuguesePt": "sempre",
+      "japaneseJa": "いつも (Itsumo)",
+      "italianIt": "sempre",
+      "turkishTr": "her zaman",
+      "aiConfidence": 0.99
+    }
+  ]
+} 

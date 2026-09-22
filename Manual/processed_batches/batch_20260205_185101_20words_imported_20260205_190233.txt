@@ -1,0 +1,577 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 16,
+    "wordEn": "it",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 16,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪt",
+    "phoneticUk": "ət",
+    "phoneticAr": "يت",
+    "translit": "hu / hi / ealayh",
+    "definitionEn": "[\"refer to a thing previously mentioned or easily identified.\", \"used in the normal subject position in statements about time, distance, or weather.\", \"used in the normal subject or object position when a more specific subject or object is given later in the sentence.\"]",
+    "usageNote": "used to refer to an inanimate object, abstract entity, or non-human living thing.",
+    "category": "Mind & Thinking",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"they thought they were it\", \"stop it, you're hurting me\", \"it is raining\", \"caught them doing it\"], \"A2\": [\"it is impossible to assess the problem\", \"it is the child who is the victim\", \"she found it interesting to learn about their strategy\", \"it was two miles to the island\", \"this approach is refreshing because it breaks down barriers\"]}",
+    "collocations": "[\"rough it\", \"live it up\", \"stick it out\", \"Tag, you're it\"]",
+    "synonyms": "[\"try\", \"this\", \"that\", \"prove\", \"information technology\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"try\", \"prove\", \"this\", \"that\", \"one\"], \"ar\": [\"أمّا\", \"هُو\", \"هِي\", \"ها\", \"ضمير الغائب المفرَد لغير العاقل مثل هو\", \"هي\"]}",
+    "arabicAr": "هو / هي / هي لغير العاقل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 17,
+    "wordEn": "it",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 17,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪt",
+    "phoneticUk": "ət",
+    "phoneticAr": "يت",
+    "translit": "hu / hi / ealayh",
+    "definitionEn": "[\"refer to a thing previously mentioned or easily identified.\", \"used in the normal subject position in statements about time, distance, or weather.\", \"used in the normal subject or object position when a more specific subject or object is given later in the sentence.\"]",
+    "usageNote": "used to refer to an inanimate object, abstract entity, or non-human living thing.",
+    "category": "Mind & Thinking",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"they thought they were it\", \"stop it, you're hurting me\", \"it is raining\", \"caught them doing it\"], \"A2\": [\"it is impossible to assess the problem\", \"it is the child who is the victim\", \"she found it interesting to learn about their strategy\", \"it was two miles to the island\", \"this approach is refreshing because it breaks down barriers\"]}",
+    "collocations": "[\"rough it\", \"live it up\", \"stick it out\", \"Tag, you're it\"]",
+    "synonyms": "[\"try\", \"this\", \"that\", \"prove\", \"information technology\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"try\", \"prove\", \"this\", \"that\", \"one\"], \"ar\": [\"أمّا\", \"هُو\", \"هِي\", \"ها\", \"ضمير الغائب المفرَد لغير العاقل مثل هو\", \"هي\"]}",
+    "arabicAr": "هو / هي / هي لغير العاقل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 18,
+    "wordEn": "for",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 18,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "fɔr",
+    "phoneticUk": "fɔ:",
+    "phoneticAr": "فأور",
+    "translit": "l / ''iilaa ean ealaa",
+    "definitionEn": "[\"In the most general sense, indicating that in consideration of, in view of, or with reference to, which anything is done or takes place.\", \"Indicating the antecedent cause or occasion of an action\", \"Indicating the remoter and indirect object of an act\"]",
+    "usageNote": "Used to introduce a subject of a to-infinitive clause.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{}",
+    "collocations": "[\"Run for the hills\", \"Who's for ice-cream\", \"I'm for going by train\", \"Make way for the president\", \"Ah for wings to soar\"]",
+    "synonyms": "[\"about\", \"toward\", \"touching\", \"regarding\", \"concerning\"]",
+    "antonyms": "[\"against\"]",
+    "relatedWords": "{\"en\": [\"regarding\", \"to\", \"touching\", \"about\", \"toward\"], \"ar\": [\"بِ\", \"بِدَافِع\", \"بَدَل\", \"بِسَبَب\", \"بُغْيَة\", \"حتّى\"]}",
+    "arabicAr": "ل / لأجل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 19,
+    "wordEn": "i",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 19,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "aɪ",
+    "phoneticAr": "آي",
+    "translit": "'ana / ''ana",
+    "definitionEn": "[\"In our old authors, I was often used for ay , yes, which is pronounced nearly like it.\", \"As a numeral, I stands for 1, II for 2, etc.\", \"The nominative case of the pronoun of the first person\"]",
+    "category": "Food & Drink",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"the position of an i-dot\"]}",
+    "collocations": "[\"v ir\"]",
+    "synonyms": "[\"one\", \"iee\", \"iodin\", \"iodine\", \"atomic number 53\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ane\", \"cardinal\", \"one\", \"ace\", \"digit\", \"element\"], \"ar\": [\"أنا\"]}",
+    "arabicAr": "أنا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 20,
+    "wordEn": "that",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 20,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈðæt",
+    "phoneticAr": "ذآت",
+    "translit": "aladhi / alati / dhlk",
+    "definitionEn": "[\"identify a specific person or thing observed by the speaker.\", \"referring to a specific thing previously mentioned, known, or understood.\", \"used in singling out someone or something and ascribing a distinctive feature to them.\"]",
+    "usageNote": "Used to refer to a noun phrase or statement just made.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"where is that son of yours?\", \"I would not go that far\", \"seven people died in that incident\", \"look at that man there\", \"the woman that owns the place\", \"Oh that spring would come\"], \"A2\": [\"he seemed pleased that I wanted to continue\", \"it is possible that we have misunderstood\", \"it was that big, perhaps even bigger\"]}",
+    "collocations": "[\"Oh that spring would come\", \"deeds that\", \"that night\"]",
+    "synonyms": "[\"who\", \"this\", \"whom\", \"which\", \"whichever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"this\", \"it\", \"which\", \"who\", \"whom\"], \"ar\": [\"أَنْ\", \"كَيْ\", \"كَيْمَا\", \"كَيْلا\", \"حتَّى\", \"مِنْ أَجْلِ أَنْ\"]}",
+    "arabicAr": "الذي / التي / ذاك / تلك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 21,
+    "wordEn": "that",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 21,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈðæt",
+    "phoneticAr": "ذآت",
+    "translit": "aladhi / alati / dhlk",
+    "definitionEn": "[\"identify a specific person or thing observed by the speaker.\", \"referring to a specific thing previously mentioned, known, or understood.\", \"used in singling out someone or something and ascribing a distinctive feature to them.\"]",
+    "usageNote": "Used to refer to a noun phrase or statement just made.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"where is that son of yours?\", \"I would not go that far\", \"seven people died in that incident\", \"look at that man there\", \"the woman that owns the place\", \"Oh that spring would come\"], \"A2\": [\"he seemed pleased that I wanted to continue\", \"it is possible that we have misunderstood\", \"it was that big, perhaps even bigger\"]}",
+    "collocations": "[\"Oh that spring would come\", \"deeds that\", \"that night\"]",
+    "synonyms": "[\"who\", \"this\", \"whom\", \"which\", \"whichever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"this\", \"it\", \"which\", \"who\", \"whom\"], \"ar\": [\"أَنْ\", \"كَيْ\", \"كَيْمَا\", \"كَيْلا\", \"حتَّى\", \"مِنْ أَجْلِ أَنْ\"]}",
+    "arabicAr": "الذي / التي / ذاك / تلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 22,
+    "wordEn": "that",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 22,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈðæt",
+    "phoneticAr": "ذآت",
+    "translit": "aladhi / alati / dhlk",
+    "definitionEn": "[\"identify a specific person or thing observed by the speaker.\", \"referring to a specific thing previously mentioned, known, or understood.\", \"used in singling out someone or something and ascribing a distinctive feature to them.\"]",
+    "usageNote": "Used to refer to a noun phrase or statement just made.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"where is that son of yours?\", \"I would not go that far\", \"seven people died in that incident\", \"look at that man there\", \"the woman that owns the place\", \"Oh that spring would come\"], \"A2\": [\"he seemed pleased that I wanted to continue\", \"it is possible that we have misunderstood\", \"it was that big, perhaps even bigger\"]}",
+    "collocations": "[\"Oh that spring would come\", \"deeds that\", \"that night\"]",
+    "synonyms": "[\"who\", \"this\", \"whom\", \"which\", \"whichever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"this\", \"it\", \"which\", \"who\", \"whom\"], \"ar\": [\"أَنْ\", \"كَيْ\", \"كَيْمَا\", \"كَيْلا\", \"حتَّى\", \"مِنْ أَجْلِ أَنْ\"]}",
+    "arabicAr": "الذي / التي / ذاك / تلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 23,
+    "wordEn": "that",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 23,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈðæt",
+    "phoneticAr": "ذآت",
+    "translit": "aladhi / alati / dhlk",
+    "definitionEn": "[\"identify a specific person or thing observed by the speaker.\", \"referring to a specific thing previously mentioned, known, or understood.\", \"used in singling out someone or something and ascribing a distinctive feature to them.\"]",
+    "usageNote": "Used to refer to a noun phrase or statement just made.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"where is that son of yours?\", \"I would not go that far\", \"seven people died in that incident\", \"look at that man there\", \"the woman that owns the place\", \"Oh that spring would come\"], \"A2\": [\"he seemed pleased that I wanted to continue\", \"it is possible that we have misunderstood\", \"it was that big, perhaps even bigger\"]}",
+    "collocations": "[\"Oh that spring would come\", \"deeds that\", \"that night\"]",
+    "synonyms": "[\"who\", \"this\", \"whom\", \"which\", \"whichever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"this\", \"it\", \"which\", \"who\", \"whom\"], \"ar\": [\"أَنْ\", \"كَيْ\", \"كَيْمَا\", \"كَيْلا\", \"حتَّى\", \"مِنْ أَجْلِ أَنْ\"]}",
+    "arabicAr": "الذي / التي / ذاك / تلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 24,
+    "wordEn": "that",
+    "pos": "adv",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 24,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈðæt",
+    "phoneticAr": "ذآت",
+    "translit": "aladhi / alati / dhlk",
+    "definitionEn": "[\"identify a specific person or thing observed by the speaker.\", \"referring to a specific thing previously mentioned, known, or understood.\", \"used in singling out someone or something and ascribing a distinctive feature to them.\"]",
+    "usageNote": "Used to refer to a noun phrase or statement just made.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"where is that son of yours?\", \"I would not go that far\", \"seven people died in that incident\", \"look at that man there\", \"the woman that owns the place\", \"Oh that spring would come\"], \"A2\": [\"he seemed pleased that I wanted to continue\", \"it is possible that we have misunderstood\", \"it was that big, perhaps even bigger\"]}",
+    "collocations": "[\"Oh that spring would come\", \"deeds that\", \"that night\"]",
+    "synonyms": "[\"who\", \"this\", \"whom\", \"which\", \"whichever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"this\", \"it\", \"which\", \"who\", \"whom\"], \"ar\": [\"أَنْ\", \"كَيْ\", \"كَيْمَا\", \"كَيْلا\", \"حتَّى\", \"مِنْ أَجْلِ أَنْ\"]}",
+    "arabicAr": "الذي / التي / ذاك / تلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 25,
+    "wordEn": "you",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 25,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "jʉː",
+    "phoneticUk": "juː",
+    "phoneticAr": "يو",
+    "translit": "'ant / ''ant",
+    "definitionEn": "[\"refer to the person or people that the speaker is addressing.\", \"refer to any person in general.\", \"The pronoun of the second person, in the nominative, dative, and objective case, indicating the person or persons addressed\"]",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"I love you\", \"are you listening?\", \"you Australians\", \"you fools\", \"hey, you!\"], \"A2\": [\"after a while, you get used to it\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"thou\", \"thee\", \"y'all\", \"you-all\", \"all y'all\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"thou\", \"thee\", \"ye\", \"ya\", \"y'all\"], \"ar\": [\"أنتن.\", \"انْتُم\", \"أنتما\", \"أنتَ\", \"أنتنَّ\", \"كُما\"]}",
+    "arabicAr": "أنت",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 26,
+    "wordEn": "you",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 26,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "jʉː",
+    "phoneticUk": "juː",
+    "phoneticAr": "يو",
+    "translit": "'ant / ''ant",
+    "definitionEn": "[\"refer to the person or people that the speaker is addressing.\", \"refer to any person in general.\", \"The pronoun of the second person, in the nominative, dative, and objective case, indicating the person or persons addressed\"]",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"I love you\", \"are you listening?\", \"you Australians\", \"you fools\", \"hey, you!\"], \"A2\": [\"after a while, you get used to it\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"thou\", \"thee\", \"y'all\", \"you-all\", \"all y'all\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"thou\", \"thee\", \"ye\", \"ya\", \"y'all\"], \"ar\": [\"أنتن.\", \"انْتُم\", \"أنتما\", \"أنتَ\", \"أنتنَّ\", \"كُما\"]}",
+    "arabicAr": "أنت",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 27,
+    "wordEn": "he",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 27,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "hi",
+    "phoneticUk": "hi:",
+    "phoneticAr": "هي",
+    "translit": "hu",
+    "definitionEn": "[\"refer to a man, boy, or male animal previously mentioned or easily identified.\", \"the chemical element helium.\", \"His or Her Excellency.\"]",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he who is silent consents\"], \"A2\": [\"every child needs to know that he is loved\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"one\", \"they\", \"knows\", \"helium\", \"atomic number 2\"]",
+    "antonyms": "[\"she\"]",
+    "relatedWords": "{\"en\": [\"helium\", \"atomic number 2\", \"knows\", \"did\", \"was\"], \"ar\": [\"هُو\", \"مَنْ\", \"ذَكَرٌ\", \"هو\", \"مَن\", \"ذكر من الإنسان\"]}",
+    "arabicAr": "هو",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 28,
+    "wordEn": "he",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 28,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "hi",
+    "phoneticUk": "hi:",
+    "phoneticAr": "هي",
+    "translit": "hu",
+    "definitionEn": "[\"refer to a man, boy, or male animal previously mentioned or easily identified.\", \"the chemical element helium.\", \"His or Her Excellency.\"]",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he who is silent consents\"], \"A2\": [\"every child needs to know that he is loved\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"one\", \"they\", \"knows\", \"helium\", \"atomic number 2\"]",
+    "antonyms": "[\"she\"]",
+    "relatedWords": "{\"en\": [\"helium\", \"atomic number 2\", \"knows\", \"did\", \"was\"], \"ar\": [\"هُو\", \"مَنْ\", \"ذَكَرٌ\", \"هو\", \"مَن\", \"ذكر من الإنسان\"]}",
+    "arabicAr": "هو",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 29,
+    "wordEn": "on",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 29,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɒn",
+    "phoneticAr": "أن",
+    "translit": "ealaa",
+    "definitionEn": "[\"physically in contact with and supported by .\", \"forming a distinctive or marked part of .\", \"having as a target, aim, or focus.\"]",
+    "usageNote": "used to express agreement to or acceptance of a proposal or challenge made by that person; most commonly with subject \"you\" (see you're on).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a smile on her face\", \"he was lying on his back\", \"a scratch on her arm\", \"and so on\", \"later on\", \"the drinks are on me\", \"Can you on the light\", \"turn the television on\", \"drive on, rock on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\"], \"A2\": [\"her eyes were fixed on his dark profile\", \"he was on his way to see his mother\"]}",
+    "collocations": "[\"turn the television on\", \"and so on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\", \"to contact someone on a hunch\", \"heaps on heaps of food\"]",
+    "synonyms": "[\"onto\", \"along\", \"resting on\", \"supported by\", \"in contact with\"]",
+    "antonyms": "[\"off\", \"against\"]",
+    "relatedWords": "{\"en\": [\"bps\", \"add\", \"nso\", \"our\", \"bsi\"], \"ar\": [\"يَوْمَ\", \"في\", \"عن\", \"فيما يتعلق\", \"على الحائط\", \"سقط على الأرض\"]}",
+    "arabicAr": "على",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 30,
+    "wordEn": "on",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 30,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɒn",
+    "phoneticAr": "أن",
+    "translit": "ealaa",
+    "definitionEn": "[\"physically in contact with and supported by .\", \"forming a distinctive or marked part of .\", \"having as a target, aim, or focus.\"]",
+    "usageNote": "used to express agreement to or acceptance of a proposal or challenge made by that person; most commonly with subject \"you\" (see you're on).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a smile on her face\", \"he was lying on his back\", \"a scratch on her arm\", \"and so on\", \"later on\", \"the drinks are on me\", \"Can you on the light\", \"turn the television on\", \"drive on, rock on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\"], \"A2\": [\"her eyes were fixed on his dark profile\", \"he was on his way to see his mother\"]}",
+    "collocations": "[\"turn the television on\", \"and so on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\", \"to contact someone on a hunch\", \"heaps on heaps of food\"]",
+    "synonyms": "[\"onto\", \"along\", \"resting on\", \"supported by\", \"in contact with\"]",
+    "antonyms": "[\"off\", \"against\"]",
+    "relatedWords": "{\"en\": [\"bps\", \"add\", \"nso\", \"our\", \"bsi\"], \"ar\": [\"يَوْمَ\", \"في\", \"عن\", \"فيما يتعلق\", \"على الحائط\", \"سقط على الأرض\"]}",
+    "arabicAr": "على",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 31,
+    "wordEn": "on",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 31,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɒn",
+    "phoneticAr": "أن",
+    "translit": "ealaa",
+    "definitionEn": "[\"physically in contact with and supported by .\", \"forming a distinctive or marked part of .\", \"having as a target, aim, or focus.\"]",
+    "usageNote": "used to express agreement to or acceptance of a proposal or challenge made by that person; most commonly with subject \"you\" (see you're on).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a smile on her face\", \"he was lying on his back\", \"a scratch on her arm\", \"and so on\", \"later on\", \"the drinks are on me\", \"Can you on the light\", \"turn the television on\", \"drive on, rock on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\"], \"A2\": [\"her eyes were fixed on his dark profile\", \"he was on his way to see his mother\"]}",
+    "collocations": "[\"turn the television on\", \"and so on\", \"Croton-on-Hudson, Rostov-on-Don, Southend-on-Sea\", \"to contact someone on a hunch\", \"heaps on heaps of food\"]",
+    "synonyms": "[\"onto\", \"along\", \"resting on\", \"supported by\", \"in contact with\"]",
+    "antonyms": "[\"off\", \"against\"]",
+    "relatedWords": "{\"en\": [\"bps\", \"add\", \"nso\", \"our\", \"bsi\"], \"ar\": [\"يَوْمَ\", \"في\", \"عن\", \"فيما يتعلق\", \"على الحائط\", \"سقط على الأرض\"]}",
+    "arabicAr": "على",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 32,
+    "wordEn": "with",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 32,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪθ",
+    "phoneticUk": "wɪð",
+    "phoneticAr": "ويث",
+    "translit": "mae",
+    "definitionEn": "[\"possessing as a feature or accompaniment.\", \"indicating the instrument used to perform an action.\", \"indicating the manner or attitude of the person doing something.\"]",
+    "usageNote": "Used to add supplemental information, especially to indicate simultaneous happening, or immediate succession or consequence.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"with great reluctance\", \"treatment with acid before analysis\", \"in bed with lumbago\", \"cut it with a knife\", \"we started fighting with each other\", \"Do you want to come with\", \"slain with robbers\", \"green with envy flushed with success\"], \"A2\": [\"a flower-sprigged blouse with a white collar\", \"a nice steak with a bottle of red wine\"], \"B1\": [\"a tall dark man with a scar on one cheek\"]}",
+    "collocations": "[\"slain with robbers\", \"cut with a knife\", \"overcome with happiness\", \"green with envy flushed with success\", \"Do you want to come with\"]",
+    "synonyms": "[\"alongside\", \"escorted by\", \"together with\", \"accompanied by\", \"in the company of\"]",
+    "antonyms": "[\"without\"]",
+    "relatedWords": "{\"en\": [\"alongside\", \"together with\", \"along with\", \"amid\", \"among\"], \"ar\": [\"بِمَعِيّة\", \"بِ\", \"لَدَى\", \"مَع\", \"عِنْد\", \"بُعَيْد\"]}",
+    "arabicAr": "مع",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 33,
+    "wordEn": "with",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 33,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪθ",
+    "phoneticUk": "wɪð",
+    "phoneticAr": "ويث",
+    "translit": "mae",
+    "definitionEn": "[\"possessing as a feature or accompaniment.\", \"indicating the instrument used to perform an action.\", \"indicating the manner or attitude of the person doing something.\"]",
+    "usageNote": "Used to add supplemental information, especially to indicate simultaneous happening, or immediate succession or consequence.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"with great reluctance\", \"treatment with acid before analysis\", \"in bed with lumbago\", \"cut it with a knife\", \"we started fighting with each other\", \"Do you want to come with\", \"slain with robbers\", \"green with envy flushed with success\"], \"A2\": [\"a flower-sprigged blouse with a white collar\", \"a nice steak with a bottle of red wine\"], \"B1\": [\"a tall dark man with a scar on one cheek\"]}",
+    "collocations": "[\"slain with robbers\", \"cut with a knife\", \"overcome with happiness\", \"green with envy flushed with success\", \"Do you want to come with\"]",
+    "synonyms": "[\"alongside\", \"escorted by\", \"together with\", \"accompanied by\", \"in the company of\"]",
+    "antonyms": "[\"without\"]",
+    "relatedWords": "{\"en\": [\"alongside\", \"together with\", \"along with\", \"amid\", \"among\"], \"ar\": [\"بِمَعِيّة\", \"بِ\", \"لَدَى\", \"مَع\", \"عِنْد\", \"بُعَيْد\"]}",
+    "arabicAr": "مع",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 34,
+    "wordEn": "do",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 34,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "dʉː",
+    "phoneticUk": "du",
+    "phoneticAr": "دو",
+    "translit": "yafeal / faeal",
+    "definitionEn": "[\"achieve or complete.\", \"act or behave in a specified way.\", \"be suitable or acceptable.\"]",
+    "usageNote": "Used to form the present progressive of verbs.",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"do you have any pets?\", \"Nice do\"], \"A2\": [\"what a lot there is to do!\", \"if he's anything like you, he'll do\", \"the barber said he'd do me next\", \"I do want to act on this\", \"they are free to do as they please\"], \"B1\": [\"I never seem to say the right thing, do I?\"], \"B2\": [\"this would be an easy place to do and there was plenty of money lying around\"]}",
+    "collocations": "[\"Do you go there often\", \"make it do or do without\", \"Don't forget to do your report\", \"Teacher'll do you for that\", \"Do they do haircuts there\"]",
+    "synonyms": "[\"doh\", \"bash\", \"brawl\", \"effectuate\", \"carry out\"]",
+    "antonyms": "[\"unmake\"]",
+    "relatedWords": "{\"en\": [\"cause\", \"practice\", \"practise\", \"answer\", \"arrange\"], \"ar\": [\"انْتَج\", \"انْجَز\", \"انْفَذ\", \"إجْتَرَح\", \"أتَمّ\", \"أتَى\"]}",
+    "arabicAr": "يفعل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 35,
+    "wordEn": "at",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 35,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æt",
+    "phoneticAr": "آت",
+    "translit": "fi",
+    "definitionEn": "[\"expressing location or arrival in a particular place or position.\", \"expressing the time when an event takes place.\", \"a particular point or segment on a scale.\"]",
+    "usageNote": "often implied to be in a hostile or careless manner).",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she clutched at the thin gown\", \"he is poor at giving instructions\", \"Leslie pointed at him\", \"placed them at a serious disadvantage\", \"prices start at $18,500\", \"they live at Conway House\", \"men at work\"], \"A2\": [\"the children go to bed at nine o'clock\", \"she was constantly at the telex machine\"]}",
+    "collocations": "[\"Look out UFO at two o'clock\", \"Don't pick at your food\", \"men at work children at play\", \"3 apples at 2\"]",
+    "synonyms": "[\"acc\", \"atc\", \"tsa\", \"astatine\", \"atomic number 85\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"acc\", \"atc\", \"tsa\", \"fas\", \"eea\"], \"ar\": [\"تَحْت\", \"حالِية\", \"حِين\", \"داخِل\", \"رَهْن\", \"قَيْد\"]}",
+    "arabicAr": "في / لدى / عند",
+    "addedFromOxford": 0
+  }
+]

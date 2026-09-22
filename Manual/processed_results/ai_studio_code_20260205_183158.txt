@@ -1,0 +1,377 @@
+{
+  "wordEntries": [
+    {
+      "id": 11,
+      "wordEn": "to",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "tu",
+      "phoneticUk": null,
+      "phoneticAr": "تُو",
+      "translit": "Mughlaqan / 'Ilaa wad' al-wa'y",
+      "definitionEn": "Into a closed position (usually a door) or returning to a state of consciousness.",
+      "definitionAr": "بتيجي بمعنى إن الباب يتقفل أو يترد، أو إن الشخص يفوق ويرجع لوعيه.",
+      "usageNote": "As an adverb, 'to' is most commonly used in 'push the door to' (close it) or 'come to' (wake up). Don't confuse with the preposition 'to' (direction).",
+      "category": "Movement & State",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Closed",
+        "#Consciousness",
+        "#PhrasalVerb",
+        "#Door"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Two\" (اثنين).. لما تقفل الباب \"to\"، الجزئين (الـ \"Two\" parts) بيلمسوا بعض.",
+      "examples": {
+        "A1": "Please push the door to.",
+        "A2": "The wind blew the door to.",
+        "B1": "He fainted but quickly came to.",
+        "B2": "She pulled the curtains to.",
+        "C1": "They fell to working with great energy.",
+        "C2": "The patient slowly came to, disoriented by the heavy medication."
+      },
+      "collocations": [
+        "push to",
+        "pull to",
+        "come to",
+        "fall to"
+      ],
+      "synonyms": [
+        "closed",
+        "shut",
+        "conscious",
+        "awake"
+      ],
+      "antonyms": [
+        "open",
+        "ajar",
+        "unconscious"
+      ],
+      "relatedWords": {
+        "en": [
+          "shut",
+          "close",
+          "wake"
+        ],
+        "ar": [
+          "يغلق",
+          "يفيق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مغلقاً / إلى الوعي",
+      "frenchFr": "fermé",
+      "germanDe": "zu",
+      "spanishEs": "entornado",
+      "chineseZh": "关上 (Guānshàng)",
+      "russianRu": "закрыто (zakryto)",
+      "portuguesePt": "fechado",
+      "japaneseJa": "閉まって (Shimatte)",
+      "italianIt": "socchiuso",
+      "turkishTr": "kapalı",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 12,
+      "wordEn": "to",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "tu",
+      "phoneticUk": "tə",
+      "phoneticAr": "تُو",
+      "translit": "'Ilaa / Li",
+      "definitionEn": "Used to indicate the direction, destination, or recipient of an action.",
+      "definitionAr": "حرف جر معناه 'إلى' أو 'لـ'.. بيوريك إنت رايح فين أو بتدي حاجة لمين.",
+      "usageNote": "One of the most common words in English. Use 'to' for movement (go to) and 'for' for benefit (good for).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Direction",
+        "#Destination",
+        "#Recipient",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Tour\" \"جولة\".. عشان تعمل \"Tour\" لازم تروح \"To\" أماكن كتير.",
+      "examples": {
+        "A1": "I go to school every day.",
+        "A2": "She gave the book to me.",
+        "B1": "We traveled to London last summer.",
+        "B2": "This implies a threat to national security.",
+        "C1": "To my surprise, he actually agreed.",
+        "C2": "The music built to a crescendo."
+      },
+      "collocations": [
+        "go to",
+        "give to",
+        "talk to",
+        "listen to"
+      ],
+      "synonyms": [
+        "towards",
+        "until",
+        "for"
+      ],
+      "antonyms": [
+        "from",
+        "away"
+      ],
+      "relatedWords": {
+        "en": [
+          "toward",
+          "at",
+          "from"
+        ],
+        "ar": [
+          "نحو",
+          "من"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إلى / لـ",
+      "frenchFr": "à",
+      "germanDe": "zu",
+      "spanishEs": "a",
+      "chineseZh": "到 (Dào)",
+      "russianRu": "к (k)",
+      "portuguesePt": "para",
+      "japaneseJa": "へ (e)",
+      "italianIt": "a",
+      "turkishTr": "-e",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 13,
+      "wordEn": "to",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "tu",
+      "phoneticUk": "tə",
+      "phoneticAr": "تُو",
+      "translit": "'An",
+      "definitionEn": "Used before a verb to indicate the infinitive form (e.g., to eat, to sleep).",
+      "definitionAr": "دي مش فعل بجد، دي الأداة اللي بتيجي قبل الفعل عشان تخليه في المصدر (زي: أن تأكل).",
+      "usageNote": "Technically a particle, not a verb. In this context, it marks the infinitive mood.[[1](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG6rEnsFjzimDKlMbuGBFr5Uj7QrgtBrVlDm0orEbp6q9XFsQ1dxzG4Ebd9VXdVjC9PigEnVrDLTImijBJOoDJzsoKtVdXYWbfjEBVBTp8GB-YCLjvysNF8hHTNwpV3QqljQ9ssYxn4DQ%3D%3D)][[2](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH0ym5Kh0KMZUGP_jeUbhWbGvru-iQvjj81oGUYsjS0NBwwEAkZbsjqXXFVgXd2K6_q-BS1W-0jsqPTDdbIHbmpTh4DgPL7xa1Jc3AgQGOWXoDhxU-5ipcf0cejSPiKstwG90JNS3I7WBPODtA%3D)] Essential for connecting verbs (want to go, like to eat).",
+      "category": "Grammar / Function",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Infinitive",
+        "#Grammar",
+        "#Helper",
+        "#VerbChain"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I want to go home.",
+        "A2": "She likes to swim in the sea.",
+        "B1": "He decided to leave early.",
+        "B2": "It is important to understand the rules.",
+        "C1": "To err is human; to forgive, divine.",
+        "C2": "To have loved and lost is better than never to have loved at all."
+      },
+      "collocations": [
+        "want to",
+        "need to",
+        "try to",
+        "have to"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "in order to",
+          "so as to"
+        ],
+        "ar": [
+          "لكي",
+          "حتى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أن (أداة المصدر)",
+      "frenchFr": "à / de",
+      "germanDe": "zu",
+      "spanishEs": "a / para",
+      "chineseZh": "去 (Qù)",
+      "russianRu": "чтобы (chtoby)",
+      "portuguesePt": "para",
+      "japaneseJa": "こと (Koto)",
+      "italianIt": "a / di",
+      "turkishTr": "-mak",
+      "aiConfidence": 0.5
+    },
+    {
+      "id": 14,
+      "wordEn": "have",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "hæv",
+      "phoneticUk": null,
+      "phoneticAr": "هآف",
+      "translit": "Al-Athriyaa' / Al-Muqtadirun",
+      "definitionEn": "A wealthy person, usually used in the plural 'the haves' contrasted with 'the have-nots'.",
+      "definitionAr": "اسم بيتقال على الناس الأغنيا اللي معاهم فلوس كتير، وعادة بنقول \"the haves\" (الأغنيا) عكس \"the have-nots\" (الفقرا).",
+      "usageNote": "Almost exclusively used in the plural phrase 'the haves and the have-nots' to discuss economic inequality.",
+      "category": "People & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Wealth",
+        "#Society",
+        "#Inequality",
+        "#Rich"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Haves\" هم الناس اللي \"Have\" (عندهم) فلوس وممتلكات كتير.",
+      "examples": {
+        "A1": "Rich people are sometimes called the haves.",
+        "A2": "The haves live in big houses.",
+        "B1": "Society is often divided into the haves and the have-nots.",
+        "B2": "The gap between the haves and the have-nots is widening.",
+        "C1": "Political discourse often centers on the conflict between the haves and the have-nots.",
+        "C2": "In this dystopian novel, the haves control all the resources while the have-nots starve."
+      },
+      "collocations": [
+        "the haves and have-nots",
+        "gap between haves",
+        "nation of haves"
+      ],
+      "synonyms": [
+        "wealthy",
+        "rich",
+        "privileged"
+      ],
+      "antonyms": [
+        "have-nots",
+        "poor",
+        "destitute"
+      ],
+      "relatedWords": {
+        "en": [
+          "wealth",
+          "poverty",
+          "inequality"
+        ],
+        "ar": [
+          "ثروة",
+          "فقر",
+          "عدم مساواة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "have",
+        "verb": "have",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الأثرياء / المقتدرون",
+      "frenchFr": "les nantis",
+      "germanDe": "die Besitzenden",
+      "spanishEs": "los pudientes",
+      "chineseZh": "富人 (Fùrén)",
+      "russianRu": "имущие (imushchiye)",
+      "portuguesePt": "os abastados",
+      "japaneseJa": "富裕層 (Fuyūsō)",
+      "italianIt": "gli abbienti",
+      "turkishTr": "varlıklılar",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 15,
+      "wordEn": "have",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "hæv",
+      "phoneticUk": null,
+      "phoneticAr": "هآف",
+      "translit": "Yamlik / Ladayhi",
+      "definitionEn": "To possess, own, hold, or experience something.",
+      "definitionAr": "معناها يملك أو عنده حاجة. زي لما تقول 'أنا عندي عربية' أو 'عندي فكرة'.",
+      "usageNote": "One of the most versatile verbs. Used for possession (I have a car), auxiliary (I have eaten), and obligation (I have to go).",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Possession",
+        "#Auxiliary",
+        "#Ownership",
+        "#Basic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من كلمة \"هات\" (Hat) بالمصري..[[2](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH0ym5Kh0KMZUGP_jeUbhWbGvru-iQvjj81oGUYsjS0NBwwEAkZbsjqXXFVgXd2K6_q-BS1W-0jsqPTDdbIHbmpTh4DgPL7xa1Jc3AgQGOWXoDhxU-5ipcf0cejSPiKstwG90JNS3I7WBPODtA%3D)][[3](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGnvTPNOItduVm90Cr8oZO11PyUzgkh6eClqucqO2tOOCWI-v0NIjoH31mKk18v0H_7EyaOXGdx1zn5Ipd1QN57s4NvprR56MBvuVwzPAixy0zEU2SvrW1xc-8pKtHS5OntKVrvbMjlZ0nUXII-UlRyiUkjPY1GQ3INDMBagenhW-yqKglO7w%3D%3D)][[4](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF1V9nceUfeoiBSeFamQenyLJXW2FsbRM4Y1iyJl_tE46Zc4PH5fxGNTubWxyX1-uHl8UUUgqw34pq7Xfd0IlGWZgNBJYvk3h1ot2eStUTS3fjDAz3YEJK0vK0fjrAo2a1qoQ%3D%3D)][[5](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFUZHavmkqsfTuPz8jsOiRRMGIxbv2W8ff92btpJHY4758tVItvmSjqh8gflLvAzGb1AkJl05lFmDKHckJOKaNpI9UiUOV5VesEkfVdXU5HUlyY1tWAfS_KE05AFUxuCuYwRBE%3D)][[6](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHjqVABCVeywyzZNY56o40UgThmJWheDorZRDYkS_O9gty0V24Xk2HGNsVFcEjaOHL9izG9TOsKFh6meG3eawFyW_MKvP_qxE6j50F3GuKUeCdGt_k-HkdtAf3aKepCZBD4Os5UFIlPkfovl1mYTZS-O3rK)][[7](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEvTL9tRD1yOirbJyfr70g2Ey7paHP8ajngaUEidKsSXTQSN8lr0SeoCTfj6-ykJRtyNkPnQQkxMqiQOm1OGV3mywXFYn2kqTvMn90kOirYgyWRQSCb9iJJmwYnE3EJgp8xJwwpAJNSSOkw)][[8](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGAcZxCcsHWLIrKWrpSTZQNXWW9dbDUSc-BOYwruCYuNeZN1veH1ld8WepSkt1xmHTo0GeCdohTbw3yb_-CLhCop5kTs6u_OqQxPMhn1lXMqUifHgskwZvg25PzGpdrUH90fq7IdCoKEhmtott5vyNLpg%3D%3D)][[9](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEtjLWepSTr0sMtEy8A1PBkbHQxvqJLW7Ka4cAyj42FuoRBWkI4MZgrJu5jO5vbsNNqjkT-vsxFxNSvbPZPHiPzFmUNmxSySvY06gpYjJG5BkH3wLji0Sk_GC40QbyjSvGkzziAzocCcMQBBOvvYH16dT9j)][[10](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFgOSZ-sjiBLiNEAklCdQbU9vMCFZWQoC4O7x5A8zyVeqwuHfJMjk56FSjzjRY8EH7t1uXiBX7-q2biNUAIbYWaXGB_oIqL0EIwMCjJS-8Jo-QpK0SkNGF2ZJBYUBc2pLUv3Z8BwKdryv0lxnjWjrxhwqyzQn0ZQHeVDvFEG6dRJXHgZu4KDXlB8FrM_KQXSF8HpGDL)][[11](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGwuQ2nzQGgBctt2q2NyeEvuJajNzQoBcyde0ToEv603wenbOex1sdVf6m6mHsWDUtoGqsFgEVXuhuYav8IpiasSTn3-A7h9-nTqZH2hJRogfv_O9PDvqX8kRIz6-_MRaJ4iuRV8G7IBeQ%3D)] لما تقول لحد \"هات\" وتاخد الحاجة، بيبقى عندك (You have) الحاجة دي.",
+      "examples": {
+        "A1": "I have a cat.",
+        "A2": "Do you have any brothers or sisters?",
+        "B1": "We have a meeting at 10 AM.",
+        "B2": "You have to finish this report by tomorrow.",
+        "C1": "I have yet to see a better performance.",
+        "C2": "The committee has it in its power to change the rules."
+      },
+      "collocations": [
+        "have a look",
+        "have to",
+        "have got",
+        "have fun"
+      ],
+      "synonyms": [
+        "possess",
+        "own",
+        "hold",
+        "keep"
+      ],
+      "antonyms": [
+        "lack",
+        "need",
+        "want"
+      ],
+      "relatedWords": {
+        "en": [
+          "possession",
+          "owner",
+          "get"
+        ],
+        "ar": [
+          "ملكية",
+          "مالك",
+          "يحصل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "have",
+        "verb": "have",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يملك / لديه",
+      "frenchFr": "avoir",
+      "germanDe": "haben",
+      "spanishEs": "tener",
+      "chineseZh": "有 (Yǒu)",
+      "russianRu": "иметь (imet')",
+      "portuguesePt": "ter",
+      "japaneseJa": "持つ (Motsu)",
+      "italianIt": "avere",
+      "turkishTr": "sahip olmak",
+      "aiConfidence": 0.99
+    }
+  ]
+}

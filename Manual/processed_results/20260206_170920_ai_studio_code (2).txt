@@ -1,0 +1,2170 @@
+{
+  "wordEntries": [
+    {
+      "id": 1593,
+      "wordEn": "exchange",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪksˈtʃeɪndʒ",
+      "phoneticUk": null,
+      "phoneticAr": "إكْسْتشَاينْج",
+      "translit": "Tabadul",
+      "definitionEn": "The act of giving something to someone and receiving something else from them.",
+      "definitionAr": "عملية التبادل، يعني إنك تدي حد حاجة وتاخد مكانه حاجة تانية، زي تبادل الأفكار أو العملات.",
+      "usageNote": "Commonly used in finance (stock exchange) and education (student exchange).",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Trade",
+        "#Business",
+        "#Interaction",
+        "#Swap"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Exchange\" قريبة من \"Change\" (تغيير).. لما تعمل \"Exchange\" إنت بتغير حاجة بحاجة تانية.",
+      "examples": {
+        "A1": "We did an exchange of gifts at the party.",
+        "A2": "I went to the bank for a currency exchange.",
+        "B1": "The student exchange program allows you to study in Spain.",
+        "B2": "There was a heated exchange of words between the drivers.",
+        "C1": "The stock exchange fluctuated wildly today.",
+        "C2": "Cultural exchange is vital for fostering international understanding."
+      },
+      "collocations": [
+        "foreign exchange",
+        "stock exchange",
+        "exchange rate",
+        "fair exchange"
+      ],
+      "synonyms": [
+        "swap",
+        "trade",
+        "interchange",
+        "switch"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "change",
+          "barter",
+          "transaction"
+        ],
+        "ar": [
+          "تغيير",
+          "مقايضة",
+          "معاملة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "exchanger",
+        "verb": "exchange",
+        "adj": "exchangeable",
+        "adv": ""
+      },
+      "arabicAr": "تبادل",
+      "frenchFr": "échange",
+      "germanDe": "Austausch",
+      "spanishEs": "intercambio",
+      "chineseZh": "交换 (Jiāohuàn)",
+      "russianRu": "обмен",
+      "portuguesePt": "troca",
+      "japaneseJa": "交換 (Kōkan)",
+      "italianIt": "scambio",
+      "turkishTr": "takas",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1594,
+      "wordEn": "exchange",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪksˈtʃeɪndʒ",
+      "phoneticUk": null,
+      "phoneticAr": "إكْسْتشَاينْج",
+      "translit": "Tabadul",
+      "definitionEn": "To give something and receive something of the same kind in return.",
+      "definitionAr": "إنك تبدل حاجة بحاجة، زي لما تبدل مكانك مع حد أو تبدلوا أرقام التليفونات.",
+      "usageNote": "Often followed by 'with' (exchange with someone) or 'for' (exchange something for something else).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Trade",
+        "#Interaction",
+        "#Sharing"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "افتكر علامة \"X\".. كأنك بتعمل تبديل بين طرفين زي حرف الإكس.",
+      "examples": {
+        "A1": "I exchange names with him.",
+        "A2": "Can we exchange seats, please?",
+        "B1": "We exchanged phone numbers after the meeting.",
+        "B2": "I need to exchange this shirt for a larger size.",
+        "C1": "They exchanged glances but said nothing.",
+        "C2": "The leaders exchanged views on the current political crisis."
+      },
+      "collocations": [
+        "exchange ideas",
+        "exchange glances",
+        "exchange vows",
+        "exchange fire"
+      ],
+      "synonyms": [
+        "swap",
+        "trade",
+        "switch",
+        "barter"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "relatedWords": {
+        "en": [
+          "interchange",
+          "replace",
+          "substitute"
+        ],
+        "ar": [
+          "يستبدل",
+          "يحل محل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "exchange",
+        "verb": "exchange",
+        "adj": "exchangeable",
+        "adv": ""
+      },
+      "arabicAr": "تبادل",
+      "frenchFr": "échanger",
+      "germanDe": "austauschen",
+      "spanishEs": "intercambiar",
+      "chineseZh": "交换 (Jiāohuàn)",
+      "russianRu": "обмениваться",
+      "portuguesePt": "trocar",
+      "japaneseJa": "交換する (Kōkan suru)",
+      "italianIt": "scambiare",
+      "turkishTr": "değiş tokuş etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1595,
+      "wordEn": "lack",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "læk",
+      "phoneticUk": null,
+      "phoneticAr": "لَاك",
+      "translit": "Naqs",
+      "definitionEn": "The state of being without or not having enough of something.",
+      "definitionAr": "النقص أو العجز في حاجة معينة، يعني لما يكون مفيش كفاية من شيء مهم.",
+      "usageNote": "Usually followed by 'of' (lack of time, lack of money).",
+      "category": "Quantity & Amount",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Shortage",
+        "#Absence",
+        "#Need"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Lack\" شبه \"Luck\" (حظ).. ساعات الـ \"Lack\" of skills بنعوضه بالـ \"Luck\".",
+      "examples": {
+        "A1": "The lack of food is a problem.",
+        "A2": "There is a lack of water in the desert.",
+        "B1": "The trip was cancelled due to a lack of interest.",
+        "B2": "His lack of experience was a disadvantage.",
+        "C1": "The case was dismissed for lack of evidence.",
+        "C2": "A distinct lack of enthusiasm was palpable in the room."
+      },
+      "collocations": [
+        "lack of sleep",
+        "lack of confidence",
+        "total lack",
+        "severe lack"
+      ],
+      "synonyms": [
+        "shortage",
+        "deficiency",
+        "scarcity",
+        "dearth"
+      ],
+      "antonyms": [
+        "abundance",
+        "excess",
+        "plenty"
+      ],
+      "relatedWords": {
+        "en": [
+          "lacking",
+          "want",
+          "need"
+        ],
+        "ar": [
+          "احتياج",
+          "عوز",
+          "افتقار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lack",
+        "verb": "lack",
+        "adj": "lacking",
+        "adv": ""
+      },
+      "arabicAr": "نقص",
+      "frenchFr": "manque",
+      "germanDe": "Mangel",
+      "spanishEs": "falta",
+      "chineseZh": "缺乏 (Quēfá)",
+      "russianRu": "недостаток",
+      "portuguesePt": "falta",
+      "japaneseJa": "不足 (Fusoku)",
+      "italianIt": "mancanza",
+      "turkishTr": "eksiklik",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1596,
+      "wordEn": "lack",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "læk",
+      "phoneticUk": null,
+      "phoneticAr": "لَاك",
+      "translit": "Naqs",
+      "definitionEn": "To be without or deficient in something needed or desirable.",
+      "definitionAr": "إنك تفتقد لشيء أو يكون عندك نقص فيه، زي لما حد ينقصه الخبرة أو الثقة.",
+      "usageNote": "Unlike the noun, the verb is NOT followed by 'of'. Say 'He lacks confidence', NOT 'He lacks of confidence'.",
+      "category": "State & Condition",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Missing",
+        "#Need",
+        "#Deficiency"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Leak\" (تسريب).. لما الحنفية تعمل \"Leak\" بيحصل \"Lack\" (نقص) في المايه.",
+      "examples": {
+        "A1": "They lack money.",
+        "A2": "The soup lacks salt.",
+        "B1": "He lacks the confidence to speak in public.",
+        "B2": "The team lacks a strong leader.",
+        "C1": "Her explanation lacked any real detail.",
+        "C2": "What the proposal lacks in detail, it makes up for in ambition."
+      },
+      "collocations": [
+        "lack confidence",
+        "lack experience",
+        "lack the ability",
+        "lack nothing"
+      ],
+      "synonyms": [
+        "miss",
+        "want",
+        "need"
+      ],
+      "antonyms": [
+        "have",
+        "possess"
+      ],
+      "relatedWords": {
+        "en": [
+          "missing",
+          "absent",
+          "insufficient"
+        ],
+        "ar": [
+          "يفتقد",
+          "يعوز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lack",
+        "verb": "lack",
+        "adj": "lacking",
+        "adv": ""
+      },
+      "arabicAr": "نقص",
+      "frenchFr": "manquer de",
+      "germanDe": "mangeln",
+      "spanishEs": "carecer",
+      "chineseZh": "缺乏 (Quēfá)",
+      "russianRu": "не хватать",
+      "portuguesePt": "carecer",
+      "japaneseJa": "欠く (Kaku)",
+      "italianIt": "mancare",
+      "turkishTr": "yoksun olmak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1597,
+      "wordEn": "shake",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ʃeɪk",
+      "phoneticUk": null,
+      "phoneticAr": "شَايك",
+      "translit": "Hazza / Hazz",
+      "definitionEn": "An act of shaking; a rapid movement up and down or side to side.",
+      "definitionAr": "حركة الهز نفسها، أو المشروب المخفوق زي الميلك شيك.",
+      "usageNote": "Often refers to 'handshake' or a drink (milkshake).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Movement",
+        "#Drink",
+        "#Gesture"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي الـ \"Milkshake\".. لازم تديله \"Shake\" (هزة) جامدة عشان يختلط.",
+      "examples": {
+        "A1": "I want a chocolate shake.",
+        "A2": "Give the bottle a good shake.",
+        "B1": "He greeted me with a firm shake of the hand.",
+        "B2": "With a shake of her head, she refused.",
+        "C1": "Usually, a shake of the head implies disagreement.",
+        "C2": "The reorganization gave the company a fair shake in the market."
+      },
+      "collocations": [
+        "milk shake",
+        "shake of the head",
+        "fair shake",
+        "give a shake"
+      ],
+      "synonyms": [
+        "tremor",
+        "vibration",
+        "jiggle"
+      ],
+      "antonyms": [
+        "stillness"
+      ],
+      "relatedWords": {
+        "en": [
+          "shaker",
+          "shaky",
+          "milkshake"
+        ],
+        "ar": [
+          "رجّة",
+          "ارتجاف",
+          "مخفوق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "shake",
+        "verb": "shake",
+        "adj": "shaky",
+        "adv": "shakily"
+      },
+      "arabicAr": "هزة / هز",
+      "frenchFr": "secousse",
+      "germanDe": "Schütteln",
+      "spanishEs": "sacudida",
+      "chineseZh": "摇动 (Yáodòng)",
+      "russianRu": "встряска",
+      "portuguesePt": "sacudida",
+      "japaneseJa": "振ること (Furukoto)",
+      "italianIt": "scossa",
+      "turkishTr": "sallama",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1598,
+      "wordEn": "shake",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ʃeɪk",
+      "phoneticUk": null,
+      "phoneticAr": "شَايك",
+      "translit": "Hazza / Hazz",
+      "definitionEn": "To move something violently back and forth or up and down.",
+      "definitionAr": "يهز حاجة جامد، زي لما تهز إزازة الدوا قبل ما تاخده، أو تهز إيد حد للسلام.",
+      "usageNote": "Phrasal verbs: 'shake off' (get rid of), 'shake up' (upset/change).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Action",
+        "#Physical",
+        "#Emotion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي لما تكون بردان وبتعمل \"Shake\" (بتترعش) من البرد.",
+      "examples": {
+        "A1": "Shake the bottle before use.",
+        "A2": "We shake hands when we meet.",
+        "B1": "She was shaking with cold.",
+        "B2": "The explosion shook the whole building.",
+        "C1": "I can't seem to shake off this cold.",
+        "C2": "The news deeply shook the foundations of the organization."
+      },
+      "collocations": [
+        "shake hands",
+        "shake head",
+        "shake with fear",
+        "shake off"
+      ],
+      "synonyms": [
+        "tremble",
+        "shiver",
+        "vibrate",
+        "rock"
+      ],
+      "antonyms": [
+        "steady",
+        "stabilize"
+      ],
+      "relatedWords": {
+        "en": [
+          "shaky",
+          "shaking",
+          "quake"
+        ],
+        "ar": [
+          "يرتجف",
+          "يهتز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "shake",
+        "verb": "shake",
+        "adj": "shaky",
+        "adv": "shakily"
+      },
+      "arabicAr": "هزة / هز",
+      "frenchFr": "secouer",
+      "germanDe": "schütteln",
+      "spanishEs": "sacudir",
+      "chineseZh": "摇 (Yáo)",
+      "russianRu": "трясти",
+      "portuguesePt": "sacudir",
+      "japaneseJa": "振る (Furu)",
+      "italianIt": "scuotere",
+      "turkishTr": "sallamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1599,
+      "wordEn": "concept",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈkɑn.sɛpt",
+      "phoneticUk": "ˈkɒn.sept",
+      "phoneticAr": "كُونْسِبْت",
+      "translit": "Mafhum",
+      "definitionEn": "An abstract idea or general notion.",
+      "definitionAr": "مفهوم أو فكرة عامة عن حاجة معينة، زي مفهوم العدالة أو الحرية.",
+      "usageNote": "Used for abstract ideas, not physical objects.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Idea",
+        "#Theory",
+        "#Abstract"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Concept\" جاية من \"Conceive\" يعني يتخيل أو يبتكر.. فالكونسبت هو الفكرة اللي بتتخيلها.",
+      "examples": {
+        "A1": "It is a new concept.",
+        "A2": "I understand the basic concept.",
+        "B1": "The concept of freedom is important.",
+        "B2": "She struggled to grasp the concept of infinity.",
+        "C1": "Marketing relies on the concept of brand loyalty.",
+        "C2": "His art challenges our traditional concepts of beauty."
+      },
+      "collocations": [
+        "basic concept",
+        "key concept",
+        "abstract concept",
+        "concept car"
+      ],
+      "synonyms": [
+        "idea",
+        "notion",
+        "theory",
+        "conception"
+      ],
+      "antonyms": [
+        "fact",
+        "reality"
+      ],
+      "relatedWords": {
+        "en": [
+          "conceptual",
+          "conception",
+          "conceptualize"
+        ],
+        "ar": [
+          "فكرة",
+          "تصور",
+          "نظرية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "concept",
+        "verb": "conceptualize",
+        "adj": "conceptual",
+        "adv": "conceptually"
+      },
+      "arabicAr": "مفهوم",
+      "frenchFr": "concept",
+      "germanDe": "Konzept",
+      "spanishEs": "concepto",
+      "chineseZh": "概念 (Gàiniàn)",
+      "russianRu": "концепция",
+      "portuguesePt": "conceito",
+      "japaneseJa": "概念 (Gainen)",
+      "italianIt": "concetto",
+      "turkishTr": "kavram",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1600,
+      "wordEn": "blue",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "bluː",
+      "phoneticUk": null,
+      "phoneticAr": "بْلُو",
+      "translit": "'Azraq / ''Azraq",
+      "definitionEn": "Of the color between green and violet, like the clear sky.",
+      "definitionAr": "اللون الأزرق، زي لون السما والبحر.",
+      "usageNote": "Can also mean 'sad' (feeling blue).",
+      "category": "Arts & Design",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Emotion",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Blue\" سهلة.. افتكر \"Bluetooth\" العلامة الزرقاء اللي في موبايلك.",
+      "examples": {
+        "A1": "The sky is blue.",
+        "A2": "She has beautiful blue eyes.",
+        "B1": "He wore a dark blue suit.",
+        "B2": "I'm feeling a bit blue today.",
+        "C1": "The news came out of the blue.",
+        "C2": "He is a true blue supporter of the party."
+      },
+      "collocations": [
+        "dark blue",
+        "light blue",
+        "feeling blue",
+        "out of the blue"
+      ],
+      "synonyms": [
+        "azure",
+        "cobalt",
+        "indigo"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "bluish",
+          "blueprint",
+          "blues"
+        ],
+        "ar": [
+          "سماوي",
+          "نيلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "blue",
+        "verb": "",
+        "adj": "blue",
+        "adv": ""
+      },
+      "arabicAr": "أزرق",
+      "frenchFr": "bleu",
+      "germanDe": "blau",
+      "spanishEs": "azul",
+      "chineseZh": "蓝色 (Lánsè)",
+      "russianRu": "синий",
+      "portuguesePt": "azul",
+      "japaneseJa": "青い (Aoi)",
+      "italianIt": "blu",
+      "turkishTr": "mavi",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1601,
+      "wordEn": "blue",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "bluː",
+      "phoneticUk": null,
+      "phoneticAr": "بْلُو",
+      "translit": "'Azraq / ''Azraq",
+      "definitionEn": "The blue color or pigment.",
+      "definitionAr": "اللون الأزرق نفسه.",
+      "usageNote": "Also refers to the sea or sky (the deep blue).",
+      "category": "Arts & Design",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Art"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Blue is my favorite color.",
+        "A2": "She dressed in blue.",
+        "B1": "The room was painted in shades of blue.",
+        "B2": "We sailed across the deep blue.",
+        "C1": "The bolt came from the blue.",
+        "C2": "The artist used a vibrant Prussian blue."
+      },
+      "collocations": [
+        "out of the blue",
+        "in the blue",
+        "baby blue"
+      ],
+      "synonyms": [
+        "azure",
+        "indigo"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "blueness",
+          "bluish"
+        ],
+        "ar": [
+          "زرقة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "blue",
+        "verb": "",
+        "adj": "blue",
+        "adv": ""
+      },
+      "arabicAr": "أزرق",
+      "frenchFr": "bleu",
+      "germanDe": "Blau",
+      "spanishEs": "azul",
+      "chineseZh": "蓝色 (Lánsè)",
+      "russianRu": "синева",
+      "portuguesePt": "azul",
+      "japaneseJa": "青 (Ao)",
+      "italianIt": "blu",
+      "turkishTr": "mavi",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1602,
+      "wordEn": "star",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "stɑr",
+      "phoneticUk": "stɑː(r)",
+      "phoneticAr": "سْتَار",
+      "translit": "Najm / Najima",
+      "definitionEn": "A fixed luminous point in the night sky; also a famous person.",
+      "definitionAr": "النجم اللي بينور في السما بالليل، أو شخص مشهور جداً (نجم سينمائي).",
+      "usageNote": "Used for shapes (*), space objects, and celebrities.",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Space",
+        "#Fame",
+        "#Shape"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Star\" مشهورة.. الـ \"Superstar\" هو النجم الكبير.",
+      "examples": {
+        "A1": "Look at that bright star.",
+        "A2": "He wants to be a movie star.",
+        "B1": "The hotel has five stars.",
+        "B2": "She is the rising star of the team.",
+        "C1": "The event featured a galaxy of stars.",
+        "C2": "His star is on the wane after the scandal."
+      },
+      "collocations": [
+        "movie star",
+        "shooting star",
+        "five-star hotel",
+        "rising star"
+      ],
+      "synonyms": [
+        "celebrity",
+        "luminary",
+        "idol"
+      ],
+      "antonyms": [
+        "nobody"
+      ],
+      "relatedWords": {
+        "en": [
+          "starlight",
+          "starry",
+          "superstar"
+        ],
+        "ar": [
+          "كوكب",
+          "مشهور"
+        ]
+      },
+      "wordFamily": {
+        "noun": "star",
+        "verb": "star",
+        "adj": "starry",
+        "adv": ""
+      },
+      "arabicAr": "نجم",
+      "frenchFr": "étoile",
+      "germanDe": "Stern",
+      "spanishEs": "estrella",
+      "chineseZh": "星星 (Xīngxing)",
+      "russianRu": "звезда",
+      "portuguesePt": "estrela",
+      "japaneseJa": "星 (Hoshi)",
+      "italianIt": "stella",
+      "turkishTr": "yıldız",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1603,
+      "wordEn": "star",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "stɑr",
+      "phoneticUk": "stɑː(r)",
+      "phoneticAr": "سْتَار",
+      "translit": "Najm / Najima",
+      "definitionEn": "To feature as a principal performer in a film or play.",
+      "definitionAr": "يلعب دور البطولة في فيلم أو مسرحية.",
+      "usageNote": "Typically used in passive (starred in) or active (the film stars...).",
+      "category": "Arts & Design",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Cinema",
+        "#Performance",
+        "#Acting"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The movie stars Tom Hanks.",
+        "A2": "She starred in a school play.",
+        "B1": "He has starred in many action films.",
+        "B2": "The production stars a cast of unknown actors.",
+        "C1": "The film is tipped to star the award-winning actress.",
+        "C2": "Having starred on Broadway, she moved to Hollywood."
+      },
+      "collocations": [
+        "star in a movie",
+        "star role",
+        "guest star"
+      ],
+      "synonyms": [
+        "feature",
+        "headline",
+        "lead"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "starring",
+          "co-star"
+        ],
+        "ar": [
+          "بطولة",
+          "يمثل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "star",
+        "verb": "star",
+        "adj": "starry",
+        "adv": ""
+      },
+      "arabicAr": "نجم",
+      "frenchFr": "mettre en vedette",
+      "germanDe": "die Hauptrolle spielen",
+      "spanishEs": "protagonizar",
+      "chineseZh": "主演 (Zhǔyǎn)",
+      "russianRu": "играть главную роль",
+      "portuguesePt": "estrelar",
+      "japaneseJa": "主演する (Shuen suru)",
+      "italianIt": "essere protagonista",
+      "turkishTr": "başrolde oynamak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1604,
+      "wordEn": "radio",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈreɪdiˌoʊ",
+      "phoneticUk": "ˈreɪdiəʊ",
+      "phoneticAr": "رَايْديُو",
+      "translit": "Radiu / Madhiae",
+      "definitionEn": "The transmission and reception of electromagnetic waves carrying sound messages.",
+      "definitionAr": "الراديو، الجهاز اللي بنسمع منه الأغاني والأخبار، أو موجات الإرسال نفسها.",
+      "usageNote": "Can refer to the device or the industry (working in radio).",
+      "category": "Social Life & Communication",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Media",
+        "#Technology",
+        "#Music"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة سهلة وكلنا عارفينها \"راديو\".",
+      "examples": {
+        "A1": "I listen to the radio.",
+        "A2": "Turn on the radio, please.",
+        "B1": "He works for a local radio station.",
+        "B2": "We heard the news on the radio this morning.",
+        "C1": "They maintained radio silence during the mission.",
+        "C2": "The era of pirate radio changed the music industry."
+      },
+      "collocations": [
+        "radio station",
+        "listen to the radio",
+        "on the radio",
+        "radio waves"
+      ],
+      "synonyms": [
+        "wireless",
+        "receiver",
+        "broadcast"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "broadcast",
+          "frequency",
+          "signal"
+        ],
+        "ar": [
+          "بث",
+          "إشارة",
+          "مذياع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "radio",
+        "verb": "radio",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "راديو",
+      "frenchFr": "radio",
+      "germanDe": "Radio",
+      "spanishEs": "radio",
+      "chineseZh": "收音机 (Shōuyīnjī)",
+      "russianRu": "радио",
+      "portuguesePt": "rádio",
+      "japaneseJa": "ラジオ (Rajio)",
+      "italianIt": "radio",
+      "turkishTr": "radyo",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1605,
+      "wordEn": "no-one",
+      "pos": "pron",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈnoʊˌwʌn",
+      "phoneticUk": "ˈnəʊˌwʌn",
+      "phoneticAr": "نُووَان",
+      "translit": "La ahid",
+      "definitionEn": "No person; not a single person.",
+      "definitionAr": "ولا واحد، مفيش حد خالص.",
+      "usageNote": "Synonym for 'nobody'. Takes a singular verb (No-one is here).",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Quantity",
+        "#People",
+        "#Negative"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"No\" (لا) + \"One\" (واحد).. يعني \"لا واحد\" موجود.",
+      "examples": {
+        "A1": "No-one is home.",
+        "A2": "No-one knows the answer.",
+        "B1": "I saw no-one in the park.",
+        "B2": "No-one else can do this job like you.",
+        "C1": "Virtually no-one attended the meeting.",
+        "C2": "No-one, however skilled, could have predicted this outcome."
+      },
+      "collocations": [
+        "no-one else",
+        "no-one knows",
+        "absolutely no-one"
+      ],
+      "synonyms": [
+        "nobody",
+        "none"
+      ],
+      "antonyms": [
+        "everyone",
+        "somebody",
+        "anyone"
+      ],
+      "relatedWords": {
+        "en": [
+          "nobody",
+          "nothing",
+          "none"
+        ],
+        "ar": [
+          "لا أحد",
+          "ولا شخص"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا احد / لا أحد",
+      "frenchFr": "personne",
+      "germanDe": "niemand",
+      "spanishEs": "nadie",
+      "chineseZh": "没人 (Méirén)",
+      "russianRu": "никто",
+      "portuguesePt": "ninguém",
+      "japaneseJa": "誰も (Daremo)",
+      "italianIt": "nessuno",
+      "turkishTr": "hiç kimse",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1606,
+      "wordEn": "arrangement",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈreɪndʒmənt",
+      "phoneticUk": "əˈreɪndʒmənt",
+      "phoneticAr": "أرَاينْجْمَنْت",
+      "translit": "Tartib",
+      "definitionEn": "A plan or preparation for a future event; or the way things are organized.",
+      "definitionAr": "ترتيب أو تنظيم لحاجة معينة، زي ترتيبات السفر أو ترتيب الأثاث في البيت.",
+      "usageNote": "Commonly plural (make arrangements).",
+      "category": "Work & Business",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Planning",
+        "#Order",
+        "#Organization"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Arrange\" (يرتب).. الـ \"Arrangement\" هو الترتيب اللي بتعمله.",
+      "examples": {
+        "A1": "I made a flower arrangement.",
+        "A2": "We have an arrangement to meet at 5.",
+        "B1": "Make arrangements for your travel.",
+        "B2": "The seating arrangement was perfect.",
+        "C1": "They came to a mutual arrangement regarding the debt.",
+        "C2": "The intricate arrangement of the molecules determines the substance's properties."
+      },
+      "collocations": [
+        "make arrangements",
+        "seating arrangement",
+        "flower arrangement",
+        "come to an arrangement"
+      ],
+      "synonyms": [
+        "plan",
+        "preparation",
+        "setup",
+        "layout"
+      ],
+      "antonyms": [
+        "disorder",
+        "chaos"
+      ],
+      "relatedWords": {
+        "en": [
+          "arrange",
+          "arranged",
+          "organize"
+        ],
+        "ar": [
+          "ينظم",
+          "يخطط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "arrangement",
+        "verb": "arrange",
+        "adj": "arranged",
+        "adv": ""
+      },
+      "arabicAr": "ترتيب",
+      "frenchFr": "arrangement",
+      "germanDe": "Anordnung",
+      "spanishEs": "arreglo",
+      "chineseZh": "安排 (Ānpái)",
+      "russianRu": "договоренность",
+      "portuguesePt": "arranjo",
+      "japaneseJa": "手配 (Tehai)",
+      "italianIt": "disposizione",
+      "turkishTr": "düzenleme",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1607,
+      "wordEn": "examine",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪgˈzæmɪn",
+      "phoneticUk": null,
+      "phoneticAr": "إجْزَامِن",
+      "translit": "Yafhas / Fahs",
+      "definitionEn": "To inspect someone or something in detail to determine their nature or condition.",
+      "definitionAr": "يفحص حاجة بدقة عشان يتأكد منها، زي الدكتور لما يكشف على مريض أو المدرس لما يصحح ورقة.",
+      "usageNote": "Formal word for 'look at closely'.",
+      "category": "Mind & Thinking",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Medical",
+        "#Academic",
+        "#Investigation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "افتكر \"Exam\" (امتحان).. في الامتحان المدرس بيعمل \"Examine\" لمستواك.",
+      "examples": {
+        "A1": "The doctor will examine you.",
+        "A2": "Please examine the goods before buying.",
+        "B1": "We need to examine all the options.",
+        "B2": "Experts examined the painting to see if it was real.",
+        "C1": "The committee will examine the implications of the new law.",
+        "C2": "Philosophers examine the nature of existence."
+      },
+      "collocations": [
+        "examine carefully",
+        "examine the evidence",
+        "cross-examine",
+        "closely examine"
+      ],
+      "synonyms": [
+        "inspect",
+        "check",
+        "analyze",
+        "survey"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "relatedWords": {
+        "en": [
+          "examination",
+          "exam",
+          "examiner"
+        ],
+        "ar": [
+          "امتحان",
+          "فحص",
+          "تفتيش"
+        ]
+      },
+      "wordFamily": {
+        "noun": "examination",
+        "verb": "examine",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يفحص / يبحث / يتفحص",
+      "frenchFr": "examiner",
+      "germanDe": "untersuchen",
+      "spanishEs": "examinar",
+      "chineseZh": "检查 (Jiǎnchá)",
+      "russianRu": "исследовать",
+      "portuguesePt": "examinar",
+      "japaneseJa": "調査する (Chōsa suru)",
+      "italianIt": "esaminare",
+      "turkishTr": "incelemek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1608,
+      "wordEn": "bird",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "bɜrd",
+      "phoneticUk": "bɜːd",
+      "phoneticAr": "بِيرْد",
+      "translit": "Tayir",
+      "definitionEn": "A warm-blooded egg-laying vertebrate distinguished by feathers, wings, and a beak.",
+      "definitionAr": "الطائر، الكائن اللي عنده ريش وجناحات وبيطير.",
+      "usageNote": "Idiom: 'Early bird' (someone who wakes up early).",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Animal",
+        "#Nature",
+        "#Flying"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة سهلة \"Bird\".. زي لعبة \"Angry Birds\".",
+      "examples": {
+        "A1": "Look at that blue bird.",
+        "A2": "The bird creates a nest.",
+        "B1": "I heard a bird singing in the tree.",
+        "B2": "The eagle is a bird of prey.",
+        "C1": "He's a rare bird in the world of politics.",
+        "C2": "The ornithologist classified the bird based on its plumage."
+      },
+      "collocations": [
+        "early bird",
+        "bird watching",
+        "kill two birds with one stone",
+        "bird of prey"
+      ],
+      "synonyms": [
+        "fowl",
+        "avian"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "flight",
+          "wing",
+          "feather"
+        ],
+        "ar": [
+          "جناح",
+          "ريش",
+          "طيران"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bird",
+        "verb": "bird",
+        "adj": "birdlike",
+        "adv": ""
+      },
+      "arabicAr": "طائر / طير",
+      "frenchFr": "oiseau",
+      "germanDe": "Vogel",
+      "spanishEs": "pájaro",
+      "chineseZh": "鸟 (Niǎo)",
+      "russianRu": "птица",
+      "portuguesePt": "pássaro",
+      "japaneseJa": "鳥 (Tori)",
+      "italianIt": "uccello",
+      "turkishTr": "kuş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1609,
+      "wordEn": "green",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "grin",
+      "phoneticUk": null,
+      "phoneticAr": "جْرِين",
+      "translit": "'Akhdar / ''Akhdir",
+      "definitionEn": "Of the color between blue and yellow; colored like grass.",
+      "definitionAr": "اللون الأخضر، لون الشجر والزرع.",
+      "usageNote": "Associated with nature and environment (Go green).",
+      "category": "Nature & Science",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Nature",
+        "#Environment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Green\".. افتكر \"Green Burger\" الجرين برجر.",
+      "examples": {
+        "A1": "The grass is green.",
+        "A2": "She has green eyes.",
+        "B1": "We should buy green products to save the planet.",
+        "B2": "He was green with envy.",
+        "C1": "The project was given the green light.",
+        "C2": "The senator has strong green credentials."
+      },
+      "collocations": [
+        "green light",
+        "green energy",
+        "go green",
+        "green tea"
+      ],
+      "synonyms": [
+        "verdant",
+        "leafy",
+        "ecological"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "greenery",
+          "greenhouse",
+          "greening"
+        ],
+        "ar": [
+          "خضرة",
+          "بيئي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "green",
+        "verb": "",
+        "adj": "green",
+        "adv": ""
+      },
+      "arabicAr": "أخضر",
+      "frenchFr": "vert",
+      "germanDe": "grün",
+      "spanishEs": "verde",
+      "chineseZh": "绿色 (Lǜsè)",
+      "russianRu": "зеленый",
+      "portuguesePt": "verde",
+      "japaneseJa": "緑 (Midori)",
+      "italianIt": "verde",
+      "turkishTr": "yeşil",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1610,
+      "wordEn": "green",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "grin",
+      "phoneticUk": null,
+      "phoneticAr": "جْرِين",
+      "translit": "'Akhdar / ''Akhdir",
+      "definitionEn": "The color green; also an area of grass.",
+      "definitionAr": "اللون الأخضر، أو مساحة خضراء زي ملعب الجولف.",
+      "usageNote": "In golf, 'the green' is where the hole is.",
+      "category": "Nature & Science",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Color",
+        "#Space",
+        "#Sport"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Green is the color of nature.",
+        "A2": "Mix blue and yellow to get green.",
+        "B1": "The village green is lovely.",
+        "B2": "Eat your greens to stay healthy.",
+        "C1": "The Greens (political party) are gaining support.",
+        "C2": "The golfer putted on the final green."
+      },
+      "collocations": [
+        "village green",
+        "bowling green",
+        "eat your greens"
+      ],
+      "synonyms": [
+        "lawn",
+        "common",
+        "grass"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "greenery",
+          "greengrocer"
+        ],
+        "ar": [
+          "خضروات",
+          "عشب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "green",
+        "verb": "",
+        "adj": "green",
+        "adv": ""
+      },
+      "arabicAr": "أخضر",
+      "frenchFr": "vert",
+      "germanDe": "Grün",
+      "spanishEs": "verde",
+      "chineseZh": "绿色 (Lǜsè)",
+      "russianRu": "зелень",
+      "portuguesePt": "verde",
+      "japaneseJa": "緑 (Midori)",
+      "italianIt": "verde",
+      "turkishTr": "yeşil",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1611,
+      "wordEn": "band",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "bænd",
+      "phoneticUk": null,
+      "phoneticAr": "بَانْد",
+      "translit": "Firqa",
+      "definitionEn": "A group of musicians who play together; or a flat strip of material.",
+      "definitionAr": "فرقة موسيقية، أو شريط بيتربط بيه حاجة (زي توكة الشعر).",
+      "usageNote": "Context determines meaning (rock band vs rubber band).",
+      "category": "Arts & Design",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Music",
+        "#Group",
+        "#Material"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Band\" مشهورة.. الـ \"Boy Band\" زي BTS.",
+      "examples": {
+        "A1": "He plays in a rock band.",
+        "A2": "She wore a hair band.",
+        "B1": "The band played all night.",
+        "B2": "A rubber band holds the papers.",
+        "C1": "A band of rebels attacked the city.",
+        "C2": "The spectrum is divided into frequency bands."
+      },
+      "collocations": [
+        "rock band",
+        "rubber band",
+        "wedding band",
+        "broadband"
+      ],
+      "synonyms": [
+        "group",
+        "ensemble",
+        "strip",
+        "loop"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "bandit",
+          "bandage",
+          "bandwagon"
+        ],
+        "ar": [
+          "عصابة",
+          "رباط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "band",
+        "verb": "band",
+        "adj": "banded",
+        "adv": ""
+      },
+      "arabicAr": "فرقة",
+      "frenchFr": "groupe",
+      "germanDe": "Band",
+      "spanishEs": "banda",
+      "chineseZh": "乐队 (Yuèduì)",
+      "russianRu": "группа",
+      "portuguesePt": "banda",
+      "japaneseJa": "バンド (Bando)",
+      "italianIt": "gruppo musicale",
+      "turkishTr": "müzik grubu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1612,
+      "wordEn": "sex",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɛks",
+      "phoneticUk": "seks",
+      "phoneticAr": "سِكْس",
+      "translit": "Aljins",
+      "definitionEn": "Gender (male/female) or sexual activity.",
+      "definitionAr": "الجنس (ذكر أو أنثى)، أو العلاقة الجنسية.",
+      "usageNote": "In forms, 'sex' usually refers to gender.",
+      "category": "Health & Senses",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Biology",
+        "#Gender",
+        "#Relationship"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Please state your sex: male or female.",
+        "A2": "They discussed sex education in school.",
+        "B1": "Discrimination based on sex is illegal.",
+        "B2": "The article discusses the biological differences between the sexes.",
+        "C1": "The scandal involved money, power, and sex.",
+        "C2": "Evolutionary biologists study the origin of sex."
+      },
+      "collocations": [
+        "fairer sex",
+        "safe sex",
+        "sex education",
+        "opposite sex"
+      ],
+      "synonyms": [
+        "gender",
+        "intercourse",
+        "coitus"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "sexual",
+          "sexuality",
+          "sexy"
+        ],
+        "ar": [
+          "جنسي",
+          "نوع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sex",
+        "verb": "sex",
+        "adj": "sexual",
+        "adv": "sexually"
+      },
+      "arabicAr": "الجنس / جنس",
+      "frenchFr": "sexe",
+      "germanDe": "Geschlecht",
+      "spanishEs": "sexo",
+      "chineseZh": "性别 (Xìngbié)",
+      "russianRu": "пол",
+      "portuguesePt": "sexo",
+      "japaneseJa": "性別 (Seibetsu)",
+      "italianIt": "sesso",
+      "turkishTr": "cinsiyet",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1613,
+      "wordEn": "finger",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfɪŋgər",
+      "phoneticUk": "ˈfɪŋgə",
+      "phoneticAr": "فِنْجَر",
+      "translit": "'Iisbae / ''Iisbae alyad",
+      "definitionEn": "One of the five digits on the hand.",
+      "definitionAr": "صباع الإيد.",
+      "usageNote": "The thumb is technically a digit but often counted as a finger.",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Body",
+        "#Hand",
+        "#Touch"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Finger\".. زي \"Chicken Fingers\" أصابع الفراخ.",
+      "examples": {
+        "A1": "I have ten fingers.",
+        "A2": "She pointed a finger at the door.",
+        "B1": "He cut his finger while cooking.",
+        "B2": "Don't lift a finger to help.",
+        "C1": "They keep their fingers on the pulse of the market.",
+        "C2": "Accusations were flying and everyone was pointing the finger."
+      },
+      "collocations": [
+        "index finger",
+        "little finger",
+        "cross your fingers",
+        "finger food"
+      ],
+      "synonyms": [
+        "digit",
+        "thumb"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "hand",
+          "nail",
+          "thumb"
+        ],
+        "ar": [
+          "يد",
+          "ظفر",
+          "إبهام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "finger",
+        "verb": "finger",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إصبع / اصبع",
+      "frenchFr": "doigt",
+      "germanDe": "Finger",
+      "spanishEs": "dedo",
+      "chineseZh": "手指 (Shǒuzhǐ)",
+      "russianRu": "палец",
+      "portuguesePt": "dedo",
+      "japaneseJa": "指 (Yubi)",
+      "italianIt": "dito",
+      "turkishTr": "parmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1614,
+      "wordEn": "past",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pæst",
+      "phoneticUk": "pɑːst",
+      "phoneticAr": "بَاسْت",
+      "translit": "Madi / Almadi",
+      "definitionEn": "Gone by in time and no longer existing.",
+      "definitionAr": "حاجة حصلت وانتهت، زي الزمن الماضي.",
+      "usageNote": "Used in grammar (past tense) and time (past year).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#History",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Past\" شبه \"Passed\" (مرّ).. يعني حاجة عدت وفاتت.",
+      "examples": {
+        "A1": "In the past week, I was sick.",
+        "A2": "He is a past president of the club.",
+        "B1": "We need to learn from past mistakes.",
+        "B2": "Her past experiences made her stronger.",
+        "C1": "The time for talk is long past.",
+        "C2": "He is a master of pastiche, evoking past styles."
+      },
+      "collocations": [
+        "past tense",
+        "past few days",
+        "past experience",
+        "in the past"
+      ],
+      "synonyms": [
+        "previous",
+        "former",
+        "gone"
+      ],
+      "antonyms": [
+        "future",
+        "present"
+      ],
+      "relatedWords": {
+        "en": [
+          "pass",
+          "passage",
+          "yesterday"
+        ],
+        "ar": [
+          "سابق",
+          "منصرم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "past",
+        "verb": "",
+        "adj": "past",
+        "adv": "past"
+      },
+      "arabicAr": "ماضي / الماضي",
+      "frenchFr": "passé",
+      "germanDe": "vergangen",
+      "spanishEs": "pasado",
+      "chineseZh": "过去的 (Guòqù de)",
+      "russianRu": "прошлый",
+      "portuguesePt": "passado",
+      "japaneseJa": "過去の (Kako no)",
+      "italianIt": "passato",
+      "turkishTr": "geçmiş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1615,
+      "wordEn": "past",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pæst",
+      "phoneticUk": "pɑːst",
+      "phoneticAr": "بَاسْت",
+      "translit": "Madi / Almadi",
+      "definitionEn": "Beyond in time or place; further than.",
+      "definitionAr": "بعد حاجة معينة، سواء في الوقت (الساعة 5 وتلت) أو المكان (عدى المحطة).",
+      "usageNote": "Used for telling time (half past three).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Time",
+        "#Direction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "It is half past two.",
+        "A2": "Walk past the bank.",
+        "B1": "It's past your bedtime.",
+        "B2": "He drove past without waving.",
+        "C1": "She is past caring what people think.",
+        "C2": "The situation has gone past the point of no return."
+      },
+      "collocations": [
+        "half past",
+        "quarter past",
+        "walk past",
+        "drive past"
+      ],
+      "synonyms": [
+        "beyond",
+        "by",
+        "after"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "relatedWords": {
+        "en": [
+          "beyond",
+          "after"
+        ],
+        "ar": [
+          "بعد",
+          "تجاوز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "past",
+        "verb": "",
+        "adj": "past",
+        "adv": "past"
+      },
+      "arabicAr": "ماضي / الماضي",
+      "frenchFr": "après",
+      "germanDe": "nach",
+      "spanishEs": "más allá de",
+      "chineseZh": "经过 (Jīngguò)",
+      "russianRu": "мимо",
+      "portuguesePt": "além de",
+      "japaneseJa": "過ぎて (Sugite)",
+      "italianIt": "oltre",
+      "turkishTr": "geçiyo",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1616,
+      "wordEn": "past",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pæst",
+      "phoneticUk": "pɑːst",
+      "phoneticAr": "بَاسْت",
+      "translit": "Madi / Almadi",
+      "definitionEn": "The time that has gone by.",
+      "definitionAr": "الماضي، التاريخ والأيام اللي فاتت.",
+      "usageNote": "Often used with 'the' (in the past).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#History",
+        "#Time",
+        "#Memory"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "In the past, people walked more.",
+        "A2": "Forget about the past.",
+        "B1": "She has a mysterious past.",
+        "B2": "History studies the past.",
+        "C1": "We cannot rewrite the past.",
+        "C2": "The glories of the past are gone forever."
+      },
+      "collocations": [
+        "in the past",
+        "recent past",
+        "distant past",
+        "live in the past"
+      ],
+      "synonyms": [
+        "history",
+        "yesteryear",
+        "background"
+      ],
+      "antonyms": [
+        "future",
+        "present"
+      ],
+      "relatedWords": {
+        "en": [
+          "history",
+          "memory"
+        ],
+        "ar": [
+          "تاريخ",
+          "ذكريات"
+        ]
+      },
+      "wordFamily": {
+        "noun": "past",
+        "verb": "",
+        "adj": "past",
+        "adv": "past"
+      },
+      "arabicAr": "ماضي / الماضي",
+      "frenchFr": "passé",
+      "germanDe": "Vergangenheit",
+      "spanishEs": "pasado",
+      "chineseZh": "过去 (Guòqù)",
+      "russianRu": "прошлое",
+      "portuguesePt": "passado",
+      "japaneseJa": "過去 (Kako)",
+      "italianIt": "passato",
+      "turkishTr": "geçmiş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1617,
+      "wordEn": "past",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "pæst",
+      "phoneticUk": "pɑːst",
+      "phoneticAr": "بَاسْت",
+      "translit": "Madi / Almadi",
+      "definitionEn": "So as to pass by or beyond.",
+      "definitionAr": "بمعنى المرور بجانب شيء وتجاوزه.",
+      "usageNote": "Used with verbs of movement (run past, go past).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Movement",
+        "#Direction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He walked past.",
+        "A2": "The bus drove past quickly.",
+        "B1": "Time went past so fast.",
+        "B2": "She hurried past without stopping.",
+        "C1": "The parade marched past the palace.",
+        "C2": "Opportunities flew past him while he hesitated."
+      },
+      "collocations": [
+        "walk past",
+        "run past",
+        "drive past",
+        "go past"
+      ],
+      "synonyms": [
+        "by",
+        "beyond"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "by",
+          "along"
+        ],
+        "ar": [
+          "بجوار",
+          "عبر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "past",
+        "verb": "",
+        "adj": "past",
+        "adv": "past"
+      },
+      "arabicAr": "ماضي / الماضي",
+      "frenchFr": "devant",
+      "germanDe": "vorbei",
+      "spanishEs": "por delante",
+      "chineseZh": "经过 (Jīngguò)",
+      "russianRu": "мимо",
+      "portuguesePt": "por diante",
+      "japaneseJa": "通り過ぎて (Tōrisugite)",
+      "italianIt": "davanti",
+      "turkishTr": "yanından",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1618,
+      "wordEn": "independent",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɪndɪˈpɛndənt",
+      "phoneticUk": "ɪndɪˈpendənt",
+      "phoneticAr": "إِنْدِبَنْدَنْت",
+      "translit": "Mustaqilun",
+      "definitionEn": "A person or entity that is free from outside control.",
+      "definitionAr": "شخص مستقل (سياسياً مثلاً) مش تابع لحزب معين.",
+      "usageNote": "Often refers to politicians not affiliated with a party.",
+      "category": "Politics & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Politics",
+        "#Freedom",
+        "#Society"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"In\" (مش) + \"Dependent\" (معتمد).. يعني مش معتمد على حد.",
+      "examples": {
+        "A1": "He is an independent.",
+        "A2": "She ran as an independent in the election.",
+        "B1": "Independents often decide the outcome.",
+        "B2": "The council is made up of three parties and one independent.",
+        "C1": "The rise of independents signals voter dissatisfaction.",
+        "C2": "He remained a fierce independent throughout his career."
+      },
+      "collocations": [
+        "run as an independent",
+        "political independent",
+        "independent candidate"
+      ],
+      "synonyms": [
+        "freelance",
+        "nonpartisan"
+      ],
+      "antonyms": [
+        "partisan"
+      ],
+      "relatedWords": {
+        "en": [
+          "independence",
+          "depend",
+          "dependent"
+        ],
+        "ar": [
+          "استقلال",
+          "تبعية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "independence",
+        "verb": "",
+        "adj": "independent",
+        "adv": "independently"
+      },
+      "arabicAr": "مستقل",
+      "frenchFr": "indépendant",
+      "germanDe": "Unabhängiger",
+      "spanishEs": "independiente",
+      "chineseZh": "无党派人士 (Wúdǎngpài rénshì)",
+      "russianRu": "независимый кандидат",
+      "portuguesePt": "independente",
+      "japaneseJa": "無所属 (Mushozoku)",
+      "italianIt": "indipendente",
+      "turkishTr": "bağımsız",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 1619,
+      "wordEn": "independent",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɪndɪˈpɛndənt",
+      "phoneticUk": "ɪndɪˈpendənt",
+      "phoneticAr": "إِنْدِبَنْدَنْت",
+      "translit": "Mustaqilun",
+      "definitionEn": "Free from outside control; not depending on another's authority.",
+      "definitionAr": "مستقل، يعني مش بيعتمد على حد ولا حد بيتحكم فيه.",
+      "usageNote": "Can describe countries, people, or companies.",
+      "category": "Politics & Society",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Freedom",
+        "#Autonomy",
+        "#Self"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي \"Independence Day\" عيد الاستقلال.",
+      "examples": {
+        "A1": "She is an independent woman.",
+        "A2": "The country became independent in 1960.",
+        "B1": "I want to be financially independent.",
+        "B2": "We need an independent opinion.",
+        "C1": "The study was conducted by an independent body.",
+        "C2": "Quantum events are statistically independent."
+      },
+      "collocations": [
+        "independent country",
+        "financially independent",
+        "independent study",
+        "independent contractor"
+      ],
+      "synonyms": [
+        "free",
+        "autonomous",
+        "self-sufficient"
+      ],
+      "antonyms": [
+        "dependent",
+        "controlled"
+      ],
+      "relatedWords": {
+        "en": [
+          "independence",
+          "independently"
+        ],
+        "ar": [
+          "استقلال",
+          "بشكل مستقل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "independence",
+        "verb": "",
+        "adj": "independent",
+        "adv": "independently"
+      },
+      "arabicAr": "مستقل",
+      "frenchFr": "indépendant",
+      "germanDe": "unabhängig",
+      "spanishEs": "independiente",
+      "chineseZh": "独立的 (Dúlì de)",
+      "russianRu": "независимый",
+      "portuguesePt": "independente",
+      "japaneseJa": "独立した (Dokuritsu shita)",
+      "italianIt": "indipendente",
+      "turkishTr": "bağımsız",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1620,
+      "wordEn": "equipment",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪˈkwɪpmənt",
+      "phoneticUk": null,
+      "phoneticAr": "إكْوِبْمَنْت",
+      "translit": "Mueadaat / Mueaddat",
+      "definitionEn": "The necessary items for a particular purpose.",
+      "definitionAr": "المعدات أو الأدوات اللي بتحتاجها عشان تعمل شغلانة معينة.",
+      "usageNote": "Uncountable noun. Say 'some equipment', NOT 'an equipment' or 'equipments'.",
+      "category": "Objects & Tools",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Tools",
+        "#Work",
+        "#Gear"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Equip\" (يجهز).. فالـ \"Equipment\" هي التجهيزات والمعدات.",
+      "examples": {
+        "A1": "We need sports equipment.",
+        "A2": "The kitchen equipment is new.",
+        "B1": "They sell office equipment.",
+        "B2": "The soldiers checked their equipment.",
+        "C1": "The hospital lacks essential medical equipment.",
+        "C2": "The capital investment in heavy equipment was substantial."
+      },
+      "collocations": [
+        "sports equipment",
+        "medical equipment",
+        "heavy equipment",
+        "piece of equipment"
+      ],
+      "synonyms": [
+        "gear",
+        "kit",
+        "tools",
+        "apparatus"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "equip",
+          "equipped",
+          "gear"
+        ],
+        "ar": [
+          "يجهز",
+          "عدة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "equipment",
+        "verb": "equip",
+        "adj": "equipped",
+        "adv": ""
+      },
+      "arabicAr": "معدات",
+      "frenchFr": "équipement",
+      "germanDe": "Ausrüstung",
+      "spanishEs": "equipo",
+      "chineseZh": "设备 (Shèbèi)",
+      "russianRu": "оборудование",
+      "portuguesePt": "equipamento",
+      "japaneseJa": "設備 (Setsubi)",
+      "italianIt": "attrezzatura",
+      "turkishTr": "ekipman",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 1621,
+      "wordEn": "north",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "nɔrθ",
+      "phoneticUk": null,
+      "phoneticAr": "نُورْث",
+      "translit": "Shamal",
+      "definitionEn": "Situated in or facing the north.",
+      "definitionAr": "شمالي، أو في اتجاه الشمال.",
+      "usageNote": "Capitalize if part of a name (North America), lowercase if direction (drive north).",
+      "category": "Travel & Movement",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Direction",
+        "#Geography",
+        "#Compass"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"South\".",
+      "examples": {
+        "A1": "North America is big.",
+        "A2": "A cold north wind is blowing.",
+        "B1": "They live on the north coast.",
+        "B2": "The north side of the building gets less sun.",
+        "C1": "The North Pole expedition was dangerous.",
+        "C2": "The geopolitical divide between the global North and South."
+      },
+      "collocations": [
+        "North Pole",
+        "North America",
+        "north wind",
+        "north side"
+      ],
+      "synonyms": [
+        "northern",
+        "boreal"
+      ],
+      "antonyms": [
+        "south"
+      ],
+      "relatedWords": {
+        "en": [
+          "northern",
+          "northerly",
+          "northward"
+        ],
+        "ar": [
+          "شمالي",
+          "نحو الشمال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "north",
+        "verb": "",
+        "adj": "northern",
+        "adv": "north"
+      },
+      "arabicAr": "شمال / الشمال",
+      "frenchFr": "nord",
+      "germanDe": "nördlich",
+      "spanishEs": "norte",
+      "chineseZh": "北方的 (Běifāng de)",
+      "russianRu": "северный",
+      "portuguesePt": "norte",
+      "japaneseJa": "北の (Kita no)",
+      "italianIt": "nord",
+      "turkishTr": "kuzey",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 1622,
+      "wordEn": "north",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "nɔrθ",
+      "phoneticUk": null,
+      "phoneticAr": "نُورْث",
+      "translit": "Shamal",
+      "definitionEn": "The direction in which a compass needle points.",
+      "definitionAr": "اتجاه الشمال.",
+      "usageNote": "One of the four cardinal points (North, South, East, West).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Direction",
+        "#Compass"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Look to the north.",
+        "A2": "The wind is coming from the north.",
+        "B1": "He lives in the north of England.",
+        "B2": "The compass points north.",
+        "C1": "Birds migrate north in the spring.",
+        "C2": "The magnetic north differs from true north."
+      },
+      "collocations": [
+        "due north",
+        "up north",
+        "true north"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "south"
+      ],
+      "relatedWords": {
+        "en": [
+          "south",
+          "east",
+          "west"
+        ],
+        "ar": [
+          "جنوب",
+          "شرق",
+          "غرب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "north",
+        "verb": "",
+        "adj": "northern",
+        "adv": "north"
+      },
+      "arabicAr": "شمال / الشمال",
+      "frenchFr": "nord",
+      "germanDe": "Norden",
+      "spanishEs": "norte",
+      "chineseZh": "北方 (Běifāng)",
+      "russianRu": "север",
+      "portuguesePt": "norte",
+      "japaneseJa": "北 (Kita)",
+      "italianIt": "nord",
+      "turkishTr": "kuzey",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

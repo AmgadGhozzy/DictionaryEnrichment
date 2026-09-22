@@ -1,0 +1,566 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 36,
+    "wordEn": "at",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 36,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æt",
+    "phoneticAr": "آت",
+    "translit": "fi",
+    "definitionEn": "[\"expressing location or arrival in a particular place or position.\", \"expressing the time when an event takes place.\", \"a particular point or segment on a scale.\"]",
+    "usageNote": "often implied to be in a hostile or careless manner).",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she clutched at the thin gown\", \"he is poor at giving instructions\", \"Leslie pointed at him\", \"placed them at a serious disadvantage\", \"prices start at $18,500\", \"they live at Conway House\", \"men at work\"], \"A2\": [\"the children go to bed at nine o'clock\", \"she was constantly at the telex machine\"]}",
+    "collocations": "[\"Look out UFO at two o'clock\", \"Don't pick at your food\", \"men at work children at play\", \"3 apples at 2\"]",
+    "synonyms": "[\"acc\", \"atc\", \"tsa\", \"astatine\", \"atomic number 85\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"acc\", \"atc\", \"tsa\", \"fas\", \"eea\"], \"ar\": [\"تَحْت\", \"حالِية\", \"حِين\", \"داخِل\", \"رَهْن\", \"قَيْد\"]}",
+    "arabicAr": "في / لدى / عند",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 37,
+    "wordEn": "by",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 37,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "baɪ",
+    "phoneticAr": "بآي",
+    "translit": "biwasita / bwast",
+    "definitionEn": "[\"identifying the agent performing an action.\", \"indicating the means of achieving something.\", \"indicating the amount or size of a margin.\"]",
+    "usageNote": "Used to separate dimensions when describing the size of something.",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"she ate by candlelight\", \"further attacks by the mob\", \"the raising of taxes by 2.5%\", \"geography bee\"], \"A2\": [\"anything you do is all right by me\", \"it was the least he could do, by God\", \"malaria can be controlled by attacking the parasite\", \"the door was opened by my cousin Annie\"], \"B1\": [\"a car flashed by on the other side of the road\"]}",
+    "collocations": "[\"a by path a by room\", \"by catch a by issue\"]",
+    "synonyms": "[\"past\", \"away\", \"aside\", \"bee block\", \"through the agency of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"near\", \"beside\", \"alongside\", \"adjacent\", \"close\"], \"ar\": [\"جانبيّ\", \"فرعيّ\", \"ثانويّ\", \"على مقربة من\", \"عَبْرَ نقطة قريبة من شيء ما\", \"جانباً\"]}",
+    "arabicAr": "بواسطة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 38,
+    "wordEn": "by",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 38,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "baɪ",
+    "phoneticAr": "بآي",
+    "translit": "biwasita / bwast",
+    "definitionEn": "[\"identifying the agent performing an action.\", \"indicating the means of achieving something.\", \"indicating the amount or size of a margin.\"]",
+    "usageNote": "Used to separate dimensions when describing the size of something.",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"she ate by candlelight\", \"further attacks by the mob\", \"the raising of taxes by 2.5%\", \"geography bee\"], \"A2\": [\"anything you do is all right by me\", \"it was the least he could do, by God\", \"malaria can be controlled by attacking the parasite\", \"the door was opened by my cousin Annie\"], \"B1\": [\"a car flashed by on the other side of the road\"]}",
+    "collocations": "[\"a by path a by room\", \"by catch a by issue\"]",
+    "synonyms": "[\"past\", \"away\", \"aside\", \"bee block\", \"through the agency of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"near\", \"beside\", \"alongside\", \"adjacent\", \"close\"], \"ar\": [\"جانبيّ\", \"فرعيّ\", \"ثانويّ\", \"على مقربة من\", \"عَبْرَ نقطة قريبة من شيء ما\", \"جانباً\"]}",
+    "arabicAr": "بواسطة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 39,
+    "wordEn": "by",
+    "pos": "adv",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 39,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "baɪ",
+    "phoneticAr": "بآي",
+    "translit": "biwasita / bwast",
+    "definitionEn": "[\"identifying the agent performing an action.\", \"indicating the means of achieving something.\", \"indicating the amount or size of a margin.\"]",
+    "usageNote": "Used to separate dimensions when describing the size of something.",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"she ate by candlelight\", \"further attacks by the mob\", \"the raising of taxes by 2.5%\", \"geography bee\"], \"A2\": [\"anything you do is all right by me\", \"it was the least he could do, by God\", \"malaria can be controlled by attacking the parasite\", \"the door was opened by my cousin Annie\"], \"B1\": [\"a car flashed by on the other side of the road\"]}",
+    "collocations": "[\"a by path a by room\", \"by catch a by issue\"]",
+    "synonyms": "[\"past\", \"away\", \"aside\", \"bee block\", \"through the agency of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"near\", \"beside\", \"alongside\", \"adjacent\", \"close\"], \"ar\": [\"جانبيّ\", \"فرعيّ\", \"ثانويّ\", \"على مقربة من\", \"عَبْرَ نقطة قريبة من شيء ما\", \"جانباً\"]}",
+    "arabicAr": "بواسطة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 40,
+    "wordEn": "not",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 40,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "nɑt",
+    "phoneticUk": "nɒt",
+    "phoneticAr": "نآت",
+    "translit": "la / lays",
+    "definitionEn": "[\"used with an auxiliary verb or “be” to form the negative.\", \"used as a short substitute for a negative clause.\", \"express the negative of other words.\"]",
+    "usageNote": "Used to indicate the opposite or near opposite, often in a form of understatement.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he would not say\", \"not a million miles away\", \"the pain of not knowing\", \"not a single attempt was made\", \"not all the poems are serious\"], \"A2\": [\"he has been warned not to touch\", \"“Don't you keep in touch?” “I'm afraid not.”\"], \"B1\": [\"she not only wrote the text but also researched the photographs\"]}",
+    "collocations": "[\"Not another rainy day\", \"forget not\", \"not self\"]",
+    "synonyms": "[\"non\", \"known\", \"famous\", \"renowned\", \"celebrated\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"renowned\", \"known\", \"famous\", \"celebrated\", \"famed\"], \"ar\": [\"لم\", \"لا\", \"لن\", \"ليس\", \"بَعْد\", \"غَيْر\"]}",
+    "arabicAr": "لا / ليس",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 41,
+    "wordEn": "this",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 41,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðəs",
+    "phoneticAr": "ذاس",
+    "translit": "hadha / hadhih",
+    "definitionEn": "[\"identify a specific person or thing close at hand or being indicated or experienced.\", \"referring to a specific thing or situation just mentioned.\", \"used with periods of time related to the present.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this is different from that\", \"this is the captain speaking\", \"is this your bag?\", \"don't listen to this guy\", \"Do we need this many recommendations\"], \"A2\": [\"they can't handle a job this big\", \"he's not used to this much attention\", \"I thought you were busy all this week\"], \"B2\": [\"the company was transformed and Ward had played a vital role in bringing this about\"]}",
+    "collocations": "[\"Do we need this many recommendations\", \"try this\", \"this book\"]",
+    "synonyms": "[\"now\", \"however\", \"exactly\", \"present\", \"whatever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"however\", \"exactly\", \"now\", \"present\"], \"ar\": [\"ذا\", \"هذا\", \"هذه\", \"هؤلاء\", \"هو\", \"هن\"]}",
+    "arabicAr": "هذا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 42,
+    "wordEn": "this",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 42,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðəs",
+    "phoneticAr": "ذاس",
+    "translit": "hadha / hadhih",
+    "definitionEn": "[\"identify a specific person or thing close at hand or being indicated or experienced.\", \"referring to a specific thing or situation just mentioned.\", \"used with periods of time related to the present.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this is different from that\", \"this is the captain speaking\", \"is this your bag?\", \"don't listen to this guy\", \"Do we need this many recommendations\"], \"A2\": [\"they can't handle a job this big\", \"he's not used to this much attention\", \"I thought you were busy all this week\"], \"B2\": [\"the company was transformed and Ward had played a vital role in bringing this about\"]}",
+    "collocations": "[\"Do we need this many recommendations\", \"try this\", \"this book\"]",
+    "synonyms": "[\"now\", \"however\", \"exactly\", \"present\", \"whatever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"however\", \"exactly\", \"now\", \"present\"], \"ar\": [\"ذا\", \"هذا\", \"هذه\", \"هؤلاء\", \"هو\", \"هن\"]}",
+    "arabicAr": "هذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 43,
+    "wordEn": "this",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 43,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðəs",
+    "phoneticAr": "ذاس",
+    "translit": "hadha / hadhih",
+    "definitionEn": "[\"identify a specific person or thing close at hand or being indicated or experienced.\", \"referring to a specific thing or situation just mentioned.\", \"used with periods of time related to the present.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this is different from that\", \"this is the captain speaking\", \"is this your bag?\", \"don't listen to this guy\", \"Do we need this many recommendations\"], \"A2\": [\"they can't handle a job this big\", \"he's not used to this much attention\", \"I thought you were busy all this week\"], \"B2\": [\"the company was transformed and Ward had played a vital role in bringing this about\"]}",
+    "collocations": "[\"Do we need this many recommendations\", \"try this\", \"this book\"]",
+    "synonyms": "[\"now\", \"however\", \"exactly\", \"present\", \"whatever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"however\", \"exactly\", \"now\", \"present\"], \"ar\": [\"ذا\", \"هذا\", \"هذه\", \"هؤلاء\", \"هو\", \"هن\"]}",
+    "arabicAr": "هذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 44,
+    "wordEn": "this",
+    "pos": "adv",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 44,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðəs",
+    "phoneticAr": "ذاس",
+    "translit": "hadha / hadhih",
+    "definitionEn": "[\"identify a specific person or thing close at hand or being indicated or experienced.\", \"referring to a specific thing or situation just mentioned.\", \"used with periods of time related to the present.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this is different from that\", \"this is the captain speaking\", \"is this your bag?\", \"don't listen to this guy\", \"Do we need this many recommendations\"], \"A2\": [\"they can't handle a job this big\", \"he's not used to this much attention\", \"I thought you were busy all this week\"], \"B2\": [\"the company was transformed and Ward had played a vital role in bringing this about\"]}",
+    "collocations": "[\"Do we need this many recommendations\", \"try this\", \"this book\"]",
+    "synonyms": "[\"now\", \"however\", \"exactly\", \"present\", \"whatever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whatever\", \"however\", \"exactly\", \"now\", \"present\"], \"ar\": [\"ذا\", \"هذا\", \"هذه\", \"هؤلاء\", \"هو\", \"هن\"]}",
+    "arabicAr": "هذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 45,
+    "wordEn": "but",
+    "pos": "adv",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 45,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bʊt",
+    "phoneticAr": "بوت",
+    "translit": "lakin / lkn",
+    "definitionEn": "[\"introduce a phrase or clause contrasting with what has already been mentioned.\", \"indicate the impossibility of anything other than what is being stated.\", \"introduce a response expressing a feeling such as surprise or anger.\"]",
+    "usageNote": "Used to link an interjection to the following remark as an intensifier.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one cannot but sympathize\", \"he stumbled but didn't fall\", \"but that's an incredible saving!\", \"the last but one\"], \"A2\": [\"they had no alternative but to follow\", \"nobody, but nobody, was going to stop her\"], \"B1\": [\"there was nothing they could do but swallow their pride\"], \"C1\": [\"the problem is not that they are cutting down trees, but that they are doing it in a predatory way\"]}",
+    "collocations": "[\"Wow But that's amazing\", \"big but\", \"but nothing\"]",
+    "synonyms": "[\"just\", \"only\", \"merely\", \"simply\", \"withal\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"merely\", \"simply\", \"only\", \"just\", \"surely\"], \"ar\": [\"فقط\", \"مجرَّد\", \"أمّا\", \"إنّما\", \"بِاسْتثْناء\", \"بَل\"]}",
+    "arabicAr": "لكن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 46,
+    "wordEn": "but",
+    "pos": "prep",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 46,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bʊt",
+    "phoneticAr": "بوت",
+    "translit": "lakin / lkn",
+    "definitionEn": "[\"introduce a phrase or clause contrasting with what has already been mentioned.\", \"indicate the impossibility of anything other than what is being stated.\", \"introduce a response expressing a feeling such as surprise or anger.\"]",
+    "usageNote": "Used to link an interjection to the following remark as an intensifier.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one cannot but sympathize\", \"he stumbled but didn't fall\", \"but that's an incredible saving!\", \"the last but one\"], \"A2\": [\"they had no alternative but to follow\", \"nobody, but nobody, was going to stop her\"], \"B1\": [\"there was nothing they could do but swallow their pride\"], \"C1\": [\"the problem is not that they are cutting down trees, but that they are doing it in a predatory way\"]}",
+    "collocations": "[\"Wow But that's amazing\", \"big but\", \"but nothing\"]",
+    "synonyms": "[\"just\", \"only\", \"merely\", \"simply\", \"withal\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"merely\", \"simply\", \"only\", \"just\", \"surely\"], \"ar\": [\"فقط\", \"مجرَّد\", \"أمّا\", \"إنّما\", \"بِاسْتثْناء\", \"بَل\"]}",
+    "arabicAr": "لكن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 47,
+    "wordEn": "but",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 47,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bʊt",
+    "phoneticAr": "بوت",
+    "translit": "lakin / lkn",
+    "definitionEn": "[\"introduce a phrase or clause contrasting with what has already been mentioned.\", \"indicate the impossibility of anything other than what is being stated.\", \"introduce a response expressing a feeling such as surprise or anger.\"]",
+    "usageNote": "Used to link an interjection to the following remark as an intensifier.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one cannot but sympathize\", \"he stumbled but didn't fall\", \"but that's an incredible saving!\", \"the last but one\"], \"A2\": [\"they had no alternative but to follow\", \"nobody, but nobody, was going to stop her\"], \"B1\": [\"there was nothing they could do but swallow their pride\"], \"C1\": [\"the problem is not that they are cutting down trees, but that they are doing it in a predatory way\"]}",
+    "collocations": "[\"Wow But that's amazing\", \"big but\", \"but nothing\"]",
+    "synonyms": "[\"just\", \"only\", \"merely\", \"simply\", \"withal\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"merely\", \"simply\", \"only\", \"just\", \"surely\"], \"ar\": [\"فقط\", \"مجرَّد\", \"أمّا\", \"إنّما\", \"بِاسْتثْناء\", \"بَل\"]}",
+    "arabicAr": "لكن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 48,
+    "wordEn": "from",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 48,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "fɹɒm",
+    "phoneticUk": "fɹʌm",
+    "phoneticAr": "فرأم",
+    "translit": "man / min eind",
+    "definitionEn": "[\"indicating the point in space at which a journey, motion, or action starts.\", \"indicating the point in time at which a particular process, event, or activity starts.\", \"indicating the source or provenance of someone or something.\"]",
+    "usageNote": "Used to indicate source or provenance.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'm from Hartford\", \"I leapt from my bed\", \"Face away from the wall\"], \"A2\": [\"the ambush occurred 50 yards from a checkpoint\", \"she began to walk away from him\", \"information obtained from papers, books, and presentations\", \"men who ranged in age from seventeen to eighty-four\", \"the party was ousted from power after sixteen years\"], \"B2\": [\"the courts view him in a different light from that of a manual worker\"]}",
+    "collocations": "[\"letter from\", \"from home\"]",
+    "synonyms": "[]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"according\", \"across\", \"addressed\", \"after\", \"against\"], \"ar\": [\"عن\", \"مِن\", \"مُنْذُ\", \"مِنْ\", \"من\", \"منذ\"]}",
+    "arabicAr": "من",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 49,
+    "wordEn": "from",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 49,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "fɹɒm",
+    "phoneticUk": "fɹʌm",
+    "phoneticAr": "فرأم",
+    "translit": "man / min eind",
+    "definitionEn": "[\"indicating the point in space at which a journey, motion, or action starts.\", \"indicating the point in time at which a particular process, event, or activity starts.\", \"indicating the source or provenance of someone or something.\"]",
+    "usageNote": "Used to indicate source or provenance.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'm from Hartford\", \"I leapt from my bed\", \"Face away from the wall\"], \"A2\": [\"the ambush occurred 50 yards from a checkpoint\", \"she began to walk away from him\", \"information obtained from papers, books, and presentations\", \"men who ranged in age from seventeen to eighty-four\", \"the party was ousted from power after sixteen years\"], \"B2\": [\"the courts view him in a different light from that of a manual worker\"]}",
+    "collocations": "[\"letter from\", \"from home\"]",
+    "synonyms": "[]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"according\", \"across\", \"addressed\", \"after\", \"against\"], \"ar\": [\"عن\", \"مِن\", \"مُنْذُ\", \"مِنْ\", \"من\", \"منذ\"]}",
+    "arabicAr": "من",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 50,
+    "wordEn": "they",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 50,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðeɪ",
+    "phoneticAr": "ذاي",
+    "translit": "hum",
+    "definitionEn": "[\"refer to two or more people or things previously mentioned or easily identified.\", \"refer to a person of unspecified gender.\", \"The plural of he, she, or it.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they cut my water off\", \"ask someone if they could help\"], \"A2\": [\"the rest, as they say, is history\"], \"B1\": [\"the two men could get life sentences if they are convicted\"], \"B2\": [\"Asher thought they were the only nonbinary person at school until a couple of weeks ago\"]}",
+    "collocations": "[\"how they\"]",
+    "synonyms": "[\"ces\", \"counsel\", \"children\", \"canadians\", \"departments\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"canadians\", \"ces\", \"children\", \"counsel\", \"departments\"], \"ar\": [\"هُم\", \"هُنّ\", \"هم\", \"هن\"]}",
+    "arabicAr": "هم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 51,
+    "wordEn": "they",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 51,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðeɪ",
+    "phoneticAr": "ذاي",
+    "translit": "hum",
+    "definitionEn": "[\"refer to two or more people or things previously mentioned or easily identified.\", \"refer to a person of unspecified gender.\", \"The plural of he, she, or it.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they cut my water off\", \"ask someone if they could help\"], \"A2\": [\"the rest, as they say, is history\"], \"B1\": [\"the two men could get life sentences if they are convicted\"], \"B2\": [\"Asher thought they were the only nonbinary person at school until a couple of weeks ago\"]}",
+    "collocations": "[\"how they\"]",
+    "synonyms": "[\"ces\", \"counsel\", \"children\", \"canadians\", \"departments\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"canadians\", \"ces\", \"children\", \"counsel\", \"departments\"], \"ar\": [\"هُم\", \"هُنّ\", \"هم\", \"هن\"]}",
+    "arabicAr": "هم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 52,
+    "wordEn": "his",
+    "pos": "adj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 52,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈhɪz",
+    "phoneticAr": "هيز",
+    "translit": "lah",
+    "definitionEn": "[\"belonging to or associated with a male person or animal previously mentioned or easily identified.\", \"refer to a thing or things belonging to or associated with a male person or animal previously mentioned.\", \"Belonging or pertaining to him\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"James sold his business\", \"he took my hand in his\", \"some friends of his\"], \"B1\": [\"any child with delayed speech should have his hearing checked\"]}",
+    "collocations": "[\"Ahab his mark\", \"Sejanus his Fall\", \"much his\", \"his life\"]",
+    "synonyms": "[\"ess\", \"howdy\", \"hullo\", \"hello\", \"how-do-you-do\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"howdy\", \"hullo\", \"hello\", \"how-do-you-do\", \"ess\"], \"ar\": [\"ضمير الغائب المتصل\", \"خاصَّته\", \"له\", \"ملكه\", \"خاصته\"]}",
+    "arabicAr": "له",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 53,
+    "wordEn": "his",
+    "pos": "pron",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 53,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈhɪz",
+    "phoneticAr": "هيز",
+    "translit": "lah",
+    "definitionEn": "[\"belonging to or associated with a male person or animal previously mentioned or easily identified.\", \"refer to a thing or things belonging to or associated with a male person or animal previously mentioned.\", \"Belonging or pertaining to him\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"James sold his business\", \"he took my hand in his\", \"some friends of his\"], \"B1\": [\"any child with delayed speech should have his hearing checked\"]}",
+    "collocations": "[\"Ahab his mark\", \"Sejanus his Fall\", \"much his\", \"his life\"]",
+    "synonyms": "[\"ess\", \"howdy\", \"hullo\", \"hello\", \"how-do-you-do\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"howdy\", \"hullo\", \"hello\", \"how-do-you-do\", \"ess\"], \"ar\": [\"ضمير الغائب المتصل\", \"خاصَّته\", \"له\", \"ملكه\", \"خاصته\"]}",
+    "arabicAr": "له",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 54,
+    "wordEn": "his",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 54,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈhɪz",
+    "phoneticAr": "هيز",
+    "translit": "lah",
+    "definitionEn": "[\"belonging to or associated with a male person or animal previously mentioned or easily identified.\", \"refer to a thing or things belonging to or associated with a male person or animal previously mentioned.\", \"Belonging or pertaining to him\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"James sold his business\", \"he took my hand in his\", \"some friends of his\"], \"B1\": [\"any child with delayed speech should have his hearing checked\"]}",
+    "collocations": "[\"Ahab his mark\", \"Sejanus his Fall\", \"much his\", \"his life\"]",
+    "synonyms": "[\"ess\", \"howdy\", \"hullo\", \"hello\", \"how-do-you-do\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"howdy\", \"hullo\", \"hello\", \"how-do-you-do\", \"ess\"], \"ar\": [\"ضمير الغائب المتصل\", \"خاصَّته\", \"له\", \"ملكه\", \"خاصته\"]}",
+    "arabicAr": "له",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 55,
+    "wordEn": "she",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 55,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ʃi",
+    "phoneticUk": "ʃiː",
+    "phoneticAr": "شي",
+    "translit": "hi",
+    "definitionEn": "[\"refer to a woman, girl, or female animal previously mentioned or easily identified.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"is that a he or a she?\", \"she who rocks the cradle rules the world\", \"my sister told me that she was not happy\"], \"B1\": [\"only include your child if you know she won't distract you\"], \"B2\": [\"I was aboard the St. Roch shortly before she sailed for the Northwest Passage\"]}",
+    "collocations": "[\"how she\"]",
+    "synonyms": "[\"lady\", \"wife\", \"girl\", \"mama\", \"woman\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"woman\", \"lady\", \"wife\", \"girl\", \"mama\"], \"ar\": [\"هِي\", \"الأُنثى\", \"أنثى\", \"هي\", \"بنت\", \"أنثى الحيوان\"]}",
+    "arabicAr": "هي",
+    "addedFromOxford": 0
+  }
+]

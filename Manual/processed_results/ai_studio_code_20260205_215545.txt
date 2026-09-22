@@ -1,0 +1,1834 @@
+{
+  "wordEntries": [
+    {
+      "id": 321,
+      "wordEn": "most",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "moʊst",
+      "phoneticUk": "məʊst",
+      "phoneticAr": "مَوْست",
+      "translit": "Muʿẓam / Akthar",
+      "definitionEn": "Greatest in amount, quantity, or degree.",
+      "definitionAr": "يعني الأغلبية أو أكتر كمية من حاجة. لما تقول معظم الناس أو أغلب الوقت.",
+      "usageNote": "Usually functions as a determiner in modern grammar (e.g., 'most people'). As an adjective, it means 'greatest' in quantity.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Superlative",
+        "#Quantity",
+        "#Majority"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Most\" قريبة من \"Must\".. عشان تنجح لازم يكون عندك الـ \"Most\" من المهارات.",
+      "examples": {
+        "A1": "Most children like ice cream.",
+        "A2": "Most days I walk to work.",
+        "B1": "For the most part, the plan worked well.",
+        "B2": "She has the most money of anyone I know.",
+        "C1": "The most significant change was in the management structure.",
+        "C2": "It was a most peculiar situation to find oneself in."
+      },
+      "collocations": [
+        "most people",
+        "most likely",
+        "for the most part",
+        "make the most of"
+      ],
+      "synonyms": [
+        "greatest",
+        "majority",
+        "maximum",
+        "bulk"
+      ],
+      "antonyms": [
+        "fewest",
+        "least"
+      ],
+      "relatedWords": {
+        "en": [
+          "more",
+          "much",
+          "many",
+          "mostly"
+        ],
+        "ar": [
+          "أكثر",
+          "كثير",
+          "غالباً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "most",
+        "adv": "mostly"
+      },
+      "arabicAr": "مُعْظَم / أغْلَب",
+      "frenchFr": "la plupart",
+      "germanDe": "die meisten",
+      "spanishEs": "la mayoría",
+      "chineseZh": "大多数 (Dà duō shù)",
+      "russianRu": "большинство",
+      "portuguesePt": "a maioria",
+      "japaneseJa": "大部分 (Daibubun)",
+      "italianIt": "la maggior parte",
+      "turkishTr": "çoğu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 322,
+      "wordEn": "most",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "moʊst",
+      "phoneticUk": "məʊst",
+      "phoneticAr": "مَوْست",
+      "translit": "Al-aghlabiyya",
+      "definitionEn": "The greatest amount or number of something.",
+      "definitionAr": "لما تستخدمها كضمير عشان تقول 'الأغلبية' أو 'أكترهم' من غير ما تكرر الاسم.",
+      "usageNote": "Followed by 'of' when referring to a specific group (e.g., 'Most of the students').",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Majority",
+        "#Pronoun",
+        "#Number"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Most of us are ready.",
+        "A2": "I ate most of the cake.",
+        "B1": "Most of the work is done.",
+        "B2": "We accepted most of their terms.",
+        "C1": "Most of the evidence points to his guilt.",
+        "C2": "Most of what he says is pure fabrication."
+      },
+      "collocations": [
+        "most of",
+        "most of all",
+        "most of them"
+      ],
+      "synonyms": [
+        "majority",
+        "bulk",
+        "mass"
+      ],
+      "antonyms": [
+        "minority",
+        "none"
+      ],
+      "relatedWords": {
+        "en": [
+          "some",
+          "all",
+          "none"
+        ],
+        "ar": [
+          "البعض",
+          "الكل",
+          "لا أحد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "most",
+        "adv": "mostly"
+      },
+      "arabicAr": "الأغْلَبِيَّة / أكْثَرُهُم",
+      "frenchFr": "le plus",
+      "germanDe": "das Meiste",
+      "spanishEs": "la mayoría",
+      "chineseZh": "大部分 (Dà bù fen)",
+      "russianRu": "большая часть",
+      "portuguesePt": "a maior parte",
+      "japaneseJa": "大部分 (Daibubun)",
+      "italianIt": "la maggioranza",
+      "turkishTr": "çoğu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 323,
+      "wordEn": "most",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "moʊst",
+      "phoneticUk": "məʊst",
+      "phoneticAr": "مَوْست",
+      "translit": "Muʿẓam",
+      "definitionEn": "Almost all of a group or amount.",
+      "definitionAr": "بتيجي قبل الاسم عشان تقول إن العدد ده هو الأكتر. زي 'معظم الناس'.",
+      "usageNote": "Do not use 'the' before 'most' when it means 'majority of' (e.g., say 'Most people', NOT 'The most people').",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#Generalization",
+        "#Group"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Most birds can fly.",
+        "A2": "Most shops open at nine.",
+        "B1": "Most people want to be happy.",
+        "B2": "In most cases, the treatment works.",
+        "C1": "Most rational observers would agree.",
+        "C2": "Most contemporary scholars reject this view."
+      },
+      "collocations": [
+        "most people",
+        "most cases",
+        "most time"
+      ],
+      "synonyms": [
+        "almost all",
+        "nearly all"
+      ],
+      "antonyms": [
+        "few",
+        "no"
+      ],
+      "relatedWords": {
+        "en": [
+          "many",
+          "some",
+          "every"
+        ],
+        "ar": [
+          "كثير",
+          "بعض",
+          "كل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "most",
+        "adv": "mostly"
+      },
+      "arabicAr": "مُعْظَم",
+      "frenchFr": "la plupart de",
+      "germanDe": "die meisten",
+      "spanishEs": "la mayoría de",
+      "chineseZh": "大多数 (Dà duō shù)",
+      "russianRu": "большинство",
+      "portuguesePt": "a maioria de",
+      "japaneseJa": "たいていの (Taitei no)",
+      "italianIt": "la maggior parte di",
+      "turkishTr": "pek çok",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 324,
+      "wordEn": "most",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "moʊst",
+      "phoneticUk": "məʊst",
+      "phoneticAr": "مَوْست",
+      "translit": "Al-akthar / Jiddan",
+      "definitionEn": "To the greatest extent; forming the superlative.",
+      "definitionAr": "بتستخدم عشان نعمل صيغة التفضيل (الأجمل، الأسرع) أو بمعنى 'جداً'.",
+      "usageNote": "Used to form superlatives of long adjectives (e.g., 'the most beautiful').",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Superlative",
+        "#Degree",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "She is the most beautiful girl.",
+        "A2": "What do you like most?",
+        "B1": "This is the most expensive car.",
+        "B2": "It was a most interesting speech.",
+        "C1": "The technique is most effectively used in winter.",
+        "C2": "He is the most accomplished pianist of his generation."
+      },
+      "collocations": [
+        "the most",
+        "most likely",
+        "most importantly",
+        "most often"
+      ],
+      "synonyms": [
+        "extremely",
+        "highly",
+        "very"
+      ],
+      "antonyms": [
+        "least"
+      ],
+      "relatedWords": {
+        "en": [
+          "more",
+          "very",
+          "highly"
+        ],
+        "ar": [
+          "أكثر",
+          "جداً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "most",
+        "adv": "mostly"
+      },
+      "arabicAr": "الأكْثَر / جِدّاً",
+      "frenchFr": "le plus",
+      "germanDe": "am meisten",
+      "spanishEs": "el más",
+      "chineseZh": "最 (Zuì)",
+      "russianRu": "наиболее",
+      "portuguesePt": "o mais",
+      "japaneseJa": "最も (Mottomo)",
+      "italianIt": "il più",
+      "turkishTr": "en",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 325,
+      "wordEn": "service",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɜːrvɪs",
+      "phoneticUk": "ˈsɜːvɪs",
+      "phoneticAr": "سِيرْفِس",
+      "translit": "Khidma",
+      "definitionEn": "The action of helping or doing work for someone.",
+      "definitionAr": "يعني خدمة أو مساعدة بتقدمها لحد. ممكن تكون خدمة عملاء، خدمة في مطعم، أو حتى خدمة عامة.",
+      "usageNote": "Can refer to customer service, a religious ceremony, or maintenance of a machine.",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Business",
+        "#Help",
+        "#System"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Serve\" يعني يخدم.. والـ \"Service\" هي الخدمة نفسها. افتكر الـ \"سيرفيس\" الميكروباص بيقدم \"Service\" نقل.",
+      "examples": {
+        "A1": "The food service is slow.",
+        "A2": "Can I be of service to you?",
+        "B1": "The car needs a full service.",
+        "B2": "They offer excellent customer service.",
+        "C1": "He retired after 30 years of military service.",
+        "C2": "The memorial service was held at the cathedral."
+      },
+      "collocations": [
+        "customer service",
+        "public service",
+        "military service",
+        "at your service"
+      ],
+      "synonyms": [
+        "assistance",
+        "help",
+        "support",
+        "system"
+      ],
+      "antonyms": [
+        "disservice",
+        "hindrance"
+      ],
+      "relatedWords": {
+        "en": [
+          "serve",
+          "servant",
+          "server"
+        ],
+        "ar": [
+          "يخدم",
+          "خادم",
+          "نادل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "service",
+        "verb": "service",
+        "adj": "serviceable",
+        "adv": ""
+      },
+      "arabicAr": "خِدْمَة",
+      "frenchFr": "service",
+      "germanDe": "Dienstleistung",
+      "spanishEs": "servicio",
+      "chineseZh": "服务 (Fú wù)",
+      "russianRu": "служба",
+      "portuguesePt": "serviço",
+      "japaneseJa": "サービス (Sābisu)",
+      "italianIt": "servizio",
+      "turkishTr": "hizmet",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 326,
+      "wordEn": "try",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "traɪ",
+      "phoneticUk": null,
+      "phoneticAr": "تْرَاي",
+      "translit": "Muhawala",
+      "definitionEn": "An attempt or effort to do something.",
+      "definitionAr": "محاولة إنك تعمل حاجة. بنستخدمها لما نقول 'جرب مرة كمان' أو 'يستحق المحاولة'.",
+      "usageNote": "Common in phrases like 'give it a try' or 'worth a try'.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Effort",
+        "#Attempt",
+        "#Test"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Try\" قريبة من \"Tired\".. لما تعمل \"Try\" ومحاولات كتير ممكن تحس إنك \"Tired\".",
+      "examples": {
+        "A1": "It was a good try.",
+        "A2": "I will give it a try.",
+        "B1": "He scored a try in the rugby game.",
+        "B2": "It is worth a try to fix it yourself.",
+        "C1": "After several futile tries, he gave up.",
+        "C2": "Her first try at a novel was surprisingly mature."
+      },
+      "collocations": [
+        "give it a try",
+        "worth a try",
+        "first try",
+        "nice try"
+      ],
+      "synonyms": [
+        "attempt",
+        "effort",
+        "go",
+        "shot"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "trial",
+          "trying",
+          "tryout"
+        ],
+        "ar": [
+          "تجربة",
+          "شاق",
+          "اختبار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "try",
+        "verb": "try",
+        "adj": "trying",
+        "adv": ""
+      },
+      "arabicAr": "مُحَاوَلَة",
+      "frenchFr": "essai",
+      "germanDe": "Versuch",
+      "spanishEs": "intento",
+      "chineseZh": "尝试 (Cháng shì)",
+      "russianRu": "попытка",
+      "portuguesePt": "tentativa",
+      "japaneseJa": "試み (Kokoromi)",
+      "italianIt": "tentativo",
+      "turkishTr": "deneme",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 327,
+      "wordEn": "try",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "traɪ",
+      "phoneticUk": null,
+      "phoneticAr": "تْرَاي",
+      "translit": "Yuhawil / Yujarrib",
+      "definitionEn": "To make an attempt or effort to do something.",
+      "definitionAr": "يحاول يعمل حاجة أو يجرب حاجة جديدة زي أكل أو لبس.",
+      "usageNote": "'Try to do' implies effort; 'Try doing' implies experimenting with a method.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Effort",
+        "#Experiment",
+        "#Action"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Trial\" يعني محاكمة أو اختبار.. إنت بتعمل \"Try\" عشان تختبر النتيجة.",
+      "examples": {
+        "A1": "I try to eat healthy food.",
+        "A2": "Please try to be quiet.",
+        "B1": "Why don't you try calling him?",
+        "B2": "I am trying to locate the file.",
+        "C1": "Don't try my patience.",
+        "C2": "He was tried for crimes against humanity."
+      },
+      "collocations": [
+        "try hard",
+        "try out",
+        "try on",
+        "try to find"
+      ],
+      "synonyms": [
+        "attempt",
+        "endeavor",
+        "test",
+        "strive"
+      ],
+      "antonyms": [
+        "give up",
+        "quit"
+      ],
+      "relatedWords": {
+        "en": [
+          "trial",
+          "trying"
+        ],
+        "ar": [
+          "محاكمة",
+          "مرهق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "try",
+        "verb": "try",
+        "adj": "trying",
+        "adv": ""
+      },
+      "arabicAr": "يُحَاوِل / يُجَرِّب",
+      "frenchFr": "essayer",
+      "germanDe": "versuchen",
+      "spanishEs": "intentar",
+      "chineseZh": "试图 (Shì tú)",
+      "russianRu": "пытаться",
+      "portuguesePt": "tentar",
+      "japaneseJa": "試す (Tamesu)",
+      "italianIt": "provare",
+      "turkishTr": "denemek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 328,
+      "wordEn": "call",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kɔːl",
+      "phoneticUk": null,
+      "phoneticAr": "كُول",
+      "translit": "Mukalama / Nida'",
+      "definitionEn": "An act of speaking to someone on the phone.",
+      "definitionAr": "مكالمة تليفون أو نداء على حد. وممكن تيجي بمعنى قرار.",
+      "usageNote": "Can also mean a visit ('pay a call') or a decision ('tough call').",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Phone",
+        "#Communication",
+        "#Sound"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Call\" زي \"كل\".. لما تعمل \"Call\" بتكلم \"كل\" الناس.",
+      "examples": {
+        "A1": "I got a call from mom.",
+        "A2": "Give me a call later.",
+        "B1": "It was a tough call to make.",
+        "B2": "There is no call for such rude behavior.",
+        "C1": "The port is a regular port of call for cruise ships.",
+        "C2": "He felt a spiritual call to the priesthood."
+      },
+      "collocations": [
+        "phone call",
+        "make a call",
+        "wake-up call",
+        "close call"
+      ],
+      "synonyms": [
+        "cry",
+        "shout",
+        "request",
+        "demand"
+      ],
+      "antonyms": [
+        "silence"
+      ],
+      "relatedWords": {
+        "en": [
+          "caller",
+          "calling",
+          "recall"
+        ],
+        "ar": [
+          "متصل",
+          "مهنة",
+          "استدعاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "call",
+        "verb": "call",
+        "adj": "called",
+        "adv": ""
+      },
+      "arabicAr": "مُكَالَمَة / نِدَاء",
+      "frenchFr": "appel",
+      "germanDe": "Anruf",
+      "spanishEs": "llamada",
+      "chineseZh": "电话 (Diàn huà)",
+      "russianRu": "звонок",
+      "portuguesePt": "chamada",
+      "japaneseJa": "電話 (Denwa)",
+      "italianIt": "chiamata",
+      "turkishTr": "arama",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 329,
+      "wordEn": "call",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kɔːl",
+      "phoneticUk": null,
+      "phoneticAr": "كُول",
+      "translit": "Yattasil / Yunadi",
+      "definitionEn": "To contact someone by phone or shout to them.",
+      "definitionAr": "يتصل بحد في التليفون أو ينادي عليه بصوت عالي. وممكن تيجي بمعنى يسمي.",
+      "usageNote": "Commonly used as 'call [name]' (to name) or 'call [person]' (to phone).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Phone",
+        "#Name",
+        "#Action"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Please call me tomorrow.",
+        "A2": "They call him 'Big Joe'.",
+        "B1": "I will call a taxi for you.",
+        "B2": "The meeting was called to order.",
+        "C1": "I call into question his honesty.",
+        "C2": "The situation calls for immediate action."
+      },
+      "collocations": [
+        "call back",
+        "call off",
+        "call for",
+        "call on"
+      ],
+      "synonyms": [
+        "phone",
+        "name",
+        "summon",
+        "shout"
+      ],
+      "antonyms": [
+        "whisper",
+        "ignore"
+      ],
+      "relatedWords": {
+        "en": [
+          "recall",
+          "caller"
+        ],
+        "ar": [
+          "يتذكر",
+          "متصل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "call",
+        "verb": "call",
+        "adj": "called",
+        "adv": ""
+      },
+      "arabicAr": "يَتَّصِل / يُنَادِي",
+      "frenchFr": "appeler",
+      "germanDe": "anrufen",
+      "spanishEs": "llamar",
+      "chineseZh": "打电话 (Dǎ diàn huà)",
+      "russianRu": "звонить",
+      "portuguesePt": "ligar",
+      "japaneseJa": "呼ぶ (Yobu)",
+      "italianIt": "chiamare",
+      "turkishTr": "aramak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 330,
+      "wordEn": "hand",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hænd",
+      "phoneticUk": null,
+      "phoneticAr": "هَانْد",
+      "translit": "Yad",
+      "definitionEn": "The body part at the end of the arm.",
+      "definitionAr": "إيدك اللي بتمسك بيها الحاجات. وممكن تيجي بمعنى مساعدة زي 'give a hand'.",
+      "usageNote": "Used in many idioms: 'give a hand' (help), 'on the other hand' (contrast).",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Body",
+        "#Anatomy",
+        "#Help"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Hand\" قريبة من \"Handle\".. بتستخدم الـ \"Hand\" عشان تعمل \"Handle\" وتمسك الأمور.",
+      "examples": {
+        "A1": "Wash your hands.",
+        "A2": "Hold my hand, please.",
+        "B1": "Can you give me a hand with this?",
+        "B2": "On the other hand, it might rain.",
+        "C1": "The matter is now out of my hands.",
+        "C2": "He ruled the country with an iron hand."
+      },
+      "collocations": [
+        "shake hands",
+        "right hand",
+        "give a hand",
+        "on the one hand"
+      ],
+      "synonyms": [
+        "palm",
+        "fist",
+        "paw"
+      ],
+      "antonyms": [
+        "foot"
+      ],
+      "relatedWords": {
+        "en": [
+          "handle",
+          "handful",
+          "handy"
+        ],
+        "ar": [
+          "مقبض",
+          "حفنة",
+          "مفيد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hand",
+        "verb": "hand",
+        "adj": "handy",
+        "adv": "handily"
+      },
+      "arabicAr": "يَد",
+      "frenchFr": "main",
+      "germanDe": "Hand",
+      "spanishEs": "mano",
+      "chineseZh": "手 (Shǒu)",
+      "russianRu": "рука",
+      "portuguesePt": "mão",
+      "japaneseJa": "手 (Te)",
+      "italianIt": "mano",
+      "turkishTr": "el",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 331,
+      "wordEn": "hand",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "hænd",
+      "phoneticUk": null,
+      "phoneticAr": "هَانْد",
+      "translit": "Yunawil / Yusallim",
+      "definitionEn": "To give or pass something to someone.",
+      "definitionAr": "يناول حاجة لحد بإيده. زي لما تقول لحد 'ناولني الملح'.",
+      "usageNote": "Often followed by 'over', 'in', or 'out' (phrasal verbs).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Give",
+        "#Pass",
+        "#Transfer"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Hand me the book.",
+        "A2": "Please hand in your homework.",
+        "B1": "He handed the keys to the valet.",
+        "B2": "They were handing out flyers on the street.",
+        "C1": "The tradition was handed down from generation to generation.",
+        "C2": "He handed over control of the company to his son."
+      },
+      "collocations": [
+        "hand over",
+        "hand in",
+        "hand out",
+        "hand down"
+      ],
+      "synonyms": [
+        "give",
+        "pass",
+        "submit",
+        "deliver"
+      ],
+      "antonyms": [
+        "take",
+        "keep"
+      ],
+      "relatedWords": {
+        "en": [
+          "handout",
+          "handover"
+        ],
+        "ar": [
+          "صدقة",
+          "تسليم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hand",
+        "verb": "hand",
+        "adj": "handy",
+        "adv": "handily"
+      },
+      "arabicAr": "يُنَاوِل / يُسَلِّم",
+      "frenchFr": "donner",
+      "germanDe": "reichen",
+      "spanishEs": "entregar",
+      "chineseZh": "递 (Dì)",
+      "russianRu": "вручать",
+      "portuguesePt": "entregar",
+      "japaneseJa": "手渡す (Tewatasu)",
+      "italianIt": "porgere",
+      "turkishTr": "uzatmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 332,
+      "wordEn": "party",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈpɑːrti",
+      "phoneticUk": "ˈpɑːti",
+      "phoneticAr": "بَارْتي",
+      "translit": "Hizbi / Ihtifali",
+      "definitionEn": "Relating to a political party or a social celebration.",
+      "definitionAr": "صفة بتوصف حاجة ليها علاقة بالحفلات (زي فستان حفلة) أو بالأحزاب السياسية (زي قائد حزبي).",
+      "usageNote": "Usually used attributively (before a noun), e.g., 'party leader' or 'party dress'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Political",
+        "#Social",
+        "#Attribute"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "She wore a party dress.",
+        "A2": "We bought some party hats.",
+        "B1": "He is a party member.",
+        "B2": "The party leader gave a speech.",
+        "C1": "Strict party discipline was enforced.",
+        "C2": "The issue crossed party lines."
+      },
+      "collocations": [
+        "party member",
+        "party leader",
+        "party line",
+        "party dress"
+      ],
+      "synonyms": [
+        "political",
+        "festive"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "partisan",
+          "political"
+        ],
+        "ar": [
+          "متحيز",
+          "سياسي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "party",
+        "verb": "party",
+        "adj": "party",
+        "adv": ""
+      },
+      "arabicAr": "حِزْبِي / احْتِفَالِي",
+      "frenchFr": "de parti",
+      "germanDe": "Partei-",
+      "spanishEs": "de partido",
+      "chineseZh": "党的 (Dǎng de)",
+      "russianRu": "партийный",
+      "portuguesePt": "partidário",
+      "japaneseJa": "党の (Tō no)",
+      "italianIt": "di partito",
+      "turkishTr": "parti",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 333,
+      "wordEn": "party",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈpɑːrti",
+      "phoneticUk": "ˈpɑːti",
+      "phoneticAr": "بَارْتي",
+      "translit": "Hafla / Hizb",
+      "definitionEn": "A social gathering or a political group.",
+      "definitionAr": "حفلة الناس بتتجمع فيها عشان تنبسط. أو حزب سياسي.",
+      "usageNote": "Context determines meaning: 'Birthday party' vs 'Republican Party'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Celebration",
+        "#Politics",
+        "#Group"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Party\" يعني حفلة.. وممكن تيجي بمعنى \"Part\" يعني جزء أو طرف في اتفاق.",
+      "examples": {
+        "A1": "I am going to a birthday party.",
+        "A2": "The party starts at 8 PM.",
+        "B1": "Which political party do you support?",
+        "B2": "He is the leader of the Labour Party.",
+        "C1": "The contract was signed by both parties.",
+        "C2": "A search party was sent to find the missing hikers."
+      },
+      "collocations": [
+        "birthday party",
+        "political party",
+        "dinner party",
+        "third party"
+      ],
+      "synonyms": [
+        "celebration",
+        "gathering",
+        "faction",
+        "group"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "partier",
+          "partisan"
+        ],
+        "ar": [
+          "محتفل",
+          "نصير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "party",
+        "verb": "party",
+        "adj": "party",
+        "adv": ""
+      },
+      "arabicAr": "حَفْلَة / حِزْب",
+      "frenchFr": "fête",
+      "germanDe": "Party",
+      "spanishEs": "fiesta",
+      "chineseZh": "聚会 (Jù huì)",
+      "russianRu": "вечеринка",
+      "portuguesePt": "festa",
+      "japaneseJa": "パーティー (Pātī)",
+      "italianIt": "festa",
+      "turkishTr": "parti",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 334,
+      "wordEn": "high",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "haɪ",
+      "phoneticUk": null,
+      "phoneticAr": "هَاي",
+      "translit": "Ali / Murtafi",
+      "definitionEn": "Of great vertical extent; elevated.",
+      "definitionAr": "عالي أو مرتفع عن الأرض. وممكن يوصف السعر العالي أو الصوت العالي.",
+      "usageNote": "Use 'tall' for people and narrow things (trees); 'high' for mountains, walls, and levels.",
+      "category": "Travel & Movement",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Height",
+        "#Level",
+        "#Dimension"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"High\" عكس \"Low\".. زي \"High Five\" لما ترفع إيدك فوق.",
+      "examples": {
+        "A1": "The mountain is very high.",
+        "A2": "Prices are high this year.",
+        "B1": "She has high standards.",
+        "B2": "It is high time we left.",
+        "C1": "He holds a high office in the government.",
+        "C2": "They engaged in high treason against the state."
+      },
+      "collocations": [
+        "high school",
+        "high price",
+        "high quality",
+        "high level"
+      ],
+      "synonyms": [
+        "tall",
+        "lofty",
+        "elevated"
+      ],
+      "antonyms": [
+        "low",
+        "short"
+      ],
+      "relatedWords": {
+        "en": [
+          "height",
+          "highly",
+          "heighten"
+        ],
+        "ar": [
+          "ارتفاع",
+          "للغاية",
+          "يرفع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "high",
+        "verb": "",
+        "adj": "high",
+        "adv": "highly"
+      },
+      "arabicAr": "عَالِي / مُرْتَفِع",
+      "frenchFr": "haut",
+      "germanDe": "hoch",
+      "spanishEs": "alto",
+      "chineseZh": "高 (Gāo)",
+      "russianRu": "высокий",
+      "portuguesePt": "alto",
+      "japaneseJa": "高い (Takai)",
+      "italianIt": "alto",
+      "turkishTr": "yüksek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 335,
+      "wordEn": "high",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "haɪ",
+      "phoneticUk": null,
+      "phoneticAr": "هَاي",
+      "translit": "Qimma / Dhirwa",
+      "definitionEn": "A high point, level, or figure.",
+      "definitionAr": "أعلى نقطة أو مستوى وصل له شيء. وممكن تيجي بمعنى شعور بالسعادة المفرطة.",
+      "usageNote": "Common in weather ('a high') or finance ('record high').",
+      "category": "Quantity & Amount",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Peak",
+        "#Record",
+        "#Emotion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Temperatures reached a new high.",
+        "A2": "The stock market hit a record high.",
+        "B1": "He is on a natural high after winning.",
+        "B2": "The highs and lows of life.",
+        "C1": "The drug gave him a temporary high.",
+        "C2": "The barometer indicates a high approaching."
+      },
+      "collocations": [
+        "record high",
+        "all-time high",
+        "on a high",
+        "highs and lows"
+      ],
+      "synonyms": [
+        "peak",
+        "summit",
+        "top"
+      ],
+      "antonyms": [
+        "low"
+      ],
+      "relatedWords": {
+        "en": [
+          "height",
+          "highlight"
+        ],
+        "ar": [
+          "ارتفاع",
+          "أبرز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "high",
+        "verb": "",
+        "adj": "high",
+        "adv": "highly"
+      },
+      "arabicAr": "قِمَّة / ذِرْوَة",
+      "frenchFr": "sommet",
+      "germanDe": "Höchststand",
+      "spanishEs": "máximo",
+      "chineseZh": "高峰 (Gāo fēng)",
+      "russianRu": "максимум",
+      "portuguesePt": "máximo",
+      "japaneseJa": "最高 (Saikō)",
+      "italianIt": "massimo",
+      "turkishTr": "zirve",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 336,
+      "wordEn": "high",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "haɪ",
+      "phoneticUk": null,
+      "phoneticAr": "هَاي",
+      "translit": "Aliyan",
+      "definitionEn": "At or to a considerable altitude or level.",
+      "definitionAr": "بشكل عالي أو لفوق. زي لما تقول 'الطير بيطير عالي'.",
+      "usageNote": "'High' is an adverb of place/position; 'Highly' is figurative (meaning 'very').",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Up",
+        "#Altitude",
+        "#Position"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Birds fly high.",
+        "A2": "Hold your head high.",
+        "B1": "He aims high in his career.",
+        "B2": "The sun was high in the sky.",
+        "C1": "They searched high and low for the keys.",
+        "C2": "He was left high and dry by his partners."
+      },
+      "collocations": [
+        "aim high",
+        "fly high",
+        "high and low",
+        "ride high"
+      ],
+      "synonyms": [
+        "aloft",
+        "up"
+      ],
+      "antonyms": [
+        "low"
+      ],
+      "relatedWords": {
+        "en": [
+          "highly",
+          "height"
+        ],
+        "ar": [
+          "للغاية",
+          "ارتفاع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "high",
+        "verb": "",
+        "adj": "high",
+        "adv": "highly"
+      },
+      "arabicAr": "عَالِياً",
+      "frenchFr": "haut",
+      "germanDe": "hoch",
+      "spanishEs": "alto",
+      "chineseZh": "高高地 (Gāo gāo de)",
+      "russianRu": "высоко",
+      "portuguesePt": "alto",
+      "japaneseJa": "高く (Takaku)",
+      "italianIt": "in alto",
+      "turkishTr": "yükseğe",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 337,
+      "wordEn": "something",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈsʌmθɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "سَمْثِنج",
+      "translit": "Shay' muhimm / Haja",
+      "definitionEn": "A person or thing of consequence or importance.",
+      "definitionAr": "لما تستخدمها كاسم عشان توصف حد إنه 'حاجة كبيرة' أو شيء له قيمة.",
+      "usageNote": "Informal usage: 'He thinks he is something' (arrogant) or 'That party was really something' (impressive).",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Importance",
+        "#Entity",
+        "#Value"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Some\" يعني بعض.. و \"Thing\" يعني شيء.. \"Something\" يعني شيء ما.",
+      "examples": {
+        "A1": "I want something to eat.",
+        "A2": "That movie was really something!",
+        "B1": "He thinks he is something special.",
+        "B2": "There is a certain something about her style.",
+        "C1": "Make something of yourself.",
+        "C2": "The experience was something of a revelation."
+      },
+      "collocations": [
+        "something else",
+        "really something",
+        "make something of"
+      ],
+      "synonyms": [
+        "entity",
+        "notable",
+        "somebody"
+      ],
+      "antonyms": [
+        "nothing",
+        "nobody"
+      ],
+      "relatedWords": {
+        "en": [
+          "somebody",
+          "somewhere"
+        ],
+        "ar": [
+          "شخص ما",
+          "مكان ما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "something",
+        "verb": "",
+        "adj": "",
+        "adv": "somewhat"
+      },
+      "arabicAr": "شَيْءٌ مُهِمّ / حَاجَة",
+      "frenchFr": "quelque chose",
+      "germanDe": "etwas",
+      "spanishEs": "algo",
+      "chineseZh": "重要人物 (Zhòng yào rén wù)",
+      "russianRu": "нечто",
+      "portuguesePt": "algo",
+      "japaneseJa": "大した物 (Taishitamono)",
+      "italianIt": "qualcosa",
+      "turkishTr": "bir şey",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 338,
+      "wordEn": "something",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈsʌmθɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "سَمْثِنج",
+      "translit": "Shay' ma",
+      "definitionEn": "An unspecified or unknown thing.",
+      "definitionAr": "شيء ما مش محدد. لما تكون مش عارف اسم الحاجة أو مش عايز تقولها.",
+      "usageNote": "Used in positive sentences. Use 'anything' in questions and negatives.",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Unspecified",
+        "#Object",
+        "#Pronoun"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have something for you.",
+        "A2": "Did you hear something?",
+        "B1": "Something is wrong with the car.",
+        "B2": "Let's do something fun.",
+        "C1": "There is something to be said for his approach.",
+        "C2": "Something tells me this is a bad idea."
+      },
+      "collocations": [
+        "something like",
+        "something else",
+        "something new",
+        "or something"
+      ],
+      "synonyms": [
+        "thing",
+        "item",
+        "object"
+      ],
+      "antonyms": [
+        "nothing",
+        "everything"
+      ],
+      "relatedWords": {
+        "en": [
+          "anything",
+          "nothing",
+          "everything"
+        ],
+        "ar": [
+          "أي شيء",
+          "لا شيء",
+          "كل شيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "something",
+        "verb": "",
+        "adj": "",
+        "adv": "somewhat"
+      },
+      "arabicAr": "شَيْءٌ مَا",
+      "frenchFr": "quelque chose",
+      "germanDe": "etwas",
+      "spanishEs": "algo",
+      "chineseZh": "某事 (Mǒu shì)",
+      "russianRu": "что-то",
+      "portuguesePt": "algo",
+      "japaneseJa": "何か (Nanika)",
+      "italianIt": "qualcosa",
+      "turkishTr": "bir şey",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 339,
+      "wordEn": "school",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "skuːl",
+      "phoneticUk": null,
+      "phoneticAr": "سْكُول",
+      "translit": "Madrasa",
+      "definitionEn": "An institution for educating children.",
+      "definitionAr": "المدرسة اللي بنروح نتعلم فيها. وممكن تيجي بمعنى مذهب فكري.",
+      "usageNote": "Can refer to the building, the time spent there, or a group of fish ('school of fish').",
+      "category": "Education & Learning",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Education",
+        "#Building",
+        "#Learning"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"School\".. كلنا عارفين الـ \"سْكُول\" وبنروحها كل يوم.",
+      "examples": {
+        "A1": "I go to school by bus.",
+        "A2": "School starts at 8 AM.",
+        "B1": "She is a primary school teacher.",
+        "B2": "He belongs to the old school of thought.",
+        "C1": "The painting belongs to the Dutch school.",
+        "C2": "We saw a large school of dolphins."
+      },
+      "collocations": [
+        "high school",
+        "primary school",
+        "go to school",
+        "school bus"
+      ],
+      "synonyms": [
+        "academy",
+        "institution",
+        "college"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "scholar",
+          "schooling",
+          "scholastic"
+        ],
+        "ar": [
+          "باحث",
+          "تعليم",
+          "مدرسي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "school",
+        "verb": "school",
+        "adj": "scholastic",
+        "adv": ""
+      },
+      "arabicAr": "مَدْرَسَة",
+      "frenchFr": "école",
+      "germanDe": "Schule",
+      "spanishEs": "escuela",
+      "chineseZh": "学校 (Xué xiào)",
+      "russianRu": "школа",
+      "portuguesePt": "escola",
+      "japaneseJa": "学校 (Gakkō)",
+      "italianIt": "scuola",
+      "turkishTr": "okul",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 340,
+      "wordEn": "small",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "smɔːl",
+      "phoneticUk": null,
+      "phoneticAr": "سْمُول",
+      "translit": "Saghir",
+      "definitionEn": "Little in size, amount, or degree.",
+      "definitionAr": "صغير في الحجم أو الكمية. عكس كبير.",
+      "usageNote": "Use 'small' for size; 'little' can imply emotion (e.g., 'poor little dog').",
+      "category": "Health & Senses",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Size",
+        "#Dimension",
+        "#Little"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Small\" عكس \"Tall\" أو \"All\".. الـ \"Small\" يعني حاجة صغيرة.",
+      "examples": {
+        "A1": "I have a small cat.",
+        "A2": "The room is too small.",
+        "B1": "He made a small mistake.",
+        "B2": "They run a small business.",
+        "C1": "She felt small after his criticism.",
+        "C2": "The difference is relatively small, statistically speaking."
+      },
+      "collocations": [
+        "small amount",
+        "small business",
+        "small talk",
+        "small world"
+      ],
+      "synonyms": [
+        "little",
+        "tiny",
+        "miniature"
+      ],
+      "antonyms": [
+        "big",
+        "large",
+        "huge"
+      ],
+      "relatedWords": {
+        "en": [
+          "smaller",
+          "smallest",
+          "smallness"
+        ],
+        "ar": [
+          "أصغر",
+          "الأصغر",
+          "صغر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "smallness",
+        "verb": "",
+        "adj": "small",
+        "adv": "small"
+      },
+      "arabicAr": "صَغِير",
+      "frenchFr": "petit",
+      "germanDe": "klein",
+      "spanishEs": "pequeño",
+      "chineseZh": "小 (Xiǎo)",
+      "russianRu": "маленький",
+      "portuguesePt": "pequeno",
+      "japaneseJa": "小さい (Chiisai)",
+      "italianIt": "piccolo",
+      "turkishTr": "küçük",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 341,
+      "wordEn": "place",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pleɪs",
+      "phoneticUk": null,
+      "phoneticAr": "بْلَيْس",
+      "translit": "Makan",
+      "definitionEn": "A particular position, point, or area in space.",
+      "definitionAr": "مكان محدد أو موقع. ممكن يكون بيتك، مدينتك، أو حتى مكانك في السباق.",
+      "usageNote": "Can refer to a home ('my place') or a rank ('first place').",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Space",
+        "#Position"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Place\" قريبة من \"Palace\" (قصر).. القصر هو \"Place\" كبير.",
+      "examples": {
+        "A1": "This is a nice place.",
+        "A2": "Let's go to my place.",
+        "B1": "He finished in first place.",
+        "B2": "Everything is in its proper place.",
+        "C1": "It is not my place to criticize him.",
+        "C2": "The events took place in the late 19th century."
+      },
+      "collocations": [
+        "take place",
+        "in place",
+        "first place",
+        "out of place"
+      ],
+      "synonyms": [
+        "location",
+        "spot",
+        "area",
+        "position"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "placement",
+          "replace",
+          "displace"
+        ],
+        "ar": [
+          "وضع",
+          "استبدال",
+          "إزاحة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "place",
+        "verb": "place",
+        "adj": "placed",
+        "adv": ""
+      },
+      "arabicAr": "مَكَان",
+      "frenchFr": "lieu",
+      "germanDe": "Ort",
+      "spanishEs": "lugar",
+      "chineseZh": "地方 (Dì fang)",
+      "russianRu": "место",
+      "portuguesePt": "lugar",
+      "japaneseJa": "場所 (Basho)",
+      "italianIt": "luogo",
+      "turkishTr": "yer",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 342,
+      "wordEn": "place",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "pleɪs",
+      "phoneticUk": null,
+      "phoneticAr": "بْلَيْس",
+      "translit": "Yada' / Yuhaddid Makan",
+      "definitionEn": "To put something in a particular position.",
+      "definitionAr": "يحط حاجة في مكان معين. أو يحدد هوية حد.",
+      "usageNote": "More formal than 'put'. Also used for orders ('place an order').",
+      "category": "Travel & Movement",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Put",
+        "#Position",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Place the book on the table.",
+        "A2": "Please place your order now.",
+        "B1": "She placed a hand on his shoulder.",
+        "B2": "I can't quite place his accent.",
+        "C1": "They placed too much emphasis on theory.",
+        "C2": "The child was placed in foster care."
+      },
+      "collocations": [
+        "place an order",
+        "place a bet",
+        "place emphasis",
+        "place trust"
+      ],
+      "synonyms": [
+        "put",
+        "set",
+        "position",
+        "locate"
+      ],
+      "antonyms": [
+        "remove",
+        "take"
+      ],
+      "relatedWords": {
+        "en": [
+          "placement",
+          "replacement"
+        ],
+        "ar": [
+          "تنسيب",
+          "استبدال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "place",
+        "verb": "place",
+        "adj": "placed",
+        "adv": ""
+      },
+      "arabicAr": "يَضَع / يُحَدِّد مَكَان",
+      "frenchFr": "placer",
+      "germanDe": "platzieren",
+      "spanishEs": "colocar",
+      "chineseZh": "放置 (Fàng zhì)",
+      "russianRu": "помещать",
+      "portuguesePt": "colocar",
+      "japaneseJa": "置く (Oku)",
+      "italianIt": "mettere",
+      "turkishTr": "yerleştirmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 343,
+      "wordEn": "before",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "bɪˈfɔːr",
+      "phoneticUk": "bɪˈfɔː",
+      "phoneticAr": "بِفُور",
+      "translit": "Min Qabl / Sabiqan",
+      "definitionEn": "At an earlier time; in the past.",
+      "definitionAr": "من قبل كده. لما تقول 'أنا شفت الفيلم ده قبل كده'.",
+      "usageNote": "Used at the end of a sentence (e.g., 'I've seen this before').",
+      "category": "Time & History",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Past",
+        "#Earlier"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Before\" عكس \"After\".. الـ \"B\" بتيجي قبل الـ \"F\" في الحروف.",
+      "examples": {
+        "A1": "I have been here before.",
+        "A2": "Have we met before?",
+        "B1": "Long before, he was a soldier.",
+        "B2": "The day before was sunny.",
+        "C1": "Whatever has happened before is irrelevant.",
+        "C2": "He had never spoken so openly before."
+      },
+      "collocations": [
+        "long before",
+        "never before",
+        "as before"
+      ],
+      "synonyms": [
+        "previously",
+        "earlier",
+        "formerly"
+      ],
+      "antonyms": [
+        "after",
+        "later"
+      ],
+      "relatedWords": {
+        "en": [
+          "beforehand",
+          "ago"
+        ],
+        "ar": [
+          "مسبقاً",
+          "منذ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "before"
+      },
+      "arabicAr": "مِنْ قَبْل / سَابِقاً",
+      "frenchFr": "avant",
+      "germanDe": "zuvor",
+      "spanishEs": "antes",
+      "chineseZh": "以前 (Yǐ qián)",
+      "russianRu": "раньше",
+      "portuguesePt": "antes",
+      "japaneseJa": "以前に (Izen ni)",
+      "italianIt": "prima",
+      "turkishTr": "önce",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 344,
+      "wordEn": "before",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "bɪˈfɔːr",
+      "phoneticUk": "bɪˈfɔː",
+      "phoneticAr": "بِفُور",
+      "translit": "Qabl",
+      "definitionEn": "During the period of time preceding an event.",
+      "definitionAr": "قبل وقت معين أو حدث معين. زي 'قبل الغدا' أو 'قبل الحرب'.",
+      "usageNote": "Followed by a noun or pronoun (e.g., 'before lunch').",
+      "category": "Time & History",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Preposition",
+        "#Time",
+        "#Sequence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Wash your hands before dinner.",
+        "A2": "I arrived before him.",
+        "B1": "He stood before the judge.",
+        "B2": "Finish the work before Friday.",
+        "C1": "They put duty before pleasure.",
+        "C2": "The task before us is daunting."
+      },
+      "collocations": [
+        "before long",
+        "before time",
+        "right before"
+      ],
+      "synonyms": [
+        "prior to",
+        "preceding",
+        "ahead of"
+      ],
+      "antonyms": [
+        "after",
+        "behind"
+      ],
+      "relatedWords": {
+        "en": [
+          "pre",
+          "fore"
+        ],
+        "ar": [
+          "قبل",
+          "أمام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "before"
+      },
+      "arabicAr": "قَبْل",
+      "frenchFr": "avant",
+      "germanDe": "vor",
+      "spanishEs": "antes de",
+      "chineseZh": "在...之前 (Zài... zhī qián)",
+      "russianRu": "до",
+      "portuguesePt": "antes de",
+      "japaneseJa": "の前に (No mae ni)",
+      "italianIt": "davanti a",
+      "turkishTr": "önce",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 345,
+      "wordEn": "before",
+      "pos": "conj",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "bɪˈfɔːr",
+      "phoneticUk": "bɪˈfɔː",
+      "phoneticAr": "بِفُور",
+      "translit": "Qabl An",
+      "definitionEn": "Earlier than the time that.",
+      "definitionAr": "قبل ما يحصل حاجة تانية. بتستخدم لربط جملتين.",
+      "usageNote": "Followed by a clause (subject + verb), e.g., 'Before I go'.",
+      "category": "Time & History",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Conjunction",
+        "#Time",
+        "#Link"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Think before you speak.",
+        "A2": "Call me before you leave.",
+        "B1": "It was an hour before the police arrived.",
+        "B2": "Do it before you forget.",
+        "C1": "Before we conclude, I have one question.",
+        "C2": "He had left before I could explain."
+      },
+      "collocations": [
+        "before I go",
+        "just before",
+        "long before"
+      ],
+      "synonyms": [
+        "ere"
+      ],
+      "antonyms": [
+        "after"
+      ],
+      "relatedWords": {
+        "en": [
+          "until",
+          "when"
+        ],
+        "ar": [
+          "حتى",
+          "عندما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "before"
+      },
+      "arabicAr": "قَبْلَ أنْ",
+      "frenchFr": "avant que",
+      "germanDe": "bevor",
+      "spanishEs": "antes de que",
+      "chineseZh": "在...以前 (Zài... yǐ qián)",
+      "russianRu": "прежде чем",
+      "portuguesePt": "antes que",
+      "japaneseJa": "する前に (Suru mae ni)",
+      "italianIt": "prima che",
+      "turkishTr": "-den önce",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

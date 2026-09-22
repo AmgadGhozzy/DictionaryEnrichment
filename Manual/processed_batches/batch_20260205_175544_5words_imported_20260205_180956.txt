@@ -1,0 +1,216 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 6,
+    "wordEn": "and",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 6,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ænd",
+    "phoneticAr": "آند",
+    "translit": "w",
+    "definitionEn": "[\"connect words of the same part of speech, clauses, or sentences, that are to be taken jointly.\", \"introduce an additional comment or interjection.\", \"used after some verbs and before another verb to indicate intention, instead of “to”.\"]",
+    "usageNote": "Used to connect certain numbers: connecting units when they precede tens ; connecting shillings to pence in a monetary quantity ; connecting tens and units to hundreds, thousands etc.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"and now to the dessert\", \"I cried and cried\", \"a hundred and fifty\", \"she washed and dried her hair\", \"they can read and write\"], \"A2\": [\"do that once more, and I'll skin you alive\"], \"B1\": [\"they believe they are descended from him, and quite right, too\", \"all human conduct is determined or caused—but there are causes and causes\"]}",
+    "collocations": "[\"logical and\", \"and error\"]",
+    "synonyms": "[\"plus\", \"with\", \"along with\", \"what's more\", \"together with\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"abs\", \"ampersands\", \"conjunctions\", \"connectors\", \"ndp\"], \"ar\": [\"واو العطف\", \"و\", \"أيضا\"]}",
+    "arabicAr": "و",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 7,
+    "wordEn": "a",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 7,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "æɪ",
+    "phoneticUk": "eɪ",
+    "phoneticAr": "آي",
+    "translit": "a",
+    "definitionEn": "[\"used when referring to someone or something for the first time in a text or conversation.\", \"indicate membership of a class of people or things.\", \"used when expressing rates or ratios; in, to, or for each; per.\"]",
+    "usageNote": "used to emphasize that person's current condition or emotional state.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"typing 60 words a minute\", \"a Mr. Smith telephoned\", \"a hundred\"]}",
+    "collocations": "[\"f ma\", \".mw-parser-output .texhtml.mw-parser-output .texhtml .texhtmlax n\", \"He's a bit thick, isn't he\", \"torn a pieces\", \"stand a tiptoe\"]",
+    "synonyms": "[\"equally\", \"angstrom\", \"vitamin A\", \"angstrom unit\", \"antiophthalmic factor\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"equally\", \"every bit\", \"arsenic\", \"atomic number 33\", \"electricity\"], \"ar\": [\"أداة تعريف إنجليزية غير\"]}",
+    "arabicAr": "أ / أداة تنكير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 8,
+    "wordEn": "in",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 8,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪn",
+    "phoneticUk": "ən",
+    "phoneticAr": "ين",
+    "translit": "fi",
+    "definitionEn": "[\"expressing the situation of something that is or appears to be enclosed or surrounded by something else.\", \"expressing a period of time during which an event takes place or a situation remains the case.\", \"expressing the length of time before a future event is expected to take place.\"]",
+    "usageNote": "Used to indicate location, inclusion, or position within spatial, temporal or abstract limits.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they met in 1885\", \"I read it in a book\", \"don't put dye in the bathtub\", \"say it in Polish\", \"a woman in her thirties\", \"dressed in their Sunday best\", \"the in train\"], \"A2\": [\"he got in his car and drove off\", \"he threw a fastball in and up a little\"]}",
+    "collocations": "[\"the in train\"]",
+    "synonyms": "[\"inch\", \"indium\", \"inside\", \"Indiana\", \"atomic number 49\"]",
+    "antonyms": "[\"out\", \"outside\"]",
+    "relatedWords": "{\"en\": [\"cbs\", \"nsis\", \"nih\", \"nsi\", \"establishment\"], \"ar\": [\"داخليّ\", \"إلى أو نحو داخل غرفة أو بيت\", \"في\", \"على\", \"إلى داخل\", \"في الشباك\"]}",
+    "arabicAr": "في",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 9,
+    "wordEn": "in",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 9,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪn",
+    "phoneticUk": "ən",
+    "phoneticAr": "ين",
+    "translit": "fi",
+    "definitionEn": "[\"expressing the situation of something that is or appears to be enclosed or surrounded by something else.\", \"expressing a period of time during which an event takes place or a situation remains the case.\", \"expressing the length of time before a future event is expected to take place.\"]",
+    "usageNote": "Used to indicate location, inclusion, or position within spatial, temporal or abstract limits.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they met in 1885\", \"I read it in a book\", \"don't put dye in the bathtub\", \"say it in Polish\", \"a woman in her thirties\", \"dressed in their Sunday best\", \"the in train\"], \"A2\": [\"he got in his car and drove off\", \"he threw a fastball in and up a little\"]}",
+    "collocations": "[\"the in train\"]",
+    "synonyms": "[\"inch\", \"indium\", \"inside\", \"Indiana\", \"atomic number 49\"]",
+    "antonyms": "[\"out\", \"outside\"]",
+    "relatedWords": "{\"en\": [\"cbs\", \"nsis\", \"nih\", \"nsi\", \"establishment\"], \"ar\": [\"داخليّ\", \"إلى أو نحو داخل غرفة أو بيت\", \"في\", \"على\", \"إلى داخل\", \"في الشباك\"]}",
+    "arabicAr": "في",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 10,
+    "wordEn": "in",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 10,
+    "frequency": 1,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪn",
+    "phoneticUk": "ən",
+    "phoneticAr": "ين",
+    "translit": "fi",
+    "definitionEn": "[\"expressing the situation of something that is or appears to be enclosed or surrounded by something else.\", \"expressing a period of time during which an event takes place or a situation remains the case.\", \"expressing the length of time before a future event is expected to take place.\"]",
+    "usageNote": "Used to indicate location, inclusion, or position within spatial, temporal or abstract limits.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they met in 1885\", \"I read it in a book\", \"don't put dye in the bathtub\", \"say it in Polish\", \"a woman in her thirties\", \"dressed in their Sunday best\", \"the in train\"], \"A2\": [\"he got in his car and drove off\", \"he threw a fastball in and up a little\"]}",
+    "collocations": "[\"the in train\"]",
+    "synonyms": "[\"inch\", \"indium\", \"inside\", \"Indiana\", \"atomic number 49\"]",
+    "antonyms": "[\"out\", \"outside\"]",
+    "relatedWords": "{\"en\": [\"cbs\", \"nsis\", \"nih\", \"nsi\", \"establishment\"], \"ar\": [\"داخليّ\", \"إلى أو نحو داخل غرفة أو بيت\", \"في\", \"على\", \"إلى داخل\", \"في الشباك\"]}",
+    "arabicAr": "في",
+    "addedFromOxford": 1
+  }
+]

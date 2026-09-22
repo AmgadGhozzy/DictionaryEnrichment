@@ -1,0 +1,569 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 56,
+    "wordEn": "she",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 56,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ʃi",
+    "phoneticUk": "ʃiː",
+    "phoneticAr": "شي",
+    "translit": "hi",
+    "definitionEn": "[\"refer to a woman, girl, or female animal previously mentioned or easily identified.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"is that a he or a she?\", \"she who rocks the cradle rules the world\", \"my sister told me that she was not happy\"], \"B1\": [\"only include your child if you know she won't distract you\"], \"B2\": [\"I was aboard the St. Roch shortly before she sailed for the Northwest Passage\"]}",
+    "collocations": "[\"how she\"]",
+    "synonyms": "[\"lady\", \"wife\", \"girl\", \"mama\", \"woman\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"woman\", \"lady\", \"wife\", \"girl\", \"mama\"], \"ar\": [\"هِي\", \"الأُنثى\", \"أنثى\", \"هي\", \"بنت\", \"أنثى الحيوان\"]}",
+    "arabicAr": "هي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 57,
+    "wordEn": "or",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 57,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɔɹ",
+    "phoneticUk": "ɔː(ɹ)",
+    "phoneticAr": "أور",
+    "translit": "'aw / ''aw",
+    "definitionEn": "[\"introducing a synonym or explanation of a preceding word or phrase.\", \"introducing an afterthought, usually in the form of a question.\", \"gold or yellow, as a heraldic tincture.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a cup of tea or coffee\", \"are you coming or not ?\", \"she couldn't read or write\", \"a bend or\", \"The country Myanmar, or Burma\"], \"A2\": [\"I either take taxis or walk everywhere\", \"hurry up, or you'll miss it all\"], \"B1\": [\"the espionage novel, or, as it is known in the trade, the thriller\"]}",
+    "collocations": "[\"The country Myanmar, or Burma\"]",
+    "synonyms": "[\"gold\", \"Oregon\", \"Beaver State\", \"operating room\", \"operating theater\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"gold\", \"ria\", \"sabs\", \"retirement\", \"sor\"], \"ar\": [\"أم\", \"أو\", \"ذهَبيّ\", \"ذهبٌ\", \"وإلّا\", \"وإمّا\"]}",
+    "arabicAr": "أو",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 58,
+    "wordEn": "which",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 58,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪt͡ʃ",
+    "phoneticAr": "ويتش",
+    "translit": "ay / alty",
+    "definitionEn": "[\"asking for information specifying one or more people or things from a definite set.\", \"used referring to something previously mentioned when introducing a clause giving further information.\", \"Of what sort or kind\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"which way is the wind blowing?\", \"which of the suspects murdered him?\"], \"A2\": [\"a conference in Vienna which ended on Friday\"], \"B1\": [\"which are the best varieties of grapes for long keeping?\", \"it was a crisis for which he was totally unprepared\", \"your claim ought to succeed, in which case the damages will be substantial\"]}",
+    "collocations": "[\"Which song shall we play\", \"new which\", \"which treats\"]",
+    "synonyms": "[]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"that\", \"whatsoever\", \"whatever\", \"whichsoever\", \"whichever\"], \"ar\": [\"أيّ\", \"أيّة\", \"الّذِي\", \"التي\", \"أيّهما\", \"ذاك\"]}",
+    "arabicAr": "أيّ / أي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 59,
+    "wordEn": "which",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 59,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪt͡ʃ",
+    "phoneticAr": "ويتش",
+    "translit": "ay / alty",
+    "definitionEn": "[\"asking for information specifying one or more people or things from a definite set.\", \"used referring to something previously mentioned when introducing a clause giving further information.\", \"Of what sort or kind\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"which way is the wind blowing?\", \"which of the suspects murdered him?\"], \"A2\": [\"a conference in Vienna which ended on Friday\"], \"B1\": [\"which are the best varieties of grapes for long keeping?\", \"it was a crisis for which he was totally unprepared\", \"your claim ought to succeed, in which case the damages will be substantial\"]}",
+    "collocations": "[\"Which song shall we play\", \"new which\", \"which treats\"]",
+    "synonyms": "[]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"that\", \"whatsoever\", \"whatever\", \"whichsoever\", \"whichever\"], \"ar\": [\"أيّ\", \"أيّة\", \"الّذِي\", \"التي\", \"أيّهما\", \"ذاك\"]}",
+    "arabicAr": "أيّ / أي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 60,
+    "wordEn": "which",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 60,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪt͡ʃ",
+    "phoneticAr": "ويتش",
+    "translit": "ay / alty",
+    "definitionEn": "[\"asking for information specifying one or more people or things from a definite set.\", \"used referring to something previously mentioned when introducing a clause giving further information.\", \"Of what sort or kind\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"which way is the wind blowing?\", \"which of the suspects murdered him?\"], \"A2\": [\"a conference in Vienna which ended on Friday\"], \"B1\": [\"which are the best varieties of grapes for long keeping?\", \"it was a crisis for which he was totally unprepared\", \"your claim ought to succeed, in which case the damages will be substantial\"]}",
+    "collocations": "[\"Which song shall we play\", \"new which\", \"which treats\"]",
+    "synonyms": "[]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"that\", \"whatsoever\", \"whatever\", \"whichsoever\", \"whichever\"], \"ar\": [\"أيّ\", \"أيّة\", \"الّذِي\", \"التي\", \"أيّهما\", \"ذاك\"]}",
+    "arabicAr": "أيّ / أي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 61,
+    "wordEn": "as",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 61,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æz",
+    "phoneticAr": "آز",
+    "translit": "mithl / mathal",
+    "definitionEn": "[\"used in comparisons to refer to the extent or degree of something.\", \"indicate that something happens during the time when something is taking place.\", \"indicate by comparison the way that something happens or is done.\"]",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were treated as foreigners\", \"they can do as they wish\", \"As you wish, my lord\"], \"A2\": [\"as she grew older, she kept more to herself\", \"Frank watched him as he ambled through the crowd\", \"he had often been sick as a child\", \"dress as you would if you were having guests\"], \"B1\": [\"I must stop now as I have to go out\"], \"B2\": [\"as a dairy producer, you should evaluate and analyze your farm from many viewpoints\"]}",
+    "collocations": "[\"Do as I say\", \"As you wish, my lord\", \"sweet as\"]",
+    "synonyms": "[\"while\", \"arsenic\", \"Eastern Samoa\", \"American Samoa\", \"atomic number 33\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"equally\", \"every bit\", \"arsenic\", \"atomic number 33\", \"electricity\"], \"ar\": [\"مثلاً\", \"إذ\", \"بِمَثَابَة\", \"بَيْنَمَا\", \"حالِية\", \"حَسَب\"]}",
+    "arabicAr": "مثل / كأن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 62,
+    "wordEn": "as",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 62,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æz",
+    "phoneticAr": "آز",
+    "translit": "mithl / mathal",
+    "definitionEn": "[\"used in comparisons to refer to the extent or degree of something.\", \"indicate that something happens during the time when something is taking place.\", \"indicate by comparison the way that something happens or is done.\"]",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were treated as foreigners\", \"they can do as they wish\", \"As you wish, my lord\"], \"A2\": [\"as she grew older, she kept more to herself\", \"Frank watched him as he ambled through the crowd\", \"he had often been sick as a child\", \"dress as you would if you were having guests\"], \"B1\": [\"I must stop now as I have to go out\"], \"B2\": [\"as a dairy producer, you should evaluate and analyze your farm from many viewpoints\"]}",
+    "collocations": "[\"Do as I say\", \"As you wish, my lord\", \"sweet as\"]",
+    "synonyms": "[\"while\", \"arsenic\", \"Eastern Samoa\", \"American Samoa\", \"atomic number 33\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"equally\", \"every bit\", \"arsenic\", \"atomic number 33\", \"electricity\"], \"ar\": [\"مثلاً\", \"إذ\", \"بِمَثَابَة\", \"بَيْنَمَا\", \"حالِية\", \"حَسَب\"]}",
+    "arabicAr": "مثل / كأن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 63,
+    "wordEn": "as",
+    "pos": "conj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 63,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "æz",
+    "phoneticAr": "آز",
+    "translit": "mithl / mathal",
+    "definitionEn": "[\"used in comparisons to refer to the extent or degree of something.\", \"indicate that something happens during the time when something is taking place.\", \"indicate by comparison the way that something happens or is done.\"]",
+    "category": "Food & Drink",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were treated as foreigners\", \"they can do as they wish\", \"As you wish, my lord\"], \"A2\": [\"as she grew older, she kept more to herself\", \"Frank watched him as he ambled through the crowd\", \"he had often been sick as a child\", \"dress as you would if you were having guests\"], \"B1\": [\"I must stop now as I have to go out\"], \"B2\": [\"as a dairy producer, you should evaluate and analyze your farm from many viewpoints\"]}",
+    "collocations": "[\"Do as I say\", \"As you wish, my lord\", \"sweet as\"]",
+    "synonyms": "[\"while\", \"arsenic\", \"Eastern Samoa\", \"American Samoa\", \"atomic number 33\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"equally\", \"every bit\", \"arsenic\", \"atomic number 33\", \"electricity\"], \"ar\": [\"مثلاً\", \"إذ\", \"بِمَثَابَة\", \"بَيْنَمَا\", \"حالِية\", \"حَسَب\"]}",
+    "arabicAr": "مثل / كأن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 64,
+    "wordEn": "we",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 64,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wi",
+    "phoneticUk": "wiː",
+    "phoneticAr": "وي",
+    "translit": "nahn",
+    "definitionEn": "[\"used by a speaker to refer to himself or herself and one or more other people considered together.\", \"used in formal contexts for or by a royal person, or by a writer or editor, to refer to himself or herself.\", \"used condescendingly to refer to the person being addressed.\"]",
+    "usageNote": "Used to refer to a third person, especially someone in the speaker's care.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"shall we have a drink?\", \"how are we today?\"], \"A2\": [\"nobody knows kids better than we teachers do\", \"in this section we discuss the reasons\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"ganja\", \"grass\", \"cannabis\", \"marijuana\", \"marihuana\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"cannabis\", \"marijuana\", \"ganja\", \"marihuana\", \"grass\"], \"ar\": [\"نَحْنُ\", \"نحن\"]}",
+    "arabicAr": "نحن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 65,
+    "wordEn": "say",
+    "pos": "noun",
+    "cefrLevel": "C1",
+    "fromOxford": 1,
+    "rank": 65,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "seɪ",
+    "phoneticAr": "ساي",
+    "translit": "yaqul / qul",
+    "definitionEn": "[\"utter words so as to convey information, an opinion, a feeling or intention, or an instruction.\", \"assume something in order to work out what its consequences would be; make a hypothesis.\", \"an opportunity for stating one's opinion or feelings.\"]",
+    "usageNote": "used to mark an example, supposition or hypothesis.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"I don't want to say too much\", \"the form might include, say, a dozen questions\", \"we say the Pledge of Allegiance each morning\"], \"B1\": [\"the voters are entitled to have their say on the treaty\", \"the assessor will have a say in how the money is spent\", \"the households concerned would still have some say in what happened\", \"let's say we pay five thousand dollars in the first year\"], \"B2\": [\"all I can say for him is that he's a better writer than some\"]}",
+    "collocations": "[\"final say\", \"say what\"]",
+    "synonyms": "[\"tell\", \"aver\", \"state\", \"speak\", \"allege\"]",
+    "antonyms": "[\"exactly\"]",
+    "relatedWords": "{\"en\": [\"enunciate\", \"articulate\", \"enounce\", \"read\", \"pronounce\"], \"ar\": [\"كَلِمَة\", \"رَأي\", \"قَوْل\", \"تقريبًا\", \"حوالى\", \"صَوْت\"]}",
+    "arabicAr": "يقول",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 66,
+    "wordEn": "say",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 66,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "seɪ",
+    "phoneticAr": "ساي",
+    "translit": "yaqul / qul",
+    "definitionEn": "[\"utter words so as to convey information, an opinion, a feeling or intention, or an instruction.\", \"assume something in order to work out what its consequences would be; make a hypothesis.\", \"an opportunity for stating one's opinion or feelings.\"]",
+    "usageNote": "used to mark an example, supposition or hypothesis.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"I don't want to say too much\", \"the form might include, say, a dozen questions\", \"we say the Pledge of Allegiance each morning\"], \"B1\": [\"the voters are entitled to have their say on the treaty\", \"the assessor will have a say in how the money is spent\", \"the households concerned would still have some say in what happened\", \"let's say we pay five thousand dollars in the first year\"], \"B2\": [\"all I can say for him is that he's a better writer than some\"]}",
+    "collocations": "[\"final say\", \"say what\"]",
+    "synonyms": "[\"tell\", \"aver\", \"state\", \"speak\", \"allege\"]",
+    "antonyms": "[\"exactly\"]",
+    "relatedWords": "{\"en\": [\"enunciate\", \"articulate\", \"enounce\", \"read\", \"pronounce\"], \"ar\": [\"كَلِمَة\", \"رَأي\", \"قَوْل\", \"تقريبًا\", \"حوالى\", \"صَوْت\"]}",
+    "arabicAr": "يقول",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 67,
+    "wordEn": "will",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 67,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪl",
+    "phoneticAr": "ويل",
+    "translit": "sawf / ''iirada",
+    "definitionEn": "[\"expressing the future tense.\", \"expressing inevitable events.\", \"expressing a request.\"]",
+    "usageNote": "Used to express the future tense, sometimes with an implication of volition or determination when used in the first person.",
+    "category": "Mind & Thinking",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"will you have a cognac?\", \"an act of will\", \"she will dance for hours\", \"will you stop here, please\", \"the disaster was God's will\"], \"A2\": [\"they will be miles away by now\", \"you will regret it when you are older\"], \"B1\": [\"Jane had not wanted them to stay against their will\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"leave\", \"volition\", \"bequeath\", \"testament\", \"have a tendency to\"]",
+    "antonyms": "[\"disinherit\"]",
+    "relatedWords": "{\"en\": [\"volition\", \"shall\", \"wish\", \"bequeath\", \"testament\"], \"ar\": [\"إخْتَيار\", \"إرَادَة\", \"إصْرار\", \"تَصْمِيم\", \"خاطِر\", \"رَغْبَة\"]}",
+    "arabicAr": "سوف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 68,
+    "wordEn": "will",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 68,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɪl",
+    "phoneticAr": "ويل",
+    "translit": "sawf / ''iirada",
+    "definitionEn": "[\"expressing the future tense.\", \"expressing inevitable events.\", \"expressing a request.\"]",
+    "usageNote": "Used to express the future tense, sometimes with an implication of volition or determination when used in the first person.",
+    "category": "Mind & Thinking",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"will you have a cognac?\", \"an act of will\", \"she will dance for hours\", \"will you stop here, please\", \"the disaster was God's will\"], \"A2\": [\"they will be miles away by now\", \"you will regret it when you are older\"], \"B1\": [\"Jane had not wanted them to stay against their will\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"leave\", \"volition\", \"bequeath\", \"testament\", \"have a tendency to\"]",
+    "antonyms": "[\"disinherit\"]",
+    "relatedWords": "{\"en\": [\"volition\", \"shall\", \"wish\", \"bequeath\", \"testament\"], \"ar\": [\"إخْتَيار\", \"إرَادَة\", \"إصْرار\", \"تَصْمِيم\", \"خاطِر\", \"رَغْبَة\"]}",
+    "arabicAr": "سوف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 69,
+    "wordEn": "would",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 69,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wʊd",
+    "phoneticUk": "wəd",
+    "phoneticAr": "وود",
+    "translit": "kan / sayakun",
+    "definitionEn": "[\"past of will1, in various senses.\", \"indicating the consequence of an imagined event or situation.\", \"expressing a desire or inclination.\"]",
+    "usageNote": "Used to form the \"anterior future\", or \"future in the past\", indicating a futurity relative to a past time.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"would you pour the wine, please?\", \"would you like some water?\", \"who would live here?\", \"I would have to agree\"], \"A2\": [\"would that he had lived to finish it\", \"I would love to work in Prague\", \"he would lose his job if he were identified\", \"every night we would hear the boy crying\"]}",
+    "collocations": "[\"Would you pass the salt, please\", \"new would\", \"would life\"]",
+    "synonyms": "[\"order\", \"decree\", \"are bound to\", \"have a habit of\", \"have a tendency to\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ought\", \"expected\", \"wish\", \"association\", \"only\"], \"ar\": [\"سوف\", \"ليت\", \"أراد\", \"هل لك أن\", \"تمنى\", \"إرادة\"]}",
+    "arabicAr": "كان / كان سوف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 70,
+    "wordEn": "would",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 70,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wʊd",
+    "phoneticUk": "wəd",
+    "phoneticAr": "وود",
+    "translit": "kan / sayakun",
+    "definitionEn": "[\"past of will1, in various senses.\", \"indicating the consequence of an imagined event or situation.\", \"expressing a desire or inclination.\"]",
+    "usageNote": "Used to form the \"anterior future\", or \"future in the past\", indicating a futurity relative to a past time.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"would you pour the wine, please?\", \"would you like some water?\", \"who would live here?\", \"I would have to agree\"], \"A2\": [\"would that he had lived to finish it\", \"I would love to work in Prague\", \"he would lose his job if he were identified\", \"every night we would hear the boy crying\"]}",
+    "collocations": "[\"Would you pass the salt, please\", \"new would\", \"would life\"]",
+    "synonyms": "[\"order\", \"decree\", \"are bound to\", \"have a habit of\", \"have a tendency to\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ought\", \"expected\", \"wish\", \"association\", \"only\"], \"ar\": [\"سوف\", \"ليت\", \"أراد\", \"هل لك أن\", \"تمنى\", \"إرادة\"]}",
+    "arabicAr": "كان / كان سوف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 71,
+    "wordEn": "can",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 71,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈkæn",
+    "phoneticAr": "كآن",
+    "translit": "yastatie",
+    "definitionEn": "[\"ask someone to do something.\", \"a cylindrical metal container.\", \"A vessel or case of tinned iron or of sheet metal, of various forms, but usually cylindrical .\"]",
+    "usageNote": "Used to form requests, typically polite.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"can you open the window?\", \"they can run fast\", \"where can she have gone?\", \"I can speak Italian\"], \"A2\": [\"you can use the phone if you want to\", \"there are many ways vacationers can take money abroad\", \"we can have another drink if you like\"], \"B1\": [\"antique clocks can seem out of place in modern homes\"]}",
+    "collocations": "[\"Can you remember your fifth birthday\", \"Can you hear that\", \"Can I use your pen\", \"Can it be Friday already\", \"Can you please come over here\"]",
+    "synonyms": "[\"tin\", \"canful\", \"canister\", \"tin can\", \"can buoy\"]",
+    "antonyms": "[\"hire\", \"can't\", \"cannot\"]",
+    "relatedWords": "{\"en\": [\"fundament\", \"may\", \"might\", \"facility\", \"get\"], \"ar\": [\"إسْتَطاعَ\", \"تَمَكّنَ مِن\", \"صَفِيحَة\", \"عُلْبَة\", \"كَيْلَة\", \"مَجْمَع\"]}",
+    "arabicAr": "يستطيع",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 72,
+    "wordEn": "can",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 72,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ˈkæn",
+    "phoneticAr": "كآن",
+    "translit": "yastatie",
+    "definitionEn": "[\"ask someone to do something.\", \"a cylindrical metal container.\", \"A vessel or case of tinned iron or of sheet metal, of various forms, but usually cylindrical .\"]",
+    "usageNote": "Used to form requests, typically polite.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"can you open the window?\", \"they can run fast\", \"where can she have gone?\", \"I can speak Italian\"], \"A2\": [\"you can use the phone if you want to\", \"there are many ways vacationers can take money abroad\", \"we can have another drink if you like\"], \"B1\": [\"antique clocks can seem out of place in modern homes\"]}",
+    "collocations": "[\"Can you remember your fifth birthday\", \"Can you hear that\", \"Can I use your pen\", \"Can it be Friday already\", \"Can you please come over here\"]",
+    "synonyms": "[\"tin\", \"canful\", \"canister\", \"tin can\", \"can buoy\"]",
+    "antonyms": "[\"hire\", \"can't\", \"cannot\"]",
+    "relatedWords": "{\"en\": [\"fundament\", \"may\", \"might\", \"facility\", \"get\"], \"ar\": [\"إسْتَطاعَ\", \"تَمَكّنَ مِن\", \"صَفِيحَة\", \"عُلْبَة\", \"كَيْلَة\", \"مَجْمَع\"]}",
+    "arabicAr": "يستطيع",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 73,
+    "wordEn": "if",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 73,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪf",
+    "phoneticAr": "يف",
+    "translit": "lw / ''iidha",
+    "definitionEn": "[\"on the condition or supposition that; in the event that.\", \"despite the possibility that; no matter whether.\", \"expressing a polite request.\"]",
+    "usageNote": "used to introduce a condition that may be (or prove to be) either true or false.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"well, if it isn't Frank!\"], \"A2\": [\"if there was any weakness, it was naiveté\", \"if you have a complaint, write to the director\", \"if I could just be left alone\", \"see if you can track it down\", \"if you wouldn't mind giving him a message?\"], \"B1\": [\"if you like I'll put in a word for you\", \"that's an awfully long walk, if you don't mind my saying so\"]}",
+    "collocations": "[\"if A then B else C\"]",
+    "synonyms": "[\"provided\", \"providing\", \"presuming\", \"supposing\", \"on condition that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"then\", \"config\", \"provided\", \"provided that\", \"assuming\"], \"ar\": [\"إمّا\", \"أيّان\", \"لَو\", \"إذَا\", \"إن\", \"افتراض\"]}",
+    "arabicAr": "لو / إذا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 74,
+    "wordEn": "if",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 74,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪf",
+    "phoneticAr": "يف",
+    "translit": "lw / ''iidha",
+    "definitionEn": "[\"on the condition or supposition that; in the event that.\", \"despite the possibility that; no matter whether.\", \"expressing a polite request.\"]",
+    "usageNote": "used to introduce a condition that may be (or prove to be) either true or false.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"well, if it isn't Frank!\"], \"A2\": [\"if there was any weakness, it was naiveté\", \"if you have a complaint, write to the director\", \"if I could just be left alone\", \"see if you can track it down\", \"if you wouldn't mind giving him a message?\"], \"B1\": [\"if you like I'll put in a word for you\", \"that's an awfully long walk, if you don't mind my saying so\"]}",
+    "collocations": "[\"if A then B else C\"]",
+    "synonyms": "[\"provided\", \"providing\", \"presuming\", \"supposing\", \"on condition that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"then\", \"config\", \"provided\", \"provided that\", \"assuming\"], \"ar\": [\"إمّا\", \"أيّان\", \"لَو\", \"إذَا\", \"إن\", \"افتراض\"]}",
+    "arabicAr": "لو / إذا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 75,
+    "wordEn": "their",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 75,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðɛɚ",
+    "phoneticUk": "ðeə",
+    "phoneticAr": "ذاير",
+    "translit": "hum",
+    "definitionEn": "[\"belonging to or associated with the people or things previously mentioned or easily identified.\", \"The possessive case of the personal pronoun they .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"her taunts had lost their power to touch him\", \"parents are keen to help their children\", \"she heard someone blow their nose loudly\"], \"B1\": [\"Sasha feels comfortable wearing a skirt. It's part of their style\"]}",
+    "collocations": "[\"preventing their\", \"their construction\"]",
+    "synonyms": "[\"personal\", \"specially\", \"aboriginal\", \"particular\", \"respective\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"aboriginal\", \"particular\", \"personal\", \"specially\", \"respective\"], \"ar\": [\"هُمْ\", \"ها\", \"هما\", \"هنّ\", \"ـهُمْ\", \"هُنّ\"]}",
+    "arabicAr": "هُم / هم / ضمير متصل",
+    "addedFromOxford": 0
+  }
+]

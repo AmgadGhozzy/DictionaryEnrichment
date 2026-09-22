@@ -1,0 +1,2199 @@
+{
+  "wordEntries": [
+    {
+      "id": 3153,
+      "wordEn": "swing",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "swɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "سْوِينْج",
+      "translit": "Urjuḥa / Ta'arjuh",
+      "definitionEn": "A rhythmic movement back and forth or from side to side, often on a suspended seat.",
+      "definitionAr": "الحركة اللي بتروح وتيجي زي المرجحة، أو المرجحة نفسها اللي بنلعب عليها.",
+      "usageNote": "Used for the action of moving back and forth, or the object (seat) itself.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Play",
+        "#Movement",
+        "#Sports"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Wing\" يعني جناح.. تخيل طائر بيفرد جناحه وبيعمل \"Swing\" مرجحة في الهوا.",
+      "examples": {
+        "A1": "The kids play on the swing in the park.",
+        "A2": "She sat on the swing and moved her legs.",
+        "B1": "The swing of the pendulum controls the clock.",
+        "B2": "His mood swings are difficult to predict.",
+        "C1": "There has been a significant swing in public opinion.",
+        "C2": "The election result represented a violent swing to the right."
+      },
+      "collocations": [
+        "mood swing",
+        "in full swing",
+        "swing set",
+        "golf swing"
+      ],
+      "synonyms": [
+        "oscillation",
+        "sway",
+        "fluctuation",
+        "rhythm"
+      ],
+      "antonyms": [
+        "stability",
+        "stillness"
+      ],
+      "relatedWords": {
+        "en": [
+          "sway",
+          "rock",
+          "pendulum"
+        ],
+        "ar": [
+          "تأرجح",
+          "اهتزاز",
+          "بندول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "swing",
+        "verb": "swing",
+        "adj": "swinging",
+        "adv": "swingingly"
+      },
+      "arabicAr": "أرجوحة / تأرجح",
+      "frenchFr": "balançoire",
+      "germanDe": "Schaukel",
+      "spanishEs": "columpio",
+      "chineseZh": "秋千 (Qiū qiān)",
+      "russianRu": "качели",
+      "portuguesePt": "balanço",
+      "japaneseJa": "ブランコ (Buranko)",
+      "italianIt": "altalena",
+      "turkishTr": "salıncak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3154,
+      "wordEn": "swing",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "swɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "سْوِينْج",
+      "translit": "Yata'arjah",
+      "definitionEn": "To move back and forth or from side to side while suspended or on an axis.",
+      "definitionAr": "إنك تتحرك رايح جاي زي البندول أو المرجحة، أو تحرك حاجة بنفس الطريقة.",
+      "usageNote": "Can imply physical movement or a shift in opinion/mood.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Action",
+        "#Motion",
+        "#Change"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Wing\" جناح.. الطائر بيحرك جناحه وبيعمل \"Swing\" يتأرجح في الهوا.",
+      "examples": {
+        "A1": "Monkeys swing from tree to tree.",
+        "A2": "Please do not swing the door open so fast.",
+        "B1": "He walked along, swinging his arms.",
+        "B2": "We need to swing the car around to park.",
+        "C1": "She managed to swing the deal in her favor.",
+        "C2": "Public sentiment can swing violently during a crisis."
+      },
+      "collocations": [
+        "swing open",
+        "swing by",
+        "swing into action",
+        "swing a deal"
+      ],
+      "synonyms": [
+        "sway",
+        "oscillate",
+        "rock",
+        "wave"
+      ],
+      "antonyms": [
+        "stabilize",
+        "fix"
+      ],
+      "relatedWords": {
+        "en": [
+          "swung",
+          "swinger"
+        ],
+        "ar": [
+          "تأرجح",
+          "اهتز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "swing",
+        "verb": "swing",
+        "adj": "swinging",
+        "adv": ""
+      },
+      "arabicAr": "يتأرجح",
+      "frenchFr": "se balancer",
+      "germanDe": "schwingen",
+      "spanishEs": "balancear",
+      "chineseZh": "摆动 (Bǎi dòng)",
+      "russianRu": "качаться",
+      "portuguesePt": "balançar",
+      "japaneseJa": "揺れる (Yureru)",
+      "italianIt": "dondolare",
+      "turkishTr": "sallanmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3155,
+      "wordEn": "rapid",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈɹæpɪd",
+      "phoneticUk": null,
+      "phoneticAr": "رَابِد",
+      "translit": "Sari'",
+      "definitionEn": "Happening in a short time or at a fast pace.",
+      "definitionAr": "حاجة بتحصل بسرعة جدًا أو في وقت قصير.",
+      "usageNote": "Often implies a faster rate than just 'fast' or 'quick', frequently used for changes or growth.",
+      "category": "Time & Speed",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Speed",
+        "#Growth",
+        "#Change"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Rabbit\" أرنب.. والأرنب معروف إنه \"Rapid\" سريع جدًا.",
+      "examples": {
+        "A1": "The car is very rapid.",
+        "A2": "We saw a rapid change in the weather.",
+        "B1": "The patient made a rapid recovery.",
+        "B2": "The company is experiencing rapid growth.",
+        "C1": "Rapid urbanization is causing social problems.",
+        "C2": "The rapid deterioration of the political situation alarmed everyone."
+      },
+      "collocations": [
+        "rapid growth",
+        "rapid change",
+        "rapid fire",
+        "rapid response"
+      ],
+      "synonyms": [
+        "fast",
+        "quick",
+        "swift",
+        "speedy"
+      ],
+      "antonyms": [
+        "slow",
+        "sluggish",
+        "leisurely"
+      ],
+      "relatedWords": {
+        "en": [
+          "rapidity",
+          "rapidly"
+        ],
+        "ar": [
+          "سرعة",
+          "بسرعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rapidity",
+        "verb": "",
+        "adj": "rapid",
+        "adv": "rapidly"
+      },
+      "arabicAr": "سريع",
+      "frenchFr": "rapide",
+      "germanDe": "schnell",
+      "spanishEs": "rápido",
+      "chineseZh": "迅速 (Xùn sù)",
+      "russianRu": "быстрый",
+      "portuguesePt": "rápido",
+      "japaneseJa": "急速な (Kyūsoku na)",
+      "italianIt": "rapido",
+      "turkishTr": "hızlı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3156,
+      "wordEn": "rough",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹʌf",
+      "phoneticUk": null,
+      "phoneticAr": "رَاف",
+      "translit": "Khashin / Ghayr mustawin",
+      "definitionEn": "Having an uneven or irregular surface; not smooth or level.",
+      "definitionAr": "لما السطح يكون خشن ومش ناعم، أو لما التعامل يكون عنيف شوية.",
+      "usageNote": "Can describe surfaces, weather (storms), estimates (not exact), or behavior (violent).",
+      "category": "Senses & Feelings",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Texture",
+        "#Violence",
+        "#Estimation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "السطح يعني \"Roof\".. لو السطح مش مدهون بيبقى \"Rough\" خشن.",
+      "examples": {
+        "A1": "The cat has a rough tongue.",
+        "A2": "The sea was very rough yesterday.",
+        "B1": "Can you give me a rough idea of the cost?",
+        "B2": "He had a rough day at work.",
+        "C1": "The police used rough tactics to control the crowd.",
+        "C2": "We slept in a rough shelter made of branches."
+      },
+      "collocations": [
+        "rough skin",
+        "rough guess",
+        "rough time",
+        "rough sea"
+      ],
+      "synonyms": [
+        "uneven",
+        "coarse",
+        "rugged",
+        "approximate"
+      ],
+      "antonyms": [
+        "smooth",
+        "gentle",
+        "exact"
+      ],
+      "relatedWords": {
+        "en": [
+          "roughness",
+          "roughly",
+          "roughen"
+        ],
+        "ar": [
+          "خشونة",
+          "تقريباً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "roughness",
+        "verb": "roughen",
+        "adj": "rough",
+        "adv": "roughly"
+      },
+      "arabicAr": "خشن / غير مستوٍ",
+      "frenchFr": "rugueux",
+      "germanDe": "rau",
+      "spanishEs": "áspero",
+      "chineseZh": "粗糙 (Cū cāo)",
+      "russianRu": "грубый",
+      "portuguesePt": "áspero",
+      "japaneseJa": "荒い (Arai)",
+      "italianIt": "ruvido",
+      "turkishTr": "kaba",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3157,
+      "wordEn": "investor",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɪnˈvɛstɚ",
+      "phoneticUk": "ɪnˈvestə",
+      "phoneticAr": "إِنْفِسْتَر",
+      "translit": "Mustathmir",
+      "definitionEn": "A person or organization that puts money into financial schemes with the expectation of achieving a profit.",
+      "definitionAr": "الشخص أو الشركة اللي بتدفع فلوس في مشروع عشان تكسب منه أرباح بعدين.",
+      "usageNote": "Common in business contexts. Can be an individual (angel investor) or institutional.",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Finance",
+        "#Business",
+        "#Money"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Invest\".. كلمة \"Vest\" يعني سُترة.. الـ \"Investor\" هو اللي بيحط فلوسه في الـ \"Vest\" عشان تزيد.",
+      "examples": {
+        "A1": "He is a rich investor.",
+        "A2": "The investor bought a new shop.",
+        "B1": "Investors are looking for new opportunities.",
+        "B2": "The company needs to attract foreign investors.",
+        "C1": "Institutional investors hold a large share of the market.",
+        "C2": "The sentiment among angel investors has shifted cautiously."
+      },
+      "collocations": [
+        "foreign investor",
+        "angel investor",
+        "investor confidence",
+        "private investor"
+      ],
+      "synonyms": [
+        "backer",
+        "financier",
+        "shareholder",
+        "capitalist"
+      ],
+      "antonyms": [
+        "borrower"
+      ],
+      "relatedWords": {
+        "en": [
+          "invest",
+          "investment",
+          "investing"
+        ],
+        "ar": [
+          "استثمار",
+          "يستثمر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "investor",
+        "verb": "invest",
+        "adj": "investment",
+        "adv": ""
+      },
+      "arabicAr": "مستثمر",
+      "frenchFr": "investisseur",
+      "germanDe": "Investor",
+      "spanishEs": "inversor",
+      "chineseZh": "投资者 (Tóu zī zhě)",
+      "russianRu": "инвестор",
+      "portuguesePt": "investidor",
+      "japaneseJa": "投資家 (Tōshika)",
+      "italianIt": "investitore",
+      "turkishTr": "yatırımcı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3158,
+      "wordEn": "rank",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹæŋk",
+      "phoneticUk": null,
+      "phoneticAr": "رَانْك",
+      "translit": "Karih al-ra'iha / Fadih",
+      "definitionEn": "Having a foul or offensive smell; or complete and absolute (used for emphasis).",
+      "definitionAr": "صفة بتوصف حاجة ريحتها وحشة جدًا، أو بتستخدم للمبالغة في وصف حاجة سيئة.",
+      "usageNote": "As an adjective, it usually means 'smelling bad' or 'absolute' (e.g., rank amateur). Don't confuse with the noun meaning 'status'.",
+      "category": "Senses & Feelings",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Smell",
+        "#Emphasis",
+        "#Negative"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Tank\" (دبابة).. تخيل دبابة \"Tank\" قديمة ومصدية ريحتها \"Rank\" وحشة جدًا.",
+      "examples": {
+        "A1": "The garbage smell is rank.",
+        "A2": "The air in the room was rank with smoke.",
+        "B1": "It was rank stupidity to drive so fast.",
+        "B2": "He is a rank amateur compared to the professionals.",
+        "C1": "A rank injustice has been done to these people.",
+        "C2": "The vegetation was rank and overgrown in the jungle."
+      },
+      "collocations": [
+        "rank amateur",
+        "rank outsider",
+        "rank smell",
+        "rank injustice"
+      ],
+      "synonyms": [
+        "foul",
+        "fetid",
+        "utter",
+        "absolute"
+      ],
+      "antonyms": [
+        "fragrant",
+        "partial"
+      ],
+      "relatedWords": {
+        "en": [
+          "ranking",
+          "rankness"
+        ],
+        "ar": [
+          "نتانة",
+          "فداحة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rankness",
+        "verb": "",
+        "adj": "rank",
+        "adv": "rankly"
+      },
+      "arabicAr": "كريه الرائحة / فادح",
+      "frenchFr": "fétide",
+      "germanDe": "widerlich",
+      "spanishEs": "rancio",
+      "chineseZh": "恶臭的 (È chòu de)",
+      "russianRu": "зловонный",
+      "portuguesePt": "rançoso",
+      "japaneseJa": "悪臭のする (Akushū no suru)",
+      "italianIt": "fetido",
+      "turkishTr": "kokuşmuş",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 3159,
+      "wordEn": "rank",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹæŋk",
+      "phoneticUk": null,
+      "phoneticAr": "رَانْك",
+      "translit": "Yusannif / Yahtall martaba",
+      "definitionEn": "To give a place within a grading system; to have a specific position in a hierarchy.",
+      "definitionAr": "إنك تصنف حاجة أو ترتبها في مركز معين، أو إنك تاخد مركز معين في الترتيب.",
+      "usageNote": "Used for both classifying others and holding a position yourself.",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Classification",
+        "#Status",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Bank\".. البنك بيعمل \"Rank\" تصنيف للعملاء حسب رصيدهم.",
+      "examples": {
+        "A1": "I rank this game as number one.",
+        "A2": "She ranks high in her class.",
+        "B1": "This university ranks among the best in the world.",
+        "B2": "The players are ranked by their scores.",
+        "C1": "Safety is ranked as the highest priority.",
+        "C2": "He ranks with the great poets of the last century."
+      },
+      "collocations": [
+        "rank high",
+        "rank among",
+        "top ranked",
+        "rank first"
+      ],
+      "synonyms": [
+        "classify",
+        "rate",
+        "grade",
+        "categorize"
+      ],
+      "antonyms": [
+        "disorder"
+      ],
+      "relatedWords": {
+        "en": [
+          "ranking",
+          "ranker"
+        ],
+        "ar": [
+          "تصنيف",
+          "رتبة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rank",
+        "verb": "rank",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يصنف / يحتل مرتبة",
+      "frenchFr": "classer",
+      "germanDe": "einordnen",
+      "spanishEs": "clasificar",
+      "chineseZh": "排名 (Pái míng)",
+      "russianRu": "классифицировать",
+      "portuguesePt": "classificar",
+      "japaneseJa": "ランク付けする (Ranku zuke suru)",
+      "italianIt": "classificare",
+      "turkishTr": "sıralamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3160,
+      "wordEn": "rank",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹæŋk",
+      "phoneticUk": null,
+      "phoneticAr": "رَانْك",
+      "translit": "Rutba / Martaba",
+      "definitionEn": "A position in the hierarchy of the armed forces or society; a single line of soldiers.",
+      "definitionAr": "الرتبة أو المكانة بتاعتك في الجيش أو المجتمع، أو صف من الجنود.",
+      "usageNote": "Often used in military contexts (Sergeant, Captain) or social hierarchy.",
+      "category": "Work & Business",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Military",
+        "#Status",
+        "#Hierarchy"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما البنك \"Bank\" فيه درجات وظيفية، الجيش فيه \"Rank\" رتب.",
+      "examples": {
+        "A1": "What is his rank?",
+        "A2": "He joined the army at a low rank.",
+        "B1": "She was promoted to the rank of Captain.",
+        "B2": "The soldiers stood in rank and file.",
+        "C1": "He rose through the ranks to become CEO.",
+        "C2": "People of high social rank were invited to the ball."
+      },
+      "collocations": [
+        "high rank",
+        "rank and file",
+        "rise through the ranks",
+        "military rank"
+      ],
+      "synonyms": [
+        "status",
+        "grade",
+        "level",
+        "tier"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "ranking",
+          "ranker"
+        ],
+        "ar": [
+          "مكانة",
+          "درجة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rank",
+        "verb": "rank",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "رتبة / مرتبة",
+      "frenchFr": "rang",
+      "germanDe": "Rang",
+      "spanishEs": "rango",
+      "chineseZh": "等级 (Děng jí)",
+      "russianRu": "звание",
+      "portuguesePt": "patente",
+      "japaneseJa": "階級 (Kaikyū)",
+      "italianIt": "rango",
+      "turkishTr": "rütbe",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3161,
+      "wordEn": "compete",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "kəmˈpiːt",
+      "phoneticUk": "kəmˈpi:t",
+      "phoneticAr": "كَمْبيت",
+      "translit": "Yatanafas",
+      "definitionEn": "To strive to gain or win something by defeating or establishing superiority over others.",
+      "definitionAr": "إنك تدخل مسابقة أو تحدي وتحاول تكسب وتتفوق على غيرك.",
+      "usageNote": "Used in sports, business, and nature. Followed by 'with' or 'against'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Sports",
+        "#Business",
+        "#Conflict"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عشان تكون \"Complete\" (كامل) لازم \"Compete\" (تنافس) وتثبت نفسك.",
+      "examples": {
+        "A1": "I like to compete in games.",
+        "A2": "Five runners will compete in the race.",
+        "B1": "Small shops cannot compete with big supermarkets.",
+        "B2": "They are competing for the same job.",
+        "C1": "The two companies compete fiercely in the global market.",
+        "C2": "Species compete for limited resources in the ecosystem."
+      },
+      "collocations": [
+        "compete against",
+        "compete with",
+        "compete for",
+        "hard to compete"
+      ],
+      "synonyms": [
+        "contend",
+        "vie",
+        "challenge",
+        "rival"
+      ],
+      "antonyms": [
+        "cooperate",
+        "concede"
+      ],
+      "relatedWords": {
+        "en": [
+          "competition",
+          "competitor",
+          "competitive"
+        ],
+        "ar": [
+          "منافسة",
+          "منافس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "competition",
+        "verb": "compete",
+        "adj": "competitive",
+        "adv": "competitively"
+      },
+      "arabicAr": "يتنافس",
+      "frenchFr": "concurrencer",
+      "germanDe": "konkurrieren",
+      "spanishEs": "competir",
+      "chineseZh": "竞争 (Jìng zhēng)",
+      "russianRu": "соревноваться",
+      "portuguesePt": "competir",
+      "japaneseJa": "競争する (Kyōsō suru)",
+      "italianIt": "competere",
+      "turkishTr": "rekabet etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3162,
+      "wordEn": "sweet",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "swiːt",
+      "phoneticUk": null,
+      "phoneticAr": "سْوِيت",
+      "translit": "Hulw",
+      "definitionEn": "Having the pleasant taste characteristic of sugar or honey; pleasing or delightful.",
+      "definitionAr": "طعم مسكر زي السكر والعسل، أو وصف لحاجة لطيفة وجميلة.",
+      "usageNote": "Describes taste, personality (kind), or situations (pleasant).",
+      "category": "Food & Drink",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Taste",
+        "#Personality",
+        "#Pleasure"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Sweat\" يعني عرق.. بس \"Sweet\" يعني حلو.. الفرق حرف واحد بيغير الطعم من مالح لحلو.",
+      "examples": {
+        "A1": "This cake is very sweet.",
+        "A2": "She has a sweet smile.",
+        "B1": "It was sweet of you to help me.",
+        "B2": "The air smelled sweet with flowers.",
+        "C1": "Revenge is sweet, they say.",
+        "C2": "The sweet sorrow of parting was overwhelming."
+      },
+      "collocations": [
+        "sweet tooth",
+        "sweet dreams",
+        "short and sweet",
+        "sweet talk"
+      ],
+      "synonyms": [
+        "sugary",
+        "pleasant",
+        "delightful",
+        "charming"
+      ],
+      "antonyms": [
+        "bitter",
+        "sour",
+        "nasty"
+      ],
+      "relatedWords": {
+        "en": [
+          "sweetness",
+          "sweeten",
+          "sweetly"
+        ],
+        "ar": [
+          "حلاوة",
+          "يحلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sweetness",
+        "verb": "sweeten",
+        "adj": "sweet",
+        "adv": "sweetly"
+      },
+      "arabicAr": "حلو / لطيف",
+      "frenchFr": "doux",
+      "germanDe": "süß",
+      "spanishEs": "dulce",
+      "chineseZh": "甜 (Tián)",
+      "russianRu": "сладкий",
+      "portuguesePt": "doce",
+      "japaneseJa": "甘い (Amai)",
+      "italianIt": "dolce",
+      "turkishTr": "tatlı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3163,
+      "wordEn": "sweet",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "swiːt",
+      "phoneticUk": null,
+      "phoneticAr": "سْوِيت",
+      "translit": "Halwa",
+      "definitionEn": "A small shaped piece of confectionery made with sugar.",
+      "definitionAr": "الحلويات الصغيرة أو البونبوني اللي معمولة من السكر.",
+      "usageNote": "Commonly used in plural 'sweets' (UK) for candy. In US, 'candy' is more common.",
+      "category": "Food & Drink",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Food",
+        "#Dessert",
+        "#Treat"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Sweets\" هي الحاجات الـ \"Sweet\" (الحلوة) اللي بناكلها.",
+      "examples": {
+        "A1": "Children love sweets.",
+        "A2": "Can I have a sweet after dinner?",
+        "B1": "Too many sweets are bad for your teeth.",
+        "B2": "She bought a bag of boiled sweets.",
+        "C1": "The shop sells an assortment of traditional sweets.",
+        "C2": "He has a weakness for sugary sweets."
+      },
+      "collocations": [
+        "bag of sweets",
+        "boiled sweets",
+        "sweet shop"
+      ],
+      "synonyms": [
+        "candy",
+        "confectionery",
+        "treat",
+        "bonbon"
+      ],
+      "antonyms": [
+        "savory"
+      ],
+      "relatedWords": {
+        "en": [
+          "sweetener",
+          "sweetie"
+        ],
+        "ar": [
+          "حلوى",
+          "سكاكر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sweet",
+        "verb": "sweeten",
+        "adj": "sweet",
+        "adv": ""
+      },
+      "arabicAr": "حلوى",
+      "frenchFr": "bonbon",
+      "germanDe": "Süßigkeit",
+      "spanishEs": "caramelo",
+      "chineseZh": "糖果 (Táng guǒ)",
+      "russianRu": "конфета",
+      "portuguesePt": "doce",
+      "japaneseJa": "お菓子 (Okashi)",
+      "italianIt": "caramella",
+      "turkishTr": "şeker",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3164,
+      "wordEn": "dealer",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈdiːlɚ",
+      "phoneticUk": "ˈdi:lə",
+      "phoneticAr": "دِيلَر",
+      "translit": "Tajir / Muwazzi'",
+      "definitionEn": "A person or business that buys and sells goods; or the person who distributes cards in a game.",
+      "definitionAr": "الشخص أو التاجر اللي بيبيع ويشتري بضاعة، أو الشخص اللي بيوزع الورق في لعبة الكوتشينة.",
+      "usageNote": "Can refer to legitimate business (car dealer) or illegal trade (drug dealer).",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Trade",
+        "#Business",
+        "#Games"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من كلمة \"Deal\" (صفقة).. فاللي بيعمل ديل هو الـ \"Dealer\".",
+      "examples": {
+        "A1": "He is a car dealer.",
+        "A2": "The dealer gave me two cards.",
+        "B1": "We bought the car from a reputable dealer.",
+        "B2": "The police arrested a drug dealer.",
+        "C1": "He works as an antique dealer in London.",
+        "C2": "The art dealer authenticated the painting."
+      },
+      "collocations": [
+        "car dealer",
+        "drug dealer",
+        "art dealer",
+        "authorized dealer"
+      ],
+      "synonyms": [
+        "trader",
+        "merchant",
+        "vendor",
+        "distributor"
+      ],
+      "antonyms": [
+        "customer",
+        "buyer"
+      ],
+      "relatedWords": {
+        "en": [
+          "deal",
+          "dealing",
+          "dealership"
+        ],
+        "ar": [
+          "صفقة",
+          "تعامل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "dealer",
+        "verb": "deal",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تاجر / موزع",
+      "frenchFr": "négociant",
+      "germanDe": "Händler",
+      "spanishEs": "distribuidor",
+      "chineseZh": "经销商 (Jīng xiāo shāng)",
+      "russianRu": "дилер",
+      "portuguesePt": "revendedor",
+      "japaneseJa": "ディーラー (Dīrā)",
+      "italianIt": "rivenditore",
+      "turkishTr": "satıcı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3165,
+      "wordEn": "rent",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹɛnt",
+      "phoneticUk": null,
+      "phoneticAr": "رِينْت",
+      "translit": "Ijar",
+      "definitionEn": "A tenant's regular payment to a landlord for the use of property or land.",
+      "definitionAr": "الفلوس اللي بتدفعها كل شهر عشان تأجر شقة أو محل.",
+      "usageNote": "Usually paid monthly. Can also refer to 'renting' equipment.",
+      "category": "Housing & Home",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Money",
+        "#Housing",
+        "#Payment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Tent\" (خيمة).. لو معندكش بيت ممكن تدفع \"Rent\" وتأجر خيمة \"Tent\".",
+      "examples": {
+        "A1": "The rent is high.",
+        "A2": "I pay my rent every month.",
+        "B1": "We are looking for a house with low rent.",
+        "B2": "The landlord raised the rent by 10%.",
+        "C1": "High commercial rents are forcing shops to close.",
+        "C2": "The concept of economic rent is complex."
+      },
+      "collocations": [
+        "pay rent",
+        "high rent",
+        "rent control",
+        "for rent"
+      ],
+      "synonyms": [
+        "lease",
+        "hire",
+        "fee",
+        "payment"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "rental",
+          "renter",
+          "rentable"
+        ],
+        "ar": [
+          "تأجير",
+          "مستأجر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rent",
+        "verb": "rent",
+        "adj": "rentable",
+        "adv": ""
+      },
+      "arabicAr": "إيجار",
+      "frenchFr": "loyer",
+      "germanDe": "Miete",
+      "spanishEs": "alquiler",
+      "chineseZh": "租金 (Zū jīn)",
+      "russianRu": "арендная плата",
+      "portuguesePt": "aluguel",
+      "japaneseJa": "家賃 (Yachin)",
+      "italianIt": "affitto",
+      "turkishTr": "kira",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3166,
+      "wordEn": "rent",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ɹɛnt",
+      "phoneticUk": null,
+      "phoneticAr": "رِينْت",
+      "translit": "Yasta'jir / Yu'ajjir",
+      "definitionEn": "To pay someone for the use of something; or to allow someone to use something for payment.",
+      "definitionAr": "إنك تأجر حاجة وتدفع فلوس عشان تستخدمها، أو إنك تكون صاحب الحاجة وتأجرها لغيرك.",
+      "usageNote": "Can mean 'to hire' (pay to use) or 'to let' (allow use for pay). Context clarifies.",
+      "category": "Housing & Home",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Business",
+        "#Transaction",
+        "#Housing"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بتدفع \"Rent\" (إيجار)، الفعل نفسه هو إنك تعمل \"Rent\" (تأجر).",
+      "examples": {
+        "A1": "I rent a small flat.",
+        "A2": "We decided to rent a car for the trip.",
+        "B1": "They rent out their spare room to students.",
+        "B2": "It is cheaper to rent than to buy in this city.",
+        "C1": "The company rents equipment to construction firms.",
+        "C2": "He rents his expertise to various corporations."
+      },
+      "collocations": [
+        "rent a car",
+        "rent out",
+        "rent an apartment",
+        "rent free"
+      ],
+      "synonyms": [
+        "lease",
+        "hire",
+        "charter",
+        "let"
+      ],
+      "antonyms": [
+        "buy",
+        "purchase",
+        "own"
+      ],
+      "relatedWords": {
+        "en": [
+          "rental",
+          "renter"
+        ],
+        "ar": [
+          "إيجار",
+          "مستأجر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rent",
+        "verb": "rent",
+        "adj": "rented",
+        "adv": ""
+      },
+      "arabicAr": "يستأجر / يؤجر",
+      "frenchFr": "louer",
+      "germanDe": "mieten",
+      "spanishEs": "alquilar",
+      "chineseZh": "租用 (Zū yòng)",
+      "russianRu": "арендовать",
+      "portuguesePt": "alugar",
+      "japaneseJa": "借りる (Kariru)",
+      "italianIt": "noleggiare",
+      "turkishTr": "kiralamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3167,
+      "wordEn": "bend",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "bɛnd",
+      "phoneticUk": null,
+      "phoneticAr": "بِينْد",
+      "translit": "Mun'ataf / Inhina'",
+      "definitionEn": "A curve or turn, especially in a road or river.",
+      "definitionAr": "المنحنى أو الملف اللي في الطريق أو النهر.",
+      "usageNote": "Commonly used for roads (sharp bend) or rivers.",
+      "category": "Travel & Movement",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Shape",
+        "#Road",
+        "#Direction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Band\" (فرقة).. الفرقة لما بتخلص بتعمل \"Bend\" (انحناء) للجمهور.",
+      "examples": {
+        "A1": "There is a bend in the road.",
+        "A2": "Be careful driving around the bend.",
+        "B1": "The river makes a sharp bend here.",
+        "B2": "The car disappeared around the bend.",
+        "C1": "He's driving me round the bend (crazy).",
+        "C2": "The physiological bends affecting divers can be fatal."
+      },
+      "collocations": [
+        "sharp bend",
+        "around the bend",
+        "hairpin bend",
+        "drive round the bend"
+      ],
+      "synonyms": [
+        "curve",
+        "turn",
+        "corner",
+        "twist"
+      ],
+      "antonyms": [
+        "straight"
+      ],
+      "relatedWords": {
+        "en": [
+          "bender",
+          "bending"
+        ],
+        "ar": [
+          "انحناء",
+          "التواء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bend",
+        "verb": "bend",
+        "adj": "bent",
+        "adv": ""
+      },
+      "arabicAr": "منعطف / انحناء",
+      "frenchFr": "virage",
+      "germanDe": "Kurve",
+      "spanishEs": "curva",
+      "chineseZh": "弯曲 (Wān qū)",
+      "russianRu": "изгиб",
+      "portuguesePt": "curva",
+      "japaneseJa": "カーブ (Kābu)",
+      "italianIt": "curva",
+      "turkishTr": "viraj",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3168,
+      "wordEn": "bend",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "bɛnd",
+      "phoneticUk": null,
+      "phoneticAr": "بِينْد",
+      "translit": "Yalwi / Yanhani",
+      "definitionEn": "To shape or force into a curve; to incline the body downward.",
+      "definitionAr": "إنك تتني حاجة وتخليها مقوسة، أو إنك تميل جسمك لتحت.",
+      "usageNote": "Irregular verb: bend, bent, bent.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Body",
+        "#Shape",
+        "#Movement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Band\".. زي ما الـ \"Band\" (الرباط) ممكن تعمل له \"Bend\" (تثنيه).",
+      "examples": {
+        "A1": "Bend your knees.",
+        "A2": "Can you bend this wire?",
+        "B1": "He bent down to pick up the coin.",
+        "B2": "The trees were bending in the wind.",
+        "C1": "They refused to bend to the terrorists' demands.",
+        "C2": "He tried to bend the rules to suit his purpose."
+      },
+      "collocations": [
+        "bend down",
+        "bend over",
+        "bend the rules",
+        "bend the truth"
+      ],
+      "synonyms": [
+        "curve",
+        "flex",
+        "bow",
+        "twist"
+      ],
+      "antonyms": [
+        "straighten"
+      ],
+      "relatedWords": {
+        "en": [
+          "bent",
+          "bender"
+        ],
+        "ar": [
+          "انحناء",
+          "ميل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bend",
+        "verb": "bend",
+        "adj": "bent",
+        "adv": ""
+      },
+      "arabicAr": "يلوي / ينحني",
+      "frenchFr": "plier",
+      "germanDe": "biegen",
+      "spanishEs": "doblar",
+      "chineseZh": "弯曲 (Wān qū)",
+      "russianRu": "сгибать",
+      "portuguesePt": "dobrar",
+      "japaneseJa": "曲げる (Mageru)",
+      "italianIt": "piegare",
+      "turkishTr": "eğmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3169,
+      "wordEn": "solid",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsɒlɪd",
+      "phoneticUk": null,
+      "phoneticAr": "سُولِد",
+      "translit": "Sulb / Matin",
+      "definitionEn": "Firm and stable in shape; not liquid or fluid; reliable.",
+      "definitionAr": "حاجة جامدة ومتماسكة مش سائلة، أو حاجة قوية تقدر تعتمد عليها.",
+      "usageNote": "Can describe matter (ice is solid water), objects (solid wood), or abstract concepts (solid evidence).",
+      "category": "Objects & Tools",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#State",
+        "#Strength",
+        "#Material"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Liquid\" (سائل).. الـ \"Solid\" حاجة جامدة زي الـ \"Soil\" (تربة) المتماسكة.",
+      "examples": {
+        "A1": "Ice is solid water.",
+        "A2": "The door is made of solid wood.",
+        "B1": "We need solid evidence to prove it.",
+        "B2": "They have a solid friendship.",
+        "C1": "The book provides a solid foundation for further study.",
+        "C2": "The crowd was packed solid in the stadium."
+      },
+      "collocations": [
+        "solid gold",
+        "solid rock",
+        "solid evidence",
+        "solid foundation"
+      ],
+      "synonyms": [
+        "hard",
+        "firm",
+        "strong",
+        "reliable"
+      ],
+      "antonyms": [
+        "liquid",
+        "hollow",
+        "flimsy"
+      ],
+      "relatedWords": {
+        "en": [
+          "solidify",
+          "solidity",
+          "solidly"
+        ],
+        "ar": [
+          "صلابة",
+          "يتصلب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "solidity",
+        "verb": "solidify",
+        "adj": "solid",
+        "adv": "solidly"
+      },
+      "arabicAr": "صلب / متين",
+      "frenchFr": "solide",
+      "germanDe": "fest",
+      "spanishEs": "sólido",
+      "chineseZh": "坚固 (Jiān gù)",
+      "russianRu": "твердый",
+      "portuguesePt": "sólido",
+      "japaneseJa": "固体の (Kotai no)",
+      "italianIt": "solido",
+      "turkishTr": "katı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3170,
+      "wordEn": "solid",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsɒlɪd",
+      "phoneticUk": null,
+      "phoneticAr": "سُولِد",
+      "translit": "Madda sulba",
+      "definitionEn": "A substance or object that is solid rather than liquid or fluid.",
+      "definitionAr": "المادة الصلبة نفسها، اللي مش سائلة ولا غازية.",
+      "usageNote": "In physics/chemistry, one of the states of matter.",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Science",
+        "#Matter",
+        "#Physics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Solid\" هو المادة اللي مش \"Liquid\" سائلة.",
+      "examples": {
+        "A1": "Ice is a solid.",
+        "A2": "Babies start eating solids at six months.",
+        "B1": "Solids, liquids, and gases are states of matter.",
+        "B2": "The waste was separated into solids and liquids.",
+        "C1": "Geometric solids include cubes and spheres.",
+        "C2": "The physics of amorphous solids is complex."
+      },
+      "collocations": [
+        "suspended solids",
+        "geometric solid",
+        "milk solids"
+      ],
+      "synonyms": [
+        "substance",
+        "mass",
+        "block",
+        "lump"
+      ],
+      "antonyms": [
+        "liquid",
+        "gas"
+      ],
+      "relatedWords": {
+        "en": [
+          "solidify",
+          "solidity"
+        ],
+        "ar": [
+          "صلابة",
+          "تصلب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "solid",
+        "verb": "solidify",
+        "adj": "solid",
+        "adv": "solidly"
+      },
+      "arabicAr": "مادة صلبة",
+      "frenchFr": "solide",
+      "germanDe": "Feststoff",
+      "spanishEs": "sólido",
+      "chineseZh": "固体 (Gù tǐ)",
+      "russianRu": "твердое тело",
+      "portuguesePt": "sólido",
+      "japaneseJa": "固体 (Kotai)",
+      "italianIt": "solido",
+      "turkishTr": "katı madde",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3171,
+      "wordEn": "cloud",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "klaʊd",
+      "phoneticUk": null,
+      "phoneticAr": "كْلَاوْد",
+      "translit": "Sahaba / Ghayma",
+      "definitionEn": "A visible mass of condensed water vapor floating in the atmosphere.",
+      "definitionAr": "السحابة البيضا أو الرمادي اللي بنشوفها في السما وبتنزل مطر.",
+      "usageNote": "Also used for 'The Cloud' (internet storage).",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Weather",
+        "#Sky",
+        "#Technology"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Loud\" يعني عالي.. لما الـ \"Cloud\" بتخبط في بعض بيعملوا صوت \"Loud\" (رعد).",
+      "examples": {
+        "A1": "Look at that white cloud.",
+        "A2": "There is not a cloud in the sky.",
+        "B1": "Dark clouds gathered before the storm.",
+        "B2": "I store all my photos on the cloud.",
+        "C1": "A cloud of suspicion hung over the politician.",
+        "C2": "The explosion sent a mushroom cloud into the air."
+      },
+      "collocations": [
+        "cloud cover",
+        "storm cloud",
+        "on the cloud",
+        "cloud nine"
+      ],
+      "synonyms": [
+        "mist",
+        "fog",
+        "haze",
+        "vapor"
+      ],
+      "antonyms": [
+        "clear sky"
+      ],
+      "relatedWords": {
+        "en": [
+          "cloudy",
+          "cloudless",
+          "cloudburst"
+        ],
+        "ar": [
+          "غائم",
+          "سديم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cloud",
+        "verb": "cloud",
+        "adj": "cloudy",
+        "adv": "cloudily"
+      },
+      "arabicAr": "سحابة / غيمة",
+      "frenchFr": "nuage",
+      "germanDe": "Wolke",
+      "spanishEs": "nube",
+      "chineseZh": "云 (Yún)",
+      "russianRu": "облако",
+      "portuguesePt": "nuvem",
+      "japaneseJa": "雲 (Kumo)",
+      "italianIt": "nuvola",
+      "turkishTr": "bulut",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3172,
+      "wordEn": "enquiry",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɪnˈkwaɪri",
+      "phoneticUk": "ɪnˈkwaɪəri",
+      "phoneticAr": "إِنْكْوَايْرِي",
+      "translit": "Istifsar / Tahqiq",
+      "definitionEn": "An act of asking for information; an official investigation.",
+      "definitionAr": "لما تسأل عن حاجة عشان تعرف معلومات، أو تحقيق رسمي في موضوع.",
+      "usageNote": "Spelled 'inquiry' in US English usually. 'Enquiry' is common in UK for general questions.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Question",
+        "#Investigation",
+        "#Information"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "جاية من \"Inquire\".. قريبة من \"Require\" (يتطلب).. الاستفسار بيتطلب إجابة.",
+      "examples": {
+        "A1": "I made an enquiry about the train times.",
+        "A2": "Thank you for your enquiry.",
+        "B1": "We receive many enquiries from students.",
+        "B2": "The police launched a murder enquiry.",
+        "C1": "Scientific enquiry leads to new discoveries.",
+        "C2": "The committee published the results of its official enquiry."
+      },
+      "collocations": [
+        "make an enquiry",
+        "general enquiry",
+        "official enquiry",
+        "enquiry desk"
+      ],
+      "synonyms": [
+        "question",
+        "query",
+        "investigation",
+        "poll"
+      ],
+      "antonyms": [
+        "answer",
+        "reply"
+      ],
+      "relatedWords": {
+        "en": [
+          "enquire",
+          "inquiry",
+          "inquisitive"
+        ],
+        "ar": [
+          "يستفسر",
+          "فضولي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "enquiry",
+        "verb": "enquire",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "سؤال / استفسار",
+      "frenchFr": "enquête",
+      "germanDe": "Anfrage",
+      "spanishEs": "consulta",
+      "chineseZh": "询问 (Xún wèn)",
+      "russianRu": "запрос",
+      "portuguesePt": "inquérito",
+      "japaneseJa": "問い合わせ (Toiawase)",
+      "italianIt": "inchiesta",
+      "turkishTr": "soruşturma",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 3173,
+      "wordEn": "abuse",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "əˈbjuːs",
+      "phoneticUk": null,
+      "phoneticAr": "أَبْيُوس",
+      "translit": "Isa'a",
+      "definitionEn": "The improper use of something; cruel and violent treatment of a person or animal.",
+      "definitionAr": "الاستخدام الغلط لحاجة، أو معاملة حد بقسوة وعنف.",
+      "usageNote": "Pronunciation: Noun ends in /s/ sound, Verb ends in /z/ sound.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Violence",
+        "#Harm",
+        "#Misuse"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Use\" يعني استخدام.. \"Abuse\" يعني استخدام سيء أو ظالم.",
+      "examples": {
+        "A1": "Drug abuse is dangerous.",
+        "A2": "She suffered from physical abuse.",
+        "B1": "The abuse of power is a serious crime.",
+        "B2": "He shouted abuse at the referee.",
+        "C1": "The report revealed systemic human rights abuses.",
+        "C2": "Substance abuse can lead to long-term health issues."
+      },
+      "collocations": [
+        "drug abuse",
+        "child abuse",
+        "verbal abuse",
+        "alcohol abuse"
+      ],
+      "synonyms": [
+        "misuse",
+        "mistreatment",
+        "insult",
+        "exploitation"
+      ],
+      "antonyms": [
+        "care",
+        "protection",
+        "respect"
+      ],
+      "relatedWords": {
+        "en": [
+          "abusive",
+          "abuser",
+          "abusively"
+        ],
+        "ar": [
+          "مسيء",
+          "استغلال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "abuse",
+        "verb": "abuse",
+        "adj": "abusive",
+        "adv": "abusively"
+      },
+      "arabicAr": "إساءة",
+      "frenchFr": "abus",
+      "germanDe": "Missbrauch",
+      "spanishEs": "abuso",
+      "chineseZh": "滥用 (Làn yòng)",
+      "russianRu": "злоупотребление",
+      "portuguesePt": "abuso",
+      "japaneseJa": "乱用 (Ran'yō)",
+      "italianIt": "abuso",
+      "turkishTr": "istismar",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3174,
+      "wordEn": "abuse",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "əˈbjuːz",
+      "phoneticUk": null,
+      "phoneticAr": "أَبْيُوز",
+      "translit": "Yusi'",
+      "definitionEn": "To use something to bad effect or for a bad purpose; to treat with cruelty.",
+      "definitionAr": "إنك تستخدم حاجة غلط، أو تعامل حد معاملة وحشة وعنيفة.",
+      "usageNote": "Pronunciation: Verb ends in /z/ sound. Noun ends in /s/.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Violence",
+        "#Harm",
+        "#Misuse"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الفعل من \"Use\" يستخدم.. \"Abuse\" يسيء الاستخدام.",
+      "examples": {
+        "A1": "Do not abuse animals.",
+        "A2": "He abused his position to get money.",
+        "B1": "People often abuse alcohol when they are stressed.",
+        "B2": "The prisoners were abused by the guards.",
+        "C1": "Don't abuse the hospitality of your hosts.",
+        "C2": "The politician was accused of abusing the system for personal gain."
+      },
+      "collocations": [
+        "abuse power",
+        "abuse trust",
+        "abuse drugs",
+        "abuse rights"
+      ],
+      "synonyms": [
+        "misuse",
+        "mistreat",
+        "exploit",
+        "harm"
+      ],
+      "antonyms": [
+        "cherish",
+        "protect",
+        "respect"
+      ],
+      "relatedWords": {
+        "en": [
+          "abusive",
+          "abuser"
+        ],
+        "ar": [
+          "مسيء",
+          "معتدي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "abuse",
+        "verb": "abuse",
+        "adj": "abusive",
+        "adv": "abusively"
+      },
+      "arabicAr": "يسيء",
+      "frenchFr": "abuser",
+      "germanDe": "missbrauchen",
+      "spanishEs": "abusar",
+      "chineseZh": "虐待 (Nüè dài)",
+      "russianRu": "злоупотреблять",
+      "portuguesePt": "abusar",
+      "japaneseJa": "虐待する (Gyakutai suru)",
+      "italianIt": "abusare",
+      "turkishTr": "istismar etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3175,
+      "wordEn": "golf",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɡɑlf",
+      "phoneticUk": "ɡɒlf",
+      "phoneticAr": "جُولْف",
+      "translit": "Golf",
+      "definitionEn": "A game played on a large open-air course, where a ball is struck with a club into a series of holes.",
+      "definitionAr": "لعبة الجولف المشهورة اللي بتتلعب في ملاعب خضراء كبيرة وبنضرب الكورة بالعصاية عشان تدخل الحفرة.",
+      "usageNote": "You 'play' golf. The place is a 'golf course'.",
+      "category": "Sports & Hobbies",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Sport",
+        "#Game",
+        "#Ball"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الكورة بتدخل في الـ \"Gulf\" (خليج) أو حفرة.. هي لعبة الـ \"Golf\".",
+      "examples": {
+        "A1": "I play golf on Sundays.",
+        "A2": "Do you have golf clubs?",
+        "B1": "He is watching a golf tournament on TV.",
+        "B2": "The hotel has an 18-hole golf course.",
+        "C1": "Golf requires patience and precision.",
+        "C2": "Networking often happens on the golf course in corporate culture."
+      },
+      "collocations": [
+        "play golf",
+        "golf course",
+        "golf club",
+        "golf ball"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "golfer",
+          "golfing"
+        ],
+        "ar": [
+          "لاعب جولف",
+          "لعب الجولف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "golf",
+        "verb": "golf",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "جولف / لعبة الجولف",
+      "frenchFr": "golf",
+      "germanDe": "Golf",
+      "spanishEs": "golf",
+      "chineseZh": "高尔夫球 (Gāo ěr fū qiú)",
+      "russianRu": "гольф",
+      "portuguesePt": "golfe",
+      "japaneseJa": "ゴルフ (Gorufu)",
+      "italianIt": "golf",
+      "turkishTr": "golf",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3176,
+      "wordEn": "guitar",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ɡɪˈtɑɹ",
+      "phoneticUk": "ɡɪˈtɑː(ɹ)",
+      "phoneticAr": "جِيتَار",
+      "translit": "Ghitar / Qithara",
+      "definitionEn": "A stringed musical instrument played by plucking or strumming.",
+      "definitionAr": "آلة موسيقية وترية مشهورة جدًا، بنعزف عليها بالأصابع أو بالريشة.",
+      "usageNote": "You 'play' the guitar. Can be acoustic or electric.",
+      "category": "Arts & Media",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Music",
+        "#Instrument",
+        "#Strings"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس النطق العربي \"جيتار\"، بس ممكن تربطها بإنك بتجر \"Tar\" (أوتار) الجيتار عشان تعزف.",
+      "examples": {
+        "A1": "I play the guitar.",
+        "A2": "He bought a new electric guitar.",
+        "B1": "She is learning to play classical guitar.",
+        "B2": "The band features two guitar players.",
+        "C1": "The guitar solo was incredibly complex.",
+        "C2": "His acoustic guitar style is influenced by flamenco."
+      },
+      "collocations": [
+        "play guitar",
+        "electric guitar",
+        "acoustic guitar",
+        "bass guitar"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "guitarist"
+        ],
+        "ar": [
+          "عازف جيتار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "guitar",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "غيتار / قيثارة",
+      "frenchFr": "guitare",
+      "germanDe": "Gitarre",
+      "spanishEs": "guitarra",
+      "chineseZh": "吉他 (Jí tā)",
+      "russianRu": "гитара",
+      "portuguesePt": "guitarra",
+      "japaneseJa": "ギター (Gitā)",
+      "italianIt": "chitarra",
+      "turkishTr": "gitar",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 3177,
+      "wordEn": "cottage",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈkɑtɪdʒ",
+      "phoneticUk": "ˈkɒtɪdʒ",
+      "phoneticAr": "كَاتِج",
+      "translit": "Kukh",
+      "definitionEn": "A small simple house, typically one near a lake or beach or in the countryside.",
+      "definitionAr": "بيت صغير وبسيط غالبًا بيكون في الريف أو على البحر.",
+      "usageNote": "Often implies a cozy, rustic vacation home.",
+      "category": "Housing & Home",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#House",
+        "#Rural",
+        "#Vacation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Cottage\" غالبًا بيبقى فيه \"Cotton\" (قطن) مزروع حواليه في الريف.",
+      "examples": {
+        "A1": "They live in a small cottage.",
+        "A2": "We stayed in a cottage by the sea.",
+        "B1": "The cottage has a thatched roof.",
+        "B2": "They rented a holiday cottage in the mountains.",
+        "C1": "We spent the weekend at their country cottage.",
+        "C2": "The village is full of picturesque stone cottages."
+      },
+      "collocations": [
+        "country cottage",
+        "holiday cottage",
+        "thatched cottage",
+        "cottage cheese"
+      ],
+      "synonyms": [
+        "cabin",
+        "lodge",
+        "hut",
+        "bungalow"
+      ],
+      "antonyms": [
+        "mansion",
+        "palace"
+      ],
+      "relatedWords": {
+        "en": [
+          "cottager"
+        ],
+        "ar": [
+          "ساكن الكوخ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cottage",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كوخ",
+      "frenchFr": "chalet",
+      "germanDe": "Hütte",
+      "spanishEs": "cabaña",
+      "chineseZh": "小屋 (Xiǎo wū)",
+      "russianRu": "коттедж",
+      "portuguesePt": "chalé",
+      "japaneseJa": "コテージ (Kotēji)",
+      "italianIt": "villetta",
+      "turkishTr": "kulübe",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3178,
+      "wordEn": "electronic",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪˌlɛkˈtɹɑnɪk",
+      "phoneticUk": "ɪˌlekˈtrɒnɪk",
+      "phoneticAr": "إِلِكْتُرُونِيك",
+      "translit": "Jihaz iliktruni",
+      "definitionEn": "Electronic equipment or devices (usually plural: electronics).",
+      "definitionAr": "الأجهزة اللي بتشتغل بالتكنولوجيا والكهرباء زي الموبايل والكمبيوتر.",
+      "usageNote": "As a noun, usually plural 'electronics' referring to devices. Singular is rare as a noun.",
+      "category": "Technology & Computing",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Technology",
+        "#Device",
+        "#Modern"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Electric\" (كهرباء).. الأجهزة دي بتشتغل بالكهرباء.",
+      "examples": {
+        "A1": "I like electronic games.",
+        "A2": "This store sells electronics.",
+        "B1": "Consumer electronics are getting cheaper.",
+        "B2": "He works in the electronics industry.",
+        "C1": "The aircraft is packed with sophisticated electronics.",
+        "C2": "Micro-electronics has revolutionized computing."
+      },
+      "collocations": [
+        "consumer electronics",
+        "electronic device",
+        "electronic goods"
+      ],
+      "synonyms": [
+        "device",
+        "gadget"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "electronics",
+          "electronically",
+          "electricity"
+        ],
+        "ar": [
+          "إلكترونيات",
+          "كهرباء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "electronics",
+        "verb": "",
+        "adj": "electronic",
+        "adv": "electronically"
+      },
+      "arabicAr": "إلكتروني",
+      "frenchFr": "électronique",
+      "germanDe": "Elektronik",
+      "spanishEs": "electrónica",
+      "chineseZh": "电子产品 (Diàn zǐ chǎn pǐn)",
+      "russianRu": "электроника",
+      "portuguesePt": "eletrônico",
+      "japaneseJa": "電子機器 (Denshi kiki)",
+      "italianIt": "elettronica",
+      "turkishTr": "elektronik",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 3179,
+      "wordEn": "electronic",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪˌlɛkˈtɹɑnɪk",
+      "phoneticUk": "ɪˌlekˈtrɒnɪk",
+      "phoneticAr": "إِلِكْتُرُونِيك",
+      "translit": "Iliktruni",
+      "definitionEn": "Operating with or involving many small components such as microchips and transistors.",
+      "definitionAr": "أي حاجة بتشتغل بنظام إلكتروني وشرايح وكهرباء.",
+      "usageNote": "Used for devices (electronic calculator) or digital versions (electronic mail).",
+      "category": "Technology & Computing",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Digital",
+        "#Modern",
+        "#Tech"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الكلمة العربي \"إلكتروني\".. جاية من \"Electric\" كهرباء.",
+      "examples": {
+        "A1": "I have an electronic watch.",
+        "A2": "Do you like electronic music?",
+        "B1": "Please turn off all electronic devices.",
+        "B2": "Electronic banking is very convenient.",
+        "C1": "We need to improve our electronic surveillance.",
+        "C2": "The transition to electronic voting caused controversy."
+      },
+      "collocations": [
+        "electronic mail",
+        "electronic music",
+        "electronic device",
+        "electronic signature"
+      ],
+      "synonyms": [
+        "digital",
+        "automated",
+        "computerized"
+      ],
+      "antonyms": [
+        "mechanical",
+        "manual",
+        "acoustic"
+      ],
+      "relatedWords": {
+        "en": [
+          "electronics",
+          "electronically"
+        ],
+        "ar": [
+          "إلكترونيات",
+          "إلكترونيا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "electronics",
+        "verb": "",
+        "adj": "electronic",
+        "adv": "electronically"
+      },
+      "arabicAr": "إلكتروني",
+      "frenchFr": "électronique",
+      "germanDe": "elektronisch",
+      "spanishEs": "electrónico",
+      "chineseZh": "电子 (Diàn zǐ)",
+      "russianRu": "электронный",
+      "portuguesePt": "eletrônico",
+      "japaneseJa": "電子の (Denshi no)",
+      "italianIt": "elettronico",
+      "turkishTr": "elektronik",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3180,
+      "wordEn": "pause",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "pɔz",
+      "phoneticUk": "pɔːz",
+      "phoneticAr": "بُوز",
+      "translit": "Waqfa / Istiraha",
+      "definitionEn": "A temporary stop in action or speech.",
+      "definitionAr": "وقفة قصيرة أو استراحة في الكلام أو الشغل.",
+      "usageNote": "Can be a physical button on a device or a moment of silence.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Stop",
+        "#Silence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زرار الـ \"Pause\" بيخلي الفيديو ياخد \"Pose\" (وضعية ثبات).",
+      "examples": {
+        "A1": "Take a short pause.",
+        "A2": "There was a long pause before he answered.",
+        "B1": "We worked for hours without a pause.",
+        "B2": "After a brief pause, the music continued.",
+        "C1": "The pregnant pause in the conversation was awkward.",
+        "C2": "The incident gave us pause for thought."
+      },
+      "collocations": [
+        "long pause",
+        "brief pause",
+        "pregnant pause",
+        "without pause"
+      ],
+      "synonyms": [
+        "break",
+        "halt",
+        "interruption",
+        "rest"
+      ],
+      "antonyms": [
+        "continuation"
+      ],
+      "relatedWords": {
+        "en": [
+          "pausing"
+        ],
+        "ar": [
+          "توقف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "pause",
+        "verb": "pause",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "وقفة / استراحة",
+      "frenchFr": "pause",
+      "germanDe": "Pause",
+      "spanishEs": "pausa",
+      "chineseZh": "暂停 (Zàn tíng)",
+      "russianRu": "пауза",
+      "portuguesePt": "pausa",
+      "japaneseJa": "一時停止 (Ichiji teishi)",
+      "italianIt": "pausa",
+      "turkishTr": "mola",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3181,
+      "wordEn": "pause",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "pɔz",
+      "phoneticUk": "pɔːz",
+      "phoneticAr": "بُوز",
+      "translit": "Yatawaqqaf",
+      "definitionEn": "To interrupt action or speech briefly.",
+      "definitionAr": "إنك توقف كلام أو شغل لمدة قصيرة وتكمل بعدين.",
+      "usageNote": "Used for people stopping or for stopping media (pause the movie).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Stop",
+        "#Wait",
+        "#Control"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة زرار الـ \"Pause\".. بيخليك \"Pause\" (توقف) الفيلم.",
+      "examples": {
+        "A1": "Please pause the video.",
+        "A2": "He paused to drink some water.",
+        "B1": "She paused for a moment to think.",
+        "B2": "The speaker paused to let the applause die down.",
+        "C1": "Let's pause here and resume tomorrow.",
+        "C2": "He paused at the threshold, unsure whether to enter."
+      },
+      "collocations": [
+        "pause for breath",
+        "pause for thought",
+        "pause a video",
+        "pause momentarily"
+      ],
+      "synonyms": [
+        "stop",
+        "halt",
+        "hesitate",
+        "break"
+      ],
+      "antonyms": [
+        "continue",
+        "resume",
+        "proceed"
+      ],
+      "relatedWords": {
+        "en": [
+          "pausing"
+        ],
+        "ar": [
+          "توقف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "pause",
+        "verb": "pause",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يتوقف قليلاً",
+      "frenchFr": "faire une pause",
+      "germanDe": "pausieren",
+      "spanishEs": "pausar",
+      "chineseZh": "暂停 (Zàn tíng)",
+      "russianRu": "делать паузу",
+      "portuguesePt": "pausar",
+      "japaneseJa": "一時停止する (Ichiji teishi suru)",
+      "italianIt": "mettere in pausa",
+      "turkishTr": "duraklamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3182,
+      "wordEn": "scope",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "skoʊp",
+      "phoneticUk": "skəʊp",
+      "phoneticAr": "سْكُوب",
+      "translit": "Nitaq / Mada",
+      "definitionEn": "The extent of the area or subject matter that something deals with or to which it is relevant.",
+      "definitionAr": "المدى أو النطاق اللي بيغطيه موضوع معين، أو المجال المتاح ليك عشان تتحرك فيه.",
+      "usageNote": "Often used in business (scope of work) or academic contexts.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Range",
+        "#Extent",
+        "#Limit"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Telescope\" بيوسع الـ \"Scope\" (مجال) رؤيتك وبيخليك تشوف بعيد.",
+      "examples": {
+        "A1": "This is outside my scope.",
+        "A2": "The scope of the project is big.",
+        "B1": "We need to define the scope of the problem.",
+        "B2": "There is limited scope for improvement here.",
+        "C1": "Such questions go beyond the scope of this book.",
+        "C2": "The sheer scope of the disaster was overwhelming."
+      },
+      "collocations": [
+        "scope of work",
+        "broad scope",
+        "limited scope",
+        "beyond the scope"
+      ],
+      "synonyms": [
+        "range",
+        "extent",
+        "reach",
+        "compass"
+      ],
+      "antonyms": [
+        "limitation"
+      ],
+      "relatedWords": {
+        "en": [
+          "telescope",
+          "microscope"
+        ],
+        "ar": [
+          "منظار",
+          "مجهر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scope",
+        "verb": "scope",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نطاق / مدى",
+      "frenchFr": "portée",
+      "germanDe": "Umfang",
+      "spanishEs": "alcance",
+      "chineseZh": "范围 (Fàn wéi)",
+      "russianRu": "объем",
+      "portuguesePt": "escopo",
+      "japaneseJa": "範囲 (Han'i)",
+      "italianIt": "ambito",
+      "turkishTr": "kapsam",
+      "aiConfidence": 0.90
+    }
+  ]
+} 

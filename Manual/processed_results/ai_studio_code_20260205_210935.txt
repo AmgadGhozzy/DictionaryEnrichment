@@ -1,0 +1,1424 @@
+{
+  "wordEntries": [
+    {
+      "id": 216,
+      "wordEn": "many",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmeni",
+      "phoneticUk": null,
+      "phoneticAr": "مَاني",
+      "translit": "Kathīr",
+      "definitionEn": "Used to describe a large number of people or things.",
+      "definitionAr": "بنستخدمها لما نتكلم عن عدد كبير من الناس أو الحاجات. يعني مش واحد ولا اتنين، لأ، كتير.",
+      "usageNote": "Used with countable nouns (e.g., 'many cars'). Use 'much' for uncountable nouns (e.g., 'much water').",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Numbers",
+        "#Amount"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Many\" شبه \"Money\" \"فلوس\".. والفلوس عادة بتكون \"كتيرة\".",
+      "examples": {
+        "A1": "I have many friends at school.",
+        "A2": "There are many books on the shelf.",
+        "B1": "Many people believe that health is wealth.",
+        "B2": "The project faced many challenges before it was completed.",
+        "C1": "There are many reasons to support this argument.",
+        "C2": "The manifold implications of the decision were clear to many."
+      },
+      "collocations": [
+        "many people",
+        "many times",
+        "how many",
+        "too many"
+      ],
+      "synonyms": [
+        "numerous",
+        "countless",
+        "various",
+        "multiple"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "relatedWords": {
+        "en": [
+          "much",
+          "lot",
+          "plenty",
+          "several"
+        ],
+        "ar": [
+          "كثير",
+          "وفير",
+          "عديد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "many",
+        "adv": ""
+      },
+      "arabicAr": "كثير",
+      "frenchFr": "nombreux",
+      "germanDe": "viele",
+      "spanishEs": "muchos",
+      "chineseZh": "许多 (Xǔduō)",
+      "russianRu": "много",
+      "portuguesePt": "muitos",
+      "japaneseJa": "多くの (Ōku no)",
+      "italianIt": "molti",
+      "turkishTr": "çok",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 217,
+      "wordEn": "many",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmeni",
+      "phoneticUk": null,
+      "phoneticAr": "مَاني",
+      "translit": "Kathīr",
+      "definitionEn": "A large number of people or things considered as a group.",
+      "definitionAr": "هنا بتيجي بمعنى 'كتير' بس كاسم، يعني بتقول 'كتير منهم وافقوا' من غير ما تذكر الاسم بعدها.",
+      "usageNote": "As a pronoun, 'many' can stand alone without a noun following it.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Group",
+        "#People",
+        "#Majority"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بنقول \"Money\" \"فلوس\" بتغني.. \"Many\" \"كتير\" بيوافقوا.",
+      "examples": {
+        "A1": "Many are happy today.",
+        "A2": "Many of us like pizza.",
+        "B1": "Many were late because of the traffic.",
+        "B2": "Many have tried to climb that mountain, but few succeeded.",
+        "C1": "The needs of the many outweigh the needs of the few.",
+        "C2": "Many are called, but few are chosen."
+      },
+      "collocations": [
+        "many of",
+        "a good many",
+        "the many"
+      ],
+      "synonyms": [
+        "plenty",
+        "lots",
+        "multitude"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "relatedWords": {
+        "en": [
+          "some",
+          "few",
+          "all"
+        ],
+        "ar": [
+          "البعض",
+          "الكل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "many",
+        "adv": ""
+      },
+      "arabicAr": "كثير",
+      "frenchFr": "beaucoup",
+      "germanDe": "viele",
+      "spanishEs": "muchos",
+      "chineseZh": "许多人 (Xǔduō rén)",
+      "russianRu": "многие",
+      "portuguesePt": "muitos",
+      "japaneseJa": "多く (Ōku)",
+      "italianIt": "molti",
+      "turkishTr": "çoğu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 218,
+      "wordEn": "many",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmeni",
+      "phoneticUk": null,
+      "phoneticAr": "مَاني",
+      "translit": "Kathīr",
+      "definitionEn": "A determiner used to indicate a large number.",
+      "definitionAr": "أداة بتيجي قبل الاسم عشان تبين إن عدده كبير.",
+      "usageNote": "Functions similarly to the adjective form but emphasizes the determination of quantity.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Countable",
+        "#Determiner"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Menu\" \"قائمة\".. الـ \"Menu\" فيها أصناف \"Many\" \"كتيرة\".",
+      "examples": {
+        "A1": "How many apples do you have?",
+        "A2": "I don't have many questions.",
+        "B1": "Many students study English.",
+        "B2": "In many cases, the result is the same.",
+        "C1": "Many a true word is spoken in jest.",
+        "C2": "For many a year, the castle stood empty."
+      },
+      "collocations": [
+        "how many",
+        "so many",
+        "as many as"
+      ],
+      "synonyms": [
+        "numerous",
+        "umpteen"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "relatedWords": {
+        "en": [
+          "several",
+          "various"
+        ],
+        "ar": [
+          "عديد",
+          "متنوع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "many",
+        "adv": ""
+      },
+      "arabicAr": "كثير",
+      "frenchFr": "plusieurs",
+      "germanDe": "viele",
+      "spanishEs": "muchos",
+      "chineseZh": "很多 (Hěn duō)",
+      "russianRu": "много",
+      "portuguesePt": "vários",
+      "japaneseJa": "たくさんの (Takusan no)",
+      "italianIt": "tanti",
+      "turkishTr": "birçok",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 219,
+      "wordEn": "those",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ðoʊz",
+      "phoneticUk": null,
+      "phoneticAr": "ذُوز",
+      "translit": "'Ula'ik",
+      "definitionEn": "Plural form of 'that', referring to people or things far away.",
+      "definitionAr": "كلمة إشارة للجمع البعيد. يعني لما تشاور على ناس أو حاجات بعيدة عنك بتقول 'دول' أو 'أولئك'.",
+      "usageNote": "Used for plural nouns that are distant in space or time. Contrast with 'these' (near).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Demonstrative",
+        "#Plural",
+        "#Distance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Those\" بتشاور بيها على الناس البعيدة، افتكر \"Go\" \"اذهب\".. \"Those\" هناك.",
+      "examples": {
+        "A1": "Look at those birds.",
+        "A2": "I like those shoes over there.",
+        "B1": "Do you remember those days?",
+        "B2": "Those people who work hard usually succeed.",
+        "C1": "Those were the defining moments of his career.",
+        "C2": "In those circumstances, the decision was justified."
+      },
+      "collocations": [
+        "those days",
+        "those people",
+        "one of those"
+      ],
+      "synonyms": [
+        "these (antonym context)",
+        "the aforementioned"
+      ],
+      "antonyms": [
+        "these"
+      ],
+      "relatedWords": {
+        "en": [
+          "that",
+          "these",
+          "this"
+        ],
+        "ar": [
+          "ذلك",
+          "هؤلاء",
+          "هذا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أولئك",
+      "frenchFr": "ces",
+      "germanDe": "jene",
+      "spanishEs": "aquellos",
+      "chineseZh": "那些 (Nàxiē)",
+      "russianRu": "те",
+      "portuguesePt": "aqueles",
+      "japaneseJa": "あれらの (Arera no)",
+      "italianIt": "quelli",
+      "turkishTr": "şunlar",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 220,
+      "wordEn": "one",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wʌn",
+      "phoneticUk": "wɒn",
+      "phoneticAr": "وَن",
+      "translit": "Wāḥid",
+      "definitionEn": "Single; individual; not two or more.",
+      "definitionAr": "يعني حاجة واحدة بس، مش اتنين ولا تلاتة. مفرد.",
+      "usageNote": "Emphasizes singularity.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Number",
+        "#Single",
+        "#Unit"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"One\" نطقها زي \"Won\" \"فاز\".. اللي بيفوز بيطلع المركز الـ \"One\" \"الأول\".",
+      "examples": {
+        "A1": "I have one brother.",
+        "A2": "One day, I will visit Paris.",
+        "B1": "There is only one way to solve this.",
+        "B2": "One major advantage is the cost.",
+        "C1": "He is one hell of a driver.",
+        "C2": "The one and only reason for his failure was pride."
+      },
+      "collocations": [
+        "one day",
+        "one way",
+        "one time"
+      ],
+      "synonyms": [
+        "single",
+        "sole",
+        "lone"
+      ],
+      "antonyms": [
+        "many",
+        "multiple"
+      ],
+      "relatedWords": {
+        "en": [
+          "first",
+          "once",
+          "unit"
+        ],
+        "ar": [
+          "أول",
+          "مرة",
+          "وحدة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "one",
+        "verb": "",
+        "adj": "one",
+        "adv": "once"
+      },
+      "arabicAr": "واحد",
+      "frenchFr": "un",
+      "germanDe": "ein",
+      "spanishEs": "un",
+      "chineseZh": "一个 (Yīgè)",
+      "russianRu": "один",
+      "portuguesePt": "um",
+      "japaneseJa": "一つの (Hitotsu no)",
+      "italianIt": "uno",
+      "turkishTr": "bir",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 221,
+      "wordEn": "one",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wʌn",
+      "phoneticUk": "wɒn",
+      "phoneticAr": "وَن",
+      "translit": "Wāḥid",
+      "definitionEn": "Refers to a person or thing previously mentioned.",
+      "definitionAr": "بنستخدمها عشان نشير لحاجة اتكلمنا عنها قبل كده بدل ما نكرر اسمها، أو بنتكلم عن شخص مجهول.",
+      "usageNote": "Can be used as an impersonal pronoun meaning 'people in general' (formal).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Reference",
+        "#Pronoun",
+        "#General"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما تقول \"Wan\" \"وان\".. يعني \"One\" \"واحد\" من الناس.",
+      "examples": {
+        "A1": "I want the red one.",
+        "A2": "Which one do you like?",
+        "B1": "One should always be polite.",
+        "B2": "If one works hard, one succeeds.",
+        "C1": "One cannot simply ignore the facts.",
+        "C2": "One must cultivate one's own garden."
+      },
+      "collocations": [
+        "the one",
+        "this one",
+        "that one"
+      ],
+      "synonyms": [
+        "person",
+        "individual",
+        "someone"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "anyone",
+          "someone"
+        ],
+        "ar": [
+          "أي شخص",
+          "شخص ما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "one",
+        "verb": "",
+        "adj": "one",
+        "adv": "once"
+      },
+      "arabicAr": "واحد",
+      "frenchFr": "on",
+      "germanDe": "man",
+      "spanishEs": "uno",
+      "chineseZh": "一个 (Yīgè)",
+      "russianRu": "один",
+      "portuguesePt": "um",
+      "japaneseJa": "それ (Sore)",
+      "italianIt": "uno",
+      "turkishTr": "biri",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 222,
+      "wordEn": "one",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wʌn",
+      "phoneticUk": "wɒn",
+      "phoneticAr": "وَن",
+      "translit": "Wāḥid",
+      "definitionEn": "The lowest cardinal number; 1.",
+      "definitionAr": "الرقم واحد. أول رقم في العد.",
+      "usageNote": "Used in counting and mathematics.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Math",
+        "#Counting",
+        "#Cardinal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "رقم \"One\" هو \"Number One\".. يعني الأول.",
+      "examples": {
+        "A1": "One, two, three, go!",
+        "A2": "It is one o'clock.",
+        "B1": "Chapter one is very interesting.",
+        "B2": "The ratio is three to one.",
+        "C1": "We are back to square one.",
+        "C2": "It was a million to one shot."
+      },
+      "collocations": [
+        "number one",
+        "one by one",
+        "one hundred"
+      ],
+      "synonyms": [
+        "unit",
+        "unity"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "first",
+          "single"
+        ],
+        "ar": [
+          "أول",
+          "مفرد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "one",
+        "verb": "",
+        "adj": "one",
+        "adv": "once"
+      },
+      "arabicAr": "واحد",
+      "frenchFr": "un",
+      "germanDe": "eins",
+      "spanishEs": "uno",
+      "chineseZh": "一 (Yī)",
+      "russianRu": "один",
+      "portuguesePt": "um",
+      "japaneseJa": "一 (Ichi)",
+      "italianIt": "uno",
+      "turkishTr": "bir",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 223,
+      "wordEn": "one",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wʌn",
+      "phoneticUk": "wɒn",
+      "phoneticAr": "وَن",
+      "translit": "Wāḥid",
+      "definitionEn": "A determiner indicating a single person or thing.",
+      "definitionAr": "أداة تحديد بتيجي قبل الاسم عشان تقول إنه حاجة واحدة بس.",
+      "usageNote": "Often interchangeable with 'a' or 'an' but more emphatic about quantity.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#Singular"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تقول \"One\" \"واحد\" قبل الكلمة، إنت بتأكد إنه مش اتنين.",
+      "examples": {
+        "A1": "One boy is playing.",
+        "A2": "I have one question for you.",
+        "B1": "One day, you will understand.",
+        "B2": "One man's trash is another man's treasure.",
+        "C1": "One moment, please.",
+        "C2": "For one thing, it's too expensive."
+      },
+      "collocations": [
+        "one day",
+        "one time",
+        "one way"
+      ],
+      "synonyms": [
+        "a",
+        "an",
+        "single"
+      ],
+      "antonyms": [
+        "multiple"
+      ],
+      "relatedWords": {
+        "en": [
+          "singular",
+          "individual"
+        ],
+        "ar": [
+          "مفرد",
+          "فردي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "one",
+        "verb": "",
+        "adj": "one",
+        "adv": "once"
+      },
+      "arabicAr": "واحد",
+      "frenchFr": "un",
+      "germanDe": "ein",
+      "spanishEs": "un",
+      "chineseZh": "某一个 (Mǒu yīgè)",
+      "russianRu": "один",
+      "portuguesePt": "um",
+      "japaneseJa": "ある (Aru)",
+      "italianIt": "un",
+      "turkishTr": "bir",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 224,
+      "wordEn": "after",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈæftər",
+      "phoneticUk": "ˈɑːftə",
+      "phoneticAr": "آفْتَر",
+      "translit": "Baʿd",
+      "definitionEn": "Later; following in time or place.",
+      "definitionAr": "صفة بمعنى 'لاحق' أو 'جاي بعدين'. استخدامها كصفة مش شائع أوي زي استخدامها كحرف جر.",
+      "usageNote": "As an adjective, it is often used in nautical contexts (after cabin) or archaic phrases (after years).",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Sequence",
+        "#Later"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "افتكر \"After\" بـ \"Avatar\".. الجزء التاني نزل \"بعد\" الأول بكتير.",
+      "examples": {
+        "A1": "See you in after school club.",
+        "A2": "The after effects were mild.",
+        "B1": "In after years, he regretted his decision.",
+        "B2": "The after cabin on the ship was small.",
+        "C1": "We discussed the after market sales.",
+        "C2": "His after life was a subject of much debate."
+      },
+      "collocations": [
+        "after years",
+        "after life",
+        "after care"
+      ],
+      "synonyms": [
+        "later",
+        "subsequent",
+        "following"
+      ],
+      "antonyms": [
+        "before",
+        "prior"
+      ],
+      "relatedWords": {
+        "en": [
+          "afterwards",
+          "next"
+        ],
+        "ar": [
+          "لاحق",
+          "تالي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "afternoon",
+        "verb": "",
+        "adj": "after",
+        "adv": "afterwards"
+      },
+      "arabicAr": "بعد",
+      "frenchFr": "après",
+      "germanDe": "nach",
+      "spanishEs": "posterior",
+      "chineseZh": "以后的 (Yǐhòu de)",
+      "russianRu": "последующий",
+      "portuguesePt": "posterior",
+      "japaneseJa": "後の (Nochi no)",
+      "italianIt": "successivo",
+      "turkishTr": "sonraki",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 225,
+      "wordEn": "after",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈæftər",
+      "phoneticUk": "ˈɑːftə",
+      "phoneticAr": "آفْتَر",
+      "translit": "Baʿd",
+      "definitionEn": "Following in time, place, or order.",
+      "definitionAr": "حرف جر بمعنى 'بعد'. يعني حاجة بتحصل ورا حاجة تانية.",
+      "usageNote": "Very common preposition indicating sequence.",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Sequence",
+        "#Preposition",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"After\" عكس \"Before\".. \"After\" يعني \"بعد\" ما تخلص.",
+      "examples": {
+        "A1": "I play after school.",
+        "A2": "Wash your hands after eating.",
+        "B1": "After lunch, we went for a walk.",
+        "B2": "He ran after the bus.",
+        "C1": "Day after day, nothing changed.",
+        "C2": "She was named after her grandmother."
+      },
+      "collocations": [
+        "after all",
+        "after that",
+        "day after day"
+      ],
+      "synonyms": [
+        "following",
+        "behind"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "relatedWords": {
+        "en": [
+          "next",
+          "then"
+        ],
+        "ar": [
+          "ثم",
+          "التالي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "afterwards"
+      },
+      "arabicAr": "بعد",
+      "frenchFr": "après",
+      "germanDe": "nach",
+      "spanishEs": "después de",
+      "chineseZh": "在...之后 (Zài...zhīhòu)",
+      "russianRu": "после",
+      "portuguesePt": "depois de",
+      "japaneseJa": "の後 (No ato)",
+      "italianIt": "dopo",
+      "turkishTr": "sonra",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 226,
+      "wordEn": "after",
+      "pos": "conj",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈæftər",
+      "phoneticUk": "ˈɑːftə",
+      "phoneticAr": "آفْتَر",
+      "translit": "Baʿd",
+      "definitionEn": "In the time following the event that.",
+      "definitionAr": "رابط زمني بمعنى 'بعد ما'. بيجي بعدها جملة كاملة (فاعل وفعل).",
+      "usageNote": "Connects two clauses, indicating that one action happened later than the other.",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Conjunction",
+        "#TimeClause"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "استخدم \"After\" عشان تربط جملتين.. \"After\" ما أكلت، نمت.",
+      "examples": {
+        "A1": "I sleep after I eat.",
+        "A2": "Call me after you arrive.",
+        "B1": "After he finished work, he went home.",
+        "B2": "She felt better after she had spoken to him.",
+        "C1": "After I have reviewed the report, I will give you feedback.",
+        "C2": "After all is said and done, we must proceed."
+      },
+      "collocations": [
+        "after I",
+        "after you",
+        "shortly after"
+      ],
+      "synonyms": [
+        "when",
+        "once"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "relatedWords": {
+        "en": [
+          "since",
+          "while"
+        ],
+        "ar": [
+          "منذ",
+          "بينما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "afterwards"
+      },
+      "arabicAr": "بعد",
+      "frenchFr": "après que",
+      "germanDe": "nachdem",
+      "spanishEs": "después de que",
+      "chineseZh": "在...以后 (Zài...yǐhòu)",
+      "russianRu": "после того как",
+      "portuguesePt": "depois que",
+      "japaneseJa": "した後 (Shita ato)",
+      "italianIt": "dopo che",
+      "turkishTr": "-dikten sonra",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 227,
+      "wordEn": "after",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈæftər",
+      "phoneticUk": "ˈɑːftə",
+      "phoneticAr": "آفْتَر",
+      "translit": "Baʿd",
+      "definitionEn": "At a later time; afterwards.",
+      "definitionAr": "ظرف بمعنى 'بعدين' أو 'فيما بعد'. بتيجي في آخر الجملة عادة.",
+      "usageNote": "Often used in phrases like 'happily ever after'.",
+      "category": "Time & Frequency",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Adverb",
+        "#Later",
+        "#Future"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي في القصص.. عاشوا في سعادة \"Ever After\" \"إلى الأبد\".",
+      "examples": {
+        "A1": "I will come after.",
+        "A2": "They lived happily ever after.",
+        "B1": "He arrived shortly after.",
+        "B2": "We met three days after.",
+        "C1": "The day after was a holiday.",
+        "C2": "Whatever happens after is not my concern."
+      },
+      "collocations": [
+        "ever after",
+        "shortly after",
+        "soon after"
+      ],
+      "synonyms": [
+        "later",
+        "afterwards",
+        "subsequently"
+      ],
+      "antonyms": [
+        "before",
+        "beforehand"
+      ],
+      "relatedWords": {
+        "en": [
+          "later",
+          "then"
+        ],
+        "ar": [
+          "لاحقاً",
+          "ثم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "after"
+      },
+      "arabicAr": "بعد",
+      "frenchFr": "après",
+      "germanDe": "danach",
+      "spanishEs": "después",
+      "chineseZh": "后来 (Hòulái)",
+      "russianRu": "позже",
+      "portuguesePt": "depois",
+      "japaneseJa": "後で (Atode)",
+      "italianIt": "dopo",
+      "turkishTr": "sonra",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 228,
+      "wordEn": "down",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "daʊn",
+      "phoneticUk": null,
+      "phoneticAr": "دَاون",
+      "translit": "Taḥt / 'Asfal",
+      "definitionEn": "Directed or moving toward a lower place or position.",
+      "definitionAr": "صفة بتوصف حاجة نازلة لتحت أو مش شغالة، أو حد مزاجه وحش.",
+      "usageNote": "Can describe mood (feeling down) or equipment status (system is down).",
+      "category": "Travel & Movement",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Direction",
+        "#Mood",
+        "#Status"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Down\" شبه \"Town\".. وإحنا رايحين الـ \"Town\" بننزل \"Down\" من الجبل.",
+      "examples": {
+        "A1": "The sun is down.",
+        "A2": "I feel a bit down today.",
+        "B1": "The computer system is down.",
+        "B2": "He has been down on his luck recently.",
+        "C1": "The down escalator is broken.",
+        "C2": "It was a down market year for investors."
+      },
+      "collocations": [
+        "feel down",
+        "system is down",
+        "down payment"
+      ],
+      "synonyms": [
+        "low",
+        "depressed",
+        "inactive"
+      ],
+      "antonyms": [
+        "up",
+        "happy"
+      ],
+      "relatedWords": {
+        "en": [
+          "below",
+          "under"
+        ],
+        "ar": [
+          "أسفل",
+          "تحت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "down",
+        "adv": "down"
+      },
+      "arabicAr": "تحت / أسفل",
+      "frenchFr": "en bas",
+      "germanDe": "unten",
+      "spanishEs": "abajo",
+      "chineseZh": "向下的 (Xiàngxià de)",
+      "russianRu": "внизу",
+      "portuguesePt": "para baixo",
+      "japaneseJa": "下がって (Sagatte)",
+      "italianIt": "giù",
+      "turkishTr": "aşağı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 229,
+      "wordEn": "down",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "daʊn",
+      "phoneticUk": null,
+      "phoneticAr": "دَاون",
+      "translit": "Taḥt / 'Asfal",
+      "definitionEn": "From a higher to a lower point of.",
+      "definitionAr": "حرف جر بمعنى 'نازل في' أو 'على طول'. يعني بتتحرك من فوق لتحت.",
+      "usageNote": "Indicates movement along a surface or path in a descending direction.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Movement",
+        "#Descent"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Up\".. \"Down\" يعني لتحت.",
+      "examples": {
+        "A1": "Go down the stairs.",
+        "A2": "We walked down the street.",
+        "B1": "Tears ran down her face.",
+        "B2": "They drove down the coast.",
+        "C1": "He is well known down the pub.",
+        "C2": "Generations down the line will remember this."
+      },
+      "collocations": [
+        "down the street",
+        "down the road",
+        "down the hill"
+      ],
+      "synonyms": [
+        "along",
+        "through"
+      ],
+      "antonyms": [
+        "up"
+      ],
+      "relatedWords": {
+        "en": [
+          "below",
+          "beneath"
+        ],
+        "ar": [
+          "أسفل",
+          "تحت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "down",
+        "adv": "down"
+      },
+      "arabicAr": "تحت / أسفل",
+      "frenchFr": "descendre",
+      "germanDe": "hinunter",
+      "spanishEs": "por",
+      "chineseZh": "沿着 (Yánzhe)",
+      "russianRu": "вниз по",
+      "portuguesePt": "pelo",
+      "japaneseJa": "を下って (O kudatte)",
+      "italianIt": "lungo",
+      "turkishTr": "aşağıya",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 230,
+      "wordEn": "down",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "daʊn",
+      "phoneticUk": null,
+      "phoneticAr": "دَاون",
+      "translit": "Taḥt / 'Asfal",
+      "definitionEn": "Toward or in a lower place or position.",
+      "definitionAr": "ظرف مكان بمعنى 'لتحت'. بنستخدمها مع الأفعال زي 'اقعد' أو 'انزل'.",
+      "usageNote": "Modifies verbs to indicate downward direction or decrease.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Decrease",
+        "#Lower"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تقول للكلب \"Down\".. يعني اقعد \"تحت\".",
+      "examples": {
+        "A1": "Please sit down.",
+        "A2": "Write this down.",
+        "B1": "The sun went down.",
+        "B2": "Calm down and listen.",
+        "C1": "The company is downsizing down to the bare essentials.",
+        "C2": "It all comes down to money in the end."
+      },
+      "collocations": [
+        "sit down",
+        "calm down",
+        "write down"
+      ],
+      "synonyms": [
+        "below",
+        "lower"
+      ],
+      "antonyms": [
+        "up"
+      ],
+      "relatedWords": {
+        "en": [
+          "downward",
+          "low"
+        ],
+        "ar": [
+          "هبوطاً",
+          "منخفض"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "down",
+        "adv": "down"
+      },
+      "arabicAr": "تحت / أسفل",
+      "frenchFr": "en bas",
+      "germanDe": "herunter",
+      "spanishEs": "abajo",
+      "chineseZh": "向下 (Xiàngxià)",
+      "russianRu": "вниз",
+      "portuguesePt": "para baixo",
+      "japaneseJa": "下に (Shita ni)",
+      "italianIt": "giù",
+      "turkishTr": "aşağı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 231,
+      "wordEn": "yeah",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "jeə",
+      "phoneticUk": null,
+      "phoneticAr": "يَآه",
+      "translit": "Naʿam / Balā",
+      "definitionEn": "Informal way of saying 'yes'.",
+      "definitionAr": "طريقة غير رسمية عشان تقول 'أيوه' أو 'نعم'. بنستخدمها مع الصحاب.",
+      "usageNote": "Very common in spoken English. Avoid in formal writing.",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Informal",
+        "#Agreement",
+        "#Slang"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "هي النطق السريع والمفتوح لـ \"Yes\".. \"Yeah\".",
+      "examples": {
+        "A1": "Yeah, I like it.",
+        "A2": "Do you want to go? Yeah.",
+        "B1": "Yeah, that makes sense.",
+        "B2": "Oh yeah? Prove it.",
+        "C1": "Yeah, right! (Sarcastic)",
+        "C2": "Yeah, well, that's just your opinion."
+      },
+      "collocations": [
+        "oh yeah",
+        "yeah right",
+        "hell yeah"
+      ],
+      "synonyms": [
+        "yes",
+        "yep",
+        "sure"
+      ],
+      "antonyms": [
+        "no",
+        "nah"
+      ],
+      "relatedWords": {
+        "en": [
+          "okay",
+          "alright"
+        ],
+        "ar": [
+          "حسناً",
+          "تمام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نعم",
+      "frenchFr": "ouais",
+      "germanDe": "ja",
+      "spanishEs": "sí",
+      "chineseZh": "是的 (Shì de)",
+      "russianRu": "да",
+      "portuguesePt": "sim",
+      "japaneseJa": "うん (Un)",
+      "italianIt": "sì",
+      "turkishTr": "evet",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 232,
+      "wordEn": "yeah",
+      "pos": "excl",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "jeə",
+      "phoneticUk": null,
+      "phoneticAr": "يَآه",
+      "translit": "Naʿam / Balā",
+      "definitionEn": "Used to express joy, agreement, or affirmation.",
+      "definitionAr": "صيحة بتعبر عن الفرحة أو الموافقة القوية. زي ما تقول 'ياااه' بس بالإنجليزي.",
+      "usageNote": "Often shouted or said with enthusiasm.",
+      "category": "Communication",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Exclamation",
+        "#Joy",
+        "#Agreement"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "لما فريقك يكسب بتقول \"Yeah!\" \"أيوه بقى!\".",
+      "examples": {
+        "A1": "Yeah! We won!",
+        "A2": "Yeah! Let's go!",
+        "B1": "Oh yeah! That's great news.",
+        "B2": "Yeah! I finally finished the exam.",
+        "C1": "Yeah, baby! That's how we do it.",
+        "C2": "Hell yeah! I'm totally in."
+      },
+      "collocations": [
+        "oh yeah",
+        "hell yeah"
+      ],
+      "synonyms": [
+        "hooray",
+        "yay",
+        "woo-hoo"
+      ],
+      "antonyms": [
+        "boo"
+      ],
+      "relatedWords": {
+        "en": [
+          "wow",
+          "cool"
+        ],
+        "ar": [
+          "واو",
+          "رائع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نعم",
+      "frenchFr": "ouais",
+      "germanDe": "jawohl",
+      "spanishEs": "¡sí!",
+      "chineseZh": "耶 (Yē)",
+      "russianRu": "ура",
+      "portuguesePt": "isso",
+      "japaneseJa": "イェーイ (Yē-i)",
+      "italianIt": "evvai",
+      "turkishTr": "yaşasın",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 233,
+      "wordEn": "thing",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "θɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "ثِنج",
+      "translit": "Shay'",
+      "definitionEn": "An object, idea, or situation that is not specified.",
+      "definitionAr": "أي حاجة.. شيء مادي أو فكرة مش عايز تحدد اسمها بالظبط. كلمة جوكر.",
+      "usageNote": "Extremely common and versatile placeholder word.",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Object",
+        "#Idea",
+        "#General"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Think\" \"يفكر\".. أنا بفكر في \"Thing\" \"شيء\" معين.",
+      "examples": {
+        "A1": "What is this thing?",
+        "A2": "I have many things to do.",
+        "B1": "The best thing about him is his smile.",
+        "B2": "It's a good thing you came early.",
+        "C1": "He has a thing for classic cars.",
+        "C2": "All things considered, it was a success."
+      },
+      "collocations": [
+        "one thing",
+        "the thing is",
+        "good thing"
+      ],
+      "synonyms": [
+        "object",
+        "item",
+        "matter"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "something",
+          "anything",
+          "everything"
+        ],
+        "ar": [
+          "شيء ما",
+          "أي شيء",
+          "كل شيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "thing",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "شيء",
+      "frenchFr": "chose",
+      "germanDe": "Ding",
+      "spanishEs": "cosa",
+      "chineseZh": "东西 (Dōngxī)",
+      "russianRu": "вещь",
+      "portuguesePt": "coisa",
+      "japaneseJa": "物 (Mono)",
+      "italianIt": "cosa",
+      "turkishTr": "şey",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 234,
+      "wordEn": "tell",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "tel",
+      "phoneticUk": null,
+      "phoneticAr": "تِل",
+      "translit": "Yukhbir",
+      "definitionEn": "An unconscious action that reveals a secret or lie.",
+      "definitionAr": "إشارة أو حركة لا إرادية بتفضح الشخص، زي في لعبة البوكر لما حد يعمل حركة تبين إن معاه ورق قوي.",
+      "usageNote": "Rarely used as a noun except in games (poker) or specialized contexts (archaeology mound).",
+      "category": "Games & Leisure",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Poker",
+        "#Sign",
+        "#Secret"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Tell\" كاسم معناها \"علامة\" بتـ \"Tell\" \"تخبر\" اللي قدامك بالحقيقة.",
+      "examples": {
+        "A1": "That smile is a tell.",
+        "A2": "He has a nervous tell.",
+        "B1": "In poker, a tell can lose you money.",
+        "B2": "Touching his nose is his tell when he lies.",
+        "C1": "Experienced players know how to hide every tell.",
+        "C2": "The archaeological tell revealed layers of ancient civilization."
+      },
+      "collocations": [
+        "poker tell",
+        "nervous tell",
+        "give a tell"
+      ],
+      "synonyms": [
+        "sign",
+        "giveaway",
+        "clue"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "hint",
+          "signal"
+        ],
+        "ar": [
+          "تلميح",
+          "إشارة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "tell",
+        "verb": "tell",
+        "adj": "telling",
+        "adv": ""
+      },
+      "arabicAr": "يخبر",
+      "frenchFr": "indice",
+      "germanDe": "Anzeichen",
+      "spanishEs": "delator",
+      "chineseZh": "破绽 (Pòzhàn)",
+      "russianRu": "признак",
+      "portuguesePt": "dica",
+      "japaneseJa": "癖 (Kuse)",
+      "italianIt": "segno rivelatore",
+      "turkishTr": "ipucu",
+      "aiConfidence": 0.75
+    },
+    {
+      "id": 235,
+      "wordEn": "tell",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "tel",
+      "phoneticUk": null,
+      "phoneticAr": "تِل",
+      "translit": "Yukhbir",
+      "definitionEn": "To communicate information to someone.",
+      "definitionAr": "يقول أو يخبر حد بحاجة. يعني تحكي قصة أو تدي معلومة.",
+      "usageNote": "Usually followed by an object (tell SOMEONE something). Contrast with 'say' which doesn't always need a person object.",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Speech",
+        "#Story",
+        "#Inform"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Tell\" شبه \"Tel\" \"تليفون\".. بستخدم التليفون عشان \"Tell\" \"أخبر\" حد بحاجة.",
+      "examples": {
+        "A1": "Tell me your name.",
+        "A2": "Can you tell me the time?",
+        "B1": "He told us a funny story.",
+        "B2": "I can't tell the difference between them.",
+        "C1": "Time will tell if we made the right choice.",
+        "C2": "To tell the truth, I was quite disappointed."
+      },
+      "collocations": [
+        "tell a story",
+        "tell the truth",
+        "tell a lie"
+      ],
+      "synonyms": [
+        "inform",
+        "say",
+        "narrate"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "relatedWords": {
+        "en": [
+          "speak",
+          "say",
+          "talk"
+        ],
+        "ar": [
+          "يتحدث",
+          "يقول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "teller",
+        "verb": "tell",
+        "adj": "telling",
+        "adv": ""
+      },
+      "arabicAr": "يخبر",
+      "frenchFr": "dire",
+      "germanDe": "erzählen",
+      "spanishEs": "contar",
+      "chineseZh": "告诉 (Gàosù)",
+      "russianRu": "рассказывать",
+      "portuguesePt": "contar",
+      "japaneseJa": "話す (Hanasu)",
+      "italianIt": "raccontare",
+      "turkishTr": "anlatmak",
+      "aiConfidence": 0.99
+    }
+  ]
+} 

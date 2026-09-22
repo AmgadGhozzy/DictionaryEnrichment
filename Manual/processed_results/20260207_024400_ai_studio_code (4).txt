@@ -1,0 +1,2236 @@
+{
+  "wordEntries": [
+    {
+      "id": 2853,
+      "wordEn": "lucky",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈlʌki",
+      "phoneticUk": null,
+      "phoneticAr": "لاكي",
+      "translit": "Maḥẓūẓ",
+      "definitionEn": "Having or bringing good luck; fortunate.",
+      "definitionAr": "لما تكون محظوظ والحاجات الحلوة بتحصلك بالصدفة من غير تخطيط، أو لما حاجة تجيبلك الحظ.",
+      "usageNote": "Used to describe people who are fortunate or objects believed to bring good luck.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Fortune",
+        "#Chance",
+        "#Success"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Luck\" يعني حظ.. يبقى \"Lucky\" يعني محظوظ.",
+      "examples": {
+        "A1": "I am very lucky to have you.",
+        "A2": "Seven is considered a lucky number.",
+        "B1": "He was lucky to escape without injury.",
+        "B2": "It was a lucky coincidence that we met here.",
+        "C1": "She felt lucky to be alive after the accident.",
+        "C2": "By a lucky stroke of serendipity, he found the missing document."
+      },
+      "collocations": [
+        "lucky number",
+        "lucky charm",
+        "get lucky",
+        "lucky break"
+      ],
+      "synonyms": [
+        "fortunate",
+        "charmed",
+        "blessed",
+        "favored"
+      ],
+      "antonyms": [
+        "unlucky",
+        "unfortunate"
+      ],
+      "relatedWords": {
+        "en": [
+          "luck",
+          "luckily",
+          "fortune"
+        ],
+        "ar": [
+          "حظ",
+          "لحسن الحظ",
+          "ثروة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "luck",
+        "verb": "",
+        "adj": "lucky",
+        "adv": "luckily"
+      },
+      "arabicAr": "محظوظ",
+      "frenchFr": "chanceux",
+      "germanDe": "glücklich",
+      "spanishEs": "afortunado",
+      "chineseZh": "幸运 (Xìngyùn)",
+      "russianRu": "удачливый",
+      "portuguesePt": "sortudo",
+      "japaneseJa": "運が良い (Un ga ii)",
+      "italianIt": "fortunato",
+      "turkishTr": "şanslı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2854,
+      "wordEn": "restore",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ɹɪˈstɔːɹ",
+      "phoneticUk": "rɪˈstɔː",
+      "phoneticAr": "رِسْتُور",
+      "translit": "Yuʿīd / Yurammim",
+      "definitionEn": "To bring something back to its original condition or position.",
+      "definitionAr": "إنك ترجع حاجة لحالتها الأصلية أو تصلحها بعد ما باظت أو ضاعت.",
+      "usageNote": "Commonly used for buildings, art, health, or order.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Repair",
+        "#History",
+        "#Fix"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Store\" \"مخزن\".. كأنك بترجع الحاجة للـ \"Store\" عشان تتصلح وترجع جديدة.",
+      "examples": {
+        "A1": "Please restore the file.",
+        "A2": "They want to restore the old house.",
+        "B1": "The police managed to restore order.",
+        "B2": "This cream helps to restore moisture to your skin.",
+        "C1": "The diplomat worked to restore relations between the two countries.",
+        "C2": "The extensive project aimed to restore the medieval cathedral to its former glory."
+      },
+      "collocations": [
+        "restore order",
+        "restore confidence",
+        "restore peace",
+        "restore health"
+      ],
+      "synonyms": [
+        "reinstate",
+        "repair",
+        "renew",
+        "rebuild"
+      ],
+      "antonyms": [
+        "damage",
+        "destroy"
+      ],
+      "relatedWords": {
+        "en": [
+          "restoration",
+          "restorer",
+          "store"
+        ],
+        "ar": [
+          "ترميم",
+          "مُرمِّم",
+          "مخزن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "restoration",
+        "verb": "restore",
+        "adj": "restored",
+        "adv": ""
+      },
+      "arabicAr": "يُعيد / يُرَمِّم",
+      "frenchFr": "restaurer",
+      "germanDe": "wiederherstellen",
+      "spanishEs": "restaurar",
+      "chineseZh": "恢复 (Huīfù)",
+      "russianRu": "восстанавливать",
+      "portuguesePt": "restaurar",
+      "japaneseJa": "修復する (Shūfuku suru)",
+      "italianIt": "ripristinare",
+      "turkishTr": "onarmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2855,
+      "wordEn": "convince",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "kənˈvɪns",
+      "phoneticUk": null,
+      "phoneticAr": "كُنْفِنْس",
+      "translit": "Yuqniʿ",
+      "definitionEn": "To cause someone to believe firmly in the truth of something.",
+      "definitionAr": "إنك تخلي حد يصدق كلامك أو يوافق يعمل حاجة بالدليل والكلام المقنع.",
+      "usageNote": "Often followed by 'of' or 'that'. implies overcoming doubt.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Persuasion",
+        "#Argument",
+        "#Belief"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "افتكر كلمة \"Conference\" \"مؤتمر\".. في المؤتمرات بيحاولوا يعملوا \"Convince\" للناس بأفكارهم.",
+      "examples": {
+        "A1": "I cannot convince him.",
+        "A2": "She tried to convince me to go.",
+        "B1": "He convinced his mother that he was right.",
+        "B2": "It will take a lot to convince the public.",
+        "C1": "The evidence was not enough to convince the jury.",
+        "C2": "His eloquent speech failed to convince the skeptics of his integrity."
+      },
+      "collocations": [
+        "convince yourself",
+        "hard to convince",
+        "fail to convince"
+      ],
+      "synonyms": [
+        "persuade",
+        "satisfy",
+        "assure"
+      ],
+      "antonyms": [
+        "dissuade"
+      ],
+      "relatedWords": {
+        "en": [
+          "conviction",
+          "convincing",
+          "persuade"
+        ],
+        "ar": [
+          "قناعة",
+          "مُقنِع",
+          "يقنع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "conviction",
+        "verb": "convince",
+        "adj": "convincing",
+        "adv": "convincingly"
+      },
+      "arabicAr": "يُقنِع",
+      "frenchFr": "convaincre",
+      "germanDe": "überzeugen",
+      "spanishEs": "convencer",
+      "chineseZh": "说服 (Shuōfú)",
+      "russianRu": "убеждать",
+      "portuguesePt": "convencer",
+      "japaneseJa": "納得させる (Nattoku saseru)",
+      "italianIt": "convincere",
+      "turkishTr": "ikna etmek",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2856,
+      "wordEn": "coast",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "koʊst",
+      "phoneticUk": "kəʊst",
+      "phoneticAr": "كُوسْت",
+      "translit": "Sāḥil",
+      "definitionEn": "The part of the land near the sea; the edge of the land.",
+      "definitionAr": "المنطقة اللي الأرض بتقابل فيها البحر، زي الساحل الشمالي كده.",
+      "usageNote": "Difference: 'Coast' refers to the land boundary; 'Beach' is the sandy area.",
+      "category": "Objects & Tools",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Geography",
+        "#Sea",
+        "#Travel"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Cost\" يعني تكلفة.. السفر للـ \"Coast\" \"الساحل\" بيكلف فلوس كتير \"Cost\".",
+      "examples": {
+        "A1": "We live near the coast.",
+        "A2": "They drove along the coast road.",
+        "B1": "The ship sailed off the coast of France.",
+        "B2": "The hurricane hit the east coast yesterday.",
+        "C1": "The rugged coast is dangerous for small boats.",
+        "C2": "Erosion is slowly reshaping the coastline along the southern coast."
+      },
+      "collocations": [
+        "east coast",
+        "west coast",
+        "coast guard",
+        "off the coast"
+      ],
+      "synonyms": [
+        "seashore",
+        "coastline",
+        "seaboard"
+      ],
+      "antonyms": [
+        "inland"
+      ],
+      "relatedWords": {
+        "en": [
+          "coastal",
+          "beach",
+          "ocean"
+        ],
+        "ar": [
+          "ساحلي",
+          "شاطئ",
+          "محيط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "coast",
+        "verb": "coast",
+        "adj": "coastal",
+        "adv": ""
+      },
+      "arabicAr": "ساحل",
+      "frenchFr": "côte",
+      "germanDe": "Küste",
+      "spanishEs": "costa",
+      "chineseZh": "海岸 (Hǎi'àn)",
+      "russianRu": "побережье",
+      "portuguesePt": "costa",
+      "japaneseJa": "海岸 (Kaigan)",
+      "italianIt": "costa",
+      "turkishTr": "sahil",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2857,
+      "wordEn": "engineer",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˌɛndʒəˈnɪɹ",
+      "phoneticUk": "ˌɛndʒɪˈnɪə",
+      "phoneticAr": "إِنْجِنِير",
+      "translit": "Muhandis",
+      "definitionEn": "A person who designs, builds, or maintains engines, machines, or public works.",
+      "definitionAr": "الشخص المتخصص اللي بيصمم ويبني المكن أو المباني أو الأنظمة.",
+      "usageNote": "Use specific titles like 'civil engineer' or 'software engineer'.",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Profession",
+        "#Technology",
+        "#Building"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Engineer\" هو اللي بيصمم الـ \"Engine\" \"المحرك\".",
+      "examples": {
+        "A1": "He is an engineer.",
+        "A2": "The engineer fixed the machine.",
+        "B1": "She wants to be a civil engineer.",
+        "B2": "The software engineer wrote the code.",
+        "C1": "The chief engineer oversaw the bridge construction.",
+        "C2": "Genetic engineers are making breakthroughs in medicine."
+      },
+      "collocations": [
+        "civil engineer",
+        "software engineer",
+        "electrical engineer",
+        "chief engineer"
+      ],
+      "synonyms": [
+        "designer",
+        "technologist",
+        "architect"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "engineering",
+          "engine",
+          "design"
+        ],
+        "ar": [
+          "هندسة",
+          "محرك",
+          "تصميم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "engineering",
+        "verb": "engineer",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مُهَنْدِس",
+      "frenchFr": "ingénieur",
+      "germanDe": "Ingenieur",
+      "spanishEs": "ingeniero",
+      "chineseZh": "工程师 (Gōngchéngshī)",
+      "russianRu": "инженер",
+      "portuguesePt": "engenheiro",
+      "japaneseJa": "エンジニア (Enjinia)",
+      "italianIt": "ingegnere",
+      "turkishTr": "mühendis",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2858,
+      "wordEn": "heavily",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈhɛvəli",
+      "phoneticUk": null,
+      "phoneticAr": "هِيفِلي",
+      "translit": "Bishidda / Bithiqal",
+      "definitionEn": "To a great degree; in large amounts.",
+      "definitionAr": "لما تعمل حاجة بقوة كبيرة أو بوزن تقيل، أو بكميات ضخمة.",
+      "usageNote": "Often used with rain, breathing, or relying on something.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Degree",
+        "#Intensity",
+        "#Weight"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Heavy\" \"تقيل\".. لما الدنيا تمطر \"Heavily\" يعني بتقل وغزارة.",
+      "examples": {
+        "A1": "It is raining heavily.",
+        "A2": "He sat down heavily on the bed.",
+        "B1": "The company relies heavily on exports.",
+        "B2": "She was breathing heavily after the run.",
+        "C1": "The area is heavily populated.",
+        "C2": "The text was heavily censored before publication."
+      },
+      "collocations": [
+        "rain heavily",
+        "rely heavily",
+        "heavily involved",
+        "heavily armed"
+      ],
+      "synonyms": [
+        "intensely",
+        "excessively",
+        "profoundly"
+      ],
+      "antonyms": [
+        "lightly",
+        "slightly"
+      ],
+      "relatedWords": {
+        "en": [
+          "heavy",
+          "heaviness",
+          "weight"
+        ],
+        "ar": [
+          "ثقيل",
+          "ثقل",
+          "وزن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "heaviness",
+        "verb": "",
+        "adj": "heavy",
+        "adv": "heavily"
+      },
+      "arabicAr": "بشدة / بثقل",
+      "frenchFr": "lourdement",
+      "germanDe": "schwer",
+      "spanishEs": "fuertemente",
+      "chineseZh": "沉重地 (Chénzhòng de)",
+      "russianRu": "тяжело",
+      "portuguesePt": "pesadamente",
+      "japaneseJa": "激しく (Hageshiku)",
+      "italianIt": "pesantemente",
+      "turkishTr": "ağır bir şekilde",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2859,
+      "wordEn": "extensive",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪkˈstɛnsɪv",
+      "phoneticUk": null,
+      "phoneticAr": "إِكْسْتَنْسِف",
+      "translit": "Shāsiʿ / Wāsiʿ al-niṭāq",
+      "definitionEn": "Covering a large area or amount; comprehensive.",
+      "definitionAr": "حاجة واسعة جداً ومغطية مساحة كبيرة أو تفاصيل كتير.",
+      "usageNote": "Implies thoroughness or physical spread.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Size",
+        "#Scope",
+        "#Range"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Extend\" \"يمتد\".. الحاجة الـ \"Extensive\" ممتدة وشاملة كل حاجة.",
+      "examples": {
+        "A1": "The garden is extensive.",
+        "A2": "He has extensive knowledge of cars.",
+        "B1": "The fire caused extensive damage.",
+        "B2": "She conducted extensive research for her book.",
+        "C1": "The museum has an extensive collection of art.",
+        "C2": "The network underwent extensive renovations to modernize it."
+      },
+      "collocations": [
+        "extensive research",
+        "extensive damage",
+        "extensive knowledge",
+        "extensive experience"
+      ],
+      "synonyms": [
+        "vast",
+        "comprehensive",
+        "widespread",
+        "broad"
+      ],
+      "antonyms": [
+        "limited",
+        "restricted",
+        "narrow"
+      ],
+      "relatedWords": {
+        "en": [
+          "extend",
+          "extension",
+          "extent"
+        ],
+        "ar": [
+          "يمتد",
+          "توسع",
+          "مدى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "extension",
+        "verb": "extend",
+        "adj": "extensive",
+        "adv": "extensively"
+      },
+      "arabicAr": "شاسع / واسع النطاق",
+      "frenchFr": "étendu",
+      "germanDe": "umfangreich",
+      "spanishEs": "extenso",
+      "chineseZh": "广泛 (Guǎngfàn)",
+      "russianRu": "обширный",
+      "portuguesePt": "extenso",
+      "japaneseJa": "広範な (Kōhan na)",
+      "italianIt": "esteso",
+      "turkishTr": "kapsamlı",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2860,
+      "wordEn": "glad",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ɡlæd",
+      "phoneticUk": null,
+      "phoneticAr": "جْلاد",
+      "translit": "Masrūr",
+      "definitionEn": "Pleased and happy.",
+      "definitionAr": "شعور بالانبساط والرضا إن حاجة كويسة حصلت.",
+      "usageNote": "Often followed by 'to' (glad to see you) or 'that' (glad that you came).",
+      "category": "Health & Senses",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Happiness",
+        "#Emotion",
+        "#Feeling"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Good\".. لما يحصل حاجة \"Good\" بتبقى \"Glad\".",
+      "examples": {
+        "A1": "I am glad to see you.",
+        "A2": "She was glad about the news.",
+        "B1": "He was glad to help his friend.",
+        "B2": "I'd be glad to answer your questions.",
+        "C1": "She was secretly glad that the meeting was cancelled.",
+        "C2": "He was glad of the opportunity to prove himself."
+      },
+      "collocations": [
+        "glad to hear",
+        "very glad",
+        "so glad",
+        "glad tidings"
+      ],
+      "synonyms": [
+        "happy",
+        "pleased",
+        "delighted"
+      ],
+      "antonyms": [
+        "sad",
+        "sorry",
+        "upset"
+      ],
+      "relatedWords": {
+        "en": [
+          "gladly",
+          "happiness",
+          "joy"
+        ],
+        "ar": [
+          "بسرور",
+          "سعادة",
+          "فرح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "gladness",
+        "verb": "gladden",
+        "adj": "glad",
+        "adv": "gladly"
+      },
+      "arabicAr": "مسرور",
+      "frenchFr": "content",
+      "germanDe": "froh",
+      "spanishEs": "contento",
+      "chineseZh": "高兴 (Gāoxìng)",
+      "russianRu": "радый",
+      "portuguesePt": "contente",
+      "japaneseJa": "嬉しい (Ureshii)",
+      "italianIt": "contento",
+      "turkishTr": "memnun",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2861,
+      "wordEn": "charity",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈtʃæɹəti",
+      "phoneticUk": "ˈtʃæɹɪti",
+      "phoneticAr": "تْشارِتي",
+      "translit": "Ṣadaqa / Jamʿiyya khayriyya",
+      "definitionEn": "An organization set up to provide help and raise money for those in need.",
+      "definitionAr": "مؤسسة بتقدم مساعدة للناس المحتاجة، أو فعل الخير نفسه زي التبرع.",
+      "usageNote": "Can refer to the organization or the act of giving.",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Help",
+        "#Donation",
+        "#Society"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Share\" \"يشارك\".. في الـ \"Charity\" إنت بتعمل \"Share\" لفلوسك مع الفقراء.",
+      "examples": {
+        "A1": "She gives money to charity.",
+        "A2": "It is a charity event.",
+        "B1": "The charity supports homeless people.",
+        "B2": "They raised thousands for a local charity.",
+        "C1": "Her life was dedicated to works of charity.",
+        "C2": "The gala was held in aid of a children's charity."
+      },
+      "collocations": [
+        "raise money for charity",
+        "charity shop",
+        "charity event",
+        "go to charity"
+      ],
+      "synonyms": [
+        "aid",
+        "philanthropy",
+        "fund"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "charitable",
+          "donation",
+          "volunteer"
+        ],
+        "ar": [
+          "خيري",
+          "تبرع",
+          "متطوع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "charity",
+        "verb": "",
+        "adj": "charitable",
+        "adv": "charitably"
+      },
+      "arabicAr": "صدقة / خيرية",
+      "frenchFr": "charité",
+      "germanDe": "Wohltätigkeit",
+      "spanishEs": "caridad",
+      "chineseZh": "慈善 (Císhàn)",
+      "russianRu": "благотворительность",
+      "portuguesePt": "caridade",
+      "japaneseJa": "慈善 (Jizen)",
+      "italianIt": "beneficenza",
+      "turkishTr": "hayır kurumu",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2862,
+      "wordEn": "oppose",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈpoʊz",
+      "phoneticUk": null,
+      "phoneticAr": "أُبُوز",
+      "translit": "Yuʿāriḍ",
+      "definitionEn": "To disagree with and attempt to prevent, especially by argument.",
+      "definitionAr": "إنك تقف ضد فكرة أو خطة وتعترض عليها وتكون في الجهة المقابلة.",
+      "usageNote": "Stronger than just disagreeing; implies active resistance.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Conflict",
+        "#Politics",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Opposite\" \"عكس\".. لما تعمل \"Oppose\" لحد، إنت بتقف في الـ \"Opposite\" سايد ضده.",
+      "examples": {
+        "A1": "They oppose the plan.",
+        "A2": "I oppose this idea.",
+        "B1": "Many people oppose the new law.",
+        "B2": "The party will oppose the tax increase.",
+        "C1": "He dared to oppose the dictator's regime.",
+        "C2": "We must vehemently oppose any attempt to limit our freedom."
+      },
+      "collocations": [
+        "strongly oppose",
+        "oppose a plan",
+        "oppose the war",
+        "bitterly oppose"
+      ],
+      "synonyms": [
+        "resist",
+        "withstand",
+        "fight"
+      ],
+      "antonyms": [
+        "support",
+        "favor",
+        "defend"
+      ],
+      "relatedWords": {
+        "en": [
+          "opposition",
+          "opponent",
+          "opposite"
+        ],
+        "ar": [
+          "معارضة",
+          "خصم",
+          "عكس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "opposition",
+        "verb": "oppose",
+        "adj": "opposing",
+        "adv": ""
+      },
+      "arabicAr": "يعارض / معارضة",
+      "frenchFr": "s'opposer",
+      "germanDe": "opponieren",
+      "spanishEs": "oponerse",
+      "chineseZh": "反对 (Fǎnduì)",
+      "russianRu": "противостоят",
+      "portuguesePt": "opor-se",
+      "japaneseJa": "反対する (Hantai suru)",
+      "italianIt": "opporsi",
+      "turkishTr": "karşı çıkmak",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2863,
+      "wordEn": "defend",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "dɪˈfɛnd",
+      "phoneticUk": null,
+      "phoneticAr": "دِفِنْد",
+      "translit": "Yudāfiʿ",
+      "definitionEn": "To protect from harm or danger.",
+      "definitionAr": "إنك تحمي حد أو حاجة من الهجوم أو الخطر، أو تدافع عن رأيك.",
+      "usageNote": "Can be physical protection or verbal justification.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Protection",
+        "#Security",
+        "#Law"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Defender\" في الكورة هو المدافع اللي بيعمل \"Defend\" عن الجون.",
+      "examples": {
+        "A1": "Soldiers defend the country.",
+        "A2": "He tried to defend himself.",
+        "B1": "She had to defend her decision.",
+        "B2": "The lawyer will defend him in court.",
+        "C1": "They fought to defend their independence.",
+        "C2": "It is difficult to defend such an unpopular policy ethically."
+      },
+      "collocations": [
+        "defend against",
+        "defend yourself",
+        "defend a title",
+        "defend rights"
+      ],
+      "synonyms": [
+        "protect",
+        "guard",
+        "shield"
+      ],
+      "antonyms": [
+        "attack",
+        "assault"
+      ],
+      "relatedWords": {
+        "en": [
+          "defense",
+          "defender",
+          "defensive"
+        ],
+        "ar": [
+          "دفاع",
+          "مدافع",
+          "دفاعي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "defense",
+        "verb": "defend",
+        "adj": "defensive",
+        "adv": "defensively"
+      },
+      "arabicAr": "الدفاع / يدافع",
+      "frenchFr": "défendre",
+      "germanDe": "verteidigen",
+      "spanishEs": "defender",
+      "chineseZh": "保卫 (Bǎowèi)",
+      "russianRu": "защищать",
+      "portuguesePt": "defender",
+      "japaneseJa": "守る (Mamoru)",
+      "italianIt": "difendere",
+      "turkishTr": "savunmak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2864,
+      "wordEn": "alter",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈɔltəɹ",
+      "phoneticUk": "ˈɒltə",
+      "phoneticAr": "أُولْتَر",
+      "translit": "Yughayyir / Yuʿaddil",
+      "definitionEn": "To change or cause to change in character or composition.",
+      "definitionAr": "إنك تغير في حاجة تغيير بسيط بس بيفرق في شكلها أو مضمونها.",
+      "usageNote": "Often implies a partial change rather than a total replacement.",
+      "category": "Actions & Processes",
+      "primarySense": "Change",
+      "semanticTags": [
+        "#Change",
+        "#Modification",
+        "#Adjustment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Alternative\" \"بديل\".. لما تعمل \"Alter\" لحاجة بتخليها بشكل تاني كبديل.",
+      "examples": {
+        "A1": "Do not alter the settings.",
+        "A2": "The dress was altered to fit her.",
+        "B1": "We had to alter our travel plans.",
+        "B2": "Alcohol can alter your mood significantly.",
+        "C1": "Nothing can alter the fact that he is guilty.",
+        "C2": "The landscape has been radically altered by human activity."
+      },
+      "collocations": [
+        "alter plans",
+        "alter clothes",
+        "alter course",
+        "radically alter"
+      ],
+      "synonyms": [
+        "change",
+        "modify",
+        "adjust"
+      ],
+      "antonyms": [
+        "preserve",
+        "keep"
+      ],
+      "relatedWords": {
+        "en": [
+          "alteration",
+          "alternative",
+          "alternate"
+        ],
+        "ar": [
+          "تعديل",
+          "بديل",
+          "تبديل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "alteration",
+        "verb": "alter",
+        "adj": "altered",
+        "adv": ""
+      },
+      "arabicAr": "تغيير",
+      "frenchFr": "modifier",
+      "germanDe": "ändern",
+      "spanishEs": "alterar",
+      "chineseZh": "改变 (Gǎibiàn)",
+      "russianRu": "изменять",
+      "portuguesePt": "alterar",
+      "japaneseJa": "変える (Kaeru)",
+      "italianIt": "alterare",
+      "turkishTr": "değiştirmek",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2865,
+      "wordEn": "arrest",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "əˈɹɛst",
+      "phoneticUk": null,
+      "phoneticAr": "أَرِسْت",
+      "translit": "Iʿtiqāl",
+      "definitionEn": "The action of seizing someone to take into custody.",
+      "definitionAr": "عملية القبض على حد بواسطة الشرطة وحبسه قانونياً.",
+      "usageNote": "Usually follows 'under' (under arrest).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Law",
+        "#Police",
+        "#Crime"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Rest\" يعني راحة أو سكون.. الـ \"Arrest\" بيخلي الحرامي في حالة \"Rest\" إجباري في السجن.",
+      "examples": {
+        "A1": "He is under arrest.",
+        "A2": "The police made an arrest.",
+        "B1": "She was placed under house arrest.",
+        "B2": "The arrest warrant was issued yesterday.",
+        "C1": "The arbitrary arrest of citizens sparked protests.",
+        "C2": "He suffered a cardiac arrest during the surgery."
+      },
+      "collocations": [
+        "under arrest",
+        "make an arrest",
+        "cardiac arrest",
+        "arrest warrant"
+      ],
+      "synonyms": [
+        "detention",
+        "capture",
+        "seizure"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "relatedWords": {
+        "en": [
+          "arresting",
+          "prisoner",
+          "jail"
+        ],
+        "ar": [
+          "آسر",
+          "سجين",
+          "سجن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "arrest",
+        "verb": "arrest",
+        "adj": "arrested",
+        "adv": ""
+      },
+      "arabicAr": "اعتقال / يعتقل",
+      "frenchFr": "arrestation",
+      "germanDe": "Verhaftung",
+      "spanishEs": "arresto",
+      "chineseZh": "逮捕 (Dàibǔ)",
+      "russianRu": "арест",
+      "portuguesePt": "prisão",
+      "japaneseJa": "逮捕 (Taiho)",
+      "italianIt": "arresto",
+      "turkishTr": "tutuklama",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2866,
+      "wordEn": "arrest",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "əˈɹɛst",
+      "phoneticUk": null,
+      "phoneticAr": "أَرِسْت",
+      "translit": "Yaʿtaqil",
+      "definitionEn": "To seize someone by legal authority and take into custody.",
+      "definitionAr": "لما الشرطة تمسك حد عشان عمل جريمة وتاخده القسم.",
+      "usageNote": "Can also mean to stop a process (e.g., arrest the spread of disease).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Police",
+        "#Law",
+        "#Stop"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Rest\" يعني راحة أو سكون.. الـ \"Arrest\" بيخلي الحرامي في حالة \"Rest\" إجباري في السجن.",
+      "examples": {
+        "A1": "Police arrest bad people.",
+        "A2": "They will arrest the thief.",
+        "B1": "He was arrested for speeding.",
+        "B2": "The police arrested two suspects last night.",
+        "C1": "Efforts were made to arrest the decline in the economy.",
+        "C2": "The new drug may arrest the progression of the disease."
+      },
+      "collocations": [
+        "arrest a suspect",
+        "arrest development",
+        "get arrested"
+      ],
+      "synonyms": [
+        "apprehend",
+        "detain",
+        "capture"
+      ],
+      "antonyms": [
+        "release",
+        "free"
+      ],
+      "relatedWords": {
+        "en": [
+          "arrest",
+          "arresting",
+          "custody"
+        ],
+        "ar": [
+          "اعتقال",
+          "لافت للنظر",
+          "حجز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "arrest",
+        "verb": "arrest",
+        "adj": "arrested",
+        "adv": ""
+      },
+      "arabicAr": "اعتقال / يعتقل",
+      "frenchFr": "arrêter",
+      "germanDe": "verhaften",
+      "spanishEs": "arrestar",
+      "chineseZh": "逮捕 (Dàibǔ)",
+      "russianRu": "арестовывать",
+      "portuguesePt": "prender",
+      "japaneseJa": "逮捕する (Taiho suru)",
+      "italianIt": "arrestare",
+      "turkishTr": "tutuklamak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2867,
+      "wordEn": "warning",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈwɔɹnɪŋ",
+      "phoneticUk": "ˈwɔːnɪŋ",
+      "phoneticAr": "وُورْنِنْج",
+      "translit": "Taḥdhīrī",
+      "definitionEn": "Serving as a notice of danger or potential problem.",
+      "definitionAr": "حاجة بتديك تنبيه إن فيه خطر جاي أو مشكلة هتحصل.",
+      "usageNote": "Used in phrases like 'warning sign' or 'warning light'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Danger",
+        "#Safety",
+        "#Notice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Warn\" \"يحذر\".. دي العلامة اللي بتعملك \"Warning\".",
+      "examples": {
+        "A1": "A red warning light is on.",
+        "A2": "He gave a warning shout.",
+        "B1": "There are warning signs on the beach.",
+        "B2": "The system sends a warning message.",
+        "C1": "She shot him a warning glance.",
+        "C2": "The report serves as a warning example of fiscal irresponsibility."
+      },
+      "collocations": [
+        "warning sign",
+        "warning light",
+        "warning shot",
+        "warning signal"
+      ],
+      "synonyms": [
+        "cautionary",
+        "admonitory",
+        "threatening"
+      ],
+      "antonyms": [
+        "inviting",
+        "reassuring"
+      ],
+      "relatedWords": {
+        "en": [
+          "warn",
+          "warned",
+          "caution"
+        ],
+        "ar": [
+          "حذر",
+          "محذر",
+          "تنبيه"
+        ]
+      },
+      "wordFamily": {
+        "noun": "warning",
+        "verb": "warn",
+        "adj": "warning",
+        "adv": "warningly"
+      },
+      "arabicAr": "تحذير",
+      "frenchFr": "d'avertissement",
+      "germanDe": "warnend",
+      "spanishEs": "de advertencia",
+      "chineseZh": "警告的 (Jǐnggào de)",
+      "russianRu": "предупреждающий",
+      "portuguesePt": "de aviso",
+      "japaneseJa": "警告の (Keikoku no)",
+      "italianIt": "di avvertimento",
+      "turkishTr": "uyarıcı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2868,
+      "wordEn": "warning",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈwɔɹnɪŋ",
+      "phoneticUk": "ˈwɔːnɪŋ",
+      "phoneticAr": "وُورْنِنْج",
+      "translit": "Taḥdhīr",
+      "definitionEn": "A statement or event that indicates a possible or impending danger.",
+      "definitionAr": "التنبيه نفسه اللي بيعرفك إن فيه خطر لازم تاخد بالك منه.",
+      "usageNote": "Can be verbal or written.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Danger",
+        "#Advice",
+        "#Safety"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Warn\" \"يحذر\".. لما حد يديك \"Warning\" بيعرفك الخطر.",
+      "examples": {
+        "A1": "This is a warning.",
+        "A2": "He ignored the warning.",
+        "B1": "The government issued a flood warning.",
+        "B2": "She left without any warning.",
+        "C1": "Let this be a warning to you.",
+        "C2": "The sudden drop in stock prices was a warning of the coming recession."
+      },
+      "collocations": [
+        "issue a warning",
+        "without warning",
+        "fair warning",
+        "final warning"
+      ],
+      "synonyms": [
+        "alert",
+        "caution",
+        "notice"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "warn",
+          "warner",
+          "alarm"
+        ],
+        "ar": [
+          "حذر",
+          "نذير",
+          "إنذار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "warning",
+        "verb": "warn",
+        "adj": "warning",
+        "adv": "warningly"
+      },
+      "arabicAr": "تحذير",
+      "frenchFr": "avertissement",
+      "germanDe": "Warnung",
+      "spanishEs": "advertencia",
+      "chineseZh": "警告 (Jǐnggào)",
+      "russianRu": "предупреждение",
+      "portuguesePt": "aviso",
+      "japaneseJa": "警告 (Keikoku)",
+      "italianIt": "avvertimento",
+      "turkishTr": "uyarı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2869,
+      "wordEn": "framework",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈfɹeɪmˌwɜɹk",
+      "phoneticUk": "ˈfɹeɪmˌwɜːk",
+      "phoneticAr": "فْرِيمْوِيرْك",
+      "translit": "Niṭāq / Iṭār ʿamal",
+      "definitionEn": "An essential supporting structure of a building, vehicle, or object.",
+      "definitionAr": "الهيكل الأساسي أو النظام اللي بتمشي عليه عشان تنظم شغلك أو أفكارك.",
+      "usageNote": "Common in business and software (e.g., 'legal framework').",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Structure",
+        "#System",
+        "#Plan"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "هي \"Frame\" \"برواز\" و \"Work\" \"عمل\".. يعني البرواز اللي بيحكم نظام العمل.",
+      "examples": {
+        "A1": "The framework is made of wood.",
+        "A2": "We need a framework for the project.",
+        "B1": "The agreement provides a framework for cooperation.",
+        "B2": "This theory provides a useful framework for analysis.",
+        "C1": "We must work within the existing legal framework.",
+        "C2": "The constitutional framework was established to ensure democracy."
+      },
+      "collocations": [
+        "legal framework",
+        "conceptual framework",
+        "theoretical framework",
+        "within the framework"
+      ],
+      "synonyms": [
+        "structure",
+        "skeleton",
+        "infrastructure"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "frame",
+          "work",
+          "structure"
+        ],
+        "ar": [
+          "إطار",
+          "عمل",
+          "هيكل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "framework",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نطاق / إطار عمل",
+      "frenchFr": "cadre",
+      "germanDe": "Rahmen",
+      "spanishEs": "marco",
+      "chineseZh": "框架 (Kuàngjià)",
+      "russianRu": "каркас",
+      "portuguesePt": "estrutura",
+      "japaneseJa": "枠組み (Wakugumi)",
+      "italianIt": "quadro",
+      "turkishTr": "çerçeve",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2870,
+      "wordEn": "approval",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "7",
+      "phoneticUs": "əˈpɹuːvəl",
+      "phoneticUk": null,
+      "phoneticAr": "أَبْرُوفَال",
+      "translit": "Muwāfaqa",
+      "definitionEn": "The action of approving something.",
+      "definitionAr": "الموافقة الرسمية أو إنك تبدي إعجابك ورضاك عن حاجة.",
+      "usageNote": "You 'give' or 'get' approval.",
+      "category": "Actions & Processes",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Permission",
+        "#Agreement",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Approve\" \"يوافق\".. والـ \"Approve\" محتاج \"Proof\" \"إثبات\" عشان تاخد الـ \"Approval\".",
+      "examples": {
+        "A1": "She gave her approval.",
+        "A2": "He nodded in approval.",
+        "B1": "I need your approval to leave early.",
+        "B2": "The plan is subject to official approval.",
+        "C1": "He constantly seeks the approval of his peers.",
+        "C2": "The board granted final approval for the merger."
+      },
+      "collocations": [
+        "seek approval",
+        "give approval",
+        "seal of approval",
+        "win approval"
+      ],
+      "synonyms": [
+        "acceptance",
+        "consent",
+        "endorsement"
+      ],
+      "antonyms": [
+        "disapproval",
+        "refusal",
+        "rejection"
+      ],
+      "relatedWords": {
+        "en": [
+          "approve",
+          "approved",
+          "approving"
+        ],
+        "ar": [
+          "يوافق",
+          "مقبول",
+          "استحسان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "approval",
+        "verb": "approve",
+        "adj": "approved",
+        "adv": "approvingly"
+      },
+      "arabicAr": "موافقة",
+      "frenchFr": "approbation",
+      "germanDe": "Zustimmung",
+      "spanishEs": "aprobación",
+      "chineseZh": "批准 (Pīzhǔn)",
+      "russianRu": "одобрение",
+      "portuguesePt": "aprovação",
+      "japaneseJa": "承認 (Shōnin)",
+      "italianIt": "approvazione",
+      "turkishTr": "onay",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2871,
+      "wordEn": "bother",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈbɑðəɹ",
+      "phoneticUk": "ˈbɒðə",
+      "phoneticAr": "بُذَر",
+      "translit": "Yuzeij",
+      "definitionEn": "Effort, worry, or difficulty; a cause of annoyance.",
+      "definitionAr": "حاجة بتسبب إزعاج أو قلق، أو مجهود إنت مش عايز تعمله.",
+      "usageNote": "Used in phrases like 'too much bother'.",
+      "category": "General / Common",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Annoyance",
+        "#Trouble",
+        "#Effort"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Brother\".. أحياناً الـ \"Brother\" الصغير بيسبب \"Bother\" \"إزعاج\".",
+      "examples": {
+        "A1": "It is no bother.",
+        "A2": "Sorry to be a bother.",
+        "B1": "I don't want to cause you any bother.",
+        "B2": "It was too much bother to cook dinner.",
+        "C1": "He felt he was a bother to his family.",
+        "C2": "The whole legal process was a great bother to him."
+      },
+      "collocations": [
+        "too much bother",
+        "spot of bother",
+        "no bother"
+      ],
+      "synonyms": [
+        "nuisance",
+        "hassle",
+        "trouble"
+      ],
+      "antonyms": [
+        "help",
+        "pleasure"
+      ],
+      "relatedWords": {
+        "en": [
+          "bothered",
+          "bothersome",
+          "annoyance"
+        ],
+        "ar": [
+          "منزعج",
+          "مزعج",
+          "مضايقة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bother",
+        "verb": "bother",
+        "adj": "bothersome",
+        "adv": ""
+      },
+      "arabicAr": "إزعاج / يزعج",
+      "frenchFr": "ennui",
+      "germanDe": "Mühe",
+      "spanishEs": "molestia",
+      "chineseZh": "麻烦 (Máfan)",
+      "russianRu": "беспокойство",
+      "portuguesePt": "incômodo",
+      "japaneseJa": "面倒 (Mendō)",
+      "italianIt": "disturbo",
+      "turkishTr": "zahmet",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2872,
+      "wordEn": "bother",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈbɑðəɹ",
+      "phoneticUk": "ˈbɒðə",
+      "phoneticAr": "بُذَر",
+      "translit": "Yuzʿij",
+      "definitionEn": "To take the trouble to do something; to annoy or worry someone.",
+      "definitionAr": "إنك تضايق حد أو تشغل بالك وتتعب نفسك في حاجة.",
+      "usageNote": "Common in negative: 'Don't bother'.",
+      "category": "General / Common",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Annoyance",
+        "#Effort",
+        "#Worry"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Brother\".. أحياناً الـ \"Brother\" الصغير بيعمل \"Bother\" \"بيضايق\".",
+      "examples": {
+        "A1": "Don't bother me.",
+        "A2": "He didn't bother to call.",
+        "B1": "Does the noise bother you?",
+        "B2": "I'm sorry to bother you with this.",
+        "C1": "Don't bother your head about such things.",
+        "C2": "It bothers me that he never apologized for his mistake."
+      },
+      "collocations": [
+        "don't bother",
+        "sorry to bother",
+        "can't be bothered",
+        "bother with"
+      ],
+      "synonyms": [
+        "annoy",
+        "disturb",
+        "trouble"
+      ],
+      "antonyms": [
+        "please",
+        "help"
+      ],
+      "relatedWords": {
+        "en": [
+          "bothered",
+          "bothersome",
+          "disturb"
+        ],
+        "ar": [
+          "منزعج",
+          "مزعج",
+          "يقلق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bother",
+        "verb": "bother",
+        "adj": "bothersome",
+        "adv": ""
+      },
+      "arabicAr": "يُزْعِج",
+      "frenchFr": "déranger",
+      "germanDe": "stören",
+      "spanishEs": "molestar",
+      "chineseZh": "打扰 (Dǎrǎo)",
+      "russianRu": "беспокоить",
+      "portuguesePt": "incomodar",
+      "japaneseJa": "邪魔する (Jama suru)",
+      "italianIt": "disturbare",
+      "turkishTr": "rahatsız etmek",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2873,
+      "wordEn": "accuse",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈkjuːz",
+      "phoneticUk": null,
+      "phoneticAr": "أَكْيُوز",
+      "translit": "Yattahim",
+      "definitionEn": "To charge someone with an offense or crime.",
+      "definitionAr": "إنك توجه تهمة لحد وتقول إنه عمل حاجة غلط أو جريمة.",
+      "usageNote": "Always followed by 'of' (accuse of theft).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Law",
+        "#Crime",
+        "#Blame"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Excuse\" \"عذر\".. إنت مش بتلتمس له \"Excuse\"، إنت بتعمل له \"Accuse\" \"اتهام\".",
+      "examples": {
+        "A1": "Do not accuse him.",
+        "A2": "She accused me of lying.",
+        "B1": "They accused the man of theft.",
+        "B2": "He was accused of murder.",
+        "C1": "The report accuses the company of negligence.",
+        "C2": "She stood up to accuse the government of corruption."
+      },
+      "collocations": [
+        "accuse of",
+        "falsely accuse",
+        "stand accused",
+        "publicly accuse"
+      ],
+      "synonyms": [
+        "charge",
+        "blame",
+        "indict"
+      ],
+      "antonyms": [
+        "defend",
+        "exonerate",
+        "absolve"
+      ],
+      "relatedWords": {
+        "en": [
+          "accusation",
+          "accuser",
+          "accused"
+        ],
+        "ar": [
+          "اتهام",
+          "مُتَّهِم",
+          "مُتَّهَم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "accusation",
+        "verb": "accuse",
+        "adj": "accusing",
+        "adv": "accusingly"
+      },
+      "arabicAr": "يتهم",
+      "frenchFr": "accuser",
+      "germanDe": "beschuldigen",
+      "spanishEs": "acusar",
+      "chineseZh": "指控 (Zhǐkòng)",
+      "russianRu": "обвинять",
+      "portuguesePt": "acusar",
+      "japaneseJa": "非難する (Hinan suru)",
+      "italianIt": "accusare",
+      "turkishTr": "suçlamak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2874,
+      "wordEn": "novel",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈnɑvəl",
+      "phoneticUk": "ˈnɒvəl",
+      "phoneticAr": "نُوفِل",
+      "translit": "Riwāya",
+      "definitionEn": "New or unusual in an interesting way.",
+      "definitionAr": "حاجة جديدة ومبتكرة ومختلفة عن اللي إحنا متعودين عليه.",
+      "usageNote": "Used for ideas, approaches, or solutions.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Innovation",
+        "#Creativity",
+        "#New"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي الـ \"Novel\" \"الرواية\" الجديدة.. دايماً بتبقى قصة \"Novel\" \"مبتكرة\".",
+      "examples": {
+        "A1": "It is a novel idea.",
+        "A2": "She found a novel way to cook eggs.",
+        "B1": "The car has a novel design.",
+        "B2": "He proposed a novel solution to the problem.",
+        "C1": "The virus is a novel strain never seen before.",
+        "C2": "Her approach to quantum physics was entirely novel."
+      },
+      "collocations": [
+        "novel idea",
+        "novel approach",
+        "novel feature",
+        "novel method"
+      ],
+      "synonyms": [
+        "new",
+        "original",
+        "innovative"
+      ],
+      "antonyms": [
+        "traditional",
+        "common",
+        "old"
+      ],
+      "relatedWords": {
+        "en": [
+          "novelty",
+          "novelist",
+          "new"
+        ],
+        "ar": [
+          "حداثة",
+          "روائي",
+          "جديد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "novelty",
+        "verb": "",
+        "adj": "novel",
+        "adv": ""
+      },
+      "arabicAr": "رواية",
+      "frenchFr": "nouveau",
+      "germanDe": "neuartig",
+      "spanishEs": "novedoso",
+      "chineseZh": "新颖 (Xīnyǐng)",
+      "russianRu": "новый",
+      "portuguesePt": "inovador",
+      "japaneseJa": "斬新な (Zanshin na)",
+      "italianIt": "nuovo",
+      "turkishTr": "yeni",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2875,
+      "wordEn": "novel",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈnɑvəl",
+      "phoneticUk": "ˈnɒvəl",
+      "phoneticAr": "نُوفِل",
+      "translit": "Riwāya",
+      "definitionEn": "A fictitious prose narrative of book length.",
+      "definitionAr": "قصة طويلة مكتوبة في كتاب، فيها شخصيات وأحداث وتفاصيل كتير.",
+      "usageNote": "Distinct from 'short story' or 'biography'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Literature",
+        "#Book",
+        "#Reading"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Novel\" يعني رواية.. افتكر \"Nobel\".. نجيب محفوظ خد جايزة \"Nobel\" عشان بيكتب \"Novel\".",
+      "examples": {
+        "A1": "I read a novel.",
+        "A2": "It is a famous novel.",
+        "B1": "She is writing a novel.",
+        "B2": "The novel is set in 19th century London.",
+        "C1": "His latest novel explores themes of war.",
+        "C2": "The novel's complex narrative structure challenges the reader."
+      },
+      "collocations": [
+        "write a novel",
+        "read a novel",
+        "graphic novel",
+        "debut novel"
+      ],
+      "synonyms": [
+        "book",
+        "story",
+        "fiction"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "novelist",
+          "novella",
+          "fiction"
+        ],
+        "ar": [
+          "روائي",
+          "رواية قصيرة",
+          "خيال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "novel",
+        "verb": "",
+        "adj": "novel",
+        "adv": ""
+      },
+      "arabicAr": "رواية",
+      "frenchFr": "roman",
+      "germanDe": "Roman",
+      "spanishEs": "novela",
+      "chineseZh": "小说 (Xiǎoshuō)",
+      "russianRu": "роман",
+      "portuguesePt": "romance",
+      "japaneseJa": "小説 (Shōsetsu)",
+      "italianIt": "romanzo",
+      "turkishTr": "roman",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2876,
+      "wordEn": "surprised",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "səˈpɹaɪzd",
+      "phoneticUk": null,
+      "phoneticAr": "سِرْبْرَايْزْد",
+      "translit": "Mutafājiʾ / Mundahish",
+      "definitionEn": "The state of feeling surprise.",
+      "definitionAr": "الشعور بالمفاجأة والدهشة لما حاجة غير متوقعة تحصل.",
+      "usageNote": "Uncommon as a noun; usually 'surprise'. Treated here as the state/feeling.",
+      "category": "Mind & Thinking",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Emotion",
+        "#Reaction",
+        "#Shock"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Prize\" \"جايزة\".. لما تكسب \"Prize\" فجأة بتبقى \"Surprised\".",
+      "examples": {
+        "A1": "He looked surprised.",
+        "A2": "I was surprised by the gift.",
+        "B1": "She acted surprised when she saw us.",
+        "B2": "He was pleasantly surprised by the results.",
+        "C1": "It is rare to see him surprised by anything.",
+        "C2": "The surprised onlookers watched in disbelief."
+      },
+      "collocations": [
+        "look surprised",
+        "act surprised",
+        "seem surprised",
+        "pleasantly surprised"
+      ],
+      "synonyms": [
+        "amazed",
+        "astonished",
+        "shocked"
+      ],
+      "antonyms": [
+        "indifferent",
+        "unimpressed"
+      ],
+      "relatedWords": {
+        "en": [
+          "surprise",
+          "surprising",
+          "shock"
+        ],
+        "ar": [
+          "مفاجأة",
+          "مفاجئ",
+          "صدمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "surprise",
+        "verb": "surprise",
+        "adj": "surprised",
+        "adv": "surprisingly"
+      },
+      "arabicAr": "متفاجئ / مندهش",
+      "frenchFr": "surpris",
+      "germanDe": "überrascht",
+      "spanishEs": "sorprendido",
+      "chineseZh": "惊讶 (Jīngyà)",
+      "russianRu": "удивленный",
+      "portuguesePt": "surpreso",
+      "japaneseJa": "驚いた (Odoroita)",
+      "italianIt": "sorpreso",
+      "turkishTr": "şaşırmış",
+      "aiConfidence": 0.7
+    },
+    {
+      "id": 2877,
+      "wordEn": "surprised",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "səˈpɹaɪzd",
+      "phoneticUk": null,
+      "phoneticAr": "سِرْبْرَايْزْد",
+      "translit": "Mutafājiʾ / Mundahish",
+      "definitionEn": "Feeling or showing surprise.",
+      "definitionAr": "شعورك لما تتفاجئ بحاجة مكنتش عامل حسابها.",
+      "usageNote": "Used to describe a person's reaction.",
+      "category": "Mind & Thinking",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Emotion",
+        "#Shock",
+        "#Reaction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Prize\" \"جايزة\".. لما تكسب \"Prize\" فجأة بتبقى \"Surprised\".",
+      "examples": {
+        "A1": "I am surprised.",
+        "A2": "She was surprised to see him.",
+        "B1": "We were surprised by the news.",
+        "B2": "He seemed surprised at my question.",
+        "C1": "I wouldn't be surprised if it rains.",
+        "C2": "She was genuinely surprised by the warmth of their welcome."
+      },
+      "collocations": [
+        "very surprised",
+        "look surprised",
+        "be surprised",
+        "sound surprised"
+      ],
+      "synonyms": [
+        "amazed",
+        "astonished",
+        "startled"
+      ],
+      "antonyms": [
+        "unsurprised",
+        "expectant"
+      ],
+      "relatedWords": {
+        "en": [
+          "surprise",
+          "shocked",
+          "amazed"
+        ],
+        "ar": [
+          "مفاجأة",
+          "مصدوم",
+          "مذهول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "surprise",
+        "verb": "surprise",
+        "adj": "surprised",
+        "adv": "surprisingly"
+      },
+      "arabicAr": "متفاجئ / مندهش",
+      "frenchFr": "surpris",
+      "germanDe": "überrascht",
+      "spanishEs": "sorprendido",
+      "chineseZh": "惊讶 (Jīngyà)",
+      "russianRu": "удивленный",
+      "portuguesePt": "surpreso",
+      "japaneseJa": "驚いた (Odoroita)",
+      "italianIt": "sorpreso",
+      "turkishTr": "şaşırmış",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2878,
+      "wordEn": "currency",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈkɜɹənsi",
+      "phoneticUk": "ˈkʌrənsɪ",
+      "phoneticAr": "كَرَنْسِي",
+      "translit": "ʿUmla",
+      "definitionEn": "A system of money in general use in a particular country.",
+      "definitionAr": "الفلوس أو العملة اللي بلد معينة بتستخدمها في البيع والشراء.",
+      "usageNote": "Can also mean general acceptance (ideas gaining currency).",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Money",
+        "#Economy",
+        "#Finance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Current\" \"تيار/حالي\".. الـ \"Currency\" هي الفلوس المتداولة حالياً زي التيار.",
+      "examples": {
+        "A1": "The dollar is a currency.",
+        "A2": "I need to change currency.",
+        "B1": "What is the currency of Japan?",
+        "B2": "The currency market fluctuates daily.",
+        "C1": "The idea is gaining currency among scholars.",
+        "C2": "Hyperinflation rendered the local currency practically worthless."
+      },
+      "collocations": [
+        "foreign currency",
+        "hard currency",
+        "local currency",
+        "gain currency"
+      ],
+      "synonyms": [
+        "money",
+        "cash",
+        "legal tender"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "current",
+          "money",
+          "exchange"
+        ],
+        "ar": [
+          "حالي",
+          "مال",
+          "صرف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "currency",
+        "verb": "",
+        "adj": "current",
+        "adv": "currently"
+      },
+      "arabicAr": "عملة",
+      "frenchFr": "monnaie",
+      "germanDe": "Währung",
+      "spanishEs": "moneda",
+      "chineseZh": "货币 (Huòbì)",
+      "russianRu": "валюта",
+      "portuguesePt": "moeda",
+      "japaneseJa": "通貨 (Tsūka)",
+      "italianIt": "valuta",
+      "turkishTr": "para birimi",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2879,
+      "wordEn": "moral",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈmɔɹəl",
+      "phoneticUk": "ˈmɒrəl",
+      "phoneticAr": "مُورَال",
+      "translit": "Akhlāqī",
+      "definitionEn": "Concerned with the principles of right and wrong behavior.",
+      "definitionAr": "متعلق بالأخلاق والصح والغلط، وتصرفات الإنسان المحترمة.",
+      "usageNote": "Refers to personal ethics, unlike 'legal'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Ethics",
+        "#Right",
+        "#Behavior"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Morale\" \"روح معنوية\".. الشخص الـ \"Moral\" بيرفع الـ \"Morale\" بأخلاقه.",
+      "examples": {
+        "A1": "It is a moral story.",
+        "A2": "He is a moral man.",
+        "B1": "We have a moral duty to help.",
+        "B2": "The issue raises complex moral questions.",
+        "C1": "She provided moral support during the crisis.",
+        "C2": "The decline of moral standards in society is a concern."
+      },
+      "collocations": [
+        "moral support",
+        "moral obligation",
+        "moral compass",
+        "moral dilemma"
+      ],
+      "synonyms": [
+        "ethical",
+        "virtuous",
+        "righteous"
+      ],
+      "antonyms": [
+        "immoral",
+        "unethical"
+      ],
+      "relatedWords": {
+        "en": [
+          "morality",
+          "morally",
+          "ethics"
+        ],
+        "ar": [
+          "أخلاق",
+          "أخلاقياً",
+          "آداب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "morality",
+        "verb": "moralize",
+        "adj": "moral",
+        "adv": "morally"
+      },
+      "arabicAr": "أخلاقي",
+      "frenchFr": "moral",
+      "germanDe": "moralisch",
+      "spanishEs": "moral",
+      "chineseZh": "道德 (Dàodé)",
+      "russianRu": "моральный",
+      "portuguesePt": "moral",
+      "japaneseJa": "道徳的な (Dōtoku-tekina)",
+      "italianIt": "morale",
+      "turkishTr": "ahlaki",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2880,
+      "wordEn": "moral",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈmɔɹəl",
+      "phoneticUk": "ˈmɒrəl",
+      "phoneticAr": "مُورَال",
+      "translit": "Akhlāqī",
+      "definitionEn": "A lesson, especially one concerning what is right or prudent.",
+      "definitionAr": "الدرس المستفاد من قصة أو موقف، أو المبادئ الأخلاقية.",
+      "usageNote": "Often 'the moral of the story'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Lesson",
+        "#Ethics",
+        "#Story"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من \"Morale\" \"روح معنوية\".. القصة اللي فيها \"Moral\" بترفع الروح المعنوية.",
+      "examples": {
+        "A1": "The story has a moral.",
+        "A2": "Good morals are important.",
+        "B1": "What is the moral of this fable?",
+        "B2": "He is a man of loose morals.",
+        "C1": "The moral of the story is to never give up.",
+        "C2": "They debated the morals of genetic engineering."
+      },
+      "collocations": [
+        "moral of the story",
+        "loose morals",
+        "high morals"
+      ],
+      "synonyms": [
+        "lesson",
+        "message",
+        "principle"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "morality",
+          "moralize",
+          "lesson"
+        ],
+        "ar": [
+          "أخلاق",
+          "وعظ",
+          "درس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "moral",
+        "verb": "moralize",
+        "adj": "moral",
+        "adv": "morally"
+      },
+      "arabicAr": "أخلاقي",
+      "frenchFr": "morale",
+      "germanDe": "Moral",
+      "spanishEs": "moraleja",
+      "chineseZh": "寓意 (Yùyì)",
+      "russianRu": "мораль",
+      "portuguesePt": "moral",
+      "japaneseJa": "教訓 (Kyōkun)",
+      "italianIt": "morale",
+      "turkishTr": "kıssadan hisse",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2881,
+      "wordEn": "possess",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "pəˈzɛs",
+      "phoneticUk": null,
+      "phoneticAr": "بُزِس",
+      "translit": "Yamtalik / Tamlik",
+      "definitionEn": "To have as belonging to one; to own.",
+      "definitionAr": "إنك تملك حاجة وتكون بتاعتك، أو تسيطر على حاجة معينة.",
+      "usageNote": "Formal way of saying 'have' or 'own'.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Ownership",
+        "#Control",
+        "#Property"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "عشان تبقى \"Boss\" \"مدير\"، لازم تعمل \"Possess\" \"امتلاك\" لمهارات القيادة.",
+      "examples": {
+        "A1": "He possesses a car.",
+        "A2": "She possesses great talent.",
+        "B1": "They possess the necessary skills.",
+        "B2": "It is illegal to possess drugs.",
+        "C1": "He was possessed by a sudden rage.",
+        "C2": "The country possesses nuclear capabilities."
+      },
+      "collocations": [
+        "possess skills",
+        "possess knowledge",
+        "possess drugs",
+        "possess qualities"
+      ],
+      "synonyms": [
+        "own",
+        "have",
+        "hold"
+      ],
+      "antonyms": [
+        "lack",
+        "lose"
+      ],
+      "relatedWords": {
+        "en": [
+          "possession",
+          "possessor",
+          "possessive"
+        ],
+        "ar": [
+          "ممتلكات",
+          "مالك",
+          "تملك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "possession",
+        "verb": "possess",
+        "adj": "possessive",
+        "adv": ""
+      },
+      "arabicAr": "يمتلك / تملك / حاز / سيطر",
+      "frenchFr": "posséder",
+      "germanDe": "besitzen",
+      "spanishEs": "poseer",
+      "chineseZh": "拥有 (Yōngyǒu)",
+      "russianRu": "обладать",
+      "portuguesePt": "possuir",
+      "japaneseJa": "所有する (Shoyū suru)",
+      "italianIt": "possedere",
+      "turkishTr": "sahip olmak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2882,
+      "wordEn": "restrict",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "8",
+      "phoneticUs": "ɹɪˈstɹɪkt",
+      "phoneticUk": null,
+      "phoneticAr": "رِسْتْرِكْت",
+      "translit": "Yuqayyid / Ḥaṣr",
+      "definitionEn": "To put a limit on; keep under control.",
+      "definitionAr": "إنك تحط حدود لحاجة وتمنعها تزيد عن حد معين.",
+      "usageNote": "Often used with 'to' (restrict to) or passive (restricted area).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Limit",
+        "#Control",
+        "#Rule"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها كلمة \"Strict\" \"صارم\".. لما تعمل \"Restrict\" لحاجة بتبقى \"Strict\" في التعامل معاها.",
+      "examples": {
+        "A1": "Do not restrict him.",
+        "A2": "They restrict access.",
+        "B1": "We must restrict our spending.",
+        "B2": "Speed is restricted in this zone.",
+        "C1": "The new law will restrict freedom of speech.",
+        "C2": "Doctors restrict the patient to a liquid diet."
+      },
+      "collocations": [
+        "restrict access",
+        "restrict freedom",
+        "severely restrict",
+        "restrict intake"
+      ],
+      "synonyms": [
+        "limit",
+        "confine",
+        "curb"
+      ],
+      "antonyms": [
+        "expand",
+        "free",
+        "allow"
+      ],
+      "relatedWords": {
+        "en": [
+          "restriction",
+          "restrictive",
+          "strict"
+        ],
+        "ar": [
+          "قيد",
+          "مقيد",
+          "صارم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "restriction",
+        "verb": "restrict",
+        "adj": "restrictive",
+        "adv": "restrictively"
+      },
+      "arabicAr": "يقيد / حصر / قيد",
+      "frenchFr": "restreindre",
+      "germanDe": "einschränken",
+      "spanishEs": "restringir",
+      "chineseZh": "限制 (Xiànzhì)",
+      "russianRu": "ограничивать",
+      "portuguesePt": "restringir",
+      "japaneseJa": "制限する (Seigen suru)",
+      "italianIt": "limitare",
+      "turkishTr": "kısıtlamak",
+      "aiConfidence": 0.97
+    }
+  ]
+} 

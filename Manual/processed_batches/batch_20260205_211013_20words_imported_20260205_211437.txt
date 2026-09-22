@@ -1,0 +1,574 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 236,
+    "wordEn": "through",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 236,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "θɹuː",
+    "phoneticUk": "θru:",
+    "phoneticAr": "ثرو",
+    "translit": "khilal / eabr",
+    "definitionEn": "[\"moving in one side and out of the other side of .\", \"continuing in time toward completion of .\", \"so as to inspect all or part of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been through a bad time\"], \"A2\": [\"water was pouring through holes in the roof\", \"neighborhoods from which through traffic would be excluded\", \"the approach to the church is through a gate\", \"we sat through some very boring speeches\"], \"B1\": [\"as soon as we opened the gate they came streaming through\", \"I went through to the bedroom to answer the phone\"], \"B2\": [\"we need the money to help us get through until he has a new job\"]}",
+    "collocations": "[\"follow through\", \"through system\"]",
+    "synonyms": "[\"done\", \"through with\", \"through and through\", \"into and out of\", \"to the other/far side of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"finished\", \"done\", \"through and through\", \"direct\", \"through with\"], \"ar\": [\"مباشر\", \"منطلق بلا توقّف\", \"مُنْتَهٍ\", \"من جانب إلى آخر\", \"من البداية إلى النهاية\", \"تماماً\"]}",
+    "arabicAr": "خلال / من خلال",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 237,
+    "wordEn": "through",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 237,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "θɹuː",
+    "phoneticUk": "θru:",
+    "phoneticAr": "ثرو",
+    "translit": "khilal / eabr",
+    "definitionEn": "[\"moving in one side and out of the other side of .\", \"continuing in time toward completion of .\", \"so as to inspect all or part of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been through a bad time\"], \"A2\": [\"water was pouring through holes in the roof\", \"neighborhoods from which through traffic would be excluded\", \"the approach to the church is through a gate\", \"we sat through some very boring speeches\"], \"B1\": [\"as soon as we opened the gate they came streaming through\", \"I went through to the bedroom to answer the phone\"], \"B2\": [\"we need the money to help us get through until he has a new job\"]}",
+    "collocations": "[\"follow through\", \"through system\"]",
+    "synonyms": "[\"done\", \"through with\", \"through and through\", \"into and out of\", \"to the other/far side of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"finished\", \"done\", \"through and through\", \"direct\", \"through with\"], \"ar\": [\"مباشر\", \"منطلق بلا توقّف\", \"مُنْتَهٍ\", \"من جانب إلى آخر\", \"من البداية إلى النهاية\", \"تماماً\"]}",
+    "arabicAr": "خلال / من خلال",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 238,
+    "wordEn": "through",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 238,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "θɹuː",
+    "phoneticUk": "θru:",
+    "phoneticAr": "ثرو",
+    "translit": "khilal / eabr",
+    "definitionEn": "[\"moving in one side and out of the other side of .\", \"continuing in time toward completion of .\", \"so as to inspect all or part of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she's been through a bad time\"], \"A2\": [\"water was pouring through holes in the roof\", \"neighborhoods from which through traffic would be excluded\", \"the approach to the church is through a gate\", \"we sat through some very boring speeches\"], \"B1\": [\"as soon as we opened the gate they came streaming through\", \"I went through to the bedroom to answer the phone\"], \"B2\": [\"we need the money to help us get through until he has a new job\"]}",
+    "collocations": "[\"follow through\", \"through system\"]",
+    "synonyms": "[\"done\", \"through with\", \"through and through\", \"into and out of\", \"to the other/far side of\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"finished\", \"done\", \"through and through\", \"direct\", \"through with\"], \"ar\": [\"مباشر\", \"منطلق بلا توقّف\", \"مُنْتَهٍ\", \"من جانب إلى آخر\", \"من البداية إلى النهاية\", \"تماماً\"]}",
+    "arabicAr": "خلال / من خلال",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 239,
+    "wordEn": "back",
+    "pos": "adj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 239,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bæk",
+    "phoneticAr": "بآك",
+    "translit": "khalf / eawda",
+    "definitionEn": "[\"the rear surface of the human body from the shoulders to the hips.\", \"the side or part of something that is away from the spectator or from the direction in which it moves or faces; the rear.\", \"a player in a field game whose initial position is behind the front line.\"]",
+    "usageNote": "often describing a vowel).",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"back roads\", \"he lay on his back\", \"I thought you were miles back\", \"the officer pushed the crowd back\", \"Could you please scratch my back\", \"Put some back into it\", \"to back books\", \"to back the oars\"], \"A2\": [\"an empty spot in the back of the plane\", \"write on the back of a postcard\"], \"B1\": [\"he wiped his mouth with the back of his hand\", \"at the back of the hotel is a secluded garden\"]}",
+    "collocations": "[\"back action\", \"Could you please scratch my back\", \"Put some back into it\", \"to back oxen\", \"to back books\"]",
+    "synonyms": "[\"rear\", \"spine\", \"dorsum\", \"spinal column\", \"vertebral column\"]",
+    "antonyms": "[\"front\", \"advance\", \"veer\"]",
+    "relatedWords": "{\"en\": [\"backward\", \"rearward\", \"rearwards\", \"backwards\", \"back up\"], \"ar\": [\"خلفيّ\", \"متأخّر\", \"مستحقّ ولم يُدفع\", \"ماضٍ\", \"سابق\", \"قديم\"]}",
+    "arabicAr": "خلف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 240,
+    "wordEn": "back",
+    "pos": "verb",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 240,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bæk",
+    "phoneticAr": "بآك",
+    "translit": "khalf / eawda",
+    "definitionEn": "[\"the rear surface of the human body from the shoulders to the hips.\", \"the side or part of something that is away from the spectator or from the direction in which it moves or faces; the rear.\", \"a player in a field game whose initial position is behind the front line.\"]",
+    "usageNote": "often describing a vowel).",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"back roads\", \"he lay on his back\", \"I thought you were miles back\", \"the officer pushed the crowd back\", \"Could you please scratch my back\", \"Put some back into it\", \"to back books\", \"to back the oars\"], \"A2\": [\"an empty spot in the back of the plane\", \"write on the back of a postcard\"], \"B1\": [\"he wiped his mouth with the back of his hand\", \"at the back of the hotel is a secluded garden\"]}",
+    "collocations": "[\"back action\", \"Could you please scratch my back\", \"Put some back into it\", \"to back oxen\", \"to back books\"]",
+    "synonyms": "[\"rear\", \"spine\", \"dorsum\", \"spinal column\", \"vertebral column\"]",
+    "antonyms": "[\"front\", \"advance\", \"veer\"]",
+    "relatedWords": "{\"en\": [\"backward\", \"rearward\", \"rearwards\", \"backwards\", \"back up\"], \"ar\": [\"خلفيّ\", \"متأخّر\", \"مستحقّ ولم يُدفع\", \"ماضٍ\", \"سابق\", \"قديم\"]}",
+    "arabicAr": "خلف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 241,
+    "wordEn": "back",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 241,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bæk",
+    "phoneticAr": "بآك",
+    "translit": "khalf / eawda",
+    "definitionEn": "[\"the rear surface of the human body from the shoulders to the hips.\", \"the side or part of something that is away from the spectator or from the direction in which it moves or faces; the rear.\", \"a player in a field game whose initial position is behind the front line.\"]",
+    "usageNote": "often describing a vowel).",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"back roads\", \"he lay on his back\", \"I thought you were miles back\", \"the officer pushed the crowd back\", \"Could you please scratch my back\", \"Put some back into it\", \"to back books\", \"to back the oars\"], \"A2\": [\"an empty spot in the back of the plane\", \"write on the back of a postcard\"], \"B1\": [\"he wiped his mouth with the back of his hand\", \"at the back of the hotel is a secluded garden\"]}",
+    "collocations": "[\"back action\", \"Could you please scratch my back\", \"Put some back into it\", \"to back oxen\", \"to back books\"]",
+    "synonyms": "[\"rear\", \"spine\", \"dorsum\", \"spinal column\", \"vertebral column\"]",
+    "antonyms": "[\"front\", \"advance\", \"veer\"]",
+    "relatedWords": "{\"en\": [\"backward\", \"rearward\", \"rearwards\", \"backwards\", \"back up\"], \"ar\": [\"خلفيّ\", \"متأخّر\", \"مستحقّ ولم يُدفع\", \"ماضٍ\", \"سابق\", \"قديم\"]}",
+    "arabicAr": "خلف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 242,
+    "wordEn": "back",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 242,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "bæk",
+    "phoneticAr": "بآك",
+    "translit": "khalf / eawda",
+    "definitionEn": "[\"the rear surface of the human body from the shoulders to the hips.\", \"the side or part of something that is away from the spectator or from the direction in which it moves or faces; the rear.\", \"a player in a field game whose initial position is behind the front line.\"]",
+    "usageNote": "often describing a vowel).",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"back roads\", \"he lay on his back\", \"I thought you were miles back\", \"the officer pushed the crowd back\", \"Could you please scratch my back\", \"Put some back into it\", \"to back books\", \"to back the oars\"], \"A2\": [\"an empty spot in the back of the plane\", \"write on the back of a postcard\"], \"B1\": [\"he wiped his mouth with the back of his hand\", \"at the back of the hotel is a secluded garden\"]}",
+    "collocations": "[\"back action\", \"Could you please scratch my back\", \"Put some back into it\", \"to back oxen\", \"to back books\"]",
+    "synonyms": "[\"rear\", \"spine\", \"dorsum\", \"spinal column\", \"vertebral column\"]",
+    "antonyms": "[\"front\", \"advance\", \"veer\"]",
+    "relatedWords": "{\"en\": [\"backward\", \"rearward\", \"rearwards\", \"backwards\", \"back up\"], \"ar\": [\"خلفيّ\", \"متأخّر\", \"مستحقّ ولم يُدفع\", \"ماضٍ\", \"سابق\", \"قديم\"]}",
+    "arabicAr": "خلف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 243,
+    "wordEn": "still",
+    "pos": "adj",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 243,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "stɪl",
+    "phoneticAr": "ستيل",
+    "translit": "ma zal / ma yazal",
+    "definitionEn": "[\"not moving or making a sound.\", \"deep silence and calm; stillness.\", \"an ordinary static photograph as opposed to a motion picture, especially a single shot from a movie.\"]",
+    "usageNote": "Used to modify comparative adjectives or adverbs.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"we could still win\", \"he still lives with his mother\", \"a still autumn day\", \"he lay still, unable to move\", \"it was still raining\", \"the still of the night\", \"still water still wines\"], \"A2\": [\"her voice carried on the still air\", \"write, or better still, type, captions for the pictures\"]}",
+    "collocations": "[\"Sit there and stay still\", \"still water still wines\", \"a still spore\", \"the still of the night\", \"to still the raging sea\"]",
+    "synonyms": "[\"hush\", \"calm\", \"stillness\", \"distillery\", \"motionless\"]",
+    "antonyms": "[\"agitate\", \"louden\", \"moving\"]",
+    "relatedWords": "{\"en\": [\"unmoving\", \"stock-still\", \"nonmoving\", \"motionless\", \"silence\"], \"ar\": [\"ساكن\", \"صامت\", \"خفيض\", \"هادئ\", \"لا يزال\", \"ومع ذلك\"]}",
+    "arabicAr": "ما زال / ساكن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 244,
+    "wordEn": "still",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 244,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "stɪl",
+    "phoneticAr": "ستيل",
+    "translit": "ma zal / ma yazal",
+    "definitionEn": "[\"not moving or making a sound.\", \"deep silence and calm; stillness.\", \"an ordinary static photograph as opposed to a motion picture, especially a single shot from a movie.\"]",
+    "usageNote": "Used to modify comparative adjectives or adverbs.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"we could still win\", \"he still lives with his mother\", \"a still autumn day\", \"he lay still, unable to move\", \"it was still raining\", \"the still of the night\", \"still water still wines\"], \"A2\": [\"her voice carried on the still air\", \"write, or better still, type, captions for the pictures\"]}",
+    "collocations": "[\"Sit there and stay still\", \"still water still wines\", \"a still spore\", \"the still of the night\", \"to still the raging sea\"]",
+    "synonyms": "[\"hush\", \"calm\", \"stillness\", \"distillery\", \"motionless\"]",
+    "antonyms": "[\"agitate\", \"louden\", \"moving\"]",
+    "relatedWords": "{\"en\": [\"unmoving\", \"stock-still\", \"nonmoving\", \"motionless\", \"silence\"], \"ar\": [\"ساكن\", \"صامت\", \"خفيض\", \"هادئ\", \"لا يزال\", \"ومع ذلك\"]}",
+    "arabicAr": "ما زال / ساكن",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 245,
+    "wordEn": "must",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 245,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "mʌst",
+    "phoneticAr": "ماست",
+    "translit": "yajib / yjb",
+    "definitionEn": "[\"be obliged to; should .\", \"expressing an opinion about something that is logically very likely.\", \"something that should not be overlooked or missed.\"]",
+    "usageNote": "Used to indicate that something is very likely, probable, or certain to be true.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"must you look so utterly suburban?\", \"she said she must be going\", \"there must be something wrong\", \"you must show your ID card\"], \"A2\": [\"a big old bull elephant in must\", \"it must not be over 2,000 words\", \"you must try some of this fish\"], \"B1\": [\"if you must smoke you could at least go in the living room\"]}",
+    "collocations": "[\"curfew must\"]",
+    "synonyms": "[\"should\", \"mustiness\", \"moldiness\", \"have to\", \"ought to\"]",
+    "antonyms": "[\"option\", \"no-no\"]",
+    "relatedWords": "{\"en\": [\"essential\", \"ought\", \"need\", \"should\", \"have got\"], \"ar\": [\"حاجَة\", \"عُفُونَة\", \"فَسَاد\", \"تَعَفّن\", \"ضَرُورَة\", \"عَفَن\"]}",
+    "arabicAr": "يجب",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 246,
+    "wordEn": "must",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 246,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "mʌst",
+    "phoneticAr": "ماست",
+    "translit": "yajib / yjb",
+    "definitionEn": "[\"be obliged to; should .\", \"expressing an opinion about something that is logically very likely.\", \"something that should not be overlooked or missed.\"]",
+    "usageNote": "Used to indicate that something is very likely, probable, or certain to be true.",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"must you look so utterly suburban?\", \"she said she must be going\", \"there must be something wrong\", \"you must show your ID card\"], \"A2\": [\"a big old bull elephant in must\", \"it must not be over 2,000 words\", \"you must try some of this fish\"], \"B1\": [\"if you must smoke you could at least go in the living room\"]}",
+    "collocations": "[\"curfew must\"]",
+    "synonyms": "[\"should\", \"mustiness\", \"moldiness\", \"have to\", \"ought to\"]",
+    "antonyms": "[\"option\", \"no-no\"]",
+    "relatedWords": "{\"en\": [\"essential\", \"ought\", \"need\", \"should\", \"have got\"], \"ar\": [\"حاجَة\", \"عُفُونَة\", \"فَسَاد\", \"تَعَفّن\", \"ضَرُورَة\", \"عَفَن\"]}",
+    "arabicAr": "يجب",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 247,
+    "wordEn": "child",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 247,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "t͡ʃaɪld",
+    "phoneticAr": "تشآيلد",
+    "translit": "tifl",
+    "definitionEn": "[\"a young human being below the age of puberty or below the legal age of majority.\", \"A descendant, however remote\", \"One who, by character of practice, shows signs of relationship to, or of the influence of, another\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a child of the Sixties\", \"she's such a child!\", \"he's a child in financial matters\"], \"A2\": [\"she'd been playing tennis since she was a child\"], \"B1\": [\"OPEC was in a sense a child of the Cold War\"]}",
+    "collocations": "[\"the children of Israel\", \"young child\", \"child relationship\"]",
+    "synonyms": "[\"kid\", \"minor\", \"shaver\", \"kiddie\", \"youngster\"]",
+    "antonyms": "[\"parent\"]",
+    "relatedWords": "{\"en\": [\"youngster\", \"baby\", \"boy\", \"little girl\", \"girl\"], \"ar\": [\"إبْن\", \"عَقِب\", \"مَوْلُود\", \"وَلَد\", \"طِفْل\", \"ابن\"]}",
+    "arabicAr": "طفل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 248,
+    "wordEn": "here",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 248,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hiːɹ",
+    "phoneticUk": "hɪə(ɹ)",
+    "phoneticAr": "هير",
+    "translit": "huna",
+    "definitionEn": "[\"in, at, or to this place or position.\", \"used when introducing something or someone.\", \"used when indicating a time, point, or situation that has arrived or is happening.\"]",
+    "usageNote": "used to emphasise demonstrative sense; see also this here.",
+    "category": "Travel & Movement",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"here comes the bus\", \"we're not here to mess around\", \"here, let me hold it\", \"here is your opportunity\", \"here is my address\", \"here we encounter the main problem\"], \"A2\": [\"come here and let me look at them\"], \"B1\": [\"I have here a letter from the chief of police\"]}",
+    "collocations": "[\"Here You Stop doing that\", \"Fido Here Woof Woof\", \"come here\", \"here ends\"]",
+    "synonyms": "[\"Hera\", \"hither\", \"at/in this spot\", \"at/in this place\", \"at/in this location\"]",
+    "antonyms": "[\"there\"]",
+    "relatedWords": "{\"en\": [\"present\", \"hither\", \"hera\", \"there\", \"therein\"], \"ar\": [\"هنا\", \"إلى هنا\", \"الآن\", \"تعال هنا\", \"أسكن هنا\", \"ها هو أخي\"]}",
+    "arabicAr": "هنا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 249,
+    "wordEn": "over",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 249,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈəʊ.və(ɹ)",
+    "phoneticUk": "ˈəʊvə(r)",
+    "phoneticAr": "اوفا",
+    "translit": "ziada / ealaa",
+    "definitionEn": "[\"extending directly upward from.\", \"at a higher level or layer than.\", \"higher than or more than .\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the danger is not completely over\", \"I saw flames over Berlin\", \"come over and cheer us up\", \"ladle this sauce over fresh pasta\", \"I'm over all of this rain!\", \"editorial control over what is included\", \"Come over and play\", \"Can I sleep over\", \"How do you receive Over\"], \"A2\": [\"skiing is so over, and snowboarding is passé!\"], \"C1\": [\"now it's finished and even though I am totally over him, I'm wondering whether I should pay him a surprise visit\"]}",
+    "collocations": "[\"That building just fell over\", \"Look over there\", \"Can I sleep over\", \"How do you receive Over\", \"little over\"]",
+    "synonyms": "[\"ended\", \"above\", \"complete\", \"concluded\", \"all over\"]",
+    "antonyms": "[\"under\", \"beneath\"]",
+    "relatedWords": "{\"en\": [\"ended\", \"finished\", \"complete\", \"terminated\", \"across\"], \"ar\": [\"فوق\", \"زيادة\", \"نيّف\", \"برمّته\", \"انقضى\", \"انتهى\"]}",
+    "arabicAr": "زيادة / فوق",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 250,
+    "wordEn": "over",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 250,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈəʊ.və(ɹ)",
+    "phoneticUk": "ˈəʊvə(r)",
+    "phoneticAr": "اوفا",
+    "translit": "ziada / ealaa",
+    "definitionEn": "[\"extending directly upward from.\", \"at a higher level or layer than.\", \"higher than or more than .\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the danger is not completely over\", \"I saw flames over Berlin\", \"come over and cheer us up\", \"ladle this sauce over fresh pasta\", \"I'm over all of this rain!\", \"editorial control over what is included\", \"Come over and play\", \"Can I sleep over\", \"How do you receive Over\"], \"A2\": [\"skiing is so over, and snowboarding is passé!\"], \"C1\": [\"now it's finished and even though I am totally over him, I'm wondering whether I should pay him a surprise visit\"]}",
+    "collocations": "[\"That building just fell over\", \"Look over there\", \"Can I sleep over\", \"How do you receive Over\", \"little over\"]",
+    "synonyms": "[\"ended\", \"above\", \"complete\", \"concluded\", \"all over\"]",
+    "antonyms": "[\"under\", \"beneath\"]",
+    "relatedWords": "{\"en\": [\"ended\", \"finished\", \"complete\", \"terminated\", \"across\"], \"ar\": [\"فوق\", \"زيادة\", \"نيّف\", \"برمّته\", \"انقضى\", \"انتهى\"]}",
+    "arabicAr": "زيادة / فوق",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 251,
+    "wordEn": "too",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 251,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tuː",
+    "phoneticUk": "tu:",
+    "phoneticAr": "تو",
+    "translit": "aydaan / jiddaan",
+    "definitionEn": "[]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"is he coming too?\", \"he was driving too fast\", \"you're too kind\"], \"B1\": [\"he wore suits that seemed a size too small for him\", \"she is a grown woman, and a strong one too\"]}",
+    "collocations": "[\"equal too\", \"too human\"]",
+    "synonyms": "[\"overly\", \"besides\", \"too-too\", \"excessively\", \"to a fault\"]",
+    "antonyms": "[\"insufficiently\"]",
+    "relatedWords": "{\"en\": [\"likewise\", \"as well\", \"besides\", \"also\", \"excessively\"], \"ar\": [\"أيضاً\", \"كذلك\", \"أكثر مما ينبغي\", \"بِالمِثْل\", \"حَتّى\", \"أيْضاً\"]}",
+    "arabicAr": "أيضاً",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 252,
+    "wordEn": "put",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 252,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pʊt",
+    "phoneticUk": "put",
+    "phoneticAr": "بوت",
+    "translit": "yadae / wade",
+    "definitionEn": "[\"move to or place in a particular position.\", \"bring into a particular state or condition.\", \"throw as an athletic sport.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the put of a ball\"], \"A2\": [\"they tried to put me at ease\", \"they put my name on the cover page\", \"India has put three experimental satellites into space\", \"a large aid program was put into effect\", \"estimates put the war's cost at $1,000,000 a day\", \"the matter has to be put into context\", \"to put it bluntly, he was not really divorced\"], \"B1\": [\"laws need to be put in place to stop human genetic experimentation\"]}",
+    "collocations": "[\"Put your house in order\", \"to put to sea\", \"the put of a ball\", \"hard put\", \"put option\"]",
+    "synonyms": "[\"set\", \"pose\", \"place\", \"stick\", \"put option\"]",
+    "antonyms": "[\"call option\", \"divest\"]",
+    "relatedWords": "{\"en\": [\"position\", \"frame\", \"set up\", \"arrange\", \"order\"], \"ar\": [\"مُثَبّت\", \"مَحْطُوط\", \"مُرَكّز\", \"مَوْضُوع\", \"رَمْيَة\", \"قَذْفة\"]}",
+    "arabicAr": "يضع",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 253,
+    "wordEn": "put",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 253,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pʊt",
+    "phoneticUk": "put",
+    "phoneticAr": "بوت",
+    "translit": "yadae / wade",
+    "definitionEn": "[\"move to or place in a particular position.\", \"bring into a particular state or condition.\", \"throw as an athletic sport.\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the put of a ball\"], \"A2\": [\"they tried to put me at ease\", \"they put my name on the cover page\", \"India has put three experimental satellites into space\", \"a large aid program was put into effect\", \"estimates put the war's cost at $1,000,000 a day\", \"the matter has to be put into context\", \"to put it bluntly, he was not really divorced\"], \"B1\": [\"laws need to be put in place to stop human genetic experimentation\"]}",
+    "collocations": "[\"Put your house in order\", \"to put to sea\", \"the put of a ball\", \"hard put\", \"put option\"]",
+    "synonyms": "[\"set\", \"pose\", \"place\", \"stick\", \"put option\"]",
+    "antonyms": "[\"call option\", \"divest\"]",
+    "relatedWords": "{\"en\": [\"position\", \"frame\", \"set up\", \"arrange\", \"order\"], \"ar\": [\"مُثَبّت\", \"مَحْطُوط\", \"مُرَكّز\", \"مَوْضُوع\", \"رَمْيَة\", \"قَذْفة\"]}",
+    "arabicAr": "يضع",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 254,
+    "wordEn": "own",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 254,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈəʊn",
+    "phoneticUk": "əʊn",
+    "phoneticAr": "اون",
+    "translit": "milk / khasatan",
+    "definitionEn": "[\"used with a possessive to emphasize that someone or something belongs or relates to the person or thing mentioned.\", \"something that belongs to the person or thing mentioned.\", \"have as one's own; possess.\"]",
+    "usageNote": "Often marks a possessive determiner as reflexive, referring back to the subject of the clause or sentence.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they can't handle their own children\"], \"A2\": [\"the kitten is currently chasing her own tail\", \"I used to design all my own clothes\", \"he was reluctant to own that he was indebted\", \"his face was inches from her own\", \"they claimed the work as their own\", \"I was an outcast among my own kind\"], \"B1\": [\"he has published little, trivial things which he will not own\"]}",
+    "collocations": "[\"to own one as a son\", \"your own\", \"own way\"]",
+    "synonyms": "[\"ain\", \"have\", \"possess\", \"especial\", \"personal\"]",
+    "antonyms": "[\"dispute\", \"deny\"]",
+    "relatedWords": "{\"en\": [\"personal\", \"have\", \"possess\", \"ain\", \"same\"], \"ar\": [\"خاصَّتُهُ\", \"مِلْكُهُ\", \"خاصّتُهُ\", \"ملك\", \"قدم إعترافات\", \"اعترف\"]}",
+    "arabicAr": "ملك / يملك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 255,
+    "wordEn": "own",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 255,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈəʊn",
+    "phoneticUk": "əʊn",
+    "phoneticAr": "اون",
+    "translit": "milk / khasatan",
+    "definitionEn": "[\"used with a possessive to emphasize that someone or something belongs or relates to the person or thing mentioned.\", \"something that belongs to the person or thing mentioned.\", \"have as one's own; possess.\"]",
+    "usageNote": "Often marks a possessive determiner as reflexive, referring back to the subject of the clause or sentence.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they can't handle their own children\"], \"A2\": [\"the kitten is currently chasing her own tail\", \"I used to design all my own clothes\", \"he was reluctant to own that he was indebted\", \"his face was inches from her own\", \"they claimed the work as their own\", \"I was an outcast among my own kind\"], \"B1\": [\"he has published little, trivial things which he will not own\"]}",
+    "collocations": "[\"to own one as a son\", \"your own\", \"own way\"]",
+    "synonyms": "[\"ain\", \"have\", \"possess\", \"especial\", \"personal\"]",
+    "antonyms": "[\"dispute\", \"deny\"]",
+    "relatedWords": "{\"en\": [\"personal\", \"have\", \"possess\", \"ain\", \"same\"], \"ar\": [\"خاصَّتُهُ\", \"مِلْكُهُ\", \"خاصّتُهُ\", \"ملك\", \"قدم إعترافات\", \"اعترف\"]}",
+    "arabicAr": "ملك / يملك",
+    "addedFromOxford": 1
+  }
+]

@@ -1,0 +1,703 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 402,
+    "wordEn": "state",
+    "pos": "verb",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 402,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "steɪt",
+    "phoneticAr": "ستايت",
+    "translit": "wilaya / hala",
+    "definitionEn": "[\"the particular condition that someone or something is in at a specific time.\", \"a nation or territory considered as an organized political community under one government.\", \"the civil government of a country.\"]",
+    "usageNote": "often standing on a dais; a seat of dignity; also, the canopy itself.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was buried in state\", \"the future of state education\", \"the state of the company's finances\", \"services provided by the state\", \"the German state of Bavaria\"], \"A2\": [\"look at the state of you—what a mess!\", \"we're worried about her state of mind\"], \"B1\": [\"King Fahd appointed a council to advise him on affairs of state\"]}",
+    "collocations": "[\"a state of being\", \"a state of emergency\", \"absolute state\", \"in a state\", \"in a bit of a state\"]",
+    "synonyms": "[\"land\", \"nation\", \"country\", \"province\", \"condition\"]",
+    "antonyms": "[\"occurrence\"]",
+    "relatedWords": "{\"en\": [\"state of matter\", \"land\", \"country\", \"express\", \"province\"], \"ar\": [\"حكوميّ\", \"رسميّ\", \"إقْلِيم\", \"أمْر\", \"أمِيرِيّ\", \"بال\"]}",
+    "arabicAr": "ولاية / ولاية (داخل بلد)",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 403,
+    "wordEn": "state",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 403,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "steɪt",
+    "phoneticAr": "ستايت",
+    "translit": "wilaya / hala",
+    "definitionEn": "[\"the particular condition that someone or something is in at a specific time.\", \"a nation or territory considered as an organized political community under one government.\", \"the civil government of a country.\"]",
+    "usageNote": "often standing on a dais; a seat of dignity; also, the canopy itself.",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was buried in state\", \"the future of state education\", \"the state of the company's finances\", \"services provided by the state\", \"the German state of Bavaria\"], \"A2\": [\"look at the state of you—what a mess!\", \"we're worried about her state of mind\"], \"B1\": [\"King Fahd appointed a council to advise him on affairs of state\"]}",
+    "collocations": "[\"a state of being\", \"a state of emergency\", \"absolute state\", \"in a state\", \"in a bit of a state\"]",
+    "synonyms": "[\"land\", \"nation\", \"country\", \"province\", \"condition\"]",
+    "antonyms": "[\"occurrence\"]",
+    "relatedWords": "{\"en\": [\"state of matter\", \"land\", \"country\", \"express\", \"province\"], \"ar\": [\"حكوميّ\", \"رسميّ\", \"إقْلِيم\", \"أمْر\", \"أمِيرِيّ\", \"بال\"]}",
+    "arabicAr": "ولاية / ولاية (داخل بلد)",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 404,
+    "wordEn": "percent",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 0,
+    "rank": 404,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "pəˈsɛnt",
+    "phoneticUk": "pəˈsent",
+    "phoneticAr": "باساينت",
+    "translit": "bialmiaya / nasibuh miwiah",
+    "syllabify": "per•cent",
+    "definitionEn": "[\"by a specified amount in or for every hundred.\", \"one part in every hundred.\", \"A percentage, a proportion .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"staff rejected a 1.8 percent increase\"], \"A2\": [\"the percent of drug users who are infected\", \"new car sales may be down nineteen percent\"], \"B1\": [\"a reduction of half a percent or so in price\"]}",
+    "collocations": "[\"few percent\", \"percent change\"]",
+    "synonyms": "[\"pct\", \"ratio\", \"billion\", \"percentage\", \"per centum\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"per centum\", \"percentage\", \"pct\", \"billion\", \"ratio\"], \"ar\": [\"في المائة\", \"مئويّ\", \"في المئة\", \"جزء من مئة\", \"جزء من مئة الدولار\", \"سندات ذات فائدة معينة\"]}",
+    "arabicAr": "بالمائة / في المئة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 405,
+    "wordEn": "quite",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 405,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kwaɪt",
+    "phoneticAr": "كوآيت",
+    "translit": "tmaman / ''iilaa hadun kabir",
+    "definitionEn": "[\"expressing agreement with or understanding of a remark or statement.\"]",
+    "usageNote": "often with ironic implications that the noun in question is particularly noteworthy or remarkable.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I quite agree\", \"he's quite an attractive man\", \"are you quite certain about this?\", \"I was quite embarrassed, actually\", \"quite frankly, I don't blame you\", \"this is quite a different problem\", \"it's quite out of the question\", \"she did quite well at school\"]}",
+    "collocations": "[\"quite time\"]",
+    "synonyms": "[\"fully\", \"rather\", \"completely\", \"quite a\", \"quite an\"]",
+    "antonyms": "[\"extremely\", \"slightly\"]",
+    "relatedWords": "{\"en\": [\"rather\", \"quite a\", \"quite an\", \"relative\", \"too\"], \"ar\": [\"تماماً\", \"فعلاً\", \"إلى حدّ بعيد\", \"تمامًا\", \"حقًّا\", \"فعلًا\"]}",
+    "arabicAr": "تمامًا / تماماً",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 406,
+    "wordEn": "both",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 406,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "bəʊθ",
+    "phoneticAr": "باوث",
+    "translit": "kilahuma / ealaa hadin swa''",
+    "definitionEn": "[\"refer to two people or things, regarded and identified together.\", \"used before the first of two alternatives to emphasize that the statement being made applies to each .\", \"The one and the other\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"it has won favor with both young and old\"], \"B1\": [\"studies of finches, both in the wild and in captivity\", \"they all loved to play, both the boys and the girls\"]}",
+    "collocations": "[\"look both\", \"both sides\"]",
+    "synonyms": "[\"all\", \"some\", \"mind\", \"every\", \"couple\"]",
+    "antonyms": "[\"individually\"]",
+    "relatedWords": "{\"en\": [\"some\", \"every\", \"couple\", \"all\", \"mind\"], \"ar\": [\"كِلا\", \"على حدّ سواء\", \"كلا\", \"على حد سواء\", \"كلاهما\", \"سويا\"]}",
+    "arabicAr": "كلاهما / كلا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 407,
+    "wordEn": "both",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 407,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "bəʊθ",
+    "phoneticAr": "باوث",
+    "translit": "kilahuma / ealaa hadin swa''",
+    "definitionEn": "[\"refer to two people or things, regarded and identified together.\", \"used before the first of two alternatives to emphasize that the statement being made applies to each .\", \"The one and the other\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"it has won favor with both young and old\"], \"B1\": [\"studies of finches, both in the wild and in captivity\", \"they all loved to play, both the boys and the girls\"]}",
+    "collocations": "[\"look both\", \"both sides\"]",
+    "synonyms": "[\"all\", \"some\", \"mind\", \"every\", \"couple\"]",
+    "antonyms": "[\"individually\"]",
+    "relatedWords": "{\"en\": [\"some\", \"every\", \"couple\", \"all\", \"mind\"], \"ar\": [\"كِلا\", \"على حدّ سواء\", \"كلا\", \"على حد سواء\", \"كلاهما\", \"سويا\"]}",
+    "arabicAr": "كلاهما / كلا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 408,
+    "wordEn": "both",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 408,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "bəʊθ",
+    "phoneticAr": "باوث",
+    "translit": "kilahuma / ealaa hadin swa''",
+    "definitionEn": "[\"refer to two people or things, regarded and identified together.\", \"used before the first of two alternatives to emphasize that the statement being made applies to each .\", \"The one and the other\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"it has won favor with both young and old\"], \"B1\": [\"studies of finches, both in the wild and in captivity\", \"they all loved to play, both the boys and the girls\"]}",
+    "collocations": "[\"look both\", \"both sides\"]",
+    "synonyms": "[\"all\", \"some\", \"mind\", \"every\", \"couple\"]",
+    "antonyms": "[\"individually\"]",
+    "relatedWords": "{\"en\": [\"some\", \"every\", \"couple\", \"all\", \"mind\"], \"ar\": [\"كِلا\", \"على حدّ سواء\", \"كلا\", \"على حد سواء\", \"كلاهما\", \"سويا\"]}",
+    "arabicAr": "كلاهما / كلا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 409,
+    "wordEn": "start",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 409,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "stɑɹt",
+    "phoneticUk": "stɑːt",
+    "phoneticAr": "ستآرت",
+    "translit": "yabda / bidaya",
+    "definitionEn": "[\"begin or be reckoned from a particular point in time or space.\", \"happen or come into being.\", \"give a small jump or make a sudden jerking movement from surprise or alarm.\"]",
+    "usageNote": "“a typical button for video games, originally used to start a game, now also often to pause or choose an option”",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she awoke with a start\", \"she will start school today\", \"to get, or have, the start\"], \"A2\": [\"the event was a shambles from start to finish\", \"he would have a ninety-minute start on them\", \"she had seen Meg start suddenly from a thicket\"], \"B1\": [\"his bicycle was found close to the start of a forest trail\", \"she's anxious to give her baby the best start in life\", \"what should I do if the engine won't start again?\"]}",
+    "collocations": "[\"to get, or have, the start\", \"to start the engine\", \"to start a water cask\", \"good start\", \"start ups\"]",
+    "synonyms": "[\"first\", \"outset\", \"beginning\", \"commencement\", \"kick off\"]",
+    "antonyms": "[\"middle\", \"end\", \"finish\"]",
+    "relatedWords": "{\"en\": [\"begin\", \"commence\", \"beginning\", \"outset\", \"commencement\"], \"ar\": [\"أسَاس\", \"اسْتفْتَاح\", \"أصْل\", \"أوّل\", \"باكُورَة\", \"بَدْء\"]}",
+    "arabicAr": "يبدأ",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 410,
+    "wordEn": "start",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 410,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "stɑɹt",
+    "phoneticUk": "stɑːt",
+    "phoneticAr": "ستآرت",
+    "translit": "yabda / bidaya",
+    "definitionEn": "[\"begin or be reckoned from a particular point in time or space.\", \"happen or come into being.\", \"give a small jump or make a sudden jerking movement from surprise or alarm.\"]",
+    "usageNote": "“a typical button for video games, originally used to start a game, now also often to pause or choose an option”",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she awoke with a start\", \"she will start school today\", \"to get, or have, the start\"], \"A2\": [\"the event was a shambles from start to finish\", \"he would have a ninety-minute start on them\", \"she had seen Meg start suddenly from a thicket\"], \"B1\": [\"his bicycle was found close to the start of a forest trail\", \"she's anxious to give her baby the best start in life\", \"what should I do if the engine won't start again?\"]}",
+    "collocations": "[\"to get, or have, the start\", \"to start the engine\", \"to start a water cask\", \"good start\", \"start ups\"]",
+    "synonyms": "[\"first\", \"outset\", \"beginning\", \"commencement\", \"kick off\"]",
+    "antonyms": "[\"middle\", \"end\", \"finish\"]",
+    "relatedWords": "{\"en\": [\"begin\", \"commence\", \"beginning\", \"outset\", \"commencement\"], \"ar\": [\"أسَاس\", \"اسْتفْتَاح\", \"أصْل\", \"أوّل\", \"باكُورَة\", \"بَدْء\"]}",
+    "arabicAr": "يبدأ",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 411,
+    "wordEn": "run",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 411,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɹʊn",
+    "phoneticUk": "ɹʌn",
+    "phoneticAr": "رون",
+    "translit": "yajri / yarkud",
+    "definitionEn": "[\"move at a speed faster than a walk, never having both or all the feet on the ground at the same time.\", \"pass or cause to pass quickly or smoothly in a particular direction.\", \"flow or cause to flow.\"]",
+    "usageNote": "often with a measure phrase).",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"his run for the Republican nomination\", \"a ski run\", \"a cross-country run\", \"the tape has run out\", \"I run every morning\", \"run a story run an ad\", \"to run guns to run rum\", \"to run a line\", \"run brandy\"], \"A2\": [\"we decided to run a series of seminars\", \"cobbled streets run down to a tiny harbor\", \"he could no longer afford to run a car\"]}",
+    "collocations": "[\"to run bullets\", \"run a story run an ad\", \"to run a line\", \"Which run did you do today\", \"a run to China\"]",
+    "synonyms": "[\"test\", \"tear\", \"tally\", \"trial\", \"footrace\"]",
+    "antonyms": "[\"malfunction\", \"idle\"]",
+    "relatedWords": "{\"en\": [\"scarper\", \"run away\", \"turn tail\", \"break away\", \"track down\"], \"ar\": [\"إتّجاه\", \"تَيّار\", \"جَرْي\", \"شَوْط\", \"مَجْرَى\", \"مَدْفُوع\"]}",
+    "arabicAr": "يجري / يشغل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 412,
+    "wordEn": "run",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 412,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɹʊn",
+    "phoneticUk": "ɹʌn",
+    "phoneticAr": "رون",
+    "translit": "yajri / yarkud",
+    "definitionEn": "[\"move at a speed faster than a walk, never having both or all the feet on the ground at the same time.\", \"pass or cause to pass quickly or smoothly in a particular direction.\", \"flow or cause to flow.\"]",
+    "usageNote": "often with a measure phrase).",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"his run for the Republican nomination\", \"a ski run\", \"a cross-country run\", \"the tape has run out\", \"I run every morning\", \"run a story run an ad\", \"to run guns to run rum\", \"to run a line\", \"run brandy\"], \"A2\": [\"we decided to run a series of seminars\", \"cobbled streets run down to a tiny harbor\", \"he could no longer afford to run a car\"]}",
+    "collocations": "[\"to run bullets\", \"run a story run an ad\", \"to run a line\", \"Which run did you do today\", \"a run to China\"]",
+    "synonyms": "[\"test\", \"tear\", \"tally\", \"trial\", \"footrace\"]",
+    "antonyms": "[\"malfunction\", \"idle\"]",
+    "relatedWords": "{\"en\": [\"scarper\", \"run away\", \"turn tail\", \"break away\", \"track down\"], \"ar\": [\"إتّجاه\", \"تَيّار\", \"جَرْي\", \"شَوْط\", \"مَجْرَى\", \"مَدْفُوع\"]}",
+    "arabicAr": "يجري / يشغل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 413,
+    "wordEn": "long",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 413,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈlɔːŋ",
+    "phoneticUk": "ˈlɑŋ",
+    "phoneticAr": "لأونج",
+    "translit": "tawil",
+    "definitionEn": "[\"measuring a great distance from end to end.\", \"lasting or taking a great amount of time.\", \"relatively great in extent.\"]",
+    "usageNote": "note formerly used in music, one half the length of a large, twice that of a breve.",
+    "category": "Feelings & Emotions",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it was abandoned long ago\", \"a long corridor\", \"a long and distinguished career\", \"the line for tickets was long\", \"an experience they will long remember\", \"winning against long odds\", \"see you before long\"], \"A2\": [\"the work was compiled long after his death\"]}",
+    "collocations": "[\"last long\", \"long time\"]",
+    "synonyms": "[\"yearn\", \"hanker\", \"lengthy\", \"retentive\", \"recollective\"]",
+    "antonyms": "[\"short\", \"unretentive\"]",
+    "relatedWords": "{\"en\": [\"longitudinal\", \"oblong\", \"yearlong\", \"daylong\", \"overnight\"], \"ar\": [\"طويل\", \"مستطيل\", \"ذو طول معين\", \"طويلاً\", \"طوالَ\", \"طويل الأجل\"]}",
+    "arabicAr": "طويل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 414,
+    "wordEn": "long",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 414,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈlɔːŋ",
+    "phoneticUk": "ˈlɑŋ",
+    "phoneticAr": "لأونج",
+    "translit": "tawil",
+    "definitionEn": "[\"measuring a great distance from end to end.\", \"lasting or taking a great amount of time.\", \"relatively great in extent.\"]",
+    "usageNote": "note formerly used in music, one half the length of a large, twice that of a breve.",
+    "category": "Feelings & Emotions",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it was abandoned long ago\", \"a long corridor\", \"a long and distinguished career\", \"the line for tickets was long\", \"an experience they will long remember\", \"winning against long odds\", \"see you before long\"], \"A2\": [\"the work was compiled long after his death\"]}",
+    "collocations": "[\"last long\", \"long time\"]",
+    "synonyms": "[\"yearn\", \"hanker\", \"lengthy\", \"retentive\", \"recollective\"]",
+    "antonyms": "[\"short\", \"unretentive\"]",
+    "relatedWords": "{\"en\": [\"longitudinal\", \"oblong\", \"yearlong\", \"daylong\", \"overnight\"], \"ar\": [\"طويل\", \"مستطيل\", \"ذو طول معين\", \"طويلاً\", \"طوالَ\", \"طويل الأجل\"]}",
+    "arabicAr": "طويل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 415,
+    "wordEn": "right",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 415,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈɹaɪt",
+    "phoneticAr": "رآيت",
+    "translit": "yamin / haq",
+    "definitionEn": "[\"morally good, justified, or acceptable.\", \"true or correct as a fact.\", \"in a satisfactory, sound, or normal state or condition.\"]",
+    "usageNote": "Used to check listener engagement and (especially) agreement at the end of an utterance or each segment thereof.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"her theories were proved right\", \"turn right at Main Street\", \"my right elbow\", \"a right line\"], \"A2\": [\"she had every right to be angry\", \"she was right about Tom having no money\", \"you're not holding it the right way up\"], \"B1\": [\"his proposal was viewed with alarm by the right of the party\"], \"C1\": [\"and I didn't think any more of it, right, but Mom said I should take him to a doctor\"]}",
+    "collocations": "[\"a right line\", \"You're going, right\", \"to right the oppressed\", \"own right\", \"right hand\"]",
+    "synonyms": "[\"just\", \"rightfield\", \"right wing\", \"right hand\", \"right field\"]",
+    "antonyms": "[\"left\", \"wrong\", \"wrongfulness\"]",
+    "relatedWords": "{\"en\": [\"straight\", \"precise\", \"right on\", \"accurate\", \"decently\"], \"ar\": [\"قويم\", \"صحيح\", \"مناسب\", \"مستقيم\", \"حقيقي\", \"أيمن\"]}",
+    "arabicAr": "يمين / صحيح",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 416,
+    "wordEn": "right",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 416,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈɹaɪt",
+    "phoneticAr": "رآيت",
+    "translit": "yamin / haq",
+    "definitionEn": "[\"morally good, justified, or acceptable.\", \"true or correct as a fact.\", \"in a satisfactory, sound, or normal state or condition.\"]",
+    "usageNote": "Used to check listener engagement and (especially) agreement at the end of an utterance or each segment thereof.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"her theories were proved right\", \"turn right at Main Street\", \"my right elbow\", \"a right line\"], \"A2\": [\"she had every right to be angry\", \"she was right about Tom having no money\", \"you're not holding it the right way up\"], \"B1\": [\"his proposal was viewed with alarm by the right of the party\"], \"C1\": [\"and I didn't think any more of it, right, but Mom said I should take him to a doctor\"]}",
+    "collocations": "[\"a right line\", \"You're going, right\", \"to right the oppressed\", \"own right\", \"right hand\"]",
+    "synonyms": "[\"just\", \"rightfield\", \"right wing\", \"right hand\", \"right field\"]",
+    "antonyms": "[\"left\", \"wrong\", \"wrongfulness\"]",
+    "relatedWords": "{\"en\": [\"straight\", \"precise\", \"right on\", \"accurate\", \"decently\"], \"ar\": [\"قويم\", \"صحيح\", \"مناسب\", \"مستقيم\", \"حقيقي\", \"أيمن\"]}",
+    "arabicAr": "يمين / صحيح",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 417,
+    "wordEn": "right",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 417,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈɹaɪt",
+    "phoneticAr": "رآيت",
+    "translit": "yamin / haq",
+    "definitionEn": "[\"morally good, justified, or acceptable.\", \"true or correct as a fact.\", \"in a satisfactory, sound, or normal state or condition.\"]",
+    "usageNote": "Used to check listener engagement and (especially) agreement at the end of an utterance or each segment thereof.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"her theories were proved right\", \"turn right at Main Street\", \"my right elbow\", \"a right line\"], \"A2\": [\"she had every right to be angry\", \"she was right about Tom having no money\", \"you're not holding it the right way up\"], \"B1\": [\"his proposal was viewed with alarm by the right of the party\"], \"C1\": [\"and I didn't think any more of it, right, but Mom said I should take him to a doctor\"]}",
+    "collocations": "[\"a right line\", \"You're going, right\", \"to right the oppressed\", \"own right\", \"right hand\"]",
+    "synonyms": "[\"just\", \"rightfield\", \"right wing\", \"right hand\", \"right field\"]",
+    "antonyms": "[\"left\", \"wrong\", \"wrongfulness\"]",
+    "relatedWords": "{\"en\": [\"straight\", \"precise\", \"right on\", \"accurate\", \"decently\"], \"ar\": [\"قويم\", \"صحيح\", \"مناسب\", \"مستقيم\", \"حقيقي\", \"أيمن\"]}",
+    "arabicAr": "يمين / صحيح",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 418,
+    "wordEn": "set",
+    "pos": "adj",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 418,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sɛt",
+    "phoneticUk": "set",
+    "phoneticAr": "سايت",
+    "translit": "taeyin / jils",
+    "definitionEn": "[\"put, lay, or stand in a specified place or position.\", \"put or bring into a specified state.\", \"adjust , typically to show the right time.\"]",
+    "usageNote": "Note the similar meaning in Etymology 2, Noun.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the hostages were set free\", \"water costs look set to increase\", \"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set a razor\"], \"A2\": [\"she had set her hair on small rollers\", \"Travis's face was set as he looked up\"], \"B1\": [\"I set the plants in shallow hollows to facilitate watering\", \"plunging oil prices set in motion an economic collapse in Houston\", \"the village was set among olive groves on a hill\", \"his time in the 25-meter freestyle set a national record\"]}",
+    "collocations": "[\"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set glass in a sash\", \"to set a razor\"]",
+    "synonyms": "[\"band\", \"stick\", \"circle\", \"stage set\", \"exercise set\"]",
+    "antonyms": "[\"rise\", \"pick up\", \"extinguish\"]",
+    "relatedWords": "{\"en\": [\"lay\", \"down\", \"go down\", \"mark\", \"bent\"], \"ar\": [\"مصمِّم على\", \"ضارٍ\", \"محدَّد\", \"متعمَّد\", \"أجْهِزَة\", \"أدَاة\"]}",
+    "arabicAr": "تعيين / يعين",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 419,
+    "wordEn": "set",
+    "pos": "verb",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 419,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sɛt",
+    "phoneticUk": "set",
+    "phoneticAr": "سايت",
+    "translit": "taeyin / jils",
+    "definitionEn": "[\"put, lay, or stand in a specified place or position.\", \"put or bring into a specified state.\", \"adjust , typically to show the right time.\"]",
+    "usageNote": "Note the similar meaning in Etymology 2, Noun.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the hostages were set free\", \"water costs look set to increase\", \"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set a razor\"], \"A2\": [\"she had set her hair on small rollers\", \"Travis's face was set as he looked up\"], \"B1\": [\"I set the plants in shallow hollows to facilitate watering\", \"plunging oil prices set in motion an economic collapse in Houston\", \"the village was set among olive groves on a hill\", \"his time in the 25-meter freestyle set a national record\"]}",
+    "collocations": "[\"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set glass in a sash\", \"to set a razor\"]",
+    "synonyms": "[\"band\", \"stick\", \"circle\", \"stage set\", \"exercise set\"]",
+    "antonyms": "[\"rise\", \"pick up\", \"extinguish\"]",
+    "relatedWords": "{\"en\": [\"lay\", \"down\", \"go down\", \"mark\", \"bent\"], \"ar\": [\"مصمِّم على\", \"ضارٍ\", \"محدَّد\", \"متعمَّد\", \"أجْهِزَة\", \"أدَاة\"]}",
+    "arabicAr": "تعيين / يعين",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 420,
+    "wordEn": "set",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 420,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sɛt",
+    "phoneticUk": "set",
+    "phoneticAr": "سايت",
+    "translit": "taeyin / jils",
+    "definitionEn": "[\"put, lay, or stand in a specified place or position.\", \"put or bring into a specified state.\", \"adjust , typically to show the right time.\"]",
+    "usageNote": "Note the similar meaning in Etymology 2, Noun.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the hostages were set free\", \"water costs look set to increase\", \"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set a razor\"], \"A2\": [\"she had set her hair on small rollers\", \"Travis's face was set as he looked up\"], \"B1\": [\"I set the plants in shallow hollows to facilitate watering\", \"plunging oil prices set in motion an economic collapse in Houston\", \"the village was set among olive groves on a hill\", \"his time in the 25-meter freestyle set a national record\"]}",
+    "collocations": "[\"to set the rent\", \"to set milk for cheese\", \"to set seed\", \"to set glass in a sash\", \"to set a razor\"]",
+    "synonyms": "[\"band\", \"stick\", \"circle\", \"stage set\", \"exercise set\"]",
+    "antonyms": "[\"rise\", \"pick up\", \"extinguish\"]",
+    "relatedWords": "{\"en\": [\"lay\", \"down\", \"go down\", \"mark\", \"bent\"], \"ar\": [\"مصمِّم على\", \"ضارٍ\", \"محدَّد\", \"متعمَّد\", \"أجْهِزَة\", \"أدَاة\"]}",
+    "arabicAr": "تعيين / يعين",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 421,
+    "wordEn": "help",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 421,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hɛlp",
+    "phoneticUk": "help",
+    "phoneticAr": "هايلب",
+    "translit": "yusaeid / musaeada",
+    "definitionEn": "[\"make it easier for to do something by offering one's services or resources.\", \"serve someone with .\", \"cannot or could not avoid.\"]",
+    "usageNote": "used to express displeasure, disappointment or exasperation.",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he could not help laughing\", \"he was a great help\", \"you can't help but agree\"], \"A2\": [\"just help yourself if you need anything\", \"she would help him off with his coat\", \"she couldn't help herself; she burst into tears\"], \"B1\": [\"the help cleaned up the leftover food and half-drunk cocktails\", \"legislation to fit all new cars with catalytic converters will help\"]}",
+    "collocations": "[\"Please, help\", \"great help\", \"help groups\"]",
+    "synonyms": "[\"aid\", \"assist\", \"assistant\", \"assistance\"]",
+    "antonyms": "[\"hinder\", \"worsen\", \"hindrance\"]",
+    "relatedWords": "{\"en\": [\"aid\", \"service\", \"assistance\", \"assist\", \"helper\"], \"ar\": [\"إسْعاف\", \"إعَانَة\", \"إمْداد\", \"غُوَاث\", \"غَوْث\", \"غِيَاث\"]}",
+    "arabicAr": "يساعد / مساعدة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 422,
+    "wordEn": "help",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 422,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hɛlp",
+    "phoneticUk": "help",
+    "phoneticAr": "هايلب",
+    "translit": "yusaeid / musaeada",
+    "definitionEn": "[\"make it easier for to do something by offering one's services or resources.\", \"serve someone with .\", \"cannot or could not avoid.\"]",
+    "usageNote": "used to express displeasure, disappointment or exasperation.",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he could not help laughing\", \"he was a great help\", \"you can't help but agree\"], \"A2\": [\"just help yourself if you need anything\", \"she would help him off with his coat\", \"she couldn't help herself; she burst into tears\"], \"B1\": [\"the help cleaned up the leftover food and half-drunk cocktails\", \"legislation to fit all new cars with catalytic converters will help\"]}",
+    "collocations": "[\"Please, help\", \"great help\", \"help groups\"]",
+    "synonyms": "[\"aid\", \"assist\", \"assistant\", \"assistance\"]",
+    "antonyms": "[\"hinder\", \"worsen\", \"hindrance\"]",
+    "relatedWords": "{\"en\": [\"aid\", \"service\", \"assistance\", \"assist\", \"helper\"], \"ar\": [\"إسْعاف\", \"إعَانَة\", \"إمْداد\", \"غُوَاث\", \"غَوْث\", \"غِيَاث\"]}",
+    "arabicAr": "يساعد / مساعدة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 423,
+    "wordEn": "every",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 423,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈɛvri",
+    "phoneticUk": "ˈevrɪ",
+    "phoneticAr": "ايفري",
+    "translit": "kulu / kl",
+    "syllabify": "ev•ery",
+    "definitionEn": "[\"refer to all the individual members of a set without exception.\", \"All the parts which compose a whole collection or aggregate number, considered in their individuality, all taken separately one by one, out of an inde\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they had every third week off\", \"tours are every thirty minutes\"], \"A2\": [\"the children hung on his every word\", \"the hotel assures every guest of personal attention\", \"you have every reason to be disappointed\"]}",
+    "collocations": "[\"nearly every\", \"every day\"]",
+    "synonyms": "[\"each\", \"every single\", \"all possible\", \"all probable\", \"each and every\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"all of\", \"all\", \"both\", \"cada\", \"todo\"], \"ar\": [\"كلّ\", \"تامّ\", \"كامل\", \"بَقِيّة\", \"جَمِيع\", \"عُمُوم\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 424,
+    "wordEn": "every",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 424,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈɛvri",
+    "phoneticUk": "ˈevrɪ",
+    "phoneticAr": "ايفري",
+    "translit": "kulu / kl",
+    "syllabify": "ev•ery",
+    "definitionEn": "[\"refer to all the individual members of a set without exception.\", \"All the parts which compose a whole collection or aggregate number, considered in their individuality, all taken separately one by one, out of an inde\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they had every third week off\", \"tours are every thirty minutes\"], \"A2\": [\"the children hung on his every word\", \"the hotel assures every guest of personal attention\", \"you have every reason to be disappointed\"]}",
+    "collocations": "[\"nearly every\", \"every day\"]",
+    "synonyms": "[\"each\", \"every single\", \"all possible\", \"all probable\", \"each and every\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"all of\", \"all\", \"both\", \"cada\", \"todo\"], \"ar\": [\"كلّ\", \"تامّ\", \"كامل\", \"بَقِيّة\", \"جَمِيع\", \"عُمُوم\"]}",
+    "arabicAr": "كل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 425,
+    "wordEn": "home",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 425,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "(h)əʊm",
+    "phoneticUk": "həʊm",
+    "phoneticAr": "اوم",
+    "translit": "bayt / alsafhat alrayiysia",
+    "definitionEn": "[\"the place where one lives permanently, especially as a member of a family or household.\", \"an institution for people needing professional care or supervision.\", \"the goal or end point.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was four fences from home\", \"a home win\", \"I stayed home with the kids\", \"he drove the bolt home noisily\", \"the home of the pine\", \"sails sheeted home\"], \"A2\": [\"their first home game of the season\", \"pigeons who do not home will win no prizes\"], \"B1\": [\"he came from a good home and was well educated\", \"I was nineteen when I left home and went to college\"]}",
+    "collocations": "[\"a home for outcasts\", \"a home for the blind\", \"a veterans' home\", \"the home of the pine\", \"home manufactures\"]",
+    "synonyms": "[\"pad\", \"place\", \"abode\", \"dwelling\", \"domicile\"]",
+    "antonyms": "[\"away\", \"road\", \"visitor\"]",
+    "relatedWords": "{\"en\": [\"domicile\", \"habitation\", \"domestic\", \"dwelling\", \"nursing home\"], \"ar\": [\"نحو أو في البيت أو الوطن\", \"أصْل\", \"أهْلِيّ\", \"بَلَدِيّ\", \"بَيْتِيّ\", \"دار\"]}",
+    "arabicAr": "بيت / منزل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 426,
+    "wordEn": "home",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 426,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "(h)əʊm",
+    "phoneticUk": "həʊm",
+    "phoneticAr": "اوم",
+    "translit": "bayt / alsafhat alrayiysia",
+    "definitionEn": "[\"the place where one lives permanently, especially as a member of a family or household.\", \"an institution for people needing professional care or supervision.\", \"the goal or end point.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was four fences from home\", \"a home win\", \"I stayed home with the kids\", \"he drove the bolt home noisily\", \"the home of the pine\", \"sails sheeted home\"], \"A2\": [\"their first home game of the season\", \"pigeons who do not home will win no prizes\"], \"B1\": [\"he came from a good home and was well educated\", \"I was nineteen when I left home and went to college\"]}",
+    "collocations": "[\"a home for outcasts\", \"a home for the blind\", \"a veterans' home\", \"the home of the pine\", \"home manufactures\"]",
+    "synonyms": "[\"pad\", \"place\", \"abode\", \"dwelling\", \"domicile\"]",
+    "antonyms": "[\"away\", \"road\", \"visitor\"]",
+    "relatedWords": "{\"en\": [\"domicile\", \"habitation\", \"domestic\", \"dwelling\", \"nursing home\"], \"ar\": [\"نحو أو في البيت أو الوطن\", \"أصْل\", \"أهْلِيّ\", \"بَلَدِيّ\", \"بَيْتِيّ\", \"دار\"]}",
+    "arabicAr": "بيت / منزل",
+    "addedFromOxford": 1
+  }
+]

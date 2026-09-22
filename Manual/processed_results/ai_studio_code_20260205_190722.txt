@@ -1,0 +1,1434 @@
+{
+  "wordEntries": [
+    {
+      "id": 36,
+      "wordEn": "at",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "æt",
+      "phoneticUk": null,
+      "phoneticAr": "آت",
+      "translit": "Fi / 'Inda",
+      "definitionEn": "Used to indicate a specific location, time, or position on a scale.",
+      "definitionAr": "حرف جر بنستخدمه عشان نحدد مكان أو وقت معين بدقة. يعني لما تقول أنا 'عند' الباب، أو هنتقابل 'في' الساعة خمسة.",
+      "usageNote": "Use 'at' for specific points (at the door, at 5 PM) and 'in' for enclosed spaces or longer periods (in the room, in 2024).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Time",
+        "#Preposition",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"At\" (@) في الإيميل.. العلامة دي بتحدد مكانك فين بالظبط على السيرفر.. أنا \"At\" (في) المكان الفلاني",
+      "examples": {
+        "A1": "I am at home right now.",
+        "A2": "The train arrives at six o'clock.",
+        "B1": "She is good at playing the piano.",
+        "B2": "We were surprised at the news.",
+        "C1": "The country is at war with its neighbor.",
+        "C2": "He arrived at the conclusion that logic was insufficient."
+      },
+      "collocations": [
+        "at home",
+        "at work",
+        "at least",
+        "at last",
+        "good at"
+      ],
+      "synonyms": [
+        "in",
+        "on",
+        "near",
+        "by"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "in",
+          "on",
+          "location",
+          "place"
+        ],
+        "ar": [
+          "في",
+          "على",
+          "موقع",
+          "مكان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "في / عند",
+      "frenchFr": "à",
+      "germanDe": "an",
+      "spanishEs": "en",
+      "chineseZh": "在 (Zài)",
+      "russianRu": "в",
+      "portuguesePt": "em",
+      "japaneseJa": "で (De)",
+      "italianIt": "a",
+      "turkishTr": "-de",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 37,
+      "wordEn": "by",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "baɪ",
+      "phoneticUk": null,
+      "phoneticAr": "باي",
+      "translit": "Tamrira / Shay' Thanawi",
+      "definitionEn": "Something of secondary importance, or a pass into the next round of a competition (often spelled 'bye').",
+      "definitionAr": "بتيجي بمعنى شيء جانبي أو ثانوي، وأحياناً في الرياضة بمعنى إن اللاعب يتأهل للدور اللي بعده من غير ما يلعب (وغالباً بتتكتب Bye).",
+      "usageNote": "As a noun, this is very rare and often a spelling variant of 'bye' (in sports) or used in phrases like 'by the by'.",
+      "category": "Sports & Games",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Sports",
+        "#Competition",
+        "#Secondary",
+        "#Rare"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"By\" (الجانبية) زي لما تقول \"Bye\" لحد.. إنت بتسيبه وتمشي في طريق \"جانبي\"",
+      "examples": {
+        "A1": "He got a by in the first round.",
+        "A2": "The team advanced with a by.",
+        "B1": "Let's discuss this by the by.",
+        "B2": "The regulations mention a by for qualifying teams.",
+        "C1": "It was merely a by in the grand scheme of things.",
+        "C2": "The historical text refers to the incident as a mere by."
+      },
+      "collocations": [
+        "by the by",
+        "get a by"
+      ],
+      "synonyms": [
+        "pass",
+        "extra",
+        "aside"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "bye",
+          "pass",
+          "side"
+        ],
+        "ar": [
+          "تأهل تلقائي",
+          "جانبي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bye",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تمريرة / شيء ثانوي",
+      "frenchFr": "laisser-passer",
+      "germanDe": "Freilos",
+      "spanishEs": "pase",
+      "chineseZh": "轮空 (Lúnkōng)",
+      "russianRu": "пропуск",
+      "portuguesePt": "isento",
+      "japaneseJa": "不戦勝 (Fusenshō)",
+      "italianIt": "passaggio del turno",
+      "turkishTr": "bay",
+      "aiConfidence": 0.6
+    },
+    {
+      "id": 38,
+      "wordEn": "by",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "baɪ",
+      "phoneticUk": null,
+      "phoneticAr": "باي",
+      "translit": "Biwasita / Bijanib",
+      "definitionEn": "Identifying the agent performing an action or the means of achieving something.",
+      "definitionAr": "حرف جر معناه 'بواسطة' (زي سافرت بالقطار) أو 'بجانب' (قاعد جنب الشباك) أو إن فلان هو اللي عمل الحاجة دي.",
+      "usageNote": "Use 'by' for transportation (by car) and authorship (by Shakespeare), but 'with' for tools (with a hammer).",
+      "category": "Travel & Movement",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Method",
+        "#Agent",
+        "#Proximity",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Bike\".. أنا رحت الشغل \"By\" \"Bike\" (بواسطة العجلة)",
+      "examples": {
+        "A1": "I go to school by bus.",
+        "A2": "The book was written by J.K. Rowling.",
+        "B1": "Please stand by the door.",
+        "B2": "We will contact you by email.",
+        "C1": "By law, you must wear a seatbelt.",
+        "C2": "The decision was reached by consensus among the committee members."
+      },
+      "collocations": [
+        "by car",
+        "by the way",
+        "side by side",
+        "by myself",
+        "by chance"
+      ],
+      "synonyms": [
+        "via",
+        "through",
+        "near",
+        "beside"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "via",
+          "through",
+          "beside"
+        ],
+        "ar": [
+          "عبر",
+          "بجانب",
+          "من قبل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بواسطة / بجانب",
+      "frenchFr": "par",
+      "germanDe": "von",
+      "spanishEs": "por",
+      "chineseZh": "通过 (Tōngguò)",
+      "russianRu": "по",
+      "portuguesePt": "por",
+      "japaneseJa": "によって (Ni yotte)",
+      "italianIt": "da",
+      "turkishTr": "tarafından",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 39,
+      "wordEn": "by",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "2",
+      "phoneticUs": "baɪ",
+      "phoneticUk": null,
+      "phoneticAr": "باي",
+      "translit": "Marran / Janiban",
+      "definitionEn": "So as to go past; near or at the side.",
+      "definitionAr": "بتيجي كظرف بمعنى 'مارّاً' أو 'معدّي'. يعني حد مشي من جنبك وفات.",
+      "usageNote": "Commonly used with verbs of movement like walk, drive, or go (e.g., 'walk by').",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Movement",
+        "#Passing",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما حد يعدي \"By\" (من جنبك) بتقوله \"Bye\" (مع السلامة)",
+      "examples": {
+        "A1": "He walked by without saying hello.",
+        "A2": "Time goes by so fast.",
+        "B1": "A car drove by at high speed.",
+        "B2": "I let the opportunity pass me by.",
+        "C1": "As the years went by, he became wiser.",
+        "C2": "Civilization marched by, leaving the village untouched."
+      },
+      "collocations": [
+        "go by",
+        "walk by",
+        "pass by",
+        "stand by"
+      ],
+      "synonyms": [
+        "past",
+        "along",
+        "aside"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "past",
+          "along",
+          "near"
+        ],
+        "ar": [
+          "مارا",
+          "بمحاذاة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مارّاً / جانباً",
+      "frenchFr": "devant",
+      "germanDe": "vorbei",
+      "spanishEs": "por delante",
+      "chineseZh": "经过 (Jīngguò)",
+      "russianRu": "мимо",
+      "portuguesePt": "por perto",
+      "japaneseJa": "そばを (Soba o)",
+      "italianIt": "accanto",
+      "turkishTr": "yanından",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 40,
+      "wordEn": "not",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "nɑt",
+      "phoneticUk": "nɒt",
+      "phoneticAr": "نوت",
+      "translit": "La / Laysa",
+      "definitionEn": "Used with an auxiliary verb or 'be' to form the negative.",
+      "definitionAr": "أداة النفي الأساسية في الإنجليزي. بنستخدمها عشان نقول 'لأ' أو إن الحاجة دي 'مش' بتحصل.",
+      "usageNote": "In spoken English, 'not' is often contracted to n't (e.g., can't, don't, isn't).",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Negation",
+        "#Grammar",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Nut\" (بندقة).. لو عندك حساسية هتقول: I do \"not\" eat the \"nut\"",
+      "examples": {
+        "A1": "I do not like apples.",
+        "A2": "She is not coming to the party.",
+        "B1": "It is not only cheap but also high quality.",
+        "B2": "I warned him not to go there.",
+        "C1": "Not a single person agreed with the proposal.",
+        "C2": "Whether he comes or not is of no consequence to me."
+      },
+      "collocations": [
+        "not only",
+        "not at all",
+        "not yet",
+        "why not",
+        "believe it or not"
+      ],
+      "synonyms": [
+        "never",
+        "no",
+        "neither"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "no",
+          "never",
+          "none"
+        ],
+        "ar": [
+          "لا",
+          "أبدا",
+          "كلا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا / ليس",
+      "frenchFr": "ne...pas",
+      "germanDe": "nicht",
+      "spanishEs": "no",
+      "chineseZh": "不 (Bù)",
+      "russianRu": "не",
+      "portuguesePt": "não",
+      "japaneseJa": "ない (Nai)",
+      "italianIt": "non",
+      "turkishTr": "değil",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 41,
+      "wordEn": "this",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðɪs",
+      "phoneticUk": null,
+      "phoneticAr": "ذِس",
+      "translit": "Hadha / Hadhihi",
+      "definitionEn": "The person, thing, or idea that is present or near in place, time, or thought.",
+      "definitionAr": "اسم إشارة للقريب. بنستخدمه لما نتكلم عن حاجة قريبة مننا أو فكرة لسه قايلينها.",
+      "usageNote": "As a noun, 'this' acts as a pronoun standing alone (e.g., 'This is good').",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Demonstrative",
+        "#Pronoun",
+        "#Object"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من كلمة \"Dis\" في العامية (Dis guy).. يعني \"هذا\" الشخص",
+      "examples": {
+        "A1": "This is my friend.",
+        "A2": "I like this very much.",
+        "B1": "This is exactly what I needed.",
+        "B2": "Who is responsible for this?",
+        "C1": "This, I believe, is the core of the problem.",
+        "C2": "We must put an end to this immediately."
+      },
+      "collocations": [
+        "this is",
+        "like this",
+        "about this"
+      ],
+      "synonyms": [
+        "it",
+        "that"
+      ],
+      "antonyms": [
+        "that"
+      ],
+      "relatedWords": {
+        "en": [
+          "that",
+          "these",
+          "those"
+        ],
+        "ar": [
+          "ذاك",
+          "هؤلاء",
+          "أولئك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هذا / هذه",
+      "frenchFr": "ceci",
+      "germanDe": "dies",
+      "spanishEs": "esto",
+      "chineseZh": "这 (Zhè)",
+      "russianRu": "это",
+      "portuguesePt": "isto",
+      "japaneseJa": "これ (Kore)",
+      "italianIt": "questo",
+      "turkishTr": "bu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 42,
+      "wordEn": "this",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðɪs",
+      "phoneticUk": null,
+      "phoneticAr": "ذِس",
+      "translit": "Hadha",
+      "definitionEn": "Used to identify a specific person or thing close at hand or being indicated.",
+      "definitionAr": "ضمير إشارة للقريب. بتشاور بيه على حاجة قدامك أو موضوع بتتكلم فيه دلوقتي.",
+      "usageNote": "Use 'this' for singular near objects and 'these' for plural near objects.",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Demonstrative",
+        "#Singular",
+        "#Proximity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"This\" شبه صوت \"Hiss\" (هس).. كأنك بتقول \"هذا\" الثعبان بيعمل Hiss",
+      "examples": {
+        "A1": "This is a book.",
+        "A2": "Is this your coat?",
+        "B1": "This isn't working.",
+        "B2": "I have never seen anything like this before.",
+        "C1": "This being the case, we must act now.",
+        "C2": "Whatever the outcome, this shall remain our legacy."
+      },
+      "collocations": [
+        "this one",
+        "all this",
+        "this time"
+      ],
+      "synonyms": [
+        "that",
+        "the aforementioned"
+      ],
+      "antonyms": [
+        "that"
+      ],
+      "relatedWords": {
+        "en": [
+          "that",
+          "here",
+          "it"
+        ],
+        "ar": [
+          "ذاك",
+          "هنا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هذا",
+      "frenchFr": "celui-ci",
+      "germanDe": "dieser",
+      "spanishEs": "éste",
+      "chineseZh": "这个 (Zhège)",
+      "russianRu": "этот",
+      "portuguesePt": "este",
+      "japaneseJa": "これ (Kore)",
+      "italianIt": "questo",
+      "turkishTr": "bu",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 43,
+      "wordEn": "this",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðɪs",
+      "phoneticUk": null,
+      "phoneticAr": "ذِس",
+      "translit": "Hadha",
+      "definitionEn": "Used to identify a specific person or thing close at hand.",
+      "definitionAr": "أداة تحديد بتيجي قبل الاسم عشان توضح إننا بنتكلم عن 'هذا' الشيء القريب.",
+      "usageNote": "Functions as a determiner before a noun (e.g., 'this book' vs pronoun 'this is a book').",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Determiner",
+        "#Specific",
+        "#Near"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I like this car.",
+        "A2": "This week has been busy.",
+        "B1": "We need to solve this problem.",
+        "B2": "In this country, people drive on the left.",
+        "C1": "At this point in time, we cannot comment.",
+        "C2": "Under this particular interpretation, the law is invalid."
+      },
+      "collocations": [
+        "this morning",
+        "this year",
+        "this way",
+        "this time"
+      ],
+      "synonyms": [
+        "that"
+      ],
+      "antonyms": [
+        "that"
+      ],
+      "relatedWords": {
+        "en": [
+          "that",
+          "these",
+          "those"
+        ],
+        "ar": [
+          "ذاك",
+          "تلك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هذا",
+      "frenchFr": "ce",
+      "germanDe": "dieser",
+      "spanishEs": "este",
+      "chineseZh": "这 (Zhè)",
+      "russianRu": "этот",
+      "portuguesePt": "este",
+      "japaneseJa": "この (Kono)",
+      "italianIt": "questo",
+      "turkishTr": "bu",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 44,
+      "wordEn": "this",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ðɪs",
+      "phoneticUk": null,
+      "phoneticAr": "ذِس",
+      "translit": "Ila Hadha Al-hadd",
+      "definitionEn": "To the degree or extent indicated.",
+      "definitionAr": "بتيجي بمعنى 'للدرجة دي' أو 'بالشكل ده'. زي لما تقول 'أنا عمري ما كنت تعبان للدرجة دي'.",
+      "usageNote": "Used to modify adjectives or adverbs indicating degree (e.g., 'this much', 'this far').",
+      "category": "General / Common",
+      "primarySense": "Measure",
+      "semanticTags": [
+        "#Degree",
+        "#Extent",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I didn't know it was this small.",
+        "A2": "Can you jump this high?",
+        "B1": "I have never been this happy.",
+        "B2": "We didn't expect the process to take this long.",
+        "C1": "It is rare to find a diamond this pure.",
+        "C2": "Never before has a policy been this controversial."
+      },
+      "collocations": [
+        "this much",
+        "this far",
+        "this long",
+        "this big"
+      ],
+      "synonyms": [
+        "so",
+        "such",
+        "to this extent"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "so",
+          "that",
+          "thus"
+        ],
+        "ar": [
+          "هكذا",
+          "جدا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هذا / إلى هذا الحد",
+      "frenchFr": "aussi",
+      "germanDe": "so",
+      "spanishEs": "tan",
+      "chineseZh": "这么 (Zhème)",
+      "russianRu": "так",
+      "portuguesePt": "tão",
+      "japaneseJa": "こんなに (Konna ni)",
+      "italianIt": "così",
+      "turkishTr": "bu kadar",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 45,
+      "wordEn": "but",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "bʌt",
+      "phoneticUk": null,
+      "phoneticAr": "بَت",
+      "translit": "Faqat / Fahasb",
+      "definitionEn": "No more than; only.",
+      "definitionAr": "بتيجي بمعنى 'فقط' أو 'بس'. زي لما تقول 'هو مجرد طفل' (He is but a child).",
+      "usageNote": "This usage is formal or literary. In conversation, use 'only' or 'just'.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Limitation",
+        "#Formal",
+        "#Adverb"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"But\" شبه \"Bat\" \"خفاش\".. هو طائر \"But\" (لكن/فقط) مش بيبيض.. هو \"مجرد\" حيوان ثديي",
+      "examples": {
+        "A1": "It is but a dream.",
+        "A2": "We can but try.",
+        "B1": "He is but a shadow of his former self.",
+        "B2": "Life is but a walking shadow.",
+        "C1": "The victory was but a momentary relief.",
+        "C2": "We are but dust and shadows in the grand cosmos."
+      },
+      "collocations": [
+        "but a",
+        "cannot but",
+        "nothing but"
+      ],
+      "synonyms": [
+        "only",
+        "merely",
+        "just",
+        "simply"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "only",
+          "just",
+          "merely"
+        ],
+        "ar": [
+          "فقط",
+          "مجرد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "فقط / فحسب",
+      "frenchFr": "seulement",
+      "germanDe": "nur",
+      "spanishEs": "sólo",
+      "chineseZh": "仅仅 (Jǐnjǐn)",
+      "russianRu": "лишь",
+      "portuguesePt": "apenas",
+      "japaneseJa": "ただ (Tada)",
+      "italianIt": "soltanto",
+      "turkishTr": "sadece",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 46,
+      "wordEn": "but",
+      "pos": "prep",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "bʌt",
+      "phoneticUk": null,
+      "phoneticAr": "بَت",
+      "translit": "Bi-istithna' / 'Ada",
+      "definitionEn": "Except; apart from.",
+      "definitionAr": "بتيجي بمعنى 'إلا' أو 'باستثناء'. زي لما تقول 'كلهم مشيوا ما عدا هو'.",
+      "usageNote": "Often follows words like 'all', 'none', 'everyone', 'nothing' (e.g., 'everyone but him').",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Exception",
+        "#Exclusion",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Everyone but Tom was there.",
+        "A2": "I have nothing left but hope.",
+        "B1": "There is no one here but me.",
+        "B2": "The last but one.",
+        "C1": "Anything but that.",
+        "C2": "They had no alternative but to surrender."
+      },
+      "collocations": [
+        "everyone but",
+        "nothing but",
+        "all but",
+        "anything but"
+      ],
+      "synonyms": [
+        "except",
+        "save",
+        "apart from"
+      ],
+      "antonyms": [
+        "including"
+      ],
+      "relatedWords": {
+        "en": [
+          "except",
+          "excluding",
+          "barring"
+        ],
+        "ar": [
+          "إلا",
+          "سوى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "باستثناء / عدا",
+      "frenchFr": "sauf",
+      "germanDe": "außer",
+      "spanishEs": "excepto",
+      "chineseZh": "除了 (Chúle)",
+      "russianRu": "кроме",
+      "portuguesePt": "exceto",
+      "japaneseJa": "以外 (Igai)",
+      "italianIt": "tranne",
+      "turkishTr": "hariç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 47,
+      "wordEn": "but",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "bʌt",
+      "phoneticUk": null,
+      "phoneticAr": "بَت",
+      "translit": "Lakin",
+      "definitionEn": "Used to introduce a phrase or clause contrasting with what has already been mentioned.",
+      "definitionAr": "أداة الربط 'لكن'. بنستخدمها عشان نقول حاجة عكس اللي قبلها أو استدراك.",
+      "usageNote": "Connects two clauses. If the clauses are independent, use a comma before 'but'.",
+      "category": "General / Common",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Contrast",
+        "#Conjunction",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I like tea, but I don't like coffee.",
+        "A2": "He is poor but happy.",
+        "B1": "I would go, but I am too tired.",
+        "B2": "The car is old, but it runs well.",
+        "C1": "Not only did he win, but he also broke the record.",
+        "C2": "It was not a question of if, but when."
+      },
+      "collocations": [
+        "but also",
+        "yes but",
+        "but then"
+      ],
+      "synonyms": [
+        "however",
+        "yet",
+        "although"
+      ],
+      "antonyms": [
+        "and"
+      ],
+      "relatedWords": {
+        "en": [
+          "however",
+          "although",
+          "yet"
+        ],
+        "ar": [
+          "مع ذلك",
+          "رغم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لكن",
+      "frenchFr": "mais",
+      "germanDe": "aber",
+      "spanishEs": "pero",
+      "chineseZh": "但是 (Dànshì)",
+      "russianRu": "но",
+      "portuguesePt": "mas",
+      "japaneseJa": "しかし (Shikashi)",
+      "italianIt": "ma",
+      "turkishTr": "ama",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 48,
+      "wordEn": "from",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "8",
+      "phoneticUs": "frʌm",
+      "phoneticUk": null,
+      "phoneticAr": "فرام",
+      "translit": "Al-masdar / Al-bidayah",
+      "definitionEn": "The starting point, source, or cause of something (extremely rare as a noun).",
+      "definitionAr": "استخدام نادر جداً لكلمة 'From' كاسم، بمعنى المصدر أو البداية (زي لما تقول 'من وإلى' الموضوع).",
+      "usageNote": "Almost exclusively used as a preposition. Noun usage is highly idiomatic or technical.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Source",
+        "#Rare",
+        "#Abstract"
+      ],
+      "register": "Archaic",
+      "mnemonicAr": "اربطها بـ \"Forum\" \"منتدى\".. الخبر جالي \"From\" الـ \"Forum\".. هو ده المصدر",
+      "examples": {
+        "A1": "I am from London (Preposition usage dominant).",
+        "A2": "Where are you from? (Preposition usage dominant).",
+        "B1": "He examined the from and to of the journey.",
+        "B2": "The logic of the 'from' is flawed in this argument.",
+        "C1": "Understanding the 'from' is essential to understanding the 'to'.",
+        "C2": "He discoursed upon the wherefore and the from of the universe."
+      },
+      "collocations": [
+        "from and to"
+      ],
+      "synonyms": [
+        "source",
+        "origin"
+      ],
+      "antonyms": [
+        "to"
+      ],
+      "relatedWords": {
+        "en": [
+          "source",
+          "origin",
+          "start"
+        ],
+        "ar": [
+          "مصدر",
+          "أصل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "المصدر / المنشأ",
+      "frenchFr": "provenance",
+      "germanDe": "Herkunft",
+      "spanishEs": "procedencia",
+      "chineseZh": "来源 (Láiyuán)",
+      "russianRu": "источник",
+      "portuguesePt": "origem",
+      "japaneseJa": "出所 (Shussho)",
+      "italianIt": "provenienza",
+      "turkishTr": "kaynak",
+      "aiConfidence": 0.65
+    },
+    {
+      "id": 49,
+      "wordEn": "from",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "frʌm",
+      "phoneticUk": null,
+      "phoneticAr": "فرام",
+      "translit": "Min / 'An",
+      "definitionEn": "Indicating the point in space or time at which a journey, motion, or action starts.",
+      "definitionAr": "حرف جر بمعنى 'مِن'. بيدل على المصدر أو البداية، سواء مكان أو وقت أو سبب.",
+      "usageNote": "Used for origin (from NY), time (from 9 to 5), material (made from wood), or cause (died from hunger).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Origin",
+        "#Source",
+        "#Time",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Frown\" (تكشيرة).. جالي \"Frown\" \"From\" (من) مديري",
+      "examples": {
+        "A1": "I am from Egypt.",
+        "A2": "The store is open from 9 to 5.",
+        "B1": "I received a letter from my friend.",
+        "B2": "Wine is made from grapes.",
+        "C1": "He is suffering from exhaustion.",
+        "C2": "From a theoretical standpoint, this is impossible."
+      },
+      "collocations": [
+        "from time to time",
+        "apart from",
+        "far from",
+        "made from",
+        "different from"
+      ],
+      "synonyms": [
+        "since",
+        "out of"
+      ],
+      "antonyms": [
+        "to"
+      ],
+      "relatedWords": {
+        "en": [
+          "to",
+          "since",
+          "out"
+        ],
+        "ar": [
+          "إلى",
+          "منذ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "من",
+      "frenchFr": "de",
+      "germanDe": "von",
+      "spanishEs": "de",
+      "chineseZh": "从 (Cóng)",
+      "russianRu": "из",
+      "portuguesePt": "de",
+      "japaneseJa": "から (Kara)",
+      "italianIt": "da",
+      "turkishTr": "-den",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 50,
+      "wordEn": "they",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ðeɪ",
+      "phoneticUk": null,
+      "phoneticAr": "ذاي",
+      "translit": "Hum / Al-nas",
+      "definitionEn": "People in general or in authority; the unspecified 'them'.",
+      "definitionAr": "لما نستخدم 'They' كاسم عشان نقصد 'الناس' أو 'الحكومة' أو 'المسؤولين' بشكل عام ومبهم.",
+      "usageNote": "Often used in phrases like 'They say...' referring to public opinion or rumors.",
+      "category": "People & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#People",
+        "#Authority",
+        "#Generalization"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "شبه \"Day\" \"يوم\".. \"They\" (هم) هييجوا الـ \"Day\" (اليوم)",
+      "examples": {
+        "A1": "They say it will rain.",
+        "A2": "They built a new bridge here.",
+        "B1": "You know what they say about curiosity.",
+        "B2": "They should do something about the traffic.",
+        "C1": "It is the mysterious 'they' who control the markets.",
+        "C2": "He was always worried about what 'they' would think."
+      },
+      "collocations": [
+        "they say",
+        "them and us"
+      ],
+      "synonyms": [
+        "people",
+        "authorities",
+        "society"
+      ],
+      "antonyms": [
+        "we"
+      ],
+      "relatedWords": {
+        "en": [
+          "people",
+          "public",
+          "society"
+        ],
+        "ar": [
+          "الناس",
+          "المجتمع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هم / الناس",
+      "frenchFr": "on",
+      "germanDe": "man",
+      "spanishEs": "la gente",
+      "chineseZh": "人们 (Rénmen)",
+      "russianRu": "они",
+      "portuguesePt": "eles",
+      "japaneseJa": "人々 (Hitobito)",
+      "italianIt": "essi",
+      "turkishTr": "onlar",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 51,
+      "wordEn": "they",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðeɪ",
+      "phoneticUk": null,
+      "phoneticAr": "ذاي",
+      "translit": "Hum / Hunna",
+      "definitionEn": "Used to refer to two or more people or things previously mentioned.",
+      "definitionAr": "ضمير الجمع الغائب. بنستخدمه للكلام عن مجموعة ناس أو حاجات مش موجودين معانا في الكلام.",
+      "usageNote": "Can also be used as a singular gender-neutral pronoun (e.g., 'If a student calls, tell them...').",
+      "category": "People & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Pronoun",
+        "#Plural",
+        "#People"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "They are my friends.",
+        "A2": "Where are the keys? They are on the table.",
+        "B1": "If anyone calls, tell them I'm busy.",
+        "B2": "They have been working on this for years.",
+        "C1": "They who hesitate are lost.",
+        "C2": "The company announced that they would be restructuring."
+      },
+      "collocations": [
+        "they are",
+        "they have",
+        "they will"
+      ],
+      "synonyms": [
+        "these",
+        "those"
+      ],
+      "antonyms": [
+        "we"
+      ],
+      "relatedWords": {
+        "en": [
+          "them",
+          "their",
+          "theirs"
+        ],
+        "ar": [
+          "هم",
+          "هن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هم / هن",
+      "frenchFr": "ils/elles",
+      "germanDe": "sie",
+      "spanishEs": "ellos/ellas",
+      "chineseZh": "他们 (Tāmen)",
+      "russianRu": "они",
+      "portuguesePt": "eles/elas",
+      "japaneseJa": "彼ら (Karera)",
+      "italianIt": "loro",
+      "turkishTr": "onlar",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 52,
+      "wordEn": "his",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "1",
+      "phoneticUs": "hɪz",
+      "phoneticUk": null,
+      "phoneticAr": "هيز",
+      "translit": "Lahu / Khasatuhu",
+      "definitionEn": "Belonging to or associated with a male person or animal previously mentioned.",
+      "definitionAr": "صفة ملكية للمذكر. بنحطها قبل الاسم عشان نقول إن الحاجة دي 'بتاعته'.",
+      "usageNote": "Always followed by a noun (e.g., 'his car'). Compare with pronoun 'his' (e.g., 'The car is his').",
+      "category": "People & Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Possessive",
+        "#Male",
+        "#Adjective"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها \"Hiss\" صوت الثعبان.. الثعبان بيحمي \"His\" (مُلكه/جحره)",
+      "examples": {
+        "A1": "This is his book.",
+        "A2": "His name is John.",
+        "B1": "He lost his keys.",
+        "B2": "His performance was outstanding.",
+        "C1": "His understanding of the topic is profound.",
+        "C2": "His is a legacy that will endure for centuries."
+      },
+      "collocations": [
+        "his own",
+        "his life",
+        "his wife",
+        "his work"
+      ],
+      "synonyms": [
+        "belonging to him"
+      ],
+      "antonyms": [
+        "her"
+      ],
+      "relatedWords": {
+        "en": [
+          "her",
+          "my",
+          "your"
+        ],
+        "ar": [
+          "لها",
+          "لي",
+          "لك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "له / خاصته",
+      "frenchFr": "son",
+      "germanDe": "sein",
+      "spanishEs": "su",
+      "chineseZh": "他的 (Tā de)",
+      "russianRu": "его",
+      "portuguesePt": "seu",
+      "japaneseJa": "彼の (Kare no)",
+      "italianIt": "suo",
+      "turkishTr": "onun",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 53,
+      "wordEn": "his",
+      "pos": "pron",
+      "cefrLevel": "A2",
+      "difficultyScore": "1",
+      "phoneticUs": "hɪz",
+      "phoneticUk": null,
+      "phoneticAr": "هيز",
+      "translit": "Lahu / Milkuhu",
+      "definitionEn": "Used to refer to a thing or things belonging to or associated with a male person.",
+      "definitionAr": "ضمير ملكية للمذكر. بيجي لوحده عشان يقول إن الحاجة دي 'ملكه' من غير ما نذكر الاسم بعدها.",
+      "usageNote": "Stands alone without a noun (e.g., 'This book is his').",
+      "category": "People & Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Possessive",
+        "#Pronoun",
+        "#Male"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The red car is his.",
+        "A2": "I didn't know it was his.",
+        "B1": "A friend of his called today.",
+        "B2": "He took my hand in his.",
+        "C1": "The decision was entirely his.",
+        "C2": "His was a life well lived."
+      },
+      "collocations": [
+        "of his",
+        "is his"
+      ],
+      "synonyms": [
+        "belonging to him"
+      ],
+      "antonyms": [
+        "hers"
+      ],
+      "relatedWords": {
+        "en": [
+          "hers",
+          "mine",
+          "yours"
+        ],
+        "ar": [
+          "لها",
+          "لي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "له / ملكه",
+      "frenchFr": "le sien",
+      "germanDe": "seiner",
+      "spanishEs": "suyo",
+      "chineseZh": "他的 (Tā de)",
+      "russianRu": "его",
+      "portuguesePt": "dele",
+      "japaneseJa": "彼のもの (Kare no mono)",
+      "italianIt": "il suo",
+      "turkishTr": "onunki",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 54,
+      "wordEn": "his",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "hɪz",
+      "phoneticUk": null,
+      "phoneticAr": "هيز",
+      "translit": "Lahu",
+      "definitionEn": "Belonging to or associated with a male person or animal previously mentioned.",
+      "definitionAr": "أداة تحديد للملكية (نفس استخدام الصفة). بتيجي قبل الاسم عشان تنسبه لشخص مذكر.",
+      "usageNote": "Grammatically classified as a determiner in modern linguistics, functioning exactly like the adjective form.",
+      "category": "People & Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Determiner",
+        "#Possessive",
+        "#Male"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "His dog is big.",
+        "A2": "I saw his brother.",
+        "B1": "He loves his job.",
+        "B2": "His opinion matters to us.",
+        "C1": "His contribution was invaluable.",
+        "C2": "We admired his stoic resolve."
+      },
+      "collocations": [
+        "his own",
+        "his family"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "her"
+      ],
+      "relatedWords": {
+        "en": [
+          "her",
+          "their"
+        ],
+        "ar": [
+          "لها",
+          "لهم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "له",
+      "frenchFr": "son",
+      "germanDe": "sein",
+      "spanishEs": "su",
+      "chineseZh": "他的 (Tā de)",
+      "russianRu": "его",
+      "portuguesePt": "seu",
+      "japaneseJa": "彼の (Kare no)",
+      "italianIt": "suo",
+      "turkishTr": "onun",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 55,
+      "wordEn": "she",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ʃi",
+      "phoneticUk": "ʃiː",
+      "phoneticAr": "شي",
+      "translit": "Untha",
+      "definitionEn": "A female person or animal.",
+      "definitionAr": "بتيجي كاسم بمعنى 'أنثى'. زي لما تسأل عن حيوان أو بيبي وتقول 'هو ولد ولا بنت؟' (Is it a he or a she?).",
+      "usageNote": "Used informally to refer to the gender of a person or animal (e.g., 'It's a she').",
+      "category": "People & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Female",
+        "#Gender",
+        "#Noun"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "شبه \"Shhh\" (هس).. \"She\" (هي) بتقول \"Shhh\" عشان البيبي ينام",
+      "examples": {
+        "A1": "Is the cat a he or a she?",
+        "A2": "It's a she!",
+        "B1": "I think the dog is a she.",
+        "B2": "She is used here as a noun to denote gender.",
+        "C1": "The ship, she sailed at dawn (referring to the ship as female).",
+        "C2": "The eternal She, the feminine principle of the universe."
+      },
+      "collocations": [
+        "he or she",
+        "is it a she"
+      ],
+      "synonyms": [
+        "female",
+        "woman",
+        "girl"
+      ],
+      "antonyms": [
+        "he"
+      ],
+      "relatedWords": {
+        "en": [
+          "female",
+          "woman",
+          "lady"
+        ],
+        "ar": [
+          "أنثى",
+          "امرأة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هي / الأنثى",
+      "frenchFr": "elle",
+      "germanDe": "Sie",
+      "spanishEs": "ella",
+      "chineseZh": "女性 (Nǚxìng)",
+      "russianRu": "она",
+      "portuguesePt": "fêmea",
+      "japaneseJa": "女 (Onna)",
+      "italianIt": "lei",
+      "turkishTr": "dişi",
+      "aiConfidence": 0.9
+    }
+  ]
+} 

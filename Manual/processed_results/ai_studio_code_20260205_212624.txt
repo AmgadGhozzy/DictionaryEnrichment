@@ -1,0 +1,1497 @@
+{
+  "wordEntries": [
+    {
+      "id": 256,
+      "wordEn": "own",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "oʊn",
+      "phoneticUk": "əʊn",
+      "phoneticAr": "أُون",
+      "translit": "Milk / Khassa",
+      "definitionEn": "Used to emphasize that something belongs to a particular person.",
+      "definitionAr": "كلمة بتستخدمها عشان تأكد إن الحاجة دي بتاعتك إنت مش بتاعة حد تاني، زي لما تقول 'ملكي الخاص'.",
+      "usageNote": "Almost always follows a possessive determiner (my, your, his) to emphasize ownership.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Possession",
+        "#Ownership",
+        "#Personal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Own\" قريبة من \"Owner\" يعني المالك.. لما تكون الـ \"Owner\" يبقى الحاجة دي \"Own\" (مِلكك).",
+      "examples": {
+        "A1": "This is my own room.",
+        "A2": "She wants to buy her own car.",
+        "B1": "I saw it with my own eyes.",
+        "B2": "He started his own business last year.",
+        "C1": "For reasons of their own, they refused to join.",
+        "C2": "She felt she had finally come into her own as a writer."
+      },
+      "collocations": [
+        "my own",
+        "on my own",
+        "of one's own",
+        "hold one's own"
+      ],
+      "synonyms": [
+        "personal",
+        "individual",
+        "private"
+      ],
+      "antonyms": [
+        "shared",
+        "public"
+      ],
+      "relatedWords": {
+        "en": [
+          "owner",
+          "ownership",
+          "possess"
+        ],
+        "ar": [
+          "مالك",
+          "ملكية",
+          "يمتلك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "owner",
+        "verb": "own",
+        "adj": "owned",
+        "adv": ""
+      },
+      "arabicAr": "مِلْك / خاصّة",
+      "frenchFr": "propre",
+      "germanDe": "eigen",
+      "spanishEs": "propio",
+      "chineseZh": "自己的 (Zìjǐ de)",
+      "russianRu": "собственный",
+      "portuguesePt": "próprio",
+      "japaneseJa": "自身の (Jishin no)",
+      "italianIt": "proprio",
+      "turkishTr": "kendi",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 257,
+      "wordEn": "work",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɜrk",
+      "phoneticUk": "wɜːk",
+      "phoneticAr": "وَرْك",
+      "translit": "Amali / Khass bil-amal",
+      "definitionEn": "Relating to employment, a job, or the place where one is employed.",
+      "definitionAr": "أي حاجة ليها علاقة بالشغل أو الوظيفة، زي لبس الشغل أو مكان الشغل.",
+      "usageNote": "Used attributively before nouns to describe things related to one's job.",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Job",
+        "#Employment",
+        "#Office"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I wear work clothes.",
+        "A2": "Do you have a work permit?",
+        "B1": "She has a lot of work experience.",
+        "B2": "The work environment is very friendly.",
+        "C1": "He suffers from work-related stress.",
+        "C2": "The tribunal deals with work disputes."
+      },
+      "collocations": [
+        "work experience",
+        "work permit",
+        "work clothes",
+        "work environment"
+      ],
+      "synonyms": [
+        "occupational",
+        "professional",
+        "employment"
+      ],
+      "antonyms": [
+        "leisure",
+        "personal"
+      ],
+      "relatedWords": {
+        "en": [
+          "job",
+          "career",
+          "profession"
+        ],
+        "ar": [
+          "وظيفة",
+          "مهنة",
+          "عمل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "work",
+        "verb": "work",
+        "adj": "workable",
+        "adv": ""
+      },
+      "arabicAr": "عَمَلي / خاص بالعمل",
+      "frenchFr": "de travail",
+      "germanDe": "Arbeits-",
+      "spanishEs": "laboral",
+      "chineseZh": "工作的 (Gōngzuò de)",
+      "russianRu": "рабочий",
+      "portuguesePt": "de trabalho",
+      "japaneseJa": "仕事の (Shigoto no)",
+      "italianIt": "di lavoro",
+      "turkishTr": "iş",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 258,
+      "wordEn": "work",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɜrk",
+      "phoneticUk": "wɜːk",
+      "phoneticAr": "وَرْك",
+      "translit": "Ya'mal",
+      "definitionEn": "To do a job or task, especially for money.",
+      "definitionAr": "إنك تشتغل أو تعمل مجهود عشان تنجز حاجة، وغالباً عشان تاخد فلوس.",
+      "usageNote": "Can refer to a person laboring or a machine functioning.",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Job",
+        "#Effort",
+        "#Function"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Work\" يعني يشتغل.. افتكر إن الـ \"Worker\" هو العامل اللي بيعمل \"Work\".",
+      "examples": {
+        "A1": "I work in a bank.",
+        "A2": "She works very hard.",
+        "B1": "My computer does not work.",
+        "B2": "We need to work together to solve this.",
+        "C1": "The strategy worked like a charm.",
+        "C2": "He worked himself into a frenzy."
+      },
+      "collocations": [
+        "work hard",
+        "work together",
+        "work out",
+        "stop working"
+      ],
+      "synonyms": [
+        "labor",
+        "toil",
+        "function",
+        "operate"
+      ],
+      "antonyms": [
+        "rest",
+        "idle",
+        "fail"
+      ],
+      "relatedWords": {
+        "en": [
+          "worker",
+          "workplace",
+          "job"
+        ],
+        "ar": [
+          "عامل",
+          "مكان العمل",
+          "وظيفة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "work",
+        "verb": "work",
+        "adj": "working",
+        "adv": ""
+      },
+      "arabicAr": "يَعْمَل",
+      "frenchFr": "travailler",
+      "germanDe": "arbeiten",
+      "spanishEs": "trabajar",
+      "chineseZh": "工作 (Gōngzuò)",
+      "russianRu": "работать",
+      "portuguesePt": "trabalhar",
+      "japaneseJa": "働く (Hataraku)",
+      "italianIt": "lavorare",
+      "turkishTr": "çalışmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 259,
+      "wordEn": "work",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɜrk",
+      "phoneticUk": "wɜːk",
+      "phoneticAr": "وَرْك",
+      "translit": "Amal / Shughl",
+      "definitionEn": "Activity involving mental or physical effort done in order to achieve a purpose.",
+      "definitionAr": "الشغل أو المجهود اللي بتبذله عشان تعمل حاجة، سواء كان وظيفة أو واجب.",
+      "usageNote": "Uncountable noun in the sense of employment (e.g., 'I have much work', not 'many works').",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Career",
+        "#Task",
+        "#Effort"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I go to work by bus.",
+        "A2": "I have a lot of work to do.",
+        "B1": "He is out of work right now.",
+        "B2": "The painting is a work of art.",
+        "C1": "It was all in a day's work for him.",
+        "C2": "The complete works of Shakespeare are heavy."
+      },
+      "collocations": [
+        "hard work",
+        "out of work",
+        "at work",
+        "work of art"
+      ],
+      "synonyms": [
+        "job",
+        "employment",
+        "labor",
+        "task"
+      ],
+      "antonyms": [
+        "leisure",
+        "rest",
+        "hobby"
+      ],
+      "relatedWords": {
+        "en": [
+          "workload",
+          "workforce",
+          "homework"
+        ],
+        "ar": [
+          "عبء العمل",
+          "قوى عاملة",
+          "واجب منزلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "worker",
+        "verb": "work",
+        "adj": "working",
+        "adv": ""
+      },
+      "arabicAr": "عَمَل / شُغْل",
+      "frenchFr": "travail",
+      "germanDe": "Arbeit",
+      "spanishEs": "trabajo",
+      "chineseZh": "工作 (Gōngzuò)",
+      "russianRu": "работа",
+      "portuguesePt": "trabalho",
+      "japaneseJa": "仕事 (Shigoto)",
+      "italianIt": "lavoro",
+      "turkishTr": "iş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 260,
+      "wordEn": "become",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "bɪˈkʌm",
+      "phoneticUk": null,
+      "phoneticAr": "بِكَام",
+      "translit": "Yusbih",
+      "definitionEn": "To begin to be something; to turn into something.",
+      "definitionAr": "يعني تتحول لحاجة تانية أو تبدأ تكون في حالة جديدة.",
+      "usageNote": "Followed by an adjective or noun complement (e.g., become happy, become a doctor).",
+      "category": "Actions & Processes",
+      "primarySense": "Change",
+      "semanticTags": [
+        "#Change",
+        "#Development",
+        "#Future"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Become\" فيها \"Be\" (يكون) و \"Come\" (ييجي).. يعني لما الحالة \"Come\" وتخليك \"Be\" حاجة تانية، يبقى إنت \"Become\" (أصبحت).",
+      "examples": {
+        "A1": "He wants to become a doctor.",
+        "A2": "It has become very cold.",
+        "B1": "They became good friends.",
+        "B2": "The situation has become complicated.",
+        "C1": "It does not become you to speak like that.",
+        "C2": "He became increasingly disillusioned with politics."
+      },
+      "collocations": [
+        "become aware",
+        "become clear",
+        "become famous",
+        "become a member"
+      ],
+      "synonyms": [
+        "turn into",
+        "grow",
+        "get"
+      ],
+      "antonyms": [
+        "remain",
+        "stay"
+      ],
+      "relatedWords": {
+        "en": [
+          "be",
+          "change",
+          "transform"
+        ],
+        "ar": [
+          "يكون",
+          "يتغير",
+          "يتحول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "becoming",
+        "verb": "become",
+        "adj": "becoming",
+        "adv": "becomingly"
+      },
+      "arabicAr": "يُصْبِح",
+      "frenchFr": "devenir",
+      "germanDe": "werden",
+      "spanishEs": "convertirse en",
+      "chineseZh": "成为 (Chéngwéi)",
+      "russianRu": "становиться",
+      "portuguesePt": "tornar-se",
+      "japaneseJa": "なる (Naru)",
+      "italianIt": "diventare",
+      "turkishTr": "olmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 261,
+      "wordEn": "old",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "oʊld",
+      "phoneticUk": "əʊld",
+      "phoneticAr": "أُولْد",
+      "translit": "Qadim / Kabir",
+      "definitionEn": "Having lived for a long time; no longer young.",
+      "definitionAr": "حاجة بقالها زمن طويل موجودة، أو شخص عاش سنين كتير.",
+      "usageNote": "Used for both age (people) and antiquity (objects).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Age",
+        "#Time",
+        "#History"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Old\" هو \"New\".. الـ \"Old\" يعني حاجة قديمة أو شخص كبير في السن.",
+      "examples": {
+        "A1": "My car is very old.",
+        "A2": "He is an old man now.",
+        "B1": "We visited an old castle.",
+        "B2": "For old times' sake.",
+        "C1": "It's an old wives' tale.",
+        "C2": "He is a chip off the old block."
+      },
+      "collocations": [
+        "old age",
+        "old friend",
+        "get old",
+        "years old"
+      ],
+      "synonyms": [
+        "elderly",
+        "aged",
+        "ancient",
+        "antique"
+      ],
+      "antonyms": [
+        "young",
+        "new",
+        "modern"
+      ],
+      "relatedWords": {
+        "en": [
+          "older",
+          "oldest",
+          "elder"
+        ],
+        "ar": [
+          "أكبر سناً",
+          "الأكبر",
+          "مسن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "oldness",
+        "verb": "age",
+        "adj": "old",
+        "adv": ""
+      },
+      "arabicAr": "قَديم / كَبير السِن",
+      "frenchFr": "vieux",
+      "germanDe": "alt",
+      "spanishEs": "viejo",
+      "chineseZh": "老的 (Lǎo de)",
+      "russianRu": "старый",
+      "portuguesePt": "velho",
+      "japaneseJa": "古い (Furui)",
+      "italianIt": "vecchio",
+      "turkishTr": "eski",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 262,
+      "wordEn": "government",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈɡʌvərnmənt",
+      "phoneticUk": null,
+      "phoneticAr": "جَڤَرْنْمِنت",
+      "translit": "Hukuma",
+      "definitionEn": "The group of people with the authority to govern a country or state.",
+      "definitionAr": "الناس اللي بتمسك البلد وبتحط القوانين وبتدير الأمور.",
+      "usageNote": "Can refer to the system itself or the specific group of people currently in power.",
+      "category": "Politics & Society",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Politics",
+        "#Law",
+        "#Authority"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Govern\" يعني يحكم.. الـ \"Government\" هي الجهة اللي بتعمل \"Govern\" للبلد.",
+      "examples": {
+        "A1": "The government makes laws.",
+        "A2": "She works for the government.",
+        "B1": "The government announced new taxes.",
+        "B2": "They are protesting against government policy.",
+        "C1": "The transitional government faced many challenges.",
+        "C2": "He believes in limited government intervention."
+      },
+      "collocations": [
+        "federal government",
+        "local government",
+        "government official",
+        "form a government"
+      ],
+      "synonyms": [
+        "administration",
+        "regime",
+        "authority"
+      ],
+      "antonyms": [
+        "anarchy",
+        "opposition"
+      ],
+      "relatedWords": {
+        "en": [
+          "govern",
+          "governor",
+          "governance"
+        ],
+        "ar": [
+          "يحكم",
+          "حاكم",
+          "حكامة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "government",
+        "verb": "govern",
+        "adj": "governmental",
+        "adv": "governmentally"
+      },
+      "arabicAr": "حُكومَة",
+      "frenchFr": "gouvernement",
+      "germanDe": "Regierung",
+      "spanishEs": "gobierno",
+      "chineseZh": "政府 (Zhèngfǔ)",
+      "russianRu": "правительство",
+      "portuguesePt": "governo",
+      "japaneseJa": "政府 (Seifu)",
+      "italianIt": "governo",
+      "turkishTr": "hükümet",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 263,
+      "wordEn": "mean",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "miːn",
+      "phoneticUk": null,
+      "phoneticAr": "مِين",
+      "translit": "La'im / Bakhil",
+      "definitionEn": "Unkind, spiteful, or unfair; also can mean stingy with money.",
+      "definitionAr": "شخص مش طيب، قاسي أو لئيم، وساعات بتيجي بمعنى بخيل.",
+      "usageNote": "In American English, primarily means 'unkind'. In British English, often means 'stingy'.",
+      "category": "Personality & Emotions",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Personality",
+        "#Negative",
+        "#Behavior"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Mean\" شبه \"Main\".. المشكلة الـ \"Main\" (الرئيسية) فيه إنه شخص \"Mean\" (لئيم).",
+      "examples": {
+        "A1": "Don't be so mean to your sister.",
+        "A2": "He is a very mean man.",
+        "B1": "It was mean of him not to invite you.",
+        "B2": "She is known for being mean with money.",
+        "C1": "He plays a mean guitar (slang for excellent).",
+        "C2": "They live in mean streets (poor/shabby)."
+      },
+      "collocations": [
+        "mean trick",
+        "mean spirit",
+        "no mean feat"
+      ],
+      "synonyms": [
+        "unkind",
+        "nasty",
+        "stingy",
+        "cruel"
+      ],
+      "antonyms": [
+        "kind",
+        "generous",
+        "nice"
+      ],
+      "relatedWords": {
+        "en": [
+          "meanness",
+          "cruel",
+          "selfish"
+        ],
+        "ar": [
+          "لؤم",
+          "قاسي",
+          "أناني"
+        ]
+      },
+      "wordFamily": {
+        "noun": "meanness",
+        "verb": "mean",
+        "adj": "mean",
+        "adv": "meanly"
+      },
+      "arabicAr": "لَئيم / بَخيل",
+      "frenchFr": "méchant",
+      "germanDe": "gemein",
+      "spanishEs": "malo",
+      "chineseZh": "刻薄的 (Kèbó de)",
+      "russianRu": "подлый",
+      "portuguesePt": "maldoso",
+      "japaneseJa": "意地悪な (Ijiwaru na)",
+      "italianIt": "cattivo",
+      "turkishTr": "kaba",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 264,
+      "wordEn": "mean",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "miːn",
+      "phoneticUk": null,
+      "phoneticAr": "مِين",
+      "translit": "Ya'ni / Yaqsid",
+      "definitionEn": "To intend to convey, indicate, or refer to a particular thing.",
+      "definitionAr": "يعني أو يقصد حاجة معينة لما يتكلم.",
+      "usageNote": "Used to ask for definitions ('What does X mean?') or clarify intent ('I didn't mean that').",
+      "category": "Mind & Thinking",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Intent",
+        "#Definition",
+        "#Understanding"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Mean\" قريبة من \"Meaning\" (معنى).. لما تسأل عن الـ \"Meaning\" بتقول \"What does it mean?\".",
+      "examples": {
+        "A1": "What does this word mean?",
+        "A2": "I didn't mean to hurt you.",
+        "B1": "This means we have to leave early.",
+        "B2": "I know what you mean.",
+        "C1": "The ends do not justify the means.",
+        "C2": "He was meant for greater things."
+      },
+      "collocations": [
+        "mean to say",
+        "mean business",
+        "mean well",
+        "what do you mean"
+      ],
+      "synonyms": [
+        "signify",
+        "intend",
+        "imply"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "meaning",
+          "meaningful",
+          "intent"
+        ],
+        "ar": [
+          "معنى",
+          "ذو معنى",
+          "نية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "meaning",
+        "verb": "mean",
+        "adj": "meaningful",
+        "adv": "meaningfully"
+      },
+      "arabicAr": "يَعْني / يَقْصِد",
+      "frenchFr": "signifier",
+      "germanDe": "bedeuten",
+      "spanishEs": "significar",
+      "chineseZh": "意味着 (Yìwèizhe)",
+      "russianRu": "значить",
+      "portuguesePt": "significar",
+      "japaneseJa": "意味する (Imi suru)",
+      "italianIt": "significare",
+      "turkishTr": "anlamına gelmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 265,
+      "wordEn": "part",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "pɑrt",
+      "phoneticUk": "pɑːt",
+      "phoneticAr": "پَارْت",
+      "translit": "Juz'",
+      "definitionEn": "A piece or segment of something which combined with others makes up the whole.",
+      "definitionAr": "حتة أو قطعة من حاجة كبيرة، مش الحاجة كلها.",
+      "usageNote": "Often followed by 'of' (part of the team, part of the problem).",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Component",
+        "#Piece",
+        "#Section"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Part\" شبه \"Party\".. الـ \"Party\" (الحفلة) هي \"Part\" (جزء) من حياتنا الاجتماعية.",
+      "examples": {
+        "A1": "This is part of my job.",
+        "A2": "He ate a large part of the cake.",
+        "B1": "We live in a quiet part of town.",
+        "B2": "She played a major part in the project.",
+        "C1": "It's part and parcel of being famous.",
+        "C2": "For the most part, I agree with you."
+      },
+      "collocations": [
+        "take part",
+        "part of",
+        "spare part",
+        "play a part"
+      ],
+      "synonyms": [
+        "piece",
+        "section",
+        "portion",
+        "segment"
+      ],
+      "antonyms": [
+        "whole",
+        "all",
+        "entirety"
+      ],
+      "relatedWords": {
+        "en": [
+          "partial",
+          "partly",
+          "partner"
+        ],
+        "ar": [
+          "جزئي",
+          "جزئيا",
+          "شريك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "part",
+        "verb": "part",
+        "adj": "partial",
+        "adv": "partly"
+      },
+      "arabicAr": "جُزْء",
+      "frenchFr": "partie",
+      "germanDe": "Teil",
+      "spanishEs": "parte",
+      "chineseZh": "部分 (Bùfèn)",
+      "russianRu": "часть",
+      "portuguesePt": "parte",
+      "japaneseJa": "部分 (Bubun)",
+      "italianIt": "parte",
+      "turkishTr": "parça",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 266,
+      "wordEn": "leave",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "liːv",
+      "phoneticUk": null,
+      "phoneticAr": "لِيڤ",
+      "translit": "Ijaza / Idhn",
+      "definitionEn": "Time when one has permission to be absent from work or duty.",
+      "definitionAr": "الوقت اللي بتأخذه إجازة من الشغل أو الجيش بإذن رسمي.",
+      "usageNote": "Commonly used in phrases like 'sick leave', 'maternity leave', or 'annual leave'.",
+      "category": "Work & Business",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Vacation",
+        "#Permission",
+        "#Absence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من الفعل \"Leave\" (يغادر).. لما تاخد \"Leave\" (إجازة) بتقدر تعمل \"Leave\" (مغادرة) للشغل.",
+      "examples": {
+        "A1": "He is on leave.",
+        "A2": "She asked for a week's leave.",
+        "B1": "I have 20 days of annual leave.",
+        "B2": "He is currently on unpaid leave.",
+        "C1": "She took compassionate leave after the funeral.",
+        "C2": "The soldier was granted shore leave."
+      },
+      "collocations": [
+        "sick leave",
+        "maternity leave",
+        "annual leave",
+        "on leave"
+      ],
+      "synonyms": [
+        "time off",
+        "vacation",
+        "permission",
+        "furlough"
+      ],
+      "antonyms": [
+        "work",
+        "duty"
+      ],
+      "relatedWords": {
+        "en": [
+          "holiday",
+          "break",
+          "absence"
+        ],
+        "ar": [
+          "عطلة",
+          "استراحة",
+          "غياب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "leave",
+        "verb": "leave",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إجازَة / إذْن",
+      "frenchFr": "congé",
+      "germanDe": "Urlaub",
+      "spanishEs": "permiso",
+      "chineseZh": "休假 (Xiūjià)",
+      "russianRu": "отпуск",
+      "portuguesePt": "licença",
+      "japaneseJa": "休暇 (Kyūka)",
+      "italianIt": "permesso",
+      "turkishTr": "izin",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 267,
+      "wordEn": "leave",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "liːv",
+      "phoneticUk": null,
+      "phoneticAr": "لِيڤ",
+      "translit": "Yughadir / Yatruk",
+      "definitionEn": "To go away from a place; to let something remain in a particular state.",
+      "definitionAr": "تمشي وتسيب مكان، أو تسيب حاجة زي ما هي.",
+      "usageNote": "Can mean exiting a place ('leave the room') or abandoning something ('leave it alone').",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Departure",
+        "#Exit",
+        "#Abandon"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Leave\" شبه \"Live\" (يعيش) بس النطق مختلف.. عشان \"Live\" (تعيش) حياتك لازم أحياناً \"Leave\" (تغادر) أماكن معينة.",
+      "examples": {
+        "A1": "I leave home at 8 AM.",
+        "A2": "Don't leave me alone.",
+        "B1": "The train leaves in five minutes.",
+        "B2": "Did you leave the door unlocked?",
+        "C1": "Leave it to me, I'll handle it.",
+        "C2": "The scandal left his reputation in tatters."
+      },
+      "collocations": [
+        "leave alone",
+        "leave behind",
+        "leave a message",
+        "leave home"
+      ],
+      "synonyms": [
+        "depart",
+        "go",
+        "exit",
+        "abandon"
+      ],
+      "antonyms": [
+        "arrive",
+        "stay",
+        "enter"
+      ],
+      "relatedWords": {
+        "en": [
+          "departure",
+          "leaving",
+          "left"
+        ],
+        "ar": [
+          "مغادرة",
+          "رحيل",
+          "متروك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "leaver",
+        "verb": "leave",
+        "adj": "left",
+        "adv": ""
+      },
+      "arabicAr": "يُغادِر / يَتْرُك",
+      "frenchFr": "partir",
+      "germanDe": "verlassen",
+      "spanishEs": "salir",
+      "chineseZh": "离开 (Líkāi)",
+      "russianRu": "покидать",
+      "portuguesePt": "sair",
+      "japaneseJa": "去る (Saru)",
+      "italianIt": "lasciare",
+      "turkishTr": "ayrılmak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 268,
+      "wordEn": "life",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "laɪf",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْف",
+      "translit": "Haya",
+      "definitionEn": "The existence of an individual human being or animal.",
+      "definitionAr": "الحياة اللي بنعيشها، الفترة من ساعة ما نتولد لحد ما نموت.",
+      "usageNote": "Plural is 'lives'. Can refer to the state of being alive or the period of existence.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Existence",
+        "#Living",
+        "#Biology"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Life\" يعني حياة.. وبنقول \"Live\" يعني بث مباشر (حي).",
+      "examples": {
+        "A1": "Life is beautiful.",
+        "A2": "He lived a long life.",
+        "B1": "City life is very busy.",
+        "B2": "She saved his life.",
+        "C1": "Art imitates life.",
+        "C2": "He was sentenced to life imprisonment."
+      },
+      "collocations": [
+        "real life",
+        "life story",
+        "way of life",
+        "full of life"
+      ],
+      "synonyms": [
+        "existence",
+        "being",
+        "living"
+      ],
+      "antonyms": [
+        "death"
+      ],
+      "relatedWords": {
+        "en": [
+          "live",
+          "alive",
+          "lively"
+        ],
+        "ar": [
+          "يعيش",
+          "حي",
+          "حيوي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "life",
+        "verb": "live",
+        "adj": "lifeless",
+        "adv": "lifelessly"
+      },
+      "arabicAr": "حَياة",
+      "frenchFr": "vie",
+      "germanDe": "Leben",
+      "spanishEs": "vida",
+      "chineseZh": "生活 (Shēnghuó)",
+      "russianRu": "жизнь",
+      "portuguesePt": "vida",
+      "japaneseJa": "生活 (Seikatsu)",
+      "italianIt": "vita",
+      "turkishTr": "hayat",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 269,
+      "wordEn": "great",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɡreɪt",
+      "phoneticUk": null,
+      "phoneticAr": "جْرِيت",
+      "translit": "Azim / Ra'i",
+      "definitionEn": "Very good, large, or important.",
+      "definitionAr": "حاجة ممتازة جداً، أو كبيرة ومهمة.",
+      "usageNote": "Often used enthusiastically to express approval ('That's great!').",
+      "category": "General / Common",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Positive",
+        "#Size",
+        "#Importance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Great\" قريبة من \"Grade\".. لما تجيب \"Grade\" (درجة) عالية بتبقى \"Great\" (عظيم).",
+      "examples": {
+        "A1": "You did a great job.",
+        "A2": "It is a great movie.",
+        "B1": "There is a great difference between them.",
+        "B2": "He has great respect for her.",
+        "C1": "She went to great lengths to help.",
+        "C2": "Alexander the Great was a king."
+      },
+      "collocations": [
+        "great deal",
+        "great success",
+        "great time",
+        "look great"
+      ],
+      "synonyms": [
+        "excellent",
+        "fantastic",
+        "huge",
+        "significant"
+      ],
+      "antonyms": [
+        "terrible",
+        "tiny",
+        "insignificant"
+      ],
+      "relatedWords": {
+        "en": [
+          "greatly",
+          "greatness",
+          "greater"
+        ],
+        "ar": [
+          "بشكل كبير",
+          "عظمة",
+          "أعظم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "greatness",
+        "verb": "",
+        "adj": "great",
+        "adv": "greatly"
+      },
+      "arabicAr": "عَظيم / رائع",
+      "frenchFr": "grand",
+      "germanDe": "großartig",
+      "spanishEs": "genial",
+      "chineseZh": "伟大的 (Wěidà de)",
+      "russianRu": "великий",
+      "portuguesePt": "ótimo",
+      "japaneseJa": "素晴らしい (Subarashii)",
+      "italianIt": "grande",
+      "turkishTr": "harika",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 270,
+      "wordEn": "where",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wɛr",
+      "phoneticUk": "weə",
+      "phoneticAr": "وَيْر",
+      "translit": "Ayna",
+      "definitionEn": "In or to what place or position.",
+      "definitionAr": "بتسأل بيها عن المكان، يعني 'فين؟'.",
+      "usageNote": "Used in questions (Where is it?) and relative clauses (The house where I live).",
+      "category": "General / Common",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Question",
+        "#Location",
+        "#Place"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Where\" أولها \"W\" زي \"Way\" (طريق).. بتسأل عن الـ \"Way\" وبتقول \"Where?\" (فين؟).",
+      "examples": {
+        "A1": "Where are you?",
+        "A2": "Where do you live?",
+        "B1": "I don't know where to go.",
+        "B2": "This is the town where I was born.",
+        "C1": "Where possible, avoid conflict.",
+        "C2": "It's a situation where caution is needed."
+      },
+      "collocations": [
+        "where are you",
+        "where from",
+        "where to"
+      ],
+      "synonyms": [
+        "whither",
+        "in which"
+      ],
+      "antonyms": [
+        "here",
+        "there"
+      ],
+      "relatedWords": {
+        "en": [
+          "anywhere",
+          "somewhere",
+          "nowhere"
+        ],
+        "ar": [
+          "أي مكان",
+          "مكان ما",
+          "لا مكان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "where"
+      },
+      "arabicAr": "أيْنَ",
+      "frenchFr": "où",
+      "germanDe": "wo",
+      "spanishEs": "dónde",
+      "chineseZh": "哪里 (Nǎlǐ)",
+      "russianRu": "где",
+      "portuguesePt": "onde",
+      "japaneseJa": "どこ (Doko)",
+      "italianIt": "dove",
+      "turkishTr": "nerede",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 271,
+      "wordEn": "where",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wɛr",
+      "phoneticUk": "weə",
+      "phoneticAr": "وَيْر",
+      "translit": "Haythu",
+      "definitionEn": "At, in, or to the place in which.",
+      "definitionAr": "بمعنى 'حيث' أو المكان اللي حصل فيه كذا.",
+      "usageNote": "Connects two parts of a sentence, linking an action to a location.",
+      "category": "General / Common",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Connection",
+        "#Location",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Stay where you are.",
+        "A2": "Go where you like.",
+        "B1": "Put it back where you found it.",
+        "B2": "We went to the cafe where we met.",
+        "C1": "Where there is smoke, there is fire.",
+        "C2": "He lives in a world where money is everything."
+      },
+      "collocations": [
+        "where possible",
+        "where necessary"
+      ],
+      "synonyms": [
+        "wherever"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "whereas",
+          "whereby"
+        ],
+        "ar": [
+          "في حين",
+          "بواسطة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "حَيْثُ",
+      "frenchFr": "là où",
+      "germanDe": "wo",
+      "spanishEs": "donde",
+      "chineseZh": "在...的地方 (Zài...de dìfāng)",
+      "russianRu": "где",
+      "portuguesePt": "onde",
+      "japaneseJa": "〜する場所 (Suru basho)",
+      "italianIt": "dove",
+      "turkishTr": "yerde",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 272,
+      "wordEn": "case",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "keɪs",
+      "phoneticUk": null,
+      "phoneticAr": "كَيْس",
+      "translit": "Qadia / Hala",
+      "definitionEn": "A particular situation or example of something; also a container.",
+      "definitionAr": "حالة معينة، أو قضية في المحكمة، وساعات بتيجي بمعنى شنطة أو حافظة.",
+      "usageNote": "Very versatile word. 'In case' means 'if it happens'. 'Just in case' means 'for safety'.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Situation",
+        "#Law",
+        "#Container"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Case\" (قضية) شبه \"كيس\" (Bag).. تخيل إن الـ \"Case\" (القضية) ملفاتها محطوطة في \"Case\" (شنطة).",
+      "examples": {
+        "A1": "In that case, I will go.",
+        "A2": "Take an umbrella just in case.",
+        "B1": "It is a case of flu.",
+        "B2": "The lawyer won the case.",
+        "C1": "He made a strong case for reform.",
+        "C2": "This is a classic case of corruption."
+      },
+      "collocations": [
+        "in case",
+        "just in case",
+        "court case",
+        "worst case"
+      ],
+      "synonyms": [
+        "situation",
+        "instance",
+        "lawsuit",
+        "container"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "encase",
+          "casing",
+          "suitcase"
+        ],
+        "ar": [
+          "يغلف",
+          "غلاف",
+          "حقيبة سفر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "case",
+        "verb": "encase",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "قَضِيّة / حالَة",
+      "frenchFr": "cas",
+      "germanDe": "Fall",
+      "spanishEs": "caso",
+      "chineseZh": "情况 (Qíngkuàng)",
+      "russianRu": "случай",
+      "portuguesePt": "caso",
+      "japaneseJa": "場合 (Baai)",
+      "italianIt": "caso",
+      "turkishTr": "durum",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 273,
+      "wordEn": "woman",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈwʊmən",
+      "phoneticUk": null,
+      "phoneticAr": "وُمَن",
+      "translit": "Imra'a",
+      "definitionEn": "An adult female human being.",
+      "definitionAr": "الست أو السيدة البالغة.",
+      "usageNote": "Plural is 'women' (pronounced 'wimin').",
+      "category": "People & Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Female",
+        "#Person",
+        "#Gender"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Woman\" فيها \"Man\".. بس الـ \"Wo\" في الأول بتميزها إنها ست.",
+      "examples": {
+        "A1": "She is a nice woman.",
+        "A2": "A woman was waiting for the bus.",
+        "B1": "She is a successful business woman.",
+        "B2": "Women have fought for equal rights.",
+        "C1": "She is a woman of her word.",
+        "C2": "The portrayal of woman in art has changed."
+      },
+      "collocations": [
+        "young woman",
+        "business woman",
+        "pregnant woman",
+        "old woman"
+      ],
+      "synonyms": [
+        "lady",
+        "female",
+        "girl"
+      ],
+      "antonyms": [
+        "man"
+      ],
+      "relatedWords": {
+        "en": [
+          "women",
+          "womanly",
+          "feminine"
+        ],
+        "ar": [
+          "نساء",
+          "أنثوي",
+          "نسائي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "womanhood",
+        "verb": "",
+        "adj": "womanly",
+        "adv": ""
+      },
+      "arabicAr": "اِمْرَأَة",
+      "frenchFr": "femme",
+      "germanDe": "Frau",
+      "spanishEs": "mujer",
+      "chineseZh": "女人 (Nǚrén)",
+      "russianRu": "женщина",
+      "portuguesePt": "mulher",
+      "japaneseJa": "女性 (Josei)",
+      "italianIt": "donna",
+      "turkishTr": "kadın",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 274,
+      "wordEn": "seem",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "siːm",
+      "phoneticUk": null,
+      "phoneticAr": "سِيم",
+      "translit": "Yabdu",
+      "definitionEn": "To give the impression of being something or having a particular quality.",
+      "definitionAr": "يبان عليه أو يظهر بشكل معين، زي لما تقول 'شكله زعلان'.",
+      "usageNote": "Often followed by 'to be' or an adjective (seems happy, seems to be true).",
+      "category": "Health & Senses",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Appearance",
+        "#Impression",
+        "#Perception"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Seem\" (يبدو) قريبة من \"See\" (يرى).. اللي إنت بتعمله \"See\" بيخليه \"Seem\" (يبدو) ليك بشكل معين.",
+      "examples": {
+        "A1": "You seem happy.",
+        "A2": "It seems like a good idea.",
+        "B1": "He seems to be lost.",
+        "B2": "They seem to have forgotten us.",
+        "C1": "It would seem that we are mistaken.",
+        "C2": "The logic seems sound, yet the conclusion is flawed."
+      },
+      "collocations": [
+        "seem like",
+        "seem to be",
+        "it seems that"
+      ],
+      "synonyms": [
+        "appear",
+        "look",
+        "sound"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "seeming",
+          "seemingly",
+          "appearance"
+        ],
+        "ar": [
+          "ظاهري",
+          "على ما يبدو",
+          "مظهر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "seem",
+        "adj": "seeming",
+        "adv": "seemingly"
+      },
+      "arabicAr": "يَبْدو",
+      "frenchFr": "sembler",
+      "germanDe": "scheinen",
+      "spanishEs": "parecer",
+      "chineseZh": "似乎 (Sìhū)",
+      "russianRu": "казаться",
+      "portuguesePt": "parecer",
+      "japaneseJa": "見える (Mieru)",
+      "italianIt": "sembrare",
+      "turkishTr": "görünmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 275,
+      "wordEn": "same",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "seɪm",
+      "phoneticUk": null,
+      "phoneticAr": "سَيْم",
+      "translit": "Nafs",
+      "definitionEn": "Identical; not different.",
+      "definitionAr": "هو هو، مفيش اختلاف، زي بعض بالظبط.",
+      "usageNote": "Almost always preceded by 'the' (the same thing).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Similarity",
+        "#Identity",
+        "#Comparison"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Same\" (نفس الشيء) قريبة من \"Some\" (بعض).. بس \"Same\" يعني متطابقين تماماً.",
+      "examples": {
+        "A1": "We have the same car.",
+        "A2": "It is the same color.",
+        "B1": "I feel the same way.",
+        "B2": "At the same time, we must be careful.",
+        "C1": "It amounts to the same thing.",
+        "C2": "The very same people who criticized him now praise him."
+      },
+      "collocations": [
+        "the same as",
+        "at the same time",
+        "same to you",
+        "all the same"
+      ],
+      "synonyms": [
+        "identical",
+        "equal",
+        "matching"
+      ],
+      "antonyms": [
+        "different",
+        "other",
+        "another"
+      ],
+      "relatedWords": {
+        "en": [
+          "sameness",
+          "similar",
+          "alike"
+        ],
+        "ar": [
+          "تشابه",
+          "مشابه",
+          "مثل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sameness",
+        "verb": "",
+        "adj": "same",
+        "adv": ""
+      },
+      "arabicAr": "نَفْس",
+      "frenchFr": "même",
+      "germanDe": "gleich",
+      "spanishEs": "mismo",
+      "chineseZh": "相同的 (Xiāngtóng de)",
+      "russianRu": "тот же самый",
+      "portuguesePt": "mesmo",
+      "japaneseJa": "同じ (Onaji)",
+      "italianIt": "stesso",
+      "turkishTr": "aynı",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

@@ -1,0 +1,1867 @@
+{
+  "wordEntries": [
+    {
+      "id": 402,
+      "wordEn": "state",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "steɪt",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَايْت",
+      "translit": "Yuṣarriḥ / Yadhkur",
+      "definitionEn": "To express something definitely or clearly in speech or writing.",
+      "definitionAr": "يعني تقول رأيك أو معلومة بشكل واضح ورسمي. مش بس تتكلم، لأ، بتحدد كلامك بدقة.",
+      "usageNote": "More formal than 'say'. Often used in legal or official contexts.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Communication",
+        "#Formal",
+        "#Speech",
+        "#Law"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Statement\" يعني \"تصريح\".. يبقى \"State\" كفعل معناها يصرّح أو يذكر بوضوح.",
+      "examples": {
+        "A1": "Please state your name.",
+        "A2": "He stated that he was tired.",
+        "B1": "The rules state that we must arrive on time.",
+        "B2": "The report states the cause of the accident clearly.",
+        "C1": "The contract explicitly states the terms of agreement.",
+        "C2": "She unequivocally stated her opposition to the new policy."
+      },
+      "collocations": [
+        "state clearly",
+        "explicitly state",
+        "state the facts",
+        "state an opinion"
+      ],
+      "synonyms": [
+        "declare",
+        "announce",
+        "express",
+        "specify",
+        "assert"
+      ],
+      "antonyms": [
+        "conceal",
+        "deny",
+        "refute"
+      ],
+      "relatedWords": {
+        "en": [
+          "statement",
+          "declaration",
+          "utterance"
+        ],
+        "ar": [
+          "تصريح",
+          "إعلان",
+          "قول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "statement",
+        "verb": "state",
+        "adj": "stated",
+        "adv": ""
+      },
+      "arabicAr": "يُصرِّح / يَذْكُر",
+      "frenchFr": "déclarer",
+      "germanDe": "erklären",
+      "spanishEs": "declarar",
+      "chineseZh": "陈述 (Chénshù)",
+      "russianRu": "заявлять",
+      "portuguesePt": "declarar",
+      "japaneseJa": "述べる (Noberu)",
+      "italianIt": "dichiarare",
+      "turkishTr": "belirtmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 403,
+      "wordEn": "state",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "steɪt",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَايْت",
+      "translit": "Ḥāla / Waḍʿ",
+      "definitionEn": "The particular condition that someone or something is in at a specific time.",
+      "definitionAr": "الحالة أو الوضع اللي عليه الشيء أو الشخص في وقت معين. زي ما تقول حالة الطقس أو حالتك النفسية.",
+      "usageNote": "Can refer to physical condition, mental condition, or political entities (nations). Context determines meaning.",
+      "category": "Conditions & Change",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Condition",
+        "#Status",
+        "#Situation",
+        "#Health"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Stay\".. الشيء اللي بيفضل \"Stay\" على وضع معين بنسميها الـ \"State\" أو حالته.",
+      "examples": {
+        "A1": "The house is in a bad state.",
+        "A2": "She was in a state of shock.",
+        "B1": "Liquid is one state of matter.",
+        "B2": "The Prime Minister visited the state of California.",
+        "C1": "He was found in a state of advanced intoxication.",
+        "C2": "The philosophical concept of the state of nature is complex."
+      },
+      "collocations": [
+        "state of mind",
+        "state of emergency",
+        "mental state",
+        "solid state"
+      ],
+      "synonyms": [
+        "condition",
+        "situation",
+        "status",
+        "shape",
+        "position"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "status",
+          "condition",
+          "situation"
+        ],
+        "ar": [
+          "وضع",
+          "ظرف",
+          "هيئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "state",
+        "verb": "state",
+        "adj": "stately",
+        "adv": ""
+      },
+      "arabicAr": "حَالَة / وَضْع",
+      "frenchFr": "état",
+      "germanDe": "Zustand",
+      "spanishEs": "estado",
+      "chineseZh": "状态 (Zhuàngtài)",
+      "russianRu": "состояние",
+      "portuguesePt": "estado",
+      "japaneseJa": "状態 (Jōtai)",
+      "italianIt": "stato",
+      "turkishTr": "durum",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 404,
+      "wordEn": "percent",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "pəˈsɛnt",
+      "phoneticUk": null,
+      "phoneticAr": "بَرْسِنْت",
+      "translit": "Bilmi'a / Nisba Mi'awiyya",
+      "definitionEn": "One part in every hundred; used to express proportions.",
+      "definitionAr": "يعني جزء من كل مية. بنستخدمها عشان نقول النسبة المئوية، زي الخصومات أو الدرجات.",
+      "usageNote": "Often written with the symbol %. Used with a number.",
+      "category": "Math & Numbers",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Math",
+        "#Statistics",
+        "#Money",
+        "#Rate"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Per\" يعني \"لكل\".. و \"Cent\" يعني \"مئة\" (زي السنت).. يبقى \"Percent\" لكل مئة.",
+      "examples": {
+        "A1": "I got 100 percent on the test.",
+        "A2": "Fifty percent of the class is boys.",
+        "B1": "The price increased by five percent.",
+        "B2": "There is a ten percent chance of rain.",
+        "C1": "A large percent of the population voted.",
+        "C2": "The yield increased by a fraction of a percent."
+      },
+      "collocations": [
+        "ten percent",
+        "percent chance",
+        "high percent",
+        "percent increase"
+      ],
+      "synonyms": [
+        "percentage",
+        "portion",
+        "share"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "percentage",
+          "rate",
+          "proportion",
+          "ratio"
+        ],
+        "ar": [
+          "نسبة",
+          "معدل",
+          "حصة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "percentage",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بِالمِائَة / نِسْبَة مِئَوِيَّة",
+      "frenchFr": "pour cent",
+      "germanDe": "Prozent",
+      "spanishEs": "por ciento",
+      "chineseZh": "百分比 (Bǎifēnbǐ)",
+      "russianRu": "процент",
+      "portuguesePt": "por cento",
+      "japaneseJa": "パーセント (Pāsento)",
+      "italianIt": "per cento",
+      "turkishTr": "yüzde",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 405,
+      "wordEn": "quite",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "kwaɪt",
+      "phoneticUk": null,
+      "phoneticAr": "كْوَايْت",
+      "translit": "Tamāman / Ilā Ḥaddin Mā",
+      "definitionEn": "To a certain degree or extent; completely or entirely.",
+      "definitionAr": "يعني (إلى حد ما) أو (تماماً) حسب السياق. لو قلت (quite good) يعني كويس نوعاً ما، لو (quite sure) يعني متأكد تماماً.",
+      "usageNote": "Can mean 'slightly' (US) or 'very/completely' (UK) depending on intonation and adjective.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Degree",
+        "#Adverb",
+        "#Intensity",
+        "#Common"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة في النطق من \"Quiet\" (هادئ).. بس \"Quite\" آخرها E، ومعناها \"إلى حد ما\".",
+      "examples": {
+        "A1": "I am quite happy.",
+        "A2": "It is quite cold today.",
+        "B1": "I quite like this song.",
+        "B2": "That is quite a different matter.",
+        "C1": "I quite agree with your proposal.",
+        "C2": "The performance was quite extraordinary."
+      },
+      "collocations": [
+        "quite good",
+        "quite sure",
+        "quite a few",
+        "not quite"
+      ],
+      "synonyms": [
+        "fairly",
+        "rather",
+        "completely",
+        "entirely",
+        "somewhat"
+      ],
+      "antonyms": [
+        "barely",
+        "hardly"
+      ],
+      "relatedWords": {
+        "en": [
+          "really",
+          "very",
+          "pretty"
+        ],
+        "ar": [
+          "جداً",
+          "حقاً",
+          "فعلاً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "quite"
+      },
+      "arabicAr": "تَمَاماً / إِلَى حَدٍّ مَا",
+      "frenchFr": "assez",
+      "germanDe": "ziemlich",
+      "spanishEs": "bastante",
+      "chineseZh": "相当 (Xiāngdāng)",
+      "russianRu": "вполне",
+      "portuguesePt": "bastante",
+      "japaneseJa": "かなり (Kanari)",
+      "italianIt": "abbastanza",
+      "turkishTr": "oldukça",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 406,
+      "wordEn": "both",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "boʊθ",
+      "phoneticUk": null,
+      "phoneticAr": "بَوْث",
+      "translit": "Kilā / Kiltā",
+      "definitionEn": "Used to refer to two people or things, regarded and identified together.",
+      "definitionAr": "لما تتكلم عن حاجتين أو شخصين مع بعض. يعني (الاثنين سوا).",
+      "usageNote": "Used before plural nouns. Often paired with 'and' (both X and Y).",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Pair",
+        "#Grouping"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Both\" شبه \"Boat\" (قارب).. تخيل قارب فيه شخصين بس، يبقى \"Both\" يعني الاثنين.",
+      "examples": {
+        "A1": "Both hands are dirty.",
+        "A2": "I like both cars.",
+        "B1": "Both my parents are teachers.",
+        "B2": "Both sides agreed to the deal.",
+        "C1": "This approach has advantages for both parties.",
+        "C2": "The novel appeals to both intellect and emotion."
+      },
+      "collocations": [
+        "both sides",
+        "both hands",
+        "both of them",
+        "both ways"
+      ],
+      "synonyms": [
+        "the two",
+        "couple",
+        "pair"
+      ],
+      "antonyms": [
+        "neither",
+        "either"
+      ],
+      "relatedWords": {
+        "en": [
+          "pair",
+          "couple",
+          "double"
+        ],
+        "ar": [
+          "زوج",
+          "اثنان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "both",
+        "adv": ""
+      },
+      "arabicAr": "كِلا / كِلْتَا",
+      "frenchFr": "les deux",
+      "germanDe": "beide",
+      "spanishEs": "ambos",
+      "chineseZh": "两个 (Liǎng gè)",
+      "russianRu": "оба",
+      "portuguesePt": "ambos",
+      "japaneseJa": "両方 (Ryōhō)",
+      "italianIt": "entrambi",
+      "turkishTr": "her ikisi",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 407,
+      "wordEn": "both",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "boʊθ",
+      "phoneticUk": null,
+      "phoneticAr": "بَوْث",
+      "translit": "Kilāhumā",
+      "definitionEn": "The two people or things; the one and the other.",
+      "definitionAr": "لما تقول (هما الاثنين) من غير ما تذكر الاسم بعدها. بتشير ليهم كضمير.",
+      "usageNote": "Can be used as a subject or object. 'Both of them' is common.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Pronoun",
+        "#Pair"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I want both.",
+        "A2": "Both are good friends.",
+        "B1": "I invited both of them.",
+        "B2": "Both were found guilty.",
+        "C1": "They are both excellent in their own way.",
+        "C2": "Why choose one when you can have both?"
+      },
+      "collocations": [
+        "both of us",
+        "both of you",
+        "both of them"
+      ],
+      "synonyms": [
+        "the two"
+      ],
+      "antonyms": [
+        "neither"
+      ],
+      "relatedWords": {
+        "en": [
+          "all",
+          "each"
+        ],
+        "ar": [
+          "الكل",
+          "كل واحد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "both",
+        "adv": ""
+      },
+      "arabicAr": "كِلاهُمَا",
+      "frenchFr": "tous les deux",
+      "germanDe": "beide",
+      "spanishEs": "los dos",
+      "chineseZh": "两者 (Liǎng zhě)",
+      "russianRu": "оба",
+      "portuguesePt": "os dois",
+      "japaneseJa": "両者 (Ryōsha)",
+      "italianIt": "tutti e due",
+      "turkishTr": "ikisi de",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 408,
+      "wordEn": "both",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "boʊθ",
+      "phoneticUk": null,
+      "phoneticAr": "بَوْث",
+      "translit": "Kilā / Kiltā",
+      "definitionEn": "Used before the first of two alternatives to emphasize that the statement applies to each.",
+      "definitionAr": "بتيجي قبل الاسماء عشان تأكد إن الكلام ينطبق على الحاجتين مش واحدة بس.",
+      "usageNote": "Used in the structure 'both X and Y'.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#Grammar",
+        "#Emphasis"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Both cats are sleeping.",
+        "A2": "Both brothers play soccer.",
+        "B1": "Both hotels are expensive.",
+        "B2": "It requires both time and money.",
+        "C1": "Both strategies have their merits.",
+        "C2": "The problem affects both the rich and the poor."
+      },
+      "collocations": [
+        "both ... and ...",
+        "both eyes",
+        "both feet"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "neither"
+      ],
+      "relatedWords": {
+        "en": [
+          "either",
+          "neither"
+        ],
+        "ar": [
+          "إما",
+          "لا هذا ولا ذاك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "both",
+        "adv": ""
+      },
+      "arabicAr": "كِلا / كِلْتَا",
+      "frenchFr": "les deux",
+      "germanDe": "beide",
+      "spanishEs": "ambos",
+      "chineseZh": "两个 (Liǎng gè)",
+      "russianRu": "оба",
+      "portuguesePt": "ambos",
+      "japaneseJa": "両方の (Ryōhō no)",
+      "italianIt": "entrambi",
+      "turkishTr": "her iki",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 409,
+      "wordEn": "start",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "stɑːrt",
+      "phoneticUk": "stɑːt",
+      "phoneticAr": "سْتَارْت",
+      "translit": "Bidāya",
+      "definitionEn": "The point in time or space at which something has its origin; the beginning.",
+      "definitionAr": "البداية أو نقطة الانطلاق لأي حاجة. عكس النهاية.",
+      "usageNote": "Can refer to the beginning of a race, a project, or a period of time.",
+      "category": "Time & Events",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Beginning",
+        "#Origin",
+        "#Action",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Star\" يعني نجمة.. الـ \"Start\" هو النجم اللي بيبدأ العرض.",
+      "examples": {
+        "A1": "This is the start of the movie.",
+        "A2": "Let's make a fresh start.",
+        "B1": "The start of the race was exciting.",
+        "B2": "At the start of the century, technology was different.",
+        "C1": "The project got off to a rocky start.",
+        "C2": "His sudden movement gave me a start."
+      },
+      "collocations": [
+        "fresh start",
+        "good start",
+        "at the start",
+        "head start"
+      ],
+      "synonyms": [
+        "beginning",
+        "onset",
+        "inception",
+        "kickoff",
+        "origin"
+      ],
+      "antonyms": [
+        "end",
+        "finish",
+        "conclusion"
+      ],
+      "relatedWords": {
+        "en": [
+          "beginning",
+          "origin",
+          "commencement"
+        ],
+        "ar": [
+          "أصل",
+          "منشأ",
+          "استهلال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "start",
+        "verb": "start",
+        "adj": "starting",
+        "adv": ""
+      },
+      "arabicAr": "بِدَايَة",
+      "frenchFr": "début",
+      "germanDe": "Start",
+      "spanishEs": "comienzo",
+      "chineseZh": "开始 (Kāishǐ)",
+      "russianRu": "начало",
+      "portuguesePt": "começo",
+      "japaneseJa": "開始 (Kaishi)",
+      "italianIt": "inizio",
+      "turkishTr": "başlangıç",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 410,
+      "wordEn": "start",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "stɑːrt",
+      "phoneticUk": "stɑːt",
+      "phoneticAr": "سْتَارْت",
+      "translit": "Yabda'",
+      "definitionEn": "To begin doing something; to happen or come into being.",
+      "definitionAr": "يعني تبدأ تعمل حاجة، أو تخلي حاجة تشتغل زي العربية.",
+      "usageNote": "Can be followed by a gerund (start doing) or infinitive (start to do) with little difference in meaning.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Action",
+        "#Begin",
+        "#Initiate"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي زرار \"Start\" في الألعاب.. بتدوس عليه عشان تبدأ اللعبة.",
+      "examples": {
+        "A1": "School starts at 8 AM.",
+        "A2": "Please start the car.",
+        "B1": "I started learning English last year.",
+        "B2": "The business started to grow rapidly.",
+        "C1": "Rumors started to circulate about the merger.",
+        "C2": "He started out as a simple clerk and became CEO."
+      },
+      "collocations": [
+        "start working",
+        "start a family",
+        "start over",
+        "start up"
+      ],
+      "synonyms": [
+        "begin",
+        "commence",
+        "initiate",
+        "launch",
+        "originate"
+      ],
+      "antonyms": [
+        "stop",
+        "finish",
+        "end",
+        "cease",
+        "terminate"
+      ],
+      "relatedWords": {
+        "en": [
+          "begin",
+          "launch",
+          "initiate"
+        ],
+        "ar": [
+          "يشرع",
+          "يستهل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "starter",
+        "verb": "start",
+        "adj": "starting",
+        "adv": ""
+      },
+      "arabicAr": "يَبْدَأ",
+      "frenchFr": "commencer",
+      "germanDe": "anfangen",
+      "spanishEs": "empezar",
+      "chineseZh": "开始 (Kāishǐ)",
+      "russianRu": "начинать",
+      "portuguesePt": "começar",
+      "japaneseJa": "始める (Hajimeru)",
+      "italianIt": "iniziare",
+      "turkishTr": "başlamak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 411,
+      "wordEn": "run",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "rʌn",
+      "phoneticUk": null,
+      "phoneticAr": "رَن",
+      "translit": "Rakḍ / Jary",
+      "definitionEn": "An act or spell of running; a continuous period or sequence.",
+      "definitionAr": "فترة الجري نفسها، أو مدة استمرار حاجة معينة.",
+      "usageNote": "Can refer to exercise (go for a run) or a sequence of events (a run of bad luck).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Exercise",
+        "#Movement",
+        "#Sport"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها باسم \"Rana\" \"رنا\".. رنا بتحب الـ \"Run\" (الجري) كل يوم.",
+      "examples": {
+        "A1": "I went for a run.",
+        "A2": "We had a long run today.",
+        "B1": "The play had a successful run in London.",
+        "B2": "She went on a run of good luck.",
+        "C1": "There was a run on the bank yesterday.",
+        "C2": "In the long run, it will be cheaper."
+      },
+      "collocations": [
+        "go for a run",
+        "long run",
+        "test run",
+        "fun run"
+      ],
+      "synonyms": [
+        "jog",
+        "sprint",
+        "dash",
+        "race"
+      ],
+      "antonyms": [
+        "walk",
+        "standstill"
+      ],
+      "relatedWords": {
+        "en": [
+          "race",
+          "jog",
+          "sprint"
+        ],
+        "ar": [
+          "سباق",
+          "هرولة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "runner",
+        "verb": "run",
+        "adj": "running",
+        "adv": ""
+      },
+      "arabicAr": "رَكْض / جَرْي",
+      "frenchFr": "course",
+      "germanDe": "Lauf",
+      "spanishEs": "carrera",
+      "chineseZh": "跑 (Pǎo)",
+      "russianRu": "бег",
+      "portuguesePt": "corrida",
+      "japaneseJa": "走り (Hashiri)",
+      "italianIt": "corsa",
+      "turkishTr": "koşu",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 412,
+      "wordEn": "run",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "rʌn",
+      "phoneticUk": null,
+      "phoneticAr": "رَن",
+      "translit": "Yajrī / Yarkuḍ",
+      "definitionEn": "To move at a speed faster than a walk; to manage or operate something.",
+      "definitionAr": "يجري بسرعة، أو يدير حاجة زي شركة أو مشروع (Run a business).",
+      "usageNote": "Very polysemous. Basic meaning is movement, but often used for managing businesses or machines operating.",
+      "category": "Actions & Processes",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Movement",
+        "#Speed",
+        "#Business",
+        "#Action"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Dogs run fast.",
+        "A2": "I run in the park every morning.",
+        "B1": "He runs a small restaurant.",
+        "B2": "The engine is running smoothly.",
+        "C1": "We are running out of time.",
+        "C2": "The river runs through the valley."
+      },
+      "collocations": [
+        "run away",
+        "run out",
+        "run a business",
+        "run fast"
+      ],
+      "synonyms": [
+        "sprint",
+        "race",
+        "manage",
+        "operate",
+        "function"
+      ],
+      "antonyms": [
+        "walk",
+        "stop"
+      ],
+      "relatedWords": {
+        "en": [
+          "jog",
+          "sprint",
+          "manage"
+        ],
+        "ar": [
+          "يهرول",
+          "يدير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "runner",
+        "verb": "run",
+        "adj": "running",
+        "adv": ""
+      },
+      "arabicAr": "يَجْرِي / يَرْكُض",
+      "frenchFr": "courir",
+      "germanDe": "laufen",
+      "spanishEs": "correr",
+      "chineseZh": "跑 (Pǎo)",
+      "russianRu": "бежать",
+      "portuguesePt": "correr",
+      "japaneseJa": "走る (Hashiru)",
+      "italianIt": "correre",
+      "turkishTr": "koşmak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 413,
+      "wordEn": "long",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɔːŋ",
+      "phoneticUk": "lɒŋ",
+      "phoneticAr": "لُونْغ",
+      "translit": "Ṭawīl",
+      "definitionEn": "Measuring a great distance from end to end; lasting a great amount of time.",
+      "definitionAr": "طويل، سواء في المسافة (طريق طويل) أو في الوقت (يوم طويل).",
+      "usageNote": "Opposite of short. Used for distance and duration.",
+      "category": "Attributes & Qualities",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Size",
+        "#Time",
+        "#Distance",
+        "#Description"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من كلمة \"Lung\" \"رئة\".. عشان تاخد نَفَس \"Long\" (طويل) محتاج \"Lungs\" قوية.",
+      "examples": {
+        "A1": "She has long hair.",
+        "A2": "It was a long journey.",
+        "B1": "I waited for a long time.",
+        "B2": "He has a long memory for details.",
+        "C1": "This is a long-standing tradition.",
+        "C2": "To cut a long story short, we won."
+      },
+      "collocations": [
+        "long time",
+        "long way",
+        "long hair",
+        "long ago"
+      ],
+      "synonyms": [
+        "lengthy",
+        "extended",
+        "prolonged",
+        "tall"
+      ],
+      "antonyms": [
+        "short",
+        "brief"
+      ],
+      "relatedWords": {
+        "en": [
+          "length",
+          "lengthen",
+          "tall"
+        ],
+        "ar": [
+          "طول",
+          "يطيل",
+          "مديد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "length",
+        "verb": "lengthen",
+        "adj": "long",
+        "adv": "long"
+      },
+      "arabicAr": "طَوِيل",
+      "frenchFr": "long",
+      "germanDe": "lang",
+      "spanishEs": "largo",
+      "chineseZh": "长 (Cháng)",
+      "russianRu": "длинный",
+      "portuguesePt": "longo",
+      "japaneseJa": "長い (Nagai)",
+      "italianIt": "lungo",
+      "turkishTr": "uzun",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 414,
+      "wordEn": "long",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "lɔːŋ",
+      "phoneticUk": "lɒŋ",
+      "phoneticAr": "لُونْغ",
+      "translit": "Lifatra Ṭawīla",
+      "definitionEn": "For a significant amount of time.",
+      "definitionAr": "لفترة طويلة. بنستخدمها لما نتكلم عن المدة الزمنية.",
+      "usageNote": "Common in phrases like 'long ago' or 'all day long'.",
+      "category": "Time & Events",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Duration",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Have you been waiting long?",
+        "A2": "It happened long ago.",
+        "B1": "I can't stay long.",
+        "B2": "She worked all day long.",
+        "C1": "Long after the war, effects were still felt.",
+        "C2": "He is no longer working here."
+      },
+      "collocations": [
+        "how long",
+        "so long",
+        "too long",
+        "long ago"
+      ],
+      "synonyms": [
+        "a long time",
+        "for ages"
+      ],
+      "antonyms": [
+        "briefly",
+        "shortly"
+      ],
+      "relatedWords": {
+        "en": [
+          "length",
+          "duration"
+        ],
+        "ar": [
+          "مدة",
+          "فترة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "length",
+        "verb": "long",
+        "adj": "long",
+        "adv": "long"
+      },
+      "arabicAr": "لِفَتْرَة طَوِيلَة",
+      "frenchFr": "longtemps",
+      "germanDe": "lange",
+      "spanishEs": "mucho tiempo",
+      "chineseZh": "很久 (Hěn jiǔ)",
+      "russianRu": "долго",
+      "portuguesePt": "muito tempo",
+      "japaneseJa": "長く (Nagaku)",
+      "italianIt": "a lungo",
+      "turkishTr": "uzun süre",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 415,
+      "wordEn": "right",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "raɪt",
+      "phoneticUk": null,
+      "phoneticAr": "رَايْت",
+      "translit": "Ṣaḥīḥ / Yamīn",
+      "definitionEn": "Morally good, justified, or acceptable; true or correct as a fact.",
+      "definitionAr": "يا إما (صح) عكس غلط، يا إما (يمين) عكس شمال. السياق بيحدد.",
+      "usageNote": "Can mean 'correct' (You are right) or 'direction' (Right hand).",
+      "category": "Attributes & Qualities",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Direction",
+        "#Correctness",
+        "#Truth"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Write\" (يكتب) و \"Right\" (يمين/صح) نفس النطق.. أغلب الناس بتكتب بالـ \"Right\" hand.",
+      "examples": {
+        "A1": "That is the right answer.",
+        "A2": "Turn to the right side.",
+        "B1": "It's not right to steal.",
+        "B2": "Make sure you have the right tools.",
+        "C1": "He is the right man for the job.",
+        "C2": "The political right wing opposed the bill."
+      },
+      "collocations": [
+        "right hand",
+        "right answer",
+        "right now",
+        "all right"
+      ],
+      "synonyms": [
+        "correct",
+        "accurate",
+        "just",
+        "fair",
+        "proper"
+      ],
+      "antonyms": [
+        "wrong",
+        "left",
+        "incorrect"
+      ],
+      "relatedWords": {
+        "en": [
+          "correct",
+          "true",
+          "just"
+        ],
+        "ar": [
+          "صواب",
+          "عادل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "right",
+        "verb": "right",
+        "adj": "right",
+        "adv": "rightly"
+      },
+      "arabicAr": "صَحِيح / يَمِين",
+      "frenchFr": "correct",
+      "germanDe": "richtig",
+      "spanishEs": "correcto",
+      "chineseZh": "对 (Duì)",
+      "russianRu": "правильный",
+      "portuguesePt": "certo",
+      "japaneseJa": "正しい (Tadashii)",
+      "italianIt": "giusto",
+      "turkishTr": "doğru",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 416,
+      "wordEn": "right",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "raɪt",
+      "phoneticUk": null,
+      "phoneticAr": "رَايْت",
+      "translit": "Ḥaqq / Yamīn",
+      "definitionEn": "A moral or legal entitlement to have or obtain something; the right-hand side.",
+      "definitionAr": "الحق القانوني أو الأخلاقي في حاجة (زي حقوق الإنسان). أو الجهة اليمين.",
+      "usageNote": "Often used in plural for entitlements (human rights).",
+      "category": "Law & Justice",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Law",
+        "#Direction",
+        "#Justice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Take a turn to the right.",
+        "A2": "You have no right to be here.",
+        "B1": "Education is a basic human right.",
+        "B2": "He knows the difference between right and wrong.",
+        "C1": "They are fighting for their civil rights.",
+        "C2": "She reserved the right to remain silent."
+      },
+      "collocations": [
+        "human rights",
+        "to the right",
+        "civil rights",
+        "legal right"
+      ],
+      "synonyms": [
+        "entitlement",
+        "privilege",
+        "freedom"
+      ],
+      "antonyms": [
+        "left",
+        "wrong"
+      ],
+      "relatedWords": {
+        "en": [
+          "justice",
+          "law",
+          "freedom"
+        ],
+        "ar": [
+          "عدالة",
+          "قانون",
+          "حرية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "right",
+        "verb": "right",
+        "adj": "righteous",
+        "adv": "rightfully"
+      },
+      "arabicAr": "حَقّ / يَمِين",
+      "frenchFr": "droit",
+      "germanDe": "Recht",
+      "spanishEs": "derecho",
+      "chineseZh": "权利 (Quánlì)",
+      "russianRu": "право",
+      "portuguesePt": "direito",
+      "japaneseJa": "権利 (Kenri)",
+      "italianIt": "diritto",
+      "turkishTr": "hak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 417,
+      "wordEn": "right",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "raɪt",
+      "phoneticUk": null,
+      "phoneticAr": "رَايْت",
+      "translit": "Tamāman / Yamīnan",
+      "definitionEn": "To the furthest or most complete extent; exactly; towards the right side.",
+      "definitionAr": "يعني (فوراً) أو (تماماً) زي right now. أو باتجاه اليمين.",
+      "usageNote": "Common in conversational fillers (Right, let's go) or emphasis (Right here).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Direction",
+        "#Emphasis",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Look right and left.",
+        "A2": "Do it right now.",
+        "B1": "The keys are right here.",
+        "B2": "Things will turn out right in the end.",
+        "C1": "She guessed right about the surprise.",
+        "C2": "The arrow went right through the target."
+      },
+      "collocations": [
+        "right now",
+        "right here",
+        "right away",
+        "turn right"
+      ],
+      "synonyms": [
+        "exactly",
+        "immediately",
+        "correctly"
+      ],
+      "antonyms": [
+        "wrong",
+        "left"
+      ],
+      "relatedWords": {
+        "en": [
+          "straight",
+          "directly"
+        ],
+        "ar": [
+          "مباشرة",
+          "فوراً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "right"
+      },
+      "arabicAr": "تَمَاماً / يَمِيناً",
+      "frenchFr": "directement",
+      "germanDe": "direkt",
+      "spanishEs": "directamente",
+      "chineseZh": "正好 (Zhènghǎo)",
+      "russianRu": "прямо",
+      "portuguesePt": "diretamente",
+      "japaneseJa": "ちょうど (Chōdo)",
+      "italianIt": "proprio",
+      "turkishTr": "tam",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 418,
+      "wordEn": "set",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɛt",
+      "phoneticUk": null,
+      "phoneticAr": "سِت",
+      "translit": "Jāhiz / Muḥaddad",
+      "definitionEn": "Ready, prepared, or fixed in a specific position or state.",
+      "definitionAr": "يعني جاهز ومستعد (All set). أو حاجة ثابتة ومحددة (Set time).",
+      "usageNote": "Common in phrases like 'all set' (ready) or 'set menu'.",
+      "category": "Conditions & Change",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Readiness",
+        "#Fixed",
+        "#State"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "في السباق بيقولوا \"Ready, Set, Go\".. يعني استعد، اجهز، انطلق. يبقى \"Set\" يعني جاهز.",
+      "examples": {
+        "A1": "Are you set to go?",
+        "A2": "We have a set time for dinner.",
+        "B1": "The menu is set for the wedding.",
+        "B2": "She is set on becoming a doctor.",
+        "C1": "He has very set ideas about politics.",
+        "C2": "The concrete is set and hard now."
+      },
+      "collocations": [
+        "all set",
+        "set menu",
+        "set time",
+        "set in one's ways"
+      ],
+      "synonyms": [
+        "ready",
+        "prepared",
+        "fixed",
+        "determined"
+      ],
+      "antonyms": [
+        "unprepared",
+        "flexible",
+        "variable"
+      ],
+      "relatedWords": {
+        "en": [
+          "ready",
+          "fixed"
+        ],
+        "ar": [
+          "مستعد",
+          "ثابت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "setting",
+        "verb": "set",
+        "adj": "set",
+        "adv": ""
+      },
+      "arabicAr": "جَاهِز / مُحَدَّد",
+      "frenchFr": "prêt",
+      "germanDe": "bereit",
+      "spanishEs": "listo",
+      "chineseZh": "准备好 (Zhǔnbèi hǎo)",
+      "russianRu": "готовый",
+      "portuguesePt": "pronto",
+      "japaneseJa": "準備完了 (Junbi kanryō)",
+      "italianIt": "pronto",
+      "turkishTr": "hazır",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 419,
+      "wordEn": "set",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɛt",
+      "phoneticUk": null,
+      "phoneticAr": "سِت",
+      "translit": "Yaḍaʿ / Yaḍbuṭ",
+      "definitionEn": "To put, lay, or stand something in a specified place or position.",
+      "definitionAr": "يحط حاجة في مكانها، أو يضبط حاجة زي الساعة (Set the alarm).",
+      "usageNote": "Extremely common verb with many phrasal verbs (set up, set off, set in).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Action",
+        "#Placement",
+        "#Configuration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تضبط الموبايل بتدخل على \"Settings\".. يبقى الفعل \"Set\" يعني يضبط أو يهيئ.",
+      "examples": {
+        "A1": "Set the table for dinner.",
+        "A2": "Please set the alarm for 7 AM.",
+        "B1": "He set the box on the floor.",
+        "B2": "The sun sets in the west.",
+        "C1": "This incident set a dangerous precedent.",
+        "C2": "She set out to prove her theory."
+      },
+      "collocations": [
+        "set the table",
+        "set an alarm",
+        "set a goal",
+        "set free"
+      ],
+      "synonyms": [
+        "put",
+        "place",
+        "arrange",
+        "establish"
+      ],
+      "antonyms": [
+        "remove",
+        "move"
+      ],
+      "relatedWords": {
+        "en": [
+          "put",
+          "place",
+          "adjust"
+        ],
+        "ar": [
+          "وضع",
+          "رتب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "setting",
+        "verb": "set",
+        "adj": "set",
+        "adv": ""
+      },
+      "arabicAr": "يَضَع / يَضْبُط",
+      "frenchFr": "mettre",
+      "germanDe": "setzen",
+      "spanishEs": "poner",
+      "chineseZh": "设置 (Shèzhì)",
+      "russianRu": "ставить",
+      "portuguesePt": "pôr",
+      "japaneseJa": "置く (Oku)",
+      "italianIt": "mettere",
+      "turkishTr": "koymak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 420,
+      "wordEn": "set",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɛt",
+      "phoneticUk": null,
+      "phoneticAr": "سِت",
+      "translit": "Majmūʿa / Ṭaqm",
+      "definitionEn": "A collection of things that belong together or resemble one another.",
+      "definitionAr": "مجموعة حاجات بتمشي مع بعضها، زي طقم كوبايات أو مجموعة أدوات.",
+      "usageNote": "Also used in tennis (game, set, match) and theater (stage set).",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Group",
+        "#Collection",
+        "#Kit"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "بنقول \"طقم\" كوبايات أو \"Set\".. يعني مجموعة كاملة.",
+      "examples": {
+        "A1": "I bought a tea set.",
+        "A2": "He has a new set of golf clubs.",
+        "B1": "We need a spare set of keys.",
+        "B2": "This is a unique set of circumstances.",
+        "C1": "The band played a long set.",
+        "C2": "Mathematics deals with the theory of sets."
+      },
+      "collocations": [
+        "set of keys",
+        "chess set",
+        "box set",
+        "tea set"
+      ],
+      "synonyms": [
+        "group",
+        "collection",
+        "kit",
+        "series"
+      ],
+      "antonyms": [
+        "item",
+        "individual"
+      ],
+      "relatedWords": {
+        "en": [
+          "collection",
+          "group",
+          "batch"
+        ],
+        "ar": [
+          "تجميعة",
+          "فئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "set",
+        "verb": "set",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مَجْمُوعَة / طَقْم",
+      "frenchFr": "ensemble",
+      "germanDe": "Satz",
+      "spanishEs": "conjunto",
+      "chineseZh": "套 (Tào)",
+      "russianRu": "набор",
+      "portuguesePt": "conjunto",
+      "japaneseJa": "セット (Setto)",
+      "italianIt": "set",
+      "turkishTr": "takım",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 421,
+      "wordEn": "help",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hɛlp",
+      "phoneticUk": null,
+      "phoneticAr": "هِلْب",
+      "translit": "Musāʿada",
+      "definitionEn": "The action of helping someone to do something; assistance.",
+      "definitionAr": "المساعدة أو العون اللي بتقدمه لحد محتاجه.",
+      "usageNote": "Can be uncountable (need help) or countable in specific contexts (a great help).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Assistance",
+        "#Support",
+        "#Kindness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بتقول \"Hello\".. لو في مشكلة بتقول \"Help\".. الكلمتين سهلين وشبه بعض.",
+      "examples": {
+        "A1": "I need help.",
+        "A2": "Thank you for your help.",
+        "B1": "She gave me a lot of help with my homework.",
+        "B2": "The map was of great help to us.",
+        "C1": "We sought financial help from the bank.",
+        "C2": "With the help of technology, we solved the problem."
+      },
+      "collocations": [
+        "ask for help",
+        "need help",
+        "great help",
+        "help yourself"
+      ],
+      "synonyms": [
+        "assistance",
+        "aid",
+        "support",
+        "relief"
+      ],
+      "antonyms": [
+        "hindrance",
+        "obstacle"
+      ],
+      "relatedWords": {
+        "en": [
+          "aid",
+          "support",
+          "assist"
+        ],
+        "ar": [
+          "عون",
+          "دعم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "helper",
+        "verb": "help",
+        "adj": "helpful",
+        "adv": "helpfully"
+      },
+      "arabicAr": "مُسَاعَدَة",
+      "frenchFr": "aide",
+      "germanDe": "Hilfe",
+      "spanishEs": "ayuda",
+      "chineseZh": "帮助 (Bāngzhù)",
+      "russianRu": "помощь",
+      "portuguesePt": "ajuda",
+      "japaneseJa": "助け (Tasuke)",
+      "italianIt": "aiuto",
+      "turkishTr": "yardım",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 422,
+      "wordEn": "help",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hɛlp",
+      "phoneticUk": null,
+      "phoneticAr": "هِلْب",
+      "translit": "Yusāʿid",
+      "definitionEn": "To make it easier for someone to do something by offering one's services or resources.",
+      "definitionAr": "يساعد حد عشان يعمل حاجة، أو يقدم خدمة.",
+      "usageNote": "Followed by object + (to) infinitive: 'Help me (to) move this'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Action",
+        "#Support",
+        "#Service"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Can you help me?",
+        "A2": "She helps her mom cook.",
+        "B1": "This medicine helps with the pain.",
+        "B2": "I couldn't help laughing at the joke.",
+        "C1": "He helped establish the new company.",
+        "C2": "The organization helps to alleviate poverty."
+      },
+      "collocations": [
+        "help out",
+        "can't help",
+        "help me",
+        "so help me God"
+      ],
+      "synonyms": [
+        "assist",
+        "aid",
+        "support",
+        "facilitate"
+      ],
+      "antonyms": [
+        "hinder",
+        "impede",
+        "obstruct"
+      ],
+      "relatedWords": {
+        "en": [
+          "assist",
+          "serve",
+          "support"
+        ],
+        "ar": [
+          "يعاون",
+          "يساند"
+        ]
+      },
+      "wordFamily": {
+        "noun": "help",
+        "verb": "help",
+        "adj": "helpful",
+        "adv": ""
+      },
+      "arabicAr": "يُسَاعِد",
+      "frenchFr": "aider",
+      "germanDe": "helfen",
+      "spanishEs": "ayudar",
+      "chineseZh": "帮助 (Bāngzhù)",
+      "russianRu": "помогать",
+      "portuguesePt": "ajudar",
+      "japaneseJa": "助ける (Tasukeru)",
+      "italianIt": "aiutare",
+      "turkishTr": "yardım etmek",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 423,
+      "wordEn": "every",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɛvəri",
+      "phoneticUk": "ˈevrɪ",
+      "phoneticAr": "إِفْرِي",
+      "translit": "Kull",
+      "definitionEn": "Used to refer to all the individual members of a set without exception.",
+      "definitionAr": "يعني (كل) واحد في المجموعة من غير استثناء.",
+      "usageNote": "Used with singular nouns (Every student is...), unlike 'all' which takes plural.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Total",
+        "#Distribution"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه \"Everest\".. جبل إفرست هو أعلى قمة فوق \"Every\" mountain (كل الجبال).",
+      "examples": {
+        "A1": "I go to school every day.",
+        "A2": "Every student has a book.",
+        "B1": "We stop every few miles.",
+        "B2": "Every reason to believe he is innocent.",
+        "C1": "His every move was watched.",
+        "C2": "Every confidence in the new system."
+      },
+      "collocations": [
+        "every day",
+        "every time",
+        "every single",
+        "every one"
+      ],
+      "synonyms": [
+        "each",
+        "all",
+        "the whole"
+      ],
+      "antonyms": [
+        "none",
+        "no"
+      ],
+      "relatedWords": {
+        "en": [
+          "each",
+          "all",
+          "whole"
+        ],
+        "ar": [
+          "جميع",
+          "كافة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "everyone",
+        "verb": "",
+        "adj": "every",
+        "adv": "everywhere"
+      },
+      "arabicAr": "كُلّ",
+      "frenchFr": "chaque",
+      "germanDe": "jeder",
+      "spanishEs": "cada",
+      "chineseZh": "每个 (Měi gè)",
+      "russianRu": "каждый",
+      "portuguesePt": "cada",
+      "japaneseJa": "あらゆる (Arayuru)",
+      "italianIt": "ogni",
+      "turkishTr": "her",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 424,
+      "wordEn": "every",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɛvəri",
+      "phoneticUk": "ˈevrɪ",
+      "phoneticAr": "إِفْرِي",
+      "translit": "Kull",
+      "definitionEn": "All possible or probable; the utmost.",
+      "definitionAr": "كل الاحتمالات الممكنة، أو أقصى حد.",
+      "usageNote": "Functions as a determiner before singular nouns.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#All",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Brush your teeth every night.",
+        "A2": "Every house on the street is white.",
+        "B1": "I have every right to be angry.",
+        "B2": "There is every chance of success.",
+        "C1": "He hung on her every word.",
+        "C2": "We wish you every happiness."
+      },
+      "collocations": [
+        "every right",
+        "every chance",
+        "every success"
+      ],
+      "synonyms": [
+        "maximum",
+        "complete"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "each",
+          "all"
+        ],
+        "ar": [
+          "كل",
+          "جميع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كُلّ",
+      "frenchFr": "tout",
+      "germanDe": "jeder",
+      "spanishEs": "todo",
+      "chineseZh": "每 (Měi)",
+      "russianRu": "всякий",
+      "portuguesePt": "todo",
+      "japaneseJa": "全ての (Subete no)",
+      "italianIt": "ogni",
+      "turkishTr": "her",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 425,
+      "wordEn": "home",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hoʊm",
+      "phoneticUk": "həʊm",
+      "phoneticAr": "هُوم",
+      "translit": "Ilā al-Manzil / Fī al-Bayt",
+      "definitionEn": "To or at the place where one lives.",
+      "definitionAr": "لما تقول إنك رايح (للبيت) أو قاعد (في البيت).",
+      "usageNote": "Do NOT use 'to' before home when it is an adverb (go home, NOT go to home).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Place",
+        "#Direction",
+        "#Family"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Homeless\" يعني مشرد ملوش بيت.. يبقى \"Home\" يعني بيت.",
+      "examples": {
+        "A1": "I want to go home.",
+        "A2": "Is anybody home?",
+        "B1": "He arrived home late.",
+        "B2": "The message hit home.",
+        "C1": "She drove the point home during the meeting.",
+        "C2": "The reality of the situation came home to him."
+      },
+      "collocations": [
+        "go home",
+        "stay home",
+        "come home",
+        "get home"
+      ],
+      "synonyms": [
+        "homeward",
+        "in"
+      ],
+      "antonyms": [
+        "abroad",
+        "away",
+        "out"
+      ],
+      "relatedWords": {
+        "en": [
+          "house",
+          "residence"
+        ],
+        "ar": [
+          "منزل",
+          "سكن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "home",
+        "verb": "home",
+        "adj": "home",
+        "adv": "home"
+      },
+      "arabicAr": "إِلَى المَنْزِل / فِي البَيْت",
+      "frenchFr": "chez soi",
+      "germanDe": "nach Hause",
+      "spanishEs": "a casa",
+      "chineseZh": "回家 (Huí jiā)",
+      "russianRu": "домой",
+      "portuguesePt": "para casa",
+      "japaneseJa": "家へ (Ie e)",
+      "italianIt": "a casa",
+      "turkishTr": "eve",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 426,
+      "wordEn": "home",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "hoʊm",
+      "phoneticUk": "həʊm",
+      "phoneticAr": "هُوم",
+      "translit": "Bayt / Manzil",
+      "definitionEn": "The place where one lives permanently, especially as a member of a family.",
+      "definitionAr": "المكان اللي بتعيش فيه وبتحس فيه بالراحة والأمان.",
+      "usageNote": "Home implies emotional connection, unlike 'house' which is just the building.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Family",
+        "#Living",
+        "#Building"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "This is my home.",
+        "A2": "We have a happy home.",
+        "B1": "They bought a vacation home.",
+        "B2": "Retirement home for the elderly.",
+        "C1": "The city is home to many artists.",
+        "C2": "He felt at home in the academic world."
+      },
+      "collocations": [
+        "at home",
+        "leave home",
+        "nursing home",
+        "home town"
+      ],
+      "synonyms": [
+        "residence",
+        "dwelling",
+        "abode",
+        "house"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "house",
+          "apartment",
+          "flat"
+        ],
+        "ar": [
+          "دار",
+          "شقة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "homemaker",
+        "verb": "home",
+        "adj": "homely",
+        "adv": "homewards"
+      },
+      "arabicAr": "بَيْت / مَنْزِل",
+      "frenchFr": "maison",
+      "germanDe": "Zuhause",
+      "spanishEs": "hogar",
+      "chineseZh": "家 (Jiā)",
+      "russianRu": "дом",
+      "portuguesePt": "lar",
+      "japaneseJa": "家 (Ie)",
+      "italianIt": "casa",
+      "turkishTr": "ev",
+      "aiConfidence": 0.99
+    }
+  ]
+}

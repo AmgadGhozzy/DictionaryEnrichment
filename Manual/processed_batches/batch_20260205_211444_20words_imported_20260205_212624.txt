@@ -1,0 +1,577 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 256,
+    "wordEn": "own",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 256,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈəʊn",
+    "phoneticUk": "əʊn",
+    "phoneticAr": "اون",
+    "translit": "milk / khasatan",
+    "definitionEn": "[\"used with a possessive to emphasize that someone or something belongs or relates to the person or thing mentioned.\", \"something that belongs to the person or thing mentioned.\", \"have as one's own; possess.\"]",
+    "usageNote": "Often marks a possessive determiner as reflexive, referring back to the subject of the clause or sentence.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they can't handle their own children\"], \"A2\": [\"the kitten is currently chasing her own tail\", \"I used to design all my own clothes\", \"he was reluctant to own that he was indebted\", \"his face was inches from her own\", \"they claimed the work as their own\", \"I was an outcast among my own kind\"], \"B1\": [\"he has published little, trivial things which he will not own\"]}",
+    "collocations": "[\"to own one as a son\", \"your own\", \"own way\"]",
+    "synonyms": "[\"ain\", \"have\", \"possess\", \"especial\", \"personal\"]",
+    "antonyms": "[\"dispute\", \"deny\"]",
+    "relatedWords": "{\"en\": [\"personal\", \"have\", \"possess\", \"ain\", \"same\"], \"ar\": [\"خاصَّتُهُ\", \"مِلْكُهُ\", \"خاصّتُهُ\", \"ملك\", \"قدم إعترافات\", \"اعترف\"]}",
+    "arabicAr": "ملك / يملك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 257,
+    "wordEn": "work",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 257,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wəik",
+    "phoneticUk": "wɜːk",
+    "phoneticAr": "وايك",
+    "translit": "eamil / eamal",
+    "definitionEn": "[\"activity involving mental or physical effort done in order to achieve a purpose or result.\", \"a task or tasks to be undertaken; something a person or thing has to do.\", \"something done or made.\"]",
+    "category": "Actions & Processes",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"I'm still looking for work\"], \"A2\": [\"her work hangs in all the main American collections\", \"teaching customers how to work a PC\", \"he was going to the theater after work\", \"she frequently took work home with her\", \"new contracts force employees to work longer hours\"], \"B1\": [\"his cell phone doesn't work unless he goes to a high point\", \"I was returning home from work on a packed subway\"]}",
+    "collocations": "[\"the poetic works of Alexander Pope\", \"to work into the earth\", \"hard work\", \"work study\"]",
+    "synonyms": "[\"study\", \"grind\", \"workplace\", \"employment\", \"piece of work\"]",
+    "antonyms": "[\"idle\", \"malfunction\"]",
+    "relatedWords": "{\"en\": [\"job\", \"employment\", \"workplace\", \"airt\", \"address\"], \"ar\": [\"خاصّ بالعمل\", \"مستخدَم في العمل\", \"أدَاء\", \"حِرْفَة\", \"خِدْمَة\", \"سِفْر\"]}",
+    "arabicAr": "عمل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 258,
+    "wordEn": "work",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 258,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wəik",
+    "phoneticUk": "wɜːk",
+    "phoneticAr": "وايك",
+    "translit": "eamil / eamal",
+    "definitionEn": "[\"activity involving mental or physical effort done in order to achieve a purpose or result.\", \"a task or tasks to be undertaken; something a person or thing has to do.\", \"something done or made.\"]",
+    "category": "Actions & Processes",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"I'm still looking for work\"], \"A2\": [\"her work hangs in all the main American collections\", \"teaching customers how to work a PC\", \"he was going to the theater after work\", \"she frequently took work home with her\", \"new contracts force employees to work longer hours\"], \"B1\": [\"his cell phone doesn't work unless he goes to a high point\", \"I was returning home from work on a packed subway\"]}",
+    "collocations": "[\"the poetic works of Alexander Pope\", \"to work into the earth\", \"hard work\", \"work study\"]",
+    "synonyms": "[\"study\", \"grind\", \"workplace\", \"employment\", \"piece of work\"]",
+    "antonyms": "[\"idle\", \"malfunction\"]",
+    "relatedWords": "{\"en\": [\"job\", \"employment\", \"workplace\", \"airt\", \"address\"], \"ar\": [\"خاصّ بالعمل\", \"مستخدَم في العمل\", \"أدَاء\", \"حِرْفَة\", \"خِدْمَة\", \"سِفْر\"]}",
+    "arabicAr": "عمل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 259,
+    "wordEn": "work",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 259,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wəik",
+    "phoneticUk": "wɜːk",
+    "phoneticAr": "وايك",
+    "translit": "eamil / eamal",
+    "definitionEn": "[\"activity involving mental or physical effort done in order to achieve a purpose or result.\", \"a task or tasks to be undertaken; something a person or thing has to do.\", \"something done or made.\"]",
+    "category": "Actions & Processes",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"I'm still looking for work\"], \"A2\": [\"her work hangs in all the main American collections\", \"teaching customers how to work a PC\", \"he was going to the theater after work\", \"she frequently took work home with her\", \"new contracts force employees to work longer hours\"], \"B1\": [\"his cell phone doesn't work unless he goes to a high point\", \"I was returning home from work on a packed subway\"]}",
+    "collocations": "[\"the poetic works of Alexander Pope\", \"to work into the earth\", \"hard work\", \"work study\"]",
+    "synonyms": "[\"study\", \"grind\", \"workplace\", \"employment\", \"piece of work\"]",
+    "antonyms": "[\"idle\", \"malfunction\"]",
+    "relatedWords": "{\"en\": [\"job\", \"employment\", \"workplace\", \"airt\", \"address\"], \"ar\": [\"خاصّ بالعمل\", \"مستخدَم في العمل\", \"أدَاء\", \"حِرْفَة\", \"خِدْمَة\", \"سِفْر\"]}",
+    "arabicAr": "عمل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 260,
+    "wordEn": "become",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 260,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "bəˈkʊm",
+    "phoneticUk": "bəˈkʌm",
+    "phoneticAr": "باكوم",
+    "translit": "yusbih",
+    "syllabify": "be•come",
+    "definitionEn": "[\"look good on or suit .\", \"To pass from one state to another\", \"To suit or be suitable to\"]",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she wanted to become a doctor\", \"what would become of her now?\", \"the child will become an adult\"], \"A2\": [\"minor celebrity status did not become him\"]}",
+    "collocations": "[\"how become\", \"become event\"]",
+    "synonyms": "[\"get\", \"wax\", \"turn\", \"suit\", \"come to be\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"get\", \"turn to\", \"turn into\", \"turn\", \"suit\"], \"ar\": [\"أصْبَح\", \"صار\", \"كان لائِقا بِ\", \"لاق بِ\", \"ناسَب\", \"يُصْبح\"]}",
+    "arabicAr": "يصبح",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 261,
+    "wordEn": "old",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 261,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈoʊld",
+    "phoneticUk": "ˈɒʊld",
+    "phoneticAr": "اولد",
+    "translit": "qadim",
+    "definitionEn": "[\"having lived for a long time; no longer young.\", \"belonging only or chiefly to the past; former or previous.\", \"express affection, familiarity, or contempt.\"]",
+    "usageNote": "often used in describing something positive, and combined with another adjective.",
+    "category": "Numbers, Time & Math",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"the old quarter of the town\", \"he gave his old clothes away\", \"“ Good old Mom,” she said\", \"how old are you?\"], \"A2\": [\"valuation under the old rating system was inexact\", \"we greet each other like old friends\", \"the old man lay propped up on cushions\"], \"B1\": [\"I was going to try to get my old job back\"]}",
+    "collocations": "[\"an old abandoned building\", \"an old friend\", \"a wrinkled old man\", \"an old loaf of bread\", \"year old\"]",
+    "synonyms": "[\"older\", \"former\", \"onetime\", \"erstwhile\", \"past it\"]",
+    "antonyms": "[\"young\", \"new\"]",
+    "relatedWords": "{\"en\": [\"oldish\", \"elderly\", \"aged\", \"senile\", \"senior\"], \"ar\": [\"قديم\", \"بالغٌ سنّاً معيّنة\", \"عجوز\", \"أثَرِيّ\", \"آنِف\", \"بالي\"]}",
+    "arabicAr": "قديم / كبير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 262,
+    "wordEn": "government",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 262,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈɡʌvɚ(n)mənt",
+    "phoneticUk": "ˈɡʌvə(n)mənt",
+    "phoneticAr": "جافرمانت",
+    "translit": "hukuma",
+    "syllabify": "gov•ern•ment",
+    "definitionEn": "[\"the governing body of a nation, state, or community.\", \"the relation between a governed and a governing word.\", \"The act of governing\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the election of the new government\", \"a secular, pluralistic, democratic government\"], \"A2\": [\"rules for the government of the infirmary\"]}",
+    "collocations": "[\"federal government\", \"government exile\"]",
+    "synonyms": "[\"regime\", \"governing\", \"governance\", \"authorities\", \"top brass\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"governance\", \"authorities\", \"politics\", \"regime\", \"political science\"], \"ar\": [\"إدَارَة\", \"حُكُومِيّ\", \"سُلْطَة\", \"قِيَادَة\", \"وِزَارَة\", \"حُكْم\"]}",
+    "arabicAr": "حكومة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 263,
+    "wordEn": "mean",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 263,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "miːn",
+    "phoneticUk": "mi:n",
+    "phoneticAr": "مين",
+    "translit": "yaqsid / taeni",
+    "definitionEn": "[\"intend to convey, indicate, or refer to ; signify.\", \"intend to occur or be the case.\", \"have as a consequence or result.\"]",
+    "usageNote": "used to achieve some result.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't know what you mean\", \"she dances a mean Charleston\", \"he's a mean cook\", \"it was very mean of me\", \"her home was mean and small\"], \"A2\": [\"the proposals are likely to mean another hundred closures\"], \"B1\": [\"acid output was calculated by taking the mean of all three samples\"], \"B2\": [\"by 1989, the mean age at marriage stood at 24.8 for women and 26.9 for men\"]}",
+    "collocations": "[\"What does this hieroglyph mean\", \"a man of mean parentage\", \"a mean abode\", \"a mean appearance\", \"a mean dress\"]",
+    "synonyms": "[\"imply\", \"intend\", \"entail\", \"get at\", \"mean value\"]",
+    "antonyms": "[\"generous\", \"compassionate\", \"comfortable\"]",
+    "relatedWords": "{\"en\": [\"entail\", \"have in mind\", \"imply\", \"think of\", \"think\"], \"ar\": [\"وضيع\", \"عاديّ\", \"حقير\", \"دنيء\", \"بخيل\", \"وسط\"]}",
+    "arabicAr": "يقصد / يعني",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 264,
+    "wordEn": "mean",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 264,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "miːn",
+    "phoneticUk": "mi:n",
+    "phoneticAr": "مين",
+    "translit": "yaqsid / taeni",
+    "definitionEn": "[\"intend to convey, indicate, or refer to ; signify.\", \"intend to occur or be the case.\", \"have as a consequence or result.\"]",
+    "usageNote": "used to achieve some result.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I don't know what you mean\", \"she dances a mean Charleston\", \"he's a mean cook\", \"it was very mean of me\", \"her home was mean and small\"], \"A2\": [\"the proposals are likely to mean another hundred closures\"], \"B1\": [\"acid output was calculated by taking the mean of all three samples\"], \"B2\": [\"by 1989, the mean age at marriage stood at 24.8 for women and 26.9 for men\"]}",
+    "collocations": "[\"What does this hieroglyph mean\", \"a man of mean parentage\", \"a mean abode\", \"a mean appearance\", \"a mean dress\"]",
+    "synonyms": "[\"imply\", \"intend\", \"entail\", \"get at\", \"mean value\"]",
+    "antonyms": "[\"generous\", \"compassionate\", \"comfortable\"]",
+    "relatedWords": "{\"en\": [\"entail\", \"have in mind\", \"imply\", \"think of\", \"think\"], \"ar\": [\"وضيع\", \"عاديّ\", \"حقير\", \"دنيء\", \"بخيل\", \"وسط\"]}",
+    "arabicAr": "يقصد / يعني",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 265,
+    "wordEn": "part",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 265,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pɐːt",
+    "phoneticAr": "بات",
+    "translit": "juz' / juz''",
+    "definitionEn": "[\"a piece or segment of something such as an object, activity, or period of time, which combined with other pieces makes up the whole.\", \"some but not all of something.\", \"a character as represented in a play or movie; a role played by an actor or actress.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he took the part of Prospero\", \"I was part of the family\", \"the early part of 1989\", \"to do one s part\", \"to part the curtains\", \"to part gold from silver\", \"Part finished\"], \"A2\": [\"the painting tells only part of the story\", \"he coped well with the percussion part\", \"they paid a twentieth part of the cost\"], \"B1\": [\"hold the furthest part of your leg that you can reach\", \"in such a place his part is to make good\"]}",
+    "collocations": "[\"to do one s part\", \"to part the curtains\", \"to part gold from silver\", \"Part finished\", \"most part\"]",
+    "synonyms": "[\"bit\", \"portion\", \"component\", \"constituent\", \"component part\"]",
+    "antonyms": "[\"wholly\"]",
+    "relatedWords": "{\"en\": [\"fractional\", \"section\", \"division\", \"divide\", \"piece\"], \"ar\": [\"إشْتِراك\", \"إصْبَع\", \"إقْلِيم\", \"جانِب\", \"جِهَة\", \"حارَة\"]}",
+    "arabicAr": "جزء",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 266,
+    "wordEn": "leave",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 266,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "liːv",
+    "phoneticUk": "li:v",
+    "phoneticAr": "ليف",
+    "translit": "yatruk / ghadar",
+    "definitionEn": "[\"cause to be in a particular state or position.\", \"the position of the balls after a shot.\", \"time when one has permission to be absent from work or from duty in the armed forces.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Joe was home on leave\", \"I'll leave the door open\"], \"A2\": [\"they leave the impression that they can be bullied\", \"he took leave of absence last year\", \"he is seeking leave to appeal the injunction\", \"we were almost the last to leave\"], \"B1\": [\"dark fruit that would leave purple stains on the table napkins\", \"he'll leave you in no doubt about what he thinks\"]}",
+    "collocations": "[\"sick leave\", \"leave taking\"]",
+    "synonyms": "[\"parting\", \"farewell\", \"leave-taking\", \"push off\", \"leave of absence\"]",
+    "antonyms": "[\"arrive\", \"enter\", \"disinherit\"]",
+    "relatedWords": "{\"en\": [\"leave behind\", \"drop out\", \"throw in the towel\", \"chuck up the sponge\", \"quit\"], \"ar\": [\"انْصِراف\", \"بَرَاءَة\", \"دُسْتُور\", \"ذَهاب\", \"رَحِيل\", \"رُخْصة\"]}",
+    "arabicAr": "يترك / يغادر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 267,
+    "wordEn": "leave",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 267,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "liːv",
+    "phoneticUk": "li:v",
+    "phoneticAr": "ليف",
+    "translit": "yatruk / ghadar",
+    "definitionEn": "[\"cause to be in a particular state or position.\", \"the position of the balls after a shot.\", \"time when one has permission to be absent from work or from duty in the armed forces.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Joe was home on leave\", \"I'll leave the door open\"], \"A2\": [\"they leave the impression that they can be bullied\", \"he took leave of absence last year\", \"he is seeking leave to appeal the injunction\", \"we were almost the last to leave\"], \"B1\": [\"dark fruit that would leave purple stains on the table napkins\", \"he'll leave you in no doubt about what he thinks\"]}",
+    "collocations": "[\"sick leave\", \"leave taking\"]",
+    "synonyms": "[\"parting\", \"farewell\", \"leave-taking\", \"push off\", \"leave of absence\"]",
+    "antonyms": "[\"arrive\", \"enter\", \"disinherit\"]",
+    "relatedWords": "{\"en\": [\"leave behind\", \"drop out\", \"throw in the towel\", \"chuck up the sponge\", \"quit\"], \"ar\": [\"انْصِراف\", \"بَرَاءَة\", \"دُسْتُور\", \"ذَهاب\", \"رَحِيل\", \"رُخْصة\"]}",
+    "arabicAr": "يترك / يغادر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 268,
+    "wordEn": "life",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 268,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "laɪf",
+    "phoneticAr": "لآيف",
+    "translit": "haya / alhaya",
+    "definitionEn": "[\"the condition that distinguishes animals and plants from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.\", \"the existence of an individual human being or animal.\", \"the period between the birth and death of a living thing, especially a human being.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"lower forms of life\", \"a life of Shelley\", \"the origins of life\"], \"A2\": [\"she has lived all her life in the country\", \"the ice-cream vendors were the only signs of life\", \"underlay helps to prolong the life of a carpet\", \"she was beautiful and full of life\"], \"B1\": [\"an experienced teacher will help you settle into school life\"]}",
+    "collocations": "[\"the eternal life of the soul\", \"sex life\", \"political life\", \"human life\", \"life cycle\"]",
+    "synonyms": "[\"living\", \"lifetime\", \"animation\", \"aliveness\", \"existence\"]",
+    "antonyms": "[\"death\"]",
+    "relatedWords": "{\"en\": [\"spirit\", \"lifespan\", \"animation\", \"living\", \"lifetime\"], \"ar\": [\"أبَدِيّ\", \"حَرَكَة\", \"حَيَاتِيّ\", \"عَيْش\", \"مُؤَبّد\", \"نامّة\"]}",
+    "arabicAr": "حياة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 269,
+    "wordEn": "great",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 269,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɡɹeɪt",
+    "phoneticUk": "greɪt",
+    "phoneticAr": "جرايت",
+    "translit": "eazim",
+    "definitionEn": "[\"of an extent, amount, or intensity considerably above the normal or average.\", \"of ability, quality, or eminence considerably above the normal or average.\", \"indicate that someone or something particularly deserves a specified description.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a great big grin\", \"this has been another great year\", \"a brilliant man, great at mathematics\", \"we played awful, they played great\", \"you great oaf!\", \"a great crowd thronged the marketplace\", \"the great auk\", \"great-grandfather, great-great-grandfather, great-great-great-grandfather\", \"great with child\", \"great worry\"], \"A2\": [\"I was a great fan of Hank's\", \"wouldn't it be great to have him back?\"]}",
+    "collocations": "[\"great worry\", \"Great Scott\", \"a great dilemma\", \"a great decision\", \"great-grandfather, great-great-grandfather, great-great-great-grandfather\"]",
+    "synonyms": "[\"bully\", \"bang-up\", \"corking\", \"outstanding\", \"considerable\"]",
+    "antonyms": "[\"tiny\", \"ordinary\", \"lowly\"]",
+    "relatedWords": "{\"en\": [\"large\", \"big\", \"major\", \"heavy\", \"bang-up\"], \"ar\": [\"ضخم\", \"واسع\", \"ساحق\", \"مفعَم ب\", \"كبير\", \"عظيم\"]}",
+    "arabicAr": "عظيم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 270,
+    "wordEn": "where",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 270,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛə(ɹ)",
+    "phoneticUk": "weə",
+    "phoneticAr": "وايا",
+    "translit": "'ayn / ''ayn",
+    "definitionEn": "[\"in or to what place or position.\", \"at, in, or to which .\", \"the place or situation in which.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"sit where I can see you\", \"this is where I live\", \"where is she going?\", \"where does the argument lead?\"], \"A2\": [\"just where is all this leading us?\", \"where some caregivers burn out, others become too involved\"], \"B1\": [\"where people were concerned, his threshold of boredom was low\"], \"B2\": [\"do you see where the men in your life are emotionally unavailable to you?\"]}",
+    "collocations": "[\"Where did you come from\", \"select where\", \"where clauses\"]",
+    "synonyms": "[\"hence\", \"whence\", \"whither\", \"whereby\", \"wherever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"hence\", \"whither\", \"whence\", \"whereby\", \"wherever\"], \"ar\": [\"أين\", \"إلى أين\", \"أنّى\", \"أيْنَ\", \"أيْنَما\", \"حَيْث\"]}",
+    "arabicAr": "أين",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 271,
+    "wordEn": "where",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 271,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛə(ɹ)",
+    "phoneticUk": "weə",
+    "phoneticAr": "وايا",
+    "translit": "'ayn / ''ayn",
+    "definitionEn": "[\"in or to what place or position.\", \"at, in, or to which .\", \"the place or situation in which.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"sit where I can see you\", \"this is where I live\", \"where is she going?\", \"where does the argument lead?\"], \"A2\": [\"just where is all this leading us?\", \"where some caregivers burn out, others become too involved\"], \"B1\": [\"where people were concerned, his threshold of boredom was low\"], \"B2\": [\"do you see where the men in your life are emotionally unavailable to you?\"]}",
+    "collocations": "[\"Where did you come from\", \"select where\", \"where clauses\"]",
+    "synonyms": "[\"hence\", \"whence\", \"whither\", \"whereby\", \"wherever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"hence\", \"whither\", \"whence\", \"whereby\", \"wherever\"], \"ar\": [\"أين\", \"إلى أين\", \"أنّى\", \"أيْنَ\", \"أيْنَما\", \"حَيْث\"]}",
+    "arabicAr": "أين",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 272,
+    "wordEn": "case",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 272,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "keɪs",
+    "phoneticAr": "كايس",
+    "translit": "qadia",
+    "definitionEn": "[\"an instance of a particular situation; an example of something occurring.\", \"an instance of a disease or problem.\", \"a legal action, especially one to be decided in a court of law.\"]",
+    "usageNote": "used to transport an apparatus such as a sewing machine.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a case of mistaken identity\", \"Vicky was a very sad case\", \"the welfare office discussed Gerald's case\", \"a libel case\", \"the case against tobacco advertising\"], \"A2\": [\"a former employee brought the case against the council\", \"I'll make an exception in your case\", \"he placed the trumpet safely in its velvet-lined case\"]}",
+    "collocations": "[\"a door case a window case\", \"a single case of Bud Light\", \"such case\", \"case basis\"]",
+    "synonyms": "[\"event\", \"example\", \"lawsuit\", \"instance\", \"occurrence\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"event\", \"cause\", \"subject\", \"example\", \"eccentric\"], \"ar\": [\"إصَابَة\", \"أمْر\", \"بَيْت\", \"تابُوت\", \"جِرَاب\", \"حال\"]}",
+    "arabicAr": "قضية / حالة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 273,
+    "wordEn": "woman",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 273,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈwʊmɘn",
+    "phoneticUk": "ˈwʊmən",
+    "phoneticAr": "وومان",
+    "translit": "aimra'a / alnisa''",
+    "syllabify": "wom•an",
+    "definitionEn": "[\"an adult female human being.\", \"in nouns denoting a woman of a specified nationality or origin.\", \"An adult female person\"]",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"a daily woman\", \"don't be daft, woman!\", \"CNN's woman in Baghdad\", \"woman is intuitive\", \"a drawing of a young woman\"], \"A2\": [\"he wondered whether Billy had his woman with him\"], \"B1\": [\"a Princeton woman was recently named the Young Lawyer of the Year\"], \"B2\": [\"with that money, a woman could buy a house and put two kids through college\"]}",
+    "collocations": "[\"old woman\", \"woman relationship\"]",
+    "synonyms": "[\"char\", \"maid\", \"charwoman\", \"adult female\", \"cleaning woman\"]",
+    "antonyms": "[\"man\"]",
+    "relatedWords": "{\"en\": [\"girl\", \"gal\", \"maiden\", \"damsel\", \"female\"], \"ar\": [\"إمْرَأة\", \"أُنْثَوِيّ\", \"انْسانَة\", \"حُرْمَة\", \"سَيّدَة\", \"أُنْثَى\"]}",
+    "arabicAr": "امرأة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 274,
+    "wordEn": "seem",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 274,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "siːm",
+    "phoneticUk": "si:m",
+    "phoneticAr": "سيم",
+    "translit": "yabdu / bada",
+    "definitionEn": "[\"give the impression or sensation of being something or having a particular quality.\", \"To appear, or to appear to be\"]",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"I seem to remember giving you very precise instructions\", \"he couldn't seem to remember his lines\"], \"B1\": [\"it would seem that he has been fooling us all\"]}",
+    "collocations": "[\"stale seem\"]",
+    "synonyms": "[\"look\", \"appear\", \"appear to be\", \"give the impression of being\", \"have the appearance/air of being\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"appear\", \"look\", \"appearance\", \"consider\", \"suggest\"], \"ar\": [\"بان\", \"بَدَا\", \"بَرَز\", \"ظَهَر\", \"لاح\", \"يبدو\"]}",
+    "arabicAr": "يبدو",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 275,
+    "wordEn": "same",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 275,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "seɪm",
+    "phoneticAr": "سايم",
+    "translit": "nafs / nafsih",
+    "definitionEn": "[\"identical; not different.\", \"of an identical type; exactly similar.\", \"the same thing as something previously mentioned.\"]",
+    "usageNote": "Used to express the unity of an object or person which has various different descriptions or qualities.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"treating women the same as men\"], \"A2\": [\"they drank out of the same glass\", \"that same year I went to Boston\", \"I have never made the same mistake since\", \"he gave me five dollars, same as usual\"], \"B1\": [\"people will always notice if you wear the same shirt two days running\", \"there are several brands and they're not all the same\", \"he's worked at the same place for quite a few years\"]}",
+    "collocations": "[\"oral same\", \"same time\"]",
+    "synonyms": "[\"Lapp\", \"Sami\", \"Saami\", \"Lapplander\", \"the identical\"]",
+    "antonyms": "[\"other\", \"different\", \"unlike\"]",
+    "relatedWords": "{\"en\": [\"selfsame\", \"identical\", \"one and the same\", \"comparable\", \"equivalent\"], \"ar\": [\"نفسُه\", \"عينُهُ\", \"بالطريقة نفسها\", \"نفسه\", \"الشخص نفسه\", \"المذكور أنفا\"]}",
+    "arabicAr": "نفس",
+    "addedFromOxford": 0
+  }
+]

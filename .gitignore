@@ -1,0 +1,47 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*-key.json
+serviceAccount*.json
+google-cloud-key.json
+
+# Databases (local / generated)
+*.db
+*.sqlite
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Agent / AI tooling — local only, never committed
+AGENTS.md
+opencode.json
+opencode.jsonc
+.opencode/
+.claude/
+CLAUDE.md
+.ignore
+
+# Scratches / local notes
+.scratch/
+scratch/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

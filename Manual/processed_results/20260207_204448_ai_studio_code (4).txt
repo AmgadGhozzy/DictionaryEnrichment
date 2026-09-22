@@ -1,0 +1,2242 @@
+{
+  "wordEntries": [
+    {
+      "id": 5253,
+      "wordEn": "hostile",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈhɑstaɪl",
+      "phoneticUk": "ˈhɒstaɪl",
+      "phoneticAr": "هُوسْتَايْل",
+      "translit": "Edā'iyy / Mu'ādin",
+      "definitionEn": "Unfriendly; relating to an enemy; showing strong opposition.",
+      "definitionAr": "يعني حد واخد موقف عدائي، مش طايقك وممكن يهاجمك في أي لحظة، زي تصرفات الأعداء.",
+      "usageNote": "Used for people (hostile witness), environments (hostile terrain), or business (hostile takeover).",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Conflict",
+        "#War",
+        "#Personality"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Hostile\" قريبة من \"Host\" \"مضيف\".. بس ده \"Hostile\" يعني مضيف شرير أو عدو، عكس المضيف الكريم.",
+      "examples": {
+        "A1": "The dog was hostile to strangers.",
+        "A2": "They entered a hostile country during the war.",
+        "B1": "The crowd became hostile when the match was cancelled.",
+        "B2": "The company fought off a hostile takeover bid.",
+        "C1": "The desert environment is extremely hostile to life.",
+        "C2": "His speech contained a ferociously hostile attack on his critics."
+      },
+      "collocations": [
+        "hostile environment",
+        "hostile takeover",
+        "hostile forces",
+        "hostile attitude"
+      ],
+      "synonyms": [
+        "unfriendly",
+        "antagonistic",
+        "aggressive",
+        "opposed"
+      ],
+      "antonyms": [
+        "friendly",
+        "welcoming",
+        "hospitable"
+      ],
+      "relatedWords": {
+        "en": [
+          "hostility",
+          "enemy",
+          "aggression"
+        ],
+        "ar": [
+          "عداوة",
+          "عدو",
+          "عدوان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hostility",
+        "verb": "",
+        "adj": "hostile",
+        "adv": "hostilely"
+      },
+      "arabicAr": "عدائي / معاد",
+      "frenchFr": "hostile",
+      "germanDe": "feindselig",
+      "spanishEs": "hostil",
+      "chineseZh": "敌对 (Díduì)",
+      "russianRu": "враждебный",
+      "portuguesePt": "hostil",
+      "japaneseJa": "敵対的な (Tekitai-tekina)",
+      "italianIt": "ostile",
+      "turkishTr": "düşmanca",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5254,
+      "wordEn": "diamond",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈdaɪəmənd",
+      "phoneticUk": null,
+      "phoneticAr": "دَايْمُند",
+      "translit": "Māsī",
+      "definitionEn": "Made of or resembling a diamond; shaped like a rhombus.",
+      "definitionAr": "صفة بتوصف الحاجة اللي معمولة من الألماس أو اللي واخدة شكل المعين (زي ورق الكوتشينة).",
+      "usageNote": "Commonly used in 'diamond ring' or 'diamond shape'.",
+      "category": "Objects & Materials",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Jewelry",
+        "#Shapes",
+        "#Luxury"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Diamond\" بتفكرنا بـ \"Daim\" \"دايم\".. عشان هو حجر صلب وبيدوم للأبد.",
+      "examples": {
+        "A1": "She has a diamond ring.",
+        "A2": "The pattern has diamond shapes on it.",
+        "B1": "He bought a diamond necklace for her birthday.",
+        "B2": "The diamond industry is very profitable.",
+        "C1": "The drill bit has a diamond tip for cutting glass.",
+        "C2": "They celebrated their diamond wedding anniversary."
+      },
+      "collocations": [
+        "diamond ring",
+        "diamond shape",
+        "diamond mine",
+        "rough diamond"
+      ],
+      "synonyms": [
+        "rhomboid",
+        "precious stone",
+        "gem"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "gem",
+          "crystal",
+          "jewel"
+        ],
+        "ar": [
+          "جوهرة",
+          "كريستال",
+          "حجر كريم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "diamond",
+        "verb": "",
+        "adj": "diamond",
+        "adv": ""
+      },
+      "arabicAr": "ماسي",
+      "frenchFr": "de diamant",
+      "germanDe": "diamanten",
+      "spanishEs": "de diamante",
+      "chineseZh": "钻石的 (Zuànshí de)",
+      "russianRu": "алмазный",
+      "portuguesePt": "de diamante",
+      "japaneseJa": "ダイヤモンドの (Daiyamondo no)",
+      "italianIt": "di diamante",
+      "turkishTr": "elmas",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5255,
+      "wordEn": "diamond",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈdaɪəmənd",
+      "phoneticUk": null,
+      "phoneticAr": "دَايْمُند",
+      "translit": "Almās",
+      "definitionEn": "A very hard, precious, clear stone used in jewelry and cutting tools.",
+      "definitionAr": "الحجر الكريم اللي بيلمع وغالي جداً، وبنحطه في الخواتم والمجوهرات، وهو أصلب مادة طبيعية.",
+      "usageNote": "Also refers to the shape (rhombus) in playing cards.",
+      "category": "Objects & Materials",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Wealth",
+        "#Geology",
+        "#Fashion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Diamond\" بتفكرنا بـ \"Daim\" \"دايم\".. عشان هو حجر صلب وبيدوم للأبد.",
+      "examples": {
+        "A1": "This ring has a big diamond.",
+        "A2": "Diamonds are very expensive stones.",
+        "B1": "The thief stole a bag of diamonds.",
+        "B2": "Carbon turns into diamond under high pressure.",
+        "C1": "He is a rough diamond, unpolished but valuable.",
+        "C2": "The baseball field is often called a diamond."
+      },
+      "collocations": [
+        "diamond ring",
+        "blood diamond",
+        "diamond cutter",
+        "baseball diamond"
+      ],
+      "synonyms": [
+        "gem",
+        "jewel",
+        "brilliant"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "carat",
+          "clarity",
+          "cut"
+        ],
+        "ar": [
+          "قيراط",
+          "نقاء",
+          "قطع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "diamond",
+        "verb": "",
+        "adj": "diamond",
+        "adv": ""
+      },
+      "arabicAr": "ألماس",
+      "frenchFr": "diamant",
+      "germanDe": "Diamant",
+      "spanishEs": "diamante",
+      "chineseZh": "钻石 (Zuànshí)",
+      "russianRu": "алмаз",
+      "portuguesePt": "diamante",
+      "japaneseJa": "ダイヤモンド (Daiyamondo)",
+      "italianIt": "diamante",
+      "turkishTr": "elmas",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5256,
+      "wordEn": "medal",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmɛdl",
+      "phoneticUk": null,
+      "phoneticAr": "مِدَل",
+      "translit": "Mīdāliya",
+      "definitionEn": "A small metal disc given as a reward for bravery or winning a competition.",
+      "definitionAr": "القطعة المعدنية (دهب أو فضة) اللي بياخدها الفايز في المسابقات الرياضية أو التكريم العسكري.",
+      "usageNote": "Don't confuse with 'metal' (the material). You 'win' or are 'awarded' a medal.",
+      "category": "Sports & Hobbies",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Awards",
+        "#Sports",
+        "#Military"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Medal\" قريبة جداً من \"Metal\" \"معدن\".. لأن الميدالية أصلاً حتة معدن.",
+      "examples": {
+        "A1": "He won a gold medal.",
+        "A2": "She wears her medal on a ribbon.",
+        "B1": "The soldiers received medals for bravery.",
+        "B2": "Winning an Olympic medal is every athlete's dream.",
+        "C1": "The general was decorated with numerous medals.",
+        "C2": "The commemorative medal was struck to mark the centenary."
+      },
+      "collocations": [
+        "gold medal",
+        "silver medal",
+        "bronze medal",
+        "award a medal"
+      ],
+      "synonyms": [
+        "award",
+        "decoration",
+        "medallion"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "trophy",
+          "prize",
+          "winner"
+        ],
+        "ar": [
+          "كأس",
+          "جائزة",
+          "فائز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "medal",
+        "verb": "medal",
+        "adj": "medaled",
+        "adv": ""
+      },
+      "arabicAr": "ميدالية",
+      "frenchFr": "médaille",
+      "germanDe": "Medaille",
+      "spanishEs": "medalla",
+      "chineseZh": "奖牌 (Jiǎngpái)",
+      "russianRu": "медаль",
+      "portuguesePt": "medalha",
+      "japaneseJa": "メダル (Medaru)",
+      "italianIt": "medaglia",
+      "turkishTr": "madalya",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5257,
+      "wordEn": "nightmare",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈnaɪtˌmɛr",
+      "phoneticUk": "ˈnaɪtmeə",
+      "phoneticAr": "نَايْتْ-مِير",
+      "translit": "Kābūs",
+      "definitionEn": "A frightening or unpleasant dream; a very difficult situation.",
+      "definitionAr": "الحلم الوحش اللي بيخليك تصحى مخضوض، أو أي موقف صعب جداً ومزعج بتقول عليه كابوس.",
+      "usageNote": "Can be literal (sleep) or metaphorical (bad situation: 'The traffic was a nightmare').",
+      "category": "Health & Senses",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Sleep",
+        "#Fear",
+        "#Idioms"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Night\" \"ليل\" + \"Mare\" \"فرس\".. زمان كانوا فاكرين الكابوس عفريت بيجي بالليل يركب على صدر النايم.",
+      "examples": {
+        "A1": "I had a bad nightmare last night.",
+        "A2": "The movie gave me nightmares.",
+        "B1": "Losing my passport was a total nightmare.",
+        "B2": "The traffic jam turned the trip into a nightmare.",
+        "C1": "The logistical nightmare of organizing the event was overwhelming.",
+        "C2": "The war remains a recurring nightmare for the survivors."
+      },
+      "collocations": [
+        "worst nightmare",
+        "recurring nightmare",
+        "logistical nightmare",
+        "waking nightmare"
+      ],
+      "synonyms": [
+        "bad dream",
+        "ordeal",
+        "horror"
+      ],
+      "antonyms": [
+        "dream",
+        "delight"
+      ],
+      "relatedWords": {
+        "en": [
+          "dream",
+          "sleep",
+          "terror"
+        ],
+        "ar": [
+          "حلم",
+          "نوم",
+          "رعب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "nightmare",
+        "verb": "",
+        "adj": "nightmarish",
+        "adv": ""
+      },
+      "arabicAr": "كابوس",
+      "frenchFr": "cauchemar",
+      "germanDe": "Albtraum",
+      "spanishEs": "pesadilla",
+      "chineseZh": "噩梦 (Èmèng)",
+      "russianRu": "кошмар",
+      "portuguesePt": "pesadelo",
+      "japaneseJa": "悪夢 (Akumu)",
+      "italianIt": "incubo",
+      "turkishTr": "kabus",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5258,
+      "wordEn": "technological",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌtɛknəˈlɑdʒɪkəl",
+      "phoneticUk": "ˌteknəˈlɒdʒɪkl",
+      "phoneticAr": "تِكْنُولُوجِيكَل",
+      "translit": "Tiknūlūjī",
+      "definitionEn": "Relating to or using technology and scientific methods.",
+      "definitionAr": "أي حاجة ليها علاقة بالتكنولوجيا والأجهزة الحديثة والتطور العلمي.",
+      "usageNote": "Used for advancements, eras, or tools (e.g., 'technological progress').",
+      "category": "Science & Technology",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Innovation",
+        "#Computers",
+        "#Modern"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية طبعاً من كلمة \"Technology\".. سهلة ومش محتاجة حفظ.",
+      "examples": {
+        "A1": "We live in a technological world.",
+        "A2": "Technological tools help us learn.",
+        "B1": "The technological changes in the last decade are huge.",
+        "B2": "Japan is known for its technological advancements.",
+        "C1": "Technological obsolescence is a major problem for hardware.",
+        "C2": "The singularity represents a hypothetical future point of technological growth."
+      },
+      "collocations": [
+        "technological advancement",
+        "technological change",
+        "technological innovation",
+        "technological breakthrough"
+      ],
+      "synonyms": [
+        "technical",
+        "hi-tech",
+        "digital"
+      ],
+      "antonyms": [
+        "traditional",
+        "manual"
+      ],
+      "relatedWords": {
+        "en": [
+          "technology",
+          "technique",
+          "technician"
+        ],
+        "ar": [
+          "تكنولوجيا",
+          "تقنية",
+          "فني"
+        ]
+      },
+      "wordFamily": {
+        "noun": "technology",
+        "verb": "",
+        "adj": "technological",
+        "adv": "technologically"
+      },
+      "arabicAr": "تكنولوجي",
+      "frenchFr": "technologique",
+      "germanDe": "technologisch",
+      "spanishEs": "tecnológico",
+      "chineseZh": "技术的 (Jìshù de)",
+      "russianRu": "технологический",
+      "portuguesePt": "tecnológico",
+      "japaneseJa": "技術的な (Gijutsuteki-na)",
+      "italianIt": "tecnologico",
+      "turkishTr": "teknolojik",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5259,
+      "wordEn": "accounting",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "əˈkaʊntɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "أَكَاوْنْتِينْج",
+      "translit": "Muḥāsaba",
+      "definitionEn": "The process of keeping and checking financial records.",
+      "definitionAr": "الشغلانة اللي بتهتم بحساب الفلوس والميزانيات في الشركات، وتسجيل كل مليم داخل وخارج.",
+      "usageNote": "Often refers to the department or the profession.",
+      "category": "Work & Business",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Finance",
+        "#Business",
+        "#Money"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Account\" \"حساب\".. يعني علم الحسابات.",
+      "examples": {
+        "A1": "He works in accounting.",
+        "A2": "Accounting is about numbers and money.",
+        "B1": "She is studying accounting at the university.",
+        "B2": "The accounting department handles the payroll.",
+        "C1": "Creative accounting was used to hide the losses.",
+        "C2": "Forensic accounting helps investigate financial fraud."
+      },
+      "collocations": [
+        "accounting firm",
+        "accounting system",
+        "accounting period",
+        "creative accounting"
+      ],
+      "synonyms": [
+        "accountancy",
+        "bookkeeping",
+        "auditing"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "accountant",
+          "account",
+          "audit"
+        ],
+        "ar": [
+          "محاسب",
+          "حساب",
+          "تدقيق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "accounting",
+        "verb": "account",
+        "adj": "accountable",
+        "adv": ""
+      },
+      "arabicAr": "محاسبة",
+      "frenchFr": "comptabilité",
+      "germanDe": "Buchhaltung",
+      "spanishEs": "contabilidad",
+      "chineseZh": "会计 (Kuàijì)",
+      "russianRu": "бухгалтерский учет",
+      "portuguesePt": "contabilidade",
+      "japaneseJa": "会計 (Kaikei)",
+      "italianIt": "contabilità",
+      "turkishTr": "muhasebe",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5260,
+      "wordEn": "peaceful",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈpisfəl",
+      "phoneticUk": null,
+      "phoneticAr": "بِيسْفُل",
+      "translit": "Silmī / Hādi'",
+      "definitionEn": "Free from disturbance; tranquil; not involving war.",
+      "definitionAr": "يعني هادي ومسالم، مفيش فيه عنف أو دوشة ومشاكل، زي مكان هادي أو شخص طيب.",
+      "usageNote": "Can describe a place (quiet), a time (no war), or a person (non-violent).",
+      "category": "Feelings & Emotions",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Calm",
+        "#Peace",
+        "#Atmosphere"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من كلمة \"Peace\" \"سلام\".. واللاحقة \"ful\" يعني مليان سلام.",
+      "examples": {
+        "A1": "It is a peaceful village.",
+        "A2": "We want a peaceful solution.",
+        "B1": "The demonstration was largely peaceful.",
+        "B2": "He died in his sleep, a peaceful death.",
+        "C1": "They advocated for the peaceful resolution of the conflict.",
+        "C2": "The era was characterized by peaceful coexistence between the tribes."
+      },
+      "collocations": [
+        "peaceful protest",
+        "peaceful solution",
+        "peaceful life",
+        "peaceful place"
+      ],
+      "synonyms": [
+        "calm",
+        "tranquil",
+        "serene",
+        "non-violent"
+      ],
+      "antonyms": [
+        "violent",
+        "noisy",
+        "chaotic"
+      ],
+      "relatedWords": {
+        "en": [
+          "peace",
+          "pacify",
+          "peacefully"
+        ],
+        "ar": [
+          "سلام",
+          "تهدئة",
+          "بسلام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "peace",
+        "verb": "pacify",
+        "adj": "peaceful",
+        "adv": "peacefully"
+      },
+      "arabicAr": "سلمي / هادئ",
+      "frenchFr": "paisible",
+      "germanDe": "friedlich",
+      "spanishEs": "pacífico",
+      "chineseZh": "和平的 (Hépíng de)",
+      "russianRu": "мирный",
+      "portuguesePt": "pacífico",
+      "japaneseJa": "平和な (Heiwa-na)",
+      "italianIt": "pacifico",
+      "turkishTr": "huzurlu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5261,
+      "wordEn": "horrible",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈhɔrəbəl",
+      "phoneticUk": "ˈhɒrəbl",
+      "phoneticAr": "هُورِيبَل",
+      "translit": "Faẓī' / Rahīb",
+      "definitionEn": "Causing horror; very unpleasant or bad.",
+      "definitionAr": "حاجة وحشة جداً أو فظيعة لدرجة إنها تخليك مشمئز أو خايف، وممكن تتقال على طعم أكل وحش.",
+      "usageNote": "Stronger than 'bad'. Can be used for serious things (crime) or trivial things (weather/food).",
+      "category": "Feelings & Emotions",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Fear",
+        "#Dislike",
+        "#Bad"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"Horror\" \"رعب\".. حاجة مرعبة وفظيعة.",
+      "examples": {
+        "A1": "The weather is horrible today.",
+        "A2": "That was a horrible accident.",
+        "B1": "I have a horrible feeling that I forgot something.",
+        "B2": "He committed a horrible crime.",
+        "C1": "The conditions in the prison were absolutely horrible.",
+        "C2": "She recounted the horrible details of her ordeal."
+      },
+      "collocations": [
+        "horrible accident",
+        "horrible smell",
+        "horrible crime",
+        "horrible feeling"
+      ],
+      "synonyms": [
+        "terrible",
+        "awful",
+        "dreadful",
+        "frightful"
+      ],
+      "antonyms": [
+        "wonderful",
+        "pleasant",
+        "lovely"
+      ],
+      "relatedWords": {
+        "en": [
+          "horror",
+          "horrify",
+          "horribly"
+        ],
+        "ar": [
+          "رعب",
+          "يرعب",
+          "بشكل فظيع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "horror",
+        "verb": "horrify",
+        "adj": "horrible",
+        "adv": "horribly"
+      },
+      "arabicAr": "فظيع / رهيب",
+      "frenchFr": "horrible",
+      "germanDe": "schrecklich",
+      "spanishEs": "horrible",
+      "chineseZh": "可怕的 (Kěpà de)",
+      "russianRu": "ужасный",
+      "portuguesePt": "horrível",
+      "japaneseJa": "恐ろしい (Osoroshii)",
+      "italianIt": "orribile",
+      "turkishTr": "korkunç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5262,
+      "wordEn": "monster",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈmɑnstər",
+      "phoneticUk": "ˈmɒnstə",
+      "phoneticAr": "مُونْسْتَر",
+      "translit": "Waḥsh",
+      "definitionEn": "An imaginary frightening creature; a cruel person.",
+      "definitionAr": "كائن خيالي مخيف وضخم، زي الوحوش اللي بنشوفها في أفلام الرعب، أو وصف لشخص قاسي جداً.",
+      "usageNote": "Can be used affectionately for naughty children ('You little monster').",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Fantasy",
+        "#Fear",
+        "#Creatures"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Mon\" \"مان\".. ده مش \"Man\" ده \"Monster\" وحش.",
+      "examples": {
+        "A1": "The monster lived under the bed.",
+        "A2": "I saw a movie about a sea monster.",
+        "B1": "Stop acting like a monster.",
+        "B2": "Frankenstein's monster is a famous character.",
+        "C1": "He was described as a depraved monster by the judge.",
+        "C2": "Jealousy is the green-eyed monster that destroys relationships."
+      },
+      "collocations": [
+        "sea monster",
+        "little monster",
+        "create a monster",
+        "monster hit"
+      ],
+      "synonyms": [
+        "beast",
+        "fiend",
+        "giant",
+        "brute"
+      ],
+      "antonyms": [
+        "angel",
+        "hero"
+      ],
+      "relatedWords": {
+        "en": [
+          "monstrous",
+          "monstrosity"
+        ],
+        "ar": [
+          "وحشي",
+          "مسخ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "monster",
+        "verb": "",
+        "adj": "monstrous",
+        "adv": "monstrously"
+      },
+      "arabicAr": "وحش",
+      "frenchFr": "monstre",
+      "germanDe": "Monster",
+      "spanishEs": "monstruo",
+      "chineseZh": "怪物 (Guàiwù)",
+      "russianRu": "монстр",
+      "portuguesePt": "monstro",
+      "japaneseJa": "怪物 (Kaibutsu)",
+      "italianIt": "mostro",
+      "turkishTr": "canavar",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5263,
+      "wordEn": "scatter",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈskætər",
+      "phoneticUk": "ˈskætə",
+      "phoneticAr": "سْكَاتَر",
+      "translit": "Yuba'thir / Yataba'thar",
+      "definitionEn": "To throw in various random directions; to separate and move apart.",
+      "definitionAr": "يعني ترمي حاجات كتير في اتجاهات مختلفة وتفرقهم عن بعض، أو الناس لما تجري وتبعد عن بعض.",
+      "usageNote": "Can be transitive (you scatter seeds) or intransitive (the crowd scattered).",
+      "category": "Actions & Processes",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Movement",
+        "#Chaos",
+        "#Separation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Scatter\" قريبة من \"Shatter\" \"يحطم\".. لما الحاجة تتكسر وتتبعثر حتت صغيرة.",
+      "examples": {
+        "A1": "Scatter the seeds on the ground.",
+        "A2": "The birds scattered when the cat jumped.",
+        "B1": "The explosion scattered debris everywhere.",
+        "B2": "The police used tear gas to scatter the protesters.",
+        "C1": "His belongings were scattered across the room in chaos.",
+        "C2": "The light is scattered by particles in the atmosphere."
+      },
+      "collocations": [
+        "scatter seeds",
+        "scatter the crowd",
+        "scattered showers",
+        "scatter cushion"
+      ],
+      "synonyms": [
+        "disperse",
+        "spread",
+        "strew",
+        "diffuse"
+      ],
+      "antonyms": [
+        "gather",
+        "collect",
+        "assemble"
+      ],
+      "relatedWords": {
+        "en": [
+          "scattering",
+          "scattered"
+        ],
+        "ar": [
+          "بعثرة",
+          "مبعثر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scattering",
+        "verb": "scatter",
+        "adj": "scattered",
+        "adv": ""
+      },
+      "arabicAr": "مبعثر / تبعثر",
+      "frenchFr": "disperser",
+      "germanDe": "verstreuen",
+      "spanishEs": "esparcir",
+      "chineseZh": "分散 (Fēnsàn)",
+      "russianRu": "разбрасывать",
+      "portuguesePt": "espalhar",
+      "japaneseJa": "まき散らす (Makichirasu)",
+      "italianIt": "spargere",
+      "turkishTr": "dağıtmak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5264,
+      "wordEn": "accessible",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "əkˈsɛsəbəl",
+      "phoneticUk": "əkˈsesəbl",
+      "phoneticAr": "أَكْسِسِبَل",
+      "translit": "Yumkin al-wuṣūl 'ilayhi",
+      "definitionEn": "Able to be reached, entered, or understood.",
+      "definitionAr": "يعني سهل توصله أو تدخل عليه، سواء مكان سهل تروحه، أو موقع نت مفتوح، أو معلومة سهلة الفهم.",
+      "usageNote": "Often used regarding disabilities (wheelchair accessible) or ease of understanding (accessible language).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Availability",
+        "#Ease",
+        "#Inclusion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Access\" \"دخول\".. يعني تقدر تعمله Access بسهولة.",
+      "examples": {
+        "A1": "The park is accessible by bus.",
+        "A2": "Is the building accessible for wheelchairs?",
+        "B1": "Information should be accessible to everyone.",
+        "B2": "The manager is very accessible and easy to talk to.",
+        "C1": "He writes in a style that is accessible to a wide audience.",
+        "C2": "The remote village is only accessible by helicopter in winter."
+      },
+      "collocations": [
+        "easily accessible",
+        "wheelchair accessible",
+        "accessible information",
+        "publicly accessible"
+      ],
+      "synonyms": [
+        "reachable",
+        "available",
+        "attainable",
+        "approachable"
+      ],
+      "antonyms": [
+        "inaccessible",
+        "unreachable",
+        "restricted"
+      ],
+      "relatedWords": {
+        "en": [
+          "access",
+          "accessibility",
+          "accession"
+        ],
+        "ar": [
+          "دخول",
+          "إمكانية الوصول",
+          "انضمام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "accessibility",
+        "verb": "access",
+        "adj": "accessible",
+        "adv": "accessibly"
+      },
+      "arabicAr": "يمكن الوصول إليها",
+      "frenchFr": "accessible",
+      "germanDe": "zugänglich",
+      "spanishEs": "accesible",
+      "chineseZh": "可进入的 (Kě jìnrù de)",
+      "russianRu": "доступный",
+      "portuguesePt": "acessível",
+      "japaneseJa": "アクセス可能な (Akusesu kanō-na)",
+      "italianIt": "accessibile",
+      "turkishTr": "erişilebilir",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5265,
+      "wordEn": "chaos",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈkeɪɑs",
+      "phoneticUk": "ˈkeɪɒs",
+      "phoneticAr": "كَايْ-أُوس",
+      "translit": "Fawḍā",
+      "definitionEn": "Complete disorder and confusion.",
+      "definitionAr": "حالة الفوضى التامة لما كل حاجة تكون ملخبطة ومفيش نظام خالص، زي الزحمة أو وقت الكوارث.",
+      "usageNote": "Pronounced with a 'K' sound (Kay-os). Never 'Ch'.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Disorder",
+        "#Confusion",
+        "#Trouble"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "النطق \"K-os\".. زي \"كوسة\".. لما الدنيا تبقى كوسة بتبقى فوضى.",
+      "examples": {
+        "A1": "The room was in chaos.",
+        "A2": "Snow caused chaos on the roads.",
+        "B1": "The meeting ended in total chaos.",
+        "B2": "The country descended into political chaos.",
+        "C1": "Quantum physics deals with order and chaos.",
+        "C2": "The chaos theory explains unpredictable behavior in systems."
+      },
+      "collocations": [
+        "utter chaos",
+        "descend into chaos",
+        "chaos theory",
+        "cause chaos"
+      ],
+      "synonyms": [
+        "disorder",
+        "confusion",
+        "mayhem",
+        "bedlam"
+      ],
+      "antonyms": [
+        "order",
+        "calm",
+        "organization"
+      ],
+      "relatedWords": {
+        "en": [
+          "chaotic",
+          "chaotically"
+        ],
+        "ar": [
+          "فوضوي",
+          "بفوضوية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "chaos",
+        "verb": "",
+        "adj": "chaotic",
+        "adv": "chaotically"
+      },
+      "arabicAr": "فوضى",
+      "frenchFr": "chaos",
+      "germanDe": "Chaos",
+      "spanishEs": "caos",
+      "chineseZh": "混乱 (Hùnluàn)",
+      "russianRu": "хаос",
+      "portuguesePt": "caos",
+      "japaneseJa": "混沌 (Konton)",
+      "italianIt": "caos",
+      "turkishTr": "kaos",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5266,
+      "wordEn": "nonsense",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈnɑnsɛns",
+      "phoneticUk": "ˈnɒnsəns",
+      "phoneticAr": "نُونْسِنس",
+      "translit": "Hurā' / Kalām fārigh",
+      "definitionEn": "Words or ideas that have no meaning or make no sense.",
+      "definitionAr": "كلام فارغ ملوش أي معنى أو منطق، يعني \"هجص\" أو تخاريف.",
+      "usageNote": "Can be used to dismiss an idea ('That's nonsense!') or describe silly behavior.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Speech",
+        "#Logic",
+        "#Disagreement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Non\" \"لا\" + \"Sense\" \"منطق\".. يعني كلام ملوش منطق.",
+      "examples": {
+        "A1": "Stop talking nonsense.",
+        "A2": "That is absolute nonsense!",
+        "B1": "I won't put up with this nonsense anymore.",
+        "B2": "The instructions were complete nonsense to me.",
+        "C1": "He dismissed the allegations as pure nonsense.",
+        "C2": "The poem was a delightful piece of literary nonsense."
+      },
+      "collocations": [
+        "absolute nonsense",
+        "talk nonsense",
+        "nonsense verse",
+        "pure nonsense"
+      ],
+      "synonyms": [
+        "rubbish",
+        "baloney",
+        "gibberish",
+        "absurdity"
+      ],
+      "antonyms": [
+        "sense",
+        "wisdom",
+        "logic"
+      ],
+      "relatedWords": {
+        "en": [
+          "nonsensical",
+          "sense",
+          "sensible"
+        ],
+        "ar": [
+          "لا منطقي",
+          "منطق",
+          "عاقل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "nonsense",
+        "verb": "",
+        "adj": "nonsensical",
+        "adv": "nonsensically"
+      },
+      "arabicAr": "هراء",
+      "frenchFr": "bêtises",
+      "germanDe": "Unsinn",
+      "spanishEs": "tonterías",
+      "chineseZh": "废话 (Fèihuà)",
+      "russianRu": "чепуха",
+      "portuguesePt": "absurdo",
+      "japaneseJa": "ナンセンス (Nansensu)",
+      "italianIt": "sciocchezze",
+      "turkishTr": "saçmalık",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5267,
+      "wordEn": "advocate",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈædvəkət",
+      "phoneticUk": null,
+      "phoneticAr": "أَدْفُوكَت",
+      "translit": "Muḥāmin / Mudāfi'",
+      "definitionEn": "A person who publicly supports or recommends a particular cause or policy.",
+      "definitionAr": "الشخص اللي بيدافع عن فكرة أو قضية أو شخص تاني، زي المحامي أو الناشط الحقوقي.",
+      "usageNote": "Pronunciation difference: Noun ends in /-kət/, Verb ends in /-keɪt/.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Law",
+        "#Politics",
+        "#Support"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "\"Ad\" + \"Vocal\".. يعني بيعلي صوته عشان يدافع عن قضية.",
+      "examples": {
+        "A1": "He is a peace advocate.",
+        "A2": "She is an advocate for animals.",
+        "B1": "The group are advocates of prison reform.",
+        "B2": "He works as a patient advocate in the hospital.",
+        "C1": "She is a staunch advocate of free speech.",
+        "C2": "The devil's advocate argued the opposing view for debate sake."
+      },
+      "collocations": [
+        "strong advocate",
+        "devil's advocate",
+        "consumer advocate",
+        "advocate for"
+      ],
+      "synonyms": [
+        "supporter",
+        "proponent",
+        "champion",
+        "backer"
+      ],
+      "antonyms": [
+        "critic",
+        "opponent",
+        "adversary"
+      ],
+      "relatedWords": {
+        "en": [
+          "advocacy",
+          "advocate"
+        ],
+        "ar": [
+          "دفاع",
+          "يؤيد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "advocate",
+        "verb": "advocate",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "محام / مدافع",
+      "frenchFr": "avocat",
+      "germanDe": "Fürsprecher",
+      "spanishEs": "defensor",
+      "chineseZh": "拥护者 (Yōnghùzhě)",
+      "russianRu": "защитник",
+      "portuguesePt": "defensor",
+      "japaneseJa": "提唱者 (Teishōsha)",
+      "italianIt": "sostenitore",
+      "turkishTr": "savunucu",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5268,
+      "wordEn": "advocate",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈædvəkeɪt",
+      "phoneticUk": null,
+      "phoneticAr": "أَدْفُوكَايْت",
+      "translit": "Yudāfi' 'an",
+      "definitionEn": "To publicly recommend or support.",
+      "definitionAr": "إنك تأيد وتدعم فكرة معينة وتطالب الناس ينفذوها علناً.",
+      "usageNote": "Pronunciation difference: Noun ends in /-kət/, Verb ends in /-keɪt/.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Support",
+        "#Politics",
+        "#Influence"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "\"Ad\" + \"Vocal\".. يعني بيعلي صوته عشان يدافع عن قضية.",
+      "examples": {
+        "A1": "They advocate healthy eating.",
+        "A2": "He advocates for better schools.",
+        "B1": "The doctor advocates a strict diet.",
+        "B2": "The organization advocates human rights.",
+        "C1": "Many experts advocate rewarding your child for good behavior.",
+        "C2": "The report advocated that all buildings be fitted with smoke detectors."
+      },
+      "collocations": [
+        "advocate violence",
+        "strongly advocate",
+        "advocate reform",
+        "advocate a policy"
+      ],
+      "synonyms": [
+        "recommend",
+        "support",
+        "urge",
+        "promote"
+      ],
+      "antonyms": [
+        "oppose",
+        "criticize",
+        "reject"
+      ],
+      "relatedWords": {
+        "en": [
+          "advocacy",
+          "advocate"
+        ],
+        "ar": [
+          "مناصرة",
+          "مناصر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "advocacy",
+        "verb": "advocate",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يدافع عن",
+      "frenchFr": "préconiser",
+      "germanDe": "befürworten",
+      "spanishEs": "abogar por",
+      "chineseZh": "提倡 (Tíchàng)",
+      "russianRu": "отстаивать",
+      "portuguesePt": "defender",
+      "japaneseJa": "提唱する (Teishō suru)",
+      "italianIt": "sostenere",
+      "turkishTr": "savunmak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5269,
+      "wordEn": "bureau",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈbjʊroʊ",
+      "phoneticUk": "ˈbjʊərəʊ",
+      "phoneticAr": "بْيُورُو",
+      "translit": "Maktab",
+      "definitionEn": "An office or department for transacting particular business; a writing desk.",
+      "definitionAr": "مكتب حكومي أو قسم في مؤسسة مسؤول عن حاجة معينة، وأحياناً بيتقال على مكتب الكتابة اللي فيه أدراج.",
+      "usageNote": "Often implies officialdom (FBI = Federal Bureau of Investigation).",
+      "category": "Work & Business",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Government",
+        "#Office",
+        "#Furniture"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Bureau\" بتفكرنا بـ \"بيروقراطية\".. اللي هي شغل المكاتب والروتين.",
+      "examples": {
+        "A1": "He works at a travel bureau.",
+        "A2": "The information bureau is open.",
+        "B1": "They contacted the Citizens Advice Bureau.",
+        "B2": "The Federal Bureau of Investigation is famous.",
+        "C1": "The bureau chief issued a statement.",
+        "C2": "She sat at the antique bureau to write her letters."
+      },
+      "collocations": [
+        "news bureau",
+        "travel bureau",
+        "weather bureau",
+        "bureau chief"
+      ],
+      "synonyms": [
+        "agency",
+        "office",
+        "department",
+        "desk"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "bureaucracy",
+          "bureaucrat"
+        ],
+        "ar": [
+          "بيروقراطية",
+          "بيروقراطي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bureau",
+        "verb": "",
+        "adj": "bureaucratic",
+        "adv": ""
+      },
+      "arabicAr": "مكتب",
+      "frenchFr": "bureau",
+      "germanDe": "Büro",
+      "spanishEs": "oficina",
+      "chineseZh": "局 (Jú)",
+      "russianRu": "бюро",
+      "portuguesePt": "agência",
+      "japaneseJa": "局 (Kyoku)",
+      "italianIt": "ufficio",
+      "turkishTr": "büro",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5270,
+      "wordEn": "chin",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "2",
+      "phoneticUs": "tʃɪn",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِن",
+      "translit": "Dhaqn",
+      "definitionEn": "The protruding part of the face below the mouth.",
+      "definitionAr": "منطقة الدقن اللي في وشك تحت بوقك.",
+      "usageNote": "Idiom: 'Keep your chin up' means stay positive.",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Body",
+        "#Face",
+        "#Anatomy"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Chin\" قريبة من \"Cheek\".. الاتنين في الوش.",
+      "examples": {
+        "A1": "He has a small chin.",
+        "A2": "She rested her chin on her hand.",
+        "B1": "He rubbed the stubble on his chin.",
+        "B2": "Keep your chin up, things will get better.",
+        "C1": "The boxer took a heavy blow to the chin.",
+        "C2": "He has a prominent, cleft chin."
+      },
+      "collocations": [
+        "double chin",
+        "cleft chin",
+        "keep your chin up",
+        "stroke one's chin"
+      ],
+      "synonyms": [
+        "jaw",
+        "mentum"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "jaw",
+          "face",
+          "cheek"
+        ],
+        "ar": [
+          "فك",
+          "وجه",
+          "خد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "chin",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ذقن",
+      "frenchFr": "menton",
+      "germanDe": "Kinn",
+      "spanishEs": "barbilla",
+      "chineseZh": "下巴 (Xiàba)",
+      "russianRu": "подбородок",
+      "portuguesePt": "queixo",
+      "japaneseJa": "顎 (Ago)",
+      "italianIt": "mento",
+      "turkishTr": "çene",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5271,
+      "wordEn": "frustration",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "frʌˈstreɪʃən",
+      "phoneticUk": "frʌsˈtreɪʃən",
+      "phoneticAr": "فْرَسْتْرَايْشَن",
+      "translit": "Iḥbāṭ",
+      "definitionEn": "The feeling of being upset or annoyed as a result of being unable to change or achieve something.",
+      "definitionAr": "الإحساس بالخنقة والضيق لما تحاول تعمل حاجة وتفشل أو متعرفش تكملها، أو لما حاجة توقفك.",
+      "usageNote": "Can refer to the feeling OR the thing causing it.",
+      "category": "Feelings & Emotions",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Anger",
+        "#Failure",
+        "#Stress"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Frustrated\" \"محبط\".. لما تكون \"Fried\" \"مستوي\" من كتر المحاولات.",
+      "examples": {
+        "A1": "He cried out of frustration.",
+        "A2": "I understand your frustration.",
+        "B1": "She sighed in frustration at the delay.",
+        "B2": "The constant noise added to his frustration.",
+        "C1": "There is a growing sense of frustration among the voters.",
+        "C2": "The frustration of his ambitions led to bitterness."
+      },
+      "collocations": [
+        "out of frustration",
+        "growing frustration",
+        "vent one's frustration",
+        "sexual frustration"
+      ],
+      "synonyms": [
+        "annoyance",
+        "exasperation",
+        "disappointment",
+        "dissatisfaction"
+      ],
+      "antonyms": [
+        "satisfaction",
+        "contentment",
+        "fulfillment"
+      ],
+      "relatedWords": {
+        "en": [
+          "frustrate",
+          "frustrated",
+          "frustrating"
+        ],
+        "ar": [
+          "يحبط",
+          "محبط",
+          "محبط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "frustration",
+        "verb": "frustrate",
+        "adj": "frustrated",
+        "adv": "frustratingly"
+      },
+      "arabicAr": "إحباط",
+      "frenchFr": "frustration",
+      "germanDe": "Frustration",
+      "spanishEs": "frustración",
+      "chineseZh": "挫折 (Cuòzhé)",
+      "russianRu": "разочарование",
+      "portuguesePt": "frustração",
+      "japaneseJa": "欲求不満 (Yokkyūfuman)",
+      "italianIt": "frustrazione",
+      "turkishTr": "hayal kırıklığı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5272,
+      "wordEn": "humanity",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "hjuˈmænɪti",
+      "phoneticUk": "hjuːˈmænəti",
+      "phoneticAr": "هْيُومَانِيتِي",
+      "translit": "Insāniyya",
+      "definitionEn": "The human race; the quality of being humane and kind.",
+      "definitionAr": "البشرية كلها، أو صفة الإنسانية والرحمة اللي عند الناس.",
+      "usageNote": "Two meanings: 1. All people. 2. Kindness/Compassion.",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#People",
+        "#Society",
+        "#Ethics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Human\" \"إنسان\".. \"Humanity\" هي الإنسانية كلها.",
+      "examples": {
+        "A1": "We are all part of humanity.",
+        "A2": "Crimes against humanity are terrible.",
+        "B1": "Music is a language common to all humanity.",
+        "B2": "He showed great humanity towards the prisoners.",
+        "C1": "The future of humanity depends on protecting the environment.",
+        "C2": "She studied the humanities at university."
+      },
+      "collocations": [
+        "crimes against humanity",
+        "sense of humanity",
+        "common humanity",
+        "service to humanity"
+      ],
+      "synonyms": [
+        "mankind",
+        "humankind",
+        "compassion",
+        "kindness"
+      ],
+      "antonyms": [
+        "inhumanity",
+        "cruelty"
+      ],
+      "relatedWords": {
+        "en": [
+          "human",
+          "humane",
+          "humanism"
+        ],
+        "ar": [
+          "إنسان",
+          "رحيم",
+          "نزعة إنسانية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "humanity",
+        "verb": "humanize",
+        "adj": "human",
+        "adv": "humanly"
+      },
+      "arabicAr": "الإنسانية",
+      "frenchFr": "humanité",
+      "germanDe": "Menschheit",
+      "spanishEs": "humanidad",
+      "chineseZh": "人类 (Rénlèi)",
+      "russianRu": "человечество",
+      "portuguesePt": "humanidade",
+      "japaneseJa": "人類 (Jinrui)",
+      "italianIt": "umanità",
+      "turkishTr": "insanlık",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5273,
+      "wordEn": "evil",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈivəl",
+      "phoneticUk": "ˈiːvl",
+      "phoneticAr": "إِيفَل",
+      "translit": "Sharīr",
+      "definitionEn": "Profoundly immoral and wicked.",
+      "definitionAr": "وصف للشخص الشرير جداً اللي نيتة سودة وبيأذي الناس، أو الأفعال اللي مفيهاش أي أخلاق.",
+      "usageNote": "Stronger than 'bad'. Implies malice.",
+      "category": "Actions & Processes",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Morality",
+        "#Religion",
+        "#Bad"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Evil\" لو عكست حروفها تبقى \"Live\".. الشر هو عكس الحياة.",
+      "examples": {
+        "A1": "The witch was evil.",
+        "A2": "He has an evil laugh.",
+        "B1": "They fought against the evil empire.",
+        "B2": "Racism is an evil ideology.",
+        "C1": "He gave me an evil look.",
+        "C2": "The novel explores the banality of evil."
+      },
+      "collocations": [
+        "evil spirit",
+        "evil eye",
+        "evil deed",
+        "necessary evil"
+      ],
+      "synonyms": [
+        "wicked",
+        "bad",
+        "vile",
+        "immoral"
+      ],
+      "antonyms": [
+        "good",
+        "virtuous",
+        "holy"
+      ],
+      "relatedWords": {
+        "en": [
+          "evilly",
+          "devil",
+          "sin"
+        ],
+        "ar": [
+          "بشر",
+          "شيطان",
+          "خطيئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "evil",
+        "verb": "",
+        "adj": "evil",
+        "adv": "evilly"
+      },
+      "arabicAr": "شرير",
+      "frenchFr": "maléfique",
+      "germanDe": "böse",
+      "spanishEs": "malvado",
+      "chineseZh": "邪恶的 (Xié'è de)",
+      "russianRu": "злой",
+      "portuguesePt": "mau",
+      "japaneseJa": "邪悪な (Jaaku-na)",
+      "italianIt": "malvagio",
+      "turkishTr": "kötü",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5274,
+      "wordEn": "evil",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈivəl",
+      "phoneticUk": "ˈiːvl",
+      "phoneticAr": "إِيفَل",
+      "translit": "Shar",
+      "definitionEn": "Profound immorality and wickedness; a force causing bad things.",
+      "definitionAr": "الشر نفسه، كقوة أو مفهوم عكس الخير.",
+      "usageNote": "Can be abstract (Good vs Evil) or specific (War is an evil).",
+      "category": "Actions & Processes",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Philosophy",
+        "#Religion",
+        "#Conflict"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Evil\" لو عكست حروفها تبقى \"Live\".. الشر هو عكس الحياة.",
+      "examples": {
+        "A1": "Good triumphed over evil.",
+        "A2": "Money is the root of all evil.",
+        "B1": "We must fight against evil.",
+        "B2": "He believes in the existence of pure evil.",
+        "C1": "War is a necessary evil sometimes.",
+        "C2": "The philosophy of ethics deals with good and evil."
+      },
+      "collocations": [
+        "root of all evil",
+        "necessary evil",
+        "lesser of two evils",
+        "fight evil"
+      ],
+      "synonyms": [
+        "wickedness",
+        "sin",
+        "iniquity",
+        "depravity"
+      ],
+      "antonyms": [
+        "good",
+        "goodness",
+        "virtue"
+      ],
+      "relatedWords": {
+        "en": [
+          "evilly",
+          "evildoer"
+        ],
+        "ar": [
+          "بشر",
+          "فاعل الشر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "evil",
+        "verb": "",
+        "adj": "evil",
+        "adv": "evilly"
+      },
+      "arabicAr": "شر",
+      "frenchFr": "mal",
+      "germanDe": "Böse",
+      "spanishEs": "mal",
+      "chineseZh": "邪恶 (Xié'è)",
+      "russianRu": "зло",
+      "portuguesePt": "mal",
+      "japaneseJa": "悪 (Aku)",
+      "italianIt": "male",
+      "turkishTr": "kötülük",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5275,
+      "wordEn": "inhabitant",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ɪnˈhæbətənt",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْهَابِتَنْت",
+      "translit": "Sākin",
+      "definitionEn": "A person or animal that lives in or occupies a place.",
+      "definitionAr": "الشخص أو الحيوان اللي عايش ومستقر في مكان معين، زي سكان المدينة أو سكان الغابة.",
+      "usageNote": "Formal word for 'resident' or 'dweller'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Population",
+        "#Housing",
+        "#Geography"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"In\" \"في\" + \"Habit\" \"عادة\".. الناس اللي من عادتهم يعيشوا \"في\" المكان ده.",
+      "examples": {
+        "A1": "The inhabitants of the village are friendly.",
+        "A2": "How many inhabitants does the city have?",
+        "B1": "The island has no human inhabitants.",
+        "B2": "The oldest inhabitant of the town turned 100.",
+        "C1": "The inhabitants complained about the noise pollution.",
+        "C2": "Indigenous inhabitants often have rights to the land."
+      },
+      "collocations": [
+        "local inhabitant",
+        "original inhabitant",
+        "city inhabitant",
+        "island inhabitant"
+      ],
+      "synonyms": [
+        "resident",
+        "dweller",
+        "occupant",
+        "citizen"
+      ],
+      "antonyms": [
+        "visitor",
+        "tourist",
+        "outsider"
+      ],
+      "relatedWords": {
+        "en": [
+          "inhabit",
+          "habitation",
+          "habitat"
+        ],
+        "ar": [
+          "يسكن",
+          "سكن",
+          "موطن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "inhabitant",
+        "verb": "inhabit",
+        "adj": "inhabited",
+        "adv": ""
+      },
+      "arabicAr": "ساكن / مواطن",
+      "frenchFr": "habitant",
+      "germanDe": "Einwohner",
+      "spanishEs": "habitante",
+      "chineseZh": "居民 (Jūmín)",
+      "russianRu": "житель",
+      "portuguesePt": "habitante",
+      "japaneseJa": "住民 (Jūmin)",
+      "italianIt": "abitante",
+      "turkishTr": "sakin",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5276,
+      "wordEn": "polytechnic",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˌpɑliˈtɛknɪk",
+      "phoneticUk": "ˌpɒlɪˈteknɪk",
+      "phoneticAr": "بُولِيتِكْنِك",
+      "translit": "Kulliyyat al-funūn at-taṭbīqiyya",
+      "definitionEn": "An institution of higher education offering courses in many subjects, especially vocational or technical ones.",
+      "definitionAr": "معهد أو كلية بتعلم مهارات فنية وتقنية وعملية أكتر من النظري، زي كليات الفنون التطبيقية.",
+      "usageNote": "In the UK, most polytechnics became universities in 1992.",
+      "category": "Education & Science",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Education",
+        "#University",
+        "#Skills"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Poly\" \"متعدد\" + \"Technic\" \"فني\".. يعني مكان لتعليم فنون متعددة.",
+      "examples": {
+        "A1": "He studies at a polytechnic.",
+        "A2": "The polytechnic offers many courses.",
+        "B1": "She chose a polytechnic over a traditional university.",
+        "B2": "The local polytechnic focuses on engineering.",
+        "C1": "Many former polytechnics have been granted university status.",
+        "C2": "The curriculum at the polytechnic emphasizes practical skills."
+      },
+      "collocations": [
+        "polytechnic institute",
+        "polytechnic university",
+        "attend a polytechnic"
+      ],
+      "synonyms": [
+        "technical college",
+        "institute of technology"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "technical",
+          "technology",
+          "college"
+        ],
+        "ar": [
+          "فني",
+          "تكنولوجيا",
+          "كلية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "polytechnic",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كلية الفنون التطبيقية",
+      "frenchFr": "école polytechnique",
+      "germanDe": "Fachhochschule",
+      "spanishEs": "politécnico",
+      "chineseZh": "理工学院 (Lǐgōng xuéyuàn)",
+      "russianRu": "политехникум",
+      "portuguesePt": "politécnico",
+      "japaneseJa": "工芸学校 (Kōgei gakkō)",
+      "italianIt": "politecnico",
+      "turkishTr": "politeknik",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5277,
+      "wordEn": "slave",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "sleɪv",
+      "phoneticUk": null,
+      "phoneticAr": "سْلَايْف",
+      "translit": "Musta'bad",
+      "definitionEn": "Relating to or characteristic of a slave; controlled by another device.",
+      "definitionAr": "صفة بتوصف أي حاجة ليها علاقة بالعبودية، أو في التكنولوجيا بتوصف الجهاز اللي بيتحكم فيه جهاز تاني.",
+      "usageNote": "Common in tech (Master/Slave drives) though terms are changing due to sensitivity.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#History",
+        "#Technology",
+        "#Control"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Slave\" قريبة من \"Slay\".. العبد زمان كان ممكن يتقتل لأي سبب.",
+      "examples": {
+        "A1": "Slave labor is illegal.",
+        "A2": "They talked about the slave trade.",
+        "B1": "The slave ship crossed the ocean.",
+        "B2": "This is the slave drive in the computer.",
+        "C1": "He had a slave mentality, always obeying orders.",
+        "C2": "The protocol uses a master-slave architecture."
+      },
+      "collocations": [
+        "slave trade",
+        "slave labor",
+        "slave ship",
+        "slave mentality"
+      ],
+      "synonyms": [
+        "subservient",
+        "controlled",
+        "servile"
+      ],
+      "antonyms": [
+        "free",
+        "master",
+        "dominant"
+      ],
+      "relatedWords": {
+        "en": [
+          "slavery",
+          "enslave"
+        ],
+        "ar": [
+          "عبودية",
+          "يستعبد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "slave",
+        "verb": "slave",
+        "adj": "slave",
+        "adv": ""
+      },
+      "arabicAr": "مستعبد",
+      "frenchFr": "esclave",
+      "germanDe": "Sklaven-",
+      "spanishEs": "esclavo",
+      "chineseZh": "奴隶的 (Núlì de)",
+      "russianRu": "рабский",
+      "portuguesePt": "escravo",
+      "japaneseJa": "奴隷の (Dorei no)",
+      "italianIt": "schiavo",
+      "turkishTr": "köle",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5278,
+      "wordEn": "slave",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "sleɪv",
+      "phoneticUk": null,
+      "phoneticAr": "سْلَايْف",
+      "translit": "Abd",
+      "definitionEn": "A person who is forced to work for and obey another and is considered their property.",
+      "definitionAr": "الشخص المستعبد اللي ملوش حرية ومجبور يشتغل عند حد تاني.",
+      "usageNote": "Also used metaphorically: 'Slave to fashion'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#History",
+        "#Society",
+        "#Freedom"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Slave\" قريبة من \"Slay\".. العبد زمان كان ممكن يتقتل لأي سبب.",
+      "examples": {
+        "A1": "The slave worked hard.",
+        "A2": "Lincoln freed the slaves.",
+        "B1": "He worked like a slave all day.",
+        "B2": "She refuses to be a slave to fashion.",
+        "C1": "The descendants of slaves seek reparations.",
+        "C2": "Epictetus was a famous stoic philosopher who was born a slave."
+      },
+      "collocations": [
+        "freed slave",
+        "runaway slave",
+        "galley slave",
+        "slave to fashion"
+      ],
+      "synonyms": [
+        "bondservant",
+        "serf",
+        "vassal"
+      ],
+      "antonyms": [
+        "master",
+        "owner",
+        "freeman"
+      ],
+      "relatedWords": {
+        "en": [
+          "slavery",
+          "enslavement"
+        ],
+        "ar": [
+          "عبودية",
+          "استعباد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "slave",
+        "verb": "slave",
+        "adj": "slavish",
+        "adv": "slavishly"
+      },
+      "arabicAr": "عبد",
+      "frenchFr": "esclave",
+      "germanDe": "Sklave",
+      "spanishEs": "esclavo",
+      "chineseZh": "奴隶 (Núlì)",
+      "russianRu": "раб",
+      "portuguesePt": "escravo",
+      "japaneseJa": "奴隷 (Dorei)",
+      "italianIt": "schiavo",
+      "turkishTr": "köle",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5279,
+      "wordEn": "reservation",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˌrɛzərˈveɪʃən",
+      "phoneticUk": "ˌrezəˈveɪʃn",
+      "phoneticAr": "رِزِرْفَايْشَن",
+      "translit": "Ḥajz / Taḥaffuẓ",
+      "definitionEn": "An arrangement to secure a room or seat; a doubt or feeling of uncertainty.",
+      "definitionAr": "لما تحجز مكان في مطعم أو فندق، أو لما يكون عندك شك وتردد في قبول حاجة معينة (تحفظ).",
+      "usageNote": "Double meaning: 1. Booking (hotel). 2. Doubt (I have reservations about this plan).",
+      "category": "Travel & Movement",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Travel",
+        "#Hotels",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Reserve\" \"يحجز\".. زي ما تقول \"Reserve\" مكانك.",
+      "examples": {
+        "A1": "I have a reservation at the hotel.",
+        "A2": "Can I make a dinner reservation?",
+        "B1": "Cancel my reservation please.",
+        "B2": "He accepted the offer without reservation.",
+        "C1": "I have serious reservations about his ability to do the job.",
+        "C2": "The land was designated as a reservation for the tribe."
+      },
+      "collocations": [
+        "make a reservation",
+        "confirm a reservation",
+        "without reservation",
+        "have reservations"
+      ],
+      "synonyms": [
+        "booking",
+        "doubt",
+        "hesitation",
+        "qualm"
+      ],
+      "antonyms": [
+        "confidence",
+        "certainty"
+      ],
+      "relatedWords": {
+        "en": [
+          "reserve",
+          "reserved"
+        ],
+        "ar": [
+          "يحجز",
+          "محجوز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "reservation",
+        "verb": "reserve",
+        "adj": "reserved",
+        "adv": ""
+      },
+      "arabicAr": "حجز / تحفظ",
+      "frenchFr": "réservation",
+      "germanDe": "Reservierung",
+      "spanishEs": "reserva",
+      "chineseZh": "预订 (Yùdìng)",
+      "russianRu": "бронирование",
+      "portuguesePt": "reserva",
+      "japaneseJa": "予約 (Yoyaku)",
+      "italianIt": "prenotazione",
+      "turkishTr": "rezervasyon",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5280,
+      "wordEn": "slam",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "slæm",
+      "phoneticUk": null,
+      "phoneticAr": "سْلَام",
+      "translit": "Ḍarba 'anīfa",
+      "definitionEn": "A loud bang caused by a forceful shutting; a forceful impact.",
+      "definitionAr": "صوت خبطة جامدة زي لما ترزع الباب، أو ضربة قوية.",
+      "usageNote": "Also used in sports (Grand Slam) and poetry (Poetry Slam).",
+      "category": "Actions & Processes",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Sound",
+        "#Impact",
+        "#Sports"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "صوت \"Slam\" قوي زي \"Slap\" \"قلم\".. خبطة جامدة.",
+      "examples": {
+        "A1": "I heard a loud slam.",
+        "A2": "The door closed with a slam.",
+        "B1": "The car hit the wall with a slam.",
+        "B2": "She won the Grand Slam in tennis.",
+        "C1": "The poetry slam was very competitive.",
+        "C2": "The slam of the gavel signaled the end of the trial."
+      },
+      "collocations": [
+        "door slam",
+        "Grand Slam",
+        "poetry slam",
+        "body slam"
+      ],
+      "synonyms": [
+        "bang",
+        "crash",
+        "thud",
+        "clash"
+      ],
+      "antonyms": [
+        "whisper"
+      ],
+      "relatedWords": {
+        "en": [
+          "slamming",
+          "slammer"
+        ],
+        "ar": [
+          "رزع",
+          "سجن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "slam",
+        "verb": "slam",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "ضربة عنيفة / فوز ساحق",
+      "frenchFr": "claquement",
+      "germanDe": "Knall",
+      "spanishEs": "portazo",
+      "chineseZh": "猛击 (Měngjī)",
+      "russianRu": "хлопок",
+      "portuguesePt": "batida",
+      "japaneseJa": "バタンという音 (Batan to iu oto)",
+      "italianIt": "sbattere",
+      "turkishTr": "gümleme",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5281,
+      "wordEn": "slam",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "slæm",
+      "phoneticUk": null,
+      "phoneticAr": "سْلَام",
+      "translit": "Yaḍrib bi-'unf",
+      "definitionEn": "To shut forcefully and loudly; to criticize severely.",
+      "definitionAr": "إنك ترزع الباب أو تخبط حاجة بقوة وصوت عالي، وممكن تيجي بمعنى ينتقد حد بشدة.",
+      "usageNote": "Often followed by 'the door'. Slang: 'slam' = criticize.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Violence",
+        "#Noise",
+        "#Criticism"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "صوت \"Slam\" قوي زي \"Slap\" \"قلم\".. خبطة جامدة.",
+      "examples": {
+        "A1": "Don't slam the door.",
+        "A2": "She slammed the book shut.",
+        "B1": "He slammed the brakes on.",
+        "B2": "The critics slammed his new movie.",
+        "C1": "She slammed the phone down in anger.",
+        "C2": "The report slammed the government's handling of the crisis."
+      },
+      "collocations": [
+        "slam the door",
+        "slam the brakes",
+        "slam the phone",
+        "get slammed"
+      ],
+      "synonyms": [
+        "bang",
+        "crash",
+        "criticize",
+        "blast"
+      ],
+      "antonyms": [
+        "close gently",
+        "praise"
+      ],
+      "relatedWords": {
+        "en": [
+          "slamming",
+          "shut"
+        ],
+        "ar": [
+          "إغلاق بقوة",
+          "يغلق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "slam",
+        "verb": "slam",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يضرب بعنف",
+      "frenchFr": "claquer",
+      "germanDe": "zuschlagen",
+      "spanishEs": "azotar",
+      "chineseZh": "猛关 (Měngguān)",
+      "russianRu": "захлопывать",
+      "portuguesePt": "bater",
+      "japaneseJa": "バタンと閉める (Batan to shimeru)",
+      "italianIt": "sbattere",
+      "turkishTr": "çarpmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5282,
+      "wordEn": "facilitate",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "fəˈsɪləteɪt",
+      "phoneticUk": "fəˈsɪlɪteɪt",
+      "phoneticAr": "فَسِيلِتَايْت",
+      "translit": "Yusahhil",
+      "definitionEn": "To make an action or process easy or easier.",
+      "definitionAr": "إنك تسهل الأمور وتخلي العملية تمشي أسرع وأبسط من غير تعقيد.",
+      "usageNote": "Formal word. You facilitate a *process*, not usually a person.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Help",
+        "#Management",
+        "#Efficiency"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "جاية من \"Facility\" \"تسهيلات\".. أو كلمة \"Facile\" \"سهل\".",
+      "examples": {
+        "A1": "This tool facilitates the work. (Simplified for context)",
+        "A2": "Computers facilitate learning.",
+        "B1": "The new airport will facilitate tourism.",
+        "B2": "The moderator's role is to facilitate the discussion.",
+        "C1": "Structured courses facilitate language acquisition.",
+        "C2": "International agreements facilitate trade between nations."
+      },
+      "collocations": [
+        "facilitate learning",
+        "facilitate communication",
+        "facilitate trade",
+        "facilitate the process"
+      ],
+      "synonyms": [
+        "ease",
+        "assist",
+        "aid",
+        "expedite"
+      ],
+      "antonyms": [
+        "hinder",
+        "impede",
+        "complicate",
+        "block"
+      ],
+      "relatedWords": {
+        "en": [
+          "facility",
+          "facilitator",
+          "facilitation"
+        ],
+        "ar": [
+          "مرفق",
+          "ميسر",
+          "تيسير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "facilitation",
+        "verb": "facilitate",
+        "adj": "facilitative",
+        "adv": ""
+      },
+      "arabicAr": "يسهل / تيسير",
+      "frenchFr": "faciliter",
+      "germanDe": "erleichtern",
+      "spanishEs": "facilitar",
+      "chineseZh": "促进 (Cùjìn)",
+      "russianRu": "облегчать",
+      "portuguesePt": "facilitar",
+      "japaneseJa": "容易にする (Yōi ni suru)",
+      "italianIt": "facilitare",
+      "turkishTr": "kolaylaştırmak",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

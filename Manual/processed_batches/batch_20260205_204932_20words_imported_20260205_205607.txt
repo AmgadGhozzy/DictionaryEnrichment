@@ -1,0 +1,575 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 176,
+    "wordEn": "new",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 176,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "njʉː",
+    "phoneticUk": "n(j)u",
+    "phoneticAr": "نيو",
+    "translit": "jadid",
+    "definitionEn": "[\"not existing before; made, introduced, or discovered recently or now for the first time.\", \"already existing but seen, experienced, or acquired recently or now for the first time.\", \"just beginning or beginning anew and regarded as better than what went before.\"]",
+    "usageNote": "Used to distinguish something established more recently, named after something or some place previously existing.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I have a new assistant\", \"the new architecture\", \"starting a new life\", \"new potatoes\", \"this would be her new home\", \"this tendency is not new\", \"new-born, new-formed, new-found, new-mown\"], \"A2\": [\"a way of living that was new to me\"], \"B1\": [\"a secondhand bus cost a fraction of a new one\"]}",
+    "collocations": "[\"berlin new\", \"new ideas\"]",
+    "synonyms": "[\"raw\", \"fresh\", \"novel\", \"unexampled\", \"recently developed\"]",
+    "antonyms": "[\"old\", \"worn\"]",
+    "relatedWords": "{\"en\": [\"newfound\", \"fresh\", \"freshly\", \"newly\", \"brand-new\"], \"ar\": [\"جديد\", \"حديث\", \"عصري\", \"أوّل\", \"بِدْع\", \"بِكْر\"]}",
+    "arabicAr": "جديد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 177,
+    "wordEn": "very",
+    "pos": "adj",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 177,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈvɛɹi",
+    "phoneticAr": "فايري",
+    "translit": "jdaan / lilghaya",
+    "definitionEn": "[]",
+    "usageNote": "Used to firmly establish that nothing else surpasses in some respect.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"his very own car\", \"very much so\", \"the very God of Heaven\", \"the very first time\", \"those were his very words\", \"very large\"], \"A2\": [\"from the very beginning of the book\", \"at the very back of the skull\"]}",
+    "collocations": "[\"terminal very\", \"very nature\"]",
+    "synonyms": "[\"real\", \"really\", \"selfsame\", \"identical\", \"terrifically\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"real\", \"really\", \"precise\", \"actual\", \"existent\"], \"ar\": [\"حقيقيّ\", \"مطلق\", \"بالذات\", \"عين\", \"نفس\", \"مجرَّد\"]}",
+    "arabicAr": "جداً",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 178,
+    "wordEn": "very",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 178,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈvɛɹi",
+    "phoneticAr": "فايري",
+    "translit": "jdaan / lilghaya",
+    "definitionEn": "[]",
+    "usageNote": "Used to firmly establish that nothing else surpasses in some respect.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"his very own car\", \"very much so\", \"the very God of Heaven\", \"the very first time\", \"those were his very words\", \"very large\"], \"A2\": [\"from the very beginning of the book\", \"at the very back of the skull\"]}",
+    "collocations": "[\"terminal very\", \"very nature\"]",
+    "synonyms": "[\"real\", \"really\", \"selfsame\", \"identical\", \"terrifically\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"real\", \"really\", \"precise\", \"actual\", \"existent\"], \"ar\": [\"حقيقيّ\", \"مطلق\", \"بالذات\", \"عين\", \"نفس\", \"مجرَّد\"]}",
+    "arabicAr": "جداً",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 179,
+    "wordEn": "when",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 179,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ʍɛn",
+    "phoneticAr": "واين",
+    "translit": "mataa",
+    "definitionEn": "[\"at or during the time that.\", \"after which; and just then .\", \"in view of the fact that; considering that.\"]",
+    "usageNote": "Used to introduce direct or indirect questions about time.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"when can I see you?\", \"when did you last see him?\", \"since when have you been interested?\", \"Do you know when they arrived\"], \"A2\": [\"I loved math when I was in school\", \"can you spare five minutes when it's convenient?\"], \"B1\": [\"he had just drifted off to sleep when the phone rang\", \"I'm saying it now when I should have told you long ago\", \"Saturday is the day when I get my hair done\"]}",
+    "collocations": "[\"Do you know when they arrived\", \"The site's all bugged. Fix when\", \"Tank class buff when\", \"when one\"]",
+    "synonyms": "[\"once\", \"after\", \"while\", \"since\", \"whenever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whenever\", \"once\", \"after\", \"while\", \"since\"], \"ar\": [\"متى\", \"وإذ ذاك\", \"ومن ثمَّ\", \"إذ\", \"إذَا\", \"أيّان\"]}",
+    "arabicAr": "متى",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 180,
+    "wordEn": "when",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 180,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ʍɛn",
+    "phoneticAr": "واين",
+    "translit": "mataa",
+    "definitionEn": "[\"at or during the time that.\", \"after which; and just then .\", \"in view of the fact that; considering that.\"]",
+    "usageNote": "Used to introduce direct or indirect questions about time.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"when can I see you?\", \"when did you last see him?\", \"since when have you been interested?\", \"Do you know when they arrived\"], \"A2\": [\"I loved math when I was in school\", \"can you spare five minutes when it's convenient?\"], \"B1\": [\"he had just drifted off to sleep when the phone rang\", \"I'm saying it now when I should have told you long ago\", \"Saturday is the day when I get my hair done\"]}",
+    "collocations": "[\"Do you know when they arrived\", \"The site's all bugged. Fix when\", \"Tank class buff when\", \"when one\"]",
+    "synonyms": "[\"once\", \"after\", \"while\", \"since\", \"whenever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whenever\", \"once\", \"after\", \"while\", \"since\"], \"ar\": [\"متى\", \"وإذ ذاك\", \"ومن ثمَّ\", \"إذ\", \"إذَا\", \"أيّان\"]}",
+    "arabicAr": "متى",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 181,
+    "wordEn": "when",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 181,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ʍɛn",
+    "phoneticAr": "واين",
+    "translit": "mataa",
+    "definitionEn": "[\"at or during the time that.\", \"after which; and just then .\", \"in view of the fact that; considering that.\"]",
+    "usageNote": "Used to introduce direct or indirect questions about time.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"when can I see you?\", \"when did you last see him?\", \"since when have you been interested?\", \"Do you know when they arrived\"], \"A2\": [\"I loved math when I was in school\", \"can you spare five minutes when it's convenient?\"], \"B1\": [\"he had just drifted off to sleep when the phone rang\", \"I'm saying it now when I should have told you long ago\", \"Saturday is the day when I get my hair done\"]}",
+    "collocations": "[\"Do you know when they arrived\", \"The site's all bugged. Fix when\", \"Tank class buff when\", \"when one\"]",
+    "synonyms": "[\"once\", \"after\", \"while\", \"since\", \"whenever\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whenever\", \"once\", \"after\", \"while\", \"since\"], \"ar\": [\"متى\", \"وإذ ذاك\", \"ومن ثمَّ\", \"إذ\", \"إذَا\", \"أيّان\"]}",
+    "arabicAr": "متى",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 182,
+    "wordEn": "may",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 182,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "meɪ",
+    "phoneticAr": "ماي",
+    "translit": "yumkin / mayu",
+    "definitionEn": "[\"expressing a wish or hope.\", \"the hawthorn or its blossom.\", \"the fifth month of the year, in the northern hemisphere usually considered the last month of spring.\"]",
+    "usageNote": "often a question or remark.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"that may be true\", \"he may well win\", \"may I ask a few questions?\", \"may she rest in peace\"], \"A2\": [\"you may use a sling if you wish\"], \"B1\": [\"they may have been old-fashioned but they were excellent teachers\", \"the may is just barely starting to open here, but leaves are out\"], \"B2\": [\"a sprig of may will protect against storms at sea, lightning, and also ghosts\"]}",
+    "collocations": "[\"may I sit there\", \"early may\", \"may june\"]",
+    "synonyms": "[\"get\", \"whitethorn\", \"English hawthorn\", \"Crataegus laevigata\", \"Crataegus oxycantha\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"get\", \"allowed\", \"something\", \"expresses\", \"permission\", \"can\"], \"ar\": [\"قد\", \"ربما\"]}",
+    "arabicAr": "يمكن / من المحتمل / ربما",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 183,
+    "wordEn": "may",
+    "pos": "modal",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 183,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "meɪ",
+    "phoneticAr": "ماي",
+    "translit": "yumkin / mayu",
+    "definitionEn": "[\"expressing a wish or hope.\", \"the hawthorn or its blossom.\", \"the fifth month of the year, in the northern hemisphere usually considered the last month of spring.\"]",
+    "usageNote": "often a question or remark.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"that may be true\", \"he may well win\", \"may I ask a few questions?\", \"may she rest in peace\"], \"A2\": [\"you may use a sling if you wish\"], \"B1\": [\"they may have been old-fashioned but they were excellent teachers\", \"the may is just barely starting to open here, but leaves are out\"], \"B2\": [\"a sprig of may will protect against storms at sea, lightning, and also ghosts\"]}",
+    "collocations": "[\"may I sit there\", \"early may\", \"may june\"]",
+    "synonyms": "[\"get\", \"whitethorn\", \"English hawthorn\", \"Crataegus laevigata\", \"Crataegus oxycantha\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"get\", \"allowed\", \"something\", \"expresses\", \"permission\", \"can\"], \"ar\": [\"قد\", \"ربما\"]}",
+    "arabicAr": "يمكن / من المحتمل / ربما",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 184,
+    "wordEn": "may",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 184,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "meɪ",
+    "phoneticAr": "ماي",
+    "translit": "yumkin / mayu",
+    "definitionEn": "[\"expressing a wish or hope.\", \"the hawthorn or its blossom.\", \"the fifth month of the year, in the northern hemisphere usually considered the last month of spring.\"]",
+    "usageNote": "often a question or remark.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"that may be true\", \"he may well win\", \"may I ask a few questions?\", \"may she rest in peace\"], \"A2\": [\"you may use a sling if you wish\"], \"B1\": [\"they may have been old-fashioned but they were excellent teachers\", \"the may is just barely starting to open here, but leaves are out\"], \"B2\": [\"a sprig of may will protect against storms at sea, lightning, and also ghosts\"]}",
+    "collocations": "[\"may I sit there\", \"early may\", \"may june\"]",
+    "synonyms": "[\"get\", \"whitethorn\", \"English hawthorn\", \"Crataegus laevigata\", \"Crataegus oxycantha\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"get\", \"allowed\", \"something\", \"expresses\", \"permission\", \"can\"], \"ar\": [\"قد\", \"ربما\"]}",
+    "arabicAr": "يمكن / من المحتمل / ربما",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 185,
+    "wordEn": "way",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 185,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "weɪ",
+    "phoneticAr": "واي",
+    "translit": "tariq / altariq",
+    "definitionEn": "[\"a method, style, or manner of doing something.\", \"a road, track, path, or street for traveling along.\", \"parts into which something divides or is divided.\"]",
+    "usageNote": "usually in the phrases 'any way' and 'no way'",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I was cycling way too fast\", \"we're going in the back way\", \"I have changed in every way\", \"September was a long way off\"], \"A2\": [\"Christine tried to follow but Martin blocked her way\", \"the family was in a poor way\"], \"B1\": [\"the area's wine industry still has some way to go to full maturity\", \"he was showing off, as is the way with adolescent boys\"]}",
+    "collocations": "[\"same way\", \"way street\"]",
+    "synonyms": "[\"mode\", \"style\", \"manner\", \"method\", \"fashion\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"path\", \"elbow room\", \"room\", \"style\", \"right smart\"], \"ar\": [\"إتّجاه\", \"أدَاة\", \"أُفْنُون\", \"جِهَة\", \"حال\", \"دَرْب\"]}",
+    "arabicAr": "طريق / طريقة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 186,
+    "wordEn": "way",
+    "pos": "adv",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 186,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "weɪ",
+    "phoneticAr": "واي",
+    "translit": "tariq / altariq",
+    "definitionEn": "[\"a method, style, or manner of doing something.\", \"a road, track, path, or street for traveling along.\", \"parts into which something divides or is divided.\"]",
+    "usageNote": "usually in the phrases 'any way' and 'no way'",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I was cycling way too fast\", \"we're going in the back way\", \"I have changed in every way\", \"September was a long way off\"], \"A2\": [\"Christine tried to follow but Martin blocked her way\", \"the family was in a poor way\"], \"B1\": [\"the area's wine industry still has some way to go to full maturity\", \"he was showing off, as is the way with adolescent boys\"]}",
+    "collocations": "[\"same way\", \"way street\"]",
+    "synonyms": "[\"mode\", \"style\", \"manner\", \"method\", \"fashion\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"path\", \"elbow room\", \"room\", \"style\", \"right smart\"], \"ar\": [\"إتّجاه\", \"أدَاة\", \"أُفْنُون\", \"جِهَة\", \"حال\", \"دَرْب\"]}",
+    "arabicAr": "طريق / طريقة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 187,
+    "wordEn": "look",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 187,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "lʊk",
+    "phoneticAr": "لوك",
+    "translit": "yanzur / nazra",
+    "definitionEn": "[\"direct one's gaze toward someone or something or in a specified direction.\", \"think of or regard in a specified way.\", \"have the appearance or give the impression of being.\"]",
+    "usageNote": "often with \"at\".",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the bedraggled look of the village\", \"let me get a closer look\"], \"A2\": [\"the principal rooms look out over Nahant Bay\", \"people finishing work don't look where they're going\", \"she will look to you for help\", \"it doesn't look like you'll be moving to Brooklyn\", \"I look at tennis differently from some coaches\"], \"B2\": [\"the government should be taking a look at the amount of grant the council receives\"]}",
+    "collocations": "[\"Look what you did to him\", \"Look who's back\", \"to look down opposition\", \"closer look\", \"look out\"]",
+    "synonyms": "[\"face\", \"aspect\", \"expression\", \"facial expression\", \"take a gander\"]",
+    "antonyms": "[\"back\"]",
+    "relatedWords": "{\"en\": [\"expression\", \"aspect\", \"seem\", \"see\", \"expect\"], \"ar\": [\"سَحْنَة\", \"سِيمَاء\", \"شَكْل\", \"طَرْف\", \"طَلْعَة\", \"لائِحَة\"]}",
+    "arabicAr": "ينظر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 188,
+    "wordEn": "look",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 188,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "lʊk",
+    "phoneticAr": "لوك",
+    "translit": "yanzur / nazra",
+    "definitionEn": "[\"direct one's gaze toward someone or something or in a specified direction.\", \"think of or regard in a specified way.\", \"have the appearance or give the impression of being.\"]",
+    "usageNote": "often with \"at\".",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the bedraggled look of the village\", \"let me get a closer look\"], \"A2\": [\"the principal rooms look out over Nahant Bay\", \"people finishing work don't look where they're going\", \"she will look to you for help\", \"it doesn't look like you'll be moving to Brooklyn\", \"I look at tennis differently from some coaches\"], \"B2\": [\"the government should be taking a look at the amount of grant the council receives\"]}",
+    "collocations": "[\"Look what you did to him\", \"Look who's back\", \"to look down opposition\", \"closer look\", \"look out\"]",
+    "synonyms": "[\"face\", \"aspect\", \"expression\", \"facial expression\", \"take a gander\"]",
+    "antonyms": "[\"back\"]",
+    "relatedWords": "{\"en\": [\"expression\", \"aspect\", \"seem\", \"see\", \"expect\"], \"ar\": [\"سَحْنَة\", \"سِيمَاء\", \"شَكْل\", \"طَرْف\", \"طَلْعَة\", \"لائِحَة\"]}",
+    "arabicAr": "ينظر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 189,
+    "wordEn": "like",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 189,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "laɪk",
+    "phoneticAr": "لآيك",
+    "translit": "yuhibu / mathal",
+    "definitionEn": "[\"having the same characteristics or qualities as; similar to.\", \"draw attention to the nature of an action or event.\", \"such as; for example.\"]",
+    "usageNote": "Used to ask for a description or opinion of someone or something.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were like brothers\", \"you must run like the wind\", \"I responded in like manner\"], \"A2\": [\"what is it like to be a tuna fisherman?\"], \"B1\": [\"a church interior the like of which he had never seen before\", \"just like you to put a damper on people's enjoyment\", \"the cautionary vision of works like Animal Farm and 1984\", \"we would like to apologize for the late running of this service\"]}",
+    "collocations": "[\"Would you like a cigarette\", \"to play the like\", \"more like\", \"like manner\"]",
+    "synonyms": "[\"ilk\", \"wish\", \"the like\", \"similar to\", \"the likes of\"]",
+    "antonyms": "[\"dislike\", \"unlike\", \"unalike\"]",
+    "relatedWords": "{\"en\": [\"wish\", \"ish\", \"like-minded\", \"suchlike\", \"corresponding\"], \"ar\": [\"مماثل\", \"مشابه\", \"ميّال إلى\", \"مرجَّح\", \"بِمَثَابَة\", \"شِبْه\"]}",
+    "arabicAr": "يحب / مثل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 190,
+    "wordEn": "like",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 190,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "laɪk",
+    "phoneticAr": "لآيك",
+    "translit": "yuhibu / mathal",
+    "definitionEn": "[\"having the same characteristics or qualities as; similar to.\", \"draw attention to the nature of an action or event.\", \"such as; for example.\"]",
+    "usageNote": "Used to ask for a description or opinion of someone or something.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were like brothers\", \"you must run like the wind\", \"I responded in like manner\"], \"A2\": [\"what is it like to be a tuna fisherman?\"], \"B1\": [\"a church interior the like of which he had never seen before\", \"just like you to put a damper on people's enjoyment\", \"the cautionary vision of works like Animal Farm and 1984\", \"we would like to apologize for the late running of this service\"]}",
+    "collocations": "[\"Would you like a cigarette\", \"to play the like\", \"more like\", \"like manner\"]",
+    "synonyms": "[\"ilk\", \"wish\", \"the like\", \"similar to\", \"the likes of\"]",
+    "antonyms": "[\"dislike\", \"unlike\", \"unalike\"]",
+    "relatedWords": "{\"en\": [\"wish\", \"ish\", \"like-minded\", \"suchlike\", \"corresponding\"], \"ar\": [\"مماثل\", \"مشابه\", \"ميّال إلى\", \"مرجَّح\", \"بِمَثَابَة\", \"شِبْه\"]}",
+    "arabicAr": "يحب / مثل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 191,
+    "wordEn": "like",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 191,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "laɪk",
+    "phoneticAr": "لآيك",
+    "translit": "yuhibu / mathal",
+    "definitionEn": "[\"having the same characteristics or qualities as; similar to.\", \"draw attention to the nature of an action or event.\", \"such as; for example.\"]",
+    "usageNote": "Used to ask for a description or opinion of someone or something.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were like brothers\", \"you must run like the wind\", \"I responded in like manner\"], \"A2\": [\"what is it like to be a tuna fisherman?\"], \"B1\": [\"a church interior the like of which he had never seen before\", \"just like you to put a damper on people's enjoyment\", \"the cautionary vision of works like Animal Farm and 1984\", \"we would like to apologize for the late running of this service\"]}",
+    "collocations": "[\"Would you like a cigarette\", \"to play the like\", \"more like\", \"like manner\"]",
+    "synonyms": "[\"ilk\", \"wish\", \"the like\", \"similar to\", \"the likes of\"]",
+    "antonyms": "[\"dislike\", \"unlike\", \"unalike\"]",
+    "relatedWords": "{\"en\": [\"wish\", \"ish\", \"like-minded\", \"suchlike\", \"corresponding\"], \"ar\": [\"مماثل\", \"مشابه\", \"ميّال إلى\", \"مرجَّح\", \"بِمَثَابَة\", \"شِبْه\"]}",
+    "arabicAr": "يحب / مثل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 192,
+    "wordEn": "like",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 192,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "laɪk",
+    "phoneticAr": "لآيك",
+    "translit": "yuhibu / mathal",
+    "definitionEn": "[\"having the same characteristics or qualities as; similar to.\", \"draw attention to the nature of an action or event.\", \"such as; for example.\"]",
+    "usageNote": "Used to ask for a description or opinion of someone or something.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they were like brothers\", \"you must run like the wind\", \"I responded in like manner\"], \"A2\": [\"what is it like to be a tuna fisherman?\"], \"B1\": [\"a church interior the like of which he had never seen before\", \"just like you to put a damper on people's enjoyment\", \"the cautionary vision of works like Animal Farm and 1984\", \"we would like to apologize for the late running of this service\"]}",
+    "collocations": "[\"Would you like a cigarette\", \"to play the like\", \"more like\", \"like manner\"]",
+    "synonyms": "[\"ilk\", \"wish\", \"the like\", \"similar to\", \"the likes of\"]",
+    "antonyms": "[\"dislike\", \"unlike\", \"unalike\"]",
+    "relatedWords": "{\"en\": [\"wish\", \"ish\", \"like-minded\", \"suchlike\", \"corresponding\"], \"ar\": [\"مماثل\", \"مشابه\", \"ميّال إلى\", \"مرجَّح\", \"بِمَثَابَة\", \"شِبْه\"]}",
+    "arabicAr": "يحب / مثل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 193,
+    "wordEn": "use",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 193,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "jus",
+    "phoneticUk": "ju:s",
+    "phoneticAr": "يوس",
+    "translit": "yustakhdam / aistiemal",
+    "definitionEn": "[\"take, hold, or deploy as a means of accomplishing a purpose or achieving a result; employ.\", \"take or consume from a limited supply.\", \"describing an action or state of affairs that was done repeatedly or existed for a period in the past.\"]",
+    "usageNote": "often a diocese.",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"modern trains are now in use\", \"what's the use of crying?\", \"to use an animal cruelly\"], \"A2\": [\"the water mill went out of use in 1960\", \"I could use another cup of coffee\", \"theft and dealing financed their heroin use\", \"the horse lost the use of his hind legs\", \"the software is ideal for use in schools\"], \"B1\": [\"theater owners were charging too much for the use of their venues\"]}",
+    "collocations": "[\"to use an animal cruelly\", \"general use\", \"use planning\"]",
+    "synonyms": "[\"usage\", \"utilize\", \"employment\", \"utilization\", \"utilisation\"]",
+    "antonyms": "[\"conserve\", \"detriment\", \"savings\"]",
+    "relatedWords": "{\"en\": [\"utilisation\", \"utilise\", \"apply\", \"function\", \"utilize\"], \"ar\": [\"إتّباع\", \"إستِثْمار\", \"اسْتخْدام\", \"اسْتعْمال\", \"اسْتغْلال\", \"اسْتفَادَة\"]}",
+    "arabicAr": "يستخدم / يستعمل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 194,
+    "wordEn": "use",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 194,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "jus",
+    "phoneticUk": "ju:s",
+    "phoneticAr": "يوس",
+    "translit": "yustakhdam / aistiemal",
+    "definitionEn": "[\"take, hold, or deploy as a means of accomplishing a purpose or achieving a result; employ.\", \"take or consume from a limited supply.\", \"describing an action or state of affairs that was done repeatedly or existed for a period in the past.\"]",
+    "usageNote": "often a diocese.",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"modern trains are now in use\", \"what's the use of crying?\", \"to use an animal cruelly\"], \"A2\": [\"the water mill went out of use in 1960\", \"I could use another cup of coffee\", \"theft and dealing financed their heroin use\", \"the horse lost the use of his hind legs\", \"the software is ideal for use in schools\"], \"B1\": [\"theater owners were charging too much for the use of their venues\"]}",
+    "collocations": "[\"to use an animal cruelly\", \"general use\", \"use planning\"]",
+    "synonyms": "[\"usage\", \"utilize\", \"employment\", \"utilization\", \"utilisation\"]",
+    "antonyms": "[\"conserve\", \"detriment\", \"savings\"]",
+    "relatedWords": "{\"en\": [\"utilisation\", \"utilise\", \"apply\", \"function\", \"utilize\"], \"ar\": [\"إتّباع\", \"إستِثْمار\", \"اسْتخْدام\", \"اسْتعْمال\", \"اسْتغْلال\", \"اسْتفَادَة\"]}",
+    "arabicAr": "يستخدم / يستعمل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 195,
+    "wordEn": "such",
+    "pos": "adj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 195,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "sʌt͡ʃ",
+    "phoneticAr": "ساتش",
+    "translit": "hadhih",
+    "definitionEn": "[\"to so high a degree; so great .\", \"Having the particular quality or character specified.\"]",
+    "usageNote": "used to make a comparison with something implied by context.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"autumn's such a beautiful season\"], \"A2\": [\"there is no such thing as a free lunch\", \"I have been involved in many such courses\"], \"B1\": [\"we were second-class citizens and they treated us as such\", \"the wound was such that I had to have stitches\"], \"B2\": [\"such is the elegance of his typeface that it is still a favorite of designers\", \"I longed to find a kindred spirit, and in him I thought I had found such a person\", \"this material is of such importance that it has a powerful bearing on the case\"]}",
+    "collocations": "[\"You're all such kind people\", \"Such hypocrisy\", \"non such\", \"such cases\"]",
+    "synonyms": "[\"much\", \"specified\", \"so much\", \"such as\", \"such that\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"specified\", \"much\", \"so much\", \"such as\", \"such that\"], \"ar\": [\"مِثل\", \"أمثال\", \"كبير\", \"هائل\", \"شديد إلى حدّ أنّه\", \"تلك\"]}",
+    "arabicAr": "هذه / مثل",
+    "addedFromOxford": 0
+  }
+]

@@ -1,0 +1,2341 @@
+{
+  "wordEntries": [
+    {
+      "id": 2553,
+      "wordEn": "enemy",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈenəmi",
+      "phoneticUk": null,
+      "phoneticAr": "إِنِمي",
+      "translit": "Aduww",
+      "definitionEn": "A person who hates or opposes another person and tries to harm them.",
+      "definitionAr": "الشخص اللي بيكرهك أو بيقف ضدك وعايز يأذيك، عكس الصديق.",
+      "usageNote": "Commonly used in military contexts or personal rivalries. Distinct from 'opponent' which implies a contest rather than hatred.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Conflict",
+        "#War",
+        "#Rivalry"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Enemy\" قريبة من كلمة \"Anemia\" (أنيميا).. زي ما الأنيميا عدو لصحتك، الـ \"Enemy\" عدو ليك.",
+      "examples": {
+        "A1": "He is not my friend, he is my enemy.",
+        "A2": "The soldiers saw the enemy approaching the camp.",
+        "B1": "Laziness is the enemy of success.",
+        "B2": "They crossed into enemy territory under the cover of night.",
+        "C1": "Political enemies often have to work together in times of crisis.",
+        "C2": "The sworn enemy of the state was finally apprehended."
+      },
+      "collocations": [
+        "sworn enemy",
+        "common enemy",
+        "enemy forces",
+        "enemy lines",
+        "public enemy"
+      ],
+      "synonyms": [
+        "foe",
+        "adversary",
+        "opponent",
+        "rival",
+        "antagonist"
+      ],
+      "antonyms": [
+        "friend",
+        "ally",
+        "supporter"
+      ],
+      "relatedWords": {
+        "en": [
+          "enmity",
+          "hostile",
+          "rivalry",
+          "opposition"
+        ],
+        "ar": [
+          "عداء",
+          "خصومة",
+          "معادي",
+          "منافس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "enmity",
+        "verb": "",
+        "adj": "inimical",
+        "adv": ""
+      },
+      "arabicAr": "عدو",
+      "frenchFr": "ennemi",
+      "germanDe": "Feind",
+      "spanishEs": "enemigo",
+      "chineseZh": "敌人 (Dírén)",
+      "russianRu": "враг",
+      "portuguesePt": "inimigo",
+      "japaneseJa": "敵 (Teki)",
+      "italianIt": "nemico",
+      "turkishTr": "düşman",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2554,
+      "wordEn": "desk",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "dɛsk",
+      "phoneticUk": null,
+      "phoneticAr": "دِسْك",
+      "translit": "Maktab",
+      "definitionEn": "A type of table that you sit at to write or work, often with drawers.",
+      "definitionAr": "الطاولة اللي بتقعد عليها عشان تذاكر أو تشتغل، وغالباً بيكون فيها أدراج.",
+      "usageNote": "Use 'desk' for work/study tables. Use 'table' for dining or general surfaces.",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Furniture",
+        "#Office",
+        "#School"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Desk\" قريبة جداً من \"Disk\".. إنت بتحط الـ \"Disk\" (القرص) على الـ \"Desk\" عشان تشتغل.",
+      "examples": {
+        "A1": "My book is on the desk.",
+        "A2": "She sits at her desk every morning.",
+        "B1": "I need to buy a new computer desk for my room.",
+        "B2": "Please check in at the front desk when you arrive.",
+        "C1": "He cleared his desk of all papers before resigning.",
+        "C2": "The editor sat behind a massive mahogany desk."
+      },
+      "collocations": [
+        "front desk",
+        "reception desk",
+        "office desk",
+        "information desk",
+        "sit at a desk"
+      ],
+      "synonyms": [
+        "table",
+        "workstation",
+        "bureau",
+        "counter"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "chair",
+          "drawer",
+          "office",
+          "study"
+        ],
+        "ar": [
+          "كرسي",
+          "درج",
+          "مكتب",
+          "دراسة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "desktop",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مكتب / طاولة مكتب",
+      "frenchFr": "bureau",
+      "germanDe": "Schreibtisch",
+      "spanishEs": "escritorio",
+      "chineseZh": "书桌 (Shūzhuō)",
+      "russianRu": "письменный стол",
+      "portuguesePt": "escrivaninha",
+      "japaneseJa": "机 (Tsukue)",
+      "italianIt": "scrivania",
+      "turkishTr": "çalışma masası",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2555,
+      "wordEn": "engineering",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˌendʒəˈnɪrɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْجِنِيرِنْج",
+      "translit": "Handasa",
+      "definitionEn": "The work of designing and building machines, roads, and bridges using science.",
+      "definitionAr": "علم الهندسة، يعني تصميم وبناء الآلات والمباني والطرق باستخدام العلم.",
+      "usageNote": "Often combined with a specialization, e.g., 'civil engineering', 'software engineering'.",
+      "category": "Work & Business",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Science",
+        "#Technology",
+        "#Career"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Engineering\" جاية من \"Engine\" (مُحرك).. الـ \"Engineering\" هو العلم اللي بيخلينا نصمم الـ \"Engine\".",
+      "examples": {
+        "A1": "He studies engineering at school.",
+        "A2": "Engineering is a difficult subject.",
+        "B1": "Software engineering is a popular career choice.",
+        "B2": "The bridge is a masterpiece of modern engineering.",
+        "C1": "Genetic engineering has raised many ethical questions.",
+        "C2": "The project requires complex civil engineering solutions."
+      },
+      "collocations": [
+        "civil engineering",
+        "software engineering",
+        "electrical engineering",
+        "genetic engineering",
+        "engineering degree"
+      ],
+      "synonyms": [
+        "technology",
+        "design",
+        "construction",
+        "technical studies"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "engineer",
+          "engine",
+          "technical",
+          "mechanic"
+        ],
+        "ar": [
+          "مهندس",
+          "محرك",
+          "تقني",
+          "ميكانيكي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "engineer",
+        "verb": "engineer",
+        "adj": "engineered",
+        "adv": ""
+      },
+      "arabicAr": "هندسة",
+      "frenchFr": "ingénierie",
+      "germanDe": "Ingenieurwesen",
+      "spanishEs": "ingeniería",
+      "chineseZh": "工程 (Gōngchéng)",
+      "russianRu": "инженерия",
+      "portuguesePt": "engenharia",
+      "japaneseJa": "工学 (Kōgaku)",
+      "italianIt": "ingegneria",
+      "turkishTr": "mühendislik",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2556,
+      "wordEn": "panel",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈpænəl",
+      "phoneticUk": null,
+      "phoneticAr": "بانِل",
+      "translit": "Lajna / Lawha",
+      "definitionEn": "A small group of people chosen to decide something, or a flat section of a surface.",
+      "definitionAr": "ممكن تكون مجموعة خبراء (لجنة) بيحكموا في حاجة، أو جزء مسطح زي لوحة التحكم.",
+      "usageNote": "Context determines meaning: 'panel of experts' (people) vs 'solar panel' (object).",
+      "category": "Work & Business",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Group",
+        "#Surface",
+        "#Control"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Panel\" قريبة من \"Ban\" (حظر).. تخيل إن الـ \"Panel\" (اللجنة) قررت تعمل \"Ban\" للمشروع.",
+      "examples": {
+        "A1": "The control panel has many buttons.",
+        "A2": "We installed a solar panel on the roof.",
+        "B1": "A panel of judges will choose the winner.",
+        "B2": "The door has a glass panel in the center.",
+        "C1": "The advisory panel recommended new safety measures.",
+        "C2": "The discussion panel featured experts from various industries."
+      },
+      "collocations": [
+        "solar panel",
+        "control panel",
+        "panel discussion",
+        "advisory panel",
+        "instrument panel"
+      ],
+      "synonyms": [
+        "committee",
+        "board",
+        "section",
+        "plate"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "jury",
+          "surface",
+          "dashboard",
+          "committee"
+        ],
+        "ar": [
+          "لجنة",
+          "سطح",
+          "لوحة قيادة",
+          "هيئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "paneling",
+        "verb": "panel",
+        "adj": "paneled",
+        "adv": ""
+      },
+      "arabicAr": "لجنة / لوحة",
+      "frenchFr": "panneau",
+      "germanDe": "Gremium",
+      "spanishEs": "panel",
+      "chineseZh": "面板 (Miànbǎn)",
+      "russianRu": "панель",
+      "portuguesePt": "painel",
+      "japaneseJa": "パネル (Paneru)",
+      "italianIt": "pannello",
+      "turkishTr": "panel",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 2557,
+      "wordEn": "deputy",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈdɛpjəti",
+      "phoneticUk": null,
+      "phoneticAr": "دِبْيُتي",
+      "translit": "Na'ib",
+      "definitionEn": "A person appointed to act as a substitute for another, often second in command.",
+      "definitionAr": "الشخص اللي بينوب عن المدير أو الرئيس، يعني الرجل الثاني في المكان.",
+      "usageNote": "Used in official titles like 'Deputy Sheriff' or 'Deputy Manager'.",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Rank",
+        "#Management",
+        "#Government"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "اربطها بكلمة \"Depute\" (يفوّض).. الـ \"Deputy\" هو الشخص اللي المدير عمل له \"Depute\" عشان ياخد مكانه.",
+      "examples": {
+        "A1": "He is the deputy manager.",
+        "A2": "The sheriff and his deputy arrived at the scene.",
+        "B1": "She was promoted to deputy head of the department.",
+        "B2": "The deputy director will sign the documents in the director's absence.",
+        "C1": "He acts as a deputy for the CEO during international trips.",
+        "C2": "The parliamentary deputy raised a question about the budget."
+      },
+      "collocations": [
+        "deputy director",
+        "deputy sheriff",
+        "deputy minister",
+        "deputy chairman",
+        "act as deputy"
+      ],
+      "synonyms": [
+        "assistant",
+        "substitute",
+        "second-in-command",
+        "representative"
+      ],
+      "antonyms": [
+        "chief",
+        "head",
+        "superior"
+      ],
+      "relatedWords": {
+        "en": [
+          "deputize",
+          "delegate",
+          "proxy",
+          "vice"
+        ],
+        "ar": [
+          "ينوب",
+          "يفوض",
+          "وكيل",
+          "مساعد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "deputation",
+        "verb": "deputize",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نائب",
+      "frenchFr": "adjoint",
+      "germanDe": "Stellvertreter",
+      "spanishEs": "diputado",
+      "chineseZh": "副手 (Fùshǒu)",
+      "russianRu": "заместитель",
+      "portuguesePt": "deputado",
+      "japaneseJa": "代理 (Dairi)",
+      "italianIt": "vice",
+      "turkishTr": "vekil",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 2558,
+      "wordEn": "distinction",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "dɪˈstɪŋkʃən",
+      "phoneticUk": null,
+      "phoneticAr": "دِسْتِنْكْشَن",
+      "translit": "Tamyiz / Imtiyaz",
+      "definitionEn": "A difference between two things, or a special honor/excellence.",
+      "definitionAr": "الفرق الواضح بين حاجتين، أو التميز والتفوق في مجال معين.",
+      "usageNote": "Can mean 'difference' (draw a distinction) or 'excellence' (graduated with distinction).",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Quality",
+        "#Difference",
+        "#Award"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "جاية من \"Distinct\" (مميز/مختلف).. الـ \"Distinction\" هو إنك تكون عندك شيء \"Distinct\" بيميزك عن غيرك.",
+      "examples": {
+        "A1": "There is a distinction between the two colors.",
+        "A2": "She passed the exam with distinction.",
+        "B1": "It is important to make a distinction between fact and opinion.",
+        "B2": "He served with distinction in the army.",
+        "C1": "The distinction between the two theories is subtle but important.",
+        "C2": "She holds the distinction of being the first woman to climb that mountain."
+      },
+      "collocations": [
+        "clear distinction",
+        "sharp distinction",
+        "with distinction",
+        "draw a distinction",
+        "without distinction"
+      ],
+      "synonyms": [
+        "difference",
+        "contrast",
+        "excellence",
+        "honor"
+      ],
+      "antonyms": [
+        "similarity",
+        "mediocrity"
+      ],
+      "relatedWords": {
+        "en": [
+          "distinct",
+          "distinctive",
+          "distinguish",
+          "distinctly"
+        ],
+        "ar": [
+          "مميز",
+          "يميز",
+          "بوضوح",
+          "اختلاف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "distinctness",
+        "verb": "distinguish",
+        "adj": "distinct",
+        "adv": "distinctly"
+      },
+      "arabicAr": "تميز / فرق / امتياز",
+      "frenchFr": "distinction",
+      "germanDe": "Unterscheidung",
+      "spanishEs": "distinción",
+      "chineseZh": "区别 (Qūbié)",
+      "russianRu": "различие",
+      "portuguesePt": "distinção",
+      "japaneseJa": "区別 (Kubetsu)",
+      "italianIt": "distinzione",
+      "turkishTr": "ayrım",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 2559,
+      "wordEn": "discipline",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈdɪsəplɪn",
+      "phoneticUk": null,
+      "phoneticAr": "دِسِبْلِن",
+      "translit": "Indibat / Ta'dib",
+      "definitionEn": "The practice of training people to obey rules, or a specific subject of study.",
+      "definitionAr": "الانضباط والالتزام بالقوانين، أو ممكن تيجي بمعنى مجال دراسة معين (زي الطب أو الهندسة).",
+      "usageNote": "Commonly refers to self-control (self-discipline) or academic fields.",
+      "category": "Mind & Thinking",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Behavior",
+        "#Education",
+        "#Training"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Discipline\" قريبة من \"Disc\".. الـ \"Discipline\" (الانضباط) بيخليك حاد ودقيق زي الـ \"Disc\".",
+      "examples": {
+        "A1": "Soldiers need discipline.",
+        "A2": "The teacher kept discipline in the classroom.",
+        "B1": "Martial arts require a lot of self-discipline.",
+        "B2": "History is a fascinating academic discipline.",
+        "C1": "Strict discipline was maintained throughout the organization.",
+        "C2": "Interdisciplinary studies combine more than one discipline."
+      },
+      "collocations": [
+        "self-discipline",
+        "maintain discipline",
+        "academic discipline",
+        "military discipline",
+        "lack of discipline"
+      ],
+      "synonyms": [
+        "control",
+        "training",
+        "field",
+        "subject"
+      ],
+      "antonyms": [
+        "chaos",
+        "indiscipline",
+        "disorder"
+      ],
+      "relatedWords": {
+        "en": [
+          "disciplinary",
+          "disciple",
+          "train",
+          "obey"
+        ],
+        "ar": [
+          "تأديبي",
+          "تلميذ",
+          "يدرب",
+          "يطيع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "disciplinarian",
+        "verb": "discipline",
+        "adj": "disciplinary",
+        "adv": ""
+      },
+      "arabicAr": "انضباط / تخصص",
+      "frenchFr": "discipline",
+      "germanDe": "Disziplin",
+      "spanishEs": "disciplina",
+      "chineseZh": "纪律 (Jìlǜ)",
+      "russianRu": "дисциплина",
+      "portuguesePt": "disciplina",
+      "japaneseJa": "規律 (Kiritsu)",
+      "italianIt": "disciplina",
+      "turkishTr": "disiplin",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 2560,
+      "wordEn": "married",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈmɛrid",
+      "phoneticUk": null,
+      "phoneticAr": "مَاريد",
+      "translit": "Mutazawwij",
+      "definitionEn": "Having a husband or wife.",
+      "definitionAr": "متجوز، يعني عنده زوج أو زوجة.",
+      "usageNote": "Always used with 'to' (married to someone), NOT 'with'.",
+      "category": "Social Life & Communication",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Family",
+        "#Relationship",
+        "#Status"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Married\" جاية من \"Marry\".. ماري اتجوزت فبقت \"Married\".",
+      "examples": {
+        "A1": "She is a married woman.",
+        "A2": "How long have you been married?",
+        "B1": "He is married to a doctor.",
+        "B2": "They are a happily married couple.",
+        "C1": "The number of married couples is decreasing in some countries.",
+        "C2": "She felt she was married to her job rather than her husband."
+      },
+      "collocations": [
+        "get married",
+        "married couple",
+        "happily married",
+        "married life",
+        "just married"
+      ],
+      "synonyms": [
+        "wedded",
+        "hitched",
+        "united"
+      ],
+      "antonyms": [
+        "single",
+        "unmarried",
+        "divorced"
+      ],
+      "relatedWords": {
+        "en": [
+          "marriage",
+          "marry",
+          "spouse",
+          "wedding"
+        ],
+        "ar": [
+          "زواج",
+          "يتزوج",
+          "شريك حياة",
+          "زفاف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "marriage",
+        "verb": "marry",
+        "adj": "marital",
+        "adv": ""
+      },
+      "arabicAr": "متزوج",
+      "frenchFr": "marié",
+      "germanDe": "verheiratet",
+      "spanishEs": "casado",
+      "chineseZh": "已婚 (Yǐhūn)",
+      "russianRu": "женатый",
+      "portuguesePt": "casado",
+      "japaneseJa": "既婚 (Kikon)",
+      "italianIt": "sposato",
+      "turkishTr": "evli",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2561,
+      "wordEn": "plenty",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈplɛnti",
+      "phoneticUk": null,
+      "phoneticAr": "بْلِنْتي",
+      "translit": "Wafra / Kathir",
+      "definitionEn": "A large amount; as much as you need or more.",
+      "definitionAr": "كمية كبيرة، أو وفرة من الشيء، أكتر من اللي محتاجه.",
+      "usageNote": "Usually followed by 'of' (plenty of time). Used in positive contexts.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Amount",
+        "#Abundance",
+        "#Supply"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Plenty\" تشبه \"Plane\" (طيارة).. الطيارة دايماً فيها \"Plenty\" of seats (مقاعد كتير).",
+      "examples": {
+        "A1": "We have plenty of food.",
+        "A2": "Don't rush, there is plenty of time.",
+        "B1": "There are plenty of opportunities for young people.",
+        "B2": "Make sure you drink plenty of water.",
+        "C1": "Despite the drought, there was plenty in the storehouses.",
+        "C2": "They lived in a land of peace and plenty."
+      },
+      "collocations": [
+        "plenty of time",
+        "plenty of room",
+        "plenty of money",
+        "plenty of water",
+        "horn of plenty"
+      ],
+      "synonyms": [
+        "abundance",
+        "lots",
+        "wealth",
+        "profusion"
+      ],
+      "antonyms": [
+        "scarcity",
+        "lack",
+        "shortage"
+      ],
+      "relatedWords": {
+        "en": [
+          "plentiful",
+          "enough",
+          "sufficient",
+          "ample"
+        ],
+        "ar": [
+          "وفير",
+          "كاف",
+          "كثير",
+          "وافر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "plentitude",
+        "verb": "",
+        "adj": "plentiful",
+        "adv": "plentifully"
+      },
+      "arabicAr": "وفرة / كثير",
+      "frenchFr": "beaucoup",
+      "germanDe": "Fülle",
+      "spanishEs": "abundancia",
+      "chineseZh": "丰富 (Fēngfù)",
+      "russianRu": "множество",
+      "portuguesePt": "abundância",
+      "japaneseJa": "豊富 (Hōfu)",
+      "italianIt": "abbondanza",
+      "turkishTr": "bolluk",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2562,
+      "wordEn": "plenty",
+      "pos": "pron",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈplɛnti",
+      "phoneticUk": null,
+      "phoneticAr": "بْلِنْتي",
+      "translit": "Wafra / Kathir",
+      "definitionEn": "A sufficient or large amount; more than enough.",
+      "definitionAr": "كمية كافية أو كبيرة، أكتر من الحاجة.",
+      "usageNote": "Functions as a pronoun meaning 'enough' or 'lots'. E.g., 'Don't bring more, we have plenty'.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Amount",
+        "#Sufficiency"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما قلنا، \"Plenty\" يعني كتير.. افتكر \"Plate\" (طبق) مليان \"Plenty\" of food.",
+      "examples": {
+        "A1": "Do you need more? No, that's plenty.",
+        "A2": "Five dollars is plenty for lunch.",
+        "B1": "Don't worry about the cost, we have plenty.",
+        "B2": "He has plenty to say on the subject.",
+        "C1": "There is plenty to suggest that the economy is recovering.",
+        "C2": "We have plenty to be thankful for."
+      },
+      "collocations": [
+        "more than plenty",
+        "that's plenty",
+        "plenty more"
+      ],
+      "synonyms": [
+        "enough",
+        "lots",
+        "loads",
+        "sufficiency"
+      ],
+      "antonyms": [
+        "little",
+        "nothing"
+      ],
+      "relatedWords": {
+        "en": [
+          "ample",
+          "sufficient",
+          "abundant"
+        ],
+        "ar": [
+          "كاف",
+          "وافر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "plentiful",
+        "adv": ""
+      },
+      "arabicAr": "كثير / وفرة",
+      "frenchFr": "assez",
+      "germanDe": "genug",
+      "spanishEs": "suficiente",
+      "chineseZh": "足够 (Zúgòu)",
+      "russianRu": "достаточно",
+      "portuguesePt": "suficiente",
+      "japaneseJa": "十分 (Jūbun)",
+      "italianIt": "abbastanza",
+      "turkishTr": "bol bol",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2563,
+      "wordEn": "establishment",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ɪˈstæblɪʃmənt",
+      "phoneticUk": null,
+      "phoneticAr": "إِسْتَابْلِشْمَنْت",
+      "translit": "Mu'assasa / Ta'sis",
+      "definitionEn": "An organization or business, or the act of creating something.",
+      "definitionAr": "مؤسسة أو شركة، أو عملية تأسيس وإنشاء شيء جديد.",
+      "usageNote": "Capitalized ('The Establishment') it refers to the ruling class or authorities.",
+      "category": "Work & Business",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Business",
+        "#Building",
+        "#Society"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "من الفعل \"Establish\" (يؤسس).. الـ \"Establishment\" هو المكان اللي عملنا له \"Establish\".",
+      "examples": {
+        "A1": "This is a fine establishment.",
+        "A2": "The establishment of the new school took two years.",
+        "B1": "He works at a catering establishment.",
+        "B2": "The medical establishment was skeptical of the new drug.",
+        "C1": "She rebelled against the political establishment.",
+        "C2": "The establishment of diplomatic relations was a historic moment."
+      },
+      "collocations": [
+        "educational establishment",
+        "catering establishment",
+        "The Establishment",
+        "establishment of",
+        "retail establishment"
+      ],
+      "synonyms": [
+        "institution",
+        "organization",
+        "foundation",
+        "creation"
+      ],
+      "antonyms": [
+        "destruction",
+        "abolition"
+      ],
+      "relatedWords": {
+        "en": [
+          "establish",
+          "established",
+          "institute",
+          "found"
+        ],
+        "ar": [
+          "يؤسس",
+          "راسخ",
+          "معهد",
+          "يوجد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "establisher",
+        "verb": "establish",
+        "adj": "established",
+        "adv": ""
+      },
+      "arabicAr": "مؤسسة / تأسيس",
+      "frenchFr": "établissement",
+      "germanDe": "Einrichtung",
+      "spanishEs": "establecimiento",
+      "chineseZh": "建立 (Jiànlì)",
+      "russianRu": "учреждение",
+      "portuguesePt": "estabelecimento",
+      "japaneseJa": "設立 (Setsuritsu)",
+      "italianIt": "stabilimento",
+      "turkishTr": "kuruluş",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 2564,
+      "wordEn": "fashion",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈfæʃən",
+      "phoneticUk": null,
+      "phoneticAr": "فَاشَن",
+      "translit": "Muda",
+      "definitionEn": "A popular style of clothes, hair, etc., at a particular time.",
+      "definitionAr": "الموضة، أو الستايل المنتشر في اللبس والشعر في وقت معين.",
+      "usageNote": "Can also mean 'a manner of doing something' (e.g., in an orderly fashion).",
+      "category": "Arts & Culture",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Style",
+        "#Clothing",
+        "#Trend"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Fashion\" قريبة من \"Flash\".. الموضة بتظهر وتختفي بسرعة زي الـ \"Flash\".",
+      "examples": {
+        "A1": "She likes fashion magazines.",
+        "A2": "Jeans are always in fashion.",
+        "B1": "The fashion industry is very competitive.",
+        "B2": "He refused to follow the latest fashion.",
+        "C1": "The 90s fashion is making a comeback.",
+        "C2": "They behaved in a peculiar fashion."
+      },
+      "collocations": [
+        "latest fashion",
+        "fashion show",
+        "fashion designer",
+        "out of fashion",
+        "in fashion"
+      ],
+      "synonyms": [
+        "style",
+        "trend",
+        "vogue",
+        "mode"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "fashionable",
+          "stylish",
+          "trendy",
+          "design"
+        ],
+        "ar": [
+          "عصري",
+          "أنيق",
+          "رائج",
+          "تصميم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fashionista",
+        "verb": "fashion",
+        "adj": "fashionable",
+        "adv": "fashionably"
+      },
+      "arabicAr": "موضة",
+      "frenchFr": "mode",
+      "germanDe": "Mode",
+      "spanishEs": "moda",
+      "chineseZh": "时尚 (Shíshàng)",
+      "russianRu": "мода",
+      "portuguesePt": "moda",
+      "japaneseJa": "ファッション (Fasshon)",
+      "italianIt": "moda",
+      "turkishTr": "moda",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2565,
+      "wordEn": "entire",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "ɪnˈtaɪər",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْتَايَر",
+      "translit": "Kamil",
+      "definitionEn": "Whole or complete; with nothing missing.",
+      "definitionAr": "كامل، كلي، مفيش منه أي جزء ناقص.",
+      "usageNote": "Emphasizes that the *whole* thing is involved. Similar to 'whole' but more formal.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Whole",
+        "#Complete",
+        "#Total"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Entire\" قريبة من \"Enter\".. لما تعمل \"Enter\" (دخول) البيت، بتشوف الـ \"Entire\" house (البيت بالكامل).",
+      "examples": {
+        "A1": "I ate the entire cake.",
+        "A2": "The entire family went on holiday.",
+        "B1": "He spent the entire day playing games.",
+        "B2": "The entire building was destroyed by the fire.",
+        "C1": "It was an entire waste of time.",
+        "C2": "The entire concept of time is debated by physicists."
+      },
+      "collocations": [
+        "entire world",
+        "entire life",
+        "entire day",
+        "entire group",
+        "entire time"
+      ],
+      "synonyms": [
+        "whole",
+        "complete",
+        "total",
+        "full"
+      ],
+      "antonyms": [
+        "partial",
+        "incomplete",
+        "part"
+      ],
+      "relatedWords": {
+        "en": [
+          "entirely",
+          "integrity",
+          "entity",
+          "wholly"
+        ],
+        "ar": [
+          "كليا",
+          "نزاهة",
+          "كيان",
+          "بالكامل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "entirety",
+        "verb": "",
+        "adj": "",
+        "adv": "entirely"
+      },
+      "arabicAr": "كامل",
+      "frenchFr": "entier",
+      "germanDe": "ganz",
+      "spanishEs": "entero",
+      "chineseZh": "整个 (Zhěnggè)",
+      "russianRu": "весь",
+      "portuguesePt": "inteiro",
+      "japaneseJa": "全体 (Zentai)",
+      "italianIt": "intero",
+      "turkishTr": "tüm",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2566,
+      "wordEn": "milk",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "mɪlk",
+      "phoneticUk": null,
+      "phoneticAr": "مِلْك",
+      "translit": "Halib / Laban",
+      "definitionEn": "A white liquid produced by cows or other animals, used as food.",
+      "definitionAr": "السائل الأبيض اللي بيجي من البقر أو الماعز وبنشربه.",
+      "usageNote": "Can also refer to plant-based alternatives (almond milk, soy milk).",
+      "category": "Food & Drink",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Dairy",
+        "#Drink",
+        "#Breakfast"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Milk\" زي \"ملك\".. الحليب هو \"Milk\" (ملك) المشروبات الصحية للعضم.",
+      "examples": {
+        "A1": "I drink milk every morning.",
+        "A2": "Please buy a bottle of milk.",
+        "B1": "Do you take milk in your coffee?",
+        "B2": "Almond milk is a popular alternative to dairy.",
+        "C1": "The company decided to milk the profits for as long as possible.",
+        "C2": "It's no use crying over spilt milk."
+      },
+      "collocations": [
+        "drink milk",
+        "fresh milk",
+        "chocolate milk",
+        "milk and sugar",
+        "spilled milk"
+      ],
+      "synonyms": [
+        "dairy",
+        "cream"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "cow",
+          "cheese",
+          "yogurt",
+          "calcium"
+        ],
+        "ar": [
+          "بقرة",
+          "جبنة",
+          "زبادي",
+          "كالسيوم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "milking",
+        "verb": "milk",
+        "adj": "milky",
+        "adv": ""
+      },
+      "arabicAr": "حليب / لبن",
+      "frenchFr": "lait",
+      "germanDe": "Milch",
+      "spanishEs": "leche",
+      "chineseZh": "牛奶 (Niúnǎi)",
+      "russianRu": "молоко",
+      "portuguesePt": "leite",
+      "japaneseJa": "牛乳 (Gyūnyū)",
+      "italianIt": "latte",
+      "turkishTr": "süt",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2567,
+      "wordEn": "roof",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ruf",
+      "phoneticUk": null,
+      "phoneticAr": "روف",
+      "translit": "Saqf / Sath",
+      "definitionEn": "The structure that covers the top of a building or vehicle.",
+      "definitionAr": "الجزء اللي بيغطي البيت من فوق وبيحميه من المطر والشمس.",
+      "usageNote": "Roof is outside/top; 'Ceiling' is inside/bottom of the roof.",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#House",
+        "#Building",
+        "#Shelter"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Roof\" زي \"Rough\" (خشن).. أحياناً سطح البيت \"Roof\" بيكون ملمسه \"Rough\".",
+      "examples": {
+        "A1": "The cat is on the roof.",
+        "A2": "It's raining on the roof.",
+        "B1": "They are repairing the roof of the old house.",
+        "B2": "We have a roof garden.",
+        "C1": "Prices have gone through the roof.",
+        "C2": "They lived under the same roof for years without speaking."
+      },
+      "collocations": [
+        "flat roof",
+        "roof rack",
+        "under one roof",
+        "hit the roof",
+        "thatched roof"
+      ],
+      "synonyms": [
+        "top",
+        "cover",
+        "canopy",
+        "ceiling"
+      ],
+      "antonyms": [
+        "floor",
+        "ground"
+      ],
+      "relatedWords": {
+        "en": [
+          "ceiling",
+          "shingle",
+          "attic",
+          "shelter"
+        ],
+        "ar": [
+          "سقف",
+          "قرميد",
+          "علية",
+          "مأوى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "rooftop",
+        "verb": "roof",
+        "adj": "roofed",
+        "adv": ""
+      },
+      "arabicAr": "سقف / سطح",
+      "frenchFr": "toit",
+      "germanDe": "Dach",
+      "spanishEs": "techo",
+      "chineseZh": "屋顶 (Wūdǐng)",
+      "russianRu": "крыша",
+      "portuguesePt": "telhado",
+      "japaneseJa": "屋根 (Yane)",
+      "italianIt": "tetto",
+      "turkishTr": "çatı",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 2568,
+      "wordEn": "finding",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈfaɪndɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "فَاينْدِنْج",
+      "translit": "Natija / Iktishaf",
+      "definitionEn": "Information or a conclusion discovered as the result of an inquiry or investigation.",
+      "definitionAr": "النتيجة أو الاكتشاف اللي بتوصل له بعد بحث أو تحقيق.",
+      "usageNote": "Usually plural (findings) when referring to research results.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Research",
+        "#Discovery",
+        "#Result"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "من الفعل \"Find\" (يجد).. الـ \"Finding\" هو الشيء المهم اللي عملنا له \"Find\" في البحث.",
+      "examples": {
+        "A1": "Finding a job is hard.",
+        "A2": "She is good at finding lost things.",
+        "B1": "The finding of the treasure was exciting.",
+        "B2": "The committee published its findings yesterday.",
+        "C1": "These findings contradict earlier research.",
+        "C2": "The judicial finding was challenged in the high court."
+      },
+      "collocations": [
+        "key finding",
+        "research findings",
+        "preliminary finding",
+        "report findings",
+        "factual finding"
+      ],
+      "synonyms": [
+        "discovery",
+        "result",
+        "conclusion",
+        "verdict"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "find",
+          "founder",
+          "search",
+          "investigation"
+        ],
+        "ar": [
+          "يجد",
+          "مؤسس",
+          "بحث",
+          "تحقيق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "finder",
+        "verb": "find",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نتيجة / اكتشاف",
+      "frenchFr": "conclusion",
+      "germanDe": "Ergebnis",
+      "spanishEs": "hallazgo",
+      "chineseZh": "发现 (Fāxiàn)",
+      "russianRu": "находка",
+      "portuguesePt": "descoberta",
+      "japaneseJa": "発見 (Hakken)",
+      "italianIt": "scoperta",
+      "turkishTr": "bulgu",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 2569,
+      "wordEn": "secondary",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsɛkənˌdɛri",
+      "phoneticUk": null,
+      "phoneticAr": "سِكَنْدَري",
+      "translit": "Thanawi",
+      "definitionEn": "Less important than something else; coming after the first.",
+      "definitionAr": "ثانوي، يعني بييجي في المرتبة التانية ومش هو الأساسي.",
+      "usageNote": "Used in education (secondary school) or importance (secondary issue).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Order",
+        "#Education",
+        "#Rank"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Second\" (ثاني).. الـ \"Secondary\" هو الشيء اللي ترتيبه التاني.",
+      "examples": {
+        "A1": "Red is a primary color, orange is secondary.",
+        "A2": "He goes to a secondary school.",
+        "B1": "That problem is secondary to our main goal.",
+        "B2": "The drug has some secondary side effects.",
+        "C1": "Experience is primary; education is secondary in this job.",
+        "C2": "They analyzed the secondary literature on the subject."
+      },
+      "collocations": [
+        "secondary school",
+        "secondary education",
+        "secondary importance",
+        "secondary color",
+        "secondary effect"
+      ],
+      "synonyms": [
+        "minor",
+        "subordinate",
+        "lesser",
+        "auxiliary"
+      ],
+      "antonyms": [
+        "primary",
+        "main",
+        "major"
+      ],
+      "relatedWords": {
+        "en": [
+          "second",
+          "secondly",
+          "primary",
+          "tertiary"
+        ],
+        "ar": [
+          "ثاني",
+          "ثانيا",
+          "أولي",
+          "ثالثي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "secondarily"
+      },
+      "arabicAr": "ثانوي",
+      "frenchFr": "secondaire",
+      "germanDe": "sekundär",
+      "spanishEs": "secundario",
+      "chineseZh": "次要 (Cìyào)",
+      "russianRu": "вторичный",
+      "portuguesePt": "secundário",
+      "japaneseJa": "二次 (Niji)",
+      "italianIt": "secondario",
+      "turkishTr": "ikincil",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2570,
+      "wordEn": "tear",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "tɪr",
+      "phoneticUk": null,
+      "phoneticAr": "تِير",
+      "translit": "Dam'a",
+      "definitionEn": "A drop of salty liquid that flows from the eye when crying.",
+      "definitionAr": "الدمعة اللي بتنزل من العين لما تعيط.",
+      "usageNote": "Pronounced /tɪr/ (rhymes with 'ear'). Distinct from 'tear' (rip) which is /tɛr/.",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Emotion",
+        "#Crying",
+        "#Body"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Tear\" (دمعة) بتنزل من الـ \"Ear\" (الأذن)؟ لأ من العين، بس النطق نفس القافية: \"Tear\" rhymes with \"Ear\".",
+      "examples": {
+        "A1": "A tear fell from her eye.",
+        "A2": "She wiped away a tear.",
+        "B1": "His eyes were filled with tears.",
+        "B2": "The movie moved us to tears.",
+        "C1": "She shed no tears over his departure.",
+        "C2": "The chemical acts as a tear gas agent."
+      },
+      "collocations": [
+        "burst into tears",
+        "shed a tear",
+        "tear gas",
+        "crocodile tears",
+        "in tears"
+      ],
+      "synonyms": [
+        "teardrop",
+        "drop"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "cry",
+          "weep",
+          "sob",
+          "sad"
+        ],
+        "ar": [
+          "يبكي",
+          "ينحيب",
+          "حزين",
+          "بكاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "teardrop",
+        "verb": "tear",
+        "adj": "tearful",
+        "adv": "tearfully"
+      },
+      "arabicAr": "دمعة",
+      "frenchFr": "larme",
+      "germanDe": "Träne",
+      "spanishEs": "lágrima",
+      "chineseZh": "眼泪 (Yǎnlèi)",
+      "russianRu": "слеза",
+      "portuguesePt": "lágrima",
+      "japaneseJa": "涙 (Namida)",
+      "italianIt": "lacrima",
+      "turkishTr": "gözyaşı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2571,
+      "wordEn": "tear",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "tɛr",
+      "phoneticUk": null,
+      "phoneticAr": "تِير",
+      "translit": "Yumazziq",
+      "definitionEn": "To pull something apart or into pieces with force.",
+      "definitionAr": "يقطع أو يمزق حاجة (زي الورق أو القماش) بعنف.",
+      "usageNote": "Pronounced /tɛr/ (rhymes with 'air'). Distinct from 'tear' (cry) which is /tɪr/.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Damage",
+        "#Paper",
+        "#Force"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Tear\" (يمزق) بيخلي الحاجة تطير في الهواء \"Air\".. النطق نفس القافية: \"Tear\" rhymes with \"Air\".",
+      "examples": {
+        "A1": "Don't tear the paper.",
+        "A2": "I tore my shirt by accident.",
+        "B1": "He tore the letter into pieces.",
+        "B2": "The wind threatened to tear the roof off.",
+        "C1": "They tried to tear him away from his family.",
+        "C2": "The country was torn apart by civil war."
+      },
+      "collocations": [
+        "tear apart",
+        "tear up",
+        "tear down",
+        "wear and tear",
+        "tear open"
+      ],
+      "synonyms": [
+        "rip",
+        "shred",
+        "split",
+        "rupture"
+      ],
+      "antonyms": [
+        "mend",
+        "repair",
+        "sew"
+      ],
+      "relatedWords": {
+        "en": [
+          "torn",
+          "rip",
+          "break",
+          "cut"
+        ],
+        "ar": [
+          "ممزق",
+          "قطع",
+          "كسر",
+          "قص"
+        ]
+      },
+      "wordFamily": {
+        "noun": "tear",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يمزق / يقطع",
+      "frenchFr": "déchirer",
+      "germanDe": "zerreißen",
+      "spanishEs": "rasgar",
+      "chineseZh": "撕 (Sī)",
+      "russianRu": "рвать",
+      "portuguesePt": "rasgar",
+      "japaneseJa": "裂く (Saku)",
+      "italianIt": "strappare",
+      "turkishTr": "yırtmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2572,
+      "wordEn": "welfare",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈwɛlˌfɛr",
+      "phoneticUk": null,
+      "phoneticAr": "وِلْفِير",
+      "translit": "Rafahiyya / Ri'aya",
+      "definitionEn": "The health, happiness, and fortunes of a person or group.",
+      "definitionAr": "الرفاهية، أو الحالة العامة من الصحة والسعادة والأمان لشخص أو مجموعة.",
+      "usageNote": "Also refers to government aid for the poor (on welfare).",
+      "category": "Social Life & Communication",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Health",
+        "#Society",
+        "#Aid"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Welfare\" يعني \"Will fare\".. يعني \"You will fare well\" (هتكون بخير) طول ما فيه \"Welfare\" (رعاية).",
+      "examples": {
+        "A1": "Parents care about their children's welfare.",
+        "A2": "The welfare of the students is important.",
+        "B1": "Animal welfare organizations protect pets.",
+        "B2": "The government reformed the social welfare system.",
+        "C1": "He is concerned about the spiritual welfare of his flock.",
+        "C2": "Corporate welfare is a controversial economic topic."
+      },
+      "collocations": [
+        "social welfare",
+        "child welfare",
+        "animal welfare",
+        "welfare state",
+        "on welfare"
+      ],
+      "synonyms": [
+        "well-being",
+        "health",
+        "prosperity",
+        "benefit"
+      ],
+      "antonyms": [
+        "misery",
+        "hardship"
+      ],
+      "relatedWords": {
+        "en": [
+          "well",
+          "fare",
+          "aid",
+          "social"
+        ],
+        "ar": [
+          "جيد",
+          "حال",
+          "مساعدة",
+          "اجتماعي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "welfarist",
+        "adv": ""
+      },
+      "arabicAr": "رفاهية / رعاية",
+      "frenchFr": "bien-être",
+      "germanDe": "Wohlfahrt",
+      "spanishEs": "bienestar",
+      "chineseZh": "福利 (Fúlì)",
+      "russianRu": "благосостояние",
+      "portuguesePt": "bem-estar",
+      "japaneseJa": "福祉 (Fukushi)",
+      "italianIt": "benessere",
+      "turkishTr": "refah",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 2573,
+      "wordEn": "attach",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈtætʃ",
+      "phoneticUk": null,
+      "phoneticAr": "أَتَاتْش",
+      "translit": "Irfaq / Rabt",
+      "definitionEn": "The act of joining or fastening something; typically a command in computing.",
+      "definitionAr": "عملية الإرفاق أو الربط، غالباً بتشوف الكلمة دي كأمر على الكمبيوتر (Attach file).",
+      "usageNote": "Rare as a noun in general English; usually 'attachment'. Here likely refers to the UI command.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Computer",
+        "#Connection",
+        "#File"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Attach\" (إرفاق) بتفكرك بـ \"Touch\".. لما تعمل \"Attach\" لملفين بيعملوا \"Touch\" لبعض.",
+      "examples": {
+        "A1": "Click attach to send the photo.",
+        "A2": "Use the attach function for the document.",
+        "B1": "The email has an attach button.",
+        "B2": "Please attach the receipt to the form.",
+        "C1": "The attach protocol was initiated.",
+        "C2": "Failure to attach the correct evidence caused delays."
+      },
+      "collocations": [
+        "click attach",
+        "attach file",
+        "attach document",
+        "attach photo"
+      ],
+      "synonyms": [
+        "join",
+        "connect",
+        "append"
+      ],
+      "antonyms": [
+        "detach",
+        "remove"
+      ],
+      "relatedWords": {
+        "en": [
+          "attachment",
+          "attached",
+          "clip",
+          "link"
+        ],
+        "ar": [
+          "مرفق",
+          "مربوط",
+          "مشبك",
+          "رابط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "attachment",
+        "verb": "attach",
+        "adj": "attached",
+        "adv": ""
+      },
+      "arabicAr": "إرفاق",
+      "frenchFr": "joindre",
+      "germanDe": "Anhängen",
+      "spanishEs": "adjuntar",
+      "chineseZh": "附加 (Fùjiā)",
+      "russianRu": "прикрепление",
+      "portuguesePt": "anexar",
+      "japaneseJa": "添付 (Tenpu)",
+      "italianIt": "allegare",
+      "turkishTr": "ekle",
+      "aiConfidence": 0.75
+    },
+    {
+      "id": 2574,
+      "wordEn": "attach",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "əˈtætʃ",
+      "phoneticUk": null,
+      "phoneticAr": "أَتَاتْش",
+      "translit": "Yurfiq / Yarbut",
+      "definitionEn": "To fasten, join, or connect something to something else.",
+      "definitionAr": "يربط أو يرفق حاجة بحاجة تانية، زي لما ترفق ملف في إيميل.",
+      "usageNote": "You attach A *to* B.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Connect",
+        "#Email",
+        "#Join"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما قلنا، \"Attach\" يعني يرفق.. افتكر زرار الـ \"Attach\" في الإيميل.",
+      "examples": {
+        "A1": "Attach the photo to the email.",
+        "A2": "He attached a label to his bag.",
+        "B1": "I forgot to attach the file.",
+        "B2": "You can attach the trailer to the car.",
+        "C1": "They attach great importance to punctuality.",
+        "C2": "No blame attaches to him for the accident."
+      },
+      "collocations": [
+        "attach importance",
+        "attach a file",
+        "attach a photo",
+        "attached to",
+        "permanently attached"
+      ],
+      "synonyms": [
+        "fasten",
+        "join",
+        "connect",
+        "affix"
+      ],
+      "antonyms": [
+        "detach",
+        "disconnect",
+        "separate"
+      ],
+      "relatedWords": {
+        "en": [
+          "attachment",
+          "join",
+          "link",
+          "bond"
+        ],
+        "ar": [
+          "مرفق",
+          "ينضم",
+          "رابط",
+          "رابطة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "attachment",
+        "verb": "attach",
+        "adj": "attached",
+        "adv": ""
+      },
+      "arabicAr": "يرفق / يربط",
+      "frenchFr": "attacher",
+      "germanDe": "befestigen",
+      "spanishEs": "adjuntar",
+      "chineseZh": "附加 (Fùjiā)",
+      "russianRu": "прикреплять",
+      "portuguesePt": "anexar",
+      "japaneseJa": "取り付ける (Toritsukeru)",
+      "italianIt": "attaccare",
+      "turkishTr": "iliştirmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 2575,
+      "wordEn": "typical",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈtɪpɪkəl",
+      "phoneticUk": null,
+      "phoneticAr": "تِبِكَل",
+      "translit": "Namudhaji / Mu'tad",
+      "definitionEn": "Having the usual qualities or features of a particular type of person or thing.",
+      "definitionAr": "نموذجي أو معتاد، يعني زي ما إنت متوقع بالظبط من النوع ده.",
+      "usageNote": "Can imply criticism (e.g., 'Typical!' meaning 'Just as annoying as expected').",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Common",
+        "#Standard",
+        "#Normal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Type\" (نوع).. الـ \"Typical\" هو الشيء اللي بيمثل الـ \"Type\" بتاعه أحسن تمثيل.",
+      "examples": {
+        "A1": "It was a typical summer day.",
+        "A2": "This is a typical French breakfast.",
+        "B1": "It is typical of him to be late.",
+        "B2": "The disease presents with typical symptoms.",
+        "C1": "The architecture is typical of the colonial period.",
+        "C2": "It was a typical instance of bureaucratic inefficiency."
+      },
+      "collocations": [
+        "typical example",
+        "typical day",
+        "typical weather",
+        "typical behavior",
+        "it is typical of"
+      ],
+      "synonyms": [
+        "classic",
+        "standard",
+        "representative",
+        "normal"
+      ],
+      "antonyms": [
+        "atypical",
+        "unusual",
+        "rare"
+      ],
+      "relatedWords": {
+        "en": [
+          "type",
+          "typically",
+          "stereotype",
+          "typify"
+        ],
+        "ar": [
+          "نوع",
+          "عادة",
+          "صورة نمطية",
+          "يمثل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "type",
+        "verb": "typify",
+        "adj": "typical",
+        "adv": "typically"
+      },
+      "arabicAr": "نموذجي / معتاد",
+      "frenchFr": "typique",
+      "germanDe": "typisch",
+      "spanishEs": "típico",
+      "chineseZh": "典型 (Diǎnxíng)",
+      "russianRu": "типичный",
+      "portuguesePt": "típico",
+      "japaneseJa": "典型的 (Tenkeiteki)",
+      "italianIt": "tipico",
+      "turkishTr": "tipik",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2576,
+      "wordEn": "meanwhile",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈminˌhwaɪl",
+      "phoneticUk": null,
+      "phoneticAr": "مِينْوَايل",
+      "translit": "Fi hadhihi al-athna'",
+      "definitionEn": "At the same time as something else is happening.",
+      "definitionAr": "في نفس الوقت، أو في الغضون دي (بينما حاجة تانية بتحصل).",
+      "usageNote": "Used to connect two simultaneous events.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Transition",
+        "#Storytelling"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Mean\" (يعني) + \"While\" (بينما).. \"Meanwhile\" يعني \"في الوقت اللي ده بيحصل\".",
+      "examples": {
+        "A1": "Cook the pasta. Meanwhile, heat the sauce.",
+        "A2": "Mother went shopping; meanwhile, I cleaned the house.",
+        "B1": "The storm grew worse. Meanwhile, the boat was drifting.",
+        "B2": "He was working hard; meanwhile, his brother was sleeping.",
+        "C1": "The government debated the law. Meanwhile, protests erupted.",
+        "C2": "Technological progress continued; meanwhile, ethical concerns grew."
+      },
+      "collocations": [
+        "in the meanwhile",
+        "but meanwhile",
+        "and meanwhile"
+      ],
+      "synonyms": [
+        "meantime",
+        "simultaneously",
+        "at the same time"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "while",
+          "during",
+          "concurrently"
+        ],
+        "ar": [
+          "بينما",
+          "خلال",
+          "بالتزامن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "في هذه الأثناء",
+      "frenchFr": "pendant ce temps",
+      "germanDe": "inzwischen",
+      "spanishEs": "mientras tanto",
+      "chineseZh": "与此同时 (Yǔcǐtóngshí)",
+      "russianRu": "тем временем",
+      "portuguesePt": "enquanto isso",
+      "japaneseJa": "その間に (Sono aida ni)",
+      "italianIt": "nel frattempo",
+      "turkishTr": "bu arada",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2577,
+      "wordEn": "leadership",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈlidərˌʃɪp",
+      "phoneticUk": null,
+      "phoneticAr": "لِيدَرْشِب",
+      "translit": "Qiyada",
+      "definitionEn": "The action of leading a group of people or an organization.",
+      "definitionAr": "القيادة، أو القدرة على إدارة وتوجيه مجموعة من الناس.",
+      "usageNote": "Can refer to the quality (good leadership) or the people in charge (the party leadership).",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Management",
+        "#Power",
+        "#Skill"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Leader\" (قائد) + \"Ship\" (سفينة).. الـ \"Leadership\" (القيادة) هي إنك تكون القبطان اللي بيسوق الـ \"Ship\".",
+      "examples": {
+        "A1": "Good leadership is important.",
+        "A2": "She showed strong leadership skills.",
+        "B1": "Under his leadership, the team won.",
+        "B2": "The company needs new leadership.",
+        "C1": "The course focuses on strategic leadership.",
+        "C2": "A crisis of leadership paralyzed the government."
+      },
+      "collocations": [
+        "strong leadership",
+        "leadership skills",
+        "under the leadership of",
+        "leadership role",
+        "leadership team"
+      ],
+      "synonyms": [
+        "guidance",
+        "direction",
+        "management",
+        "command"
+      ],
+      "antonyms": [
+        "followership",
+        "subordination"
+      ],
+      "relatedWords": {
+        "en": [
+          "leader",
+          "lead",
+          "leading",
+          "manager"
+        ],
+        "ar": [
+          "قائد",
+          "يقود",
+          "رائد",
+          "مدير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "leader",
+        "verb": "lead",
+        "adj": "leading",
+        "adv": ""
+      },
+      "arabicAr": "قيادة",
+      "frenchFr": "leadership",
+      "germanDe": "Führung",
+      "spanishEs": "liderazgo",
+      "chineseZh": "领导力 (Lǐngdǎolì)",
+      "russianRu": "лидерство",
+      "portuguesePt": "liderança",
+      "japaneseJa": "リーダーシップ (Rīdāshippu)",
+      "italianIt": "leadership",
+      "turkishTr": "liderlik",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2578,
+      "wordEn": "negotiation",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "nɪˌɡoʊʃiˈeɪʃən",
+      "phoneticUk": null,
+      "phoneticAr": "نِجُوشِيَيْشَن",
+      "translit": "Tafawud",
+      "definitionEn": "Discussion aimed at reaching an agreement.",
+      "definitionAr": "التفاوض، أو المناقشة بين طرفين عشان يوصلوا لاتفاق يرضي الكل.",
+      "usageNote": "Often plural (negotiations) when referring to formal talks.",
+      "category": "Work & Business",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Business",
+        "#Agreement",
+        "#Talks"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Negotiation\" جاية من \"Go\".. لازم نروح \"Go\" ونتكلم مع بعض عشان الـ \"Negotiation\" ينجح.",
+      "examples": {
+        "A1": "The negotiation was short.",
+        "A2": "We are in negotiation for a new house.",
+        "B1": "The price is open to negotiation.",
+        "B2": "After long negotiations, they signed the deal.",
+        "C1": "Diplomatic negotiations failed to stop the war.",
+        "C2": "Skillful negotiation prevented a strike."
+      },
+      "collocations": [
+        "contract negotiation",
+        "peace negotiation",
+        "salary negotiation",
+        "enter into negotiation",
+        "under negotiation"
+      ],
+      "synonyms": [
+        "discussion",
+        "talks",
+        "bargaining",
+        "consultation"
+      ],
+      "antonyms": [
+        "confrontation",
+        "ultimatum"
+      ],
+      "relatedWords": {
+        "en": [
+          "negotiate",
+          "negotiator",
+          "deal",
+          "agreement"
+        ],
+        "ar": [
+          "يفاوض",
+          "مفاوض",
+          "صفقة",
+          "اتفاق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "negotiator",
+        "verb": "negotiate",
+        "adj": "negotiable",
+        "adv": ""
+      },
+      "arabicAr": "تفاوض",
+      "frenchFr": "négociation",
+      "germanDe": "Verhandlung",
+      "spanishEs": "negociación",
+      "chineseZh": "谈判 (Tánpàn)",
+      "russianRu": "переговоры",
+      "portuguesePt": "negociação",
+      "japaneseJa": "交渉 (Kōshō)",
+      "italianIt": "negoziazione",
+      "turkishTr": "müzakere",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 2579,
+      "wordEn": "clean",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "klin",
+      "phoneticUk": null,
+      "phoneticAr": "كْلِين",
+      "translit": "Nazif",
+      "definitionEn": "Free from dirt, marks, or stains.",
+      "definitionAr": "نظيف، يعني مفيهوش وسخ أو بقع.",
+      "usageNote": "Can also mean morally pure or innocent.",
+      "category": "Home & Daily Life",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Hygiene",
+        "#Appearance",
+        "#House"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Clean\" (نظيف) قريبة من \"Clear\" (واضح/صافي).. لما تنظف الشباك بيبقى \"Clean\" و \"Clear\".",
+      "examples": {
+        "A1": "My hands are clean.",
+        "A2": "Keep your room clean.",
+        "B1": "I need a clean shirt for the party.",
+        "B2": "The hotel room was clean and comfortable.",
+        "C1": "We need to invest in clean energy.",
+        "C2": "He made a clean break with his past."
+      },
+      "collocations": [
+        "clean air",
+        "clean water",
+        "clean energy",
+        "keep clean",
+        "clean sheet"
+      ],
+      "synonyms": [
+        "spotless",
+        "pure",
+        "washed",
+        "tidy"
+      ],
+      "antonyms": [
+        "dirty",
+        "filthy",
+        "messy"
+      ],
+      "relatedWords": {
+        "en": [
+          "cleaner",
+          "cleanliness",
+          "wash",
+          "wipe"
+        ],
+        "ar": [
+          "منظف",
+          "نظافة",
+          "يغسل",
+          "يمسح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cleaner",
+        "verb": "clean",
+        "adj": "clean",
+        "adv": "cleanly"
+      },
+      "arabicAr": "نظيف",
+      "frenchFr": "propre",
+      "germanDe": "sauber",
+      "spanishEs": "limpio",
+      "chineseZh": "干净 (Gānjìng)",
+      "russianRu": "чистый",
+      "portuguesePt": "limpo",
+      "japaneseJa": "きれい (Kirei)",
+      "italianIt": "pulito",
+      "turkishTr": "temiz",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2580,
+      "wordEn": "clean",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "klin",
+      "phoneticUk": null,
+      "phoneticAr": "كْلِين",
+      "translit": "Yunazzif",
+      "definitionEn": "To remove dirt or marks from something.",
+      "definitionAr": "ينظف، يعني يشيل الوسخ أو الأتربة من على حاجة.",
+      "usageNote": "Often used with 'up' (clean up your room).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Chores",
+        "#Wash",
+        "#Hygiene"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما قلنا، \"Clean\" يعني ينظف.. \"Clean\" your room!",
+      "examples": {
+        "A1": "I clean my room every week.",
+        "A2": "Please clean the table after dinner.",
+        "B1": "He was cleaning the car when I arrived.",
+        "B2": "We need to clean up this mess.",
+        "C1": "The software cleans the disk drive automatically.",
+        "C2": "She cleaned the wound with antiseptic."
+      },
+      "collocations": [
+        "clean up",
+        "clean the house",
+        "dry clean",
+        "clean out"
+      ],
+      "synonyms": [
+        "wash",
+        "scrub",
+        "wipe",
+        "purify"
+      ],
+      "antonyms": [
+        "dirty",
+        "soil",
+        "pollute"
+      ],
+      "relatedWords": {
+        "en": [
+          "cleaning",
+          "cleaner",
+          "soap",
+          "water"
+        ],
+        "ar": [
+          "تنظيف",
+          "عامل نظافة",
+          "صابون",
+          "ماء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cleaner",
+        "verb": "clean",
+        "adj": "clean",
+        "adv": "cleanly"
+      },
+      "arabicAr": "ينظف",
+      "frenchFr": "nettoyer",
+      "germanDe": "putzen",
+      "spanishEs": "limpiar",
+      "chineseZh": "打扫 (Dǎsǎo)",
+      "russianRu": "чистить",
+      "portuguesePt": "limpar",
+      "japaneseJa": "掃除する (Sōji suru)",
+      "italianIt": "pulire",
+      "turkishTr": "temizlemek",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 2581,
+      "wordEn": "count",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "kaʊnt",
+      "phoneticUk": null,
+      "phoneticAr": "كَاوْنْت",
+      "translit": "Adad / Hisab",
+      "definitionEn": "The act of determining the total number of something.",
+      "definitionAr": "العد أو الحساب، يعني عملية حساب عدد الحاجات الموجودة.",
+      "usageNote": "Also a noble title (Earl/Count), but here refers to numbering.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Math",
+        "#Number",
+        "#Total"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Count\" (يعد) قريبة من \"Account\" (حساب).. لازم تعمل \"Count\" للفلوس اللي في الـ \"Account\".",
+      "examples": {
+        "A1": "Can you do a quick count of the chairs?",
+        "A2": "The final count was twenty.",
+        "B1": "We lost count of the days.",
+        "B2": "Her white blood cell count is low.",
+        "C1": "On the count of three, run!",
+        "C2": "The candidate demanded a recount of the votes."
+      },
+      "collocations": [
+        "lose count",
+        "keep count",
+        "head count",
+        "blood count",
+        "final count"
+      ],
+      "synonyms": [
+        "tally",
+        "total",
+        "calculation",
+        "enumeration"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "number",
+          "counter",
+          "countdown",
+          "account"
+        ],
+        "ar": [
+          "رقم",
+          "عداد",
+          "عد تنازلي",
+          "حساب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "counter",
+        "verb": "count",
+        "adj": "countable",
+        "adv": ""
+      },
+      "arabicAr": "عد / إحصاء",
+      "frenchFr": "compte",
+      "germanDe": "Zählung",
+      "spanishEs": "conteo",
+      "chineseZh": "计数 (Jìshù)",
+      "russianRu": "подсчет",
+      "portuguesePt": "contagem",
+      "japaneseJa": "計算 (Keisan)",
+      "italianIt": "conteggio",
+      "turkishTr": "sayım",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 2582,
+      "wordEn": "count",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "kaʊnt",
+      "phoneticUk": null,
+      "phoneticAr": "كَاوْنْت",
+      "translit": "Ya'udd",
+      "definitionEn": "To determine the total number of something, or to be important.",
+      "definitionAr": "يعد الأرقام (١، ٢، ٣)، أو ممكن تيجي بمعنى إن الشيء ده مهم (It counts).",
+      "usageNote": "Can mean 'rely on' (count on me).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Math",
+        "#Importance",
+        "#Rely"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما قلنا، \"Count\" يعني يعد.. \"Count\" your blessings (عد نعم ربنا عليك).",
+      "examples": {
+        "A1": "I can count to ten.",
+        "A2": "Please count the money carefully.",
+        "B1": "You can count on me for help.",
+        "B2": "Every vote counts in this election.",
+        "C1": "I count myself lucky to be here.",
+        "C2": "Don't count your chickens before they hatch."
+      },
+      "collocations": [
+        "count on",
+        "count in",
+        "count out",
+        "count up",
+        "stand up and be counted"
+      ],
+      "synonyms": [
+        "calculate",
+        "tally",
+        "matter",
+        "reckon"
+      ],
+      "antonyms": [
+        "guess",
+        "estimate"
+      ],
+      "relatedWords": {
+        "en": [
+          "accounting",
+          "accountant",
+          "discount",
+          "recount"
+        ],
+        "ar": [
+          "محاسبة",
+          "محاسب",
+          "خصم",
+          "إعادة عد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "count",
+        "verb": "count",
+        "adj": "countable",
+        "adv": ""
+      },
+      "arabicAr": "يعد / يعتبر",
+      "frenchFr": "compter",
+      "germanDe": "zählen",
+      "spanishEs": "contar",
+      "chineseZh": "数 (Shǔ)",
+      "russianRu": "считать",
+      "portuguesePt": "contar",
+      "japaneseJa": "数える (Kazoeru)",
+      "italianIt": "contare",
+      "turkishTr": "saymak",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

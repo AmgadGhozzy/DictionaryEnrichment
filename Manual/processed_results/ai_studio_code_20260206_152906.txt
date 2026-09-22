@@ -1,0 +1,2177 @@
+{
+  "wordEntries": [
+    {
+      "id": 577,
+      "wordEn": "subject",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsʌb.dʒɪkt",
+      "phoneticUk": null,
+      "phoneticAr": "سَبْجِكْت",
+      "translit": "Mawḍū‘",
+      "definitionEn": "Likely to be affected by or dependent on something; conditional upon.",
+      "definitionAr": "لما توصف حاجة إنها مرتبطة بشرط معين أو معرضة لحاجة تحصلها، زي لما نقول الرحلة معرضة للتأخير.",
+      "usageNote": "Commonly used in the phrase 'subject to' (e.g., subject to change, subject to approval).",
+      "category": "General / Common",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Conditions",
+        "#Rules",
+        "#Dependency"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Subject\" كصفة معناها خاضع أو عُرضة لشيء.. افتكر إن الـ \"Subjects\" هما الرعايا الخاضعين للملك.",
+      "examples": {
+        "A1": "The price is subject to change.",
+        "A2": "The schedule is subject to the weather.",
+        "B1": "All flights are subject to delay due to the storm.",
+        "B2": "The merger is subject to the approval of the shareholders.",
+        "C1": "Researchers must ensure participants are not subject to unnecessary risk.",
+        "C2": "The interpretation of this clause is subject to considerable legal debate."
+      },
+      "collocations": [
+        "subject to change",
+        "subject to approval",
+        "subject to tax"
+      ],
+      "synonyms": [
+        "conditional",
+        "dependent",
+        "liable",
+        "susceptible"
+      ],
+      "antonyms": [
+        "immune",
+        "independent"
+      ],
+      "relatedWords": {
+        "en": [
+          "subjection",
+          "subjective"
+        ],
+        "ar": [
+          "خضوع",
+          "شخصي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "subjection",
+        "verb": "subject",
+        "adj": "subjective",
+        "adv": "subjectively"
+      },
+      "arabicAr": "موضوع",
+      "frenchFr": "sujet",
+      "germanDe": "vorbehaltlich",
+      "spanishEs": "sujeto",
+      "chineseZh": "受...支配的 (Shòu... zhīpèi de)",
+      "russianRu": "подлежащий",
+      "portuguesePt": "sujeito",
+      "japaneseJa": "対象 (Taishō)",
+      "italianIt": "soggetto",
+      "turkishTr": "bağlı",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 578,
+      "wordEn": "subject",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsʌb.dʒɪkt",
+      "phoneticUk": null,
+      "phoneticAr": "سَبْجِكْت",
+      "translit": "Mawḍū‘",
+      "definitionEn": "A thing or person that is being discussed, described, or dealt with; a field of study.",
+      "definitionAr": "الموضوع اللي بنتكلم فيه، أو المادة الدراسية اللي بتدرسها في المدرسة زي التاريخ أو العلوم.",
+      "usageNote": "Can mean a topic of conversation OR a school class.",
+      "category": "Education & Learning",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Education",
+        "#School",
+        "#Topic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Subject\" هو الموضوع أو المادة.. افتكر إنك بتفتح الـ \"Sub\"-way عشان تختار الـ \"Subject\" اللي هتاكله.",
+      "examples": {
+        "A1": "Math is my favorite subject.",
+        "A2": "We changed the subject of the conversation.",
+        "B1": "History is an interesting subject to study.",
+        "B2": "The email had no subject line.",
+        "C1": "The subject of the painting is a young woman.",
+        "C2": "The ethics of AI is a complex subject involving philosophy and technology."
+      },
+      "collocations": [
+        "favorite subject",
+        "change the subject",
+        "subject matter"
+      ],
+      "synonyms": [
+        "topic",
+        "theme",
+        "issue",
+        "discipline"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "topic",
+          "course",
+          "class"
+        ],
+        "ar": [
+          "مادة",
+          "عنوان",
+          "مجال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "subjectivity",
+        "verb": "subject",
+        "adj": "subjective",
+        "adv": "subjectively"
+      },
+      "arabicAr": "موضوع",
+      "frenchFr": "sujet",
+      "germanDe": "Thema",
+      "spanishEs": "tema",
+      "chineseZh": "科目 (Kēmù)",
+      "russianRu": "предмет",
+      "portuguesePt": "assunto",
+      "japaneseJa": "科目 (Kamoku)",
+      "italianIt": "argomento",
+      "turkishTr": "konu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 579,
+      "wordEn": "person",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈpɝ.sən",
+      "phoneticUk": "ˈpɜː.sən",
+      "phoneticAr": "بِرْسَن",
+      "translit": "Shakhṣ",
+      "definitionEn": "A human being regarded as an individual.",
+      "definitionAr": "شخص واحد، إنسان، بني آدم مستقل بذاته.",
+      "usageNote": "Plural is usually 'people', but 'persons' is used in formal/legal contexts.",
+      "category": "People & Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Human",
+        "#Individual",
+        "#Identity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Person\" يعني شخص.. قريبة من كلمة \"Son\" \"ابن\".. كل \"Person\" هو في الأصل \"Son\" أو \"Daughter\".",
+      "examples": {
+        "A1": "She is a nice person.",
+        "A2": "One person can make a difference.",
+        "B1": "I need to speak to this person directly.",
+        "B2": "He is a very private person.",
+        "C1": "The police have not yet identified the person responsible.",
+        "C2": "The philosophical concept of what constitutes a person is debated."
+      },
+      "collocations": [
+        "good person",
+        "in person",
+        "missing person"
+      ],
+      "synonyms": [
+        "individual",
+        "human",
+        "being",
+        "soul"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "people",
+          "personality",
+          "personal"
+        ],
+        "ar": [
+          "ناس",
+          "شخصية",
+          "شخصي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "personality",
+        "verb": "personify",
+        "adj": "personal",
+        "adv": "personally"
+      },
+      "arabicAr": "شخص",
+      "frenchFr": "personne",
+      "germanDe": "Person",
+      "spanishEs": "persona",
+      "chineseZh": "人 (Rén)",
+      "russianRu": "человек",
+      "portuguesePt": "pessoa",
+      "japaneseJa": "人 (Hito)",
+      "italianIt": "persona",
+      "turkishTr": "kişi",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 580,
+      "wordEn": "term",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "tɜːm",
+      "phoneticUk": null,
+      "phoneticAr": "تِرْم",
+      "translit": "Sharṭ / Muṣṭalaḥ",
+      "definitionEn": "A fixed period of time; or a word used to describe something.",
+      "definitionAr": "ليها معنيين مشهورين: إما مصطلح وكلمة محددة، أو فترة زمنية زي التيرم الدراسي.",
+      "usageNote": "In plural 'terms', it often refers to conditions of an agreement (terms and conditions).",
+      "category": "Education & Learning",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Language",
+        "#Contract"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "إحنا بنقول في المدرسة \"الـتيرم الأول\".. \"Term\" يعني فترة دراسية أو مصطلح.",
+      "examples": {
+        "A1": "The school term ends in June.",
+        "A2": "What does this technical term mean?",
+        "B1": "We need to agree on the terms of the contract.",
+        "B2": "In the long term, this investment will pay off.",
+        "C1": "The President is serving his second term.",
+        "C2": "The terms of engagement were strictly defined by the military."
+      },
+      "collocations": [
+        "long term",
+        "short term",
+        "technical term",
+        "school term"
+      ],
+      "synonyms": [
+        "period",
+        "duration",
+        "expression",
+        "word"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "terminology",
+          "terminal",
+          "condition"
+        ],
+        "ar": [
+          "مصطلحات",
+          "نهائي",
+          "شرط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "terminology",
+        "verb": "term",
+        "adj": "terminal",
+        "adv": "terminally"
+      },
+      "arabicAr": "شرط / مصطلح",
+      "frenchFr": "terme",
+      "germanDe": "Begriff",
+      "spanishEs": "término",
+      "chineseZh": "术语 (Shùyǔ)",
+      "russianRu": "термин",
+      "portuguesePt": "termo",
+      "japaneseJa": "用語 (Yōgo)",
+      "italianIt": "termine",
+      "turkishTr": "terim",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 581,
+      "wordEn": "term",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "tɜːm",
+      "phoneticUk": null,
+      "phoneticAr": "تِرْم",
+      "translit": "Sharṭ / Muṣṭalaḥ",
+      "definitionEn": "To give a particular name to; to call or designate.",
+      "definitionAr": "إنك تسمي حاجة اسم معين أو تطلق عليها لقب.",
+      "usageNote": "Usually used in passive voice: 'It is termed...' or 'He was termed...'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Naming",
+        "#Language",
+        "#Definition"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "زي ما \"Term\" اسم، ممكن تستخدمها كفعل بمعنى \"يسمي\".. يعني بيحط للحاجة \"Term\".",
+      "examples": {
+        "A1": "They term this flower a rose.",
+        "A2": "Doctors term this condition as mild.",
+        "B1": "The process is termed 'photosynthesis'.",
+        "B2": "Critics termed the movie a masterpiece.",
+        "C1": "What some term freedom, others term chaos.",
+        "C2": "The phenomenon was later termed 'The Great Resignation' by economists."
+      },
+      "collocations": [
+        "termed as",
+        "officially termed"
+      ],
+      "synonyms": [
+        "call",
+        "name",
+        "designate",
+        "label"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "name",
+          "call",
+          "label"
+        ],
+        "ar": [
+          "يسمي",
+          "يدعو",
+          "يلقب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "term",
+        "verb": "",
+        "adj": "terminal",
+        "adv": ""
+      },
+      "arabicAr": "شرط / مصطلح",
+      "frenchFr": "appeler",
+      "germanDe": "bezeichnen",
+      "spanishEs": "denominar",
+      "chineseZh": "把...称为 (Bǎ... chēngwéi)",
+      "russianRu": "называть",
+      "portuguesePt": "designar",
+      "japaneseJa": "名づける (Nazukeru)",
+      "italianIt": "denominare",
+      "turkishTr": "adlandırmak",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 582,
+      "wordEn": "particular",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "pɚˈtɪk.jə.lɚ",
+      "phoneticUk": "pəˈtɪk.jə.lə",
+      "phoneticAr": "بَرْتِكْيَلَر",
+      "translit": "Khāṣ / Khāṣṣah",
+      "definitionEn": "Specific; distinct from others; special or single.",
+      "definitionAr": "حاجة معينة ومحددة بذاتها، مش أي حاجة وخلاص. وممكن تيجي بمعنى شخص دقيق جداً في اختياراته.",
+      "usageNote": "Can mean 'specific' (this particular car) or 'fussy' (he is particular about food).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Specific",
+        "#Detail",
+        "#Choice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Particular\" قريبة من \"Particle\" \"جزيء\".. يعني بتركز على جزء صغير ومحدد جداً.",
+      "examples": {
+        "A1": "I like this particular color.",
+        "A2": "Is there any particular reason for your visit?",
+        "B1": "She is very particular about her clothes.",
+        "B2": "Pay particular attention to the safety rules.",
+        "C1": "The report focuses on the particular needs of the elderly.",
+        "C2": "This species is particular to the islands of the Pacific."
+      },
+      "collocations": [
+        "in particular",
+        "particular attention",
+        "particular reason"
+      ],
+      "synonyms": [
+        "specific",
+        "certain",
+        "special",
+        "distinct"
+      ],
+      "antonyms": [
+        "general",
+        "ordinary"
+      ],
+      "relatedWords": {
+        "en": [
+          "particularly",
+          "particle",
+          "part"
+        ],
+        "ar": [
+          "تحديداً",
+          "جزء",
+          "تفصيل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "particularity",
+        "verb": "particularize",
+        "adj": "",
+        "adv": "particularly"
+      },
+      "arabicAr": "خاص / خاصة",
+      "frenchFr": "particulier",
+      "germanDe": "bestimmt",
+      "spanishEs": "particular",
+      "chineseZh": "特定的 (Tèdìng de)",
+      "russianRu": "конкретный",
+      "portuguesePt": "particular",
+      "japaneseJa": "特定の (Tokutei no)",
+      "italianIt": "particolare",
+      "turkishTr": "belirli",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 583,
+      "wordEn": "full",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "fʊl",
+      "phoneticUk": null,
+      "phoneticAr": "فُل",
+      "translit": "Mumtali' / Mumtali",
+      "definitionEn": "Containing as much or as many as possible; having no empty space.",
+      "definitionAr": "مليان ع الآخر، مفيش مكان فاضي لأي حاجة تانية.",
+      "usageNote": "Opposite of empty. Can refer to stomach (not hungry) or containers.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Capacity",
+        "#Food",
+        "#Complete"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Full\" سهلة.. زي لما تقول \"أكلت فول\" وبطني بقت \"Full\" (مليانة).",
+      "examples": {
+        "A1": "The glass is full.",
+        "A2": "I am full, I cannot eat more.",
+        "B1": "Please write your full name.",
+        "B2": "The room was full of people.",
+        "C1": "She lived a very full life.",
+        "C2": "The moon was full and bright in the sky."
+      },
+      "collocations": [
+        "full time",
+        "full of",
+        "full moon"
+      ],
+      "synonyms": [
+        "filled",
+        "complete",
+        "packed",
+        "stuffed"
+      ],
+      "antonyms": [
+        "empty",
+        "vacant"
+      ],
+      "relatedWords": {
+        "en": [
+          "fill",
+          "fully",
+          "fullness"
+        ],
+        "ar": [
+          "يملأ",
+          "كلياً",
+          "امتلاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fullness",
+        "verb": "fill",
+        "adj": "",
+        "adv": "fully"
+      },
+      "arabicAr": "ممتلىء / ممتلئ",
+      "frenchFr": "plein",
+      "germanDe": "voll",
+      "spanishEs": "lleno",
+      "chineseZh": "满的 (Mǎn de)",
+      "russianRu": "полный",
+      "portuguesePt": "cheio",
+      "japaneseJa": "いっぱいの (Ippai no)",
+      "italianIt": "pieno",
+      "turkishTr": "dolu",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 584,
+      "wordEn": "involve",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "ɪnˈvɑːlv",
+      "phoneticUk": "ɪnˈvɒlv",
+      "phoneticAr": "إِنْفَالْف",
+      "translit": "Yataḍamman / Ishrāk",
+      "definitionEn": "To include something as a necessary part or result; to affect someone.",
+      "definitionAr": "إن الموضوع يشمل أو يتضمن حاجة تانية كجزء أساسي منه، أو يورط حد في موضوع.",
+      "usageNote": "Often implies complexity or necessary consequences.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Include",
+        "#Participation",
+        "#Complex"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Involve\" فيها \"Volve\" زي \"Revolve\" (يدور).. يعني بتدخل جوه الدايرة وتبقى جزء منها \"In\".",
+      "examples": {
+        "A1": "The game involves running.",
+        "A2": "My job involves using a computer.",
+        "B1": "Don't involve me in your problems.",
+        "B2": "The project involves a lot of work.",
+        "C1": "The accident involved three cars.",
+        "C2": "The procedure involves complex legal ramifications."
+      },
+      "collocations": [
+        "get involved",
+        "involve risk",
+        "involve money"
+      ],
+      "synonyms": [
+        "include",
+        "entail",
+        "imply",
+        "require"
+      ],
+      "antonyms": [
+        "exclude",
+        "omit"
+      ],
+      "relatedWords": {
+        "en": [
+          "involvement",
+          "involved"
+        ],
+        "ar": [
+          "تورط",
+          "مشاركة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "involvement",
+        "verb": "",
+        "adj": "involved",
+        "adv": ""
+      },
+      "arabicAr": "يتضمن / إشراك",
+      "frenchFr": "impliquer",
+      "germanDe": "beinhalten",
+      "spanishEs": "involucrar",
+      "chineseZh": "包含 (Bāohán)",
+      "russianRu": "включать",
+      "portuguesePt": "envolver",
+      "japaneseJa": "含む (Fukumu)",
+      "italianIt": "coinvolgere",
+      "turkishTr": "içermek",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 585,
+      "wordEn": "sort",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "sɔːrt",
+      "phoneticUk": "sɔːt",
+      "phoneticAr": "سُورْت",
+      "translit": "Naw‘ / Farz",
+      "definitionEn": "A category of things or people having some common feature; a type.",
+      "definitionAr": "نوع أو صنف من الحاجات اللي شبه بعض.",
+      "usageNote": "Very common in spoken English: 'What sort of...?'",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Type",
+        "#Category",
+        "#Kind"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Sort\" يعني نوع.. زي لما تعمل \"Sorting\" للفايلات يعني بترتب كل نوع لوحده.",
+      "examples": {
+        "A1": "What sort of music do you like?",
+        "A2": "It was a sort of blue color.",
+        "B1": "He's a good sort of person.",
+        "B2": "I need some sort of explanation.",
+        "C1": "Nothing of the sort occurred.",
+        "C2": "It gave me a strange sort of satisfaction."
+      },
+      "collocations": [
+        "sort of",
+        "what sort",
+        "kind of"
+      ],
+      "synonyms": [
+        "type",
+        "kind",
+        "variety",
+        "category"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "type",
+          "kind",
+          "category"
+        ],
+        "ar": [
+          "نوع",
+          "صنف",
+          "فئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sorter",
+        "verb": "sort",
+        "adj": "sorted",
+        "adv": ""
+      },
+      "arabicAr": "نوع",
+      "frenchFr": "sorte",
+      "germanDe": "Art",
+      "spanishEs": "tipo",
+      "chineseZh": "种类 (Zhǒnglèi)",
+      "russianRu": "сорт",
+      "portuguesePt": "tipo",
+      "japaneseJa": "種類 (Shurui)",
+      "italianIt": "tipo",
+      "turkishTr": "tür",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 586,
+      "wordEn": "sort",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "sɔːrt",
+      "phoneticUk": "sɔːt",
+      "phoneticAr": "سُورْت",
+      "translit": "Naw‘ / Farz",
+      "definitionEn": "To arrange systematically in groups; separate according to type.",
+      "definitionAr": "ترتب الحاجات وتصنفها كل مجموعة لوحدها، أو تحل مشكلة.",
+      "usageNote": "Often used with 'out' -> 'sort out' (to resolve/organize).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Organize",
+        "#Fix",
+        "#Arrange"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Sort\" يعني يفرز أو يرتب.. زي زرار الـ \"Sort\" في الإكسيل بيرتب البيانات.",
+      "examples": {
+        "A1": "Please sort the clothes by color.",
+        "A2": "I need to sort my papers.",
+        "B1": "We need to sort out this problem.",
+        "B2": "Can you sort the data alphabetically?",
+        "C1": "It took time to sort fact from fiction.",
+        "C2": "The mail is sorted automatically by machine."
+      },
+      "collocations": [
+        "sort out",
+        "sort through",
+        "sort by"
+      ],
+      "synonyms": [
+        "classify",
+        "organize",
+        "arrange",
+        "order"
+      ],
+      "antonyms": [
+        "mix",
+        "jumble"
+      ],
+      "relatedWords": {
+        "en": [
+          "sorter",
+          "sorting"
+        ],
+        "ar": [
+          "فرز",
+          "ترتيب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sort",
+        "verb": "",
+        "adj": "sorted",
+        "adv": ""
+      },
+      "arabicAr": "نوع",
+      "frenchFr": "trier",
+      "germanDe": "sortieren",
+      "spanishEs": "clasificar",
+      "chineseZh": "分类 (Fēnlèi)",
+      "russianRu": "сортировать",
+      "portuguesePt": "classificar",
+      "japaneseJa": "分類する (Bunrui suru)",
+      "italianIt": "ordinare",
+      "turkishTr": "sınıflandırmak",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 587,
+      "wordEn": "require",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "rɪˈkwaɪ.ɚ",
+      "phoneticUk": "rɪˈkwaɪ.ə",
+      "phoneticAr": "رِكْوَايَر",
+      "translit": "Yataṭallab / Taṭlub",
+      "definitionEn": "To need something for a particular purpose; to make something necessary.",
+      "definitionAr": "تكون محتاج حاجة ضرورية عشان تعمل حاجة تانية، أو القانون بيطلب منك ده.",
+      "usageNote": "More formal than 'need'. Often implies a rule or regulation.",
+      "category": "General / Common",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Need",
+        "#Rule",
+        "#Demand"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Require\" قريبة من \"Request\" (طلب).. لما تطلب حاجة بتبقى \"Required\" (مطلوبة).",
+      "examples": {
+        "A1": "Plants require water.",
+        "A2": "This job requires a car.",
+        "B1": "You are required to show your passport.",
+        "B2": "The situation requires immediate attention.",
+        "C1": "The software requires a minimum of 8GB RAM.",
+        "C2": "Silence is required in the library at all times."
+      },
+      "collocations": [
+        "require attention",
+        "legally required",
+        "require help"
+      ],
+      "synonyms": [
+        "need",
+        "demand",
+        "necessitate",
+        "call for"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "requirement",
+          "requisite",
+          "request"
+        ],
+        "ar": [
+          "متطلب",
+          "ضروري",
+          "طلب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "requirement",
+        "verb": "",
+        "adj": "required",
+        "adv": ""
+      },
+      "arabicAr": "يتطلب / تتطلب",
+      "frenchFr": "exiger",
+      "germanDe": "erfordern",
+      "spanishEs": "requerir",
+      "chineseZh": "需要 (Xūyào)",
+      "russianRu": "требовать",
+      "portuguesePt": "requerer",
+      "japaneseJa": "必要とする (Hitsuyō to suru)",
+      "italianIt": "richiedere",
+      "turkishTr": "gerektirmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 588,
+      "wordEn": "suggest",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "6",
+      "phoneticUs": "səˈdʒɛst",
+      "phoneticUk": "səˈdʒest",
+      "phoneticAr": "سَجِسْت",
+      "translit": "Yaqtariḥ / Tūḥī",
+      "definitionEn": "To put forward an idea or plan for consideration.",
+      "definitionAr": "تقترح فكرة أو خطة عشان الناس تفكر فيها.",
+      "usageNote": "Followed by 'that' clause or gerund (suggest doing), NEVER infinitive (suggest to do).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Idea",
+        "#Advice",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Suggest\" قريبة من \"Guest\".. لما يجيلك \"Guest\" (ضيف) بتـ \"Suggest\" (تقترح) عليه يشرب شاي.",
+      "examples": {
+        "A1": "I suggest we go home.",
+        "A2": "She suggested a new plan.",
+        "B1": "Can you suggest a good restaurant?",
+        "B2": "Evidence suggests that he is innocent.",
+        "C1": "I suggest checking the details carefully.",
+        "C2": "The results suggest a link between diet and health."
+      },
+      "collocations": [
+        "strongly suggest",
+        "evidence suggests",
+        "suggest an idea"
+      ],
+      "synonyms": [
+        "propose",
+        "recommend",
+        "advise",
+        "indicate"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "suggestion",
+          "suggestive"
+        ],
+        "ar": [
+          "اقتراح",
+          "موحي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "suggestion",
+        "verb": "",
+        "adj": "suggestive",
+        "adv": "suggestively"
+      },
+      "arabicAr": "يقترح",
+      "frenchFr": "suggérer",
+      "germanDe": "vorschlagen",
+      "spanishEs": "sugerir",
+      "chineseZh": "建议 (Jiànyì)",
+      "russianRu": "предлагать",
+      "portuguesePt": "sugerir",
+      "japaneseJa": "提案する (Teian suru)",
+      "italianIt": "suggerire",
+      "turkishTr": "önermek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 589,
+      "wordEn": "far",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "fɑːr",
+      "phoneticUk": "fɑː",
+      "phoneticAr": "فَار",
+      "translit": "Ba‘īd / Ba‘īdan",
+      "definitionEn": "Situated at a great distance in space or time.",
+      "definitionAr": "مكان بعيد، مسافة طويلة، مش قريب.",
+      "usageNote": "Used in questions 'How far is it?' and negatives 'It is not far'.",
+      "category": "Travel & Movement",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Distance",
+        "#Space",
+        "#Remote"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Far\" يعني بعيد.. افتكر \"Far away\" يعني بعيد جداً. وممكن تربطها بـ \"Ferry\" (معدية) بتاخدك مكان \"Far\".",
+      "examples": {
+        "A1": "Is your house far from here?",
+        "A2": "The station is not far.",
+        "B1": "He traveled to a far country.",
+        "B2": "We discussed the far future.",
+        "C1": "It was a far cry from what I expected.",
+        "C2": "The far reaches of the universe are still unexplored."
+      },
+      "collocations": [
+        "far away",
+        "how far",
+        "so far"
+      ],
+      "synonyms": [
+        "distant",
+        "remote",
+        "long",
+        "removed"
+      ],
+      "antonyms": [
+        "near",
+        "close"
+      ],
+      "relatedWords": {
+        "en": [
+          "farther",
+          "further",
+          "afar"
+        ],
+        "ar": [
+          "أبعد",
+          "إضافي",
+          "من بعيد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": "far"
+      },
+      "arabicAr": "بعيد",
+      "frenchFr": "lointain",
+      "germanDe": "fern",
+      "spanishEs": "lejano",
+      "chineseZh": "远的 (Yuǎn de)",
+      "russianRu": "далекий",
+      "portuguesePt": "longe",
+      "japaneseJa": "遠い (Tōi)",
+      "italianIt": "lontano",
+      "turkishTr": "uzak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 590,
+      "wordEn": "far",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "fɑːr",
+      "phoneticUk": "fɑː",
+      "phoneticAr": "فَار",
+      "translit": "Ba‘īd / Ba‘īdan",
+      "definitionEn": "At, to, or by a great distance.",
+      "definitionAr": "بشكل بعيد، أو لمسافة طويلة.",
+      "usageNote": "Common in 'so far' (until now) and 'far better' (much better).",
+      "category": "Travel & Movement",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Distance",
+        "#Degree",
+        "#Extent"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "How far did you walk?",
+        "A2": "Don't go too far.",
+        "B1": "This is far better than the old one.",
+        "B2": "So far, everything is good.",
+        "C1": "He went as far as to say I was lying.",
+        "C2": "The benefits far outweigh the costs."
+      },
+      "collocations": [
+        "so far",
+        "far better",
+        "far too"
+      ],
+      "synonyms": [
+        "much",
+        "considerably",
+        "deeply"
+      ],
+      "antonyms": [
+        "near",
+        "slightly"
+      ],
+      "relatedWords": {
+        "en": [
+          "further",
+          "farther"
+        ],
+        "ar": [
+          "أكثر",
+          "أبعد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "far",
+        "adv": ""
+      },
+      "arabicAr": "بعيد",
+      "frenchFr": "loin",
+      "germanDe": "weit",
+      "spanishEs": "lejos",
+      "chineseZh": "远 (Yuǎn)",
+      "russianRu": "далеко",
+      "portuguesePt": "longe",
+      "japaneseJa": "遠く (Tōku)",
+      "italianIt": "lontano",
+      "turkishTr": "uzağa",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 591,
+      "wordEn": "towards",
+      "pos": "prep",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "tɔːrdz",
+      "phoneticUk": "təˈwɔːdz",
+      "phoneticAr": "تُورْدْز",
+      "translit": "Tujāh",
+      "definitionEn": "In the direction of someone or something.",
+      "definitionAr": "ناحية حاجة معينة أو في اتجاهها.",
+      "usageNote": "Can be physical direction or attitude (feelings towards someone).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Movement",
+        "#Relation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Towards\" يعني تجاه.. جاية من \"To\" (إلى) + \"Ward\" (اتجاه).",
+      "examples": {
+        "A1": "He walked towards the door.",
+        "A2": "She ran towards her mother.",
+        "B1": "We are moving towards a solution.",
+        "B2": "My feelings towards him have changed.",
+        "C1": "The money will go towards charity.",
+        "C2": "There is a trend towards smaller families."
+      },
+      "collocations": [
+        "move towards",
+        "attitude towards",
+        "go towards"
+      ],
+      "synonyms": [
+        "toward",
+        "facing",
+        "approaching"
+      ],
+      "antonyms": [
+        "away from"
+      ],
+      "relatedWords": {
+        "en": [
+          "forward",
+          "direction"
+        ],
+        "ar": [
+          "إلى الأمام",
+          "اتجاه"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تجاه / بإتجاه",
+      "frenchFr": "vers",
+      "germanDe": "in Richtung",
+      "spanishEs": "hacia",
+      "chineseZh": "向 (Xiàng)",
+      "russianRu": "к",
+      "portuguesePt": "em direção a",
+      "japaneseJa": "〜の方へ (No hō e)",
+      "italianIt": "verso",
+      "turkishTr": "e doğru",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 592,
+      "wordEn": "anything",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈen.i.θɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "إِنِي ثِنج",
+      "translit": "Ayy Shay' / Ayy Shī",
+      "definitionEn": "Used to refer to a thing, no matter what.",
+      "definitionAr": "أي حاجة مهما كانت، بتستخدم كتير في النفي والسؤال.",
+      "usageNote": "Used in questions and negatives. In positives, it means 'it doesn't matter what'.",
+      "category": "General / Common",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Pronoun",
+        "#General",
+        "#Choice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "مكونة من \"Any\" (أي) و \"Thing\" (شيء).. يعني \"أي شيء\".",
+      "examples": {
+        "A1": "Do you want anything to eat?",
+        "A2": "I didn't see anything.",
+        "B1": "Is there anything else?",
+        "B2": "He will do anything for money.",
+        "C1": "Anything is possible if you try.",
+        "C2": "Hardly anything was known about the virus."
+      },
+      "collocations": [
+        "anything else",
+        "hardly anything",
+        "anything but"
+      ],
+      "synonyms": [
+        "something",
+        "everything",
+        "whatever"
+      ],
+      "antonyms": [
+        "nothing"
+      ],
+      "relatedWords": {
+        "en": [
+          "something",
+          "nothing",
+          "everything"
+        ],
+        "ar": [
+          "شيء ما",
+          "لا شيء",
+          "كل شيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أي شئ / أي شيء",
+      "frenchFr": "n'importe quoi",
+      "germanDe": "irgendetwas",
+      "spanishEs": "cualquier cosa",
+      "chineseZh": "任何事 (Rènhé shì)",
+      "russianRu": "что-нибудь",
+      "portuguesePt": "qualquer coisa",
+      "japaneseJa": "何か (Nanika)",
+      "italianIt": "qualsiasi cosa",
+      "turkishTr": "herhangi bir şey",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 593,
+      "wordEn": "period",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈpɪr.i.əd",
+      "phoneticUk": "ˈpɪə.ri.əd",
+      "phoneticAr": "بِيرْيَد",
+      "translit": "Fatrah",
+      "definitionEn": "A length or portion of time.",
+      "definitionAr": "فترة زمنية أو مدة محددة من الوقت. وممكن تيجي بمعنى النقطة في آخر الجملة.",
+      "usageNote": "In US English, 'period' also means 'full stop' (punctuation).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#History",
+        "#Duration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Period\" يعني فترة.. افتكر \"Period drama\" يعني مسلسل تاريخي عن فترة زمنية قديمة.",
+      "examples": {
+        "A1": "We played for a short period.",
+        "A2": "The Jurassic period was millions of years ago.",
+        "B1": "There will be a trial period of 30 days.",
+        "B2": "This period of history is very interesting.",
+        "C1": "She experienced a period of depression.",
+        "C2": "The painting dates from the artist's blue period."
+      },
+      "collocations": [
+        "time period",
+        "trial period",
+        "long period"
+      ],
+      "synonyms": [
+        "time",
+        "interval",
+        "term",
+        "phase"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "periodic",
+          "periodical"
+        ],
+        "ar": [
+          "دوري",
+          "مجلة دورية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "periodic",
+        "adv": "periodically"
+      },
+      "arabicAr": "فترة",
+      "frenchFr": "période",
+      "germanDe": "Zeitraum",
+      "spanishEs": "período",
+      "chineseZh": "时期 (Shíqī)",
+      "russianRu": "период",
+      "portuguesePt": "período",
+      "japaneseJa": "期間 (Kikan)",
+      "italianIt": "periodo",
+      "turkishTr": "dönem",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 594,
+      "wordEn": "consider",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "7",
+      "phoneticUs": "kənˈsɪd.ɚ",
+      "phoneticUk": "kənˈsɪd.ə",
+      "phoneticAr": "كَنْسِدَر",
+      "translit": "Yu‘tabar",
+      "definitionEn": "To think carefully about something, typically before making a decision.",
+      "definitionAr": "تفكر في الموضوع بجدية وتاخده في اعتبارك قبل ما تقرر، أو تعتبر حاجة معينة رأيك.",
+      "usageNote": "Can mean 'think about' (I considered leaving) or 'regard as' (I consider him a friend).",
+      "category": "Mind & Thinking",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Think",
+        "#Decision",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Consider\" يعني يعتبر أو يفكر.. في نصها \"Side\".. يعني بتبص للموضوع من كل الـ \"Sides\" (الجوانب).",
+      "examples": {
+        "A1": "Please consider my offer.",
+        "A2": "I consider him my best friend.",
+        "B1": "Have you considered moving to a new house?",
+        "B2": "We must consider all the possibilities.",
+        "C1": "He is generally considered to be the best in his field.",
+        "C2": "All things considered, the project was a success."
+      },
+      "collocations": [
+        "carefully consider",
+        "consider options",
+        "highly considered"
+      ],
+      "synonyms": [
+        "think",
+        "contemplate",
+        "regard",
+        "deem"
+      ],
+      "antonyms": [
+        "ignore",
+        "disregard"
+      ],
+      "relatedWords": {
+        "en": [
+          "consideration",
+          "considerable"
+        ],
+        "ar": [
+          "اعتبار",
+          "معتبر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "consideration",
+        "verb": "",
+        "adj": "considerable",
+        "adv": "considerably"
+      },
+      "arabicAr": "يعتبر / يأخذ بالإعتبار",
+      "frenchFr": "considérer",
+      "germanDe": "betrachten",
+      "spanishEs": "considerar",
+      "chineseZh": "考虑 (Kǎolǜ)",
+      "russianRu": "рассматривать",
+      "portuguesePt": "considerar",
+      "japaneseJa": "考慮する (Kōryo suru)",
+      "italianIt": "considerare",
+      "turkishTr": "düşünmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 595,
+      "wordEn": "read",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "riːd",
+      "phoneticUk": null,
+      "phoneticAr": "رِيد",
+      "translit": "Yaqra' / Aqra'",
+      "definitionEn": "A period or act of reading something.",
+      "definitionAr": "عملية القراءة نفسها، أو لما تقول \"أخدت قراءة سريعة\" للكتاب ده.",
+      "usageNote": "Often used in phrases like 'have a read' or 'a good read' (an enjoyable book).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Book",
+        "#Activity",
+        "#Leisure"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Read\" سهلة.. بس كاسم معناها \"قراءة\".. زي \"This book is a good read\".",
+      "examples": {
+        "A1": "I had a quick read of your letter.",
+        "A2": "This magazine is a good read.",
+        "B1": "Can I have a read of your newspaper?",
+        "B2": "It's a challenging read, but worth it.",
+        "C1": "The meter gave a read of zero.",
+        "C2": "His latest novel is a compelling read."
+      },
+      "collocations": [
+        "good read",
+        "quick read",
+        "have a read"
+      ],
+      "synonyms": [
+        "reading",
+        "perusal",
+        "scan"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "reader",
+          "reading"
+        ],
+        "ar": [
+          "قارئ",
+          "قراءة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "reader",
+        "verb": "read",
+        "adj": "readable",
+        "adv": ""
+      },
+      "arabicAr": "يقرأ",
+      "frenchFr": "lecture",
+      "germanDe": "Lektüre",
+      "spanishEs": "lectura",
+      "chineseZh": "阅读 (Yuèdú)",
+      "russianRu": "чтение",
+      "portuguesePt": "leitura",
+      "japaneseJa": "読み物 (Yomimono)",
+      "italianIt": "lettura",
+      "turkishTr": "okuma",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 596,
+      "wordEn": "read",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "riːd",
+      "phoneticUk": null,
+      "phoneticAr": "رِيد",
+      "translit": "Yaqra' / Aqra'",
+      "definitionEn": "To look at and comprehend the meaning of written or printed matter.",
+      "definitionAr": "تقرأ الكلام المكتوب وتفهم معناه.",
+      "usageNote": "Past tense is spelled 'read' but pronounced 'red' /rɛd/.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Book",
+        "#Study",
+        "#Skill"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Read\" يعني يقرأ.. افتكر إن القراءة بتخليك \"Ready\" (جاهز) ومستعد.",
+      "examples": {
+        "A1": "I read a book every week.",
+        "A2": "She is reading a magazine.",
+        "B1": "I read about the accident in the paper.",
+        "B2": "Can you read music?",
+        "C1": "Don't read too much into his comments.",
+        "C2": "He could read the subtle signs of her disapproval."
+      },
+      "collocations": [
+        "read a book",
+        "read aloud",
+        "read carefully"
+      ],
+      "synonyms": [
+        "peruse",
+        "scan",
+        "study",
+        "decipher"
+      ],
+      "antonyms": [
+        "write"
+      ],
+      "relatedWords": {
+        "en": [
+          "reading",
+          "reader",
+          "readable"
+        ],
+        "ar": [
+          "قراءة",
+          "قارئ",
+          "مقرؤية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "reading",
+        "verb": "",
+        "adj": "readable",
+        "adv": ""
+      },
+      "arabicAr": "يقرأ",
+      "frenchFr": "lire",
+      "germanDe": "lesen",
+      "spanishEs": "leer",
+      "chineseZh": "读 (Dú)",
+      "russianRu": "читать",
+      "portuguesePt": "ler",
+      "japaneseJa": "読む (Yomu)",
+      "italianIt": "leggere",
+      "turkishTr": "okumak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 597,
+      "wordEn": "society",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "səˈsaɪ.ə.ti",
+      "phoneticUk": null,
+      "phoneticAr": "سَسَايَتِي",
+      "translit": "Mujtama‘ / Al-Mujtama‘",
+      "definitionEn": "People living together in a more or less ordered community.",
+      "definitionAr": "المجتمع والناس اللي عايشين مع بعض بنظام معين وقوانين مشتركة.",
+      "usageNote": "Can refer to the general public or a specific club/organization (e.g., The Royal Society).",
+      "category": "Social Life & Communication",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Community",
+        "#People",
+        "#Culture"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Society\" يعني مجتمع.. جاية من \"Social\" (اجتماعي).",
+      "examples": {
+        "A1": "We live in a society.",
+        "A2": "Society needs laws to function.",
+        "B1": "She joined the drama society at school.",
+        "B2": "Technology is changing modern society.",
+        "C1": "He felt rejected by polite society.",
+        "C2": "The breakdown of traditional society has many causes."
+      },
+      "collocations": [
+        "modern society",
+        "high society",
+        "secret society"
+      ],
+      "synonyms": [
+        "community",
+        "public",
+        "world",
+        "civilization"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "social",
+          "socialize",
+          "societal"
+        ],
+        "ar": [
+          "اجتماعي",
+          "يخالط",
+          "مجتمعي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sociologist",
+        "verb": "socialize",
+        "adj": "social",
+        "adv": "socially"
+      },
+      "arabicAr": "مجتمع",
+      "frenchFr": "société",
+      "germanDe": "Gesellschaft",
+      "spanishEs": "sociedad",
+      "chineseZh": "社会 (Shèhuì)",
+      "russianRu": "общество",
+      "portuguesePt": "sociedade",
+      "japaneseJa": "社会 (Shakai)",
+      "italianIt": "società",
+      "turkishTr": "toplum",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 598,
+      "wordEn": "process",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈprɑː.ses",
+      "phoneticUk": "ˈprəʊ.ses",
+      "phoneticAr": "بْرَاسِس",
+      "translit": "‘Amaliyyah / Mu‘ālagah",
+      "definitionEn": "A series of actions or steps taken in order to achieve a particular end.",
+      "definitionAr": "عملية، يعني مجموعة خطوات ورا بعض بتعملها عشان توصل لنتيجة معينة.",
+      "usageNote": "Stress on first syllable PRO-cess.",
+      "category": "Actions & Processes",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Steps",
+        "#System",
+        "#Procedure"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Process\" يعني عملية.. افتكر الـ \"Processor\" بتاع الكمبيوتر اللي بيعمل عمليات المعالجة.",
+      "examples": {
+        "A1": "Learning is a long process.",
+        "A2": "We are in the process of moving house.",
+        "B1": "The manufacturing process is complex.",
+        "B2": "It's a natural aging process.",
+        "C1": "The peace process has stalled.",
+        "C2": "Cognitive processes involve memory and attention."
+      },
+      "collocations": [
+        "process of",
+        "long process",
+        "production process"
+      ],
+      "synonyms": [
+        "procedure",
+        "operation",
+        "method",
+        "system"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "proceed",
+          "processing",
+          "processor"
+        ],
+        "ar": [
+          "يستمر",
+          "معالجة",
+          "معالج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "processor",
+        "verb": "process",
+        "adj": "processed",
+        "adv": ""
+      },
+      "arabicAr": "عملية",
+      "frenchFr": "processus",
+      "germanDe": "Prozess",
+      "spanishEs": "proceso",
+      "chineseZh": "过程 (Guòchéng)",
+      "russianRu": "процесс",
+      "portuguesePt": "processo",
+      "japaneseJa": "過程 (Katei)",
+      "italianIt": "processo",
+      "turkishTr": "süreç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 599,
+      "wordEn": "process",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈprɑː.ses",
+      "phoneticUk": "ˈprəʊ.ses",
+      "phoneticAr": "بْرَاسِس",
+      "translit": "‘Amaliyyah / Mu‘ālagah",
+      "definitionEn": "To deal with something using an official procedure; to treat raw material.",
+      "definitionAr": "تعالج بيانات، أو تمشي في إجراءات رسمية لورق، أو تصنّع مواد خام.",
+      "usageNote": "Common in computing (data processing) and food (processed food).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Data",
+        "#Food",
+        "#Official"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس كلمة \"Process\" (عملية) بس كفعل معناها يعمل العملية دي (يعالج أو يصنع).",
+      "examples": {
+        "A1": "The computer processes data.",
+        "A2": "They process the milk into cheese.",
+        "B1": "How long does it take to process the application?",
+        "B2": "The brain processes information very fast.",
+        "C1": "We need to process these claims immediately.",
+        "C2": "She stood there, trying to process what he had just said."
+      },
+      "collocations": [
+        "process data",
+        "process food",
+        "process an application"
+      ],
+      "synonyms": [
+        "handle",
+        "treat",
+        "manage",
+        "deal with"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "processing",
+          "processor",
+          "processed"
+        ],
+        "ar": [
+          "معالجة",
+          "معالج",
+          "مصنّع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "process",
+        "verb": "",
+        "adj": "processed",
+        "adv": ""
+      },
+      "arabicAr": "عملية",
+      "frenchFr": "traiter",
+      "germanDe": "verarbeiten",
+      "spanishEs": "procesar",
+      "chineseZh": "处理 (Chǔlǐ)",
+      "russianRu": "обрабатывать",
+      "portuguesePt": "processar",
+      "japaneseJa": "処理する (Shori suru)",
+      "italianIt": "elaborare",
+      "turkishTr": "işlemek",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 600,
+      "wordEn": "mother",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmʌð.ɚ",
+      "phoneticUk": "ˈmʌð.ə",
+      "phoneticAr": "مَاذَر",
+      "translit": "Al-Umm / Umm",
+      "definitionEn": "Native (language/country) or source/origin of something.",
+      "definitionAr": "بتستخدم كوصف للحاجة الأصلية أو الأساسية، زي اللغة الأم أو الوطن الأم.",
+      "usageNote": "Mainly used in collocations like 'mother tongue', 'mother country', 'mother ship'.",
+      "category": "People & Family",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Origin",
+        "#Native",
+        "#Source"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما الـ \"Mother\" هي أصل الإنسان، بنستخدمها كوصف لأي حاجة أصلية زي \"Mother tongue\" اللغة الأم.",
+      "examples": {
+        "A1": "Spanish is her mother tongue.",
+        "A2": "They returned to the mother country.",
+        "B1": "The mother ship launched small pods.",
+        "B2": "Necessity is the mother of invention.",
+        "C1": "The mother board controls the computer.",
+        "C2": "It was the mother of all storms (idiom for biggest)."
+      },
+      "collocations": [
+        "mother tongue",
+        "mother nature",
+        "mother country"
+      ],
+      "synonyms": [
+        "native",
+        "original",
+        "source"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "maternal",
+          "motherly"
+        ],
+        "ar": [
+          "أمومي",
+          "حاني"
+        ]
+      },
+      "wordFamily": {
+        "noun": "mother",
+        "verb": "mother",
+        "adj": "motherly",
+        "adv": ""
+      },
+      "arabicAr": "الأم / أم",
+      "frenchFr": "maternel",
+      "germanDe": "Mutter-",
+      "spanishEs": "materno",
+      "chineseZh": "母 (Mǔ)",
+      "russianRu": "родной",
+      "portuguesePt": "materno",
+      "japaneseJa": "母の (Haha no)",
+      "italianIt": "materno",
+      "turkishTr": "ana",
+      "aiConfidence": 0.88
+    },
+    {
+      "id": 601,
+      "wordEn": "mother",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmʌð.ɚ",
+      "phoneticUk": "ˈmʌð.ə",
+      "phoneticAr": "مَاذَر",
+      "translit": "Al-Umm / Umm",
+      "definitionEn": "A female parent.",
+      "definitionAr": "الأم، الست اللي خلفت وربت الأولاد.",
+      "usageNote": "Formal: Mother. Informal: Mom, Mum, Mommy.",
+      "category": "People & Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Family",
+        "#Parent",
+        "#Woman"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Mother\" يعني أم.. قريبة من كلمة \"ماما\" في النطق.",
+      "examples": {
+        "A1": "I love my mother.",
+        "A2": "She became a mother at 25.",
+        "B1": "My mother works in a bank.",
+        "B2": "Like mother, like daughter.",
+        "C1": "She acted as a mother figure to the team.",
+        "C2": "Expectant mothers should avoid alcohol."
+      },
+      "collocations": [
+        "single mother",
+        "mother in law",
+        "expectant mother"
+      ],
+      "synonyms": [
+        "mom",
+        "mum",
+        "parent",
+        "matriarch"
+      ],
+      "antonyms": [
+        "father"
+      ],
+      "relatedWords": {
+        "en": [
+          "father",
+          "sister",
+          "brother"
+        ],
+        "ar": [
+          "أب",
+          "أخت",
+          "أخ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "motherhood",
+        "verb": "mother",
+        "adj": "motherly",
+        "adv": ""
+      },
+      "arabicAr": "الأم / أم",
+      "frenchFr": "mère",
+      "germanDe": "Mutter",
+      "spanishEs": "madre",
+      "chineseZh": "母亲 (Mǔqīn)",
+      "russianRu": "мать",
+      "portuguesePt": "mãe",
+      "japaneseJa": "母 (Haha)",
+      "italianIt": "madre",
+      "turkishTr": "anne",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 602,
+      "wordEn": "offer",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɑː.fɚ",
+      "phoneticUk": "ˈɒf.ə",
+      "phoneticAr": "آفَر",
+      "translit": "Ya‘riḍ / ‘Arḍ",
+      "definitionEn": "An expression of readiness to do or give something; a proposal.",
+      "definitionAr": "عرض، يعني لما حد يقدم لك حاجة أو خدمة عشان تقبلها أو ترفضها.",
+      "usageNote": "Common in shopping (special offer) and business (job offer).",
+      "category": "Work & Business",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Business",
+        "#Shopping",
+        "#Proposal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Offer\" يعني عرض.. زي الـ \"Offers\" اللي بنشوفها في المحلات (تخفيضات وعروض).",
+      "examples": {
+        "A1": "Thank you for the offer.",
+        "A2": "I got a job offer.",
+        "B1": "It was a generous offer.",
+        "B2": "We accepted their offer of help.",
+        "C1": "The company rejected the takeover offer.",
+        "C2": "He made an offer they couldn't refuse."
+      },
+      "collocations": [
+        "special offer",
+        "job offer",
+        "make an offer"
+      ],
+      "synonyms": [
+        "proposal",
+        "bid",
+        "proposition",
+        "suggestion"
+      ],
+      "antonyms": [
+        "refusal"
+      ],
+      "relatedWords": {
+        "en": [
+          "offering",
+          "bid",
+          "tender"
+        ],
+        "ar": [
+          "عطاء",
+          "مزايدة",
+          "مناقصة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "offering",
+        "verb": "offer",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يعرض / عرض",
+      "frenchFr": "offre",
+      "germanDe": "Angebot",
+      "spanishEs": "oferta",
+      "chineseZh": "提议 (Tíyì)",
+      "russianRu": "предложение",
+      "portuguesePt": "oferta",
+      "japaneseJa": "申し出 (Mōshide)",
+      "italianIt": "offerta",
+      "turkishTr": "teklif",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 603,
+      "wordEn": "offer",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈɑː.fɚ",
+      "phoneticUk": "ˈɒf.ə",
+      "phoneticAr": "آفَر",
+      "translit": "Ya‘riḍ / ‘Arḍ",
+      "definitionEn": "To present something for someone to accept or reject as desired.",
+      "definitionAr": "تعرض حاجة على حد، سواء مساعدة أو أكل أو شغل، وهو حر يقبل أو يرفض.",
+      "usageNote": "Can be followed by noun (offer a drink) or infinitive (offer to help).",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Give",
+        "#Help",
+        "#Present"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He offered me a drink.",
+        "A2": "She offered to help us.",
+        "B1": "They offered him a good price.",
+        "B2": "The hotel offers many facilities.",
+        "C1": "The course offers an opportunity to learn.",
+        "C2": "He offered a plausible explanation for his absence."
+      },
+      "collocations": [
+        "offer help",
+        "offer advice",
+        "offer a job"
+      ],
+      "synonyms": [
+        "propose",
+        "give",
+        "present",
+        "provide"
+      ],
+      "antonyms": [
+        "refuse",
+        "withhold"
+      ],
+      "relatedWords": {
+        "en": [
+          "proffer",
+          "grant"
+        ],
+        "ar": [
+          "يقدم",
+          "يمنح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "offer",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يعرض / عرض",
+      "frenchFr": "offrir",
+      "germanDe": "anbieten",
+      "spanishEs": "ofrecer",
+      "chineseZh": "提供 (Tígōng)",
+      "russianRu": "предлагать",
+      "portuguesePt": "oferecer",
+      "japaneseJa": "提供する (Teikyō suru)",
+      "italianIt": "offrire",
+      "turkishTr": "teklif etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 604,
+      "wordEn": "late",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "leɪt",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْت",
+      "translit": "Muta'akhkhir",
+      "definitionEn": "Doing something or taking place after the expected, proper, or usual time.",
+      "definitionAr": "متأخر، يعني جاي بعد الميعاد المحدد، أو في وقت متأخر من اليوم.",
+      "usageNote": "Can also mean 'deceased' (the late Mr. Smith).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Delay",
+        "#Dead"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Late\" يعني متأخر.. افتكر لما تقول لحد \"Why are you late?\" (ليه اتأخرت؟).",
+      "examples": {
+        "A1": "I am late for school.",
+        "A2": "It was a late night.",
+        "B1": "The bus is late today.",
+        "B2": "He is in his late twenties.",
+        "C1": "The late Mr. Jones was a kind man.",
+        "C2": "A late addition to the agenda caused confusion."
+      },
+      "collocations": [
+        "late night",
+        "too late",
+        "late for"
+      ],
+      "synonyms": [
+        "tardy",
+        "delayed",
+        "behind",
+        "slow"
+      ],
+      "antonyms": [
+        "early",
+        "punctual"
+      ],
+      "relatedWords": {
+        "en": [
+          "lately",
+          "later",
+          "lateness"
+        ],
+        "ar": [
+          "مؤخراً",
+          "لاحقاً",
+          "تأخير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lateness",
+        "verb": "",
+        "adj": "later",
+        "adv": "lately"
+      },
+      "arabicAr": "متأخر",
+      "frenchFr": "en retard",
+      "germanDe": "spät",
+      "spanishEs": "tarde",
+      "chineseZh": "迟的 (Chí de)",
+      "russianRu": "поздний",
+      "portuguesePt": "atrasado",
+      "japaneseJa": "遅い (Osoi)",
+      "italianIt": "tardi",
+      "turkishTr": "geç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 605,
+      "wordEn": "late",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "leɪt",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْت",
+      "translit": "Muta'akhkhir",
+      "definitionEn": "After the expected, proper, or usual time.",
+      "definitionAr": "بشكل متأخر، أو في وقت متأخر.",
+      "usageNote": "Comparatives: later (time), latter (sequence).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Delay",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "She arrived late.",
+        "A2": "I stayed up late yesterday.",
+        "B1": "Better late than never.",
+        "B2": "See you later.",
+        "C1": "He married late in life.",
+        "C2": "As late as yesterday, the deal was still on."
+      },
+      "collocations": [
+        "stay up late",
+        "arrive late",
+        "sleep late"
+      ],
+      "synonyms": [
+        "belatedly",
+        "tardily"
+      ],
+      "antonyms": [
+        "early"
+      ],
+      "relatedWords": {
+        "en": [
+          "later",
+          "lately"
+        ],
+        "ar": [
+          "لاحقاً",
+          "مؤخراً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "late",
+        "adv": "lately"
+      },
+      "arabicAr": "متأخر",
+      "frenchFr": "tard",
+      "germanDe": "spät",
+      "spanishEs": "tarde",
+      "chineseZh": "晚 (Wǎn)",
+      "russianRu": "поздно",
+      "portuguesePt": "tarde",
+      "japaneseJa": "遅く (Osoku)",
+      "italianIt": "tardi",
+      "turkishTr": "geç",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 606,
+      "wordEn": "voice",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "vɔɪs",
+      "phoneticUk": null,
+      "phoneticAr": "فُويْس",
+      "translit": "Ṣawt",
+      "definitionEn": "The sound produced in a person's larynx and uttered through the mouth.",
+      "definitionAr": "الصوت اللي بيطلع من فم الإنسان لما يتكلم أو يغني. وممكن تيجي بمعنى الرأي.",
+      "usageNote": "Can refer to physical voice OR opinion (giving voice to concerns).",
+      "category": "Health & Senses",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Sound",
+        "#Speech",
+        "#Opinion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Voice\" يعني صوت بشري.. افتكر برنامج \"The Voice\".",
+      "examples": {
+        "A1": "She has a nice voice.",
+        "A2": "Please lower your voice.",
+        "B1": "I recognized his voice on the phone.",
+        "B2": "He lost his voice because of the cold.",
+        "C1": "The people demanded a voice in the government.",
+        "C2": "The author found her literary voice in this novel."
+      },
+      "collocations": [
+        "loud voice",
+        "raise your voice",
+        "lose your voice"
+      ],
+      "synonyms": [
+        "sound",
+        "tone",
+        "speech",
+        "vocals"
+      ],
+      "antonyms": [
+        "silence"
+      ],
+      "relatedWords": {
+        "en": [
+          "vocal",
+          "voiceover",
+          "voicemail"
+        ],
+        "ar": [
+          "صوتي",
+          "تعليق صوتي",
+          "بريد صوتي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "vocalization",
+        "verb": "voice",
+        "adj": "vocal",
+        "adv": "vocally"
+      },
+      "arabicAr": "صوت",
+      "frenchFr": "voix",
+      "germanDe": "Stimme",
+      "spanishEs": "voz",
+      "chineseZh": "声音 (Shēngyīn)",
+      "russianRu": "голос",
+      "portuguesePt": "voz",
+      "japaneseJa": "声 (Koe)",
+      "italianIt": "voce",
+      "turkishTr": "ses",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

@@ -1,0 +1,1432 @@
+{
+  "wordEntries": [
+    {
+      "id": 56,
+      "wordEn": "she",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ʃi",
+      "phoneticUk": "ʃiː",
+      "phoneticAr": "شِي",
+      "translit": "Hiya",
+      "definitionEn": "Used to refer to a woman, girl, or female animal previously mentioned.",
+      "definitionAr": "ضمير بنستخدمه لما نتكلم عن بنت أو ست أو أي مؤنث، بمعنى 'هي'.",
+      "usageNote": "Used as the subject of a verb. Use 'her' for the object.",
+      "category": "People & Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Pronouns",
+        "#Female",
+        "#People",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"She\" أولها \"Sh\" زي \"شِي\".. وهي (She) أجمل \"شِي\" في حياتك.",
+      "examples": {
+        "A1": "She is my best friend.",
+        "A2": "She works at the local hospital.",
+        "B1": "I asked her if she wanted to join us for dinner.",
+        "B2": "She has established herself as a leading expert in the field.",
+        "C1": "She was instrumental in bringing about the peace treaty.",
+        "C2": "She epitomizes the elegance and grace of a bygone era."
+      },
+      "collocations": [
+        "she said",
+        "she is",
+        "she has"
+      ],
+      "synonyms": [
+        "her",
+        "herself",
+        "the woman",
+        "the lady"
+      ],
+      "antonyms": [
+        "he"
+      ],
+      "relatedWords": {
+        "en": [
+          "woman",
+          "girl",
+          "female",
+          "lady"
+        ],
+        "ar": [
+          "امرأة",
+          "فتاة",
+          "أنثى",
+          "سيدة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هي",
+      "frenchFr": "elle",
+      "germanDe": "sie",
+      "spanishEs": "ella",
+      "chineseZh": "她 (Tā)",
+      "russianRu": "она",
+      "portuguesePt": "ela",
+      "japaneseJa": "彼女 (Kanojo)",
+      "italianIt": "lei",
+      "turkishTr": "o",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 57,
+      "wordEn": "or",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ɔɹ",
+      "phoneticUk": "ɔː(ɹ)",
+      "phoneticAr": "أُور",
+      "translit": "Aw",
+      "definitionEn": "Used to link alternatives or introduce a synonym or explanation.",
+      "definitionAr": "كلمة بنستخدمها للتخيير بين حاجتين، يعني 'يا ده يا ده'.",
+      "usageNote": "Use 'either... or' to emphasize a choice between two alternatives.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Choice",
+        "#Conjunction",
+        "#Options",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Or\" شبه \"Oar\" \"مِجداف\".. يا تجدّف بالـ \"Oar\" ده \"Or\" (أو) ده.",
+      "examples": {
+        "A1": "Do you want tea or coffee?",
+        "A2": "We can go to the cinema or stay at home.",
+        "B1": "You can pay by cash, credit card, or check.",
+        "B2": "The study focuses on whether the treatment is effective or not.",
+        "C1": "The protagonist, or hero, of the story is quite complex.",
+        "C2": "The sanctions could be lifted, or alternatively, suspended for a period."
+      },
+      "collocations": [
+        "either or",
+        "or else",
+        "more or less",
+        "one or two"
+      ],
+      "synonyms": [
+        "alternatively",
+        "otherwise"
+      ],
+      "antonyms": [
+        "and",
+        "nor"
+      ],
+      "relatedWords": {
+        "en": [
+          "either",
+          "neither",
+          "nor",
+          "choice"
+        ],
+        "ar": [
+          "إما",
+          "ولا",
+          "خيار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أو",
+      "frenchFr": "ou",
+      "germanDe": "oder",
+      "spanishEs": "o",
+      "chineseZh": "或者 (Huòzhě)",
+      "russianRu": "или",
+      "portuguesePt": "ou",
+      "japaneseJa": "または (Matawa)",
+      "italianIt": "o",
+      "turkishTr": "veya",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 58,
+      "wordEn": "which",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wɪt͡ʃ",
+      "phoneticUk": null,
+      "phoneticAr": "وِتْش",
+      "translit": "Ayy",
+      "definitionEn": "Asking for information specifying one or more people or things from a set.",
+      "definitionAr": "بنستخدمها لما نسأل ونحدد حاجة معينة من وسط مجموعة، بمعنى 'أيّ'.",
+      "usageNote": "Used when there is a limited set of choices. Use 'what' when the set is open.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Question",
+        "#Choice",
+        "#Selection",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Which\" قريبة من \"Witch\" \"ساحرة\".. \"Which\" \"Witch\" (أي ساحرة) هي اللي عملت كده؟",
+      "examples": {
+        "A1": "Which color do you like?",
+        "A2": "I don't know which way to go.",
+        "B1": "Which restaurant did you book for tonight?",
+        "B2": "Please indicate which options apply to you.",
+        "C1": "Determine which factors are most critical to success.",
+        "C2": "The committee must decide which criteria take precedence."
+      },
+      "collocations": [
+        "which one",
+        "which way",
+        "in which"
+      ],
+      "synonyms": [
+        "what",
+        "whatever"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "what",
+          "who",
+          "where",
+          "choice"
+        ],
+        "ar": [
+          "ماذا",
+          "من",
+          "أين",
+          "خيار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أيّ",
+      "frenchFr": "quel",
+      "germanDe": "welcher",
+      "spanishEs": "cuál",
+      "chineseZh": "哪一个 (Nǎ yīgè)",
+      "russianRu": "который",
+      "portuguesePt": "qual",
+      "japaneseJa": "どの (Dono)",
+      "italianIt": "quale",
+      "turkishTr": "hangi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 59,
+      "wordEn": "which",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "wɪt͡ʃ",
+      "phoneticUk": null,
+      "phoneticAr": "وِتْش",
+      "translit": "Ayy / Alladhi",
+      "definitionEn": "Used referring to something previously mentioned when introducing a clause.",
+      "definitionAr": "بتيجي بمعنى 'الذي' أو 'التي' عشان تربط جملة بجملة وتوصف اللي قبلها.",
+      "usageNote": "Use 'which' for things and 'who' for people in relative clauses.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#RelativePronoun",
+        "#Grammar",
+        "#Connection"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Which is your bag?",
+        "A2": "This is the house which I bought.",
+        "B1": "He showed me the report, which was very long.",
+        "B2": "The situation, which had been stable, suddenly worsened.",
+        "C1": "He arrived late, which annoyed everyone.",
+        "C2": "The treaty, the terms of which were secret, was signed yesterday."
+      },
+      "collocations": [
+        "which is",
+        "in which",
+        "of which"
+      ],
+      "synonyms": [
+        "that",
+        "whatever"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "that",
+          "who",
+          "whom"
+        ],
+        "ar": [
+          "الذي",
+          "التي",
+          "من"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أيّ / الذي",
+      "frenchFr": "lequel",
+      "germanDe": "welcher",
+      "spanishEs": "el cual",
+      "chineseZh": "哪个 (Nǎge)",
+      "russianRu": "который",
+      "portuguesePt": "o qual",
+      "japaneseJa": "どれ (Dore)",
+      "italianIt": "il quale",
+      "turkishTr": "hangisi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 60,
+      "wordEn": "which",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wɪt͡ʃ",
+      "phoneticUk": null,
+      "phoneticAr": "وِتْش",
+      "translit": "Ayy",
+      "definitionEn": "Asking for information specifying one or more people or things from a set.",
+      "definitionAr": "أداة تحديد بنستخدمها عشان نسأل 'أنهي واحد' من مجموعة.",
+      "usageNote": "Functions similarly to the adjective form but emphasizes selection.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Determiner",
+        "#Selection",
+        "#Question"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Which book is yours?",
+        "A2": "I wonder which team will win.",
+        "B1": "Tell me which train you are taking.",
+        "B2": "It matters which approach we choose.",
+        "C1": "Regardless of which method is employed, results vary.",
+        "C2": "The extent to which this is true remains debatable."
+      },
+      "collocations": [
+        "which one",
+        "which way"
+      ],
+      "synonyms": [
+        "what"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "what",
+          "that"
+        ],
+        "ar": [
+          "ما",
+          "ذاك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أيّ",
+      "frenchFr": "quel",
+      "germanDe": "welcher",
+      "spanishEs": "cuál",
+      "chineseZh": "哪 (Nǎ)",
+      "russianRu": "какой",
+      "portuguesePt": "qual",
+      "japaneseJa": "どの (Dono)",
+      "italianIt": "quale",
+      "turkishTr": "hangi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 61,
+      "wordEn": "as",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "æz",
+      "phoneticUk": null,
+      "phoneticAr": "آز",
+      "translit": "Mithl / Ka",
+      "definitionEn": "Used in comparisons to refer to the extent or degree of something.",
+      "definitionAr": "بنستخدمها في المقارنة عشان نقول إن حاجة زي حاجة تانية في الصفة.",
+      "usageNote": "Common structure: 'as + adjective + as' (e.g., as big as).",
+      "category": "General / Common",
+      "primarySense": "Measure",
+      "semanticTags": [
+        "#Comparison",
+        "#Degree",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"As\" اعكسها تبقى \"Sa\" زي \"Same\".. يعني نفس الشيء.",
+      "examples": {
+        "A1": "He is as tall as me.",
+        "A2": "Run as fast as you can.",
+        "B1": "It's not as simple as it looks.",
+        "B2": "The results were as good as expected.",
+        "C1": "She performed as brilliantly as ever.",
+        "C2": "The phenomenon is as elusive as it is fascinating."
+      },
+      "collocations": [
+        "as soon as",
+        "as well as",
+        "as much as",
+        "as long as"
+      ],
+      "synonyms": [
+        "equally",
+        "similarly"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "like",
+          "same",
+          "equal"
+        ],
+        "ar": [
+          "مثل",
+          "نفس",
+          "مساوي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مثل / كـ",
+      "frenchFr": "aussi",
+      "germanDe": "so",
+      "spanishEs": "tan",
+      "chineseZh": "一样 (Yīyàng)",
+      "russianRu": "как",
+      "portuguesePt": "tão",
+      "japaneseJa": "同じくらい (Onajikurai)",
+      "italianIt": "così",
+      "turkishTr": "kadar",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 62,
+      "wordEn": "as",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "æz",
+      "phoneticUk": null,
+      "phoneticAr": "آز",
+      "translit": "Ka / Bi-sifatihi",
+      "definitionEn": "Used to refer to the function or character that someone or something has.",
+      "definitionAr": "بنستخدمها عشان نوصف وظيفة أو دور شخص، بمعنى 'بصفته' أو 'كـ'.",
+      "usageNote": "Distinguish from 'like': 'As a teacher' (I am one) vs 'Like a teacher' (I act like one).",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Role",
+        "#Function",
+        "#Identity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He works as a doctor.",
+        "A2": "Use this room as a bedroom.",
+        "B1": "As a friend, I advise you to stop.",
+        "B2": "She is recognized as an expert in her field.",
+        "C1": "He resigned as chairman of the committee.",
+        "C2": "The law stands as a testament to their struggle."
+      },
+      "collocations": [
+        "work as",
+        "act as",
+        "known as",
+        "serve as"
+      ],
+      "synonyms": [
+        "in the role of",
+        "being"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "role",
+          "function",
+          "capacity"
+        ],
+        "ar": [
+          "دور",
+          "وظيفة",
+          "صفة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كـ / بصفته",
+      "frenchFr": "comme",
+      "germanDe": "als",
+      "spanishEs": "como",
+      "chineseZh": "作为 (Zuòwéi)",
+      "russianRu": "в качестве",
+      "portuguesePt": "como",
+      "japaneseJa": "として (Toshite)",
+      "italianIt": "come",
+      "turkishTr": "olarak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 63,
+      "wordEn": "as",
+      "pos": "conj",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "æz",
+      "phoneticUk": null,
+      "phoneticAr": "آز",
+      "translit": "Baynama / Li'anna",
+      "definitionEn": "Used to indicate that something happens during the time when something is taking place.",
+      "definitionAr": "بمعنى 'بينما' أو 'لما'.. حاجة بتحصل في نفس وقت حاجة تانية.",
+      "usageNote": "Can also mean 'because' (e.g., 'As it was raining, we stayed in').",
+      "category": "Time & Events",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Reason",
+        "#Conjunction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Do as I say.",
+        "A2": "I saw him as I was leaving.",
+        "B1": "As it was late, we decided to go home.",
+        "B2": "As time went by, things got better.",
+        "C1": "Just as the sun rose, the birds began to sing.",
+        "C2": "As is often the case in such matters, the truth is complex."
+      },
+      "collocations": [
+        "just as",
+        "as if",
+        "as though"
+      ],
+      "synonyms": [
+        "while",
+        "when",
+        "since",
+        "because"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "while",
+          "when",
+          "because"
+        ],
+        "ar": [
+          "بينما",
+          "عندما",
+          "لأن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بينما / لأن",
+      "frenchFr": "comme",
+      "germanDe": "als",
+      "spanishEs": "mientras",
+      "chineseZh": "当...时候 (Dāng... shíhòu)",
+      "russianRu": "когда",
+      "portuguesePt": "enquanto",
+      "japaneseJa": "～とき (Toki)",
+      "italianIt": "mentre",
+      "turkishTr": "iken",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 64,
+      "wordEn": "we",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wi",
+      "phoneticUk": "wiː",
+      "phoneticAr": "وِي",
+      "translit": "Naḥnu",
+      "definitionEn": "Used by a speaker to refer to himself or herself and one or more other people.",
+      "definitionAr": "ضمير المتكلمين، يعني 'إحنا' أو 'نحن'.",
+      "usageNote": "Subject pronoun. Use 'us' for the object and 'our' for possession.",
+      "category": "People & Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Pronouns",
+        "#Group",
+        "#People"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "حرف \"W\" شكله زي اتنين \"V\" ماسكين في بعض.. يعني \"We\" (نحن) مع بعض.",
+      "examples": {
+        "A1": "We are happy.",
+        "A2": "We went to the park yesterday.",
+        "B1": "We have decided to buy a new car.",
+        "B2": "We must consider all the options before acting.",
+        "C1": "We, the undersigned, agree to the terms.",
+        "C2": "Shall we proceed with the hypothesis that this is true?"
+      },
+      "collocations": [
+        "we are",
+        "we have",
+        "we will"
+      ],
+      "synonyms": [
+        "us"
+      ],
+      "antonyms": [
+        "they",
+        "you"
+      ],
+      "relatedWords": {
+        "en": [
+          "us",
+          "our",
+          "ourselves"
+        ],
+        "ar": [
+          "نا",
+          "نحن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نحن",
+      "frenchFr": "nous",
+      "germanDe": "wir",
+      "spanishEs": "nosotros",
+      "chineseZh": "我们 (Wǒmen)",
+      "russianRu": "мы",
+      "portuguesePt": "nós",
+      "japaneseJa": "私たち (Watashitachi)",
+      "italianIt": "noi",
+      "turkishTr": "biz",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 65,
+      "wordEn": "say",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "4",
+      "phoneticUs": "seɪ",
+      "phoneticUk": null,
+      "phoneticAr": "سَاي",
+      "translit": "Ra'y / Kalima",
+      "definitionEn": "An opportunity for stating one's opinion or feelings.",
+      "definitionAr": "الحق إنك تقول رأيك ويكون ليك كلمة مسموعة في الموضوع.",
+      "usageNote": "Commonly used in the phrase 'have a say' or 'have the final say'.",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Opinion",
+        "#Influence",
+        "#Voice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أصلها الفعل \"Say\" (يقول).. لما يكون ليك \"Say\" يعني ليك \"قول\" ورأي.",
+      "examples": {
+        "A1": "I want to have a say.",
+        "A2": "Let him have his say.",
+        "B1": "Do I have any say in this matter?",
+        "B2": "The employees had no say in the company's decision.",
+        "C1": "She has the final say on all hiring decisions.",
+        "C2": "Citizens should have a greater say in local government."
+      },
+      "collocations": [
+        "have a say",
+        "final say",
+        "no say"
+      ],
+      "synonyms": [
+        "voice",
+        "influence",
+        "input",
+        "opinion"
+      ],
+      "antonyms": [
+        "silence"
+      ],
+      "relatedWords": {
+        "en": [
+          "voice",
+          "vote",
+          "opinion"
+        ],
+        "ar": [
+          "صوت",
+          "رأي",
+          "نفوذ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "saying",
+        "verb": "say",
+        "adj": "said",
+        "adv": ""
+      },
+      "arabicAr": "رأي / كلمة",
+      "frenchFr": "mot à dire",
+      "germanDe": "Mitspracherecht",
+      "spanishEs": "voz",
+      "chineseZh": "发言权 (Fāyán quán)",
+      "russianRu": "право голоса",
+      "portuguesePt": "voz",
+      "japaneseJa": "発言権 (Hatsugen-ken)",
+      "italianIt": "voce in capitolo",
+      "turkishTr": "söz hakkı",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 66,
+      "wordEn": "say",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "seɪ",
+      "phoneticUk": null,
+      "phoneticAr": "سَاي",
+      "translit": "Yaqūl",
+      "definitionEn": "To utter words so as to convey information, an opinion, or a feeling.",
+      "definitionAr": "يعني يتكلم أو ينطق بكلام عشان يوصل معلومة.",
+      "usageNote": "Use 'say' for the words spoken (Say hello). Use 'tell' for the receiver (Tell him hello).",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Speech",
+        "#Talking",
+        "#Verbs"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Say\" قريبة من \"سَي\" في \"سَيِّد\".. الـ \"Sayyid\" (السيد) هو اللي بيـ \"Say\" (يقول) الأوامر.",
+      "examples": {
+        "A1": "Say hello to your mom.",
+        "A2": "What did he say?",
+        "B1": "They say it will rain tomorrow.",
+        "B2": "I regret to say that I cannot come.",
+        "C1": "It is safe to say that the project was a success.",
+        "C2": "Suffice it to say, the results were disappointing."
+      },
+      "collocations": [
+        "say sorry",
+        "say goodbye",
+        "say yes",
+        "that is to say"
+      ],
+      "synonyms": [
+        "speak",
+        "utter",
+        "state",
+        "declare"
+      ],
+      "antonyms": [
+        "listen",
+        "keep silent"
+      ],
+      "relatedWords": {
+        "en": [
+          "tell",
+          "speak",
+          "talk"
+        ],
+        "ar": [
+          "يخبر",
+          "يتحدث",
+          "يتكلم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "saying",
+        "verb": "say",
+        "adj": "unsaid",
+        "adv": ""
+      },
+      "arabicAr": "يقول",
+      "frenchFr": "dire",
+      "germanDe": "sagen",
+      "spanishEs": "decir",
+      "chineseZh": "说 (Shuō)",
+      "russianRu": "говорить",
+      "portuguesePt": "dizer",
+      "japaneseJa": "言う (Iu)",
+      "italianIt": "dire",
+      "turkishTr": "söylemek",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 67,
+      "wordEn": "will",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɪl",
+      "phoneticUk": null,
+      "phoneticAr": "وِل",
+      "translit": "Irada / Wasiyya",
+      "definitionEn": "A legal document containing instructions as to what should be done with one's money and property after one's death.",
+      "definitionAr": "ليها معنيين: يا إما 'الإرادة' والعزيمة، يا إما 'الوصية' اللي بتتكتب قبل الموت.",
+      "usageNote": "Context determines meaning: 'Free will' (choice) vs 'Last will' (document).",
+      "category": "Law & Order",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Legal",
+        "#Mind",
+        "#Choice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Will\" (الإرادة) هي اللي بتخليك تكسر الـ \"Wall\" \"الحيطة\".",
+      "examples": {
+        "A1": "He has a strong will.",
+        "A2": "It was God's will.",
+        "B1": "She left me some money in her will.",
+        "B2": "He did it against his will.",
+        "C1": "The government lacks the political will to change the law.",
+        "C2": "The triumph of the will over physical adversity."
+      },
+      "collocations": [
+        "free will",
+        "last will",
+        "strong will",
+        "at will"
+      ],
+      "synonyms": [
+        "determination",
+        "testament",
+        "volition"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "wish",
+          "desire",
+          "intent"
+        ],
+        "ar": [
+          "رغبة",
+          "نية",
+          "عزيمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "will",
+        "verb": "will",
+        "adj": "willful",
+        "adv": "willfully"
+      },
+      "arabicAr": "إرادة / وصية",
+      "frenchFr": "volonté",
+      "germanDe": "Wille",
+      "spanishEs": "voluntad",
+      "chineseZh": "意志 (Yìzhì)",
+      "russianRu": "воля",
+      "portuguesePt": "vontade",
+      "japaneseJa": "意志 (Ishi)",
+      "italianIt": "volontà",
+      "turkishTr": "irade",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 68,
+      "wordEn": "will",
+      "pos": "modal",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "wɪl",
+      "phoneticUk": null,
+      "phoneticAr": "وِل",
+      "translit": "Sawfa",
+      "definitionEn": "Expressing the future tense or inevitable events.",
+      "definitionAr": "فعل مساعد بنستخدمه عشان نتكلم عن المستقبل، بمعنى 'سوف' أو 'حَـ'.",
+      "usageNote": "Use 'will' for spontaneous decisions or predictions. Use 'going to' for plans.",
+      "category": "Time & Events",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Future",
+        "#Grammar",
+        "#Modal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I will go home now.",
+        "A2": "It will rain tomorrow.",
+        "B1": "I will help you with your homework.",
+        "B2": "Accidents will happen.",
+        "C1": "He will sit there for hours doing nothing.",
+        "C2": "The prophecy stated that the king will return."
+      },
+      "collocations": [
+        "will be",
+        "will do",
+        "will have"
+      ],
+      "synonyms": [
+        "shall"
+      ],
+      "antonyms": [
+        "won't"
+      ],
+      "relatedWords": {
+        "en": [
+          "shall",
+          "going to"
+        ],
+        "ar": [
+          "سوف",
+          "سين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "سوف",
+      "frenchFr": "sera (future)",
+      "germanDe": "werden",
+      "spanishEs": "será (future)",
+      "chineseZh": "将 (Jiāng)",
+      "russianRu": "будет",
+      "portuguesePt": "será (future)",
+      "japaneseJa": "だろう (Darou)",
+      "italianIt": "sarà (future)",
+      "turkishTr": "-ecek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 69,
+      "wordEn": "would",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "wʊd",
+      "phoneticUk": "wəd",
+      "phoneticAr": "وُود",
+      "translit": "Kana sawfa",
+      "definitionEn": "Past of 'will', used to indicate the consequence of an imagined event.",
+      "definitionAr": "الماضي من 'Will'، بنستخدمها في التخيل أو الطلب المؤدب.",
+      "usageNote": "Often used in conditional sentences (If I had money, I would buy it).",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Conditional",
+        "#Grammar",
+        "#Polite"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Would\" قريبة من \"Wood\" \"خشب\".. لو معاك \"Wood\" (خشب) \"Would you\" (هل ممكن) تبني بيت؟",
+      "examples": {
+        "A1": "Would you like some tea?",
+        "A2": "I would like to go.",
+        "B1": "If I were you, I would apologize.",
+        "B2": "He said he would come later.",
+        "C1": "I would sooner die than agree.",
+        "C2": "Would that it were so simple!"
+      },
+      "collocations": [
+        "would like",
+        "would rather",
+        "would have"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "will",
+          "could",
+          "should"
+        ],
+        "ar": [
+          "سوف",
+          "استطاع",
+          "يجب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كان سوف",
+      "frenchFr": "serait (conditional)",
+      "germanDe": "würde",
+      "spanishEs": "sería (conditional)",
+      "chineseZh": "会 (Huì)",
+      "russianRu": "бы",
+      "portuguesePt": "seria (conditional)",
+      "japaneseJa": "だろう (Darou)",
+      "italianIt": "sarebbe (conditional)",
+      "turkishTr": "-erdi",
+      "aiConfidence": 0.6
+    },
+    {
+      "id": 70,
+      "wordEn": "would",
+      "pos": "modal",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "wʊd",
+      "phoneticUk": "wəd",
+      "phoneticAr": "وُود",
+      "translit": "Kana sawfa",
+      "definitionEn": "Expressing a polite request or the consequence of an imagined situation.",
+      "definitionAr": "بنستخدمها للطلب بأدب (ممكن؟) أو لما نتخيل حاجة مش حقيقية.",
+      "usageNote": "Essential for 2nd and 3rd conditional sentences.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Politeness",
+        "#Conditional",
+        "#Modal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Would you help me?",
+        "A2": "I would love to visit Paris.",
+        "B1": "She asked if I would drive her home.",
+        "B2": "It would be nice to see him again.",
+        "C1": "Why would anyone do such a thing?",
+        "C2": "He would sit for hours staring at the sea."
+      },
+      "collocations": [
+        "would you mind",
+        "would be",
+        "would love to"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "wouldn't"
+      ],
+      "relatedWords": {
+        "en": [
+          "could",
+          "might",
+          "will"
+        ],
+        "ar": [
+          "يمكن",
+          "قد",
+          "سوف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كان سوف / لَو",
+      "frenchFr": "voudrais",
+      "germanDe": "würde",
+      "spanishEs": "haría",
+      "chineseZh": "愿意 (Yuànyì)",
+      "russianRu": "бы",
+      "portuguesePt": "faria",
+      "japaneseJa": "したい (Shitai)",
+      "italianIt": "vorrei",
+      "turkishTr": "isterdim",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 71,
+      "wordEn": "can",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "1",
+      "phoneticUs": "ˈkæn",
+      "phoneticUk": null,
+      "phoneticAr": "كآن",
+      "translit": "Ulba",
+      "definitionEn": "A cylindrical metal container.",
+      "definitionAr": "العلبة المعدن اللي بنحفظ فيها الأكل أو المشروبات.",
+      "usageNote": "In UK English, 'tin' is often used for food containers.",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Container",
+        "#Metal",
+        "#Food"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Can\" (العلبة) دي ممكن تكون \"Candy\" \"حلوى\".. حط الـ \"Candy\" في الـ \"Can\".",
+      "examples": {
+        "A1": "I bought a can of soda.",
+        "A2": "We need a can opener.",
+        "B1": "He kicked the empty can down the street.",
+        "B2": "The soup comes in a can.",
+        "C1": "It's like opening a can of worms.",
+        "C2": "The production line fills thousands of cans per hour."
+      },
+      "collocations": [
+        "can of soup",
+        "soda can",
+        "trash can",
+        "can opener"
+      ],
+      "synonyms": [
+        "tin",
+        "container"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "tin",
+          "bottle",
+          "jar"
+        ],
+        "ar": [
+          "صفيحة",
+          "زجاجة",
+          "برطمان"
+        ]
+      },
+      "wordFamily": {
+        "noun": "can",
+        "verb": "can",
+        "adj": "canned",
+        "adv": ""
+      },
+      "arabicAr": "علبة",
+      "frenchFr": "boîte (de conserve)",
+      "germanDe": "Dose",
+      "spanishEs": "lata",
+      "chineseZh": "罐头 (Guàntou)",
+      "russianRu": "банка",
+      "portuguesePt": "lata",
+      "japaneseJa": "缶 (Kan)",
+      "italianIt": "lattina",
+      "turkishTr": "kutu",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 72,
+      "wordEn": "can",
+      "pos": "modal",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ˈkæn",
+      "phoneticUk": null,
+      "phoneticAr": "كآن",
+      "translit": "Yastati'",
+      "definitionEn": "To be able to or permitted to do something.",
+      "definitionAr": "بمعنى 'يقدر' أو 'يستطيع' يعمل حاجة.",
+      "usageNote": "Use 'could' for past ability or polite requests.",
+      "category": "General / Common",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Ability",
+        "#Permission",
+        "#Modal"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I can swim.",
+        "A2": "Can you help me?",
+        "B1": "You can park here.",
+        "B2": "Can it be true?",
+        "C1": "I can't help thinking about it.",
+        "C2": "One can hardly imagine the difficulty."
+      },
+      "collocations": [
+        "can do",
+        "can be",
+        "can help"
+      ],
+      "synonyms": [
+        "able to",
+        "capable of"
+      ],
+      "antonyms": [
+        "cannot",
+        "can't"
+      ],
+      "relatedWords": {
+        "en": [
+          "could",
+          "able",
+          "may"
+        ],
+        "ar": [
+          "استطاع",
+          "قادر",
+          "ربما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يستطيع",
+      "frenchFr": "pouvoir",
+      "germanDe": "können",
+      "spanishEs": "poder",
+      "chineseZh": "能 (Néng)",
+      "russianRu": "мочь",
+      "portuguesePt": "poder",
+      "japaneseJa": "できる (Dekiru)",
+      "italianIt": "potere",
+      "turkishTr": "yapabilmek",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 73,
+      "wordEn": "if",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ɪf",
+      "phoneticUk": null,
+      "phoneticAr": "إِف",
+      "translit": "Shart / Shakk",
+      "definitionEn": "A condition or supposition.",
+      "definitionAr": "الشرط أو الاحتمال.. بنستخدمها كاسم لما نقول 'بدون لو أو لكن'.",
+      "usageNote": "Mostly used in the idiom 'no ifs, ands, or buts'.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Condition",
+        "#Idiom",
+        "#Uncertainty"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "No ifs!",
+        "A2": "There are too many ifs in this plan.",
+        "B1": "It's a big if.",
+        "B2": "No ifs, ands, or buts about it.",
+        "C1": "The 'if' in the contract is worrying.",
+        "C2": "Life is full of ifs and maybes."
+      },
+      "collocations": [
+        "no ifs",
+        "big if"
+      ],
+      "synonyms": [
+        "condition",
+        "uncertainty"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "relatedWords": {
+        "en": [
+          "but",
+          "condition",
+          "doubt"
+        ],
+        "ar": [
+          "لكن",
+          "شرط",
+          "شك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لو / إذا",
+      "frenchFr": "si",
+      "germanDe": "Wenn",
+      "spanishEs": "si",
+      "chineseZh": "条件 (Tiáojiàn)",
+      "russianRu": "если",
+      "portuguesePt": "se",
+      "japaneseJa": "もし (Moshi)",
+      "italianIt": "se",
+      "turkishTr": "eğer",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 74,
+      "wordEn": "if",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ɪf",
+      "phoneticUk": null,
+      "phoneticAr": "إِف",
+      "translit": "Idha / Law",
+      "definitionEn": "Introducing a conditional clause.",
+      "definitionAr": "أداة الشرط، بمعنى 'لو' أو 'إذا'.. لو حصل كذا هيحصل كذا.",
+      "usageNote": "Used in zero, first, second, and third conditional structures.",
+      "category": "General / Common",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Condition",
+        "#Hypothesis",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "If you go, I go.",
+        "A2": "If it rains, we will stay home.",
+        "B1": "If I were rich, I would travel.",
+        "B2": "I wonder if he knows.",
+        "C1": "If only I had known earlier.",
+        "C2": "Even if that were true, it wouldn't matter."
+      },
+      "collocations": [
+        "if only",
+        "as if",
+        "even if"
+      ],
+      "synonyms": [
+        "provided that",
+        "whether"
+      ],
+      "antonyms": [
+        "unless"
+      ],
+      "relatedWords": {
+        "en": [
+          "whether",
+          "unless",
+          "suppose"
+        ],
+        "ar": [
+          "سواء",
+          "ما لم",
+          "افترض"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لو / إذا",
+      "frenchFr": "si",
+      "germanDe": "wenn",
+      "spanishEs": "si",
+      "chineseZh": "如果 (Rúguǒ)",
+      "russianRu": "если",
+      "portuguesePt": "se",
+      "japaneseJa": "もし (Moshi)",
+      "italianIt": "se",
+      "turkishTr": "eğer",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 75,
+      "wordEn": "their",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðɛɚ",
+      "phoneticUk": "ðeə",
+      "phoneticAr": "ذَير",
+      "translit": "Hum",
+      "definitionEn": "Belonging to or associated with the people or things previously mentioned.",
+      "definitionAr": "صفة ملكية للجمع الغائب، بمعنى 'بتاعهم' أو 'ـهُم'.",
+      "usageNote": "Always followed by a noun (Their house). Do not confuse with 'there' or 'they're'.",
+      "category": "People & Family",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Possession",
+        "#Pronouns",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Their\" فيها \"Heir\" \"وريث\".. الوريث بياخد حاجتهم (Their things).",
+      "examples": {
+        "A1": "This is their house.",
+        "A2": "They love their children.",
+        "B1": "Students must bring their own books.",
+        "B2": "Their decision was final.",
+        "C1": "They were praised for their contribution to science.",
+        "C2": "The birds are known for their distinctive plumage."
+      },
+      "collocations": [
+        "their own",
+        "their way",
+        "their lives"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "they",
+          "them",
+          "theirs"
+        ],
+        "ar": [
+          "هم",
+          "لهم",
+          "ملكهم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هُم / هم / ضمير متصل",
+      "frenchFr": "leur",
+      "germanDe": "ihr",
+      "spanishEs": "su",
+      "chineseZh": "他们的 (Tāmen de)",
+      "russianRu": "их",
+      "portuguesePt": "deles",
+      "japaneseJa": "彼らの (Karera no)",
+      "italianIt": "loro",
+      "turkishTr": "onların",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

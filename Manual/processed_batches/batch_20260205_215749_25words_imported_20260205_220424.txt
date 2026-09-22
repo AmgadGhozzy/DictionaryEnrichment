@@ -1,0 +1,696 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 346,
+    "wordEn": "why",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 346,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "waɪ",
+    "phoneticAr": "وآي",
+    "translit": "limadha / limadha a",
+    "definitionEn": "[\"for what reason or purpose.\", \"on account of which; for which.\", \"expressing surprise or indignation.\"]",
+    "usageNote": "used to express pleasant or unpleasant mild surprise, indignation, or impatience.",
+    "category": "Feelings & Emotions",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"why, that's absurd!\", \"why did he do it?\"], \"A2\": [\"why don't I give you a lift?\"], \"B1\": [\"each has faced similar hardships, and perhaps that is why they are friends\"], \"B2\": [\"the reason why flu shots need repeating every year is that the virus changes\"]}",
+    "collocations": "[\"Why did you do that\", \"Why him Why not someone taller\", \"Why, that s ridiculous\", \"Why, how kind of you\", \"part why\"]",
+    "synonyms": "[\"result\", \"wherefore\", \"explaining\", \"explanation\", \"how come\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"wherefore\", \"how come\", \"explaining\", \"explanation\", \"result\"], \"ar\": [\"لِمَا\", \"لِمَاذَا\", \"لِمَ\", \"عَلامَ\", \"أُحجيّة\", \"سببٌ\"]}",
+    "arabicAr": "لماذا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 347,
+    "wordEn": "while",
+    "pos": "noun",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 347,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "waɪl",
+    "phoneticAr": "وآيل",
+    "translit": "baynama / fy hyn",
+    "definitionEn": "[\"at the same time; meanwhile.\", \"during the time that; at the same time as.\", \"pass time in a leisurely manner.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"we chatted for a while\", \"can I keep it a while?\", \"she retired a little while ago\"], \"A2\": [\"a diversion to while away the long afternoons\", \"nothing much changed while he was away\", \"he starts to draw, talking the while\"], \"B1\": [\"one person wants out, while the other wants the relationship to continue\"], \"B2\": [\"while I wouldn't recommend a nighttime visit, by day the area is full of interest\"]}",
+    "collocations": "[\"little while\", \"while loop\"]",
+    "synonyms": "[\"time\", \"piece\", \"spell\", \"patch\", \"stretch\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"piece\", \"spell\", \"meanwhile\", \"moment\", \"whilst\"], \"ar\": [\"أثْناءَ\", \"إذ\", \"بَيْنَمَا\", \"حالِية\", \"حِين\", \"حِيْنَمَا\"]}",
+    "arabicAr": "بينما",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 348,
+    "wordEn": "while",
+    "pos": "conj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 348,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "waɪl",
+    "phoneticAr": "وآيل",
+    "translit": "baynama / fy hyn",
+    "definitionEn": "[\"at the same time; meanwhile.\", \"during the time that; at the same time as.\", \"pass time in a leisurely manner.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"we chatted for a while\", \"can I keep it a while?\", \"she retired a little while ago\"], \"A2\": [\"a diversion to while away the long afternoons\", \"nothing much changed while he was away\", \"he starts to draw, talking the while\"], \"B1\": [\"one person wants out, while the other wants the relationship to continue\"], \"B2\": [\"while I wouldn't recommend a nighttime visit, by day the area is full of interest\"]}",
+    "collocations": "[\"little while\", \"while loop\"]",
+    "synonyms": "[\"time\", \"piece\", \"spell\", \"patch\", \"stretch\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"piece\", \"spell\", \"meanwhile\", \"moment\", \"whilst\"], \"ar\": [\"أثْناءَ\", \"إذ\", \"بَيْنَمَا\", \"حالِية\", \"حِين\", \"حِيْنَمَا\"]}",
+    "arabicAr": "بينما",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 349,
+    "wordEn": "away",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 349,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "əˈweɪ",
+    "phoneticAr": "اواي",
+    "translit": "bueid / baeidanaan",
+    "definitionEn": "[\"into an appropriate place for storage or safekeeping.\", \"constantly, persistently, or continuously.\", \"played at the opponents' field or court.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"there was little Edgar crooning away\", \"Marie felt her distress ebbing away\", \"there's a river not far away\", \"she landed badly, and crawled away\", \"we'll be away for four nights\", \"throw away, chuck away, toss away\", \"fade away, die away\"], \"A2\": [\"Philip locked away all the cash every night\"], \"B1\": [\"in front of them the land fell away to the river\", \"the museum has shifted its emphasis away from research toward exhibitions\"]}",
+    "collocations": "[\"throw away, chuck away, toss away\", \"fade away, die away\", \"You've got questions Ask away\", \"steal away\", \"away look\"]",
+    "synonyms": "[\"off\", \"out\", \"forth\", \"outside\", \"from here\"]",
+    "antonyms": "[\"home\"]",
+    "relatedWords": "{\"en\": [\"aside\", \"off\", \"out\", \"outside\", \"distant\"], \"ar\": [\"غائب\", \"بعيد\", \"بعيداً\", \"جانباً\", \"بعيدا\", \"جانبا\"]}",
+    "arabicAr": "بعيد / بعيدا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 350,
+    "wordEn": "away",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 350,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "əˈweɪ",
+    "phoneticAr": "اواي",
+    "translit": "bueid / baeidanaan",
+    "definitionEn": "[\"into an appropriate place for storage or safekeeping.\", \"constantly, persistently, or continuously.\", \"played at the opponents' field or court.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"there was little Edgar crooning away\", \"Marie felt her distress ebbing away\", \"there's a river not far away\", \"she landed badly, and crawled away\", \"we'll be away for four nights\", \"throw away, chuck away, toss away\", \"fade away, die away\"], \"A2\": [\"Philip locked away all the cash every night\"], \"B1\": [\"in front of them the land fell away to the river\", \"the museum has shifted its emphasis away from research toward exhibitions\"]}",
+    "collocations": "[\"throw away, chuck away, toss away\", \"fade away, die away\", \"You've got questions Ask away\", \"steal away\", \"away look\"]",
+    "synonyms": "[\"off\", \"out\", \"forth\", \"outside\", \"from here\"]",
+    "antonyms": "[\"home\"]",
+    "relatedWords": "{\"en\": [\"aside\", \"off\", \"out\", \"outside\", \"distant\"], \"ar\": [\"غائب\", \"بعيد\", \"بعيداً\", \"جانباً\", \"بعيدا\", \"جانبا\"]}",
+    "arabicAr": "بعيد / بعيدا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 351,
+    "wordEn": "keep",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 351,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kiːp",
+    "phoneticUk": "ki:p",
+    "phoneticAr": "كيب",
+    "translit": "yahfaz / aihtafaz",
+    "definitionEn": "[\"have or retain possession of.\", \"cause to continue in a specified condition, position, course, etc.\", \"provide for the sustenance of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"fresh ginger does not keep well\", \"working overtime to earn his keep\", \"I'll keep my promise, naturally\", \"“God keep you,” he muttered\", \"to be in good keep\"], \"A2\": [\"my father would keep the best for himself\", \"keep a note of the whereabouts of each item\", \"are you able to keep your saddle?\"], \"B1\": [\"I won't keep you, I know you've got a busy evening\"]}",
+    "collocations": "[\"to keep silence to keep possession\", \"to keep the Sabbath\", \"to be in good keep\", \"own keep\", \"keep your\"]",
+    "synonyms": "[\"store\", \"living\", \"support\", \"livelihood\", \"bread and butter\"]",
+    "antonyms": "[\"discontinue\", \"lose\", \"let\"]",
+    "relatedWords": "{\"en\": [\"keep on\", \"continue\", \"sustain\", \"retain\", \"support\"], \"ar\": [\"الحافظ\", \"الحامي\", \"الصائن\", \"الواقي\", \"حِصْن\", \"سجن\"]}",
+    "arabicAr": "يحفظ / يحتفظ",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 352,
+    "wordEn": "keep",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 352,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kiːp",
+    "phoneticUk": "ki:p",
+    "phoneticAr": "كيب",
+    "translit": "yahfaz / aihtafaz",
+    "definitionEn": "[\"have or retain possession of.\", \"cause to continue in a specified condition, position, course, etc.\", \"provide for the sustenance of .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"fresh ginger does not keep well\", \"working overtime to earn his keep\", \"I'll keep my promise, naturally\", \"“God keep you,” he muttered\", \"to be in good keep\"], \"A2\": [\"my father would keep the best for himself\", \"keep a note of the whereabouts of each item\", \"are you able to keep your saddle?\"], \"B1\": [\"I won't keep you, I know you've got a busy evening\"]}",
+    "collocations": "[\"to keep silence to keep possession\", \"to keep the Sabbath\", \"to be in good keep\", \"own keep\", \"keep your\"]",
+    "synonyms": "[\"store\", \"living\", \"support\", \"livelihood\", \"bread and butter\"]",
+    "antonyms": "[\"discontinue\", \"lose\", \"let\"]",
+    "relatedWords": "{\"en\": [\"keep on\", \"continue\", \"sustain\", \"retain\", \"support\"], \"ar\": [\"الحافظ\", \"الحامي\", \"الصائن\", \"الواقي\", \"حِصْن\", \"سجن\"]}",
+    "arabicAr": "يحفظ / يحتفظ",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 353,
+    "wordEn": "point",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 353,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pɔɪnt",
+    "phoneticUk": "pɒɪnt",
+    "phoneticAr": "بوينت",
+    "translit": "nuqta",
+    "definitionEn": "[\"the tapered, sharp end of a tool, weapon, or other object.\", \"a dot or other punctuation mark, in particular a period.\", \"a particular spot, place, or position in an area or on a map, object, or surface.\"]",
+    "usageNote": "used to designate certain tones or time.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the check-in point\", \"the boat came around the point\", \"a pencil point\", \"fifty-five point nine\", \"point de Venise Brussels point\"], \"A2\": [\"what's the point of having things I don't need?\", \"she smiled, assuming she had won her point\"], \"B1\": [\"he made the point that economic regulation involves controls on pricing\"], \"B2\": [\"when it came to the point he would probably do what was expected of him\"]}",
+    "collocations": "[\"the points of a horse\", \"to fall off a point\", \"tierce point\", \"point de Venise Brussels point\", \"to point a composition\"]",
+    "synonyms": "[\"tip\", \"item\", \"level\", \"detail\", \"degree\"]",
+    "antonyms": "[\"unpointedness\"]",
+    "relatedWords": "{\"en\": [\"item\", \"betoken\", \"indicate\", \"bespeak\", \"period\"], \"ar\": [\"أمْر\", \"بُقْعَة\", \"حاجِب\", \"حَدّ\", \"حَرْف\", \"دَوْر\"]}",
+    "arabicAr": "نقطة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 354,
+    "wordEn": "point",
+    "pos": "verb",
+    "cefrLevel": "B1",
+    "fromOxford": 1,
+    "rank": 354,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "pɔɪnt",
+    "phoneticUk": "pɒɪnt",
+    "phoneticAr": "بوينت",
+    "translit": "nuqta",
+    "definitionEn": "[\"the tapered, sharp end of a tool, weapon, or other object.\", \"a dot or other punctuation mark, in particular a period.\", \"a particular spot, place, or position in an area or on a map, object, or surface.\"]",
+    "usageNote": "used to designate certain tones or time.",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the check-in point\", \"the boat came around the point\", \"a pencil point\", \"fifty-five point nine\", \"point de Venise Brussels point\"], \"A2\": [\"what's the point of having things I don't need?\", \"she smiled, assuming she had won her point\"], \"B1\": [\"he made the point that economic regulation involves controls on pricing\"], \"B2\": [\"when it came to the point he would probably do what was expected of him\"]}",
+    "collocations": "[\"the points of a horse\", \"to fall off a point\", \"tierce point\", \"point de Venise Brussels point\", \"to point a composition\"]",
+    "synonyms": "[\"tip\", \"item\", \"level\", \"detail\", \"degree\"]",
+    "antonyms": "[\"unpointedness\"]",
+    "relatedWords": "{\"en\": [\"item\", \"betoken\", \"indicate\", \"bespeak\", \"period\"], \"ar\": [\"أمْر\", \"بُقْعَة\", \"حاجِب\", \"حَدّ\", \"حَرْف\", \"دَوْر\"]}",
+    "arabicAr": "نقطة",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 355,
+    "wordEn": "house",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 355,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hʌʊs",
+    "phoneticAr": "هاوس",
+    "translit": "manzil",
+    "definitionEn": "[\"a building for human habitation, especially one that is lived in by a family or small group of people.\", \"a building in which people meet for a particular activity.\", \"a religious community that occupies a particular building.\"]",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a house of 45 boarders\", \"a publishing house\", \"a reptile house\"], \"A2\": [\"the sixty-member National Council, the country's upper house\", \"do you want the whole house woken up?\"], \"B1\": [\"my wife and I are moving to a new house\", \"a hundred musicians performed in front of a full house\", \"we make exceptions to these rules if we need to house someone urgently\"]}",
+    "collocations": "[\"to house the upper spars\", \"old house\", \"house building\"]",
+    "synonyms": "[\"firm\", \"habitation\", \"star sign\", \"business firm\", \"sign of the zodiac\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"mansion\", \"home\", \"household\", \"put up\", \"firm\"], \"ar\": [\"آل\", \"أهْل\", \"رَبْع\", \"شِقّة\", \"عَيّل\", \"كِنّ\"]}",
+    "arabicAr": "منزل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 356,
+    "wordEn": "house",
+    "pos": "verb",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 356,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "hʌʊs",
+    "phoneticAr": "هاوس",
+    "translit": "manzil",
+    "definitionEn": "[\"a building for human habitation, especially one that is lived in by a family or small group of people.\", \"a building in which people meet for a particular activity.\", \"a religious community that occupies a particular building.\"]",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a house of 45 boarders\", \"a publishing house\", \"a reptile house\"], \"A2\": [\"the sixty-member National Council, the country's upper house\", \"do you want the whole house woken up?\"], \"B1\": [\"my wife and I are moving to a new house\", \"a hundred musicians performed in front of a full house\", \"we make exceptions to these rules if we need to house someone urgently\"]}",
+    "collocations": "[\"to house the upper spars\", \"old house\", \"house building\"]",
+    "synonyms": "[\"firm\", \"habitation\", \"star sign\", \"business firm\", \"sign of the zodiac\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"mansion\", \"home\", \"household\", \"put up\", \"firm\"], \"ar\": [\"آل\", \"أهْل\", \"رَبْع\", \"شِقّة\", \"عَيّل\", \"كِنّ\"]}",
+    "arabicAr": "منزل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 357,
+    "wordEn": "different",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 357,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈdɪf.(ə)ɹ.ənt",
+    "phoneticAr": "ديفرانت",
+    "translit": "mukhtalif",
+    "syllabify": "dif•fer•ent",
+    "definitionEn": "[\"not the same as another or each other; unlike in nature, form, or quality.\", \"Of various or contrary nature, form, or quality\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"try something deliciously different\", \"on two different occasions\"], \"A2\": [\"this land seemed different than the rest\", \"you can play this game in different ways\"], \"B1\": [\"the car is different from anything else on the market\"]}",
+    "collocations": "[\"same different\", \"different types\"]",
+    "synonyms": "[\"unlike\", \"unalike\", \"dissimilar\", \"nonidentical\", \"like chalk and cheese\"]",
+    "antonyms": "[\"same\", \"like\"]",
+    "relatedWords": "{\"en\": [\"differing\", \"contrastive\", \"contrasting\", \"other\", \"antithetical\"], \"ar\": [\"مختلف\", \"آخَر\", \"تَبَايُنِيّ\", \"تَفَاوُتِيّ\", \"ثانٍ\", \"شَتّى\"]}",
+    "arabicAr": "مختلف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 358,
+    "wordEn": "country",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 358,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈkɐntɹi",
+    "phoneticUk": "ˈkʌntɹi",
+    "phoneticAr": "كانتري",
+    "translit": "dawla / balad",
+    "syllabify": "coun•try",
+    "definitionEn": "[\"a nation with its own government, occupying a particular territory.\", \"districts and small settlements outside large towns, cities, or the capital.\", \"an area or region with regard to its physical features.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a country lane\", \"a tract of wild country\", \"Steinbeck country includes the Monterey Peninsula\"], \"A2\": [\"the airfield is right out in the country\", \"the whole country took to the streets\"]}",
+    "collocations": "[\"Thomas Hardy country\", \"a country song\", \"a country singer\", \"a country festival\", \"own country\"]",
+    "synonyms": "[\"land\", \"state\", \"nation\", \"commonwealth\", \"sovereign state\"]",
+    "antonyms": "[\"urban area\"]",
+    "relatedWords": "{\"en\": [\"body politic\", \"nation\", \"res publica\", \"commonwealth\", \"nationality\"], \"ar\": [\"أهلي\", \"وطنيّ\", \"ريفيّ\", \"أرْض\", \"إقْلِيم\", \"صُقْع\"]}",
+    "arabicAr": "دولة / بلد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 359,
+    "wordEn": "country",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 359,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈkɐntɹi",
+    "phoneticUk": "ˈkʌntɹi",
+    "phoneticAr": "كانتري",
+    "translit": "dawla / balad",
+    "syllabify": "coun•try",
+    "definitionEn": "[\"a nation with its own government, occupying a particular territory.\", \"districts and small settlements outside large towns, cities, or the capital.\", \"an area or region with regard to its physical features.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a country lane\", \"a tract of wild country\", \"Steinbeck country includes the Monterey Peninsula\"], \"A2\": [\"the airfield is right out in the country\", \"the whole country took to the streets\"]}",
+    "collocations": "[\"Thomas Hardy country\", \"a country song\", \"a country singer\", \"a country festival\", \"own country\"]",
+    "synonyms": "[\"land\", \"state\", \"nation\", \"commonwealth\", \"sovereign state\"]",
+    "antonyms": "[\"urban area\"]",
+    "relatedWords": "{\"en\": [\"body politic\", \"nation\", \"res publica\", \"commonwealth\", \"nationality\"], \"ar\": [\"أهلي\", \"وطنيّ\", \"ريفيّ\", \"أرْض\", \"إقْلِيم\", \"صُقْع\"]}",
+    "arabicAr": "دولة / بلد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 360,
+    "wordEn": "really",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 360,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈɹɪəli",
+    "phoneticUk": "ˈrɪəlɪ",
+    "phoneticAr": "ريرلي",
+    "translit": "hqan / hal haqana",
+    "syllabify": "re•al•ly",
+    "definitionEn": "[\"in actual fact, as opposed to what is said or imagined to be true or possible.\", \"express interest, surprise, or doubt.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I think she's really great\", \"he writes really well\", \"a really cold day\", \"I'm sorry, Ruth, I really am\", \"you really ought to tell her\", \"really, there are only three options\"], \"A2\": [\"do you really expect me to believe that?\", \"really, Marjorie, you do jump to conclusions!\"]}",
+    "collocations": "[\"B Really\", \"what really\", \"really matter\"]",
+    "synonyms": "[\"truly\", \"actually\", \"genuinely\", \"in fact\", \"in truth\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"actually\", \"very\", \"forsooth\", \"truly\", \"real\"], \"ar\": [\"في الواقع\", \"حقّاً\", \"حَتْماً\", \"صِدْقاً\", \"لَ\", \"حَقّاً\"]}",
+    "arabicAr": "حقًا / بالفعل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 361,
+    "wordEn": "provide",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 361,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "pɹəˈvaɪd",
+    "phoneticAr": "برافآيد",
+    "translit": "yamudu / tuzawid",
+    "syllabify": "pro•vide",
+    "definitionEn": "[\"make available for use; supply.\", \"make adequate preparation for .\", \"stipulate in a will or other legal document.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"new qualifications must provide for changes in technology\", \"neither will provide answers to these problems\"], \"B1\": [\"these clubs provide a much appreciated service for this area\"], \"B2\": [\"the order should be varied to provide that there would be no contact with the father\"]}",
+    "collocations": "[\"further provide\", \"provide time\"]",
+    "synonyms": "[\"ply\", \"give\", \"supply\", \"render\", \"furnish\"]",
+    "antonyms": "[\"withhold\"]",
+    "relatedWords": "{\"en\": [\"supply\", \"offer\", \"furnish\", \"render\", \"put up\"], \"ar\": [\"إشْتَرَط\", \"جَهّز\", \"زَوّد\", \"وَرّد\", \"وَفّر\", \"يُجهِّز\"]}",
+    "arabicAr": "يمد / يوفر / يقدم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 362,
+    "wordEn": "week",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 362,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wik",
+    "phoneticUk": "wiːk",
+    "phoneticAr": "ويك",
+    "translit": "'usbue / ''usbue",
+    "definitionEn": "[\"a period of seven days.\", \"A period of seven days, usually that reckoned from one Sabbath or Sunday to the next.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she works a 48-hour week\", \"the week of June 23\", \"Super Bowl week\"], \"A2\": [\"he'd cut the grass a week ago\", \"she has an art class twice a week\"], \"B2\": [\"I work during the week, so I can only get to this shop on Saturdays\"]}",
+    "collocations": "[\"last week\", \"week period\"]",
+    "synonyms": "[\"weekly\", \"hebdomad\", \"workweek\", \"fortnight\", \"calendar week\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"hebdomad\", \"workweek\", \"calendar week\", \"fortnight\", \"weekly\"], \"ar\": [\"جُمْعَة\", \"أسبوع\", \"أسبوع قبل يوم معين\"]}",
+    "arabicAr": "أسبوع",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 363,
+    "wordEn": "hold",
+    "pos": "noun",
+    "cefrLevel": "B2",
+    "fromOxford": 1,
+    "rank": 363,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "həʊld",
+    "phoneticAr": "هاولد",
+    "translit": "yumsik / muealaq",
+    "definitionEn": "[\"grasp, carry, or support with one's hands.\", \"remain secure, intact, or in position without breaking or giving way.\", \"contain or be capable of containing .\"]",
+    "usageNote": "usually in the third person",
+    "category": "Actions & Processes",
+    "register": "Informal",
+    "examples": "{\"A1\": [\"he lost his hold and fell\", \"“Hold, hold!” he cried\"], \"A2\": [\"he is determined to hold down inflation\", \"I can hold my liquor as well as anyone\"], \"B1\": [\"he felt carefully with his feet for a hold and swung himself up\", \"he discovered that Tom had some kind of hold over his father\", \"oversized baggage is placed in the hold of the plane\"], \"B2\": [\"I reached up to the nearest branch that seemed likely to hold my weight\"]}",
+    "collocations": "[\"to hold true\", \"to hold firm\", \"to hold one's bladder\", \"to hold one's breath\", \"firm hold\"]",
+    "synonyms": "[\"clasp\", \"clench\", \"clutch\", \"clutches\", \"hold onto\"]",
+    "antonyms": "[\"let go of\", \"disagree\"]",
+    "relatedWords": "{\"en\": [\"take hold\", \"grasp\", \"grip\", \"clutches\", \"take\"], \"ar\": [\"حامِل\", \"حَمّالَة\", \"رَكِيزَة\", \"عِمَاد\", \"عَنْبَر\", \"قَبْضَة\"]}",
+    "arabicAr": "يمسك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 364,
+    "wordEn": "hold",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 364,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "həʊld",
+    "phoneticAr": "هاولد",
+    "translit": "yumsik / muealaq",
+    "definitionEn": "[\"grasp, carry, or support with one's hands.\", \"remain secure, intact, or in position without breaking or giving way.\", \"contain or be capable of containing .\"]",
+    "usageNote": "usually in the third person",
+    "category": "Actions & Processes",
+    "register": "Informal",
+    "examples": "{\"A1\": [\"he lost his hold and fell\", \"“Hold, hold!” he cried\"], \"A2\": [\"he is determined to hold down inflation\", \"I can hold my liquor as well as anyone\"], \"B1\": [\"he felt carefully with his feet for a hold and swung himself up\", \"he discovered that Tom had some kind of hold over his father\", \"oversized baggage is placed in the hold of the plane\"], \"B2\": [\"I reached up to the nearest branch that seemed likely to hold my weight\"]}",
+    "collocations": "[\"to hold true\", \"to hold firm\", \"to hold one's bladder\", \"to hold one's breath\", \"firm hold\"]",
+    "synonyms": "[\"clasp\", \"clench\", \"clutch\", \"clutches\", \"hold onto\"]",
+    "antonyms": "[\"let go of\", \"disagree\"]",
+    "relatedWords": "{\"en\": [\"take hold\", \"grasp\", \"grip\", \"clutches\", \"take\"], \"ar\": [\"حامِل\", \"حَمّالَة\", \"رَكِيزَة\", \"عِمَاد\", \"عَنْبَر\", \"قَبْضَة\"]}",
+    "arabicAr": "يمسك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 365,
+    "wordEn": "large",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 365,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈlɑɹd͡ʒ",
+    "phoneticUk": "ˈlɑːd͡ʒ",
+    "phoneticAr": "لآردج",
+    "translit": "kabir",
+    "definitionEn": "[\"of considerable or relatively great size, extent, or capacity.\", \"of wide range or scope.\", \"another term for free .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the concert attracted large crowds\", \"add a large clove of garlic\"], \"A2\": [\"the sweater comes in small, medium, and large sizes\"], \"B1\": [\"many large investors are likely to take a different view\"]}",
+    "collocations": "[\"very large\", \"large number\"]",
+    "synonyms": "[\"big\", \"jumbo\", \"orotund\", \"bombastic\", \"declamatory\"]",
+    "antonyms": "[\"small\", \"little\"]",
+    "relatedWords": "{\"en\": [\"great\", \"large-scale\", \"vast\", \"larger-than-life\", \"colossal\"], \"ar\": [\"واسع\", \"عريض\", \"ضخم\", \"كبير\", \"مُؤاتٍ\", \"ملائم\"]}",
+    "arabicAr": "كبير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 366,
+    "wordEn": "member",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 366,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈmɛmbə",
+    "phoneticUk": "ˈmembə",
+    "phoneticAr": "مايمبا",
+    "translit": "eudw",
+    "syllabify": "mem•ber",
+    "definitionEn": "[\"a person, animal, or plant belonging to a particular group.\", \"a constituent piece of a complex structure.\", \"a part or organ of the body, especially a limb.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a member of the drama club\", \"a member of the lily family\", \"the EU's member countries\"], \"B1\": [\"the main member that joins the front and rear axles\"]}",
+    "collocations": "[\"honourable member\", \"member states\"]",
+    "synonyms": "[\"penis\", \"extremity\", \"appendage\", \"constituent\", \"fellow member\"]",
+    "antonyms": "[\"nonmember\"]",
+    "relatedWords": "{\"en\": [\"extremity\", \"phallus\", \"appendage\", \"penis\", \"membership\"], \"ar\": [\"جارحَة\", \"عُضْو\", \"مُنْتَسِب\", \"مُنْتَمٍ\", \"مُنْتَمِي\", \"مُنْضَمّ\"]}",
+    "arabicAr": "عضو",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 367,
+    "wordEn": "off",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 367,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɔːf",
+    "phoneticUk": "ɑf",
+    "phoneticAr": "أوف",
+    "translit": "ean / ''iiqaf",
+    "definitionEn": "[\"away from the place in question; to or at a distance.\", \"so as to be removed or separated.\", \"starting a journey or race; leaving.\"]",
+    "usageNote": "Used to indicate the location or direction of one thing relative to another, implying adjacency or accessibility via.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the gunmen made off on foot\", \"tell them the wedding's off\", \"take a day off\", \"turning off for Ripon\", \"Can you off the light\"], \"A2\": [\"they are knocking $2,000 off the price\", \"the Christmas party rounded off a hugely successful year\", \"threatening to tear it off its hinges\", \"even the greatest athletes have off days\"]}",
+    "collocations": "[\"noises off\", \"off to see the wizard\", \"off work off school\", \"Can you off the light\", \"trade off\"]",
+    "synonyms": "[\"hit\", \"slay\", \"away\", \"murder\", \"dispatch\"]",
+    "antonyms": "[\"fresh\", \"near\", \"leg\"]",
+    "relatedWords": "{\"en\": [\"away\", \"cancelled\", \"forth\", \"inactive\", \"disconnected\"], \"ar\": [\"الأبعد\", \"مخطئ\", \"مخبول\", \"ضئيل\", \"رديء\", \"غير طازج\"]}",
+    "arabicAr": "عن / بعيداً",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 368,
+    "wordEn": "off",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 368,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɔːf",
+    "phoneticUk": "ɑf",
+    "phoneticAr": "أوف",
+    "translit": "ean / ''iiqaf",
+    "definitionEn": "[\"away from the place in question; to or at a distance.\", \"so as to be removed or separated.\", \"starting a journey or race; leaving.\"]",
+    "usageNote": "Used to indicate the location or direction of one thing relative to another, implying adjacency or accessibility via.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the gunmen made off on foot\", \"tell them the wedding's off\", \"take a day off\", \"turning off for Ripon\", \"Can you off the light\"], \"A2\": [\"they are knocking $2,000 off the price\", \"the Christmas party rounded off a hugely successful year\", \"threatening to tear it off its hinges\", \"even the greatest athletes have off days\"]}",
+    "collocations": "[\"noises off\", \"off to see the wizard\", \"off work off school\", \"Can you off the light\", \"trade off\"]",
+    "synonyms": "[\"hit\", \"slay\", \"away\", \"murder\", \"dispatch\"]",
+    "antonyms": "[\"fresh\", \"near\", \"leg\"]",
+    "relatedWords": "{\"en\": [\"away\", \"cancelled\", \"forth\", \"inactive\", \"disconnected\"], \"ar\": [\"الأبعد\", \"مخطئ\", \"مخبول\", \"ضئيل\", \"رديء\", \"غير طازج\"]}",
+    "arabicAr": "عن / بعيداً",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 369,
+    "wordEn": "off",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 369,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɔːf",
+    "phoneticUk": "ɑf",
+    "phoneticAr": "أوف",
+    "translit": "ean / ''iiqaf",
+    "definitionEn": "[\"away from the place in question; to or at a distance.\", \"so as to be removed or separated.\", \"starting a journey or race; leaving.\"]",
+    "usageNote": "Used to indicate the location or direction of one thing relative to another, implying adjacency or accessibility via.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the gunmen made off on foot\", \"tell them the wedding's off\", \"take a day off\", \"turning off for Ripon\", \"Can you off the light\"], \"A2\": [\"they are knocking $2,000 off the price\", \"the Christmas party rounded off a hugely successful year\", \"threatening to tear it off its hinges\", \"even the greatest athletes have off days\"]}",
+    "collocations": "[\"noises off\", \"off to see the wizard\", \"off work off school\", \"Can you off the light\", \"trade off\"]",
+    "synonyms": "[\"hit\", \"slay\", \"away\", \"murder\", \"dispatch\"]",
+    "antonyms": "[\"fresh\", \"near\", \"leg\"]",
+    "relatedWords": "{\"en\": [\"away\", \"cancelled\", \"forth\", \"inactive\", \"disconnected\"], \"ar\": [\"الأبعد\", \"مخطئ\", \"مخبول\", \"ضئيل\", \"رديء\", \"غير طازج\"]}",
+    "arabicAr": "عن / بعيداً",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 370,
+    "wordEn": "always",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 370,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈɔl.weɪz",
+    "phoneticUk": "ˈɔː(l).weɪz",
+    "phoneticAr": "أولوايز",
+    "translit": "daymaan / dayimaan",
+    "syllabify": "al•ways",
+    "definitionEn": "[\"at all times; on all occasions.\", \"as a last resort; failing all else.\", \"Constancy during a certain period, or regularly at stated intervals\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she will always be missed\", \"she is always making derogatory remarks\"], \"A2\": [\"she had always been an obstinate sort\", \"the sun always rises in the east\"], \"B1\": [\"if the marriage doesn't work out, we can always get divorced\"]}",
+    "collocations": "[\"release always\", \"always check\"]",
+    "synonyms": "[\"ever\", \"e'er\", \"constantly\", \"invariably\", \"every time\"]",
+    "antonyms": "[\"never\", \"at no time\", \"manywise\"]",
+    "relatedWords": "{\"en\": [\"ever\", \"forever\", \"ongoing\", \"continued\", \"sometimes\"], \"ar\": [\"دائماً\", \"أبَداً\", \"دائِماً\", \"دائما\", \"أبدا\"]}",
+    "arabicAr": "دائماً",
+    "addedFromOxford": 0
+  }
+]

@@ -1,0 +1,378 @@
+{
+  "wordEntries": [
+    {
+      "id": 1,
+      "wordEn": "the",
+      "pos": "noun",
+      "cefrLevel": "C2",
+      "difficultyScore": "8",
+      "phoneticUs": "ði",
+      "phoneticUk": null,
+      "phoneticAr": "ذي",
+      "translit": "Kalimat \"The\"",
+      "definitionEn": "The word \"the\" itself; used to refer to the definite article as a linguistic concept or object.",
+      "definitionAr": "كلمة \"the\" نفسها لما نتكلم عنها كاسم، يعني لما نقول \"كلمة الـ\" مش الأداة نفسها",
+      "usageNote": "This entry refers to 'the' as a noun (e.g., 'Count the number of the's on the page'). For the article usage, see the determiner entry.",
+      "category": "Language & Linguistics",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Linguistics",
+        "#Grammar",
+        "#Meta",
+        "#Word"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "The word \"the\" is very short.",
+        "A2": "You wrote \"the\" twice in this sentence.",
+        "B1": "He emphasized the \"the\" in his title.",
+        "B2": "The definition of \"the\" is difficult to explain.",
+        "C1": "Linguists study the function of \"the\" in English syntax.",
+        "C2": "The philosophical implications of \"the\" as a definite descriptor are vast."
+      },
+      "collocations": [
+        "the word the",
+        "use of the",
+        "pronunciation of the"
+      ],
+      "synonyms": [
+        "definite article"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "article",
+          "determiner",
+          "grammar"
+        ],
+        "ar": [
+          "أداة تعريف",
+          "نحو",
+          "كلمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "the",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كلمة \"ال\" / أداة التعريف",
+      "frenchFr": "le mot \"the\"",
+      "germanDe": "das Wort \"the\"",
+      "spanishEs": "la palabra \"the\"",
+      "chineseZh": "\"The\" 这个词 (The zhège cí)",
+      "russianRu": "слово \"the\" (slovo \"the\")",
+      "portuguesePt": "a palavra \"the\"",
+      "japaneseJa": "「the」という言葉 (\"the\" to iu kotoba)",
+      "italianIt": "la parola \"the\"",
+      "turkishTr": "\"the\" kelimesi",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 2,
+      "wordEn": "the",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ði",
+      "phoneticUk": null,
+      "phoneticAr": "ذي",
+      "translit": "Al",
+      "definitionEn": "Used to point to something specific that has been mentioned before or is already known.",
+      "definitionAr": "أداة التعريف \"الـ\".. بنستخدمها لما نكون عارفين إحنا بنتكلم عن إيه بالضبط، أو حاجة اتذكرت قبل كده",
+      "usageNote": "Pronounced /ði/ before vowels (the apple) and /ðə/ before consonants (the car).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Article",
+        "#Grammar",
+        "#Basics",
+        "#Definite"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"This\".. لما تقول \"The book\" كأنك بتشاور وتقول \"هذا الكتاب\" المعروف",
+      "examples": {
+        "A1": "The book is on the table.",
+        "A2": "I saw the doctor yesterday.",
+        "B1": "The information you gave me was helpful.",
+        "B2": "The environment is important for our future.",
+        "C1": "The ambiguity of the situation caused confusion.",
+        "C2": "The quintessential example of this phenomenon is rare."
+      },
+      "collocations": [
+        "the end",
+        "the same",
+        "the best",
+        "in the morning",
+        "at the moment"
+      ],
+      "synonyms": [
+        "that",
+        "this"
+      ],
+      "antonyms": [
+        "a",
+        "an"
+      ],
+      "relatedWords": {
+        "en": [
+          "a",
+          "an",
+          "this",
+          "that"
+        ],
+        "ar": [
+          "هذا",
+          "ذلك",
+          "واحد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الـ",
+      "frenchFr": "le / la / les",
+      "germanDe": "der / die / das",
+      "spanishEs": "el / la / los / las",
+      "chineseZh": "这 (Zhè) / 那 (Nà)",
+      "russianRu": "этот (etot) / (no article in Russian)",
+      "portuguesePt": "o / a / os / as",
+      "japaneseJa": "その (Sono)",
+      "italianIt": "il / lo / la / i / gli / le",
+      "turkishTr": "(belirtme eki) -i / -ı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3,
+      "wordEn": "be",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "bi",
+      "phoneticUk": null,
+      "phoneticAr": "بي",
+      "translit": "Yakūn",
+      "definitionEn": "To exist, live, or occur; used to describe the state, quality, or identity of something.",
+      "definitionAr": "يكون.. يعني الفعل اللي بيوصف الحالة أو الوجود.[[1](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE5c0SJSUhzLBfzo5tc_UHqMnaXC9yEB89Q1DOxn8kzNheYvCOXC5njqBE8Ydqke33vajRcxJS48saig4-qqUsofRTvkcSztyfxtz9xKmYVZgwlN6ZwIrDR8VdVPdF-D2QmmUmSwHENjg%3D%3D)][[2](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEm29CQxm72Jyh8RLE_zqLft5t66vFg8zKEuWPuYJsLxs0DoMtvYEjoLIleqjTNjsPazdLssHMIHJXko1FH7egeeltWHkjiyEMHGgrNzHOY-3kbMybacxdBVx_VtdBStRxV6TNQiCrPsIYQ7XfKqN987mZuoNI%3D)][[3](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFhz6_pK8n6sKoCJWBqMRadkAXLHYapjcD5JAqfbMVmuVm8lwAkNGCU0ErfLeoW7zxBdh2ZHgL9rzKrmPtVJM-GhOpef8R9IqQPHm_GO-YZvQdaRZRCuptFW_MsVDhszj-fuv7JjfhWOPw1au1xzrld43nbR8wZ_g%3D%3D)][[4](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGFRhvLvRb-mi1VCpBGWmp1qLWb1w-wf-t87qcvqkRcPJ9CRWHqkPFXF_b0k_zesmkuFLAAvF3aywYOFiFRinjn0WCQim9zlzPJi6AHxucfUPdO_y94CsqUQgQJQgDcEgaYyeWbakTSrEA%3D)][[5](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGs3jfq5Fzvm2SjM0-SWhV9kiTe0g-3JM6dcO5wNEy88AkL2CNMc5JOufCSpSVG306AUP5mkUctnUUT3ycuaW02uwvim6JzMJrLY5dIySAKR7kGXMvNayX1eB6I5FP98Qk6QAi1l2wNLpsZglc-ahT2cl0GUghC2NBXG_HrIcnZ3kLe85H_53UyvommGFTXY7A3tw%3D%3D)] زي لما تقول \"أنا أكون سعيد\" أو \"هو يكون دكتور\"",
+      "usageNote": "Highly irregular verb (am, is, are, was, were, been). In Arabic, the present tense 'is/are' is often implied and not spoken.",
+      "category": "State & Existence",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Existence",
+        "#Auxiliary",
+        "#State",
+        "#Identity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Be\" شبه كلمة \"Bee\" (نحلة).. تخيل نحلة بتقول \"I want to be a Queen\" (عايزة أكون ملكة)",
+      "examples": {
+        "A1": "I want to be a teacher.",
+        "A2": "She was happy yesterday.",
+        "B1": "You must be tired after the trip.",
+        "B2": "The meeting is to be held on Monday.",
+        "C1": "Whatever may be the consequences, I will do it.",
+        "C2": "To be or not to be, that is the question."
+      },
+      "collocations": [
+        "be careful",
+        "be able to",
+        "be sure",
+        "be afraid",
+        "be interested in"
+      ],
+      "synonyms": [
+        "exist",
+        "live",
+        "occur"
+      ],
+      "antonyms": [
+        "cease",
+        "vanish"
+      ],
+      "relatedWords": {
+        "en": [
+          "am",
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "ar": [
+          "كان",
+          "أصبح",
+          "صار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "being",
+        "verb": "be",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يكون",
+      "frenchFr": "être",
+      "germanDe": "sein",
+      "spanishEs": "ser / estar",
+      "chineseZh": "是 (Shì)",
+      "russianRu": "быть (byt')",
+      "portuguesePt": "ser / estar",
+      "japaneseJa": "ある (Aru) / いる (Iru) / です (Desu)",
+      "italianIt": "essere",
+      "turkishTr": "olmak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 4,
+      "wordEn": "of",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ɔv",
+      "phoneticUk": "ɒv",
+      "phoneticAr": "أُف",
+      "translit": "Min / Li",
+      "definitionEn": "Expressing the relationship between a part and a whole, or possession/belonging.",
+      "definitionAr": "حرف جر بيعبر عن الملكية أو إن حاجة جزء من حاجة تانية. زي \"قطعة من الكيك\" أو \"كتاب محمد\"",
+      "usageNote": "Often translates to the 'Idafa' construction (genitive) in Arabic rather than a separate word.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Possession",
+        "#Partitive",
+        "#Origin",
+        "#Material"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Of\" قريبة من \"Off\".. تخيل \"A piece OF cake fell OFF\" (قطعة من الكيك وقعت)",
+      "examples": {
+        "A1": "A cup of tea.",
+        "A2": "He is a friend of mine.",
+        "B1": "The capital of France is Paris.",
+        "B2": "She is capable of doing the job.",
+        "C1": "It was very kind of you to help.",
+        "C2": "The stream of consciousness technique is complex."
+      },
+      "collocations": [
+        "piece of",
+        "cup of",
+        "kind of",
+        "out of",
+        "because of"
+      ],
+      "synonyms": [
+        "belonging to",
+        "from",
+        "concerning"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "from",
+          "about",
+          "with"
+        ],
+        "ar": [
+          "من",
+          "عن",
+          "بـ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مِن / لـِ / التابعة لـ",
+      "frenchFr": "de",
+      "germanDe": "von",
+      "spanishEs": "de",
+      "chineseZh": "的 (De)",
+      "russianRu": "из (iz) / (genitive case)",
+      "portuguesePt": "de",
+      "japaneseJa": "の (No)",
+      "italianIt": "di",
+      "turkishTr": "-in / -nin (genitive suffix)",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 5,
+      "wordEn": "and",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ænd",
+      "phoneticUk": null,
+      "phoneticAr": "آند",
+      "translit": "Waw al-rabt / Bawwabat 'Wa'",
+      "definitionEn": "A logical operator that requires both conditions to be true; or the word \"and\" itself.",
+      "definitionAr": "بوابة \"و\" المنطقية (في الكمبيوتر والمنطق) اللي بتشترط تحقق الشرطين مع بعض، أو كلمة \"و\" نفسها",
+      "usageNote": "This entry refers to 'and' as a noun (e.g., 'Boolean AND'). For the conjunction usage (A1), see the conjunction entry.",
+      "category": "Logic & Mathematics",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Logic",
+        "#Math",
+        "#Computing",
+        "#Operator"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Add\" (يضيف).. الـ \"And\" بتضيف شرط على شرط",
+      "examples": {
+        "A1": "My computer has an AND gate.",
+        "A2": "Learn the difference between an OR and an AND.",
+        "B1": "The logic circuit uses a simple AND.",
+        "B2": "There are no ifs, ands, or buts about it.",
+        "C1": "The boolean AND operation returns true only if both inputs are true.",
+        "C2": "The philosophical concept of conjunction is distinct from the logical AND."
+      },
+      "collocations": [
+        "AND gate",
+        "logical AND",
+        "ifs, ands, or buts"
+      ],
+      "synonyms": [
+        "logical conjunction",
+        "plus"
+      ],
+      "antonyms": [
+        "OR"
+      ],
+      "relatedWords": {
+        "en": [
+          "or",
+          "not",
+          "logic",
+          "boolean"
+        ],
+        "ar": [
+          "أو",
+          "لا",
+          "منطق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "and",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بوابة \"و\" / رابط \"و\"",
+      "frenchFr": "le et (logique)",
+      "germanDe": "das Und",
+      "spanishEs": "el y (lógico)",
+      "chineseZh": "与 (Yǔ) / 与门 (Yǔ mén)",
+      "russianRu": "логическое И (logicheskoye I)",
+      "portuguesePt": "o e (lógico)",
+      "japaneseJa": "論理積 (Ronriseki)",
+      "italianIt": "l'e (logico)",
+      "turkishTr": "ve kapısı",
+      "aiConfidence": 0.85
+    }
+  ]
+}

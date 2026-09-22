@@ -1,0 +1,1422 @@
+{
+  "wordEntries": [
+    {
+      "id": 96,
+      "wordEn": "out",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "aʊt",
+      "phoneticUk": null,
+      "phoneticAr": "آوْت",
+      "translit": "Kharij / Khariji",
+      "definitionEn": "Not inside a building or room; revealed or made public; no longer burning or shining.",
+      "definitionAr": "يعني حاجة مش جوه، أو حاجة ظهرت وبانت للناس، أو حتى النور لما يطفي بنقول عليه Out.",
+      "usageNote": "Commonly used with 'be' (The lights are out) or to describe location relative to a container.",
+      "category": "Actions & Processes",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Location",
+        "#Status",
+        "#Exterior"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Out\" عكس \"In\".. لما تكون \"Out\" يعني إنت \"برة\" المكان.",
+      "examples": {
+        "A1": "The lights are out.",
+        "A2": "He is out of the office today.",
+        "B1": "The secret is finally out.",
+        "B2": "This style of dress is out this season.",
+        "C1": "The jury is still out on that decision.",
+        "C2": "He was out cold after the accident."
+      },
+      "collocations": [
+        "lights out",
+        "school is out",
+        "out of order"
+      ],
+      "synonyms": [
+        "away",
+        "absent",
+        "extinguished",
+        "revealed"
+      ],
+      "antonyms": [
+        "in",
+        "inside"
+      ],
+      "relatedWords": {
+        "en": [
+          "outside",
+          "outer",
+          "outing"
+        ],
+        "ar": [
+          "خارج",
+          "خارجي",
+          "نزهة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "outing",
+        "verb": "out",
+        "adj": "outer",
+        "adv": "outwardly"
+      },
+      "arabicAr": "خارج / خارجي",
+      "frenchFr": "dehors",
+      "germanDe": "aus",
+      "spanishEs": "fuera",
+      "chineseZh": "外面的 (Wàimiàn de)",
+      "russianRu": "снаружи",
+      "portuguesePt": "fora",
+      "japaneseJa": "外の (Soto no)",
+      "italianIt": "fuori",
+      "turkishTr": "dışarıda",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 97,
+      "wordEn": "out",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "aʊt",
+      "phoneticUk": null,
+      "phoneticAr": "آوْت",
+      "translit": "Kharij / Khariji",
+      "definitionEn": "Through or from a place; moving away from the inside of something.",
+      "definitionAr": "بتستخدم لما حاجة تخرج من مكان لمكان تاني، زي لما تبص من الشباك.",
+      "usageNote": "In modern English, often used as 'out of', but 'out the window' is common in American English.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Exit",
+        "#Movement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "تخيل إنك بترمى حاجة \"Out\" الشباك.. يعني بتخرجها لبرة.",
+      "examples": {
+        "A1": "She looked out the window.",
+        "A2": "He walked out the door.",
+        "B1": "They threw it out the back.",
+        "B2": "The cat ran out the house.",
+        "C1": "He spat the seed out his mouth.",
+        "C2": "Looking out the portal, he saw the stars."
+      },
+      "collocations": [
+        "out the window",
+        "out the door"
+      ],
+      "synonyms": [
+        "through",
+        "via"
+      ],
+      "antonyms": [
+        "in",
+        "into"
+      ],
+      "relatedWords": {
+        "en": [
+          "outside",
+          "exit"
+        ],
+        "ar": [
+          "عبر",
+          "خروج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "خارج / خارجي",
+      "frenchFr": "par",
+      "germanDe": "hinaus",
+      "spanishEs": "por",
+      "chineseZh": "向外 (Xiàng wài)",
+      "russianRu": "из",
+      "portuguesePt": "para fora",
+      "japaneseJa": "〜から外へ (Kara soto e)",
+      "italianIt": "fuori da",
+      "turkishTr": "dışarı",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 98,
+      "wordEn": "out",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "aʊt",
+      "phoneticUk": null,
+      "phoneticAr": "آوْت",
+      "translit": "Kharij / Khariji",
+      "definitionEn": "Away from the inside or center; to a different place; into the open.",
+      "definitionAr": "بتوصف الحركة لبرة، أو إنك تروح مكان تاني بعيد عن البيت.",
+      "usageNote": "Used with verbs of movement (go, run, eat) to indicate leaving a place.",
+      "category": "Actions & Processes",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Away",
+        "#Distance",
+        "#Social"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تقول لصاحبك Let's go \"Out\".. يعني يالا نخرج ونتفسح.",
+      "examples": {
+        "A1": "Please go out.",
+        "A2": "We eat out every Friday.",
+        "B1": "The sun came out.",
+        "B2": "It turned out to be true.",
+        "C1": "Speak out against injustice.",
+        "C2": "The truth will eventually come out."
+      },
+      "collocations": [
+        "eat out",
+        "go out",
+        "find out",
+        "watch out"
+      ],
+      "synonyms": [
+        "away",
+        "outside",
+        "abroad"
+      ],
+      "antonyms": [
+        "in",
+        "inside"
+      ],
+      "relatedWords": {
+        "en": [
+          "outward",
+          "outdoors"
+        ],
+        "ar": [
+          "بالخارج",
+          "في العراء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "خارج / خارجي",
+      "frenchFr": "dehors",
+      "germanDe": "draussen",
+      "spanishEs": "fuera",
+      "chineseZh": "出去 (Chūqù)",
+      "russianRu": "наружу",
+      "portuguesePt": "fora",
+      "japaneseJa": "外へ (Soto e)",
+      "italianIt": "fuori",
+      "turkishTr": "dışarı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 99,
+      "wordEn": "up",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ʌp",
+      "phoneticUk": null,
+      "phoneticAr": "أَب",
+      "translit": "A'la / Fawq",
+      "definitionEn": "To increase the level or amount of something; to raise something.",
+      "definitionAr": "يعني تزوّد أو ترفع حاجة، زي لما تعلّي السعر أو تزوّد الرهان.",
+      "usageNote": "Often used in phrases like 'up the ante' or 'up the price'. Informal usage.",
+      "category": "Actions & Processes",
+      "primarySense": "Change",
+      "semanticTags": [
+        "#Increase",
+        "#Raise",
+        "#Action"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Up\" يعني فوق.. كفعل معناها ترفع الحاجة لفوق أو تزودها.",
+      "examples": {
+        "A1": "They up the price.",
+        "A2": "He decided to up his offer.",
+        "B1": "We need to up our game to win.",
+        "B2": "They upped the security at the airport.",
+        "C1": "He upped and left without a word.",
+        "C2": "The company upped the ante in the bidding war."
+      },
+      "collocations": [
+        "up the ante",
+        "up the stakes",
+        "up and leave"
+      ],
+      "synonyms": [
+        "increase",
+        "raise",
+        "boost"
+      ],
+      "antonyms": [
+        "lower",
+        "decrease"
+      ],
+      "relatedWords": {
+        "en": [
+          "upgrade",
+          "uplift"
+        ],
+        "ar": [
+          "يرقي",
+          "يرفع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "upper",
+        "verb": "up",
+        "adj": "upper",
+        "adv": "up"
+      },
+      "arabicAr": "أعلى / فوق",
+      "frenchFr": "augmenter",
+      "germanDe": "erhöhen",
+      "spanishEs": "subir",
+      "chineseZh": "提高 (Tígāo)",
+      "russianRu": "повышать",
+      "portuguesePt": "aumentar",
+      "japaneseJa": "上げる (Ageru)",
+      "italianIt": "alzare",
+      "turkishTr": "artırmak",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 100,
+      "wordEn": "up",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ʌp",
+      "phoneticUk": null,
+      "phoneticAr": "أَب",
+      "translit": "A'la / Fawq",
+      "definitionEn": "From a lower to a higher point on something; along or further along.",
+      "definitionAr": "بتستخدم لما تتحرك من تحت لفوق، زي لما تطلع السلم أو تمشي في الشارع.",
+      "usageNote": "Indicates direction against gravity or along a path.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Ascent",
+        "#Path"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي زرار \"Up\" في الأسانسير، بيطلعك لفوق.",
+      "examples": {
+        "A1": "He walked up the hill.",
+        "A2": "Go up the stairs.",
+        "B1": "We drove up the coast.",
+        "B2": "The cat climbed up the tree.",
+        "C1": "He lives further up the road.",
+        "C2": "Salmon swim up the river to spawn."
+      },
+      "collocations": [
+        "up the street",
+        "up the stairs",
+        "up the river"
+      ],
+      "synonyms": [
+        "along",
+        "ascend"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "relatedWords": {
+        "en": [
+          "uphill",
+          "upward"
+        ],
+        "ar": [
+          "صاعد",
+          "لأعلى"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أعلى / فوق",
+      "frenchFr": "en haut de",
+      "germanDe": "hinauf",
+      "spanishEs": "por ... arriba",
+      "chineseZh": "沿着...向上 (Yánzhe... xiàngshàng)",
+      "russianRu": "вверх по",
+      "portuguesePt": "subindo",
+      "japaneseJa": "〜を上って (O nobotte)",
+      "italianIt": "su per",
+      "turkishTr": "yukarı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 101,
+      "wordEn": "up",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ʌp",
+      "phoneticUk": null,
+      "phoneticAr": "أَب",
+      "translit": "A'la / Fawq",
+      "definitionEn": "Towards a higher place or position; to a standing position; completely.",
+      "definitionAr": "بتوصف الحركة لفوق، أو إنك تقوم تقف، أو حتى إنك تخلص الأكل كله.",
+      "usageNote": "Extremely common in phrasal verbs (give up, use up, wake up).",
+      "category": "Actions & Processes",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Vertical",
+        "#Completion",
+        "#Status"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما حد يقولك Stand \"Up\" يعني قوم اقف.. حركة لفوق.",
+      "examples": {
+        "A1": "Stand up, please.",
+        "A2": "The sun is up.",
+        "B1": "Prices are going up.",
+        "B2": "Eat up your dinner.",
+        "C1": "The time is up.",
+        "C2": "He brought up a very interesting point."
+      },
+      "collocations": [
+        "wake up",
+        "give up",
+        "grow up",
+        "hurry up"
+      ],
+      "synonyms": [
+        "upward",
+        "aloft",
+        "higher"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "relatedWords": {
+        "en": [
+          "upwards",
+          "upright"
+        ],
+        "ar": [
+          "عاليا",
+          "قائما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أعلى / فوق",
+      "frenchFr": "debout",
+      "germanDe": "auf",
+      "spanishEs": "arriba",
+      "chineseZh": "向上 (Xiàngshàng)",
+      "russianRu": "вверх",
+      "portuguesePt": "para cima",
+      "japaneseJa": "上へ (Ue e)",
+      "italianIt": "su",
+      "turkishTr": "yukarı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 102,
+      "wordEn": "see",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "8",
+      "phoneticUs": "siː",
+      "phoneticUk": null,
+      "phoneticAr": "سي",
+      "translit": "Yara",
+      "definitionEn": "An act of looking or assessing; a glance (Informal). Also: The district of a bishop.",
+      "definitionAr": "بتيجي بمعنى نظرة سريعة عشان تتأكد من حاجة. (ومعنى تاني ديني: مقر الأسقف).",
+      "usageNote": "Common in British English phrases like 'have a look-see'. The religious meaning 'Holy See' is formal.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Vision",
+        "#Check",
+        "#Religion"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"See\" يعني يشوف.. كاسم ممكن تيجي بمعنى \"نظرة\" زي لما تقول \"Let's have a see\".",
+      "examples": {
+        "A1": "Let me have a see.",
+        "A2": "I'll take a quick see at it.",
+        "B1": "Give it a look-see to be sure.",
+        "B2": "We went for a see around the town.",
+        "C1": "The Holy See issued a statement.",
+        "C2": "The episcopal see was vacant for a year."
+      },
+      "collocations": [
+        "have a see",
+        "look-see",
+        "Holy See"
+      ],
+      "synonyms": [
+        "look",
+        "glance",
+        "diocese"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "sight",
+          "vision"
+        ],
+        "ar": [
+          "نظرة",
+          "رؤية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sight",
+        "verb": "see",
+        "adj": "seen",
+        "adv": "seeing"
+      },
+      "arabicAr": "يرى",
+      "frenchFr": "coup d'œil",
+      "germanDe": "Blick",
+      "spanishEs": "vistazo",
+      "chineseZh": "一看 (Yī kàn)",
+      "russianRu": "взгляд",
+      "portuguesePt": "olhada",
+      "japaneseJa": "一見 (Ikken)",
+      "italianIt": "occhiata",
+      "turkishTr": "bakış",
+      "aiConfidence": 0.75
+    },
+    {
+      "id": 103,
+      "wordEn": "see",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "siː",
+      "phoneticUk": null,
+      "phoneticAr": "سي",
+      "translit": "Yara",
+      "definitionEn": "To perceive with the eyes; to understand or realize something.",
+      "definitionAr": "يعني تشوف بعينك، أو تفهم حاجة زي لما تقول \"أنا شايف وجهة نظرك\".",
+      "usageNote": "Stative verb; usually not used in continuous forms (don't say 'I am seeing the cat').",
+      "category": "Health & Senses",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Vision",
+        "#Understanding",
+        "#Perception"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"See\" قريبة في النطق من \"Sea\" (بحر).. وإحنا بنحب نشوف البحر.",
+      "examples": {
+        "A1": "I see a bird.",
+        "A2": "Did you see that movie?",
+        "B1": "I see what you mean.",
+        "B2": "The doctor will see you now.",
+        "C1": "I can't see myself doing that job.",
+        "C2": "Please see to it that the door is locked."
+      },
+      "collocations": [
+        "see a doctor",
+        "see the point",
+        "wait and see",
+        "see you later"
+      ],
+      "synonyms": [
+        "watch",
+        "view",
+        "understand",
+        "perceive"
+      ],
+      "antonyms": [
+        "miss",
+        "overlook"
+      ],
+      "relatedWords": {
+        "en": [
+          "sight",
+          "scene",
+          "visible"
+        ],
+        "ar": [
+          "رؤية",
+          "مشهد",
+          "مرئي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "sight",
+        "verb": "see",
+        "adj": "visible",
+        "adv": "visibly"
+      },
+      "arabicAr": "يرى",
+      "frenchFr": "voir",
+      "germanDe": "sehen",
+      "spanishEs": "ver",
+      "chineseZh": "看见 (Kànjiàn)",
+      "russianRu": "видеть",
+      "portuguesePt": "ver",
+      "japaneseJa": "見る (Miru)",
+      "italianIt": "vedere",
+      "turkishTr": "görmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 104,
+      "wordEn": "know",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "noʊ",
+      "phoneticUk": null,
+      "phoneticAr": "ناو",
+      "translit": "Ya'rif",
+      "definitionEn": "Used in phrases to mean being aware of something or having inside information.",
+      "definitionAr": "بتستخدم كاسم في عبارات معينة بمعنى إن الشخص ده \"عارف\" وعنده معلومات مش عند غيره.",
+      "usageNote": "Almost exclusively used in the phrase 'in the know'.",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Knowledge",
+        "#Information",
+        "#Secret"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Know\" يعني يعرف.. لما تكون \"In the know\" يعني إنت جوه دايرة المعرفة.",
+      "examples": {
+        "A1": "He is in the know.",
+        "A2": "She wants to be in the know.",
+        "B1": "People in the know bought early.",
+        "B2": "It helps to be in the know about local events.",
+        "C1": "Consultants in the know predicted this crash.",
+        "C2": "A nod to those in the know."
+      },
+      "collocations": [
+        "in the know"
+      ],
+      "synonyms": [
+        "knowledge",
+        "awareness"
+      ],
+      "antonyms": [
+        "ignorance"
+      ],
+      "relatedWords": {
+        "en": [
+          "knowledge",
+          "knowing"
+        ],
+        "ar": [
+          "معرفة",
+          "دراية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "knowledge",
+        "verb": "know",
+        "adj": "knowledgeable",
+        "adv": "knowingly"
+      },
+      "arabicAr": "يعرف",
+      "frenchFr": "savoir",
+      "germanDe": "Wissen",
+      "spanishEs": "saber",
+      "chineseZh": "知情 (Zhīqíng)",
+      "russianRu": "знание",
+      "portuguesePt": "saber",
+      "japaneseJa": "事情通 (Jijōtsū)",
+      "italianIt": "sapere",
+      "turkishTr": "bilgi",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 105,
+      "wordEn": "know",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "noʊ",
+      "phoneticUk": null,
+      "phoneticAr": "ناو",
+      "translit": "Ya'rif",
+      "definitionEn": "To have information in your mind; to be aware of something; to be familiar with a person.",
+      "definitionAr": "يعني يكون عندك معلومة، أو تكون عارف شخص معين أو مكان.",
+      "usageNote": "Stative verb; do not say 'I am knowing him'. Use 'I know him'.",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Knowledge",
+        "#Memory",
+        "#Relationship"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Know\" نطقها زي \"No\".. بس المعنى إنك \"عارف\" مش \"لأ\".",
+      "examples": {
+        "A1": "I know your name.",
+        "A2": "Do you know how to swim?",
+        "B1": "She knows a lot about history.",
+        "B2": "I have known him for years.",
+        "C1": "He is known to be difficult.",
+        "C2": "They knew better than to argue."
+      },
+      "collocations": [
+        "know how",
+        "let me know",
+        "you know",
+        "get to know"
+      ],
+      "synonyms": [
+        "understand",
+        "recognize",
+        "realize"
+      ],
+      "antonyms": [
+        "guess",
+        "wonder"
+      ],
+      "relatedWords": {
+        "en": [
+          "knowledge",
+          "unknown"
+        ],
+        "ar": [
+          "علم",
+          "مجهول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "knowledge",
+        "verb": "know",
+        "adj": "known",
+        "adv": "knowingly"
+      },
+      "arabicAr": "يعرف",
+      "frenchFr": "savoir",
+      "germanDe": "wissen",
+      "spanishEs": "conocer",
+      "chineseZh": "知道 (Zhīdào)",
+      "russianRu": "знать",
+      "portuguesePt": "conhecer",
+      "japaneseJa": "知る (Shiru)",
+      "italianIt": "conoscere",
+      "turkishTr": "bilmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 106,
+      "wordEn": "time",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "3",
+      "phoneticUs": "taɪm",
+      "phoneticUk": null,
+      "phoneticAr": "تايْم",
+      "translit": "Waqt",
+      "definitionEn": "Related to the measurement of time; set to operate at a specific time.",
+      "definitionAr": "صفة بتوصف أي حاجة ليها علاقة بالوقت أو بتشتغل بوقت محدد.",
+      "usageNote": "Usually acts as a noun adjunct (noun used as adjective) like in 'time zone' or 'time bomb'.",
+      "category": "Time",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Duration",
+        "#Schedule",
+        "#Measurement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Time\" يعني وقت.. لما تيجي صفة بتبقى بتوصف حاجة موقوتة.",
+      "examples": {
+        "A1": "What is the time limit?",
+        "A2": "We are in a different time zone.",
+        "B1": "Use a time switch for the lights.",
+        "B2": "It was a time bomb waiting to explode.",
+        "C1": "They created a time capsule for the future.",
+        "C2": "Time dilation is a physics concept."
+      },
+      "collocations": [
+        "time zone",
+        "time limit",
+        "time bomb",
+        "time capsule"
+      ],
+      "synonyms": [
+        "temporal",
+        "chronological"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "timing",
+          "timer"
+        ],
+        "ar": [
+          "توقيت",
+          "مؤقت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "time",
+        "verb": "time",
+        "adj": "timely",
+        "adv": "timely"
+      },
+      "arabicAr": "وقت",
+      "frenchFr": "temporel",
+      "germanDe": "Zeit-",
+      "spanishEs": "de tiempo",
+      "chineseZh": "时间的 (Shíjiān de)",
+      "russianRu": "временной",
+      "portuguesePt": "de tempo",
+      "japaneseJa": "時間の (Jikan no)",
+      "italianIt": "di tempo",
+      "turkishTr": "zaman",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 107,
+      "wordEn": "time",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "2",
+      "phoneticUs": "taɪm",
+      "phoneticUk": null,
+      "phoneticAr": "تايْم",
+      "translit": "Waqt",
+      "definitionEn": "To measure how long something takes; to plan something for a specific moment.",
+      "definitionAr": "يعني تحسب الوقت لحاجة، أو تظبط ميعاد حاجة عشان تحصل في وقت معين.",
+      "usageNote": "Common in sports (timing a race) or planning (timing a joke).",
+      "category": "Time",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Measure",
+        "#Plan",
+        "#Schedule"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تعمل \"Time\" للسباق، يعني بتحسب وقتهم.",
+      "examples": {
+        "A1": "Please time me.",
+        "A2": "He timed the race perfectly.",
+        "B1": "You need to time your jump.",
+        "B2": "The attack was timed to coincide with the holiday.",
+        "C1": "She timed her entrance for maximum effect.",
+        "C2": "The market entry was poorly timed."
+      },
+      "collocations": [
+        "time a race",
+        "well timed",
+        "badly timed"
+      ],
+      "synonyms": [
+        "schedule",
+        "measure",
+        "clock"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "timer",
+          "timing"
+        ],
+        "ar": [
+          "مؤقت",
+          "توقيت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "time",
+        "verb": "time",
+        "adj": "timely",
+        "adv": ""
+      },
+      "arabicAr": "وقت",
+      "frenchFr": "chronométrer",
+      "germanDe": "stoppen",
+      "spanishEs": "cronometrar",
+      "chineseZh": "计时 (Jìshí)",
+      "russianRu": "засекать время",
+      "portuguesePt": "cronometrar",
+      "japaneseJa": "時間を計る (Jikan o hakaru)",
+      "italianIt": "cronometrare",
+      "turkishTr": "zamanlamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 108,
+      "wordEn": "time",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "taɪm",
+      "phoneticUk": null,
+      "phoneticAr": "تايْم",
+      "translit": "Waqt",
+      "definitionEn": "The indefinite continued progress of existence; a point in the day (hours/minutes).",
+      "definitionAr": "الوقت اللي بيعدي علينا، أو الساعة كام دلوقتي.",
+      "usageNote": "Uncountable for the concept (Time flies), countable for instances (Many times).",
+      "category": "Time",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Duration",
+        "#Clock",
+        "#Moment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الوقت كالسيف.. \"Time\" هو الوقت.",
+      "examples": {
+        "A1": "What time is it?",
+        "A2": "I have no time.",
+        "B1": "We had a good time.",
+        "B2": "Time flies when you are having fun.",
+        "C1": "At that point in time, I was unsure.",
+        "C2": "The ravages of time are visible here."
+      },
+      "collocations": [
+        "on time",
+        "in time",
+        "waste time",
+        "save time"
+      ],
+      "synonyms": [
+        "period",
+        "moment",
+        "duration"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "hour",
+          "minute",
+          "second"
+        ],
+        "ar": [
+          "ساعة",
+          "دقيقة",
+          "ثانية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "time",
+        "verb": "time",
+        "adj": "timeless",
+        "adv": "timely"
+      },
+      "arabicAr": "وقت",
+      "frenchFr": "temps",
+      "germanDe": "Zeit",
+      "spanishEs": "tiempo",
+      "chineseZh": "时间 (Shíjiān)",
+      "russianRu": "время",
+      "portuguesePt": "tempo",
+      "japaneseJa": "時間 (Jikan)",
+      "italianIt": "tempo",
+      "turkishTr": "zaman",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 109,
+      "wordEn": "take",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "teɪk",
+      "phoneticUk": null,
+      "phoneticAr": "تَيْك",
+      "translit": "Ya'khudh",
+      "definitionEn": "A scene filmed at one time; an opinion or perspective; amount of money collected.",
+      "definitionAr": "بتستخدم كاسم بمعنى لقطة في تصوير فيلم، أو رأي شخصي في موضوع، أو الفلوس اللي اتجمعت.",
+      "usageNote": "Common in media (Scene 1, Take 2) and journalism (What's your take on this?).",
+      "category": "Arts & Media",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Cinema",
+        "#Opinion",
+        "#Money"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "في التصوير بيقولوا \"Take 1\".. يعني اللقطة الأولى.",
+      "examples": {
+        "A1": "That was a good take.",
+        "A2": "We did it in one take.",
+        "B1": "The day's take was high.",
+        "B2": "What is your take on the news?",
+        "C1": "His hot take on the issue went viral.",
+        "C2": "The government's tax take increased."
+      },
+      "collocations": [
+        "double take",
+        "hot take",
+        "in one take"
+      ],
+      "synonyms": [
+        "opinion",
+        "view",
+        "revenue",
+        "recording"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "intake",
+          "uptake"
+        ],
+        "ar": [
+          "مدخول",
+          "استيعاب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "take",
+        "verb": "take",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يأخذ",
+      "frenchFr": "prise",
+      "germanDe": "Einnahme",
+      "spanishEs": "toma",
+      "chineseZh": "镜头 (Jìngtóu)",
+      "russianRu": "дубль",
+      "portuguesePt": "tomada",
+      "japaneseJa": "テイク (Teiku)",
+      "italianIt": "ripresa",
+      "turkishTr": "çekim",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 110,
+      "wordEn": "take",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "teɪk",
+      "phoneticUk": null,
+      "phoneticAr": "تَيْك",
+      "translit": "Ya'khudh",
+      "definitionEn": "To get into one's hands or possession; to carry or lead; to accept.",
+      "definitionAr": "يعني تاخد حاجة بإيدك، أو توصل حد لمكان، أو تقبل شيء.",
+      "usageNote": "One of the most common verbs with many meanings (take a bus, take a break, take time).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Possession",
+        "#Movement",
+        "#Acceptance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Take\" يعني ياخد.. عكس Give (يعطي).",
+      "examples": {
+        "A1": "Take this book.",
+        "A2": "I take the bus to school.",
+        "B1": "It will take time to finish.",
+        "B2": "Please take a seat.",
+        "C1": "Don't take it for granted.",
+        "C2": "I take it you are not coming."
+      },
+      "collocations": [
+        "take a break",
+        "take care",
+        "take place",
+        "take part"
+      ],
+      "synonyms": [
+        "grab",
+        "seize",
+        "accept",
+        "carry"
+      ],
+      "antonyms": [
+        "give",
+        "leave"
+      ],
+      "relatedWords": {
+        "en": [
+          "undertake",
+          "overtake"
+        ],
+        "ar": [
+          "يتعهد",
+          "يتجاوز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "taker",
+        "verb": "take",
+        "adj": "taken",
+        "adv": ""
+      },
+      "arabicAr": "يأخذ",
+      "frenchFr": "prendre",
+      "germanDe": "nehmen",
+      "spanishEs": "tomar",
+      "chineseZh": "拿 (Ná)",
+      "russianRu": "брать",
+      "portuguesePt": "pegar",
+      "japaneseJa": "取る (Toru)",
+      "italianIt": "prendere",
+      "turkishTr": "almak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 111,
+      "wordEn": "them",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðem",
+      "phoneticUk": null,
+      "phoneticAr": "ذِم",
+      "translit": "Hum",
+      "definitionEn": "A group of people or things previously mentioned, treated as a distinct entity.",
+      "definitionAr": "بتستخدم كاسم عشان توصف مجموعة ناس، زي لما نقول \"إحنا وهما\" (Us and Them).",
+      "usageNote": "Rare as a noun except in phrases like 'them and us' indicating division.",
+      "category": "People & Society",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Group",
+        "#Identity",
+        "#Other"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Them\" يعني هُم.. بتشاور بيهم على الناس التانية.",
+      "examples": {
+        "A1": "It is them.",
+        "A2": "I don't like them.",
+        "B1": "It's a case of us versus them.",
+        "B2": "The divide between us and them is growing.",
+        "C1": "They created a 'them' to blame for the problems.",
+        "C2": "Othering is the process of creating a 'them'."
+      },
+      "collocations": [
+        "us and them"
+      ],
+      "synonyms": [
+        "others",
+        "group"
+      ],
+      "antonyms": [
+        "us"
+      ],
+      "relatedWords": {
+        "en": [
+          "they",
+          "their"
+        ],
+        "ar": [
+          "هم",
+          "لهم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هم",
+      "frenchFr": "eux",
+      "germanDe": "sie",
+      "spanishEs": "ellos",
+      "chineseZh": "他们 (Tāmen)",
+      "russianRu": "их",
+      "portuguesePt": "eles",
+      "japaneseJa": "彼ら (Karera)",
+      "italianIt": "loro",
+      "turkishTr": "onlar",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 112,
+      "wordEn": "them",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðem",
+      "phoneticUk": null,
+      "phoneticAr": "ذِم",
+      "translit": "Hum",
+      "definitionEn": "Used as the object of a verb or preposition to refer to two or more people or things.",
+      "definitionAr": "ضمير مفعول به بيعود على جمع (ناس أو حاجات) اتكلمنا عنهم قبل كده.",
+      "usageNote": "Object form of 'they'. Use 'they' for subjects (They run), 'them' for objects (I see them).",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Pronoun",
+        "#Plural",
+        "#Object"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي \"Him\" بس للجمع.. \"I saw him\" (شفته)، \"I saw them\" (شفتهم).",
+      "examples": {
+        "A1": "I see them.",
+        "A2": "Give it to them.",
+        "B1": "I went with them to the park.",
+        "B2": "Most of them were happy.",
+        "C1": "Whatever the problem, we can solve it for them.",
+        "C2": "I shall not weary them with details."
+      },
+      "collocations": [
+        "tell them",
+        "give them",
+        "one of them"
+      ],
+      "synonyms": [
+        "those"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "they",
+          "themselves"
+        ],
+        "ar": [
+          "هم",
+          "أنفسهم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "هم",
+      "frenchFr": "les",
+      "germanDe": "ihnen",
+      "spanishEs": "los",
+      "chineseZh": "他们 (Tāmen)",
+      "russianRu": "их",
+      "portuguesePt": "os",
+      "japaneseJa": "彼らを (Karera o)",
+      "italianIt": "li",
+      "turkishTr": "onları",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 113,
+      "wordEn": "some",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "sʌm",
+      "phoneticUk": null,
+      "phoneticAr": "سام",
+      "translit": "Ba'd",
+      "definitionEn": "An unspecified amount or number of; used to refer to someone or something unknown.",
+      "definitionAr": "بتستخدم عشان توصف كمية مش محددة، أو حد ما نعرفوش (زي Some guy).",
+      "usageNote": "As an adjective, it modifies nouns. 'Some water' (amount), 'Some people' (number).",
+      "category": "Quantity & Numbers",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Amount",
+        "#Indefinite",
+        "#Part"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Some\" يعني شوية أو بعض.. قريبة من كلمة \"Sum\" (مجموع).",
+      "examples": {
+        "A1": "I want some water.",
+        "A2": "Some people like it.",
+        "B1": "I need some time to think.",
+        "B2": "There must be some mistake.",
+        "C1": "He went to some trouble to help.",
+        "C2": "That was some party! (meaning excellent)."
+      },
+      "collocations": [
+        "some time",
+        "some people",
+        "some day"
+      ],
+      "synonyms": [
+        "few",
+        "several",
+        "various"
+      ],
+      "antonyms": [
+        "none",
+        "all"
+      ],
+      "relatedWords": {
+        "en": [
+          "something",
+          "someone"
+        ],
+        "ar": [
+          "شيء ما",
+          "شخص ما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بعض",
+      "frenchFr": "quelques",
+      "germanDe": "einige",
+      "spanishEs": "algunos",
+      "chineseZh": "一些 (Yīxiē)",
+      "russianRu": "некоторые",
+      "portuguesePt": "alguns",
+      "japaneseJa": "いくつかの (Ikutsuka no)",
+      "italianIt": "alcuni",
+      "turkishTr": "bazı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 114,
+      "wordEn": "some",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "sʌm",
+      "phoneticUk": null,
+      "phoneticAr": "سام",
+      "translit": "Ba'd",
+      "definitionEn": "An unspecified number or amount of people or things.",
+      "definitionAr": "بتستخدم كضمير بدل الاسم، بمعنى شوية منهم أو جزء منهم.",
+      "usageNote": "Used without a following noun. 'Did you buy apples? Yes, I bought some.'",
+      "category": "Quantity & Numbers",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Part",
+        "#Selection",
+        "#Pronoun"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لو حد سألك عايز قد إيه؟ قول له \"Some\".. يعني شوية.",
+      "examples": {
+        "A1": "Can I have some?",
+        "A2": "Some are good, some are bad.",
+        "B1": "I have some left.",
+        "B2": "Some say it is true.",
+        "C1": "Some of the evidence is missing.",
+        "C2": "Here are the books; read some if you like."
+      },
+      "collocations": [
+        "some of",
+        "give me some"
+      ],
+      "synonyms": [
+        "a few",
+        "a part"
+      ],
+      "antonyms": [
+        "none",
+        "all"
+      ],
+      "relatedWords": {
+        "en": [
+          "any",
+          "none"
+        ],
+        "ar": [
+          "أي",
+          "لا شيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بعض",
+      "frenchFr": "en ... quelques-uns",
+      "germanDe": "einige",
+      "spanishEs": "algunos",
+      "chineseZh": "一些 (Yīxiē)",
+      "russianRu": "несколько",
+      "portuguesePt": "alguns",
+      "japaneseJa": "いくらか (Ikuraka)",
+      "italianIt": "alcuni",
+      "turkishTr": "bazıları",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 115,
+      "wordEn": "some",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "sʌm",
+      "phoneticUk": null,
+      "phoneticAr": "سام",
+      "translit": "Ba'd",
+      "definitionEn": "Used to refer to a person, place, thing, or amount that is not known or specified.",
+      "definitionAr": "أداة تحديد بتيجي قبل الاسم عشان تقول إن الكمية مش محددة أو الشيء مش معروف.",
+      "usageNote": "Grammatically distinct from adjective, but similar meaning. 'Some man called' (unknown man).",
+      "category": "Quantity & Numbers",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Indefinite",
+        "#Determiner",
+        "#Unknown"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Some\" بتحدد إن الحاجة موجودة بس مش عارفين قد إيه بالظبط.",
+      "examples": {
+        "A1": "I need some bread.",
+        "A2": "There is some milk in the fridge.",
+        "B1": "Some guy called for you.",
+        "B2": "It happened some years ago.",
+        "C1": "He has some doubt about the plan.",
+        "C2": "Some day you will understand."
+      },
+      "collocations": [
+        "some day",
+        "some time"
+      ],
+      "synonyms": [
+        "certain",
+        "unspecified"
+      ],
+      "antonyms": [
+        "no"
+      ],
+      "relatedWords": {
+        "en": [
+          "any",
+          "no"
+        ],
+        "ar": [
+          "أي",
+          "لا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بعض",
+      "frenchFr": "du / de la / des",
+      "germanDe": "etwas",
+      "spanishEs": "algo de",
+      "chineseZh": "一些 (Yīxiē)",
+      "russianRu": "немного",
+      "portuguesePt": "algum",
+      "japaneseJa": "ある (Aru)",
+      "italianIt": "del",
+      "turkishTr": "biraz",
+      "aiConfidence": 0.95
+    }
+  ]
+} 

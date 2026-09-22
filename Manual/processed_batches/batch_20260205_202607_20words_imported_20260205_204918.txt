@@ -1,0 +1,577 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 156,
+    "wordEn": "other",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 156,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈɐðə",
+    "phoneticUk": "ʊðə",
+    "phoneticAr": "اذا",
+    "translit": "akhar",
+    "syllabify": "oth•er",
+    "definitionEn": "[\"a person or thing that is different or distinct from one already mentioned or known about.\", \"a further or additional person or thing of the type aleady mentioned.\", \"that which is distinct from, different from, or opposite to something or oneself.\"]",
+    "usageNote": "often rendered as another.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the other side of the page\", \"a language unrelated to any other\", \"one other word of advice\"], \"A2\": [\"they took the other three away in an ambulance\"], \"B1\": [\"stick the camera on a tripod or some other means of support\", \"she flung up first one arm and then the other\", \"one or the other of them is bound to be a liar\", \"this is our last resort—there's no other way of reaching an agreement\"]}",
+    "collocations": "[\"big other\", \"other hand\"]",
+    "synonyms": "[\"early\", \"former\", \"different\", \"dissimilar\", \"alternative\"]",
+    "antonyms": "[\"same\"]",
+    "relatedWords": "{\"en\": [\"else\", \"different\", \"new\", \"past\", \"former\"], \"ar\": [\"آخَر\", \"أُخْرَى\", \"آخَرُون\", \"ماضٍ\", \"غير\", \"آخر\"]}",
+    "arabicAr": "آخر / أخرى",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 157,
+    "wordEn": "other",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 157,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈɐðə",
+    "phoneticUk": "ʊðə",
+    "phoneticAr": "اذا",
+    "translit": "akhar",
+    "syllabify": "oth•er",
+    "definitionEn": "[\"a person or thing that is different or distinct from one already mentioned or known about.\", \"a further or additional person or thing of the type aleady mentioned.\", \"that which is distinct from, different from, or opposite to something or oneself.\"]",
+    "usageNote": "often rendered as another.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the other side of the page\", \"a language unrelated to any other\", \"one other word of advice\"], \"A2\": [\"they took the other three away in an ambulance\"], \"B1\": [\"stick the camera on a tripod or some other means of support\", \"she flung up first one arm and then the other\", \"one or the other of them is bound to be a liar\", \"this is our last resort—there's no other way of reaching an agreement\"]}",
+    "collocations": "[\"big other\", \"other hand\"]",
+    "synonyms": "[\"early\", \"former\", \"different\", \"dissimilar\", \"alternative\"]",
+    "antonyms": "[\"same\"]",
+    "relatedWords": "{\"en\": [\"else\", \"different\", \"new\", \"past\", \"former\"], \"ar\": [\"آخَر\", \"أُخْرَى\", \"آخَرُون\", \"ماضٍ\", \"غير\", \"آخر\"]}",
+    "arabicAr": "آخر / أخرى",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 158,
+    "wordEn": "give",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 158,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɡɪv",
+    "phoneticAr": "جيف",
+    "translit": "yueti / yuetaa",
+    "definitionEn": "[\"freely transfer the possession of to ; hand over to.\", \"cause or allow to have ; provide or supply with.\", \"carry out or perform .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"give me the police\", \"he did not give his name\", \"I give you my word\", \"They're giving my favorite show\", \"What gives\"], \"A2\": [\"milk is sometimes added to give a richer cheese\", \"I'd give my right arm to be in Othello\"], \"B1\": [\"there is no give at all in the British position\", \"committee members who give so generously of their time and effort\"], \"B2\": [\"when two people who don't get on are thrust together, something's got to give\"]}",
+    "collocations": "[\"literal give\", \"give take\"]",
+    "synonyms": "[\"yield\", \"spring\", \"afford\", \"springiness\", \"fork out\"]",
+    "antonyms": "[\"take\", \"starve\"]",
+    "relatedWords": "{\"en\": [\"chip in\", \"afford\", \"gift\", \"contribute\", \"yield\"], \"ar\": [\"تضع\", \"تلِد\", \"ليُونة\", \"مرونة\", \"منح\", \"أعطى\"]}",
+    "arabicAr": "يعطي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 159,
+    "wordEn": "give",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 159,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɡɪv",
+    "phoneticAr": "جيف",
+    "translit": "yueti / yuetaa",
+    "definitionEn": "[\"freely transfer the possession of to ; hand over to.\", \"cause or allow to have ; provide or supply with.\", \"carry out or perform .\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"give me the police\", \"he did not give his name\", \"I give you my word\", \"They're giving my favorite show\", \"What gives\"], \"A2\": [\"milk is sometimes added to give a richer cheese\", \"I'd give my right arm to be in Othello\"], \"B1\": [\"there is no give at all in the British position\", \"committee members who give so generously of their time and effort\"], \"B2\": [\"when two people who don't get on are thrust together, something's got to give\"]}",
+    "collocations": "[\"literal give\", \"give take\"]",
+    "synonyms": "[\"yield\", \"spring\", \"afford\", \"springiness\", \"fork out\"]",
+    "antonyms": "[\"take\", \"starve\"]",
+    "relatedWords": "{\"en\": [\"chip in\", \"afford\", \"gift\", \"contribute\", \"yield\"], \"ar\": [\"تضع\", \"تلِد\", \"ليُونة\", \"مرونة\", \"منح\", \"أعطى\"]}",
+    "arabicAr": "يعطي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 160,
+    "wordEn": "just",
+    "pos": "adj",
+    "cefrLevel": "C1",
+    "fromOxford": 1,
+    "rank": 160,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "d͡ʒʌst",
+    "phoneticAr": "دجاست",
+    "translit": "faqat / mjrd",
+    "definitionEn": "[\"based on or behaving according to what is morally right and fair.\", \"very recently; in the immediate past.\", \"barely; by a little.\"]",
+    "usageNote": "Used to reduce the force of an imperative; simply.",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"she's just coming\", \"we were just finishing breakfast\", \"a just and democratic society\", \"fighting for a just cause\", \"I've just seen the local paper\", \"they're just great\", \"we all get our just deserts\", \"I got here just after nine\", \"The fastball just missed my head\"]}",
+    "collocations": "[\"just fine\", \"The fastball just missed my head\", \"saint just\", \"just man\"]",
+    "synonyms": "[\"fair\", \"good\", \"square\", \"upright\", \"equitable\"]",
+    "antonyms": "[\"unjust\", \"inequitable\", \"unfair\"]",
+    "relatedWords": "{\"en\": [\"exactly\", \"precisely\", \"conscionable\", \"rightful\", \"equitable\"], \"ar\": [\"صحيح\", \"مضبوط\", \"دقيق\", \"منصِف\", \"مستقيم\", \"مشروع\"]}",
+    "arabicAr": "فقط / منصف / عادل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 161,
+    "wordEn": "just",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 161,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "d͡ʒʌst",
+    "phoneticAr": "دجاست",
+    "translit": "faqat / mjrd",
+    "definitionEn": "[\"based on or behaving according to what is morally right and fair.\", \"very recently; in the immediate past.\", \"barely; by a little.\"]",
+    "usageNote": "Used to reduce the force of an imperative; simply.",
+    "category": "General / Common",
+    "register": "Formal",
+    "examples": "{\"A1\": [\"she's just coming\", \"we were just finishing breakfast\", \"a just and democratic society\", \"fighting for a just cause\", \"I've just seen the local paper\", \"they're just great\", \"we all get our just deserts\", \"I got here just after nine\", \"The fastball just missed my head\"]}",
+    "collocations": "[\"just fine\", \"The fastball just missed my head\", \"saint just\", \"just man\"]",
+    "synonyms": "[\"fair\", \"good\", \"square\", \"upright\", \"equitable\"]",
+    "antonyms": "[\"unjust\", \"inequitable\", \"unfair\"]",
+    "relatedWords": "{\"en\": [\"exactly\", \"precisely\", \"conscionable\", \"rightful\", \"equitable\"], \"ar\": [\"صحيح\", \"مضبوط\", \"دقيق\", \"منصِف\", \"مستقيم\", \"مشروع\"]}",
+    "arabicAr": "فقط / منصف / عادل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 162,
+    "wordEn": "should",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 162,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ʃʊd",
+    "phoneticUk": "ʃəd",
+    "phoneticAr": "شود",
+    "translit": "yajib / ynbghy",
+    "definitionEn": "[\"indicate obligation, duty, or correctness, typically when criticizing someone's actions.\", \"indicate what is probable.\", \"referring to a possible event or situation.\"]",
+    "usageNote": "Used to issue an instruction (traditionally seen as carrying less force of authority than alternatives such as 'shall' or 'must').",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"he should have been careful\", \"you should have seen Marge's face\", \"you should go back to bed\", \"Let us examine that, shall we\"], \"A2\": [\"the bus should arrive in a few minutes\", \"I should hold out if I were you\"], \"B2\": [\"if I were to obey my first impulse, I should spend my days writing letters\", \"by now students should be able to read with a large degree of independence\", \"I was in this store when who should I see across the street but Toby\"]}",
+    "collocations": "[\"how should\", \"should question\"]",
+    "synonyms": "[\"must\", \"need\", \"ought\", \"supposed\", \"had better\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ought\", \"must\", \"need\", \"had better\", \"supposed\"], \"ar\": [\"وجب\", \"وجب أن أراها\"]}",
+    "arabicAr": "يجب / ينبغي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 163,
+    "wordEn": "these",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 0,
+    "rank": 163,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðiz",
+    "phoneticUk": "ðiːz",
+    "phoneticAr": "ذيز",
+    "translit": "hawula' / hwla''",
+    "definitionEn": "[\"plural form of this.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{}",
+    "collocations": "[\"try these\", \"these words\"]",
+    "synonyms": "[\"are\", \"ces\", \"esc\", \"both\", \"each\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"are\", \"both\", \"ces\", \"each\", \"esc\"], \"ar\": [\"أُولَئِكَ\", \"أُولاءِ\", \"هؤلاء\", \"أولاء\", \"هي\"]}",
+    "arabicAr": "هؤلاء / هذه",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 164,
+    "wordEn": "people",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 164,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈpipl̩",
+    "phoneticUk": "ˈpiːpəl",
+    "phoneticAr": "بيبل",
+    "translit": "alnaas / ''ashkhas",
+    "syllabify": "peo•ple",
+    "definitionEn": "[\"human beings in general or considered collectively.\", \"the men, women, and children of a particular nation, community, or ethnic group.\", \"the supporters or employees of a person in a position of power or authority.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the earthquake killed 30,000 people\", \"my people live in West Virginia\"], \"A2\": [\"he is very much a man of the people\"], \"B1\": [\"I've had my people watching the house for some time now\", \"his economic reforms no longer have the support of the people\", \"it was his intention to people the town with English colonists\"]}",
+    "collocations": "[\"a people apart\", \"an industrious people\", \"the indigenous peoples of Europe\", \"many people\", \"people contact\"]",
+    "synonyms": "[\"mass\", \"folk\", \"masses\", \"citizenry\", \"multitude\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"hoi polloi\", \"citizenry\", \"masses\", \"populate\", \"inhabit\"], \"ar\": [\"أقْرِباء\", \"آل\", \"الخَلْق\", \"الوَرَى\", \"أُمّة\", \"أُنَاس\"]}",
+    "arabicAr": "الناس",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 165,
+    "wordEn": "also",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 165,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈɔːl.səʊ",
+    "phoneticUk": "ˈɔ:lsəʊ",
+    "phoneticAr": "أولساو",
+    "translit": "aydan / ''aydaan",
+    "syllabify": "al•so",
+    "definitionEn": "[]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"dyslexia, also known as word blindness\"], \"A2\": [\"a brilliant linguist, he was also interested in botany\", \"also, a car is very expensive to run\"]}",
+    "collocations": "[\"see also\", \"also rans\"]",
+    "synonyms": "[\"too\", \"besides\", \"likewise\", \"as well\", \"and all\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"besides\", \"as well\", \"too\", \"likewise\", \"additionally\"], \"ar\": [\"أيضاً\", \"كذلك\", \"بِالمِثْل\", \"حَتّى\", \"أيْضاً\", \"أيضا\"]}",
+    "arabicAr": "أيضًا / أيضا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 166,
+    "wordEn": "well",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 166,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛl",
+    "phoneticAr": "وايل",
+    "translit": "hsnan / hasananaan",
+    "definitionEn": "[\"in a good or satisfactory way.\", \"in a thorough manner.\", \"very probably; in all likelihood.\"]",
+    "usageNote": "often doubled or tripled and in a lowering intonation).",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hail fellow, well met\", \"Well lads. How's things\"], \"A2\": [\"the visit had been planned well in advance\", \"they lived well and were generous with their money\", \"tears were beginning to well in her eyes\", \"all is not well in her ideal-looking town\", \"she took it very well, all things considered\"], \"B1\": [\"well, I suppose I could fit you in at 3:45\"], \"B2\": [\"put the flour on a flat surface and make a well to hold the eggs\"]}",
+    "collocations": "[\"Well done steaks\", \"A monument well worth seeing\", \"Well, lads How's things\", \"deep well\", \"well being\"]",
+    "synonyms": "[\"good\", \"swell\", \"wellspring\", \"skillfully\", \"fountainhead\"]",
+    "antonyms": "[\"ill\", \"badly\", \"disadvantageously\"]",
+    "relatedWords": "{\"en\": [\"all right\", \"advantageously\", \"fortunate\", \"good\", \"considerably\"], \"ar\": [\"على علاقة حسنة\", \"حَسَن\", \"جيّد\", \"في حال حسنة\", \"مستحسَن\", \"مُعافَى\"]}",
+    "arabicAr": "حسنًا / حسنا",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 167,
+    "wordEn": "well",
+    "pos": "noun",
+    "cefrLevel": "C1",
+    "fromOxford": 1,
+    "rank": 167,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛl",
+    "phoneticAr": "وايل",
+    "translit": "hsnan / hasananaan",
+    "definitionEn": "[\"in a good or satisfactory way.\", \"in a thorough manner.\", \"very probably; in all likelihood.\"]",
+    "usageNote": "often doubled or tripled and in a lowering intonation).",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hail fellow, well met\", \"Well lads. How's things\"], \"A2\": [\"the visit had been planned well in advance\", \"they lived well and were generous with their money\", \"tears were beginning to well in her eyes\", \"all is not well in her ideal-looking town\", \"she took it very well, all things considered\"], \"B1\": [\"well, I suppose I could fit you in at 3:45\"], \"B2\": [\"put the flour on a flat surface and make a well to hold the eggs\"]}",
+    "collocations": "[\"Well done steaks\", \"A monument well worth seeing\", \"Well, lads How's things\", \"deep well\", \"well being\"]",
+    "synonyms": "[\"good\", \"swell\", \"wellspring\", \"skillfully\", \"fountainhead\"]",
+    "antonyms": "[\"ill\", \"badly\", \"disadvantageously\"]",
+    "relatedWords": "{\"en\": [\"all right\", \"advantageously\", \"fortunate\", \"good\", \"considerably\"], \"ar\": [\"على علاقة حسنة\", \"حَسَن\", \"جيّد\", \"في حال حسنة\", \"مستحسَن\", \"مُعافَى\"]}",
+    "arabicAr": "حسنًا / حسنا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 168,
+    "wordEn": "well",
+    "pos": "excl",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 168,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛl",
+    "phoneticAr": "وايل",
+    "translit": "hsnan / hasananaan",
+    "definitionEn": "[\"in a good or satisfactory way.\", \"in a thorough manner.\", \"very probably; in all likelihood.\"]",
+    "usageNote": "often doubled or tripled and in a lowering intonation).",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hail fellow, well met\", \"Well lads. How's things\"], \"A2\": [\"the visit had been planned well in advance\", \"they lived well and were generous with their money\", \"tears were beginning to well in her eyes\", \"all is not well in her ideal-looking town\", \"she took it very well, all things considered\"], \"B1\": [\"well, I suppose I could fit you in at 3:45\"], \"B2\": [\"put the flour on a flat surface and make a well to hold the eggs\"]}",
+    "collocations": "[\"Well done steaks\", \"A monument well worth seeing\", \"Well, lads How's things\", \"deep well\", \"well being\"]",
+    "synonyms": "[\"good\", \"swell\", \"wellspring\", \"skillfully\", \"fountainhead\"]",
+    "antonyms": "[\"ill\", \"badly\", \"disadvantageously\"]",
+    "relatedWords": "{\"en\": [\"all right\", \"advantageously\", \"fortunate\", \"good\", \"considerably\"], \"ar\": [\"على علاقة حسنة\", \"حَسَن\", \"جيّد\", \"في حال حسنة\", \"مستحسَن\", \"مُعافَى\"]}",
+    "arabicAr": "حسنًا / حسنا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 169,
+    "wordEn": "well",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 169,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wɛl",
+    "phoneticAr": "وايل",
+    "translit": "hsnan / hasananaan",
+    "definitionEn": "[\"in a good or satisfactory way.\", \"in a thorough manner.\", \"very probably; in all likelihood.\"]",
+    "usageNote": "often doubled or tripled and in a lowering intonation).",
+    "category": "Objects & Tools",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hail fellow, well met\", \"Well lads. How's things\"], \"A2\": [\"the visit had been planned well in advance\", \"they lived well and were generous with their money\", \"tears were beginning to well in her eyes\", \"all is not well in her ideal-looking town\", \"she took it very well, all things considered\"], \"B1\": [\"well, I suppose I could fit you in at 3:45\"], \"B2\": [\"put the flour on a flat surface and make a well to hold the eggs\"]}",
+    "collocations": "[\"Well done steaks\", \"A monument well worth seeing\", \"Well, lads How's things\", \"deep well\", \"well being\"]",
+    "synonyms": "[\"good\", \"swell\", \"wellspring\", \"skillfully\", \"fountainhead\"]",
+    "antonyms": "[\"ill\", \"badly\", \"disadvantageously\"]",
+    "relatedWords": "{\"en\": [\"all right\", \"advantageously\", \"fortunate\", \"good\", \"considerably\"], \"ar\": [\"على علاقة حسنة\", \"حَسَن\", \"جيّد\", \"في حال حسنة\", \"مستحسَن\", \"مُعافَى\"]}",
+    "arabicAr": "حسنًا / حسنا",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 170,
+    "wordEn": "any",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 170,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæni",
+    "phoneticAr": "آني",
+    "translit": "ay / ''aya",
+    "definitionEn": "[\"refer to one or some of a thing or number of things, no matter how much or how many.\", \"express a lack of restriction in selecting one of a specified class.\", \"one or some of a thing or number of things, no matter how much or how many.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it doesn't make any difference\", \"he wasn't any good at basketball\"], \"A2\": [\"you can see images, and not just any images\", \"if there is any left throw it away\", \"you don't know any of my friends\", \"no one would be any the wiser\"], \"B1\": [\"someone asked him for a match, but Joe didn't have any\", \"they are unlikely to be known by name to any but specialists\"]}",
+    "collocations": "[\"fourth any\", \"any number\"]",
+    "synonyms": "[\"some\", \"whatever\", \"whatsoever\", \"a part of\", \"a piece of\"]",
+    "antonyms": "[\"none\"]",
+    "relatedWords": "{\"en\": [\"whatsoever\", \"whatever\", \"some\", \"immoderate\", \"aught\"], \"ar\": [\"أيّ\", \"أيّما\", \"كلّ\", \"إلى أيّ حدّ\", \"أي\", \"كل\"]}",
+    "arabicAr": "أي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 171,
+    "wordEn": "any",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 171,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæni",
+    "phoneticAr": "آني",
+    "translit": "ay / ''aya",
+    "definitionEn": "[\"refer to one or some of a thing or number of things, no matter how much or how many.\", \"express a lack of restriction in selecting one of a specified class.\", \"one or some of a thing or number of things, no matter how much or how many.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it doesn't make any difference\", \"he wasn't any good at basketball\"], \"A2\": [\"you can see images, and not just any images\", \"if there is any left throw it away\", \"you don't know any of my friends\", \"no one would be any the wiser\"], \"B1\": [\"someone asked him for a match, but Joe didn't have any\", \"they are unlikely to be known by name to any but specialists\"]}",
+    "collocations": "[\"fourth any\", \"any number\"]",
+    "synonyms": "[\"some\", \"whatever\", \"whatsoever\", \"a part of\", \"a piece of\"]",
+    "antonyms": "[\"none\"]",
+    "relatedWords": "{\"en\": [\"whatsoever\", \"whatever\", \"some\", \"immoderate\", \"aught\"], \"ar\": [\"أيّ\", \"أيّما\", \"كلّ\", \"إلى أيّ حدّ\", \"أي\", \"كل\"]}",
+    "arabicAr": "أي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 172,
+    "wordEn": "any",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 172,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæni",
+    "phoneticAr": "آني",
+    "translit": "ay / ''aya",
+    "definitionEn": "[\"refer to one or some of a thing or number of things, no matter how much or how many.\", \"express a lack of restriction in selecting one of a specified class.\", \"one or some of a thing or number of things, no matter how much or how many.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it doesn't make any difference\", \"he wasn't any good at basketball\"], \"A2\": [\"you can see images, and not just any images\", \"if there is any left throw it away\", \"you don't know any of my friends\", \"no one would be any the wiser\"], \"B1\": [\"someone asked him for a match, but Joe didn't have any\", \"they are unlikely to be known by name to any but specialists\"]}",
+    "collocations": "[\"fourth any\", \"any number\"]",
+    "synonyms": "[\"some\", \"whatever\", \"whatsoever\", \"a part of\", \"a piece of\"]",
+    "antonyms": "[\"none\"]",
+    "relatedWords": "{\"en\": [\"whatsoever\", \"whatever\", \"some\", \"immoderate\", \"aught\"], \"ar\": [\"أيّ\", \"أيّما\", \"كلّ\", \"إلى أيّ حدّ\", \"أي\", \"كل\"]}",
+    "arabicAr": "أي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 173,
+    "wordEn": "any",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 173,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæni",
+    "phoneticAr": "آني",
+    "translit": "ay / ''aya",
+    "definitionEn": "[\"refer to one or some of a thing or number of things, no matter how much or how many.\", \"express a lack of restriction in selecting one of a specified class.\", \"one or some of a thing or number of things, no matter how much or how many.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"it doesn't make any difference\", \"he wasn't any good at basketball\"], \"A2\": [\"you can see images, and not just any images\", \"if there is any left throw it away\", \"you don't know any of my friends\", \"no one would be any the wiser\"], \"B1\": [\"someone asked him for a match, but Joe didn't have any\", \"they are unlikely to be known by name to any but specialists\"]}",
+    "collocations": "[\"fourth any\", \"any number\"]",
+    "synonyms": "[\"some\", \"whatever\", \"whatsoever\", \"a part of\", \"a piece of\"]",
+    "antonyms": "[\"none\"]",
+    "relatedWords": "{\"en\": [\"whatsoever\", \"whatever\", \"some\", \"immoderate\", \"aught\"], \"ar\": [\"أيّ\", \"أيّما\", \"كلّ\", \"إلى أيّ حدّ\", \"أي\", \"كل\"]}",
+    "arabicAr": "أي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 174,
+    "wordEn": "only",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 174,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈəʊn.li",
+    "phoneticUk": "ˈəʊnlɪ",
+    "phoneticAr": "اونلي",
+    "translit": "faqat",
+    "syllabify": "on•ly",
+    "definitionEn": "[\"and no one or nothing more besides; solely or exclusively.\", \"with the negative or unfortunate result that.\", \"alone of its or their kind; single or solitary.\"]",
+    "usageNote": "Used to express surprise or consternation at an action.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was an only child\", \"only their faith sustained them\"], \"A2\": [\"the only medal we had ever won\", \"genes that were discovered only last year\", \"there are only a limited number of tickets available\", \"a final report reached him only on January 15\"], \"B1\": [\"she turned into the parking car, only to find her way blocked\", \"it's simply the only place to be seen these days\"]}",
+    "collocations": "[\"Sure you're only gorgeous\", \"renewals only\", \"only way\"]",
+    "synonyms": "[\"lone\", \"sole\", \"lonesome\", \"solitary\", \"at most\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"alone\", \"solely\", \"lone\", \"single\", \"lonesome\"], \"ar\": [\"وحيد\", \"فقط\", \"فحسب\", \"لكن\", \"الوحيد\", \"ليس فقط\"]}",
+    "arabicAr": "فقط",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 175,
+    "wordEn": "only",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 175,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈəʊn.li",
+    "phoneticUk": "ˈəʊnlɪ",
+    "phoneticAr": "اونلي",
+    "translit": "faqat",
+    "syllabify": "on•ly",
+    "definitionEn": "[\"and no one or nothing more besides; solely or exclusively.\", \"with the negative or unfortunate result that.\", \"alone of its or their kind; single or solitary.\"]",
+    "usageNote": "Used to express surprise or consternation at an action.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"he was an only child\", \"only their faith sustained them\"], \"A2\": [\"the only medal we had ever won\", \"genes that were discovered only last year\", \"there are only a limited number of tickets available\", \"a final report reached him only on January 15\"], \"B1\": [\"she turned into the parking car, only to find her way blocked\", \"it's simply the only place to be seen these days\"]}",
+    "collocations": "[\"Sure you're only gorgeous\", \"renewals only\", \"only way\"]",
+    "synonyms": "[\"lone\", \"sole\", \"lonesome\", \"solitary\", \"at most\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"alone\", \"solely\", \"lone\", \"single\", \"lonesome\"], \"ar\": [\"وحيد\", \"فقط\", \"فحسب\", \"لكن\", \"الوحيد\", \"ليس فقط\"]}",
+    "arabicAr": "فقط",
+    "addedFromOxford": 1
+  }
+]

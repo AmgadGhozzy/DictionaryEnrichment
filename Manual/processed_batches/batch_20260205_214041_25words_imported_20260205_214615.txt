@@ -1,0 +1,714 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 296,
+    "wordEn": "group",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 296,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ɡɹuːp",
+    "phoneticUk": "ɡru:p",
+    "phoneticAr": "جروب",
+    "translit": "majmuea",
+    "definitionEn": "[\"a number of people or things that are located close together or are considered or classed together.\", \"put together or place in a group or groups.\", \"A cluster, crowd, or throng\"]",
+    "usageNote": "usually small",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"group the dogs by hair colour\"], \"A2\": [\"we group them into species merely as a convenience\", \"I now belong to my local drama group\", \"many growers began to group together to form cooperatives\"]}",
+    "collocations": "[\"group the dogs by hair colour\", \"small group\", \"group members\"]",
+    "synonyms": "[\"radical\", \"grouping\", \"category\", \"chemical group\", \"mathematical group\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"aggroup\", \"common\", \"communal\", \"radical\", \"mathematical group\"], \"ar\": [\"أُبَاشَة\", \"باب\", \"تَجَمّع\", \"ثُلّة\", \"جِسْم\", \"جَمَاعِيّ\"]}",
+    "arabicAr": "مجموعة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 297,
+    "wordEn": "number",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 297,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈnʌmbə",
+    "phoneticUk": "ˈnʌmbɚ",
+    "phoneticAr": "نامبا",
+    "translit": "raqm",
+    "syllabify": "num•ber",
+    "definitionEn": "[\"an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity and used in counting and making calculations and for showing order in a series or for identification.\", \"a distinction of word form denoting reference to one person or thing or to more than one.\", \"amount to ; comprise.\"]",
+    "usageNote": "used to describe quantity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"an even number\", \"she dialed the number carefully\", \"the latest number of a magazine\"], \"A2\": [\"there were some distinguished names among our number\"], \"B1\": [\"the form of English pronouns reflects their number and gender\", \"we have discussed the matter on a number of occasions\", \"the company is seeking to increase the number of women on its staff\"]}",
+    "collocations": "[\"the latest number of a magazine\", \"large number\", \"number one\"]",
+    "synonyms": "[\"act\", \"turn\", \"figure\", \"cipher\", \"routine\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"enumerate\", \"count\", \"total\", \"add up\", \"numeral\"], \"ar\": [\"حَجْم\", \"حَدّ\", \"دَرَجَة\", \"قَدْر\", \"كَمّيّة\", \"مِقْدار\"]}",
+    "arabicAr": "رقم / عدد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 298,
+    "wordEn": "number",
+    "pos": "verb",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 298,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈnʌmbə",
+    "phoneticUk": "ˈnʌmbɚ",
+    "phoneticAr": "نامبا",
+    "translit": "raqm",
+    "syllabify": "num•ber",
+    "definitionEn": "[\"an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity and used in counting and making calculations and for showing order in a series or for identification.\", \"a distinction of word form denoting reference to one person or thing or to more than one.\", \"amount to ; comprise.\"]",
+    "usageNote": "used to describe quantity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"an even number\", \"she dialed the number carefully\", \"the latest number of a magazine\"], \"A2\": [\"there were some distinguished names among our number\"], \"B1\": [\"the form of English pronouns reflects their number and gender\", \"we have discussed the matter on a number of occasions\", \"the company is seeking to increase the number of women on its staff\"]}",
+    "collocations": "[\"the latest number of a magazine\", \"large number\", \"number one\"]",
+    "synonyms": "[\"act\", \"turn\", \"figure\", \"cipher\", \"routine\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"enumerate\", \"count\", \"total\", \"add up\", \"numeral\"], \"ar\": [\"حَجْم\", \"حَدّ\", \"دَرَجَة\", \"قَدْر\", \"كَمّيّة\", \"مِقْدار\"]}",
+    "arabicAr": "رقم / عدد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 299,
+    "wordEn": "yes",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 299,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "jɛs",
+    "phoneticUk": "jes",
+    "phoneticAr": "يايس",
+    "translit": "naeam / nem",
+    "definitionEn": "[\"give an affirmative response.\", \"used as a response to someone addressing one or otherwise trying to attract one's attention.\", \"question a remark or ask for more detail about it.\"]",
+    "usageNote": "Used to show agreement or acceptance.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Did he yes the veto\"], \"A2\": [\"“It should be easy to check.” “Oh yes? How?”\", \"you think I perhaps killed Westbourne, yes?\"]}",
+    "collocations": "[\"Did he yes the veto\", \"answer yes\", \"yes vote\"]",
+    "synonyms": "[\"aye\", \"yea\", \"alright\", \"all right\", \"very well\"]",
+    "antonyms": "[\"nay\"]",
+    "relatedWords": "{\"en\": [\"yup\", \"yep\", \"yea\", \"affirmative\", \"affirmation\"], \"ar\": [\"نعم\", \"بلى\", \"أَجَلْ\", \"بَلَى\", \"نَعَمْ\", \"أجل\"]}",
+    "arabicAr": "نعم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 300,
+    "wordEn": "yes",
+    "pos": "excl",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 300,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "jɛs",
+    "phoneticUk": "jes",
+    "phoneticAr": "يايس",
+    "translit": "naeam / nem",
+    "definitionEn": "[\"give an affirmative response.\", \"used as a response to someone addressing one or otherwise trying to attract one's attention.\", \"question a remark or ask for more detail about it.\"]",
+    "usageNote": "Used to show agreement or acceptance.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"Did he yes the veto\"], \"A2\": [\"“It should be easy to check.” “Oh yes? How?”\", \"you think I perhaps killed Westbourne, yes?\"]}",
+    "collocations": "[\"Did he yes the veto\", \"answer yes\", \"yes vote\"]",
+    "synonyms": "[\"aye\", \"yea\", \"alright\", \"all right\", \"very well\"]",
+    "antonyms": "[\"nay\"]",
+    "relatedWords": "{\"en\": [\"yup\", \"yep\", \"yea\", \"affirmative\", \"affirmation\"], \"ar\": [\"نعم\", \"بلى\", \"أَجَلْ\", \"بَلَى\", \"نَعَمْ\", \"أجل\"]}",
+    "arabicAr": "نعم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 301,
+    "wordEn": "however",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 301,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "hɑʊˈɛvə",
+    "phoneticUk": "haʊˈevə",
+    "phoneticAr": "هآوايفا",
+    "translit": "lakin / wamae dhlk",
+    "syllabify": "how•ev•er",
+    "definitionEn": "[\"introduce a statement that contrasts with or seems to contradict something that has been said previously.\", \"in whatever way; regardless of how.\", \"In whetever manner, way, or degree.\"]",
+    "usageNote": "used to ask in what manner.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A2\": [\"however you look at it, you can't criticize that\", \"he was hesitant to take the risk, however small\"]}",
+    "collocations": "[]",
+    "synonyms": "[\"yet\", \"still\", \"withal\", \"nevertheless\", \"still and all\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"nevertheless\", \"nonetheless\", \"notwithstanding\", \"even so\", \"withal\"], \"ar\": [\"مهما\", \"ومع ذلك\", \"من ناحية ثانية\", \"ولكن\", \"أمّا\", \"إنّما\"]}",
+    "arabicAr": "لكن / ومع ذلك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 302,
+    "wordEn": "another",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 302,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "æˈnʌð.ə(ɹ)",
+    "phoneticUk": "əˈnʌð.ə(ɹ)",
+    "phoneticAr": "آناذا",
+    "translit": "akhar",
+    "syllabify": "an•oth•er",
+    "definitionEn": "[\"refer to an additional person or thing of the same type as one already mentioned or known about; one more; a further.\", \"refer to a different person or thing from one already mentioned or known about.\", \"an additional person or thing of the same type as one already mentioned or known about.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this will not be another Vietnam\"], \"A2\": [\"they kept moving from one place to another\", \"they said she was another Jennifer Aniston\", \"170 miles done, only another 100 to go\"], \"B1\": [\"they have two sessions, one in the morning and another in the afternoon\", \"the British poet Philip Larkin is another of his favorite writers\", \"he may be fit for one type of work but not another\"], \"B2\": [\"I went to the window and saw one cat being chased by another cat\"]}",
+    "collocations": "[\"one another\", \"another voice\"]",
+    "synonyms": "[\"one more\", \"a second\", \"a further\", \"some other\", \"an additional\"]",
+    "antonyms": "[\"the same\"]",
+    "relatedWords": "{\"en\": [\"added\", \"additional\", \"different\", \"other\", \"some other\"], \"ar\": [\"غَيْر\", \"آخَر\", \"ثانٍ\", \"آخر\", \"ثان\", \"ثم\"]}",
+    "arabicAr": "آخر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 303,
+    "wordEn": "another",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 303,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "æˈnʌð.ə(ɹ)",
+    "phoneticUk": "əˈnʌð.ə(ɹ)",
+    "phoneticAr": "آناذا",
+    "translit": "akhar",
+    "syllabify": "an•oth•er",
+    "definitionEn": "[\"refer to an additional person or thing of the same type as one already mentioned or known about; one more; a further.\", \"refer to a different person or thing from one already mentioned or known about.\", \"an additional person or thing of the same type as one already mentioned or known about.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this will not be another Vietnam\"], \"A2\": [\"they kept moving from one place to another\", \"they said she was another Jennifer Aniston\", \"170 miles done, only another 100 to go\"], \"B1\": [\"they have two sessions, one in the morning and another in the afternoon\", \"the British poet Philip Larkin is another of his favorite writers\", \"he may be fit for one type of work but not another\"], \"B2\": [\"I went to the window and saw one cat being chased by another cat\"]}",
+    "collocations": "[\"one another\", \"another voice\"]",
+    "synonyms": "[\"one more\", \"a second\", \"a further\", \"some other\", \"an additional\"]",
+    "antonyms": "[\"the same\"]",
+    "relatedWords": "{\"en\": [\"added\", \"additional\", \"different\", \"other\", \"some other\"], \"ar\": [\"غَيْر\", \"آخَر\", \"ثانٍ\", \"آخر\", \"ثان\", \"ثم\"]}",
+    "arabicAr": "آخر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 304,
+    "wordEn": "another",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 304,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "æˈnʌð.ə(ɹ)",
+    "phoneticUk": "əˈnʌð.ə(ɹ)",
+    "phoneticAr": "آناذا",
+    "translit": "akhar",
+    "syllabify": "an•oth•er",
+    "definitionEn": "[\"refer to an additional person or thing of the same type as one already mentioned or known about; one more; a further.\", \"refer to a different person or thing from one already mentioned or known about.\", \"an additional person or thing of the same type as one already mentioned or known about.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"this will not be another Vietnam\"], \"A2\": [\"they kept moving from one place to another\", \"they said she was another Jennifer Aniston\", \"170 miles done, only another 100 to go\"], \"B1\": [\"they have two sessions, one in the morning and another in the afternoon\", \"the British poet Philip Larkin is another of his favorite writers\", \"he may be fit for one type of work but not another\"], \"B2\": [\"I went to the window and saw one cat being chased by another cat\"]}",
+    "collocations": "[\"one another\", \"another voice\"]",
+    "synonyms": "[\"one more\", \"a second\", \"a further\", \"some other\", \"an additional\"]",
+    "antonyms": "[\"the same\"]",
+    "relatedWords": "{\"en\": [\"added\", \"additional\", \"different\", \"other\", \"some other\"], \"ar\": [\"غَيْر\", \"آخَر\", \"ثانٍ\", \"آخر\", \"ثان\", \"ثم\"]}",
+    "arabicAr": "آخر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 305,
+    "wordEn": "again",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 305,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "əˈɡɛn",
+    "phoneticUk": "əˈɡeɪn",
+    "phoneticAr": "اجاين",
+    "translit": "maratan 'ukhraa / maratan ''ukhraa",
+    "definitionEn": "[\"another time; once more.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what was your name again?\", \"they were disappointed yet again\", \"Great, thanks again\"], \"A2\": [\"it was great to meet old friends again\", \"he rose, tidied the bed, and sat down again\"], \"B1\": [\"the wages were low but they made half as much again in tips\", \"I never saw any signs, but then again, maybe I wasn't looking\"]}",
+    "collocations": "[\"Great, thanks again\", \"What's that called again\", \"born again\", \"again christian\"]",
+    "synonyms": "[\"once more\", \"once again\", \"over again\", \"another time\", \"one more time\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"once again\", \"once more\", \"over again\", \"repeatedly\", \"reiterate\"], \"ar\": [\"ثانيةً\", \"من جديد\", \"ثانِياً\", \"مُجَدّداً\", \"أحيانًا\", \"تكرارًا\"]}",
+    "arabicAr": "مرة أخرى",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 306,
+    "wordEn": "world",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 306,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "wɝld",
+    "phoneticUk": "wɵːld",
+    "phoneticAr": "ويرلد",
+    "translit": "ealam / alealamia",
+    "definitionEn": "[\"the earth, together with all of its countries, peoples, and natural features.\", \"a region or group of countries.\", \"human and social interaction.\"]",
+    "category": "Objects & Tools",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"a world superstar\", \"the English-speaking world\", \"the whole world hates a Monday\", \"world affairs\", \"the ancient world\"], \"A2\": [\"he has almost completely withdrawn from the world\"], \"B1\": [\"they had been brought up to regard France as a world power\", \"they were a legend in the world of British theater\"]}",
+    "collocations": "[\"the New World\", \"the world of Narnia\", \"the Wizarding World of Harry Potter\", \"a zombie world\", \"whole world\"]",
+    "synonyms": "[\"earth\", \"cosmos\", \"universe\", \"creation\", \"existence\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"nature\", \"existence\", \"reality\", \"macrocosm\", \"creation\"], \"ar\": [\"أُنَاس\", \"انْس\", \"بَشَر\", \"كَوْن\", \"ناس\", \"دُنْيا\"]}",
+    "arabicAr": "عالم / العالم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 307,
+    "wordEn": "area",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 307,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈɛə̯ɹɪə̯",
+    "phoneticUk": "ˈeərɪə",
+    "phoneticAr": "ايارير",
+    "translit": "mintiqa / mintaqa",
+    "definitionEn": "[\"a region or part of a town, a country, or the world.\", \"the extent or measurement of a surface or piece of land.\", \"a subject or range of activity or interest.\"]",
+    "category": "Travel & Movement",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the dining area\", \"the area of a triangle\"], \"A2\": [\"people living in the area are at risk\", \"a bicycle padlocked to the area railing\", \"the room is twelve square feet in area\"]}",
+    "collocations": "[\"total area\", \"area networks\"]",
+    "synonyms": "[\"region\", \"sphere\", \"domain\", \"country\", \"neck of the woods\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"orbit\", \"surface area\", \"sphere\", \"country\", \"expanse\"], \"ar\": [\"أرْض\", \"إقْلِيم\", \"بُقْعَة\", \"بَلَد\", \"جانِب\", \"جَنْبَة\"]}",
+    "arabicAr": "منطقة / المنطقة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 308,
+    "wordEn": "show",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 308,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ʃoʊ",
+    "phoneticUk": "ʃəʊ",
+    "phoneticAr": "شاو",
+    "translit": "yuerid / tubayin",
+    "definitionEn": "[\"allow or cause to be visible.\", \"display or allow to be perceived .\", \"demonstrate or prove.\"]",
+    "usageNote": "Usually seen in the phrases \"all show\" and \"for show\".",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"show them in, please\", \"art show dog show\", \"radio show television show\", \"show of force\"], \"A2\": [\"a white blouse will show the blood\", \"Drew made a show of looking around for firewood\", \"Joanie was frightened of any show of affection\"], \"B1\": [\"he was amazed that she would have the gall to show herself\", \"Shirley was four months pregnant and just starting to show\", \"the whole nation is waiting for him to show leadership\", \"the figures show that the underlying rate of inflation continues to fall\"]}",
+    "collocations": "[\"to show mercy to show favour\", \"show me the salt please\", \"art show dog show\", \"radio show television show\", \"show of force\"]",
+    "synonyms": "[\"demo\", \"display\", \"exhibit\", \"appearance\", \"be visible\"]",
+    "antonyms": "[\"disprove\", \"hide\"]",
+    "relatedWords": "{\"en\": [\"evince\", \"exhibit\", \"display\", \"demonstrate\", \"appearance\"], \"ar\": [\"إدّعَاء\", \"انْكِشاف\", \"تَظَاهُر\", \"حَفْلَة\", \"فُرْجَة\", \"مَسْرَحِيّة\"]}",
+    "arabicAr": "يعرض / يظهر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 309,
+    "wordEn": "show",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 309,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ʃoʊ",
+    "phoneticUk": "ʃəʊ",
+    "phoneticAr": "شاو",
+    "translit": "yuerid / tubayin",
+    "definitionEn": "[\"allow or cause to be visible.\", \"display or allow to be perceived .\", \"demonstrate or prove.\"]",
+    "usageNote": "Usually seen in the phrases \"all show\" and \"for show\".",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"show them in, please\", \"art show dog show\", \"radio show television show\", \"show of force\"], \"A2\": [\"a white blouse will show the blood\", \"Drew made a show of looking around for firewood\", \"Joanie was frightened of any show of affection\"], \"B1\": [\"he was amazed that she would have the gall to show herself\", \"Shirley was four months pregnant and just starting to show\", \"the whole nation is waiting for him to show leadership\", \"the figures show that the underlying rate of inflation continues to fall\"]}",
+    "collocations": "[\"to show mercy to show favour\", \"show me the salt please\", \"art show dog show\", \"radio show television show\", \"show of force\"]",
+    "synonyms": "[\"demo\", \"display\", \"exhibit\", \"appearance\", \"be visible\"]",
+    "antonyms": "[\"disprove\", \"hide\"]",
+    "relatedWords": "{\"en\": [\"evince\", \"exhibit\", \"display\", \"demonstrate\", \"appearance\"], \"ar\": [\"إدّعَاء\", \"انْكِشاف\", \"تَظَاهُر\", \"حَفْلَة\", \"فُرْجَة\", \"مَسْرَحِيّة\"]}",
+    "arabicAr": "يعرض / يظهر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 310,
+    "wordEn": "course",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 310,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kɔːs",
+    "phoneticUk": "kɔ:s",
+    "phoneticAr": "كأوس",
+    "translit": "dawra",
+    "definitionEn": "[\"the route or direction followed by a ship, aircraft, road, or river.\", \"a dish, or a set of dishes served together, forming one of the successive parts of a meal.\", \"an area of land set aside and prepared for racing, golf, or another sport.\"]",
+    "usageNote": "often named according to the mast.",
+    "category": "Actions & Processes",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a business studies course\", \"the course of history\", \"to course greyhounds after deer\"], \"A2\": [\"she would course for hares with her greyhounds\", \"guests are offered a choice of main course\", \"the doctor prescribed a course of antibiotics\", \"the road adopts a tortuous course along the coast\"], \"B1\": [\"the new fleet changed course to join the other ships\"], \"B2\": [\"my decision had seemed to be the wisest course open to me at the time\"]}",
+    "collocations": "[\"to course greyhounds after deer\", \"due course\", \"course dinner\"]",
+    "synonyms": "[\"line\", \"class\", \"route\", \"course of study\", \"course of instruction\"]",
+    "antonyms": "[\"unnaturally\"]",
+    "relatedWords": "{\"en\": [\"of course\", \"naturally\", \"trend\", \"class\", \"row\"], \"ar\": [\"إتّجاه\", \"تَقَدّم\", \"تَيّار\", \"جِهَة\", \"حَلْبَة\", \"دَرْب\"]}",
+    "arabicAr": "دورة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 311,
+    "wordEn": "company",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 311,
+    "frequency": 3,
+    "difficultyScore": 5,
+    "phoneticUs": "ˈkʌmpəni",
+    "phoneticUk": "ˈkʌmp(ə)ni",
+    "phoneticAr": "كامباني",
+    "translit": "sharika",
+    "syllabify": "com•pa•ny",
+    "definitionEn": "[\"a commercial business.\", \"the fact or condition of being with another or others, especially in a way that provides friendship and enjoyment.\", \"a number of individuals gathered together, especially for a particular purpose.\"]",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I'm expecting company\", \"a company director\", \"a shipping company\", \"she is excellent company\", \"a touring opera company\", \"the Mayor addressed the assembled company\", \"I could do with some company\"], \"A2\": [\"he was silent among such distinguished company\"]}",
+    "collocations": "[\"a company of actors\", \"the boys in Company C\", \"a financial services company\", \"looks like we've got company\", \"new company\"]",
+    "synonyms": "[\"troupe\", \"outfit\", \"society\", \"fellowship\", \"companionship\"]",
+    "antonyms": "[\"individual\", \"isolation\"]",
+    "relatedWords": "{\"en\": [\"society\", \"accompany\", \"fellowship\", \"comradeship\", \"keep company\"], \"ar\": [\"أُبَاشَة\", \"أصْدِقاء\", \"تَجَمّع\", \"جَوْقَة\", \"حِزْب\", \"خِلْطَة\"]}",
+    "arabicAr": "شركة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 312,
+    "wordEn": "shall",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 312,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈʃæl",
+    "phoneticUk": "ʃ(ə)",
+    "phoneticAr": "شآل",
+    "translit": "sawf / yjb",
+    "definitionEn": "[\"expressing the future tense.\", \"expressing a strong assertion or intention.\", \"expressing an instruction or command.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"shall I send you the book?\", \"they shall succeed\", \"shall we go?\", \"you shall not steal\", \"Let us examine that, shall we\"], \"A2\": [\"this time next week I shall be in Scotland\", \"you shall not frighten me out of this\"]}",
+    "collocations": "[\"Shall we go out later\", \"divine shall\", \"shall forms\"]",
+    "synonyms": "[\"will\", \"fact\", \"ought\", \"supposed\", \"rationale\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"will\", \"rationale\", \"supposed\", \"fact\", \"ought\"], \"ar\": [\"سَوْف\", \"هل\", \"سَـ.\", \"سوف\"]}",
+    "arabicAr": "سوف",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 313,
+    "wordEn": "shall",
+    "pos": "modal",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 313,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈʃæl",
+    "phoneticUk": "ʃ(ə)",
+    "phoneticAr": "شآل",
+    "translit": "sawf / yjb",
+    "definitionEn": "[\"expressing the future tense.\", \"expressing a strong assertion or intention.\", \"expressing an instruction or command.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"shall I send you the book?\", \"they shall succeed\", \"shall we go?\", \"you shall not steal\", \"Let us examine that, shall we\"], \"A2\": [\"this time next week I shall be in Scotland\", \"you shall not frighten me out of this\"]}",
+    "collocations": "[\"Shall we go out later\", \"divine shall\", \"shall forms\"]",
+    "synonyms": "[\"will\", \"fact\", \"ought\", \"supposed\", \"rationale\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"will\", \"rationale\", \"supposed\", \"fact\", \"ought\"], \"ar\": [\"سَوْف\", \"هل\", \"سَـ.\", \"سوف\"]}",
+    "arabicAr": "سوف",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 314,
+    "wordEn": "under",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 314,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈʊndə",
+    "phoneticUk": "ˈʌndə(ɹ)",
+    "phoneticAr": "وندا",
+    "translit": "taht",
+    "syllabify": "un•der",
+    "definitionEn": "[\"extending or directly below.\", \"at a lower level than.\", \"controlled, managed, or governed by.\"]",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"fields under wheat\", \"published under his own name\", \"certain institutions may be under threat\", \"they averaged just under 2.8 percent\", \"under construction\"], \"A2\": [\"flowers supplied under contract by a local florist\"], \"B1\": [\"it was written on the new canvas under a gluey coating\", \"he had a deep sense of fun under his quiet exterior\"]}",
+    "collocations": "[\"pulled under by the currents\", \"weighed under by worry\", \"underbelly, underside, undershirt, undersecretary\", \"little under\", \"under employment\"]",
+    "synonyms": "[\"below\", \"nether\", \"beneath\", \"underneath\", \"at the foot/bottom of\"]",
+    "antonyms": "[\"above\", \"over\"]",
+    "relatedWords": "{\"en\": [\"below\", \"nether\", \"subordinate\", \"low-level\", \"low\"], \"ar\": [\"سفليّ\", \"ثانٍ\", \"ثانويّ\", \"أقلّ من المألوف أو المطلوب\", \"تحت\", \"تحت سطح الماء\"]}",
+    "arabicAr": "تحت",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 315,
+    "wordEn": "under",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 315,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈʊndə",
+    "phoneticUk": "ˈʌndə(ɹ)",
+    "phoneticAr": "وندا",
+    "translit": "taht",
+    "syllabify": "un•der",
+    "definitionEn": "[\"extending or directly below.\", \"at a lower level than.\", \"controlled, managed, or governed by.\"]",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"fields under wheat\", \"published under his own name\", \"certain institutions may be under threat\", \"they averaged just under 2.8 percent\", \"under construction\"], \"A2\": [\"flowers supplied under contract by a local florist\"], \"B1\": [\"it was written on the new canvas under a gluey coating\", \"he had a deep sense of fun under his quiet exterior\"]}",
+    "collocations": "[\"pulled under by the currents\", \"weighed under by worry\", \"underbelly, underside, undershirt, undersecretary\", \"little under\", \"under employment\"]",
+    "synonyms": "[\"below\", \"nether\", \"beneath\", \"underneath\", \"at the foot/bottom of\"]",
+    "antonyms": "[\"above\", \"over\"]",
+    "relatedWords": "{\"en\": [\"below\", \"nether\", \"subordinate\", \"low-level\", \"low\"], \"ar\": [\"سفليّ\", \"ثانٍ\", \"ثانويّ\", \"أقلّ من المألوف أو المطلوب\", \"تحت\", \"تحت سطح الماء\"]}",
+    "arabicAr": "تحت",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 316,
+    "wordEn": "under",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 316,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈʊndə",
+    "phoneticUk": "ˈʌndə(ɹ)",
+    "phoneticAr": "وندا",
+    "translit": "taht",
+    "syllabify": "un•der",
+    "definitionEn": "[\"extending or directly below.\", \"at a lower level than.\", \"controlled, managed, or governed by.\"]",
+    "category": "General / Common",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"fields under wheat\", \"published under his own name\", \"certain institutions may be under threat\", \"they averaged just under 2.8 percent\", \"under construction\"], \"A2\": [\"flowers supplied under contract by a local florist\"], \"B1\": [\"it was written on the new canvas under a gluey coating\", \"he had a deep sense of fun under his quiet exterior\"]}",
+    "collocations": "[\"pulled under by the currents\", \"weighed under by worry\", \"underbelly, underside, undershirt, undersecretary\", \"little under\", \"under employment\"]",
+    "synonyms": "[\"below\", \"nether\", \"beneath\", \"underneath\", \"at the foot/bottom of\"]",
+    "antonyms": "[\"above\", \"over\"]",
+    "relatedWords": "{\"en\": [\"below\", \"nether\", \"subordinate\", \"low-level\", \"low\"], \"ar\": [\"سفليّ\", \"ثانٍ\", \"ثانويّ\", \"أقلّ من المألوف أو المطلوب\", \"تحت\", \"تحت سطح الماء\"]}",
+    "arabicAr": "تحت",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 317,
+    "wordEn": "problem",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 317,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈpɹɒbləm",
+    "phoneticUk": "ˈprɒbləm",
+    "phoneticAr": "برأبلام",
+    "translit": "mushkila",
+    "syllabify": "prob•lem",
+    "definitionEn": "[\"a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.\", \"an inquiry starting from given conditions to investigate or demonstrate a fact, result, or law.\", \"or relating to people whose behavior causes difficulties to themselves and others.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"a problem family\", \"the problem of ageism in Hollywood\", \"a helpline for problem gamblers\"], \"A2\": [\"motivation of staff can also be a problem\", \"alcohol restrictions are not reducing problem drinking\"], \"B1\": [\"practitioners help families develop strategies for managing problem behavior in teens\"], \"B2\": [\"friends and family of problem drinkers often live every day with uncertainty, deceit, and emotional and physical abuse\"]}",
+    "collocations": "[\"major problem\", \"problem solving\"]",
+    "synonyms": "[\"job\", \"prob\", \"trouble\", \"dilemma\", \"headache\"]",
+    "antonyms": "[\"solution\"]",
+    "relatedWords": "{\"en\": [\"trouble\", \"job\", \"problematic\", \"difficulty\", \"difficulties\"], \"ar\": [\"إشْكال\", \"أمْر\", \"شَأن\", \"عُقْدَة\", \"قَضِيّة\", \"لُغْز\"]}",
+    "arabicAr": "مشكلة / المشكلة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 318,
+    "wordEn": "against",
+    "pos": "noun",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 318,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "əˈɡeɪnst",
+    "phoneticUk": "əˈɡɛ(ɪ)nst",
+    "phoneticAr": "اجاينست",
+    "translit": "dida",
+    "definitionEn": "[\"in anticipation of and preparation for .\", \"in or into physical contact with , so as to be supported by or collide with it.\", \"in conceptual contrast to.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the odds were 5–1 against Pittsburgh\", \"swimming against the tide\"], \"A2\": [\"he was silhouetted against the light of the window\", \"the first victim gave evidence against him\", \"the benefits must be weighed against the costs\", \"money was advanced against the value of the property\", \"she stood with her back against the door\"], \"B1\": [\"the instilling of habits as against the development of understanding\"]}",
+    "collocations": "[\"crime against\", \"against the\"]",
+    "synonyms": "[\"con\", \"anti\", \"agin\", \"opposed to\", \"in opposition to\"]",
+    "antonyms": "[\"for\"]",
+    "relatedWords": "{\"en\": [\"about\", \"according\", \"address\", \"ago\", \"ahead\"], \"ar\": [\"بَدَل\", \"خَصْم\", \"رَغْم\", \"عاصٍ\", \"مُخَالِف\", \"مُخَالِف لِ\"]}",
+    "arabicAr": "ضد / مقابل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 319,
+    "wordEn": "against",
+    "pos": "prep",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 319,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "əˈɡeɪnst",
+    "phoneticUk": "əˈɡɛ(ɪ)nst",
+    "phoneticAr": "اجاينست",
+    "translit": "dida",
+    "definitionEn": "[\"in anticipation of and preparation for .\", \"in or into physical contact with , so as to be supported by or collide with it.\", \"in conceptual contrast to.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the odds were 5–1 against Pittsburgh\", \"swimming against the tide\"], \"A2\": [\"he was silhouetted against the light of the window\", \"the first victim gave evidence against him\", \"the benefits must be weighed against the costs\", \"money was advanced against the value of the property\", \"she stood with her back against the door\"], \"B1\": [\"the instilling of habits as against the development of understanding\"]}",
+    "collocations": "[\"crime against\", \"against the\"]",
+    "synonyms": "[\"con\", \"anti\", \"agin\", \"opposed to\", \"in opposition to\"]",
+    "antonyms": "[\"for\"]",
+    "relatedWords": "{\"en\": [\"about\", \"according\", \"address\", \"ago\", \"ahead\"], \"ar\": [\"بَدَل\", \"خَصْم\", \"رَغْم\", \"عاصٍ\", \"مُخَالِف\", \"مُخَالِف لِ\"]}",
+    "arabicAr": "ضد / مقابل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 320,
+    "wordEn": "never",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 320,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈnɛ.vɚ",
+    "phoneticUk": "ˈnɛv.ə(ɹ)",
+    "phoneticAr": "نايفر",
+    "translit": "abdaan / ''abadaan",
+    "syllabify": "nev•er",
+    "definitionEn": "[\"at no time in the past or future; on no occasion; not ever.\"]",
+    "usageNote": "used to negate verbs in the simple past tense; also used absolutely).",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"I will never ever forget it\", \"he never turned up\"], \"A2\": [\"they had never been camping in their lives\"]}",
+    "collocations": "[\"better never\", \"never ending\"]",
+    "synonyms": "[\"ne'er\", \"not ever\", \"not once\", \"at no time\", \"not at any time\"]",
+    "antonyms": "[\"ever\"]",
+    "relatedWords": "{\"en\": [\"not\", \"nowhere\", \"neither\", \"impossible\", \"only\"], \"ar\": [\"قَطّ\", \"أبداً\", \"مُطْلَقاً\", \"أصْلاً\", \"بَتَاتاً\", \"قِحَة\"]}",
+    "arabicAr": "أبداً",
+    "addedFromOxford": 0
+  }
+]

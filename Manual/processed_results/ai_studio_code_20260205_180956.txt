@@ -1,0 +1,386 @@
+{
+  "wordEntries": [
+    {
+      "id": 6,
+      "wordEn": "and",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ænd",
+      "phoneticUk": null,
+      "phoneticAr": "آنْد",
+      "translit": "Wa",
+      "definitionEn": "Used to connect words, clauses, or sentences together.",
+      "definitionAr": "حرف عطف بيربط بين كلمتين أو جملتين، بمعنى 'و'.. زي لما تقول 'أنا وأنت'.",
+      "usageNote": "One of the most common words in English. It connects similar ideas. Use 'but' for contrasting ideas.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Connector",
+        "#Grammar",
+        "#Linking"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Hand\" \"يد\".. زي ما اليدين بيمسكوا بعض، كلمة \"And\" بتمسك الكلمات ببعض.",
+      "examples": {
+        "A1": "I like apples and bananas.",
+        "A2": "She washed her face and brushed her teeth.",
+        "B1": "We need to buy bread, milk, and eggs.",
+        "B2": "The process is both efficient and cost-effective.",
+        "C1": "He felt a mix of excitement and apprehension about the journey.",
+        "C2": "The theory is comprehensive, coherent, and empirically supported."
+      },
+      "collocations": [
+        "and so on",
+        "wait and see",
+        "nice and",
+        "pick and choose",
+        "bits and pieces"
+      ],
+      "synonyms": [
+        "plus",
+        "also",
+        "along with",
+        "together with",
+        "as well as"
+      ],
+      "antonyms": [
+        "but",
+        "or"
+      ],
+      "relatedWords": {
+        "en": [
+          "addition",
+          "conjunction",
+          "link",
+          "connect"
+        ],
+        "ar": [
+          "إضافة",
+          "رابط",
+          "وصل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "و",
+      "frenchFr": "et",
+      "germanDe": "und",
+      "spanishEs": "y",
+      "chineseZh": "和 (Hé)",
+      "russianRu": "и",
+      "portuguesePt": "e",
+      "japaneseJa": "と (To)",
+      "italianIt": "e",
+      "turkishTr": "ve",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 7,
+      "wordEn": "a",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ə",
+      "phoneticUk": null,
+      "phoneticAr": "آ",
+      "translit": "Adat Tankir",
+      "definitionEn": "Used before a noun to refer to a single thing or person that has not been mentioned before.",
+      "definitionAr": "أداة بتتحط قبل الاسم المفرد النكرة، عشان توضح إنه واحد بس ومش محدد.. زي 'كتاب' مش 'الكتاب'.",
+      "usageNote": "Use 'a' before words starting with a consonant sound (a car). Use 'an' before vowel sounds (an apple).",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Article",
+        "#Grammar",
+        "#Singular"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "حرف \"A\" هو أول حرف، وبيدل على حاجة واحدة بس.. زي \"Adam\" (آدم) أول الخلق.",
+      "examples": {
+        "A1": "I have a cat.",
+        "A2": "She is a teacher at the school.",
+        "B1": "Can I have a glass of water, please?",
+        "B2": "He has a good understanding of the problem.",
+        "C1": "It was a truly remarkable achievement.",
+        "C2": "She possesses a certain elegance that is hard to define."
+      },
+      "collocations": [
+        "a lot of",
+        "a few",
+        "a little",
+        "once upon a time",
+        "all of a sudden"
+      ],
+      "synonyms": [
+        "one",
+        "any",
+        "some"
+      ],
+      "antonyms": [
+        "the"
+      ],
+      "relatedWords": {
+        "en": [
+          "an",
+          "the",
+          "article",
+          "determiner"
+        ],
+        "ar": [
+          "ال",
+          "واحد",
+          "مفرد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أداة تنكير",
+      "frenchFr": "un / une",
+      "germanDe": "ein / eine",
+      "spanishEs": "un / una",
+      "chineseZh": "一个 (Yī gè)",
+      "russianRu": "один (Odin)",
+      "portuguesePt": "um / uma",
+      "japaneseJa": "一つの (Hitotsu no)",
+      "italianIt": "un / una",
+      "turkishTr": "bir",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 8,
+      "wordEn": "in",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ɪn",
+      "phoneticUk": null,
+      "phoneticAr": "إِن",
+      "translit": "Nufūdh / Wāsiṭah",
+      "definitionEn": "A position of influence or a special connection that gives an advantage.",
+      "definitionAr": "لما يكون ليك 'واسطة' أو نفوذ في مكان معين، أو تكون عارف خبايا الأمور.",
+      "usageNote": "Often used in the phrase 'have an in' (have a connection) or 'the ins and outs' (details).",
+      "category": "Work & Business",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Influence",
+        "#Connection",
+        "#Advantage"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "لو ليك \"In\" يعني ليك دَخلة أو مدخل خاص للمكان ده عن طريق حد تعرفه.",
+      "examples": {
+        "A1": "He has an in at the club.",
+        "A2": "I need an in to get that job.",
+        "B1": "She has an in with the manager.",
+        "B2": "You need to learn the ins and outs of the software.",
+        "C1": "He used his political ins to get the permit approved.",
+        "C2": "Understanding the ins and outs of bureaucracy is essential here."
+      },
+      "collocations": [
+        "have an in",
+        "ins and outs",
+        "the in crowd",
+        "get an in",
+        "look for an in"
+      ],
+      "synonyms": [
+        "connection",
+        "influence",
+        "access",
+        "leverage"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "connection",
+          "influence",
+          "access",
+          "entry"
+        ],
+        "ar": [
+          "واسطة",
+          "نفوذ",
+          "علاقات"
+        ]
+      },
+      "wordFamily": {
+        "noun": "in",
+        "verb": "",
+        "adj": "inner",
+        "adv": "inward"
+      },
+      "arabicAr": "نفوذ / واسطة",
+      "frenchFr": "entrées / piston",
+      "germanDe": "Einfluss",
+      "spanishEs": "enchufe / influencia",
+      "chineseZh": "门路 (Mén lù)",
+      "russianRu": "связи (Svyazi)",
+      "portuguesePt": "cunha / pistolão",
+      "japaneseJa": "コネ (Kone)",
+      "italianIt": "aggancio",
+      "turkishTr": "torpil",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 9,
+      "wordEn": "in",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ɪn",
+      "phoneticUk": null,
+      "phoneticAr": "إِن",
+      "translit": "Fī",
+      "definitionEn": "Used to indicate inclusion within space, a place, or limits.",
+      "definitionAr": "حرف جر بمعنى 'في' أو 'داخل'.. بتستخدمه لما حاجة تكون جوه حاجة تانية.",
+      "usageNote": "Use 'in' for enclosed spaces (in a room), cities/countries (in London), and long periods of time (in 2024, in summer).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Time",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"In\" شبه كلمة \"Inn\" يعني فندق صغير.. وإنت بتنام \"In the Inn\" (جوه الفندق).",
+      "examples": {
+        "A1": "The cat is in the box.",
+        "A2": "She lives in Paris.",
+        "B1": "I will see you in the morning.",
+        "B2": "He is interested in learning Spanish.",
+        "C1": "In light of recent events, we must change our plans.",
+        "C2": "The answer lies in the inherent contradictions of the theory."
+      },
+      "collocations": [
+        "in time",
+        "in front of",
+        "in case",
+        "in fact",
+        "interested in"
+      ],
+      "synonyms": [
+        "inside",
+        "within",
+        "into"
+      ],
+      "antonyms": [
+        "out",
+        "outside"
+      ],
+      "relatedWords": {
+        "en": [
+          "inside",
+          "within",
+          "into",
+          "during"
+        ],
+        "ar": [
+          "داخل",
+          "ضمن",
+          "خلال"
+        ]
+      },
+      "wordFamily": {
+        "noun": "in",
+        "verb": "",
+        "adj": "inner",
+        "adv": "inward"
+      },
+      "arabicAr": "في",
+      "frenchFr": "dans / en",
+      "germanDe": "in",
+      "spanishEs": "en",
+      "chineseZh": "在...里 (Zài... lǐ)",
+      "russianRu": "в",
+      "portuguesePt": "em",
+      "japaneseJa": "中 (Naka)",
+      "italianIt": "in",
+      "turkishTr": "içinde",
+      "aiConfidence": 1.0
+    },
+    {
+      "id": 10,
+      "wordEn": "in",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "ɪn",
+      "phoneticUk": null,
+      "phoneticAr": "إِن",
+      "translit": "Ilā al-dākhil",
+      "definitionEn": "Towards or into the inside of a place.",
+      "definitionAr": "بتيجي بمعنى 'جوه' أو 'للداخل'.. زي لما تقول لحد 'ادخل' أو 'تعالى جوه'.",
+      "usageNote": "Common in phrasal verbs like 'come in', 'get in', 'break in'. Indicates movement towards the inside.",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Direction",
+        "#Movement",
+        "#Inside"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة \"Enter\".. كلمة \"In\" بتديك معنى الدخول \"جوه\".",
+      "examples": {
+        "A1": "Please come in.",
+        "A2": "Is your mother in?",
+        "B1": "The train is due in at 5 o'clock.",
+        "B2": "Please hand your homework in by Friday.",
+        "C1": "The tide is coming in.",
+        "C2": "We need to factor in all the potential risks."
+      },
+      "collocations": [
+        "come in",
+        "get in",
+        "break in",
+        "check in",
+        "fill in"
+      ],
+      "synonyms": [
+        "inside",
+        "indoors",
+        "inward"
+      ],
+      "antonyms": [
+        "out",
+        "outside"
+      ],
+      "relatedWords": {
+        "en": [
+          "entry",
+          "entrance",
+          "indoor"
+        ],
+        "ar": [
+          "دخول",
+          "داخلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "in",
+        "verb": "",
+        "adj": "inner",
+        "adv": "inward"
+      },
+      "arabicAr": "إلى الداخل",
+      "frenchFr": "dedans / entrer",
+      "germanDe": "herein",
+      "spanishEs": "adentro",
+      "chineseZh": "进来 (Jìn lái)",
+      "russianRu": "внутрь",
+      "portuguesePt": "dentro",
+      "japaneseJa": "中へ (Naka e)",
+      "italianIt": "dentro",
+      "turkishTr": "içeri",
+      "aiConfidence": 0.95
+    }
+  ]
+}

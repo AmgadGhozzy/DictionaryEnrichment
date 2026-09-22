@@ -1,0 +1,1853 @@
+{
+  "wordEntries": [
+    {
+      "id": 377,
+      "wordEn": "without",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "wɪðˈaʊt",
+      "phoneticUk": null,
+      "phoneticAr": "وِذَاوت",
+      "translit": "Bidūn",
+      "definitionEn": "Not having or including something; lacking a particular thing.",
+      "definitionAr": "يعني من غير الحاجة دي.. لما تعمل حاجة \"بدون\" مساعدة أو تكون \"بدون\" فلوس.",
+      "usageNote": "Used to indicate absence or lack. Opposite of 'with'.",
+      "category": "General / Common",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Absence",
+        "#Lacking",
+        "#Preposition"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"With\" يعني \"مع\".. حط \"Out\" يعني \"بره\".. تبقى \"Without\" يعني من غير أو \"بدون\".",
+      "examples": {
+        "A1": "I drink coffee without sugar.",
+        "A2": "She went out without a coat.",
+        "B1": "He solved the problem without any help.",
+        "B2": "It is difficult to read without glasses as you get older.",
+        "C1": "They managed to survive for three days without food.",
+        "C2": "He spoke for an hour without once referring to his notes."
+      },
+      "collocations": [
+        "without doubt",
+        "without fear",
+        "without warning",
+        "without delay"
+      ],
+      "synonyms": [
+        "lacking",
+        "minus",
+        "free from"
+      ],
+      "antonyms": [
+        "with",
+        "including"
+      ],
+      "relatedWords": {
+        "en": [
+          "outside",
+          "lack",
+          "absence"
+        ],
+        "ar": [
+          "خارج",
+          "نقص",
+          "غياب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بدون",
+      "frenchFr": "sans",
+      "germanDe": "ohne",
+      "spanishEs": "sin",
+      "chineseZh": "没有 (Méiyǒu)",
+      "russianRu": "без",
+      "portuguesePt": "sem",
+      "japaneseJa": "なしで (Nashi de)",
+      "italianIt": "senza",
+      "turkishTr": "sız",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 378,
+      "wordEn": "turn",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "tɜːrn",
+      "phoneticUk": null,
+      "phoneticAr": "تِرْن",
+      "translit": "Dawr / Munʿaṭaf",
+      "definitionEn": "An opportunity or duty to do something that comes to each person in succession.",
+      "definitionAr": "يعني دُورَك.. لما تكونوا بتلعبوا وتقول \"دوري\"، أو لما العربية تاخد \"ملف\" أو منعطف.",
+      "usageNote": "Common in games ('it's your turn') or driving ('take a left turn').",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Games",
+        "#Driving",
+        "#Order"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جايك الـ \"Turn\" يعني جايك \"الدُور\".. استعد.",
+      "examples": {
+        "A1": "It is your turn to play.",
+        "A2": "Take the next turn on the left.",
+        "B1": "Please wait for your turn in line.",
+        "B2": "The game took an unexpected turn.",
+        "C1": "He did me a good turn by fixing my car.",
+        "C2": "The turn of the century brought many changes."
+      },
+      "collocations": [
+        "your turn",
+        "wrong turn",
+        "sharp turn",
+        "in turn"
+      ],
+      "synonyms": [
+        "go",
+        "chance",
+        "stint",
+        "bend"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "rotation",
+          "shift",
+          "round"
+        ],
+        "ar": [
+          "دوران",
+          "نوبة",
+          "جولة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "turn",
+        "verb": "turn",
+        "adj": "turning",
+        "adv": ""
+      },
+      "arabicAr": "دور / منعطف",
+      "frenchFr": "tour",
+      "germanDe": "Drehung",
+      "spanishEs": "turno",
+      "chineseZh": "轮流 (Lúnliú)",
+      "russianRu": "очередь",
+      "portuguesePt": "vez",
+      "japaneseJa": "順番 (Junban)",
+      "italianIt": "turno",
+      "turkishTr": "sıra",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 379,
+      "wordEn": "turn",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "tɜːrn",
+      "phoneticUk": null,
+      "phoneticAr": "تِرْن",
+      "translit": "Yadūr / Yaluff",
+      "definitionEn": "To move in a circular direction or change position/direction.",
+      "definitionAr": "يعني تلف أو تدور.. زي لما تلف الدركسيون أو تدور وشك الناحية التانية.",
+      "usageNote": "Can mean physical movement or changing state (e.g., turn red).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Motion",
+        "#Change",
+        "#Direction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي \"Turn\" في كلمة \"Return\".. يعني لف وارجع تاني.",
+      "examples": {
+        "A1": "Turn right at the school.",
+        "A2": "Please turn the page.",
+        "B1": "The leaves turn brown in autumn.",
+        "B2": "He turned the key in the lock.",
+        "C1": "Events turned out differently than expected.",
+        "C2": "The economy is starting to turn around."
+      },
+      "collocations": [
+        "turn around",
+        "turn on",
+        "turn off",
+        "turn into"
+      ],
+      "synonyms": [
+        "rotate",
+        "spin",
+        "change",
+        "become"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "relatedWords": {
+        "en": [
+          "return",
+          "turning",
+          "overturn"
+        ],
+        "ar": [
+          "عودة",
+          "دوران",
+          "انقلاب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "turn",
+        "verb": "turn",
+        "adj": "turned",
+        "adv": ""
+      },
+      "arabicAr": "يدور / يلف",
+      "frenchFr": "tourner",
+      "germanDe": "drehen",
+      "spanishEs": "girar",
+      "chineseZh": "转 (Zhuǎn)",
+      "russianRu": "поворачивать",
+      "portuguesePt": "virar",
+      "japaneseJa": "曲がる (Magaru)",
+      "italianIt": "girare",
+      "turkishTr": "dönmek",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 380,
+      "wordEn": "end",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɛnd",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْد",
+      "translit": "Nihāya",
+      "definitionEn": "The final part of something; the point where something stops.",
+      "definitionAr": "النهاية.. آخر حتة في الشيء أو آخر مشهد في الفيلم.",
+      "usageNote": "Commonly refers to time (end of day) or physical limit (end of road).",
+      "category": "Time",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Finish",
+        "#Conclusion",
+        "#Limit"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "بنشوفها في آخر الفيلم دايماً \"The End\" يعني \"النهاية\".",
+      "examples": {
+        "A1": "It is the end of the day.",
+        "A2": "Go to the end of the street.",
+        "B1": "We stayed until the end of the movie.",
+        "B2": "There is no end in sight to this problem.",
+        "C1": "The means justify the end.",
+        "C2": "He met an untimely end."
+      },
+      "collocations": [
+        "at the end",
+        "in the end",
+        "dead end",
+        "end result"
+      ],
+      "synonyms": [
+        "conclusion",
+        "finish",
+        "close",
+        "termination"
+      ],
+      "antonyms": [
+        "beginning",
+        "start"
+      ],
+      "relatedWords": {
+        "en": [
+          "ending",
+          "endless",
+          "final"
+        ],
+        "ar": [
+          "خاتمة",
+          "لانهائي",
+          "نهائي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "end",
+        "verb": "end",
+        "adj": "ending",
+        "adv": "endlessly"
+      },
+      "arabicAr": "نهاية",
+      "frenchFr": "fin",
+      "germanDe": "Ende",
+      "spanishEs": "fin",
+      "chineseZh": "结束 (Jiéshù)",
+      "russianRu": "конец",
+      "portuguesePt": "fim",
+      "japaneseJa": "終わり (Owari)",
+      "italianIt": "fine",
+      "turkishTr": "son",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 381,
+      "wordEn": "end",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "ɛnd",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْد",
+      "translit": "Yunhī",
+      "definitionEn": "To finish or come to a stop.",
+      "definitionAr": "يُنهي.. يعني تخلص الحاجة وتقفل الموضوع.",
+      "usageNote": "Can be transitive (end the meeting) or intransitive (the road ends).",
+      "category": "Action",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Stop",
+        "#Finish",
+        "#Terminate"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة \"The End\".. بس هنا كفعل، يعني إنت اللي بتـ \"End\" الموضوع.",
+      "examples": {
+        "A1": "The movie ends at nine.",
+        "A2": "We need to end this meeting.",
+        "B1": "The road ends at the beach.",
+        "B2": "They decided to end their relationship.",
+        "C1": "The war ended in a truce.",
+        "C2": "Failure to comply will end in disaster."
+      },
+      "collocations": [
+        "end up",
+        "end with",
+        "end in"
+      ],
+      "synonyms": [
+        "finish",
+        "stop",
+        "conclude",
+        "terminate"
+      ],
+      "antonyms": [
+        "begin",
+        "start"
+      ],
+      "relatedWords": {
+        "en": [
+          "completion",
+          "finale",
+          "outcome"
+        ],
+        "ar": [
+          "إكمال",
+          "خاتمة",
+          "نتيجة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "end",
+        "verb": "end",
+        "adj": "ended",
+        "adv": ""
+      },
+      "arabicAr": "ينهي",
+      "frenchFr": "finir",
+      "germanDe": "beenden",
+      "spanishEs": "terminar",
+      "chineseZh": "结束 (Jiéshù)",
+      "russianRu": "заканчивать",
+      "portuguesePt": "terminar",
+      "japaneseJa": "終わる (Owaru)",
+      "italianIt": "finire",
+      "turkishTr": "bitirmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 382,
+      "wordEn": "within",
+      "pos": "adv",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "wɪˈðɪn",
+      "phoneticUk": null,
+      "phoneticAr": "وِذِن",
+      "translit": "Fī al-dākhil",
+      "definitionEn": "Inside; internally.",
+      "definitionAr": "يعني في الداخل.. جوه المكان أو جوه النفس.",
+      "usageNote": "Often used formally or literarily (e.g., 'beauty comes from within').",
+      "category": "General / Common",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Inside",
+        "#Internal",
+        "#Location"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"With\" و \"In\".. يعني \"مع\" و \"في\".. يعني جوه أو \"في الداخل\".",
+      "examples": {
+        "A1": "Please inquire within.",
+        "A2": "The noise came from within.",
+        "B1": "She felt calm within.",
+        "B2": "The danger lies within.",
+        "C1": "Reform must come from within the organization.",
+        "C2": "The paradox within the theory was evident."
+      },
+      "collocations": [
+        "from within",
+        "look within",
+        "inquire within"
+      ],
+      "synonyms": [
+        "inside",
+        "internally",
+        "inwardly"
+      ],
+      "antonyms": [
+        "outside",
+        "without"
+      ],
+      "relatedWords": {
+        "en": [
+          "inner",
+          "interior",
+          "inside"
+        ],
+        "ar": [
+          "داخلي",
+          "باطن",
+          "جوف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "في الداخل",
+      "frenchFr": "à l'intérieur",
+      "germanDe": "innen",
+      "spanishEs": "dentro",
+      "chineseZh": "在里面 (Zài lǐmiàn)",
+      "russianRu": "внутри",
+      "portuguesePt": "dentro",
+      "japaneseJa": "内部に (Naibu ni)",
+      "italianIt": "dentro",
+      "turkishTr": "içeride",
+      "aiConfidence": 0.90
+    },
+    {
+      "id": 383,
+      "wordEn": "within",
+      "pos": "prep",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "wɪˈðɪn",
+      "phoneticUk": null,
+      "phoneticAr": "وِذِن",
+      "translit": "Dākhil / Ḍimn",
+      "definitionEn": "Inside the limits of time, distance, or area.",
+      "definitionAr": "يعني خلال وقت معين أو جوه حدود مكان.. زي \"خلال\" ساعة أو \"داخل\" المدينة.",
+      "usageNote": "Very common with time (within an hour) and rules (within the law).",
+      "category": "Time",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Limits",
+        "#Time",
+        "#Scope"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I live within the city.",
+        "A2": "Please finish within an hour.",
+        "B1": "Stay within the speed limit.",
+        "B2": "It is not within my power to help.",
+        "C1": "He acted within the scope of his authority.",
+        "C2": "The solution lies within the parameters of the system."
+      },
+      "collocations": [
+        "within reason",
+        "within reach",
+        "within sight",
+        "within hours"
+      ],
+      "synonyms": [
+        "inside",
+        "during",
+        "in"
+      ],
+      "antonyms": [
+        "outside",
+        "beyond"
+      ],
+      "relatedWords": {
+        "en": [
+          "scope",
+          "range",
+          "limit"
+        ],
+        "ar": [
+          "نطاق",
+          "مدى",
+          "حد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "داخل / ضمن",
+      "frenchFr": "dans",
+      "germanDe": "innerhalb",
+      "spanishEs": "dentro de",
+      "chineseZh": "在...之内 (Zài...zhīnèi)",
+      "russianRu": "в пределах",
+      "portuguesePt": "dentro de",
+      "japaneseJa": "以内に (Inai ni)",
+      "italianIt": "entro",
+      "turkishTr": "içinde",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 384,
+      "wordEn": "local",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈloʊkl",
+      "phoneticUk": "ˈləʊkəl",
+      "phoneticAr": "لُوكَل",
+      "translit": "Maḥallī",
+      "definitionEn": "Relating to a particular area or neighborhood.",
+      "definitionAr": "محلي.. يعني حاجة تابعة للمنطقة اللي إنت فيها، مش غريبة ولا دولية.",
+      "usageNote": "Contrast with 'national' or 'international'.",
+      "category": "Place",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Community",
+        "#Nearby",
+        "#Regional"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Location\" (موقع).. يعني حاجة خاصة بالموقع ده، يعني \"محلي\".",
+      "examples": {
+        "A1": "This is a local shop.",
+        "A2": "We read the local news.",
+        "B1": "He speaks the local dialect.",
+        "B2": "The local authorities approved the plan.",
+        "C1": "They used local anesthesia for the surgery.",
+        "C2": "The conflict remained local rather than spreading."
+      },
+      "collocations": [
+        "local community",
+        "local government",
+        "local time",
+        "local area"
+      ],
+      "synonyms": [
+        "regional",
+        "community",
+        "native"
+      ],
+      "antonyms": [
+        "national",
+        "global",
+        "foreign"
+      ],
+      "relatedWords": {
+        "en": [
+          "location",
+          "locate",
+          "locality"
+        ],
+        "ar": [
+          "موقع",
+          "يحدد موقع",
+          "منطقة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "locality",
+        "verb": "localize",
+        "adj": "local",
+        "adv": "locally"
+      },
+      "arabicAr": "محلي",
+      "frenchFr": "local",
+      "germanDe": "lokal",
+      "spanishEs": "local",
+      "chineseZh": "当地 (Dāngdì)",
+      "russianRu": "местный",
+      "portuguesePt": "local",
+      "japaneseJa": "地元の (Jimoto no)",
+      "italianIt": "locale",
+      "turkishTr": "yerel",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 385,
+      "wordEn": "local",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈloʊkl",
+      "phoneticUk": "ˈləʊkəl",
+      "phoneticAr": "لُوكَل",
+      "translit": "Sākin maḥallī",
+      "definitionEn": "A person who lives in a particular place.",
+      "definitionAr": "ابن البلد.. الشخص اللي عايش في المنطقة وعارفها كويس.",
+      "usageNote": "Often plural ('the locals'). In UK, can refer to a local pub.",
+      "category": "People",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Resident",
+        "#Citizen",
+        "#Community"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Locals\" هما الناس اللي عايشين في الـ \"Location\" ده.",
+      "examples": {
+        "A1": "Ask a local for help.",
+        "A2": "The locals are very friendly.",
+        "B1": "He went to the pub with the locals.",
+        "B2": "She married a local and settled down.",
+        "C1": "There is tension between tourists and locals.",
+        "C2": "Understanding the customs of the locals is essential."
+      },
+      "collocations": [
+        "friendly locals",
+        "meet the locals",
+        "like a local"
+      ],
+      "synonyms": [
+        "resident",
+        "native",
+        "inhabitant"
+      ],
+      "antonyms": [
+        "tourist",
+        "outsider",
+        "foreigner"
+      ],
+      "relatedWords": {
+        "en": [
+          "resident",
+          "citizen",
+          "neighbor"
+        ],
+        "ar": [
+          "مقيم",
+          "مواطن",
+          "جار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "local",
+        "verb": "localize",
+        "adj": "local",
+        "adv": "locally"
+      },
+      "arabicAr": "محلي / ساكن محلي",
+      "frenchFr": "habitant",
+      "germanDe": "Einheimischer",
+      "spanishEs": "lugareño",
+      "chineseZh": "当地人 (Dāngdìrén)",
+      "russianRu": "местный житель",
+      "portuguesePt": "morador local",
+      "japaneseJa": "地元の人 (Jimoto no hito)",
+      "italianIt": "persona del luogo",
+      "turkishTr": "yerli",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 386,
+      "wordEn": "during",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈdʊrɪŋ",
+      "phoneticUk": "ˈdjʊərɪŋ",
+      "phoneticAr": "دْيُورِنج",
+      "translit": "Khilāl / Athnāʾ",
+      "definitionEn": "The period of time in which an event takes place.",
+      "definitionAr": "الوقت اللي الحاجة بتحصل فيه.. (ملاحظة: الكلمة دي بتستخدم كحرف جر عادة).",
+      "usageNote": "Pedagogically, 'during' is almost exclusively a preposition. This noun entry refers to the concept of duration.",
+      "category": "Time",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Duration",
+        "#Period",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "It happened during the day.",
+        "A2": "We sleep during the night.",
+        "B1": "He spoke during the meeting.",
+        "B2": "During the war, life was hard.",
+        "C1": "Silence was maintained during the ceremony.",
+        "C2": "The nuances observed during the experiment were significant."
+      },
+      "collocations": [
+        "during the day",
+        "during the night",
+        "during the meeting"
+      ],
+      "synonyms": [
+        "throughout",
+        "in",
+        "amid"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "duration",
+          "while",
+          "time"
+        ],
+        "ar": [
+          "مدة",
+          "بينما",
+          "وقت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "duration",
+        "verb": "endure",
+        "adj": "enduring",
+        "adv": ""
+      },
+      "arabicAr": "خلال / أثناء",
+      "frenchFr": "pendant",
+      "germanDe": "während",
+      "spanishEs": "durante",
+      "chineseZh": "在...期间 (Zài...qījiān)",
+      "russianRu": "во время",
+      "portuguesePt": "durante",
+      "japaneseJa": "の間に (No aida ni)",
+      "italianIt": "durante",
+      "turkishTr": "sırasında",
+      "aiConfidence": 0.5
+    },
+    {
+      "id": 387,
+      "wordEn": "during",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈdʊrɪŋ",
+      "phoneticUk": "ˈdjʊərɪŋ",
+      "phoneticAr": "دْيُورِنج",
+      "translit": "Khilāl / Athnāʾ",
+      "definitionEn": "Throughout the course or duration of an event.",
+      "definitionAr": "يعني خلال أو أثناء.. بتستخدمها عشان تقول إن حاجة حصلت في وقت حاجة تانية.",
+      "usageNote": "Followed by a noun (during the movie), not a verb clause (use 'while' for clauses).",
+      "category": "Time",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Event",
+        "#Duration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "قريبة من كلمة \"Duration\" (مدة).. يعني \"خلال\" المدة دي.",
+      "examples": {
+        "A1": "No talking during the test.",
+        "A2": "I fell asleep during the film.",
+        "B1": "She works during the day.",
+        "B2": "Many changes occurred during his presidency.",
+        "C1": "During the interim period, we must be cautious.",
+        "C2": "The clause was invoked during the arbitration process."
+      },
+      "collocations": [
+        "during the week",
+        "during the summer",
+        "during the war",
+        "during the day"
+      ],
+      "synonyms": [
+        "throughout",
+        "in the course of",
+        "amid"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "while",
+          "when",
+          "through"
+        ],
+        "ar": [
+          "بينما",
+          "عندما",
+          "عبر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "duration",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "خلال / أثناء",
+      "frenchFr": "pendant",
+      "germanDe": "während",
+      "spanishEs": "durante",
+      "chineseZh": "在...期间 (Zài...qījiān)",
+      "russianRu": "в течение",
+      "portuguesePt": "durante",
+      "japaneseJa": "の間に (No aida ni)",
+      "italianIt": "durante",
+      "turkishTr": "esnasında",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 388,
+      "wordEn": "bring",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "brɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "بْرِنج",
+      "translit": "Yuḥḍir",
+      "definitionEn": "To take or carry someone or something to a place.",
+      "definitionAr": "يحضر أو يجيب.. يعني تجيب حاجة معاك وإنت جاي.",
+      "usageNote": "Use 'bring' when moving towards the speaker, 'take' when moving away.",
+      "category": "Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Carry",
+        "#Transport",
+        "#Fetch"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"Pringles\".. ممكن تقولي \"Bring Pringles\"؟ يعني هات برينجلز.",
+      "examples": {
+        "A1": "Please bring me a glass of water.",
+        "A2": "Did you bring your homework?",
+        "B1": "Money doesn't bring happiness.",
+        "B2": "The news brought tears to her eyes.",
+        "C1": "They couldn't bring themselves to tell him.",
+        "C2": "The scandal brought down the government."
+      },
+      "collocations": [
+        "bring back",
+        "bring up",
+        "bring about",
+        "bring in"
+      ],
+      "synonyms": [
+        "fetch",
+        "carry",
+        "transport",
+        "convey"
+      ],
+      "antonyms": [
+        "take",
+        "remove"
+      ],
+      "relatedWords": {
+        "en": [
+          "fetch",
+          "carry",
+          "deliver"
+        ],
+        "ar": [
+          "يجلب",
+          "يحمل",
+          "يوصل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "bring",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يحضر",
+      "frenchFr": "apporter",
+      "germanDe": "bringen",
+      "spanishEs": "traer",
+      "chineseZh": "带来 (Dàilái)",
+      "russianRu": "приносить",
+      "portuguesePt": "trazer",
+      "japaneseJa": "持ってくる (Mottekuru)",
+      "italianIt": "portare",
+      "turkishTr": "getirmek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 389,
+      "wordEn": "word",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "wɜːrd",
+      "phoneticUk": null,
+      "phoneticAr": "وِيرْد",
+      "translit": "Kalima",
+      "definitionEn": "A single distinct element of speech or writing.",
+      "definitionAr": "كلمة.. وحدة بناء الكلام، اللي بنكون منها جمل.",
+      "usageNote": "Can also mean a promise ('I give you my word') or news ('word traveled fast').",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Language",
+        "#Speech",
+        "#Promise"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "برنامج \"Word\" المشهور هو برنامج كتابة \"الكلمات\".",
+      "examples": {
+        "A1": "Write the word on the board.",
+        "A2": "I don't understand this word.",
+        "B1": "Can I have a word with you?",
+        "B2": "She kept her word and paid the debt.",
+        "C1": "Word of his success spread quickly.",
+        "C2": "He is a man of few words but deep thought."
+      },
+      "collocations": [
+        "keep your word",
+        "word of mouth",
+        "in other words",
+        "last word"
+      ],
+      "synonyms": [
+        "term",
+        "expression",
+        "promise",
+        "news"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "sentence",
+          "language",
+          "vocabulary"
+        ],
+        "ar": [
+          "جملة",
+          "لغة",
+          "مفردات"
+        ]
+      },
+      "wordFamily": {
+        "noun": "word",
+        "verb": "word",
+        "adj": "wordy",
+        "adv": "wordlessly"
+      },
+      "arabicAr": "كلمة",
+      "frenchFr": "mot",
+      "germanDe": "Wort",
+      "spanishEs": "palabra",
+      "chineseZh": "词 (Cí)",
+      "russianRu": "слово",
+      "portuguesePt": "palavra",
+      "japaneseJa": "言葉 (Kotoba)",
+      "italianIt": "parola",
+      "turkishTr": "kelime",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 390,
+      "wordEn": "begin",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "bɪˈɡɪn",
+      "phoneticUk": null,
+      "phoneticAr": "بِجِن",
+      "translit": "Yabdāʾ",
+      "definitionEn": "The act of starting something (Concept).",
+      "definitionAr": "البداية.. (ملاحظة: الكلمة دي فعل أصلاً، الاسم منها Beginning).",
+      "usageNote": "Rare as a noun in modern English; usually 'beginning'.",
+      "category": "Action",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Start",
+        "#Origin",
+        "#Commence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Let's begin the game.",
+        "A2": "School begins at eight.",
+        "B1": "He began to cry.",
+        "B2": "The story begins in a dark forest.",
+        "C1": "We must begin by defining our terms.",
+        "C2": "To begin with, the premise is flawed."
+      },
+      "collocations": [
+        "to begin with",
+        "begin again",
+        "begin to see"
+      ],
+      "synonyms": [
+        "start",
+        "commence",
+        "initiate"
+      ],
+      "antonyms": [
+        "end",
+        "finish"
+      ],
+      "relatedWords": {
+        "en": [
+          "beginning",
+          "beginner",
+          "start"
+        ],
+        "ar": [
+          "بداية",
+          "مبتدأ",
+          "انطلاق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "beginning",
+        "verb": "begin",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يبدأ",
+      "frenchFr": "début",
+      "germanDe": "Beginn",
+      "spanishEs": "comienzo",
+      "chineseZh": "开始 (Kāishǐ)",
+      "russianRu": "начало",
+      "portuguesePt": "começo",
+      "japaneseJa": "始まり (Hajimari)",
+      "italianIt": "inizio",
+      "turkishTr": "başlangıç",
+      "aiConfidence": 0.5
+    },
+    {
+      "id": 391,
+      "wordEn": "begin",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "bɪˈɡɪn",
+      "phoneticUk": null,
+      "phoneticAr": "بِجِن",
+      "translit": "Yabdāʾ",
+      "definitionEn": "To start doing something; to undergo the first part of an action.",
+      "definitionAr": "يبدأ.. يعني تبتدي وتعمل أول خطوة في الموضوع.",
+      "usageNote": "'Begin' is slightly more formal than 'start'.",
+      "category": "Action",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Start",
+        "#Launch",
+        "#Commence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"End\".. \"Begin\" يعني يبدأ.",
+      "examples": {
+        "A1": "Class begins at nine.",
+        "A2": "She began to sing.",
+        "B1": "It began to rain heavily.",
+        "B2": "He began his career as a teacher.",
+        "C1": "The negotiations began in secret.",
+        "C2": "The universe began with the Big Bang."
+      },
+      "collocations": [
+        "begin with",
+        "begin to",
+        "begin by"
+      ],
+      "synonyms": [
+        "start",
+        "commence",
+        "initiate"
+      ],
+      "antonyms": [
+        "end",
+        "stop",
+        "finish"
+      ],
+      "relatedWords": {
+        "en": [
+          "start",
+          "initiate",
+          "launch"
+        ],
+        "ar": [
+          "يبدأ",
+          "يستهل",
+          "يطلق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "beginning",
+        "verb": "begin",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يبدأ",
+      "frenchFr": "commencer",
+      "germanDe": "beginnen",
+      "spanishEs": "empezar",
+      "chineseZh": "开始 (Kāishǐ)",
+      "russianRu": "начинать",
+      "portuguesePt": "começar",
+      "japaneseJa": "始める (Hajimeru)",
+      "italianIt": "cominciare",
+      "turkishTr": "başlamak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 392,
+      "wordEn": "although",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɔːlˈðoʊ",
+      "phoneticUk": null,
+      "phoneticAr": "أُولْذَاو",
+      "translit": "Bi-al-raghm min",
+      "definitionEn": "The fact of being in spite of something (Concept).",
+      "definitionAr": "بالرغم من.. (ملاحظة: الكلمة دي رابط Conjunction وليست اسماً).",
+      "usageNote": "Grammatically a conjunction, introduces a concessive clause.",
+      "category": "General / Common",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Contrast",
+        "#Concession",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I like him, although he is loud.",
+        "A2": "Although it rained, we played.",
+        "B1": "He went to work although he was sick.",
+        "B2": "Although the sun was shining, it was cold.",
+        "C1": "Although technically correct, the answer was misleading.",
+        "C2": "He refused to yield, although the odds were against him."
+      },
+      "collocations": [
+        "although I",
+        "although it",
+        "although he"
+      ],
+      "synonyms": [
+        "though",
+        "even though",
+        "while"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "however",
+          "despite",
+          "but"
+        ],
+        "ar": [
+          "لكن",
+          "رغم",
+          "مع أن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بالرغم من",
+      "frenchFr": "bien que",
+      "germanDe": "obwohl",
+      "spanishEs": "aunque",
+      "chineseZh": "虽然 (Suīrán)",
+      "russianRu": "хотя",
+      "portuguesePt": "embora",
+      "japaneseJa": "けれども (Keredomo)",
+      "italianIt": "sebbene",
+      "turkishTr": "rağmen",
+      "aiConfidence": 0.5
+    },
+    {
+      "id": 393,
+      "wordEn": "although",
+      "pos": "conj",
+      "cefrLevel": "A2",
+      "difficultyScore": "5",
+      "phoneticUs": "ɔːlˈðoʊ",
+      "phoneticUk": null,
+      "phoneticAr": "أُولْذَاو",
+      "translit": "Bi-al-raghm min",
+      "definitionEn": "Even though; in spite of the fact that.",
+      "definitionAr": "بالرغم من.. بتستخدمها لما تقول حاجة وعكسها، يعني \"مع إن\" حصل كذا، بس حصل كذا.",
+      "usageNote": "Introduces a clause that contrasts with the main clause.",
+      "category": "Logic",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Contrast",
+        "#Linking",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"All\" (كل) + \"Though\" (مع أن).. يعني \"بالرغم من\" كل ده.",
+      "examples": {
+        "A1": "I am happy although I am poor.",
+        "A2": "Although it is late, I will stay.",
+        "B1": "Although he is young, he is very smart.",
+        "B2": "She walked home, although I offered her a ride.",
+        "C1": "Although the evidence is weak, the theory persists.",
+        "C2": "Although primarily a painter, he also wrote poetry."
+      },
+      "collocations": [
+        "although some",
+        "although many",
+        "although typically"
+      ],
+      "synonyms": [
+        "even though",
+        "though",
+        "while"
+      ],
+      "antonyms": [
+        "because",
+        "since"
+      ],
+      "relatedWords": {
+        "en": [
+          "despite",
+          "however",
+          "nevertheless"
+        ],
+        "ar": [
+          "رغم",
+          "مع ذلك",
+          "لكن"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بالرغم من",
+      "frenchFr": "bien que",
+      "germanDe": "obwohl",
+      "spanishEs": "aunque",
+      "chineseZh": "虽然 (Suīrán)",
+      "russianRu": "хотя",
+      "portuguesePt": "embora",
+      "japaneseJa": "にもかかわらず (Ni mo kakawarazu)",
+      "italianIt": "benché",
+      "turkishTr": "olmasına rağmen",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 394,
+      "wordEn": "example",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ɪɡˈzæmpl",
+      "phoneticUk": "ɪɡˈzɑːmpl",
+      "phoneticAr": "إِجْزَامْبِل",
+      "translit": "Mithāl",
+      "definitionEn": "A thing characteristic of its kind or illustrating a general rule.",
+      "definitionAr": "مثال.. نموذج بيوضحلك الفكرة عشان تفهمها أحسن.",
+      "usageNote": "Use 'for example' to introduce a list or illustration.",
+      "category": "Education",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Sample",
+        "#Model",
+        "#Illustration"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Exam\" (امتحان) جزء منها.. والامتحان عبارة عن \"Examples\" (أمثلة) بنحلها.",
+      "examples": {
+        "A1": "This is a good example.",
+        "A2": "Can you give me an example?",
+        "B1": "For example, you can eat fruit.",
+        "B2": "She sets a good example for her sister.",
+        "C1": "This case is a classic example of the problem.",
+        "C2": "He was punished to make an example of him."
+      },
+      "collocations": [
+        "for example",
+        "good example",
+        "perfect example",
+        "set an example"
+      ],
+      "synonyms": [
+        "instance",
+        "sample",
+        "specimen",
+        "model"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "exemplify",
+          "sample",
+          "instance"
+        ],
+        "ar": [
+          "يمثل",
+          "عينة",
+          "حالة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "example",
+        "verb": "exemplify",
+        "adj": "exemplary",
+        "adv": ""
+      },
+      "arabicAr": "مثال",
+      "frenchFr": "exemple",
+      "germanDe": "Beispiel",
+      "spanishEs": "ejemplo",
+      "chineseZh": "例子 (Lìzi)",
+      "russianRu": "пример",
+      "portuguesePt": "exemplo",
+      "japaneseJa": "例 (Rei)",
+      "italianIt": "esempio",
+      "turkishTr": "örnek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 395,
+      "wordEn": "family",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈfæməli",
+      "phoneticUk": null,
+      "phoneticAr": "فَامِلِي",
+      "translit": "ʿĀʾila",
+      "definitionEn": "A group of one or more parents and their children living together.",
+      "definitionAr": "عائلة.. الناس اللي من دمك، أهلك وقرايبك اللي عايشين معاك.",
+      "usageNote": "Can refer to immediate family (parents/kids) or extended family.",
+      "category": "Family",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Relatives",
+        "#Home",
+        "#Kin"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Family\" هما اللي بيفهموك وتكون معاهم \"Familiar\" (مألوف).",
+      "examples": {
+        "A1": "I love my family.",
+        "A2": "My family lives in London.",
+        "B1": "We are a large family.",
+        "B2": "Family values are important to him.",
+        "C1": "The lion belongs to the cat family.",
+        "C2": "He comes from a family of distinguished lawyers."
+      },
+      "collocations": [
+        "family member",
+        "family tree",
+        "extended family",
+        "nuclear family"
+      ],
+      "synonyms": [
+        "relatives",
+        "kin",
+        "household"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "relative",
+          "parent",
+          "sibling"
+        ],
+        "ar": [
+          "قريب",
+          "والد",
+          "شقيق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "family",
+        "verb": "",
+        "adj": "familial",
+        "adv": ""
+      },
+      "arabicAr": "عائلة",
+      "frenchFr": "famille",
+      "germanDe": "Familie",
+      "spanishEs": "familia",
+      "chineseZh": "家庭 (Jiātíng)",
+      "russianRu": "семья",
+      "portuguesePt": "família",
+      "japaneseJa": "家族 (Kazoku)",
+      "italianIt": "famiglia",
+      "turkishTr": "aile",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 396,
+      "wordEn": "family",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈfæməli",
+      "phoneticUk": null,
+      "phoneticAr": "فَامِلِي",
+      "translit": "ʿĀʾilī",
+      "definitionEn": "Designed to be suitable for children and parents.",
+      "definitionAr": "عائلي.. حاجة مناسبة للعيلة كلها، زي عربية عائلية أو فيلم عائلي.",
+      "usageNote": "Acts as a noun adjunct (noun used as adjective).",
+      "category": "Family",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Domestic",
+        "#Group",
+        "#Suitable"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "This is a family car.",
+        "A2": "We watched a family movie.",
+        "B1": "It is a family business.",
+        "B2": "They have a family history of diabetes.",
+        "C1": "The resort offers family entertainment.",
+        "C2": "He cited family reasons for his resignation."
+      },
+      "collocations": [
+        "family life",
+        "family planning",
+        "family doctor"
+      ],
+      "synonyms": [
+        "domestic",
+        "household"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "domestic",
+          "private",
+          "home"
+        ],
+        "ar": [
+          "منزلي",
+          "خاص",
+          "بيت"
+        ]
+      },
+      "wordFamily": {
+        "noun": "family",
+        "verb": "",
+        "adj": "familial",
+        "adv": ""
+      },
+      "arabicAr": "عائلة",
+      "frenchFr": "familial",
+      "germanDe": "Familien-",
+      "spanishEs": "familiar",
+      "chineseZh": "家庭的 (Jiātíng de)",
+      "russianRu": "семейный",
+      "portuguesePt": "familiar",
+      "japaneseJa": "家族の (Kazoku no)",
+      "italianIt": "familiare",
+      "turkishTr": "ailevi",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 397,
+      "wordEn": "rather",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈræðər",
+      "phoneticUk": "ˈrɑːðə(r)",
+      "phoneticAr": "رَاذَر",
+      "translit": "Badalan / Ilā ḥadd mā",
+      "definitionEn": "Used to indicate preference or degree; quite.",
+      "definitionAr": "نوعاً ما أو بالأحرى.. بتستخدمها لما تفضل حاجة \"Would rather\"، أو عشان تقول \"إلى حد ما\".",
+      "usageNote": "'Would rather' means 'would prefer'. 'Rather good' means 'quite good'.",
+      "category": "General / Common",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Preference",
+        "#Degree",
+        "#Choice"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I would rather stay home.",
+        "A2": "It is rather cold today.",
+        "B1": "I'd rather you didn't do that.",
+        "B2": "It was a rather difficult question.",
+        "C1": "The outcome was rather unexpected.",
+        "C2": "He is an artist rather than a technician."
+      },
+      "collocations": [
+        "would rather",
+        "rather than",
+        "rather like"
+      ],
+      "synonyms": [
+        "quite",
+        "fairly",
+        "instead",
+        "preferably"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "prefer",
+          "quite",
+          "somewhat"
+        ],
+        "ar": [
+          "يفضل",
+          "جداً",
+          "نوعاً ما"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بدلاً / إلى حد ما",
+      "frenchFr": "plutôt",
+      "germanDe": "eher",
+      "spanishEs": "bastante / más bien",
+      "chineseZh": "相当 (Xiāngdāng)",
+      "russianRu": "скорее",
+      "portuguesePt": "bastante / de preferência",
+      "japaneseJa": "むしろ (Mushiro)",
+      "italianIt": "piuttosto",
+      "turkishTr": "oldukça / tercihen",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 398,
+      "wordEn": "fact",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "fækt",
+      "phoneticUk": null,
+      "phoneticAr": "فَاكْت",
+      "translit": "Ḥaqīqa",
+      "definitionEn": "A thing that is known or proved to be true.",
+      "definitionAr": "حقيقة.. معلومة حقيقية ومثبتة، مش مجرد رأي أو خيال.",
+      "usageNote": "Often used in 'in fact' to emphasize a point.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Truth",
+        "#Reality",
+        "#Evidence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"فقط\".. دي الحقيقة \"فقط\" (Fact) من غير زيادات.",
+      "examples": {
+        "A1": "Is that a fact?",
+        "A2": "The fact is, I don't know.",
+        "B1": "He presented the facts clearly.",
+        "B2": "We must face the facts.",
+        "C1": "The story is based on fact.",
+        "C2": "She has a remarkable memory for facts and figures."
+      },
+      "collocations": [
+        "in fact",
+        "matter of fact",
+        "basic facts",
+        "face the facts"
+      ],
+      "synonyms": [
+        "reality",
+        "certainty",
+        "truth"
+      ],
+      "antonyms": [
+        "fiction",
+        "fantasy",
+        "lie"
+      ],
+      "relatedWords": {
+        "en": [
+          "factual",
+          "true",
+          "real"
+        ],
+        "ar": [
+          "واقعي",
+          "صحيح",
+          "حقيقي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fact",
+        "verb": "",
+        "adj": "factual",
+        "adv": "factually"
+      },
+      "arabicAr": "حقيقة / الحقيقة",
+      "frenchFr": "fait",
+      "germanDe": "Tatsache",
+      "spanishEs": "hecho",
+      "chineseZh": "事实 (Shìshí)",
+      "russianRu": "факт",
+      "portuguesePt": "fato",
+      "japaneseJa": "事実 (Jijitsu)",
+      "italianIt": "fatto",
+      "turkishTr": "gerçek",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 399,
+      "wordEn": "social",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈsoʊʃl",
+      "phoneticUk": "ˈsəʊʃl",
+      "phoneticAr": "سُوشَل",
+      "translit": "Ijtimāʿī",
+      "definitionEn": "Relating to society or its organization.",
+      "definitionAr": "اجتماعي.. أي حاجة ليها علاقة بالناس والمجتمع والتعامل معاهم.",
+      "usageNote": "Very common in 'social media' and 'social skills'.",
+      "category": "Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Society",
+        "#Community",
+        "#Interaction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي \"Social Media\" وسائل التواصل \"الاجتماعي\".",
+      "examples": {
+        "A1": "I like social media.",
+        "A2": "She has a busy social life.",
+        "B1": "Unemployment is a major social problem.",
+        "B2": "He has poor social skills.",
+        "C1": "The government introduced new social reforms.",
+        "C2": "Man is a social animal."
+      },
+      "collocations": [
+        "social media",
+        "social life",
+        "social worker",
+        "social network"
+      ],
+      "synonyms": [
+        "communal",
+        "collective",
+        "public"
+      ],
+      "antonyms": [
+        "antisocial",
+        "private",
+        "personal"
+      ],
+      "relatedWords": {
+        "en": [
+          "society",
+          "socialize",
+          "sociable"
+        ],
+        "ar": [
+          "مجتمع",
+          "يخالط",
+          "اجتماعي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "society",
+        "verb": "socialize",
+        "adj": "social",
+        "adv": "socially"
+      },
+      "arabicAr": "اجتماعي",
+      "frenchFr": "social",
+      "germanDe": "sozial",
+      "spanishEs": "social",
+      "chineseZh": "社会的 (Shèhuì de)",
+      "russianRu": "социальный",
+      "portuguesePt": "social",
+      "japaneseJa": "社会の (Shakai no)",
+      "italianIt": "sociale",
+      "turkishTr": "sosyal",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 400,
+      "wordEn": "write",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "raɪt",
+      "phoneticUk": null,
+      "phoneticAr": "رَايْت",
+      "translit": "Yaktub",
+      "definitionEn": "To mark letters, words, or other symbols on a surface.",
+      "definitionAr": "يكتب.. تسجل الكلام بالقلم على الورق أو بالكيبورد على الكمبيوتر.",
+      "usageNote": "Past tense is 'wrote', participle is 'written'.",
+      "category": "Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Text",
+        "#Pen",
+        "#Compose"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I write my name.",
+        "A2": "She wrote a letter to her friend.",
+        "B1": "He wants to write a book.",
+        "B2": "Please write down your address.",
+        "C1": "The article was written by an expert.",
+        "C2": "History is written by the victors."
+      },
+      "collocations": [
+        "write down",
+        "write back",
+        "write a letter"
+      ],
+      "synonyms": [
+        "record",
+        "compose",
+        "pen"
+      ],
+      "antonyms": [
+        "read",
+        "erase"
+      ],
+      "relatedWords": {
+        "en": [
+          "writer",
+          "writing",
+          "script"
+        ],
+        "ar": [
+          "كاتب",
+          "كتابة",
+          "نص"
+        ]
+      },
+      "wordFamily": {
+        "noun": "writer",
+        "verb": "write",
+        "adj": "written",
+        "adv": ""
+      },
+      "arabicAr": "يكتب",
+      "frenchFr": "écrire",
+      "germanDe": "schreiben",
+      "spanishEs": "escribir",
+      "chineseZh": "写 (Xiě)",
+      "russianRu": "писать",
+      "portuguesePt": "escrever",
+      "japaneseJa": "書く (Kaku)",
+      "italianIt": "scrivere",
+      "turkishTr": "yazmak",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 401,
+      "wordEn": "state",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "steɪt",
+      "phoneticUk": null,
+      "phoneticAr": "سْتَايْت",
+      "translit": "Wilāya / Ḥukūmī",
+      "definitionEn": "Related to the civil government of a country.",
+      "definitionAr": "حكومي أو رسمي.. حاجة تابعة للدولة زي المدارس الحكومية أو الأسرار العسكرية.",
+      "usageNote": "Used in phrases like 'state school' or 'state secret'.",
+      "category": "Politics",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Government",
+        "#Official",
+        "#Public"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He goes to a state school.",
+        "A2": "It is a state park.",
+        "B1": "They discussed state affairs.",
+        "B2": "The state police arrived quickly.",
+        "C1": "It was considered a state secret.",
+        "C2": "The funeral was a grand state occasion."
+      },
+      "collocations": [
+        "state school",
+        "state government",
+        "state prison",
+        "state visit"
+      ],
+      "synonyms": [
+        "national",
+        "government",
+        "public"
+      ],
+      "antonyms": [
+        "private",
+        "independent"
+      ],
+      "relatedWords": {
+        "en": [
+          "government",
+          "nation",
+          "republic"
+        ],
+        "ar": [
+          "حكومة",
+          "أمة",
+          "جمهورية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "state",
+        "verb": "state",
+        "adj": "state",
+        "adv": "stately"
+      },
+      "arabicAr": "ولاية / ولاية (داخل بلد)",
+      "frenchFr": "étatique",
+      "germanDe": "staatlich",
+      "spanishEs": "estatal",
+      "chineseZh": "州的 (Zhōu de)",
+      "russianRu": "государственный",
+      "portuguesePt": "estadual",
+      "japaneseJa": "州の (Shū no)",
+      "italianIt": "statale",
+      "turkishTr": "devlet",
+      "aiConfidence": 0.92
+    }
+  ]
+}

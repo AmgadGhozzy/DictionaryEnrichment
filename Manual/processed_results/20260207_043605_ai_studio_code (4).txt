@@ -1,0 +1,2048 @@
+{
+  "wordEntries": [
+    {
+      "id": 3453,
+      "wordEn": "eleven",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "7",
+      "phoneticUs": "ɪˈlev.ən",
+      "phoneticUk": "ɪˈlev.ən",
+      "phoneticAr": "إِلِيفِن",
+      "translit": "Aḥad ʿashar",
+      "definitionEn": "The number that comes after ten and before twelve.",
+      "definitionAr": "الرقم اللي بيجي بعد العشرة وقبل الاتناشر.",
+      "usageNote": "Used for counting. Often associated with the time 11:00 or a team size in soccer.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Counting",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have eleven apples in my bag.",
+        "A2": "The shop opens at eleven o'clock.",
+        "B1": "There are eleven players on a football team.",
+        "B2": "She was only eleven years old when she started painting.",
+        "C1": "The vote passed by a margin of eleven to two.",
+        "C2": "Chapter eleven of the book reveals the mystery."
+      },
+      "collocations": [
+        "eleven o'clock",
+        "chapter eleven",
+        "eleven years old"
+      ],
+      "synonyms": [
+        "11",
+        "XI"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "ten",
+          "twelve",
+          "number"
+        ],
+        "ar": [
+          "عشرة",
+          "اثنا عشر",
+          "رقم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "eleventh",
+        "adv": ""
+      },
+      "arabicAr": "أحد عشر",
+      "frenchFr": "onze",
+      "germanDe": "elf",
+      "spanishEs": "once",
+      "chineseZh": "十一 (Shí yī)",
+      "russianRu": "одиннадцать",
+      "portuguesePt": "onze",
+      "japaneseJa": "十一 (Jūichi)",
+      "italianIt": "undici",
+      "turkishTr": "on bir",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3454,
+      "wordEn": "email",
+      "pos": "verb",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈiː.meɪl",
+      "phoneticUk": null,
+      "phoneticAr": "إِيميل",
+      "translit": "Yursil barīdan iliktrūniyyan",
+      "definitionEn": "To send a message to someone over the internet.",
+      "definitionAr": "إنك تبعت رسالة لحد عن طريق الإنترنت.",
+      "usageNote": "Common in both business and personal contexts. Often followed by the recipient (e.g., 'email me').",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Internet",
+        "#Technology",
+        "#Business"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Email\" هي اختصار لـ \"Electronic Mail\".. يعني بتبعت \"Mail\" بس \"Electronic\"",
+      "examples": {
+        "A1": "Please email me the photo.",
+        "A2": "I will email you the details tomorrow.",
+        "B1": "She emailed her boss to ask for a day off.",
+        "B2": "Make sure to email the report before the deadline.",
+        "C1": "We were emailing back and forth all day to resolve the issue.",
+        "C2": "He was reprimanded for emailing sensitive data to an external account."
+      },
+      "collocations": [
+        "email a document",
+        "email someone",
+        "email the results"
+      ],
+      "synonyms": [
+        "send",
+        "message",
+        "correspond"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "inbox",
+          "send",
+          "attachment",
+          "internet"
+        ],
+        "ar": [
+          "صندوق الوارد",
+          "إرسال",
+          "مرفق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "email",
+        "verb": "email",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يرسل بريداً إلكترونياً",
+      "frenchFr": "envoyer un e-mail",
+      "germanDe": "mailen",
+      "spanishEs": "enviar un correo electrónico",
+      "chineseZh": "发电子邮件 (Fā diànzǐ yóujiàn)",
+      "russianRu": "отправить электронное письмо",
+      "portuguesePt": "enviar um email",
+      "japaneseJa": "メールを送る (Mēru o okuru)",
+      "italianIt": "inviare un'email",
+      "turkishTr": "e-posta göndermek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3455,
+      "wordEn": "email",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈiː.meɪl",
+      "phoneticUk": null,
+      "phoneticAr": "إِيميل",
+      "translit": "Barīd iliktrūnī",
+      "definitionEn": "A message sent from one computer to another over the internet.",
+      "definitionAr": "الرسالة اللي بتتبعت وتستقبلها عن طريق الإنترنت.",
+      "usageNote": "Can refer to the system itself or a specific message.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Internet",
+        "#Technology",
+        "#Office"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Email\" هي اختصار لـ \"Electronic Mail\".. يعني \"Mail\" بس \"Electronic\"",
+      "examples": {
+        "A1": "I check my email every day.",
+        "A2": "Did you get my email?",
+        "B1": "Write your email address on this form.",
+        "B2": "The company server blocks spam email automatically.",
+        "C1": "Her inbox was flooded with promotional emails.",
+        "C2": "Encryption is essential for securing confidential email correspondence."
+      },
+      "collocations": [
+        "send an email",
+        "check email",
+        "email address"
+      ],
+      "synonyms": [
+        "message",
+        "electronic mail",
+        "mail"
+      ],
+      "antonyms": [
+        "snail mail"
+      ],
+      "relatedWords": {
+        "en": [
+          "internet",
+          "spam",
+          "inbox",
+          "server"
+        ],
+        "ar": [
+          "إنترنت",
+          "بريد مزعج",
+          "صندوق الوارد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "email",
+        "verb": "email",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بريد إلكتروني",
+      "frenchFr": "e-mail",
+      "germanDe": "E-Mail",
+      "spanishEs": "correo electrónico",
+      "chineseZh": "电子邮件 (Diànzǐ yóujiàn)",
+      "russianRu": "электронная почта",
+      "portuguesePt": "e-mail",
+      "japaneseJa": "電子メール (Denshi mēru)",
+      "italianIt": "email",
+      "turkishTr": "e-posta",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3456,
+      "wordEn": "euro",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈjʊr.oʊ",
+      "phoneticUk": "ˈjʊə.rəʊ",
+      "phoneticAr": "يُورو",
+      "translit": "Yūrū",
+      "definitionEn": "The unit of money used in most European Union countries.",
+      "definitionAr": "العملة اللي بيستخدموها في معظم دول الاتحاد الأوروبي.",
+      "usageNote": "The symbol is €.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Money",
+        "#Europe",
+        "#Currency"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Euro\" جاية من \"Europe\".. عشان هي عملة \"Europe\"",
+      "examples": {
+        "A1": "This coffee costs one euro.",
+        "A2": "I need to change dollars into euros.",
+        "B1": "The price is twenty euros per person.",
+        "B2": "The value of the euro has increased recently.",
+        "C1": "Investors are watching the euro closely this week.",
+        "C2": "The adoption of the euro transformed the continent's economy."
+      },
+      "collocations": [
+        "one euro",
+        "million euros",
+        "euro zone"
+      ],
+      "synonyms": [
+        "currency",
+        "cash"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "dollar",
+          "pound",
+          "currency",
+          "bank"
+        ],
+        "ar": [
+          "دولار",
+          "جنيه",
+          "عملة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "euro",
+        "verb": "",
+        "adj": "European",
+        "adv": ""
+      },
+      "arabicAr": "يورو",
+      "frenchFr": "euro",
+      "germanDe": "Euro",
+      "spanishEs": "euro",
+      "chineseZh": "欧元 (Ōuyuán)",
+      "russianRu": "евро",
+      "portuguesePt": "euro",
+      "japaneseJa": "ユーロ (Yūro)",
+      "italianIt": "euro",
+      "turkishTr": "avro",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3457,
+      "wordEn": "fifteen",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌfɪfˈtiːn",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْتِين",
+      "translit": "Khamsat ʿashar",
+      "definitionEn": "The number 15; the sum of ten and five.",
+      "definitionAr": "رقم خمستاشر.",
+      "usageNote": "Often used to refer to a group or size of 15.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Counting"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Fif\" زي \"Five\".. يعني ليها علاقة بالخمسة.. هي خمسة وعشرة (15)",
+      "examples": {
+        "A1": "My brother is fifteen.",
+        "A2": "The bus leaves at eight fifteen.",
+        "B1": "A rugby team has fifteen players.",
+        "B2": "He has been working here for fifteen years.",
+        "C1": "The top fifteen candidates were selected for the interview.",
+        "C2": "This antique dates back to the fifteenth century."
+      },
+      "collocations": [
+        "fifteen minutes",
+        "fifteen years",
+        "top fifteen"
+      ],
+      "synonyms": [
+        "15",
+        "XV"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "five",
+          "fifty",
+          "number"
+        ],
+        "ar": [
+          "خمسة",
+          "خمسون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fifteenth",
+        "adv": ""
+      },
+      "arabicAr": "خمسة عشر",
+      "frenchFr": "quinze",
+      "germanDe": "fünfzehn",
+      "spanishEs": "quince",
+      "chineseZh": "十五 (Shí wǔ)",
+      "russianRu": "пятнадцать",
+      "portuguesePt": "quinze",
+      "japaneseJa": "十五 (Jūgo)",
+      "italianIt": "quindici",
+      "turkishTr": "on beş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3458,
+      "wordEn": "fifteen",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌfɪfˈtiːn",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْتِين",
+      "translit": "Khamsat ʿashar",
+      "definitionEn": "The cardinal number equivalent to the sum of ten and five.",
+      "definitionAr": "الرقم خمستاشر.",
+      "usageNote": "Used for counting items.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Fif\" زي \"Five\".. يعني ليها علاقة بالخمسة.. هي خمسة وعشرة (15)",
+      "examples": {
+        "A1": "I have fifteen dollars.",
+        "A2": "There are fifteen students in the class.",
+        "B1": "We waited for fifteen minutes.",
+        "B2": "The room is fifteen feet long.",
+        "C1": "Fifteen percent of the population voted.",
+        "C2": "The manuscript contains fifteen distinct illustrations."
+      },
+      "collocations": [
+        "fifteen minutes",
+        "fifteen people",
+        "fifteen percent"
+      ],
+      "synonyms": [
+        "15"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "five",
+          "ten",
+          "twenty"
+        ],
+        "ar": [
+          "خمسة",
+          "عشرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fifteenth",
+        "adv": ""
+      },
+      "arabicAr": "خمسة عشر",
+      "frenchFr": "quinze",
+      "germanDe": "fünfzehn",
+      "spanishEs": "quince",
+      "chineseZh": "十五 (Shí wǔ)",
+      "russianRu": "пятнадцать",
+      "portuguesePt": "quinze",
+      "japaneseJa": "十五 (Jūgo)",
+      "italianIt": "quindici",
+      "turkishTr": "on beş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3459,
+      "wordEn": "fifth",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "fɪfθ",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْث",
+      "translit": "Al-khāmis",
+      "definitionEn": "Coming after the fourth in a series.",
+      "definitionAr": "الخامس في الترتيب، اللي بيجي بعد الرابع.",
+      "usageNote": "Ordinal number for 5.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Ordering",
+        "#Rank"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Five\" (خمسة).. يبقى \"Fifth\" يعني الخامس",
+      "examples": {
+        "A1": "It is her fifth birthday.",
+        "A2": "He lives on the fifth floor.",
+        "B1": "This is the fifth time I've called you.",
+        "B2": "The fifth amendment is very famous.",
+        "C1": "The project is now in its fifth phase of development.",
+        "C2": "A fifth column was suspected within the organization."
+      },
+      "collocations": [
+        "fifth floor",
+        "fifth grade",
+        "fifth avenue"
+      ],
+      "synonyms": [
+        "5th"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "five",
+          "fourth",
+          "sixth"
+        ],
+        "ar": [
+          "خمسة",
+          "رابع",
+          "سادس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "five",
+        "verb": "",
+        "adj": "fifth",
+        "adv": ""
+      },
+      "arabicAr": "الخامس",
+      "frenchFr": "cinquième",
+      "germanDe": "fünfte",
+      "spanishEs": "quinto",
+      "chineseZh": "第五 (Dì wǔ)",
+      "russianRu": "пятый",
+      "portuguesePt": "quinto",
+      "japaneseJa": "五番目 (Gobanme)",
+      "italianIt": "quinto",
+      "turkishTr": "beşinci",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3460,
+      "wordEn": "fifth",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "fɪfθ",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْث",
+      "translit": "Khums",
+      "definitionEn": "One of five equal parts of something.",
+      "definitionAr": "الخُمس.. لما تقسم حاجة لخمس حتت قد بعض.",
+      "usageNote": "Used as a fraction (1/5).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Fraction",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Five\" (خمسة).. يبقى \"Fifth\" يعني خُمس",
+      "examples": {
+        "A1": "I ate a fifth of the cake.",
+        "A2": "A fifth of the students were absent.",
+        "B1": "He owns a fifth of the company.",
+        "B2": "Reduce the heat by about a fifth.",
+        "C1": "Almost a fifth of the budget was allocated to marketing.",
+        "C2": "The liquid volume was reduced to one fifth of its original state."
+      },
+      "collocations": [
+        "one fifth",
+        "a fifth of"
+      ],
+      "synonyms": [
+        "one-fifth"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "fraction",
+          "part",
+          "five"
+        ],
+        "ar": [
+          "جزء",
+          "كسر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "five",
+        "verb": "",
+        "adj": "fifth",
+        "adv": ""
+      },
+      "arabicAr": "خُمس",
+      "frenchFr": "cinquième",
+      "germanDe": "Fünftel",
+      "spanishEs": "quinto",
+      "chineseZh": "五分之一 (Wǔ fēn zhī yī)",
+      "russianRu": "одна пятая",
+      "portuguesePt": "quinto",
+      "japaneseJa": "五分の一 (Gobun no ichi)",
+      "italianIt": "quinto",
+      "turkishTr": "beşte bir",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3461,
+      "wordEn": "fifty",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfɪf.ti",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْتي",
+      "translit": "Khamsūn",
+      "definitionEn": "The number 50.",
+      "definitionAr": "رقم خمسين.",
+      "usageNote": "Can refer to the decade of life (in his fifties) or a bill/note.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Age"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Fif\" زي \"Five\".. بس \"ty\" في الآخر بتدل على العشرات زي \"Sixty\".. يبقى خمسين",
+      "examples": {
+        "A1": "The answer is fifty.",
+        "A2": "She looks like she is in her fifties.",
+        "B1": "Can you change a fifty for me?",
+        "B2": "The speed limit is fifty.",
+        "C1": "The company celebrated its golden jubilee, marking fifty years.",
+        "C2": "He retired with a pension of fifty thousand a year."
+      },
+      "collocations": [
+        "fifty percent",
+        "fifty fifty",
+        "fifty dollars"
+      ],
+      "synonyms": [
+        "50",
+        "L"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "five",
+          "fifteen"
+        ],
+        "ar": [
+          "خمسة",
+          "خمستاشر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fiftieth",
+        "adv": ""
+      },
+      "arabicAr": "خمسون",
+      "frenchFr": "cinquante",
+      "germanDe": "fünfzig",
+      "spanishEs": "cincuenta",
+      "chineseZh": "五十 (Wǔ shí)",
+      "russianRu": "пятьдесят",
+      "portuguesePt": "cinquenta",
+      "japaneseJa": "五十 (Gojū)",
+      "italianIt": "cinquanta",
+      "turkishTr": "elli",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3462,
+      "wordEn": "fifty",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfɪf.ti",
+      "phoneticUk": null,
+      "phoneticAr": "فِفْتي",
+      "translit": "Khamsūn",
+      "definitionEn": "Being five times ten.",
+      "definitionAr": "رقم خمسين.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Fif\" زي \"Five\".. و \"ty\" بتاعة العشرات.. يبقى خمسين",
+      "examples": {
+        "A1": "There are fifty states in the USA.",
+        "A2": "I paid fifty dollars for this shirt.",
+        "B1": "About fifty people attended the meeting.",
+        "B2": "It happened fifty years ago.",
+        "C1": "We have a fifty percent chance of winning.",
+        "C2": "The manuscript is over fifty pages long."
+      },
+      "collocations": [
+        "fifty percent",
+        "fifty years",
+        "fifty people"
+      ],
+      "synonyms": [
+        "50"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "five",
+          "hundred"
+        ],
+        "ar": [
+          "خمسة",
+          "مائة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fiftieth",
+        "adv": ""
+      },
+      "arabicAr": "خمسون",
+      "frenchFr": "cinquante",
+      "germanDe": "fünfzig",
+      "spanishEs": "cincuenta",
+      "chineseZh": "五十 (Wǔ shí)",
+      "russianRu": "пятьдесят",
+      "portuguesePt": "cinquenta",
+      "japaneseJa": "五十 (Gojū)",
+      "italianIt": "cinquanta",
+      "turkishTr": "elli",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3463,
+      "wordEn": "five",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "faɪv",
+      "phoneticUk": null,
+      "phoneticAr": "فَايْف",
+      "translit": "Khamsa",
+      "definitionEn": "The number 5.",
+      "definitionAr": "رقم خمسة.",
+      "usageNote": "Can refer to a group of five or a five-dollar bill.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Counting"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "My sister is five.",
+        "A2": "Can you lend me a five?",
+        "B1": "The team is a solid five.",
+        "B2": "He rolled a five on the dice.",
+        "C1": "High five!",
+        "C2": "The Jackson Five were a famous group."
+      },
+      "collocations": [
+        "high five",
+        "take five",
+        "five o'clock"
+      ],
+      "synonyms": [
+        "5",
+        "V"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "six",
+          "number"
+        ],
+        "ar": [
+          "أربعة",
+          "ستة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fifth",
+        "adv": ""
+      },
+      "arabicAr": "خمسة",
+      "frenchFr": "cinq",
+      "germanDe": "fünf",
+      "spanishEs": "cinco",
+      "chineseZh": "五 (Wǔ)",
+      "russianRu": "пять",
+      "portuguesePt": "cinco",
+      "japaneseJa": "五 (Go)",
+      "italianIt": "cinque",
+      "turkishTr": "beş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3464,
+      "wordEn": "five",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "faɪv",
+      "phoneticUk": null,
+      "phoneticAr": "فَايْف",
+      "translit": "Khamsa",
+      "definitionEn": "The cardinal number sum of four and one.",
+      "definitionAr": "رقم خمسة.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have five fingers on each hand.",
+        "A2": "We waited for five minutes.",
+        "B1": "Five people were injured in the accident.",
+        "B2": "He works five days a week.",
+        "C1": "The plan has five distinct stages.",
+        "C2": "Five thousand years of history were uncovered."
+      },
+      "collocations": [
+        "five minutes",
+        "five days",
+        "five years"
+      ],
+      "synonyms": [
+        "5"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "six"
+        ],
+        "ar": [
+          "أربعة",
+          "ستة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fifth",
+        "adv": ""
+      },
+      "arabicAr": "خمسة",
+      "frenchFr": "cinq",
+      "germanDe": "fünf",
+      "spanishEs": "cinco",
+      "chineseZh": "五 (Wǔ)",
+      "russianRu": "пять",
+      "portuguesePt": "cinco",
+      "japaneseJa": "五 (Go)",
+      "italianIt": "cinque",
+      "turkishTr": "beş",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3465,
+      "wordEn": "forty",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfɔːr.t̬i",
+      "phoneticUk": "ˈfɔː.ti",
+      "phoneticAr": "فُورْتِي",
+      "translit": "Arbaʿīn",
+      "definitionEn": "The number 40.",
+      "definitionAr": "رقم أربعين.",
+      "usageNote": "Can refer to the age decade (in her forties).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Age"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "بدايتها \"For\" زي \"Four\" (أربعة).. و \"ty\" للعشرات.. يبقى أربعين",
+      "examples": {
+        "A1": "My dad is forty.",
+        "A2": "The temperature reached forty degrees.",
+        "B1": "Life begins at forty.",
+        "B2": "He looks much younger than forty.",
+        "C1": "The top forty songs are played on the radio.",
+        "C2": "The roaring forties are strong winds in the southern hemisphere."
+      },
+      "collocations": [
+        "forty years",
+        "top forty",
+        "forty winks"
+      ],
+      "synonyms": [
+        "40",
+        "XL"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "fourteen"
+        ],
+        "ar": [
+          "أربعة",
+          "أربعتاشر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fortieth",
+        "adv": ""
+      },
+      "arabicAr": "أربعين",
+      "frenchFr": "quarante",
+      "germanDe": "vierzig",
+      "spanishEs": "cuarenta",
+      "chineseZh": "四十 (Sì shí)",
+      "russianRu": "сорок",
+      "portuguesePt": "quarenta",
+      "japaneseJa": "四十 (Yonjū)",
+      "italianIt": "quaranta",
+      "turkishTr": "kırk",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3466,
+      "wordEn": "forty",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈfɔːr.t̬i",
+      "phoneticUk": "ˈfɔː.ti",
+      "phoneticAr": "فُورْتِي",
+      "translit": "Arbaʿīn",
+      "definitionEn": "Being four times ten.",
+      "definitionAr": "رقم أربعين.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي \"Four\" (أربعة) بس للعشرات.. يبقى أربعين",
+      "examples": {
+        "A1": "She has forty books.",
+        "A2": "It costs forty dollars.",
+        "B1": "There are forty students in the hall.",
+        "B2": "Forty percent of the work is done.",
+        "C1": "Ali Baba and the forty thieves is a famous story.",
+        "C2": "He spent forty days in the wilderness."
+      },
+      "collocations": [
+        "forty minutes",
+        "forty percent",
+        "forty days"
+      ],
+      "synonyms": [
+        "40"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "ten"
+        ],
+        "ar": [
+          "أربعة",
+          "عشرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fortieth",
+        "adv": ""
+      },
+      "arabicAr": "أربعين",
+      "frenchFr": "quarante",
+      "germanDe": "vierzig",
+      "spanishEs": "cuarenta",
+      "chineseZh": "四十 (Sì shí)",
+      "russianRu": "сорок",
+      "portuguesePt": "quarenta",
+      "japaneseJa": "四十 (Yonjū)",
+      "italianIt": "quaranta",
+      "turkishTr": "kırk",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3467,
+      "wordEn": "four",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "fɔːr",
+      "phoneticUk": "fɔː",
+      "phoneticAr": "فُور",
+      "translit": "Arbaʿa",
+      "definitionEn": "The number 4.",
+      "definitionAr": "رقم أربعة.",
+      "usageNote": "Can refer to a group of four or the digit itself.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Counting"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Four\" قريبة من \"For\".. \"This gift is FOR you\".. 4 يو",
+      "examples": {
+        "A1": "My brother is four.",
+        "A2": "We are a family of four.",
+        "B1": "The animal walked on all fours.",
+        "B2": "A four out of ten is a failing grade.",
+        "C1": "The Big Four accounting firms dominate the market.",
+        "C2": "The Fantastic Four are comic book heroes."
+      },
+      "collocations": [
+        "on all fours",
+        "four o'clock",
+        "big four"
+      ],
+      "synonyms": [
+        "4",
+        "IV"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "three",
+          "five",
+          "number"
+        ],
+        "ar": [
+          "تلاتة",
+          "خمسة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fourth",
+        "adv": ""
+      },
+      "arabicAr": "أربعة",
+      "frenchFr": "quatre",
+      "germanDe": "vier",
+      "spanishEs": "cuatro",
+      "chineseZh": "四 (Sì)",
+      "russianRu": "четыре",
+      "portuguesePt": "quatro",
+      "japaneseJa": "四 (Yon)",
+      "italianIt": "quattro",
+      "turkishTr": "dört",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3468,
+      "wordEn": "four",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "fɔːr",
+      "phoneticUk": "fɔː",
+      "phoneticAr": "فُور",
+      "translit": "Arbaʿa",
+      "definitionEn": "The cardinal number sum of three and one.",
+      "definitionAr": "رقم أربعة.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have four cats.",
+        "A2": "She stayed for four days.",
+        "B1": "Four people can sit at this table.",
+        "B2": "There are four seasons in a year.",
+        "C1": "Four out of five dentists recommend this.",
+        "C2": "The symphony has four movements."
+      },
+      "collocations": [
+        "four seasons",
+        "four years",
+        "four times"
+      ],
+      "synonyms": [
+        "4"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "three",
+          "five"
+        ],
+        "ar": [
+          "تلاتة",
+          "خمسة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fourth",
+        "adv": ""
+      },
+      "arabicAr": "أربعة",
+      "frenchFr": "quatre",
+      "germanDe": "vier",
+      "spanishEs": "cuatro",
+      "chineseZh": "四 (Sì)",
+      "russianRu": "четыре",
+      "portuguesePt": "quatro",
+      "japaneseJa": "四 (Yon)",
+      "italianIt": "quattro",
+      "turkishTr": "dört",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3469,
+      "wordEn": "fourteen",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌfɔːrˈtiːn",
+      "phoneticUk": "ˌfɔːˈtiːn",
+      "phoneticAr": "فُورتِين",
+      "translit": "Arbaʿat ʿashar",
+      "definitionEn": "The number 14.",
+      "definitionAr": "رقم أربعتاشر.",
+      "usageNote": "Often refers to age.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Age"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أولها \"Four\" (أربعة) وآخرها \"teen\" (عشر).. يبقى أربعتاشر",
+      "examples": {
+        "A1": "My sister is fourteen.",
+        "A2": "The bus number is fourteen.",
+        "B1": "He started working at fourteen.",
+        "B2": "Louis XIV is Louis Fourteen.",
+        "C1": "A sonnet has fourteen lines.",
+        "C2": "The atomic number of silicon is fourteen."
+      },
+      "collocations": [
+        "fourteen years old",
+        "number fourteen",
+        "fourteen days"
+      ],
+      "synonyms": [
+        "14",
+        "XIV"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "forty"
+        ],
+        "ar": [
+          "أربعة",
+          "أربعين"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fourteenth",
+        "adv": ""
+      },
+      "arabicAr": "أربعة عشر",
+      "frenchFr": "quatorze",
+      "germanDe": "vierzehn",
+      "spanishEs": "catorce",
+      "chineseZh": "十四 (Shí sì)",
+      "russianRu": "четырнадцать",
+      "portuguesePt": "catorze",
+      "japaneseJa": "十四 (Jūyon)",
+      "italianIt": "quattordici",
+      "turkishTr": "on dört",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3470,
+      "wordEn": "fourteen",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌfɔːrˈtiːn",
+      "phoneticUk": "ˌfɔːˈtiːn",
+      "phoneticAr": "فُورتِين",
+      "translit": "Arbaʿat ʿashar",
+      "definitionEn": "The cardinal number sum of ten and four.",
+      "definitionAr": "رقم أربعتاشر.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أربعة (Four) وعشرة (teen).. يبقى أربعتاشر",
+      "examples": {
+        "A1": "I have fourteen pens.",
+        "A2": "There are fourteen days in a fortnight.",
+        "B1": "Fourteen people applied for the job.",
+        "B2": "The building has fourteen floors.",
+        "C1": "Fourteen points were discussed in the agenda.",
+        "C2": "The isotope Carbon-14 is used for dating."
+      },
+      "collocations": [
+        "fourteen days",
+        "fourteen karat",
+        "fourteen points"
+      ],
+      "synonyms": [
+        "14"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "ten"
+        ],
+        "ar": [
+          "أربعة",
+          "عشرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "fourteenth",
+        "adv": ""
+      },
+      "arabicAr": "أربعة عشر",
+      "frenchFr": "quatorze",
+      "germanDe": "vierzehn",
+      "spanishEs": "catorce",
+      "chineseZh": "十四 (Shí sì)",
+      "russianRu": "четырнадцать",
+      "portuguesePt": "catorze",
+      "japaneseJa": "十四 (Jūyon)",
+      "italianIt": "quattordici",
+      "turkishTr": "on dört",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3471,
+      "wordEn": "fourth",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "fɔːrθ",
+      "phoneticUk": "fɔːθ",
+      "phoneticAr": "فُورْث",
+      "translit": "Al-rābiʿ",
+      "definitionEn": "Coming after the third in a series.",
+      "definitionAr": "الرابع في الترتيب، اللي بيجي بعد التالت.",
+      "usageNote": "Ordinal number for 4.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Ordering",
+        "#Rank"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Four\" (أربعة).. يبقى \"Fourth\" يعني الرابع",
+      "examples": {
+        "A1": "It is his fourth birthday.",
+        "A2": "They live on the fourth floor.",
+        "B1": "This is the fourth time I've seen this movie.",
+        "B2": "The fourth of July is a holiday in the US.",
+        "C1": "The press is often called the fourth estate.",
+        "C2": "He broke the fourth wall in his performance."
+      },
+      "collocations": [
+        "fourth floor",
+        "fourth grade",
+        "fourth of July"
+      ],
+      "synonyms": [
+        "4th"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "four",
+          "third",
+          "fifth"
+        ],
+        "ar": [
+          "أربعة",
+          "تالت",
+          "خامس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "four",
+        "verb": "",
+        "adj": "fourth",
+        "adv": ""
+      },
+      "arabicAr": "الرابع",
+      "frenchFr": "quatrième",
+      "germanDe": "vierte",
+      "spanishEs": "cuarto",
+      "chineseZh": "第四 (Dì sì)",
+      "russianRu": "четвертый",
+      "portuguesePt": "quarto",
+      "japaneseJa": "四番目 (Yonbanme)",
+      "italianIt": "quarto",
+      "turkishTr": "dördüncü",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3472,
+      "wordEn": "fourth",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "fɔːrθ",
+      "phoneticUk": "fɔːθ",
+      "phoneticAr": "فُورْث",
+      "translit": "Rubʿ",
+      "definitionEn": "One of four equal parts of something.",
+      "definitionAr": "الرُبع.. لما تقسم حاجة لأربع حتت قد بعض.",
+      "usageNote": "Used as a fraction (1/4). Usually 'quarter' is more common.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Fraction",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Four\" (أربعة).. يبقى \"Fourth\" يعني رُبع",
+      "examples": {
+        "A1": "I ate a fourth of the pizza.",
+        "A2": "Cut the apple into fourths.",
+        "B1": "A fourth of the class was absent.",
+        "B2": "The stock lost a fourth of its value.",
+        "C1": "Almost a fourth of the population lives in cities.",
+        "C2": "The recipe calls for three-fourths of a cup of sugar."
+      },
+      "collocations": [
+        "one fourth",
+        "three fourths"
+      ],
+      "synonyms": [
+        "quarter",
+        "one-fourth"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "quarter",
+          "four"
+        ],
+        "ar": [
+          "ربع",
+          "أربعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "four",
+        "verb": "",
+        "adj": "fourth",
+        "adv": ""
+      },
+      "arabicAr": "رُبع",
+      "frenchFr": "quart",
+      "germanDe": "Viertel",
+      "spanishEs": "cuarto",
+      "chineseZh": "四分之一 (Sì fēn zhī yī)",
+      "russianRu": "четверть",
+      "portuguesePt": "quarto",
+      "japaneseJa": "四分の一 (Yonbun no ichi)",
+      "italianIt": "quarto",
+      "turkishTr": "çeyrek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 3473,
+      "wordEn": "goodbye",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌɡʊdˈbaɪ",
+      "phoneticUk": null,
+      "phoneticAr": "جُود بَاي",
+      "translit": "Wadāʿan",
+      "definitionEn": "The act of saying farewell.",
+      "definitionAr": "كلمة الوداع نفسها أو لحظة الوداع.",
+      "usageNote": "Can be used as a countable noun (a long goodbye).",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Greeting",
+        "#Farewell"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Good\" يعني خير.. و \"Bye\" يعني مع السلامة.. بتتمنى الخير للشخص وانت ماشي",
+      "examples": {
+        "A1": "We said our goodbyes.",
+        "A2": "It was a sad goodbye.",
+        "B1": "She left without a goodbye.",
+        "B2": "They exchanged a quick goodbye at the station.",
+        "C1": "The long goodbye was emotionally draining.",
+        "C2": "He waved a final goodbye as the train pulled away."
+      },
+      "collocations": [
+        "say goodbye",
+        "kiss goodbye",
+        "final goodbye"
+      ],
+      "synonyms": [
+        "farewell",
+        "leave-taking"
+      ],
+      "antonyms": [
+        "greeting",
+        "welcome"
+      ],
+      "relatedWords": {
+        "en": [
+          "bye",
+          "hello",
+          "farewell"
+        ],
+        "ar": [
+          "باي",
+          "أهلاً",
+          "وداع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "goodbye",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "وداعاً",
+      "frenchFr": "au revoir",
+      "germanDe": "Abschied",
+      "spanishEs": "adiós",
+      "chineseZh": "再见 (Zàijiàn)",
+      "russianRu": "прощание",
+      "portuguesePt": "adeus",
+      "japaneseJa": "さようなら (Sayōnara)",
+      "italianIt": "addio",
+      "turkishTr": "elveda",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3474,
+      "wordEn": "goodbye",
+      "pos": "excl",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌɡʊdˈbaɪ",
+      "phoneticUk": null,
+      "phoneticAr": "جُود بَاي",
+      "translit": "Maʿa al-salāma",
+      "definitionEn": "Used when leaving someone or ending a conversation.",
+      "definitionAr": "كلمة بنقولها لما نمشي ونسيب حد.. مع السلامة.",
+      "usageNote": "Standard formal or informal farewell.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Greeting",
+        "#Farewell"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Good\" يعني خير.. و \"Bye\" يعني مع السلامة",
+      "examples": {
+        "A1": "Goodbye, see you tomorrow.",
+        "A2": "He said goodbye and left.",
+        "B1": "Time to say goodbye.",
+        "B2": "Goodbye for now, I'll call you later.",
+        "C1": "She kissed him goodbye.",
+        "C2": "He waved goodbye to his former life."
+      },
+      "collocations": [
+        "say goodbye",
+        "wave goodbye"
+      ],
+      "synonyms": [
+        "bye",
+        "see you",
+        "farewell"
+      ],
+      "antonyms": [
+        "hello",
+        "hi"
+      ],
+      "relatedWords": {
+        "en": [
+          "bye",
+          "later"
+        ],
+        "ar": [
+          "باي",
+          "أراك لاحقاً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "goodbye",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مع السلامة",
+      "frenchFr": "au revoir",
+      "germanDe": "auf Wiedersehen",
+      "spanishEs": "adiós",
+      "chineseZh": "再见 (Zàijiàn)",
+      "russianRu": "до свидания",
+      "portuguesePt": "tchau",
+      "japaneseJa": "さようなら (Sayōnara)",
+      "italianIt": "arrivederci",
+      "turkishTr": "güle güle",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3475,
+      "wordEn": "grandparent",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "10",
+      "phoneticUs": "ˈɡræn.per.ənt",
+      "phoneticUk": "ˈɡræn.peə.rənt",
+      "phoneticAr": "جْرَانْد پيرَنت",
+      "translit": "Jadd / Jadda",
+      "definitionEn": "The father or mother of a person's father or mother.",
+      "definitionAr": "الجد أو الجدة.. أبو باباك أو أم باباك.",
+      "usageNote": "Usually used in the plural 'grandparents' to refer to both.",
+      "category": "Family & Relationships",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Family",
+        "#Relatives"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Grand\" يعني كبير.. و \"Parent\" يعني أب أو أم.. يبقى الأب الكبير (الجد)",
+      "examples": {
+        "A1": "I visit my grandparent every week.",
+        "A2": "My grandparents live in a big house.",
+        "B1": "Being a grandparent is a joy.",
+        "B2": "Many children are raised by a grandparent.",
+        "C1": "She inherited the estate from her grandparent.",
+        "C2": "The role of the grandparent has evolved in modern society."
+      },
+      "collocations": [
+        "visit grandparents",
+        "grandparent's house"
+      ],
+      "synonyms": [
+        "grandma",
+        "grandpa"
+      ],
+      "antonyms": [
+        "grandchild"
+      ],
+      "relatedWords": {
+        "en": [
+          "grandfather",
+          "grandmother",
+          "parent"
+        ],
+        "ar": [
+          "جد",
+          "جدة",
+          "والد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "grandparent",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الجد",
+      "frenchFr": "grand-parent",
+      "germanDe": "Großelternteil",
+      "spanishEs": "abuelo",
+      "chineseZh": "祖父母 (Zǔfùmǔ)",
+      "russianRu": "дедушка или бабушка",
+      "portuguesePt": "avô / avó",
+      "japaneseJa": "祖父母 (Sofubo)",
+      "italianIt": "nonno",
+      "turkishTr": "büyükanne / büyükbaba",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3476,
+      "wordEn": "gym",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "5",
+      "phoneticUs": "dʒɪm",
+      "phoneticUk": null,
+      "phoneticAr": "جِيم",
+      "translit": "Nādī riyāḍī",
+      "definitionEn": "A place with equipment for doing physical exercise.",
+      "definitionAr": "المكان اللي بنروح فيه عشان نتمرن ونلعب رياضة.",
+      "usageNote": "Short for gymnasium.",
+      "category": "Health & Senses",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Sports",
+        "#Exercise",
+        "#Fitness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Gym\" اختصار لـ \"Gymnastics\".. المكان اللي بنعمل فيه تمارين",
+      "examples": {
+        "A1": "I go to the gym on Mondays.",
+        "A2": "The hotel has a swimming pool and a gym.",
+        "B1": "He joined a gym to lose weight.",
+        "B2": "She works as a fitness instructor at the local gym.",
+        "C1": "Gym membership fees have increased this year.",
+        "C2": "The gym culture has exploded in urban areas recently."
+      },
+      "collocations": [
+        "go to the gym",
+        "gym membership",
+        "gym clothes"
+      ],
+      "synonyms": [
+        "gymnasium",
+        "fitness center"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "exercise",
+          "workout",
+          "sport"
+        ],
+        "ar": [
+          "تمرين",
+          "رياضة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "gym",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نادي رياضي",
+      "frenchFr": "gymnase",
+      "germanDe": "Fitnessstudio",
+      "spanishEs": "gimnasio",
+      "chineseZh": "健身房 (Jiànshēnfáng)",
+      "russianRu": "спортзал",
+      "portuguesePt": "academia",
+      "japaneseJa": "ジム (Jimu)",
+      "italianIt": "palestra",
+      "turkishTr": "spor salonu",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3477,
+      "wordEn": "hi",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "haɪ",
+      "phoneticUk": null,
+      "phoneticAr": "هَاي",
+      "translit": "Ahlan",
+      "definitionEn": "An informal greeting.",
+      "definitionAr": "كلمة ترحيب بسيطة بين الصحاب.. زي أهلاً.",
+      "usageNote": "Less formal than 'hello'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Greeting",
+        "#Informal"
+      ],
+      "register": "Informal",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "She said hi to me.",
+        "A2": "I gave him a quick hi.",
+        "B1": "We exchanged a hi and kept walking.",
+        "B2": "A friendly hi can start a conversation.",
+        "C1": "He didn't even give me a hi.",
+        "C2": "The casual hi belied the tension in the room."
+      },
+      "collocations": [
+        "say hi",
+        "quick hi"
+      ],
+      "synonyms": [
+        "hello",
+        "hey"
+      ],
+      "antonyms": [
+        "goodbye",
+        "bye"
+      ],
+      "relatedWords": {
+        "en": [
+          "hello",
+          "greeting"
+        ],
+        "ar": [
+          "مرحبا",
+          "تحية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hi",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أهلاً",
+      "frenchFr": "salut",
+      "germanDe": "Hallo",
+      "spanishEs": "hola",
+      "chineseZh": "嗨 (Hāi)",
+      "russianRu": "привет",
+      "portuguesePt": "oi",
+      "japaneseJa": "やあ (Yā)",
+      "italianIt": "ciao",
+      "turkishTr": "selam",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3478,
+      "wordEn": "hi",
+      "pos": "excl",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "haɪ",
+      "phoneticUk": null,
+      "phoneticAr": "هَاي",
+      "translit": "Ahlan",
+      "definitionEn": "Used as a friendly greeting.",
+      "definitionAr": "كلمة بنقولها لما نقابل حد.. أهلاً.",
+      "usageNote": "Very common in spoken English.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Greeting",
+        "#Informal"
+      ],
+      "register": "Informal",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Hi, how are you?",
+        "A2": "Hi John, nice to see you.",
+        "B1": "Hi guys, what are you doing?",
+        "B2": "Oh, hi! I didn't see you there.",
+        "C1": "Hi there, stranger!",
+        "C2": "\"Hi,\" she whispered softly."
+      },
+      "collocations": [
+        "hi there",
+        "say hi"
+      ],
+      "synonyms": [
+        "hello",
+        "hey"
+      ],
+      "antonyms": [
+        "bye"
+      ],
+      "relatedWords": {
+        "en": [
+          "hello",
+          "hey"
+        ],
+        "ar": [
+          "مرحبا",
+          "يا"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hi",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أهلاً",
+      "frenchFr": "salut",
+      "germanDe": "hallo",
+      "spanishEs": "hola",
+      "chineseZh": "嗨 (Hāi)",
+      "russianRu": "привет",
+      "portuguesePt": "oi",
+      "japaneseJa": "こんにちは (Konnichiwa)",
+      "italianIt": "ciao",
+      "turkishTr": "merhaba",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3479,
+      "wordEn": "hundred",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈhʌn.drəd",
+      "phoneticUk": null,
+      "phoneticAr": "هَانْدْرِد",
+      "translit": "Mi'a",
+      "definitionEn": "The number 100.",
+      "definitionAr": "رقم مية.",
+      "usageNote": "Used with 'a' or 'one' (a hundred / one hundred).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Hun\" قريبة من \"Hen\" (فرخة).. تخيل \"Hundred\" فرخة بيجروا ورا بعض",
+      "examples": {
+        "A1": "I have a hundred dollars.",
+        "A2": "There are over a hundred people here.",
+        "B1": "The car was going a hundred miles an hour.",
+        "B2": "Hundreds of people gathered in the square.",
+        "C1": "He has done this a hundred times.",
+        "C2": "The castle was built several hundred years ago."
+      },
+      "collocations": [
+        "one hundred",
+        "hundreds of",
+        "hundred percent"
+      ],
+      "synonyms": [
+        "100",
+        "century"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "thousand",
+          "million"
+        ],
+        "ar": [
+          "ألف",
+          "مليون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "hundredth",
+        "adv": ""
+      },
+      "arabicAr": "مائة",
+      "frenchFr": "cent",
+      "germanDe": "hundert",
+      "spanishEs": "cien",
+      "chineseZh": "一百 (Yībǎi)",
+      "russianRu": "сто",
+      "portuguesePt": "cem",
+      "japaneseJa": "百 (Hyaku)",
+      "italianIt": "cento",
+      "turkishTr": "yüz",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3480,
+      "wordEn": "hundred",
+      "pos": "num",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈhʌn.drəd",
+      "phoneticUk": null,
+      "phoneticAr": "هَانْدْرِد",
+      "translit": "Mi'a",
+      "definitionEn": "The cardinal number 100.",
+      "definitionAr": "رقم مية.",
+      "usageNote": "Used for counting.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "There are one hundred cents in a dollar.",
+        "A2": "The book has two hundred pages.",
+        "B1": "Several hundred students graduated this year.",
+        "B2": "The population is a few hundred thousand.",
+        "C1": "One hundred percent agreement is rare.",
+        "C2": "The artifact is five hundred years old."
+      },
+      "collocations": [
+        "one hundred",
+        "two hundred"
+      ],
+      "synonyms": [
+        "100"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "ten",
+          "thousand"
+        ],
+        "ar": [
+          "عشرة",
+          "ألف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "hundredth",
+        "adv": ""
+      },
+      "arabicAr": "مائة",
+      "frenchFr": "cent",
+      "germanDe": "hundert",
+      "spanishEs": "cien",
+      "chineseZh": "一百 (Yībǎi)",
+      "russianRu": "сто",
+      "portuguesePt": "cem",
+      "japaneseJa": "百 (Hyaku)",
+      "italianIt": "cento",
+      "turkishTr": "yüz",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 3481,
+      "wordEn": "ice cream",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈaɪs ˌkriːm",
+      "phoneticUk": null,
+      "phoneticAr": "آيس كْرِيم",
+      "translit": "Būẓa",
+      "definitionEn": "A frozen sweet food made from milk, cream, and sugar.",
+      "definitionAr": "الحلوى المتلجة اللي معمولة من اللبن والسكر.. البوظة.",
+      "usageNote": "Uncountable as a substance, countable as portions (two ice creams).",
+      "category": "Food & Drink",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Dessert",
+        "#Food",
+        "#Sweet"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Ice\" يعني تلج.. و \"Cream\" يعني قشطة.. قشطة متلجة",
+      "examples": {
+        "A1": "I like chocolate ice cream.",
+        "A2": "We bought an ice cream at the beach.",
+        "B1": "Do you want a scoop of ice cream with your pie?",
+        "B2": "The ice cream melted in the sun.",
+        "C1": "Artisanal ice cream is becoming very popular.",
+        "C2": "The texture of the gelato was smoother than traditional ice cream."
+      },
+      "collocations": [
+        "ice cream cone",
+        "chocolate ice cream",
+        "scoop of ice cream"
+      ],
+      "synonyms": [
+        "frozen dessert",
+        "gelato"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "dessert",
+          "cone",
+          "vanilla",
+          "chocolate"
+        ],
+        "ar": [
+          "حلوى",
+          "فانيليا",
+          "شوكولاتة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "ice cream",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بوظة",
+      "frenchFr": "glace",
+      "germanDe": "Eis",
+      "spanishEs": "helado",
+      "chineseZh": "冰淇淋 (Bīngqílín)",
+      "russianRu": "мороженое",
+      "portuguesePt": "sorvete",
+      "japaneseJa": "アイスクリーム (Aisukurīmu)",
+      "italianIt": "gelato",
+      "turkishTr": "dondurma",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 3482,
+      "wordEn": "million",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈmɪl.jən",
+      "phoneticUk": null,
+      "phoneticAr": "مِلْيَن",
+      "translit": "Milyūn",
+      "definitionEn": "The number 1,000,000.",
+      "definitionAr": "رقم مليون.. ألف ألف.",
+      "usageNote": "Can express a very large indefinite number (thanks a million).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Numbers",
+        "#Money"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Million\" شبه \"Melon\" (بطيخة).. تخيل بطيخة فيها مليون بذرة",
+      "examples": {
+        "A1": "He won a million dollars.",
+        "A2": "There are millions of stars in the sky.",
+        "B1": "The city has a population of two million.",
+        "B2": "I've told you a million times not to do that.",
+        "C1": "The project ran millions over budget.",
+        "C2": "The odds of winning are one in a million."
+      },
+      "collocations": [
+        "one million",
+        "thanks a million",
+        "million dollars"
+      ],
+      "synonyms": [
+        "1,000,000"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "thousand",
+          "billion"
+        ],
+        "ar": [
+          "ألف",
+          "مليار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "millionth",
+        "adv": ""
+      },
+      "arabicAr": "مليون",
+      "frenchFr": "million",
+      "germanDe": "Million",
+      "spanishEs": "millón",
+      "chineseZh": "百万 (Bǎiwàn)",
+      "russianRu": "миллион",
+      "portuguesePt": "milhão",
+      "japaneseJa": "百万 (Hyakuman)",
+      "italianIt": "milione",
+      "turkishTr": "milyon",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

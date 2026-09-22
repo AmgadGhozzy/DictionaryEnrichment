@@ -1,0 +1,574 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 116,
+    "wordEn": "could",
+    "pos": "modal",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 116,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "kʊd",
+    "phoneticUk": "kəd",
+    "phoneticAr": "كود",
+    "translit": "astatae",
+    "definitionEn": "[\"Was, should be, or would be, able, capable, or susceptible.\"]",
+    "usageNote": "Used to politely ask for permission to do something.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they could be right\", \"they could have told me!\", \"could I use the phone?\"], \"A2\": [\"I would go if I could afford it\", \"he irritates me so much that I could scream\"]}",
+    "collocations": "[\"Could I borrow your coat\", \"Could you proofread this email\", \"how could\", \"could ambition\"]",
+    "synonyms": "[\"might\", \"maybe\", \"ought\", \"likely\", \"possible\"]",
+    "antonyms": "[\"can't\", \"cannot\", \"can’t\"]",
+    "relatedWords": "{\"en\": [\"might\", \"possible\", \"likely\", \"maybe\", \"ought\"], \"ar\": []}",
+    "arabicAr": "استطاع / يمكن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 117,
+    "wordEn": "so",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 117,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "səʊ",
+    "phoneticAr": "ساو",
+    "translit": "lidha / wabialttali",
+    "definitionEn": "[\"to such a great extent.\", \"referring back to something previously mentioned.\", \"in the way described or demonstrated; thus.\"]",
+    "usageNote": "used to express purpose; in order that.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hold your arms so\", \"and so to the finals\", \"that's so not fair\", \"So how does this story end\"], \"A2\": [\"so what did he do about it?\", \"you are so going to regret this\", \"you know I'm telling the truth, so don't interrupt\", \"if she notices, she never says so\"], \"B2\": [\"just as bad money drives out good, so does bad art drive out the good\"]}",
+    "collocations": "[\"So how does this story end\"]",
+    "synonyms": "[\"sol\", \"soh\", \"thus\", \"then\", \"thusly\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"then\", \"thusly\", \"thus\", \"indeed\", \"truthful\"], \"ar\": [\"صحيح\", \"هكذا\", \"إلى هذا الحدّ\", \"جداً\", \"وبالتالي\", \"جدا\"]}",
+    "arabicAr": "لذا / لذلك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 118,
+    "wordEn": "so",
+    "pos": "conj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 118,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "səʊ",
+    "phoneticAr": "ساو",
+    "translit": "lidha / wabialttali",
+    "definitionEn": "[\"to such a great extent.\", \"referring back to something previously mentioned.\", \"in the way described or demonstrated; thus.\"]",
+    "usageNote": "used to express purpose; in order that.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hold your arms so\", \"and so to the finals\", \"that's so not fair\", \"So how does this story end\"], \"A2\": [\"so what did he do about it?\", \"you are so going to regret this\", \"you know I'm telling the truth, so don't interrupt\", \"if she notices, she never says so\"], \"B2\": [\"just as bad money drives out good, so does bad art drive out the good\"]}",
+    "collocations": "[\"So how does this story end\"]",
+    "synonyms": "[\"sol\", \"soh\", \"thus\", \"then\", \"thusly\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"then\", \"thusly\", \"thus\", \"indeed\", \"truthful\"], \"ar\": [\"صحيح\", \"هكذا\", \"إلى هذا الحدّ\", \"جداً\", \"وبالتالي\", \"جدا\"]}",
+    "arabicAr": "لذا / لذلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 119,
+    "wordEn": "so",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 119,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "səʊ",
+    "phoneticAr": "ساو",
+    "translit": "lidha / wabialttali",
+    "definitionEn": "[\"to such a great extent.\", \"referring back to something previously mentioned.\", \"in the way described or demonstrated; thus.\"]",
+    "usageNote": "used to express purpose; in order that.",
+    "category": "Social Life & Communication",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"hold your arms so\", \"and so to the finals\", \"that's so not fair\", \"So how does this story end\"], \"A2\": [\"so what did he do about it?\", \"you are so going to regret this\", \"you know I'm telling the truth, so don't interrupt\", \"if she notices, she never says so\"], \"B2\": [\"just as bad money drives out good, so does bad art drive out the good\"]}",
+    "collocations": "[\"So how does this story end\"]",
+    "synonyms": "[\"sol\", \"soh\", \"thus\", \"then\", \"thusly\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"then\", \"thusly\", \"thus\", \"indeed\", \"truthful\"], \"ar\": [\"صحيح\", \"هكذا\", \"إلى هذا الحدّ\", \"جداً\", \"وبالتالي\", \"جدا\"]}",
+    "arabicAr": "لذا / لذلك",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 120,
+    "wordEn": "him",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 120,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "əm",
+    "phoneticAr": "ام",
+    "translit": "lah",
+    "definitionEn": "[\"used as the object of a verb or preposition to refer to a male person or animal previously mentioned or easily identified.\", \"The objective case of he\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"that's him all right\", \"his wife survived him\", \"he took the children with him\"], \"A2\": [\"I could never be as good as him\"], \"B1\": [\"withdrawing your child from school to educate him at home may seem drastic\"]}",
+    "collocations": "[\"exalted him\", \"him professionals\"]",
+    "synonyms": "[\"man\", \"her\", \"boy\", \"she\", \"guy\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"man\", \"her\", \"boy\", \"she\", \"guy\"], \"ar\": [\"ضمير النصب والجرّ للمفرد الغائب\", \"اعطيته القلم\", \"رايته\", \"افكر فيه\"]}",
+    "arabicAr": "له / هو (ضمير متصل)",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 121,
+    "wordEn": "year",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 121,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "jɪɹ",
+    "phoneticUk": "jɪə",
+    "phoneticAr": "يير",
+    "translit": "sana / eam",
+    "definitionEn": "[\"the time taken by the earth to make one revolution around the sun.\", \"the period of 365 days starting from the first of January, used for reckoning time in ordinary affairs.\", \"one's age or time of life.\"]",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the Muslim year\", \"the year starting July 1\", \"single-vineyard wine of a good year\"], \"B2\": [\"most of the girls in my year were leaving school at the end of the term\"]}",
+    "collocations": "[\"last year\", \"year period\"]",
+    "synonyms": "[\"class\", \"twelvemonth\", \"calendar year\", \"twelve-month period\", \"twelve-month session\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"twelvemonth\", \"yr\", \"class\", \"month\", \"annum\"], \"ar\": [\"حَوْل\", \"سَنَة\", \"عام\", \"شيخوخة\", \"سنة\", \"حول سنة\"]}",
+    "arabicAr": "سنة",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 122,
+    "wordEn": "into",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 122,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈɪn.tuː",
+    "phoneticUk": "ˈɪn.tu",
+    "phoneticAr": "ينتو",
+    "translit": "dakhil / ''iilaa",
+    "syllabify": "in•to",
+    "definitionEn": "[\"expressing movement or action with the result that someone or something becomes enclosed or surrounded by something else.\", \"expressing movement or action with the result that someone or something makes physical contact with something else.\", \"indicating a route by which someone or something may arrive at a particular destination.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"an inquiry into the squad's practices\", \"he's into surfing\", \"three into twelve equals four\"], \"A2\": [\"a clearer insight into what is involved\", \"Sara got into her car and shut the door\", \"cover the bowl and put it into the fridge\", \"the fruit can be made into jam\"], \"B1\": [\"they forced the club into a humiliating and expensive special general meeting\"]}",
+    "collocations": "[\"dissolve into\", \"into statement\"]",
+    "synonyms": "[\"till\", \"join\", \"onto\", \"nova\", \"south\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"till\", \"join\", \"onto\", \"south\", \"nova\"], \"ar\": [\"إلى\", \"نَحْوَ\", \"في\", \"نحو\", \"في داخل\", \"في الداخل\"]}",
+    "arabicAr": "داخل / في",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 123,
+    "wordEn": "into",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 123,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈɪn.tuː",
+    "phoneticUk": "ˈɪn.tu",
+    "phoneticAr": "ينتو",
+    "translit": "dakhil / ''iilaa",
+    "syllabify": "in•to",
+    "definitionEn": "[\"expressing movement or action with the result that someone or something becomes enclosed or surrounded by something else.\", \"expressing movement or action with the result that someone or something makes physical contact with something else.\", \"indicating a route by which someone or something may arrive at a particular destination.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"an inquiry into the squad's practices\", \"he's into surfing\", \"three into twelve equals four\"], \"A2\": [\"a clearer insight into what is involved\", \"Sara got into her car and shut the door\", \"cover the bowl and put it into the fridge\", \"the fruit can be made into jam\"], \"B1\": [\"they forced the club into a humiliating and expensive special general meeting\"]}",
+    "collocations": "[\"dissolve into\", \"into statement\"]",
+    "synonyms": "[\"till\", \"join\", \"onto\", \"nova\", \"south\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"till\", \"join\", \"onto\", \"south\", \"nova\"], \"ar\": [\"إلى\", \"نَحْوَ\", \"في\", \"نحو\", \"في داخل\", \"في الداخل\"]}",
+    "arabicAr": "داخل / في",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 124,
+    "wordEn": "its",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 124,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪts",
+    "phoneticAr": "يتس",
+    "translit": "'iinah / ''iinaha",
+    "definitionEn": "[\"belonging to or associated with a thing previously mentioned or easily identified.\", \"Possessive form of the pronoun it\"]",
+    "category": "Mind & Thinking",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"turn the camera on its side\", \"a baby in its mother's womb\", \"caught them doing it\"], \"A2\": [\"he chose the area for its atmosphere\"]}",
+    "collocations": "[\"new its\", \"its consequences\"]",
+    "synonyms": "[\"ids\", \"lts\", \"sci\", \"los\", \"information technology\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ids\", \"lts\", \"sci\", \"los\", \"ses\"], \"ar\": [\"صِيغَةُ مِلْكِيَّةٍ للمُفْرَدِ الغَائِب\", \"لها\", \"له\", \"هي\", \"هو\", \"له ملكيته\"]}",
+    "arabicAr": "إنه / لها (لغير العاقل)",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 125,
+    "wordEn": "its",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 125,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ɪts",
+    "phoneticAr": "يتس",
+    "translit": "'iinah / ''iinaha",
+    "definitionEn": "[\"belonging to or associated with a thing previously mentioned or easily identified.\", \"Possessive form of the pronoun it\"]",
+    "category": "Mind & Thinking",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"turn the camera on its side\", \"a baby in its mother's womb\", \"caught them doing it\"], \"A2\": [\"he chose the area for its atmosphere\"]}",
+    "collocations": "[\"new its\", \"its consequences\"]",
+    "synonyms": "[\"ids\", \"lts\", \"sci\", \"los\", \"information technology\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"ids\", \"lts\", \"sci\", \"los\", \"ses\"], \"ar\": [\"صِيغَةُ مِلْكِيَّةٍ للمُفْرَدِ الغَائِب\", \"لها\", \"له\", \"هي\", \"هو\", \"له ملكيته\"]}",
+    "arabicAr": "إنه / لها (لغير العاقل)",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 126,
+    "wordEn": "then",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 126,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðen",
+    "phoneticUk": "ðɛn",
+    "phoneticAr": "ذاين",
+    "translit": "thuma",
+    "definitionEn": "[\"at that time; at the time in question.\", \"after that; next; afterward.\", \"in that case; therefore.\"]",
+    "usageNote": "Used to contradict an assertion.",
+    "category": "Numbers, Time & Math",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"well, that's okay then\", \"so you're still here then\", \"I was living in Cairo then\", \"Phoebe by then was exhausted\"], \"A2\": [\"she won the first and then the second game\"], \"B1\": [\"a hotel where the then prime minister, Margaret Thatcher, was staying\", \"if you do what I tell you, then there's nothing to worry about\"], \"B2\": [\"I'm paid a generous salary, and then there's the money I've made at the races\"]}",
+    "collocations": "[\"what then\", \"then state\"]",
+    "synonyms": "[\"and so\", \"and then\", \"at that time\", \"at that point\", \"in those days\"]",
+    "antonyms": "[\"now\"]",
+    "relatedWords": "{\"en\": [\"past\", \"so\", \"and so\", \"and then\", \"now\"], \"ar\": [\"قائم أو موجود آنذاك\", \"آنئذٍ\", \"آنذاك\", \"بعدئذ\", \"ثمَّ\", \"علاوةً على ذلك\"]}",
+    "arabicAr": "ثم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 127,
+    "wordEn": "then",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 127,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðen",
+    "phoneticUk": "ðɛn",
+    "phoneticAr": "ذاين",
+    "translit": "thuma",
+    "definitionEn": "[\"at that time; at the time in question.\", \"after that; next; afterward.\", \"in that case; therefore.\"]",
+    "usageNote": "Used to contradict an assertion.",
+    "category": "Numbers, Time & Math",
+    "register": "Archaic",
+    "examples": "{\"A1\": [\"well, that's okay then\", \"so you're still here then\", \"I was living in Cairo then\", \"Phoebe by then was exhausted\"], \"A2\": [\"she won the first and then the second game\"], \"B1\": [\"a hotel where the then prime minister, Margaret Thatcher, was staying\", \"if you do what I tell you, then there's nothing to worry about\"], \"B2\": [\"I'm paid a generous salary, and then there's the money I've made at the races\"]}",
+    "collocations": "[\"what then\", \"then state\"]",
+    "synonyms": "[\"and so\", \"and then\", \"at that time\", \"at that point\", \"in those days\"]",
+    "antonyms": "[\"now\"]",
+    "relatedWords": "{\"en\": [\"past\", \"so\", \"and so\", \"and then\", \"now\"], \"ar\": [\"قائم أو موجود آنذاك\", \"آنئذٍ\", \"آنذاك\", \"بعدئذ\", \"ثمَّ\", \"علاوةً على ذلك\"]}",
+    "arabicAr": "ثم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 128,
+    "wordEn": "think",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 128,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "θɪŋk",
+    "phoneticAr": "ثينجك",
+    "translit": "yufakir",
+    "definitionEn": "[\"have a particular opinion, belief, or idea about someone or something.\", \"direct one's mind toward someone or something; use one's mind actively to form connected ideas.\", \"To employ any of the intellectual powers except that of simple perception through the senses\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what do you think you're doing?\", \"I can't think where she's gone\", \"one should always think positive\"], \"A2\": [\"I went for a walk to have a think\"], \"B1\": [\"think of being paid a salary to hunt big game!\"]}",
+    "collocations": "[\"many think\", \"think point\"]",
+    "synonyms": "[\"opine\", \"reckon\", \"believe\", \"consider\", \"conceive\"]",
+    "antonyms": "[\"forget\"]",
+    "relatedWords": "{\"en\": [\"cerebrate\", \"cogitate\", \"consider\", \"suppose\", \"guess\"], \"ar\": [\"تفكير\", \"رأي\", \"فكرة\", \"فكريّ\", \"فكر\", \"اعتقد\"]}",
+    "arabicAr": "يفكر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 129,
+    "wordEn": "think",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 129,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "θɪŋk",
+    "phoneticAr": "ثينجك",
+    "translit": "yufakir",
+    "definitionEn": "[\"have a particular opinion, belief, or idea about someone or something.\", \"direct one's mind toward someone or something; use one's mind actively to form connected ideas.\", \"To employ any of the intellectual powers except that of simple perception through the senses\"]",
+    "category": "Mind & Thinking",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"what do you think you're doing?\", \"I can't think where she's gone\", \"one should always think positive\"], \"A2\": [\"I went for a walk to have a think\"], \"B1\": [\"think of being paid a salary to hunt big game!\"]}",
+    "collocations": "[\"many think\", \"think point\"]",
+    "synonyms": "[\"opine\", \"reckon\", \"believe\", \"consider\", \"conceive\"]",
+    "antonyms": "[\"forget\"]",
+    "relatedWords": "{\"en\": [\"cerebrate\", \"cogitate\", \"consider\", \"suppose\", \"guess\"], \"ar\": [\"تفكير\", \"رأي\", \"فكرة\", \"فكريّ\", \"فكر\", \"اعتقد\"]}",
+    "arabicAr": "يفكر",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 130,
+    "wordEn": "my",
+    "pos": "excl",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 130,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mi",
+    "phoneticUk": "maɪ",
+    "phoneticAr": "مي",
+    "translit": "ly / li",
+    "definitionEn": "[\"belonging to or associated with the speaker.\", \"used in various expressions of surprise.\", \"variant spelling of myo- shortened before a vowel .\"]",
+    "usageNote": "Used to express surprise, shock or amazement.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"my goodness!\", \"oh my!\", \"my name is John\", \"my poor baby\", \"my friend\", \"my dear boy\"], \"A2\": [\"my Francine won top honors in the science fair\"]}",
+    "collocations": "[\"Don't you know my name\"]",
+    "synonyms": "[\"own\", \"rady\", \"mine\", \"private\", \"personal\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"rady\", \"mine\", \"own\", \"personal\", \"private\"], \"ar\": [\"ضمير المتكلم المضاف إليه\", \"لي\", \"خاصتي\", \"ضمير المتكلم المضاف اليه\"]}",
+    "arabicAr": "لي / ملكي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 131,
+    "wordEn": "my",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 131,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "mi",
+    "phoneticUk": "maɪ",
+    "phoneticAr": "مي",
+    "translit": "ly / li",
+    "definitionEn": "[\"belonging to or associated with the speaker.\", \"used in various expressions of surprise.\", \"variant spelling of myo- shortened before a vowel .\"]",
+    "usageNote": "Used to express surprise, shock or amazement.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"my goodness!\", \"oh my!\", \"my name is John\", \"my poor baby\", \"my friend\", \"my dear boy\"], \"A2\": [\"my Francine won top honors in the science fair\"]}",
+    "collocations": "[\"Don't you know my name\"]",
+    "synonyms": "[\"own\", \"rady\", \"mine\", \"private\", \"personal\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"rady\", \"mine\", \"own\", \"personal\", \"private\"], \"ar\": [\"ضمير المتكلم المضاف إليه\", \"لي\", \"خاصتي\", \"ضمير المتكلم المضاف اليه\"]}",
+    "arabicAr": "لي / ملكي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 132,
+    "wordEn": "come",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 132,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kʌm",
+    "phoneticAr": "كام",
+    "translit": "yati / tati",
+    "definitionEn": "[\"move or travel toward or into a place thought of as near or familiar to the speaker.\", \"occur; happen; take place.\", \"take or occupy a specified position in space, order, or priority.\"]",
+    "usageNote": "Used to indicate a point in time at or after which a stated event or situation occurs.",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"come and live with me\", \"his shirt had come undone\"], \"A2\": [\"prisons come far down the list of priorities\", \"do you want to come fishing tomorrow?\", \"I let my stupid pride come between us\", \"the cars come with a variety of extras\", \"“Come, come, child, no need to thank me.”\", \"we have certainly come a long way since Aristotle\"]}",
+    "collocations": "[\"Stop dawdling and come here\", \"Come in me\", \"come true\", \"come about\", \"come clean\"]",
+    "synonyms": "[\"seed\", \"semen\", \"ejaculate\", \"move nearer\", \"seminal fluid\"]",
+    "antonyms": "[\"leave\"]",
+    "relatedWords": "{\"en\": [\"arrive\", \"come in\", \"occur\", \"get\", \"get along\"], \"ar\": [\"تَحيض\", \"تَطمُث\", \"جاء\", \"أتى\", \"وصل\", \"حضر\"]}",
+    "arabicAr": "يأتي",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 133,
+    "wordEn": "come",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 133,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "kʌm",
+    "phoneticAr": "كام",
+    "translit": "yati / tati",
+    "definitionEn": "[\"move or travel toward or into a place thought of as near or familiar to the speaker.\", \"occur; happen; take place.\", \"take or occupy a specified position in space, order, or priority.\"]",
+    "usageNote": "Used to indicate a point in time at or after which a stated event or situation occurs.",
+    "category": "Health & Senses",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"come and live with me\", \"his shirt had come undone\"], \"A2\": [\"prisons come far down the list of priorities\", \"do you want to come fishing tomorrow?\", \"I let my stupid pride come between us\", \"the cars come with a variety of extras\", \"“Come, come, child, no need to thank me.”\", \"we have certainly come a long way since Aristotle\"]}",
+    "collocations": "[\"Stop dawdling and come here\", \"Come in me\", \"come true\", \"come about\", \"come clean\"]",
+    "synonyms": "[\"seed\", \"semen\", \"ejaculate\", \"move nearer\", \"seminal fluid\"]",
+    "antonyms": "[\"leave\"]",
+    "relatedWords": "{\"en\": [\"arrive\", \"come in\", \"occur\", \"get\", \"get along\"], \"ar\": [\"تَحيض\", \"تَطمُث\", \"جاء\", \"أتى\", \"وصل\", \"حضر\"]}",
+    "arabicAr": "يأتي",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 134,
+    "wordEn": "than",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 134,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðæn",
+    "phoneticUk": "ðn̩",
+    "phoneticAr": "ذآن",
+    "translit": "man / min",
+    "definitionEn": "[\"introduce the second element in a comparison.\", \"used in expressions introducing an exception or contrast.\", \"used in expressions indicating one thing happening immediately after another.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they observe rather than act\"], \"A2\": [\"he was much smaller than his son\", \"scarcely was the work completed than it was abandoned\", \"Jack doesn't know any more than I do\"], \"B1\": [\"he claims not to own anything other than his home\", \"a single banana is a lot cheaper than a chocolate bar\", \"they go out less than they did when they first moved to Paris\", \"he's playing better than when he won the title last year\"]}",
+    "collocations": "[\"more than\", \"than air\"]",
+    "synonyms": "[\"then\", \"rather\", \"whereas\", \"besides\", \"because\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whereas\", \"then\", \"besides\", \"rather\", \"because\"], \"ar\": [\"إلّا\", \"حتى\", \"غير\", \"مِن\", \"إلاّ\", \"على أن\"]}",
+    "arabicAr": "من / على أن",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 135,
+    "wordEn": "than",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 135,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "ðæn",
+    "phoneticUk": "ðn̩",
+    "phoneticAr": "ذآن",
+    "translit": "man / min",
+    "definitionEn": "[\"introduce the second element in a comparison.\", \"used in expressions introducing an exception or contrast.\", \"used in expressions indicating one thing happening immediately after another.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"they observe rather than act\"], \"A2\": [\"he was much smaller than his son\", \"scarcely was the work completed than it was abandoned\", \"Jack doesn't know any more than I do\"], \"B1\": [\"he claims not to own anything other than his home\", \"a single banana is a lot cheaper than a chocolate bar\", \"they go out less than they did when they first moved to Paris\", \"he's playing better than when he won the title last year\"]}",
+    "collocations": "[\"more than\", \"than air\"]",
+    "synonyms": "[\"then\", \"rather\", \"whereas\", \"besides\", \"because\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"whereas\", \"then\", \"besides\", \"rather\", \"because\"], \"ar\": [\"إلّا\", \"حتى\", \"غير\", \"مِن\", \"إلاّ\", \"على أن\"]}",
+    "arabicAr": "من / على أن",
+    "addedFromOxford": 1
+  }
+]

@@ -1,0 +1,2301 @@
+{
+  "wordEntries": [
+    {
+      "id": 6373,
+      "wordEn": "exit",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈɛɡzɪt",
+      "phoneticUk": "ˈeksɪt",
+      "phoneticAr": "إِگْزِت",
+      "translit": "Yakhruj",
+      "definitionEn": "To go out of or leave a place, situation, or stage.",
+      "definitionAr": "يعني تخرج من مكان أو موقف. بنستخدمها لما نكون طالعين من مبنى أو حتى لما برنامج يقفل.",
+      "usageNote": "Commonly used in computing (exit a program) and formal contexts (exit the agreement).",
+      "category": "Travel & Movement",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Departure",
+        "#Door",
+        "#Emergency",
+        "#Leaving"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"X\".. لما بتدوس على زرار الـ \"X\" في الكمبيوتر بتعمل \"Exit\" وتخرج من البرنامج",
+      "examples": {
+        "A1": "Please exit through the back door.",
+        "A2": "The players exit the field after the game.",
+        "B1": "You must save your work before you exit the application.",
+        "B2": "The company decided to exit the Asian market due to low profits.",
+        "C1": "He managed to exit the conversation gracefully without offending anyone.",
+        "C2": "The protagonist's decision to exit stage left marked the play's turning point."
+      },
+      "collocations": [
+        "exit the building",
+        "emergency exit",
+        "exit strategy",
+        "hasty exit"
+      ],
+      "synonyms": [
+        "leave",
+        "depart",
+        "withdraw",
+        "go out"
+      ],
+      "antonyms": [
+        "enter",
+        "arrive"
+      ],
+      "relatedWords": {
+        "en": [
+          "departure",
+          "egress",
+          "outlet"
+        ],
+        "ar": [
+          "مغادرة",
+          "مخرج",
+          "منفذ"
+        ]
+      },
+      "wordFamily": {
+        "noun": "exit",
+        "verb": "exit",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يخرج",
+      "frenchFr": "sortir",
+      "germanDe": "verlassen",
+      "spanishEs": "salir",
+      "chineseZh": "退出 (Tuìchū)",
+      "russianRu": "выходить",
+      "portuguesePt": "sair",
+      "japaneseJa": "退出する (Taishutsu suru)",
+      "italianIt": "uscire",
+      "turkishTr": "çıkmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6374,
+      "wordEn": "patent",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈpeɪtənt",
+      "phoneticUk": null,
+      "phoneticAr": "بايْتَنْت",
+      "translit": "Wāḍiḥ / Ẓāhir",
+      "definitionEn": "Easily recognizable; obvious or clear to the understanding.",
+      "definitionAr": "حاجة واضحة جداً وصريحة لأي حد، زي لما نقول كدبة واضحة أو حقيقة باينة.",
+      "usageNote": "Often used in negative contexts like 'patent nonsense' or 'patent lie'.",
+      "category": "Mind & Thinking",
+      "primarySense": "Quality",
+      "semanticTags": [
+        "#Obvious",
+        "#Clear",
+        "#Formal",
+        "#Evidence"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "كلمة \"Patent\" قريبة من \"Pattern\" (نمط).. النمط لما بيتكرر بيبقى \"واضح\" و \"Patent\" للكل",
+      "examples": {
+        "A1": "It was a patent mistake.",
+        "A2": "His anger was patent to everyone in the room.",
+        "B1": "There is a patent difference between the two products.",
+        "B2": "It was patent that she was hiding something from us.",
+        "C1": "The politician dismissed the accusations as patent nonsense.",
+        "C2": "Such patent disregard for the law cannot be tolerated by the court."
+      },
+      "collocations": [
+        "patent nonsense",
+        "patent lie",
+        "patent fact",
+        "patent absurdity"
+      ],
+      "synonyms": [
+        "obvious",
+        "evident",
+        "manifest",
+        "blatant"
+      ],
+      "antonyms": [
+        "hidden",
+        "obscure",
+        "subtle"
+      ],
+      "relatedWords": {
+        "en": [
+          "patently",
+          "apparent",
+          "clear"
+        ],
+        "ar": [
+          "بوضوح",
+          "ظاهر",
+          "جلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "patent",
+        "verb": "patent",
+        "adj": "patent",
+        "adv": "patently"
+      },
+      "arabicAr": "واضح / ظاهر",
+      "frenchFr": "évident",
+      "germanDe": "offenkundig",
+      "spanishEs": "patente",
+      "chineseZh": "明显的 (Míngxiǎn de)",
+      "russianRu": "явный",
+      "portuguesePt": "patente",
+      "japaneseJa": "明白な (Meihaku na)",
+      "italianIt": "palese",
+      "turkishTr": "apaçık",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6375,
+      "wordEn": "patent",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈpætənt",
+      "phoneticUk": "ˈpeɪtənt",
+      "phoneticAr": "پاتَنْت",
+      "translit": "Barāʾat ikhtirāʿ",
+      "definitionEn": "A government license giving a right or title for a set period to exclude others from making an invention.",
+      "definitionAr": "براءة الاختراع. دي الشهادة الرسمية اللي بتثبت إن الاختراع ده بتاعك ومحدش يقدر يقلده.",
+      "usageNote": "Use 'file for a patent' or 'grant a patent'. Distinct pronunciation from the adjective in UK English.",
+      "category": "Law & Order",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Legal",
+        "#Invention",
+        "#Business",
+        "#Copyright"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "افتكر \"Bat\" (خفاش) و \"Tent\" (خيمة).. لو اخترعت خيمة للخفافيش لازم تاخد عليها \"Patent\" (براءة اختراع)",
+      "examples": {
+        "A1": "He has a patent for his new toy.",
+        "A2": "The company applied for a patent.",
+        "B1": "You cannot sell this design because it is protected by a patent.",
+        "B2": "The engineer filed a patent for the new solar engine.",
+        "C1": "Patent laws vary significantly between different countries.",
+        "C2": "The pharmaceutical giant is facing a lawsuit over patent infringement."
+      },
+      "collocations": [
+        "file a patent",
+        "patent pending",
+        "infringe a patent",
+        "grant a patent"
+      ],
+      "synonyms": [
+        "copyright",
+        "license",
+        "trademark",
+        "protection"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "invention",
+          "inventor",
+          "intellectual property"
+        ],
+        "ar": [
+          "اختراع",
+          "ملكية فكرية",
+          "ترخيص"
+        ]
+      },
+      "wordFamily": {
+        "noun": "patent",
+        "verb": "patent",
+        "adj": "patented",
+        "adv": ""
+      },
+      "arabicAr": "براءة اختراع",
+      "frenchFr": "brevet",
+      "germanDe": "Patent",
+      "spanishEs": "patente",
+      "chineseZh": "专利 (Zhuānlì)",
+      "russianRu": "патент",
+      "portuguesePt": "patente",
+      "japaneseJa": "特許 (Tokkyo)",
+      "italianIt": "brevetto",
+      "turkishTr": "patent",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6376,
+      "wordEn": "wolf",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "3",
+      "phoneticUs": "wʊlf",
+      "phoneticUk": null,
+      "phoneticAr": "وُولْف",
+      "translit": "Dhiʾb",
+      "definitionEn": "A wild carnivorous mammal of the dog family, living and hunting in packs.",
+      "definitionAr": "الذئب. حيوان مفترس بيعيش في مجموعات وبيشبه الكلب بس أكبر وأشرس.",
+      "usageNote": "The plural is 'wolves'. Often appears in idioms like 'cry wolf' (give false alarm).",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Animal",
+        "#Wild",
+        "#Predator",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Wolf\" (الذئب) لابس \"Wool\" (صوف) خروف عشان يستخبى ويصطاد الفريسة",
+      "examples": {
+        "A1": "The wolf is a wild animal.",
+        "A2": "We heard a wolf howling at the moon.",
+        "B1": "A pack of wolves hunted in the forest.",
+        "B2": "He was as hungry as a wolf after the hike.",
+        "C1": "The idiom 'a wolf in sheep's clothing' describes a dangerous person pretending to be harmless.",
+        "C2": "Reintroducing the grey wolf to the ecosystem has restored ecological balance."
+      },
+      "collocations": [
+        "pack of wolves",
+        "lone wolf",
+        "cry wolf",
+        "wolf down"
+      ],
+      "synonyms": [
+        "canine",
+        "predator",
+        "beast"
+      ],
+      "antonyms": [
+        "lamb",
+        "prey"
+      ],
+      "relatedWords": {
+        "en": [
+          "howl",
+          "pack",
+          "cub",
+          "carnivore"
+        ],
+        "ar": [
+          "عواء",
+          "قطيع",
+          "مفترس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "wolf",
+        "verb": "wolf",
+        "adj": "wolfish",
+        "adv": ""
+      },
+      "arabicAr": "ذئب",
+      "frenchFr": "loup",
+      "germanDe": "Wolf",
+      "spanishEs": "lobo",
+      "chineseZh": "狼 (Láng)",
+      "russianRu": "волк",
+      "portuguesePt": "lobo",
+      "japaneseJa": "狼 (Ookami)",
+      "italianIt": "lupo",
+      "turkishTr": "kurt",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6377,
+      "wordEn": "brochure",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "bɹoʊˈʃʊr",
+      "phoneticUk": "ˈbrəʊʃə(r)",
+      "phoneticAr": "بْرُوشُور",
+      "translit": "Kutayyib",
+      "definitionEn": "A small book or magazine containing pictures and information about a product or service.",
+      "definitionAr": "كتيب صغير فيه صور ومعلومات عن منتج أو مكان سياحي، زي اللي بتاخده في الفندق.",
+      "usageNote": "Common in tourism and marketing contexts.",
+      "category": "Social Life & Communication",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Marketing",
+        "#Travel",
+        "#Information",
+        "#Paper"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عشان تختار دهان الـ \"Brush\" (فرشة) وأنت \"Sure\" (متأكد)، بص الأول في الـ \"Brochure\"",
+      "examples": {
+        "A1": "This is a travel brochure.",
+        "A2": "I picked up a brochure about the museum.",
+        "B1": "The hotel brochure shows pictures of the swimming pool.",
+        "B2": "We designed a colorful brochure to advertise the new course.",
+        "C1": "The glossiness of the brochure belied the poor quality of the actual resort.",
+        "C2": "Disseminating information via a printed brochure is becoming obsolete in the digital age."
+      },
+      "collocations": [
+        "travel brochure",
+        "glossy brochure",
+        "information brochure",
+        "read a brochure"
+      ],
+      "synonyms": [
+        "pamphlet",
+        "leaflet",
+        "booklet",
+        "catalog"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "flyer",
+          "handout",
+          "prospectus"
+        ],
+        "ar": [
+          "نشرة",
+          "إعلان",
+          "دليل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "brochure",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كتيب",
+      "frenchFr": "brochure",
+      "germanDe": "Broschüre",
+      "spanishEs": "folleto",
+      "chineseZh": "小册子 (Xiǎocèzi)",
+      "russianRu": "брошюра",
+      "portuguesePt": "brochura",
+      "japaneseJa": "パンフレット (Panfuretto)",
+      "italianIt": "opuscolo",
+      "turkishTr": "broşür",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6378,
+      "wordEn": "multiply",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈmʌltəˌplaɪ",
+      "phoneticUk": null,
+      "phoneticAr": "مَلْتِبْلاي",
+      "translit": "Yuḍāʿif / Yaḍrib",
+      "definitionEn": "To increase greatly in number or quantity; to perform the mathematical operation of multiplication.",
+      "definitionAr": "يضاعف أو يضرب الأرقام. يعني يخلي الحاجة تزيد كتير، أو يعمل عملية الضرب في الحساب.",
+      "usageNote": "Used in math (2 multiplied by 3) and general contexts (problems multiplied).",
+      "category": "Mind & Thinking",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Math",
+        "#Increase",
+        "#Numbers",
+        "#Growth"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Multi\" يعني كتير.. فالـ \"Multiply\" يعني بتخلي الحاجة تزيد وتبقى كتير",
+      "examples": {
+        "A1": "Can you multiply five by two?",
+        "A2": "Rabbits multiply very quickly.",
+        "B1": "If you multiply the width by the length, you get the area.",
+        "B2": "Our profits have multiplied since we started the online store.",
+        "C1": "The risks multiply when you ignore safety regulations.",
+        "C2": "Bacteria can multiply exponentially under favorable conditions."
+      },
+      "collocations": [
+        "multiply by",
+        "multiply quickly",
+        "multiply profits",
+        "fruitful and multiply"
+      ],
+      "synonyms": [
+        "increase",
+        "reproduce",
+        "proliferate",
+        "expand"
+      ],
+      "antonyms": [
+        "divide",
+        "decrease",
+        "reduce"
+      ],
+      "relatedWords": {
+        "en": [
+          "multiplication",
+          "multiple",
+          "math"
+        ],
+        "ar": [
+          "ضرب",
+          "تضاعف",
+          "متعدد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "multiplication",
+        "verb": "multiply",
+        "adj": "multiple",
+        "adv": "multiply"
+      },
+      "arabicAr": "يضاعف / يضرب",
+      "frenchFr": "multiplier",
+      "germanDe": "vermehren",
+      "spanishEs": "multiplicar",
+      "chineseZh": "乘 (Chéng)",
+      "russianRu": "умножать",
+      "portuguesePt": "multiplicar",
+      "japaneseJa": "掛ける (Kakeru)",
+      "italianIt": "moltiplicare",
+      "turkishTr": "çarpmak",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 6379,
+      "wordEn": "proclaim",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "pɹoʊˈkleɪm",
+      "phoneticUk": "prəˈkleɪm",
+      "phoneticAr": "بْرُوكْلايْم",
+      "translit": "Iʿlān / Taṣrīḥ",
+      "definitionEn": "A public or official announcement (Note: Standard usage is verb; noun form is 'proclamation').",
+      "definitionAr": "إعلان رسمي أو تصريح هام. (ملاحظة: الكلمة دي فعل في الأصل، والاسم منها Proclamation).",
+      "usageNote": "The input identifies this as a noun, but 'proclaim' is strictly a verb. Use 'proclamation' for the noun.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Announcement",
+        "#Formal",
+        "#Speech",
+        "#Public"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "الـ \"Pro\" (الشخص المحترف) بيعمل \"Claim\" (ادعاء) بصوت عالي.. ده \"Proclaim\" (إعلان)",
+      "examples": {
+        "A1": "He will proclaim the news. (Verb usage)",
+        "A2": "The King made a proclaim to his people. (Non-standard/Archaic)",
+        "B1": "They gathered to hear the official proclaim. (Noun usage context)",
+        "B2": "The proclaim of independence was signed yesterday.",
+        "C1": "His loud proclaim startled the quiet library.",
+        "C2": "The archaic text contained a proclaim of war against the neighboring state."
+      },
+      "collocations": [
+        "public proclaim",
+        "issue a proclaim",
+        "loud proclaim"
+      ],
+      "synonyms": [
+        "announcement",
+        "declaration",
+        "decree",
+        "manifesto"
+      ],
+      "antonyms": [
+        "secret",
+        "denial"
+      ],
+      "relatedWords": {
+        "en": [
+          "proclamation",
+          "announce",
+          "declare"
+        ],
+        "ar": [
+          "إعلان",
+          "بيان",
+          "مرسوم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "proclamation",
+        "verb": "proclaim",
+        "adj": "proclaimed",
+        "adv": ""
+      },
+      "arabicAr": "إعلان",
+      "frenchFr": "proclamation",
+      "germanDe": "Proklamation",
+      "spanishEs": "proclamación",
+      "chineseZh": "宣告 (Xuāngào)",
+      "russianRu": "провозглашение",
+      "portuguesePt": "proclamação",
+      "japaneseJa": "宣言 (Sengen)",
+      "italianIt": "proclama",
+      "turkishTr": "ilan",
+      "aiConfidence": 0.5
+    },
+    {
+      "id": 6380,
+      "wordEn": "proclaim",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "pɹoʊˈkleɪm",
+      "phoneticUk": "prəˈkleɪm",
+      "phoneticAr": "بْرُوكْلايْم",
+      "translit": "Yuʿlin / Yuṣarriḥ",
+      "definitionEn": "To announce officially or publicly; to declare with emphasis.",
+      "definitionAr": "يعلن حاجة بشكل رسمي قدام الناس، زي لما الملك يعلن قرار أو حد يعلن استقلاله.",
+      "usageNote": "More formal and dramatic than 'announce'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Declare",
+        "#Speech",
+        "#Official",
+        "#News"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "قسمها لـ \"Pro\" + \"Claim\".. يعني بتعمل \"Claim\" (مطالبة) بشكل \"Pro\" (احترافي) وعلني",
+      "examples": {
+        "A1": "They proclaim him King.",
+        "A2": "She proclaimed her love for him.",
+        "B1": "The government proclaimed a public holiday.",
+        "B2": "The president proclaimed a state of emergency.",
+        "C1": "The poster proclaimed the benefits of the new diet.",
+        "C2": "He stood on the podium to proclaim the dawn of a new era in science."
+      },
+      "collocations": [
+        "proclaim independence",
+        "proclaim victory",
+        "proclaim a republic",
+        "widely proclaimed"
+      ],
+      "synonyms": [
+        "declare",
+        "announce",
+        "herald",
+        "trumpet"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide",
+        "suppress"
+      ],
+      "relatedWords": {
+        "en": [
+          "declaration",
+          "announcement",
+          "proclamation"
+        ],
+        "ar": [
+          "تصريح",
+          "مناداة",
+          "إشهار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "proclamation",
+        "verb": "proclaim",
+        "adj": "proclaimed",
+        "adv": ""
+      },
+      "arabicAr": "يعلن / يصرح",
+      "frenchFr": "proclamer",
+      "germanDe": "verkünden",
+      "spanishEs": "proclamar",
+      "chineseZh": "宣布 (Xuānbù)",
+      "russianRu": "провозглашать",
+      "portuguesePt": "proclamar",
+      "japaneseJa": "宣言する (Sengen suru)",
+      "italianIt": "proclamare",
+      "turkishTr": "ilan etmek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6381,
+      "wordEn": "locomotive",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌloʊkəˈmoʊtɪv",
+      "phoneticUk": "ˌləʊkəˈməʊtɪv",
+      "phoneticAr": "لُوكُومُوتِيف",
+      "translit": "Qāṭira",
+      "definitionEn": "A powered railway vehicle used for pulling trains.",
+      "definitionAr": "القاطرة أو جرار القطر. العربية اللي فيها الموتور اللي بتشد باقي عربيات القطر.",
+      "usageNote": "Can also be an adjective meaning 'relating to movement' (locomotive power).",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Train",
+        "#Transport",
+        "#Engine",
+        "#Vehicle"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "القطار ده ماشي بـ \"Motive\" (دافع) \"Loco\" (مجنون) من كتر السرعة.. دي الـ \"Locomotive\"",
+      "examples": {
+        "A1": "The locomotive pulls the train.",
+        "A2": "We saw a steam locomotive at the museum.",
+        "B1": "The engineer checked the engine of the locomotive.",
+        "B2": "Diesel locomotives replaced steam ones in the 20th century.",
+        "C1": "The locomotive industry was a driving force of the Industrial Revolution.",
+        "C2": "The economy acted as the locomotive for the entire region's growth."
+      },
+      "collocations": [
+        "steam locomotive",
+        "diesel locomotive",
+        "locomotive engineer",
+        "locomotive power"
+      ],
+      "synonyms": [
+        "engine",
+        "train",
+        "motor"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "railway",
+          "motion",
+          "track"
+        ],
+        "ar": [
+          "سكة حديد",
+          "حركة",
+          "مقطورة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "locomotive",
+        "verb": "locomote",
+        "adj": "locomotive",
+        "adv": ""
+      },
+      "arabicAr": "قاطرة",
+      "frenchFr": "locomotive",
+      "germanDe": "Lokomotive",
+      "spanishEs": "locomotora",
+      "chineseZh": "机车 (Jīchē)",
+      "russianRu": "локомотив",
+      "portuguesePt": "locomotiva",
+      "japaneseJa": "機関車 (Kikansha)",
+      "italianIt": "locomotiva",
+      "turkishTr": "lokomotif",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 6382,
+      "wordEn": "syndrome",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈsɪndɹoʊm",
+      "phoneticUk": null,
+      "phoneticAr": "سِنْدْرُوم",
+      "translit": "Mutalāzima",
+      "definitionEn": "A group of symptoms that consistently occur together, characterizing a condition or disease.",
+      "definitionAr": "متلازمة. يعني مجموعة أعراض بتيجي مع بعض دايماً وبتدل على مرض أو حالة معينة.",
+      "usageNote": "Can be used metaphorically for social behaviors (e.g., 'imposter syndrome').",
+      "category": "Health & Senses",
+      "primarySense": "Condition",
+      "semanticTags": [
+        "#Medical",
+        "#Disease",
+        "#Symptoms",
+        "#Psychology"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "أعراض بتوصل مع بعض \"Syn\" كأنهم في \"Drome\" (مطار/مكان) واحد.. دي \"Syndrome\"",
+      "examples": {
+        "A1": "He has a rare syndrome.",
+        "A2": "Down syndrome is a genetic condition.",
+        "B1": "The doctor explained the symptoms of the syndrome.",
+        "B2": "She suffers from chronic fatigue syndrome.",
+        "C1": "Imposter syndrome is common among high achievers.",
+        "C2": "The report described a syndrome of apathy affecting the entire electorate."
+      },
+      "collocations": [
+        "Down syndrome",
+        "imposter syndrome",
+        "metabolic syndrome",
+        "Stockholm syndrome"
+      ],
+      "synonyms": [
+        "condition",
+        "disorder",
+        "complex",
+        "symptom pattern"
+      ],
+      "antonyms": [
+        "health",
+        "normality"
+      ],
+      "relatedWords": {
+        "en": [
+          "symptom",
+          "diagnosis",
+          "illness"
+        ],
+        "ar": [
+          "عَرَض",
+          "تشخيص",
+          "مرض"
+        ]
+      },
+      "wordFamily": {
+        "noun": "syndrome",
+        "verb": "",
+        "adj": "syndromic",
+        "adv": ""
+      },
+      "arabicAr": "متلازمة",
+      "frenchFr": "syndrome",
+      "germanDe": "Syndrom",
+      "spanishEs": "síndrome",
+      "chineseZh": "综合症 (Zōnghézhèng)",
+      "russianRu": "синдром",
+      "portuguesePt": "síndrome",
+      "japaneseJa": "症候群 (Shōkōgun)",
+      "italianIt": "sindrome",
+      "turkishTr": "sendrom",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6383,
+      "wordEn": "unaware",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "ˌʌnəˈwɛr",
+      "phoneticUk": "ˌʌnəˈweə(r)",
+      "phoneticAr": "أَنَوِير",
+      "translit": "Ghayr mudrik / Jāhil",
+      "definitionEn": "Having no knowledge of a situation or fact.",
+      "definitionAr": "مش واخد باله أو مش عارف. لما تكون مش مدرك للي بيحصل حواليك.",
+      "usageNote": "Usually followed by 'of' (unaware of the danger).",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Ignorance",
+        "#Knowledge",
+        "#Mind",
+        "#Attention"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Un\" (للنفي) + \"Aware\" (واعي).. يعني غير واعي للي بيحصل",
+      "examples": {
+        "A1": "He was unaware of the time.",
+        "A2": "She was totally unaware that I was watching.",
+        "B1": "They were unaware of the risks involved.",
+        "B2": "Most people are unaware of how much data they share online.",
+        "C1": "He remained blissfully unaware of the chaos he had caused.",
+        "C2": "The government was accused of being woefully unaware of the public sentiment."
+      },
+      "collocations": [
+        "blissfully unaware",
+        "totally unaware",
+        "unaware of",
+        "remain unaware"
+      ],
+      "synonyms": [
+        "ignorant",
+        "oblivious",
+        "unconscious",
+        "unknowing"
+      ],
+      "antonyms": [
+        "aware",
+        "conscious",
+        "cognizant"
+      ],
+      "relatedWords": {
+        "en": [
+          "awareness",
+          "knowledge",
+          "notice"
+        ],
+        "ar": [
+          "وعي",
+          "معرفة",
+          "إدراك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "unawareness",
+        "verb": "",
+        "adj": "unaware",
+        "adv": "unawares"
+      },
+      "arabicAr": "غير مدرك / جاهل",
+      "frenchFr": "inconscient",
+      "germanDe": "unwissend",
+      "spanishEs": "inconsciente",
+      "chineseZh": "不知道的 (Bù zhīdào de)",
+      "russianRu": "неведущий",
+      "portuguesePt": "inconsciente",
+      "japaneseJa": "気づかない (Kizukanai)",
+      "italianIt": "inconsapevole",
+      "turkishTr": "habersiz",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 6384,
+      "wordEn": "confirmation",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˌkɑnfərˈmeɪʃən",
+      "phoneticUk": "ˌkɒnfəˈmeɪʃn",
+      "phoneticAr": "كُونْفِرْمَيْشَن",
+      "translit": "Taʾkīd",
+      "definitionEn": "The action of confirming something or the state of being confirmed; corroboration.",
+      "definitionAr": "التأكيد. لما يجيلك إثبات إن حاجة صح، أو رسالة تأكيد حجز مثلًا.",
+      "usageNote": "Common in travel (booking confirmation) and religious contexts.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Proof",
+        "#Agreement",
+        "#Booking",
+        "#Verification"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Nation\" (الأمة) كلها مستنية \"Confirm\" (تأكيد) الخبر.. ده الـ \"Confirmation\"",
+      "examples": {
+        "A1": "I received a confirmation email.",
+        "A2": "We are waiting for confirmation of the booking.",
+        "B1": "She nodded in confirmation.",
+        "B2": "We need written confirmation before we proceed.",
+        "C1": "The discovery provided confirmation of his theory.",
+        "C2": "The confirmation of the treaty required months of diplomatic negotiation."
+      },
+      "collocations": [
+        "booking confirmation",
+        "written confirmation",
+        "confirmation number",
+        "awaiting confirmation"
+      ],
+      "synonyms": [
+        "verification",
+        "proof",
+        "validation",
+        "corroboration"
+      ],
+      "antonyms": [
+        "denial",
+        "rejection",
+        "cancellation"
+      ],
+      "relatedWords": {
+        "en": [
+          "confirm",
+          "confirmed",
+          "affirmation"
+        ],
+        "ar": [
+          "يؤكد",
+          "مؤكد",
+          "إثبات"
+        ]
+      },
+      "wordFamily": {
+        "noun": "confirmation",
+        "verb": "confirm",
+        "adj": "confirmed",
+        "adv": ""
+      },
+      "arabicAr": "تأكيد",
+      "frenchFr": "confirmation",
+      "germanDe": "Bestätigung",
+      "spanishEs": "confirmación",
+      "chineseZh": "确认 (Quèrèn)",
+      "russianRu": "подтверждение",
+      "portuguesePt": "confirmação",
+      "japaneseJa": "確認 (Kakunin)",
+      "italianIt": "conferma",
+      "turkishTr": "onay",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6385,
+      "wordEn": "costly",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈkɔstli",
+      "phoneticUk": "ˈkɒstli",
+      "phoneticAr": "كُوسْتْلِي",
+      "translit": "Muklif / Bāhiẓ",
+      "definitionEn": "Costing a lot; expensive.",
+      "definitionAr": "مكلف أو غالي جداً. مش بس فلوس، ممكن يكون مكلف للوقت أو المجهود.",
+      "usageNote": "Often implies a negative consequence (a costly mistake).",
+      "category": "Work & Business",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Money",
+        "#Price",
+        "#Expensive",
+        "#Value"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الحاجة دي بتـ \"Cost\" (تتكلف) \"Li\" (لي) فلوس كتير.. تبقى \"Costly\"",
+      "examples": {
+        "A1": "It was a costly trip.",
+        "A2": "Repairs can be very costly.",
+        "B1": "Buying a new car is a costly decision.",
+        "B2": "The war was costly in terms of human life.",
+        "C1": "He made a costly error that lost him the game.",
+        "C2": "The implementation of the new policy proved to be prohibitively costly."
+      },
+      "collocations": [
+        "costly mistake",
+        "costly repair",
+        "costly war",
+        "prove costly"
+      ],
+      "synonyms": [
+        "expensive",
+        "pricey",
+        "exorbitant",
+        "damaging"
+      ],
+      "antonyms": [
+        "cheap",
+        "inexpensive",
+        "economical"
+      ],
+      "relatedWords": {
+        "en": [
+          "cost",
+          "price",
+          "value"
+        ],
+        "ar": [
+          "تكلفة",
+          "سعر",
+          "قيمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cost",
+        "verb": "cost",
+        "adj": "costly",
+        "adv": ""
+      },
+      "arabicAr": "مكلف",
+      "frenchFr": "coûteux",
+      "germanDe": "kostspielig",
+      "spanishEs": "costoso",
+      "chineseZh": "昂贵的 (Ángguì de)",
+      "russianRu": "дорогостоящий",
+      "portuguesePt": "dispendioso",
+      "japaneseJa": "高価な (Kōka na)",
+      "italianIt": "costoso",
+      "turkishTr": "masraflı",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 6386,
+      "wordEn": "designate",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈdɛzɪɡnət",
+      "phoneticUk": null,
+      "phoneticAr": "دِزِجْنَت",
+      "translit": "Al-muʿayyan",
+      "definitionEn": "A person appointed to a position but not yet officially installed (e.g., Prime Minister-designate).",
+      "definitionAr": "الشخص المعين في منصب بس لسه مستلمش الشغل رسمي. بنقول عليه 'المُعين'.",
+      "usageNote": "Almost always post-positive (placed after the noun: 'Ambassador designate').",
+      "category": "Work & Business",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Job",
+        "#Title",
+        "#Official",
+        "#Politics"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "هو \"Design\" (صمم) و \"Ate\" (أكل) المنصب لوحده.. عشان هو الـ \"Designate\" (المعين)",
+      "examples": {
+        "A1": "He is the captain designate. (Simple context)",
+        "A2": "She met the director designate yesterday.",
+        "B1": "The bishop designate will be ordained next week.",
+        "B2": "The Prime Minister designate is forming a cabinet.",
+        "C1": "The Secretary of State designate faces a tough confirmation hearing.",
+        "C2": "In his capacity as chairman designate, he began restructuring the board."
+      },
+      "collocations": [
+        "Prime Minister designate",
+        "bishop designate",
+        "ambassador designate",
+        "chairman designate"
+      ],
+      "synonyms": [
+        "appointee",
+        "nominee",
+        "selectee"
+      ],
+      "antonyms": [
+        "incumbent"
+      ],
+      "relatedWords": {
+        "en": [
+          "designation",
+          "appoint",
+          "nominate"
+        ],
+        "ar": [
+          "تعيين",
+          "تسمية",
+          "منصب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "designation",
+        "verb": "designate",
+        "adj": "designated",
+        "adv": ""
+      },
+      "arabicAr": "المعين",
+      "frenchFr": "désigné",
+      "germanDe": "designiert",
+      "spanishEs": "designado",
+      "chineseZh": "指定者 (Zhǐdìng zhě)",
+      "russianRu": "назначаемый",
+      "portuguesePt": "designado",
+      "japaneseJa": "指名された人 (Shimei sareta hito)",
+      "italianIt": "designato",
+      "turkishTr": "tayin edilen",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 6387,
+      "wordEn": "designate",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈdɛzɪɡˌneɪt",
+      "phoneticUk": null,
+      "phoneticAr": "دِزِجْنَيِْت",
+      "translit": "Yuʿayyin / Yuḥaddid",
+      "definitionEn": "To appoint someone to a specified position; to officially give a specified status or name to.",
+      "definitionAr": "يعيّن حد في منصب، أو يحدد مكان لحاجة معينة (زي مكان مخصص للتدخين).",
+      "usageNote": "Pronunciation differs from the noun/adjective form (verb ends in -ate sound).",
+      "category": "Work & Business",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Appoint",
+        "#Choose",
+        "#Label",
+        "#Official"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "المدير \"Design\" (صمم) الخطة و \"Ate\" (أكل) دماغنا عشان \"Designate\" (يعين) الموظف الجديد",
+      "examples": {
+        "A1": "Please designate a driver.",
+        "A2": "This area is designated for parking.",
+        "B1": "He was designated as the team leader.",
+        "B2": "The funds were designated for the new school project.",
+        "C1": "The UN designated the site as a World Heritage location.",
+        "C2": "We must designate a successor to ensure continuity of leadership."
+      },
+      "collocations": [
+        "designate a successor",
+        "designated area",
+        "designated driver",
+        "officially designate"
+      ],
+      "synonyms": [
+        "appoint",
+        "nominate",
+        "label",
+        "assign"
+      ],
+      "antonyms": [
+        "dismiss",
+        "remove"
+      ],
+      "relatedWords": {
+        "en": [
+          "appointment",
+          "selection",
+          "allocation"
+        ],
+        "ar": [
+          "تخصيص",
+          "اختيار",
+          "تسمية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "designation",
+        "verb": "designate",
+        "adj": "designated",
+        "adv": ""
+      },
+      "arabicAr": "يعين / يحدد",
+      "frenchFr": "désigner",
+      "germanDe": "bestimmen",
+      "spanishEs": "designar",
+      "chineseZh": "指定 (Zhǐdìng)",
+      "russianRu": "назначать",
+      "portuguesePt": "designar",
+      "japaneseJa": "指定する (Shitei suru)",
+      "italianIt": "designare",
+      "turkishTr": "atamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6388,
+      "wordEn": "territorial",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˌtɛrəˈtɔriəl",
+      "phoneticUk": "ˌterɪˈtɔːrɪəl",
+      "phoneticAr": "تِيرِتُورِيال",
+      "translit": "Iqlīmī",
+      "definitionEn": "Relating to the ownership of an area of land or sea; defensive of one's territory.",
+      "definitionAr": "إقليمي، يعني خاص بالأرض أو المنطقة. وممكن توصف شخص أو حيوان بيغير على مكانه وبيدافع عنه بشراسة.",
+      "usageNote": "Used in politics (territorial waters) and biology (territorial animals).",
+      "category": "Politics & Society",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Land",
+        "#Border",
+        "#Defense",
+        "#Politics"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Territory\" (إقليم/أرض).. فالشخص الـ \"Territorial\" هو اللي بيخاف على أرضه جداً",
+      "examples": {
+        "A1": "Cats can be very territorial.",
+        "A2": "This is a territorial map.",
+        "B1": "Dogs are territorial animals and guard their homes.",
+        "B2": "The two countries have a territorial dispute over the island.",
+        "C1": "Male robins are aggressively territorial during the breeding season.",
+        "C2": "The government emphasized the importance of maintaining territorial integrity."
+      },
+      "collocations": [
+        "territorial waters",
+        "territorial integrity",
+        "territorial dispute",
+        "territorial army"
+      ],
+      "synonyms": [
+        "regional",
+        "defensive",
+        "possessive"
+      ],
+      "antonyms": [
+        "international",
+        "open"
+      ],
+      "relatedWords": {
+        "en": [
+          "territory",
+          "terrain",
+          "border"
+        ],
+        "ar": [
+          "إقليم",
+          "أرض",
+          "حدود"
+        ]
+      },
+      "wordFamily": {
+        "noun": "territory",
+        "verb": "",
+        "adj": "territorial",
+        "adv": "territorially"
+      },
+      "arabicAr": "إقليمي",
+      "frenchFr": "territorial",
+      "germanDe": "territorial",
+      "spanishEs": "territorial",
+      "chineseZh": "领土的 (Lǐngtǔ de)",
+      "russianRu": "территориальный",
+      "portuguesePt": "territorial",
+      "japaneseJa": "領土の (Ryōdo no)",
+      "italianIt": "territoriale",
+      "turkishTr": "bölgesel",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 6389,
+      "wordEn": "underground",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈʌndərˌɡraʊnd",
+      "phoneticUk": null,
+      "phoneticAr": "أَنْدَرْجْرَاونْد",
+      "translit": "Taḥt al-arḍ / Sirrī",
+      "definitionEn": "Situated beneath the surface of the ground; secret or hidden (of activities).",
+      "definitionAr": "تحت الأرض، زي المترو أو الجراج. وممكن تيجي بمعنى سري (حركات سرية).",
+      "usageNote": "Can refer to physical location or social movements (underground music).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Subway",
+        "#Hidden",
+        "#Music",
+        "#Secret"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "واضحة.. \"Under\" (تحت) + \"Ground\" (أرض)",
+      "examples": {
+        "A1": "The train is underground.",
+        "A2": "We parked in an underground garage.",
+        "B1": "There is an underground passage between the buildings.",
+        "B2": "He listens to underground music bands.",
+        "C1": "The resistance movement operated underground during the war.",
+        "C2": "The city has a complex underground infrastructure of tunnels and pipes."
+      },
+      "collocations": [
+        "underground station",
+        "go underground",
+        "underground movement",
+        "underground parking"
+      ],
+      "synonyms": [
+        "subterranean",
+        "buried",
+        "covert",
+        "secret"
+      ],
+      "antonyms": [
+        "aboveground",
+        "surface",
+        "public"
+      ],
+      "relatedWords": {
+        "en": [
+          "subway",
+          "metro",
+          "basement"
+        ],
+        "ar": [
+          "مترو",
+          "قبو",
+          "سري"
+        ]
+      },
+      "wordFamily": {
+        "noun": "underground",
+        "verb": "",
+        "adj": "underground",
+        "adv": "underground"
+      },
+      "arabicAr": "تحت الأرض / سري",
+      "frenchFr": "souterrain",
+      "germanDe": "unterirdisch",
+      "spanishEs": "subterráneo",
+      "chineseZh": "地下的 (Dìxià de)",
+      "russianRu": "подземный",
+      "portuguesePt": "subterrâneo",
+      "japaneseJa": "地下の (Chika no)",
+      "italianIt": "sotterraneo",
+      "turkishTr": "yeraltı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6390,
+      "wordEn": "underground",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "ˈʌndərˌɡraʊnd",
+      "phoneticUk": null,
+      "phoneticAr": "أَنْدَرْجْرَاونْد",
+      "translit": "Taḥt al-arḍ",
+      "definitionEn": "Beneath the surface of the ground; into hiding or secrecy.",
+      "definitionAr": "ظرف مكان بمعنى تحت الأرض. أو إن حد يستخبى ويشتغل في السر.",
+      "usageNote": "Used with verbs like 'go', 'live', 'travel'.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Location",
+        "#Direction",
+        "#Hiding",
+        "#Secretly"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الكلمة.. \"Under\" (تحت) + \"Ground\" (أرض)",
+      "examples": {
+        "A1": "Moles live underground.",
+        "A2": "The train goes underground here.",
+        "B1": "They traveled underground to avoid the traffic.",
+        "B2": "The criminals went underground to escape the police.",
+        "C1": "The party was forced to operate underground for years.",
+        "C2": "Nuclear waste is often stored deep underground."
+      },
+      "collocations": [
+        "go underground",
+        "live underground",
+        "travel underground",
+        "drive underground"
+      ],
+      "synonyms": [
+        "below ground",
+        "secretly",
+        "covertly"
+      ],
+      "antonyms": [
+        "above ground",
+        "openly"
+      ],
+      "relatedWords": {
+        "en": [
+          "beneath",
+          "below",
+          "down"
+        ],
+        "ar": [
+          "أسفل",
+          "تحت",
+          "خفية"
+        ]
+      },
+      "wordFamily": {
+        "noun": "underground",
+        "verb": "",
+        "adj": "underground",
+        "adv": "underground"
+      },
+      "arabicAr": "تحت الأرض",
+      "frenchFr": "sous terre",
+      "germanDe": "unter der Erde",
+      "spanishEs": "bajo tierra",
+      "chineseZh": "在地下 (Zài dìxià)",
+      "russianRu": "под землёй",
+      "portuguesePt": "no subsolo",
+      "japaneseJa": "地下に (Chika ni)",
+      "italianIt": "sottoterra",
+      "turkishTr": "yer altında",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6391,
+      "wordEn": "misleading",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "mɪsˈlidɪŋ",
+      "phoneticUk": "mɪsˈliːdɪŋ",
+      "phoneticAr": "مِسْلِيدِينْج",
+      "translit": "Taḍlīl",
+      "definitionEn": "The act of giving the wrong idea or impression (Gerund form).",
+      "definitionAr": "التضليل. إنك تدي حد فكرة غلط أو تخدعه بمعلومات مش دقيقة.",
+      "usageNote": "Usually functions as an adjective, but can be a noun (gerund) in contexts like 'the misleading of the public'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Deception",
+        "#Fake",
+        "#Lies",
+        "#Media"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الآنسة \"Miss\" بتعمل \"Leading\" (قيادة) غلط.. ده \"Misleading\" (تضليل)",
+      "examples": {
+        "A1": "Stop misleading him. (Verb/Gerund)",
+        "A2": "The misleading of customers is illegal.",
+        "B1": "He was accused of the deliberate misleading of parliament.",
+        "B2": "There was a lot of misleading in the advertisement.",
+        "C1": "The article was a gross misleading of the facts.",
+        "C2": "Such systematic misleading of the electorate undermines democracy."
+      },
+      "collocations": [
+        "deliberate misleading",
+        "gross misleading",
+        "misleading information"
+      ],
+      "synonyms": [
+        "deception",
+        "misguidance",
+        "trickery"
+      ],
+      "antonyms": [
+        "guidance",
+        "truth",
+        "clarification"
+      ],
+      "relatedWords": {
+        "en": [
+          "mislead",
+          "liar",
+          "fake"
+        ],
+        "ar": [
+          "خداع",
+          "كذب",
+          "تزييف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "misleading",
+        "verb": "mislead",
+        "adj": "misleading",
+        "adv": "misleadingly"
+      },
+      "arabicAr": "تضليل",
+      "frenchFr": "tromperie",
+      "germanDe": "Irreführung",
+      "spanishEs": "engaño",
+      "chineseZh": "误导 (Wùdǎo)",
+      "russianRu": "введение в заблуждение",
+      "portuguesePt": "engano",
+      "japaneseJa": "誤解を招くこと (Gokai o maneku koto)",
+      "italianIt": "inganno",
+      "turkishTr": "yanıltma",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 6392,
+      "wordEn": "misleading",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "mɪsˈlidɪŋ",
+      "phoneticUk": "mɪsˈliːdɪŋ",
+      "phoneticAr": "مِسْلِيدِينْج",
+      "translit": "Muḍallil",
+      "definitionEn": "Giving the wrong idea or impression; deceptive.",
+      "definitionAr": "مضلل. يعني بيدي انطباع غلط أو بيخدع، زي الإعلانات اللي بتقول كلام مش حقيقي.",
+      "usageNote": "Very common in describing information, titles, or appearances.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#False",
+        "#Tricky",
+        "#Wrong",
+        "#BadInfo"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الفكرة.. \"Miss\" (آنسة) بتعمل \"Leading\" (قيادة) في طريق غلط.. تبقى \"Misleading\"",
+      "examples": {
+        "A1": "The map is misleading.",
+        "A2": "That title is very misleading.",
+        "B1": "The advertisement was misleading about the price.",
+        "B2": "Statistics can be misleading if not interpreted correctly.",
+        "C1": "He gave a misleading statement to the press.",
+        "C2": "The juxtaposition of these two images creates a highly misleading narrative."
+      },
+      "collocations": [
+        "misleading information",
+        "misleading statement",
+        "seriously misleading",
+        "potentially misleading"
+      ],
+      "synonyms": [
+        "deceptive",
+        "confusing",
+        "ambiguous",
+        "fallacious"
+      ],
+      "antonyms": [
+        "accurate",
+        "truthful",
+        "clear",
+        "honest"
+      ],
+      "relatedWords": {
+        "en": [
+          "false",
+          "fake",
+          "wrong"
+        ],
+        "ar": [
+          "خادع",
+          "كاذب",
+          "مغلوط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "misleading",
+        "verb": "mislead",
+        "adj": "misleading",
+        "adv": "misleadingly"
+      },
+      "arabicAr": "مضلل",
+      "frenchFr": "trompeur",
+      "germanDe": "irreführend",
+      "spanishEs": "engañoso",
+      "chineseZh": "误导性的 (Wùdǎo xìng de)",
+      "russianRu": "вводящий в заблуждение",
+      "portuguesePt": "enganoso",
+      "japaneseJa": "紛らわしい (Magirawashii)",
+      "italianIt": "fuorviante",
+      "turkishTr": "yanıltıcı",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6393,
+      "wordEn": "headache",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "2",
+      "phoneticUs": "ˈhɛdˌeɪk",
+      "phoneticUk": "ˈhedeɪk",
+      "phoneticAr": "هِدْايْك",
+      "translit": "Ṣudāʿ",
+      "definitionEn": "A continuous pain in the head; a cause of worry or annoyance.",
+      "definitionAr": "صداع. وجع في الراس، وممكن نستخدمها مجازاً عن أي حاجة بتوجع الدماغ وتعمل مشاكل.",
+      "usageNote": "Can be literal (pain) or metaphorical (a problem).",
+      "category": "Health & Senses",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Pain",
+        "#Body",
+        "#Problem",
+        "#Illness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "واضحة.. \"Head\" (رأس) + \"Ache\" (وجع)",
+      "examples": {
+        "A1": "I have a headache.",
+        "A2": "She took a pill for her headache.",
+        "B1": "Loud noise gives me a headache.",
+        "B2": "The new software is causing a real headache for the IT team.",
+        "C1": "Bureaucracy is a major headache for small businesses.",
+        "C2": "The logistical headaches associated with the merger were underestimated."
+      },
+      "collocations": [
+        "splitting headache",
+        "severe headache",
+        "cause a headache",
+        "tension headache"
+      ],
+      "synonyms": [
+        "migraine",
+        "pain",
+        "nuisance",
+        "bother"
+      ],
+      "antonyms": [
+        "relief",
+        "pleasure"
+      ],
+      "relatedWords": {
+        "en": [
+          "pain",
+          "aspirin",
+          "stress"
+        ],
+        "ar": [
+          "ألم",
+          "تعب",
+          "إزعاج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "headache",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "صداع",
+      "frenchFr": "mal de tête",
+      "germanDe": "Kopfschmerzen",
+      "spanishEs": "dolor de cabeza",
+      "chineseZh": "头痛 (Tóutòng)",
+      "russianRu": "головная боль",
+      "portuguesePt": "dor de cabeça",
+      "japaneseJa": "頭痛 (Zutsū)",
+      "italianIt": "mal di testa",
+      "turkishTr": "baş ağrısı",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 6394,
+      "wordEn": "scratch",
+      "pos": "adj",
+      "cefrLevel": "B2",
+      "difficultyScore": "6",
+      "phoneticUs": "skrætʃ",
+      "phoneticUk": null,
+      "phoneticAr": "سْكْرَاتْش",
+      "translit": "Mujammaʿ / Asāsī",
+      "definitionEn": "Assembled hastily from available resources; without a handicap (in sports).",
+      "definitionAr": "صفة بنقولها على حاجة معمولة بسرعة من اللي موجود (زي فريق متجمع كدة وكدة)، أو في الرياضة بمعنى 'بدون نقاط مساعدة'.",
+      "usageNote": "Common in 'scratch team' or 'scratch golfer'. Also 'make from scratch' (noun phrase acting adjectivally).",
+      "category": "Sports & Hobbies",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Sports",
+        "#Improvised",
+        "#Basic",
+        "#Team"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي كروت الـ \"Scratch\" (الكشط).. بتجرب حظك باللي موجود",
+      "examples": {
+        "A1": "He is a scratch player. (Simple context)",
+        "A2": "They formed a scratch team for the game.",
+        "B1": "We built a scratch shelter from branches.",
+        "B2": "A scratch golfer plays with a handicap of zero.",
+        "C1": "The scratch crew managed to sail the boat safely.",
+        "C2": "Despite being a scratch assembly of volunteers, they performed admirably."
+      },
+      "collocations": [
+        "scratch team",
+        "scratch golfer",
+        "scratch crew",
+        "start from scratch"
+      ],
+      "synonyms": [
+        "improvised",
+        "impromptu",
+        "makeshift"
+      ],
+      "antonyms": [
+        "established",
+        "professional",
+        "handicapped"
+      ],
+      "relatedWords": {
+        "en": [
+          "zero",
+          "basic",
+          "rough"
+        ],
+        "ar": [
+          "ارتجالي",
+          "مبدئي",
+          "من الصفر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scratch",
+        "verb": "scratch",
+        "adj": "scratch",
+        "adv": ""
+      },
+      "arabicAr": "مرتجل / من الصفر",
+      "frenchFr": "improvisé",
+      "germanDe": "zusammengewürfelt",
+      "spanishEs": "improvisado",
+      "chineseZh": "凑合的 (Còuhé de)",
+      "russianRu": "сборный",
+      "portuguesePt": "improvisado",
+      "japaneseJa": "寄せ集めの (Yoseatsume no)",
+      "italianIt": "improvvisato",
+      "turkishTr": "derme çatma",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 6395,
+      "wordEn": "scratch",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "skrætʃ",
+      "phoneticUk": null,
+      "phoneticAr": "سْكْرَاتْش",
+      "translit": "Yakhdish / Yahrush",
+      "definitionEn": "To mark the surface of something with a sharp object; to rub skin to relieve itching.",
+      "definitionAr": "يخدش أو يجرح حاجة، أو يهرش في جسمه. وممكن تيجي بمعنى يلغي (Scratch a plan).",
+      "usageNote": "Can imply cancelling something ('scratch that idea').",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Damage",
+        "#Body",
+        "#Itch",
+        "#Cancel"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Rat\" (الفار) خربش الـ \"Screen\" (الشاشة) وعمل \"Scratch\"",
+      "examples": {
+        "A1": "Don't scratch the car.",
+        "A2": "My cat likes to scratch the sofa.",
+        "B1": "He scratched his head in confusion.",
+        "B2": "We had to scratch the original plan and start over.",
+        "C1": "The horse was scratched from the race due to injury.",
+        "C2": "If you scratch the surface of the issue, you find deeper problems."
+      },
+      "collocations": [
+        "scratch the surface",
+        "scratch an itch",
+        "scratch your head",
+        "scratch a plan"
+      ],
+      "synonyms": [
+        "scrape",
+        "rub",
+        "claw",
+        "cancel"
+      ],
+      "antonyms": [
+        "soothe",
+        "smooth",
+        "heal"
+      ],
+      "relatedWords": {
+        "en": [
+          "itch",
+          "mark",
+          "cut"
+        ],
+        "ar": [
+          "حكة",
+          "جرح",
+          "إلغاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scratch",
+        "verb": "scratch",
+        "adj": "scratchy",
+        "adv": ""
+      },
+      "arabicAr": "يخدش / يهرش",
+      "frenchFr": "gratter",
+      "germanDe": "kratzen",
+      "spanishEs": "rascar",
+      "chineseZh": "抓 (Zhuā)",
+      "russianRu": "царапать",
+      "portuguesePt": "arranhar",
+      "japaneseJa": "引っ掻く (Hikkaku)",
+      "italianIt": "graffiare",
+      "turkishTr": "kaşımak",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 6396,
+      "wordEn": "scratch",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "difficultyScore": "4",
+      "phoneticUs": "skrætʃ",
+      "phoneticUk": null,
+      "phoneticAr": "سْكْرَاتْش",
+      "translit": "Khadsh",
+      "definitionEn": "A mark or wound made by scratching; a slight injury.",
+      "definitionAr": "خدش أو جرح بسيط. وممكن نقول 'Start from scratch' يعني تبدأ من الصفر.",
+      "usageNote": "Idiom: 'from scratch' (from the beginning).",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Injury",
+        "#Mark",
+        "#Start",
+        "#Surface"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الكلمة.. الخدش اللي بيسيبه الـ \"Rat\" (الفار) على الـ \"Screen\"",
+      "examples": {
+        "A1": "It's just a small scratch.",
+        "A2": "There is a scratch on the door.",
+        "B1": "She made the cake from scratch.",
+        "B2": "The car didn't have a single scratch on it.",
+        "C1": "His explanation didn't come up to scratch (didn't meet the standard).",
+        "C2": "They built the entire business from scratch without any loans."
+      },
+      "collocations": [
+        "from scratch",
+        "up to scratch",
+        "minor scratch",
+        "deep scratch"
+      ],
+      "synonyms": [
+        "scrape",
+        "abrasion",
+        "mark",
+        "cut"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "wound",
+          "scar",
+          "dent"
+        ],
+        "ar": [
+          "جرح",
+          "ندبة",
+          "علامة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "scratch",
+        "verb": "scratch",
+        "adj": "scratchy",
+        "adv": ""
+      },
+      "arabicAr": "خدش",
+      "frenchFr": "égratignure",
+      "germanDe": "Kratzer",
+      "spanishEs": "rasguño",
+      "chineseZh": "划痕 (Huáhén)",
+      "russianRu": "царапина",
+      "portuguesePt": "arranhão",
+      "japaneseJa": "傷 (Kizu)",
+      "italianIt": "graffio",
+      "turkishTr": "çizik",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 6397,
+      "wordEn": "weave",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "wiv",
+      "phoneticUk": "wiːv",
+      "phoneticAr": "وِيف",
+      "translit": "Nasīj / Ṭarīqat nasj",
+      "definitionEn": "A particular style or manner in which fabric is woven; a hairstyle involving added hair.",
+      "definitionAr": "طريقة النسيج أو شكل القماش. وكمان بتتقال على 'وصلة الشعر' اللي الستات بتركبها.",
+      "usageNote": "Common in fashion (loose weave) and beauty (hair weave).",
+      "category": "Objects & Tools",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Fabric",
+        "#Hair",
+        "#Style",
+        "#Fashion"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "خيوط القماش بتعمل \"Wave\" (موجة) وهي بتتدخل في بعض عشان تعمل \"Weave\" (نسيج)",
+      "examples": {
+        "A1": "This cloth has a nice weave. (Simple context)",
+        "A2": "She bought a basket with a tight weave.",
+        "B1": "The loose weave of the shirt makes it cool in summer.",
+        "B2": "She went to the salon to get a weave.",
+        "C1": "The complex weave of the tapestry tells a story.",
+        "C2": "The novel's narrative structure mirrors the intricate weave of a Persian rug."
+      },
+      "collocations": [
+        "tight weave",
+        "loose weave",
+        "hair weave",
+        "plain weave"
+      ],
+      "synonyms": [
+        "texture",
+        "pattern",
+        "knit",
+        "web"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "fabric",
+          "thread",
+          "loom"
+        ],
+        "ar": [
+          "قماش",
+          "خيط",
+          "نول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "weave",
+        "verb": "weave",
+        "adj": "woven",
+        "adv": ""
+      },
+      "arabicAr": "نسيج",
+      "frenchFr": "tissage",
+      "germanDe": "Webart",
+      "spanishEs": "tejido",
+      "chineseZh": "编织 (Biānzhī)",
+      "russianRu": "плетение",
+      "portuguesePt": "tecelagem",
+      "japaneseJa": "織り方 (Orikata)",
+      "italianIt": "tessitura",
+      "turkishTr": "dokuma",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 6398,
+      "wordEn": "weave",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "wiv",
+      "phoneticUk": "wiːv",
+      "phoneticAr": "وِيف",
+      "translit": "Yansuj / Yarāwigh",
+      "definitionEn": "To make fabric by interlacing threads; to move side to side to avoid obstacles.",
+      "definitionAr": "ينسج قماش. وممكن تيجي بمعنى يمشي يمين وشمال عشان يفادي الزحمة (زي الموتوسيكل وسط العربيات).",
+      "usageNote": "Past tense is 'wove', participle 'woven'.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Craft",
+        "#Movement",
+        "#Traffic",
+        "#Create"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الفكرة.. الخيوط بتعمل \"Wave\" (موجة) وهي بتعمل \"Weave\" (نسج)",
+      "examples": {
+        "A1": "My grandmother can weave.",
+        "A2": "They weave baskets from grass.",
+        "B1": "The spider weaves a web.",
+        "B2": "The motorcycle weaved through the heavy traffic.",
+        "C1": "The author skilfully weaves together three different plots.",
+        "C2": "He managed to weave a compelling narrative out of disparate historical facts."
+      },
+      "collocations": [
+        "weave a web",
+        "weave through traffic",
+        "weave a story",
+        "basket weave"
+      ],
+      "synonyms": [
+        "knit",
+        "braid",
+        "interlace",
+        "zigzag"
+      ],
+      "antonyms": [
+        "unravel",
+        "straighten"
+      ],
+      "relatedWords": {
+        "en": [
+          "loom",
+          "textile",
+          "spin"
+        ],
+        "ar": [
+          "غزل",
+          "حياكة",
+          "تمايل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "weaver",
+        "verb": "weave",
+        "adj": "woven",
+        "adv": ""
+      },
+      "arabicAr": "ينسج",
+      "frenchFr": "tisser",
+      "germanDe": "weben",
+      "spanishEs": "tejer",
+      "chineseZh": "编织 (Biānzhī)",
+      "russianRu": "ткать",
+      "portuguesePt": "tecer",
+      "japaneseJa": "織る (Oru)",
+      "italianIt": "tessere",
+      "turkishTr": "dokumak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 6399,
+      "wordEn": "endure",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ɪnˈdʊr",
+      "phoneticUk": "ɪnˈdjʊə(r)",
+      "phoneticAr": "إِنْدِيُور",
+      "translit": "Yataḥammal / Yaṣmud",
+      "definitionEn": "To suffer something painful or difficult patiently; to remain in existence.",
+      "definitionAr": "يتحمل أو يطيق حاجة صعبة زي الألم أو المعاناة. وكمان بتيجي بمعنى يستمر ويبقى.",
+      "usageNote": "Implies a long period of difficulty.",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Patience",
+        "#Pain",
+        "#Time",
+        "#Strength"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لازم تتحمل للآخر \"End\" لحد ما نلاقي \"Cure\" (علاج).. \"Endure\"",
+      "examples": {
+        "A1": "I cannot endure this noise.",
+        "A2": "She had to endure a long flight.",
+        "B1": "They endured many hardships during the war.",
+        "B2": "His fame endured for centuries.",
+        "C1": "The company endured despite the economic crisis.",
+        "C2": "Humanity has the capacity to endure even the most catastrophic events."
+      },
+      "collocations": [
+        "endure pain",
+        "endure hardship",
+        "cannot endure",
+        "long endure"
+      ],
+      "synonyms": [
+        "bear",
+        "tolerate",
+        "sustain",
+        "last"
+      ],
+      "antonyms": [
+        "fade",
+        "collapse",
+        "quit"
+      ],
+      "relatedWords": {
+        "en": [
+          "endurance",
+          "durable",
+          "patience"
+        ],
+        "ar": [
+          "تحمل",
+          "صبر",
+          "بقاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "endurance",
+        "verb": "endure",
+        "adj": "endurable",
+        "adv": ""
+      },
+      "arabicAr": "يتحمل / يصمد",
+      "frenchFr": "endurer",
+      "germanDe": "erdulden",
+      "spanishEs": "soportar",
+      "chineseZh": "忍受 (Rěnshòu)",
+      "russianRu": "терпеть",
+      "portuguesePt": "suportar",
+      "japaneseJa": "耐える (Taeru)",
+      "italianIt": "sopportare",
+      "turkishTr": "katlanmak",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 6400,
+      "wordEn": "ideally",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "5",
+      "phoneticUs": "aɪˈdiəli",
+      "phoneticUk": "aɪˈdɪəli",
+      "phoneticAr": "آيْدِيَلِي",
+      "translit": "Mithāliyan",
+      "definitionEn": "In an ideal world; preferably; perfectly.",
+      "definitionAr": "مثالياً، أو في أحسن الظروف. بنستخدمها لما نتكلم عن السيناريو الأفضل اللي نفسنا يحصل.",
+      "usageNote": "Used to introduce a preferred option or hypothetical perfect situation.",
+      "category": "Mind & Thinking",
+      "primarySense": "Concept",
+      "semanticTags": [
+        "#Perfect",
+        "#Preference",
+        "#Hope",
+        "#Plan"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Idea\" (فكرة).. يعني زي ما الفكرة بتقول بالضبط بشكل \"Ideal\" (مثالي)",
+      "examples": {
+        "A1": "Ideally, we want sunny weather.",
+        "A2": "Ideally, the car should be red.",
+        "B1": "Ideally, we would finish the work by Friday.",
+        "B2": "She is ideally suited for this job.",
+        "C1": "Ideally, the government should cut taxes, but it's unlikely.",
+        "C2": "The samples should ideally be tested within 24 hours of collection."
+      },
+      "collocations": [
+        "ideally suited",
+        "ideally situated",
+        "ideally speaking"
+      ],
+      "synonyms": [
+        "preferably",
+        "perfectly",
+        "theoretically"
+      ],
+      "antonyms": [
+        "worst case",
+        "badly"
+      ],
+      "relatedWords": {
+        "en": [
+          "ideal",
+          "idea",
+          "perfect"
+        ],
+        "ar": [
+          "مثالي",
+          "فكرة",
+          "نموذجي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "ideal",
+        "verb": "idealize",
+        "adj": "ideal",
+        "adv": "ideally"
+      },
+      "arabicAr": "بشكل مثالي",
+      "frenchFr": "idéalement",
+      "germanDe": "idealerweise",
+      "spanishEs": "idealmente",
+      "chineseZh": "理想地 (Lǐxiǎng de)",
+      "russianRu": "в идеале",
+      "portuguesePt": "idealmente",
+      "japaneseJa": "理想的には (Risōteki ni wa)",
+      "italianIt": "idealmente",
+      "turkishTr": "ideal olarak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 6401,
+      "wordEn": "stride",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "stɹaɪd",
+      "phoneticUk": null,
+      "phoneticAr": "سْتْرَايْد",
+      "translit": "Khaṭwa wāsiʿa",
+      "definitionEn": "A long, decisive step; progress or improvement.",
+      "definitionAr": "خطوة واسعة وواثقة. وممكن تيجي بمعنى تقدم كبير (Making strides in technology).",
+      "usageNote": "Common phrase: 'take it in your stride' (deal with something calmly).",
+      "category": "Actions & Processes",
+      "primarySense": "Movement",
+      "semanticTags": [
+        "#Walk",
+        "#Progress",
+        "#Step",
+        "#Movement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "بيمشي في الـ \"Street\" (الشارع) كأنه \"Ride\" (راكب) عجلة من سرعة الـ \"Stride\" (الخطوة) بتاعته",
+      "examples": {
+        "A1": "He walks with a long stride.",
+        "A2": "She took a stride towards the door.",
+        "B1": "The runner lengthened his stride.",
+        "B2": "We are making great strides in our research.",
+        "C1": "He took the bad news in his stride and kept working.",
+        "C2": "The country has made significant economic strides in the last decade."
+      },
+      "collocations": [
+        "take in stride",
+        "make strides",
+        "long stride",
+        "break stride"
+      ],
+      "synonyms": [
+        "step",
+        "pace",
+        "progress",
+        "advance"
+      ],
+      "antonyms": [
+        "crawl",
+        "setback"
+      ],
+      "relatedWords": {
+        "en": [
+          "walk",
+          "march",
+          "gait"
+        ],
+        "ar": [
+          "مشي",
+          "تقدم",
+          "خطوة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "stride",
+        "verb": "stride",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "خطوة واسعة / تقدم",
+      "frenchFr": "enjambée",
+      "germanDe": "Schritt",
+      "spanishEs": "zancada",
+      "chineseZh": "大步 (Dàbù)",
+      "russianRu": "шаг",
+      "portuguesePt": "passada",
+      "japaneseJa": "大股 (Ōmata)",
+      "italianIt": "passo",
+      "turkishTr": "uzun adım",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 6402,
+      "wordEn": "verbal",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈvɜrbəl",
+      "phoneticUk": "ˈvɜːbl",
+      "phoneticAr": "فِرْبَل",
+      "translit": "Lafẓī / Shafahī",
+      "definitionEn": "Relating to or in the form of words; spoken rather than written.",
+      "definitionAr": "لفظي أو شفهي. يعني بالكلام بس مش بالكتابة (اتفاق شفهي)، أو حاجة ليها علاقة بالكلمات عموماً.",
+      "usageNote": "Often contrasted with 'non-verbal' (body language) or 'written'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Speech",
+        "#Words",
+        "#Language",
+        "#Communication"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Verb\" (فعل/كلمة).. يعني حاجة ليها علاقة بالكلام",
+      "examples": {
+        "A1": "Verbal communication is important.",
+        "A2": "They made a verbal agreement.",
+        "B1": "He gave me a verbal warning.",
+        "B2": "The child has excellent verbal skills.",
+        "C1": "The contract was verbal, so it's hard to prove in court.",
+        "C2": "Her verbal dexterity allowed her to dominate the debate effortlessly."
+      },
+      "collocations": [
+        "verbal agreement",
+        "verbal abuse",
+        "verbal warning",
+        "non-verbal"
+      ],
+      "synonyms": [
+        "oral",
+        "spoken",
+        "linguistic"
+      ],
+      "antonyms": [
+        "written",
+        "non-verbal",
+        "physical"
+      ],
+      "relatedWords": {
+        "en": [
+          "verb",
+          "verbose",
+          "verbatim"
+        ],
+        "ar": [
+          "فعل",
+          "كلمة",
+          "شفوي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "verbal",
+        "verb": "verbalize",
+        "adj": "verbal",
+        "adv": "verbally"
+      },
+      "arabicAr": "لفظي / شفهي",
+      "frenchFr": "verbal",
+      "germanDe": "mündlich",
+      "spanishEs": "verbal",
+      "chineseZh": "口头的 (Kǒutóu de)",
+      "russianRu": "устный",
+      "portuguesePt": "verbal",
+      "japaneseJa": "言葉の (Kotoba no)",
+      "italianIt": "verbale",
+      "turkishTr": "sözlü",
+      "aiConfidence": 0.98
+    }
+  ]
+} 

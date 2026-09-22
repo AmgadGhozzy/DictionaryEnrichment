@@ -1,0 +1,590 @@
+Process the following batch of raw English vocabulary. Act as a Senior Lexicographer to transform these inputs into high-fidelity, pedagogically rich entries for the wordEntries JSON array.
+
+1. DATA PRESERVATION & INTEGRITY
+
+You MUST preserve the following fields exactly as provided in the input:
+- id (Integer)
+- wordEn (String) - Maintain exact casing.
+- pos (String) - Ensure all definitions/examples match this specific part of speech.
+- cefrLevel (String) - This dictates the complexity of your generated content.
+- arabicAr (String) - Use this as the source of truth for the translit field.
+
+2. ENRICHMENT WORKFLOW
+
+A. Pedagogical Content
+
+Examples Map: Generate exactly 6 CEFR-aligned sentences (A1, A2, B1, B2, C1, C2).
+- A1/A2: Short, concrete context.
+- C1/C2: Abstract, nuanced, or idiomatic context.
+
+Definitions:
+- English: Max 20 words. Simple vocabulary. Do not use the target word in the definition.
+- Arabic: "White Arabic" (Podcast style) WITHOUT tashkeel. Explain the concept clearly as if talking to a friend, don't just give a synonym.
+
+Mnemonics (mnemonicAr):
+- Goal: Link the English sound/root to a familiar Arabic concept.
+- USE HALF TASHKEEL - strategic diacritics only where they enhance the memory hook.
+- Strict Formatting: English words must be in double quotes "". NEVER use parentheses () or brackets [] in the mnemonic.
+- Example: "Venom": اربطها بكلمة "Vein" "وريد".. الـ "Venom" هو السُم اللي بيدخل في الـ "Vein" على طول.
+- Return null if the mnemonic would be forced or unhelpful.
+
+B. Linguistic Precision
+
+Phonetics (IPA):
+- NO SLASHES or brackets. (e.g., əˈtʃiːv).
+- Return null for phoneticUk if it is identical to phoneticUs.
+
+Arabic Phonetics (phoneticAr):
+- Transliterate the English pronunciation into Arabic script.
+- USE HALF TASHKEEL - strategic vocalization for pronunciation clarity, not full tashkeel.
+- Example: schedule -> سْكِدْجول (not سكيدجول or سُكِيدُجُولْ)
+
+Translit:
+- Romanize the Arabic translation (arabicAr).
+- If arabicAr is "يحقق / ينجز", return "Yuḥaqqiq / Yunjiz".
+
+C. Semantic Logic
+
+Primary Sense: Select the specific semantic anchor (e.g., Action, Emotion, Tool) that best fits the CEFR level provided.
+
+Word Family: Only include derived forms (Noun/Verb/Adj/Adv). Return empty strings "" where no valid form exists.
+
+D. Multilingual Translations
+
+CRITICAL: ALL translation fields (frenchFr, germanDe, spanishEs, chineseZh, russianRu, portuguesePt, japaneseJa, italianIt, turkishTr) MUST be populated.
+
+- Provide accurate, natural translations for each language.
+- NEVER return null for translation fields.
+- Use appropriate grammatical forms for each language.
+- For Chinese: Simplified characters + Pinyin in brackets
+- For Japanese: Kanji/Kana + Romaji in brackets
+
+E. AI Confidence Score
+
+MANDATORY: You MUST provide an aiConfidence score (0.0 to 1.0) for EACH word entry.
+
+Scoring Guidelines:
+- 0.95-1.0: Highly confident - common word, clear meaning, excellent examples
+- 0.85-0.94: Confident - solid enrichment with minor uncertainties
+- 0.70-0.84: Moderate - some ambiguity in usage or translations
+- 0.50-0.69: Low - difficult word, limited context, or uncertain translations
+- Below 0.50: Very uncertain - flag for manual review
+
+Consider:
+- Clarity of word meaning and part of speech (30%)
+- Quality and naturalness of example sentences (25%)
+- Accuracy of multilingual translations (25%)
+- Quality of pedagogical enrichment (20%)
+
+3. TECHNICAL OUTPUT
+
+Return a single JSON object containing the wordEntries array.
+
+Null Handling:
+- Use JSON null ONLY for: phoneticUk (if identical to US) and mnemonicAr (if not helpful).
+- Use "" for missing word family forms.
+- ALL translation fields MUST have values (never null).
+- Never omit a required field.
+
+4. BATCH TO PROCESS
+
+[
+  {
+    "id": 216,
+    "wordEn": "many",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 216,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈmæni",
+    "phoneticUk": "ˈmɛni",
+    "phoneticAr": "مآني",
+    "translit": "kathir / kthyr",
+    "definitionEn": "[\"a large number of people or things.\", \"the majority of people.\", \"A retinue of servants\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the number of people or things.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the possibilities are many\", \"many people agreed with her\", \"music for the many\"], \"A2\": [\"it was one of my many errors\", \"many think it is a new craze\"], \"B1\": [\"it could be the solution to many of our problems\"], \"B2\": [\"their vision is that trade is in the interest of the many, not the few\"]}",
+    "collocations": "[\"how many\", \"many years\"]",
+    "synonyms": "[\"myriad\", \"divers\", \"umpteen\", \"eleventy\", \"lots of\"]",
+    "antonyms": "[\"few\"]",
+    "relatedWords": "{\"en\": [\"numerous\", \"some\", \"galore\", \"many a\", \"many an\"], \"ar\": [\"كثير\", \"متعدِّد\", \"إضَافِيّ\", \"بالِغ\", \"جَزْل\", \"جُمْلَة\"]}",
+    "arabicAr": "كثير",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 217,
+    "wordEn": "many",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 217,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈmæni",
+    "phoneticUk": "ˈmɛni",
+    "phoneticAr": "مآني",
+    "translit": "kathir / kthyr",
+    "definitionEn": "[\"a large number of people or things.\", \"the majority of people.\", \"A retinue of servants\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the number of people or things.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the possibilities are many\", \"many people agreed with her\", \"music for the many\"], \"A2\": [\"it was one of my many errors\", \"many think it is a new craze\"], \"B1\": [\"it could be the solution to many of our problems\"], \"B2\": [\"their vision is that trade is in the interest of the many, not the few\"]}",
+    "collocations": "[\"how many\", \"many years\"]",
+    "synonyms": "[\"myriad\", \"divers\", \"umpteen\", \"eleventy\", \"lots of\"]",
+    "antonyms": "[\"few\"]",
+    "relatedWords": "{\"en\": [\"numerous\", \"some\", \"galore\", \"many a\", \"many an\"], \"ar\": [\"كثير\", \"متعدِّد\", \"إضَافِيّ\", \"بالِغ\", \"جَزْل\", \"جُمْلَة\"]}",
+    "arabicAr": "كثير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 218,
+    "wordEn": "many",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 218,
+    "frequency": 3,
+    "difficultyScore": 4,
+    "phoneticUs": "ˈmæni",
+    "phoneticUk": "ˈmɛni",
+    "phoneticAr": "مآني",
+    "translit": "kathir / kthyr",
+    "definitionEn": "[\"a large number of people or things.\", \"the majority of people.\", \"A retinue of servants\"]",
+    "usageNote": "Used to indicate, demonstrate or compare the number of people or things.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the possibilities are many\", \"many people agreed with her\", \"music for the many\"], \"A2\": [\"it was one of my many errors\", \"many think it is a new craze\"], \"B1\": [\"it could be the solution to many of our problems\"], \"B2\": [\"their vision is that trade is in the interest of the many, not the few\"]}",
+    "collocations": "[\"how many\", \"many years\"]",
+    "synonyms": "[\"myriad\", \"divers\", \"umpteen\", \"eleventy\", \"lots of\"]",
+    "antonyms": "[\"few\"]",
+    "relatedWords": "{\"en\": [\"numerous\", \"some\", \"galore\", \"many a\", \"many an\"], \"ar\": [\"كثير\", \"متعدِّد\", \"إضَافِيّ\", \"بالِغ\", \"جَزْل\", \"جُمْلَة\"]}",
+    "arabicAr": "كثير",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 219,
+    "wordEn": "those",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 0,
+    "rank": 219,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ðəʊz",
+    "phoneticAr": "ذاوز",
+    "translit": "'uwlayik / ''uwlayik",
+    "definitionEn": "[\"plural form of that.\"]",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{}",
+    "collocations": "[\"those who serve\", \"don't touch those\", \"all those\", \"those words\"]",
+    "synonyms": "[\"both\", \"above\", \"anyone\", \"celles\", \"anybody\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"above\", \"anybody\", \"anyone\", \"both\", \"celles\"], \"ar\": [\"أُولَئِك\", \"هؤلاء\", \"هم\", \"هن\"]}",
+    "arabicAr": "أولئك",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 220,
+    "wordEn": "one",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 220,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wan",
+    "phoneticUk": "wɒn",
+    "phoneticAr": "وآن",
+    "translit": "wahid",
+    "definitionEn": "[\"the lowest cardinal number; half of two; 1.\", \"referring to a person or thing previously mentioned or easily identified.\", \"a person of a specified kind.\"]",
+    "usageNote": "Used to briefly refer to a noun phrase understood by context A one-dollar bill.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one hundred miles\", \"do you want one?\", \"her best apron, the white one\", \"I'll be there at one\"], \"A2\": [\"all types of training meet one common standard\", \"Eleanor was never one to be trifled with\", \"one must admire him for his willingness\", \"one gets the impression that he is ahead\"]}",
+    "collocations": "[\"Just a quick one before work\", \"Oh, most merciful one\", \"How come so heavy one ah\", \"Can one, why cannot\", \"Who say one\"]",
+    "synonyms": "[\"ace\", \"single\", \"a sole\", \"a single\", \"a solitary\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"i\", \"combined\", \"united\", \"same\", \"unity\"], \"ar\": [\"واحد\", \"واحدة\", \"ذات يوم\", \"وحيد\", \"أوحد\", \"امْرُؤ\"]}",
+    "arabicAr": "واحد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 221,
+    "wordEn": "one",
+    "pos": "pron",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 221,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wan",
+    "phoneticUk": "wɒn",
+    "phoneticAr": "وآن",
+    "translit": "wahid",
+    "definitionEn": "[\"the lowest cardinal number; half of two; 1.\", \"referring to a person or thing previously mentioned or easily identified.\", \"a person of a specified kind.\"]",
+    "usageNote": "Used to briefly refer to a noun phrase understood by context A one-dollar bill.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one hundred miles\", \"do you want one?\", \"her best apron, the white one\", \"I'll be there at one\"], \"A2\": [\"all types of training meet one common standard\", \"Eleanor was never one to be trifled with\", \"one must admire him for his willingness\", \"one gets the impression that he is ahead\"]}",
+    "collocations": "[\"Just a quick one before work\", \"Oh, most merciful one\", \"How come so heavy one ah\", \"Can one, why cannot\", \"Who say one\"]",
+    "synonyms": "[\"ace\", \"single\", \"a sole\", \"a single\", \"a solitary\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"i\", \"combined\", \"united\", \"same\", \"unity\"], \"ar\": [\"واحد\", \"واحدة\", \"ذات يوم\", \"وحيد\", \"أوحد\", \"امْرُؤ\"]}",
+    "arabicAr": "واحد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 222,
+    "wordEn": "one",
+    "pos": "num",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 222,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wan",
+    "phoneticUk": "wɒn",
+    "phoneticAr": "وآن",
+    "translit": "wahid",
+    "definitionEn": "[\"the lowest cardinal number; half of two; 1.\", \"referring to a person or thing previously mentioned or easily identified.\", \"a person of a specified kind.\"]",
+    "usageNote": "Used to briefly refer to a noun phrase understood by context A one-dollar bill.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one hundred miles\", \"do you want one?\", \"her best apron, the white one\", \"I'll be there at one\"], \"A2\": [\"all types of training meet one common standard\", \"Eleanor was never one to be trifled with\", \"one must admire him for his willingness\", \"one gets the impression that he is ahead\"]}",
+    "collocations": "[\"Just a quick one before work\", \"Oh, most merciful one\", \"How come so heavy one ah\", \"Can one, why cannot\", \"Who say one\"]",
+    "synonyms": "[\"ace\", \"single\", \"a sole\", \"a single\", \"a solitary\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"i\", \"combined\", \"united\", \"same\", \"unity\"], \"ar\": [\"واحد\", \"واحدة\", \"ذات يوم\", \"وحيد\", \"أوحد\", \"امْرُؤ\"]}",
+    "arabicAr": "واحد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 223,
+    "wordEn": "one",
+    "pos": "det",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 223,
+    "frequency": 2,
+    "difficultyScore": 1,
+    "phoneticUs": "wan",
+    "phoneticUk": "wɒn",
+    "phoneticAr": "وآن",
+    "translit": "wahid",
+    "definitionEn": "[\"the lowest cardinal number; half of two; 1.\", \"referring to a person or thing previously mentioned or easily identified.\", \"a person of a specified kind.\"]",
+    "usageNote": "Used to briefly refer to a noun phrase understood by context A one-dollar bill.",
+    "category": "Numbers, Time & Math",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"one hundred miles\", \"do you want one?\", \"her best apron, the white one\", \"I'll be there at one\"], \"A2\": [\"all types of training meet one common standard\", \"Eleanor was never one to be trifled with\", \"one must admire him for his willingness\", \"one gets the impression that he is ahead\"]}",
+    "collocations": "[\"Just a quick one before work\", \"Oh, most merciful one\", \"How come so heavy one ah\", \"Can one, why cannot\", \"Who say one\"]",
+    "synonyms": "[\"ace\", \"single\", \"a sole\", \"a single\", \"a solitary\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"i\", \"combined\", \"united\", \"same\", \"unity\"], \"ar\": [\"واحد\", \"واحدة\", \"ذات يوم\", \"وحيد\", \"أوحد\", \"امْرُؤ\"]}",
+    "arabicAr": "واحد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 224,
+    "wordEn": "after",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 224,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæf.tə(ɹ)",
+    "phoneticUk": "ˈɑ:ftə",
+    "phoneticAr": "آفتا",
+    "translit": "baed",
+    "syllabify": "af•ter",
+    "definitionEn": "[\"in the time following .\", \"in pursuit or quest of.\", \"next to and following in order or importance.\"]",
+    "usageNote": "Used to indicate recent completion of an activity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she stared after him\", \"a drawing after Millet's The Reapers\", \"he was sorry in after years\", \"the after cabin\"], \"A2\": [\"the week after, I was back in school\", \"x comes after y in the series\", \"shortly after their marriage they moved to Colorado\"], \"B2\": [\"she asked after his mother and sister and was told that both were well\"]}",
+    "collocations": "[\"line after\", \"after school\"]",
+    "synonyms": "[\"later\", \"afterward\", \"afterwards\", \"subsequently\", \"posterior to\"]",
+    "antonyms": "[\"before\"]",
+    "relatedWords": "{\"en\": [\"afterwards\", \"later\", \"later on\", \"subsequently\", \"afterward\"], \"ar\": [\"تالٍ\", \"قادم\", \"خلفي\", \"في ما بعد\", \"بعد\", \"خلف\"]}",
+    "arabicAr": "بعد",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 225,
+    "wordEn": "after",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 225,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæf.tə(ɹ)",
+    "phoneticUk": "ˈɑ:ftə",
+    "phoneticAr": "آفتا",
+    "translit": "baed",
+    "syllabify": "af•ter",
+    "definitionEn": "[\"in the time following .\", \"in pursuit or quest of.\", \"next to and following in order or importance.\"]",
+    "usageNote": "Used to indicate recent completion of an activity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she stared after him\", \"a drawing after Millet's The Reapers\", \"he was sorry in after years\", \"the after cabin\"], \"A2\": [\"the week after, I was back in school\", \"x comes after y in the series\", \"shortly after their marriage they moved to Colorado\"], \"B2\": [\"she asked after his mother and sister and was told that both were well\"]}",
+    "collocations": "[\"line after\", \"after school\"]",
+    "synonyms": "[\"later\", \"afterward\", \"afterwards\", \"subsequently\", \"posterior to\"]",
+    "antonyms": "[\"before\"]",
+    "relatedWords": "{\"en\": [\"afterwards\", \"later\", \"later on\", \"subsequently\", \"afterward\"], \"ar\": [\"تالٍ\", \"قادم\", \"خلفي\", \"في ما بعد\", \"بعد\", \"خلف\"]}",
+    "arabicAr": "بعد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 226,
+    "wordEn": "after",
+    "pos": "conj",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 226,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæf.tə(ɹ)",
+    "phoneticUk": "ˈɑ:ftə",
+    "phoneticAr": "آفتا",
+    "translit": "baed",
+    "syllabify": "af•ter",
+    "definitionEn": "[\"in the time following .\", \"in pursuit or quest of.\", \"next to and following in order or importance.\"]",
+    "usageNote": "Used to indicate recent completion of an activity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she stared after him\", \"a drawing after Millet's The Reapers\", \"he was sorry in after years\", \"the after cabin\"], \"A2\": [\"the week after, I was back in school\", \"x comes after y in the series\", \"shortly after their marriage they moved to Colorado\"], \"B2\": [\"she asked after his mother and sister and was told that both were well\"]}",
+    "collocations": "[\"line after\", \"after school\"]",
+    "synonyms": "[\"later\", \"afterward\", \"afterwards\", \"subsequently\", \"posterior to\"]",
+    "antonyms": "[\"before\"]",
+    "relatedWords": "{\"en\": [\"afterwards\", \"later\", \"later on\", \"subsequently\", \"afterward\"], \"ar\": [\"تالٍ\", \"قادم\", \"خلفي\", \"في ما بعد\", \"بعد\", \"خلف\"]}",
+    "arabicAr": "بعد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 227,
+    "wordEn": "after",
+    "pos": "adv",
+    "cefrLevel": "A2",
+    "fromOxford": 1,
+    "rank": 227,
+    "frequency": 2,
+    "difficultyScore": 2,
+    "phoneticUs": "ˈæf.tə(ɹ)",
+    "phoneticUk": "ˈɑ:ftə",
+    "phoneticAr": "آفتا",
+    "translit": "baed",
+    "syllabify": "af•ter",
+    "definitionEn": "[\"in the time following .\", \"in pursuit or quest of.\", \"next to and following in order or importance.\"]",
+    "usageNote": "Used to indicate recent completion of an activity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"she stared after him\", \"a drawing after Millet's The Reapers\", \"he was sorry in after years\", \"the after cabin\"], \"A2\": [\"the week after, I was back in school\", \"x comes after y in the series\", \"shortly after their marriage they moved to Colorado\"], \"B2\": [\"she asked after his mother and sister and was told that both were well\"]}",
+    "collocations": "[\"line after\", \"after school\"]",
+    "synonyms": "[\"later\", \"afterward\", \"afterwards\", \"subsequently\", \"posterior to\"]",
+    "antonyms": "[\"before\"]",
+    "relatedWords": "{\"en\": [\"afterwards\", \"later\", \"later on\", \"subsequently\", \"afterward\"], \"ar\": [\"تالٍ\", \"قادم\", \"خلفي\", \"في ما بعد\", \"بعد\", \"خلف\"]}",
+    "arabicAr": "بعد",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 228,
+    "wordEn": "down",
+    "pos": "adj",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 228,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "daʊn",
+    "phoneticAr": "داون",
+    "translit": "taht / ''asfal",
+    "definitionEn": "[\"toward or in a lower place or position, especially to or on the ground or another surface.\", \"in or into a weaker or worse position, mood, or condition.\", \"made initially or on the spot.\"]",
+    "usageNote": "usually horizontal",
+    "category": "Nature & Science",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the down escalator\", \"click on the down arrow\", \"tears streaming down her face\", \"they're living down south\", \"up and down the stairs\", \"Down, boy\", \"Please turn the music down\"], \"A2\": [\"I'll put you down for the evening shift\"], \"B1\": [\"the Braves, down 7–6, rallied for two runs in the sixth inning\", \"everyone, from the president down to the guy selling hot dogs, is outraged\"]}",
+    "collocations": "[\"down on the farm\", \"down to the country\", \"Please turn the music down\", \"Down, boy\", \"a down cow\"]",
+    "synonyms": "[\"pile\", \"toss off\", \"down feather\", \"John L. H. Down\", \"toward a lower position\"]",
+    "antonyms": "[\"upwards\", \"upward\"]",
+    "relatedWords": "{\"en\": [\"downwards\", \"downward\", \"downbound\", \"falling\", \"fallen\"], \"ar\": [\"منخفِض\", \"منحدِر\", \"كئيب\", \"مريض\", \"نقديّ\", \"تحت\"]}",
+    "arabicAr": "تحت / أسفل",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 229,
+    "wordEn": "down",
+    "pos": "prep",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 229,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "daʊn",
+    "phoneticAr": "داون",
+    "translit": "taht / ''asfal",
+    "definitionEn": "[\"toward or in a lower place or position, especially to or on the ground or another surface.\", \"in or into a weaker or worse position, mood, or condition.\", \"made initially or on the spot.\"]",
+    "usageNote": "usually horizontal",
+    "category": "Nature & Science",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the down escalator\", \"click on the down arrow\", \"tears streaming down her face\", \"they're living down south\", \"up and down the stairs\", \"Down, boy\", \"Please turn the music down\"], \"A2\": [\"I'll put you down for the evening shift\"], \"B1\": [\"the Braves, down 7–6, rallied for two runs in the sixth inning\", \"everyone, from the president down to the guy selling hot dogs, is outraged\"]}",
+    "collocations": "[\"down on the farm\", \"down to the country\", \"Please turn the music down\", \"Down, boy\", \"a down cow\"]",
+    "synonyms": "[\"pile\", \"toss off\", \"down feather\", \"John L. H. Down\", \"toward a lower position\"]",
+    "antonyms": "[\"upwards\", \"upward\"]",
+    "relatedWords": "{\"en\": [\"downwards\", \"downward\", \"downbound\", \"falling\", \"fallen\"], \"ar\": [\"منخفِض\", \"منحدِر\", \"كئيب\", \"مريض\", \"نقديّ\", \"تحت\"]}",
+    "arabicAr": "تحت / أسفل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 230,
+    "wordEn": "down",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 230,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "daʊn",
+    "phoneticAr": "داون",
+    "translit": "taht / ''asfal",
+    "definitionEn": "[\"toward or in a lower place or position, especially to or on the ground or another surface.\", \"in or into a weaker or worse position, mood, or condition.\", \"made initially or on the spot.\"]",
+    "usageNote": "usually horizontal",
+    "category": "Nature & Science",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"the down escalator\", \"click on the down arrow\", \"tears streaming down her face\", \"they're living down south\", \"up and down the stairs\", \"Down, boy\", \"Please turn the music down\"], \"A2\": [\"I'll put you down for the evening shift\"], \"B1\": [\"the Braves, down 7–6, rallied for two runs in the sixth inning\", \"everyone, from the president down to the guy selling hot dogs, is outraged\"]}",
+    "collocations": "[\"down on the farm\", \"down to the country\", \"Please turn the music down\", \"Down, boy\", \"a down cow\"]",
+    "synonyms": "[\"pile\", \"toss off\", \"down feather\", \"John L. H. Down\", \"toward a lower position\"]",
+    "antonyms": "[\"upwards\", \"upward\"]",
+    "relatedWords": "{\"en\": [\"downwards\", \"downward\", \"downbound\", \"falling\", \"fallen\"], \"ar\": [\"منخفِض\", \"منحدِر\", \"كئيب\", \"مريض\", \"نقديّ\", \"تحت\"]}",
+    "arabicAr": "تحت / أسفل",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 231,
+    "wordEn": "yeah",
+    "pos": "adv",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 231,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈjæ.ə",
+    "phoneticUk": "jeə",
+    "phoneticAr": "يآا",
+    "translit": "naeam / balaa",
+    "definitionEn": "[\"nonstandard spelling of yes, representing a pronunciation.\", \"Expressing joy, celebration, glee, etc.\"]",
+    "usageNote": "Used to express acknowledgment of what was previously said.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"yeah, it's been fun\", \"Yeah We did it\"]}",
+    "collocations": "[\"Yeah We did it\", \"new yeah\", \"yeah man\"]",
+    "synonyms": "[\"yea\", \"yay\", \"great\", \"hurray\", \"hurrah\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"yea\", \"great\", \"super\", \"fine\", \"baby\"], \"ar\": [\"بلى\"]}",
+    "arabicAr": "نعم",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 232,
+    "wordEn": "yeah",
+    "pos": "excl",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 232,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "ˈjæ.ə",
+    "phoneticUk": "jeə",
+    "phoneticAr": "يآا",
+    "translit": "naeam / balaa",
+    "definitionEn": "[\"nonstandard spelling of yes, representing a pronunciation.\", \"Expressing joy, celebration, glee, etc.\"]",
+    "usageNote": "Used to express acknowledgment of what was previously said.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"yeah, it's been fun\", \"Yeah We did it\"]}",
+    "collocations": "[\"Yeah We did it\", \"new yeah\", \"yeah man\"]",
+    "synonyms": "[\"yea\", \"yay\", \"great\", \"hurray\", \"hurrah\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"yea\", \"great\", \"super\", \"fine\", \"baby\"], \"ar\": [\"بلى\"]}",
+    "arabicAr": "نعم",
+    "addedFromOxford": 1
+  },
+  {
+    "id": 233,
+    "wordEn": "thing",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 233,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "θɪŋ",
+    "phoneticAr": "ثينج",
+    "translit": "shay' / shay''",
+    "definitionEn": "[\"an object that one need not, cannot, or does not wish to give a specific name to.\", \"an inanimate material object as distinct from a living sentient being.\", \"an action, activity, event, thought, or utterance.\"]",
+    "usageNote": "used to refer to any entity.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"reading isn't my thing\"], \"A2\": [\"he looks like he's wearing boxers underneath his trunks\", \"you need a tonic—and here's just the thing\", \"the only thing I could do well was cook\"], \"B1\": [\"the thing is, I am going to sell this house\", \"that's the thing about style—no two people are completely alike\", \"they had one thing in common—they were men of action\"], \"B2\": [\"here's the thing : this is a story, not a piece of hard news\"]}",
+    "collocations": "[\"sweet young thing\", \"it's not really my thing\", \"same thing\", \"thing itself\"]",
+    "synonyms": "[\"item\", \"matter\", \"affair\", \"object\", \"article\"]",
+    "antonyms": "[]",
+    "relatedWords": "{\"en\": [\"affair\", \"matter\", \"objective\", \"entity\", \"object\"], \"ar\": [\"حاجَة\", \"هَن\", \"هَنَة\", \"أمْر\", \"شَيْء\", \"أحوال\"]}",
+    "arabicAr": "شيء",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 234,
+    "wordEn": "tell",
+    "pos": "noun",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 234,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɛl",
+    "phoneticUk": "tel",
+    "phoneticAr": "تايل",
+    "translit": "yukhbir / yikhbar",
+    "definitionEn": "[\"communicate information, facts, or news to someone in spoken or written words.\", \"decide or determine correctly or with certainty.\", \"an unconscious action that is thought to betray an attempted deception.\"]",
+    "usageNote": "often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell him to go away\", \"you can tell they're in love\", \"promise you won't tell\", \"the figures tell a different story\", \"tell me the story again\"], \"A2\": [\"I can't tell the difference between margarine and butter\"]}",
+    "collocations": "[\"and tell\", \"tell tale\"]",
+    "synonyms": "[\"say\", \"state\", \"narrate\", \"clue in\", \"William Tell\"]",
+    "antonyms": "[\"confuse\"]",
+    "relatedWords": "{\"en\": [\"demonstrate\", \"recount\", \"recite\", \"evidence\", \"narrate\"], \"ar\": [\"تَلّ\", \"كَثِيب\", \"تحدث\", \"قص\", \"حكى\", \"قال\"]}",
+    "arabicAr": "يخبر",
+    "addedFromOxford": 0
+  },
+  {
+    "id": 235,
+    "wordEn": "tell",
+    "pos": "verb",
+    "cefrLevel": "A1",
+    "fromOxford": 1,
+    "rank": 235,
+    "frequency": 3,
+    "difficultyScore": 3,
+    "phoneticUs": "tɛl",
+    "phoneticUk": "tel",
+    "phoneticAr": "تايل",
+    "translit": "yukhbir / yikhbar",
+    "definitionEn": "[\"communicate information, facts, or news to someone in spoken or written words.\", \"decide or determine correctly or with certainty.\", \"an unconscious action that is thought to betray an attempted deception.\"]",
+    "usageNote": "often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "category": "General / Common",
+    "register": "Neutral",
+    "examples": "{\"A1\": [\"tell him to go away\", \"you can tell they're in love\", \"promise you won't tell\", \"the figures tell a different story\", \"tell me the story again\"], \"A2\": [\"I can't tell the difference between margarine and butter\"]}",
+    "collocations": "[\"and tell\", \"tell tale\"]",
+    "synonyms": "[\"say\", \"state\", \"narrate\", \"clue in\", \"William Tell\"]",
+    "antonyms": "[\"confuse\"]",
+    "relatedWords": "{\"en\": [\"demonstrate\", \"recount\", \"recite\", \"evidence\", \"narrate\"], \"ar\": [\"تَلّ\", \"كَثِيب\", \"تحدث\", \"قص\", \"حكى\", \"قال\"]}",
+    "arabicAr": "يخبر",
+    "addedFromOxford": 1
+  }
+]

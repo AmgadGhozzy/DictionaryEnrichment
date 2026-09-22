@@ -1,0 +1,2345 @@
+{
+  "wordEntries": [
+    {
+      "id": 7233,
+      "wordEn": "governance",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈɡʌv.ɚ.nəns",
+      "phoneticUk": "ˈɡʌv.ə.nəns",
+      "phoneticAr": "جَافَرْنانْس",
+      "translit": "Niẓām Al-Ḥukm / ʾIdāra",
+      "definitionEn": "The action or manner of governing a state, organization, or people.",
+      "definitionAr": "طريقة إدارة الأمور، سواء في دولة أو شركة. هي القوانين والنظام اللي بيحدد إزاي القرارات بتتاخد وتتنفذ.",
+      "usageNote": "Use 'government' for the people in charge, but 'governance' for the *process* or *quality* of ruling.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Politics",
+        "#Management",
+        "#Corporate",
+        "#Authority"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "اربطها بكلمة \"Government\" \"حكومة\".. الـ \"Governance\" هي طريقة إدارة الـ \"Government\" للأمور.",
+      "examples": {
+        "A1": "Good governance helps a country grow.",
+        "A2": "The club needs better governance to solve its problems.",
+        "B1": "Corporate governance is important for big companies.",
+        "B2": "They criticized the government's governance of the crisis.",
+        "C1": "The conference focused on global environmental governance.",
+        "C2": "Effective governance requires transparency, accountability, and the rule of law."
+      },
+      "collocations": [
+        "corporate governance",
+        "good governance",
+        "global governance",
+        "governance structure"
+      ],
+      "synonyms": [
+        "administration",
+        "management",
+        "oversight",
+        "rule",
+        "control"
+      ],
+      "antonyms": [
+        "anarchy",
+        "chaos",
+        "mismanagement"
+      ],
+      "relatedWords": {
+        "en": [
+          "government",
+          "govern",
+          "governor",
+          "policy"
+        ],
+        "ar": [
+          "حكومة",
+          "يحكم",
+          "حاكم",
+          "سياسة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "government",
+        "verb": "govern",
+        "adj": "governing",
+        "adv": ""
+      },
+      "arabicAr": "نظام الحكم / الإدارة",
+      "frenchFr": "gouvernance",
+      "germanDe": "Regierungsführung",
+      "spanishEs": "gobernanza",
+      "chineseZh": "治理 (Zhìlǐ)",
+      "russianRu": "управление",
+      "portuguesePt": "governança",
+      "japaneseJa": "ガバナンス (Gabanansu)",
+      "italianIt": "governance",
+      "turkishTr": "yönetişim",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7234,
+      "wordEn": "hail",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "heɪl",
+      "phoneticUk": null,
+      "phoneticAr": "هَايْل",
+      "translit": "Barad / Waābil",
+      "definitionEn": "Pellets of frozen rain that fall in showers from clouds.",
+      "definitionAr": "حبات المطر المتجمدة اللي بتنزل زي التلج الصغير، وممكن تكون مدمرة للزرع.",
+      "usageNote": "Can also mean a shout to attract attention (e.g., 'a hail of abuse'). Context is key.",
+      "category": "Nature & Science",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Weather",
+        "#Storm",
+        "#Ice",
+        "#Nature"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Hell\" \"جحيم\".. لما الـ \"Hail\" بينزل بشدة، بيحول الزرع لـ \"Hell\".",
+      "examples": {
+        "A1": "The hail is white and cold.",
+        "A2": "We stayed inside because of the heavy hail.",
+        "B1": "The storm brought rain and hail yesterday.",
+        "B2": "Farmers are worried that the hail will damage the crops.",
+        "C1": "The car was dented by a sudden hail of ice stones.",
+        "C2": "The soldiers faced a hail of bullets as they advanced."
+      },
+      "collocations": [
+        "hail storm",
+        "heavy hail",
+        "hail of bullets",
+        "hail damage"
+      ],
+      "synonyms": [
+        "hailstones",
+        "frozen rain",
+        "barrage",
+        "volley"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "storm",
+          "rain",
+          "snow",
+          "sleet"
+        ],
+        "ar": [
+          "عاصفة",
+          "مطر",
+          "ثلج",
+          "صقيع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hailstone",
+        "verb": "hail",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بَرَد / وابِل",
+      "frenchFr": "grêle",
+      "germanDe": "Hagel",
+      "spanishEs": "granizo",
+      "chineseZh": "冰雹 (Bīngbáo)",
+      "russianRu": "град",
+      "portuguesePt": "granizo",
+      "japaneseJa": "雹 (Hyō)",
+      "italianIt": "grandine",
+      "turkishTr": "dolu",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 7235,
+      "wordEn": "hail",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "heɪl",
+      "phoneticUk": null,
+      "phoneticAr": "هَايْل",
+      "translit": "Yushīd / Yunādī",
+      "definitionEn": "To cheer, salute, or greet with enthusiasm; also to call out to (e.g., a taxi).",
+      "definitionAr": "يا إما تنادي على حد عشان توقفه (زي تاكسي)، أو تمدح حد وتشيد بيه جداً.",
+      "usageNote": "Common phrase: 'Hail a cab'. Also 'Hailed as a hero'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Praise",
+        "#Call",
+        "#Signal",
+        "#Taxi"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "تخيل إنك بتقول \"Hi\" بصوت عالي وأنت بتعمل \"Hail\" لتاكسي.",
+      "examples": {
+        "A1": "I hail a taxi to go home.",
+        "A2": "She hailed her friend across the street.",
+        "B1": "The crowd hailed the winner with loud cheers.",
+        "B2": "The new movie was hailed as a masterpiece.",
+        "C1": "It is hailed as one of the best discoveries of the century.",
+        "C2": "Critics hailed the director's bold new approach to cinema."
+      },
+      "collocations": [
+        "hail a taxi",
+        "hail a cab",
+        "hailed as a hero",
+        "hail from"
+      ],
+      "synonyms": [
+        "acclaim",
+        "praise",
+        "flag down",
+        "greet"
+      ],
+      "antonyms": [
+        "criticize",
+        "ignore",
+        "condemn"
+      ],
+      "relatedWords": {
+        "en": [
+          "acclaim",
+          "salute",
+          "call",
+          "signal"
+        ],
+        "ar": [
+          "إشادة",
+          "تحية",
+          "نداء",
+          "إشارة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "hail",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "يُشيد / يُنادي",
+      "frenchFr": "acclamer",
+      "germanDe": "jubeln",
+      "spanishEs": "aclamar",
+      "chineseZh": "欢呼 (Huānhū)",
+      "russianRu": "приветствовать",
+      "portuguesePt": "aclamar",
+      "japaneseJa": "歓呼する (Kanko suru)",
+      "italianIt": "acclamare",
+      "turkishTr": "selamlamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7236,
+      "wordEn": "harassment",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "həˈræs.mənt",
+      "phoneticUk": "ˈhær.əs.mənt",
+      "phoneticAr": "هَرَاسْمَنْت",
+      "translit": "Taḥarrush / Muḍāyaqa",
+      "definitionEn": "Aggressive pressure or intimidation.",
+      "definitionAr": "المضايقة المستمرة أو التحرش. لما حد يفضل يزن على حد أو يضايقه بتصرفات مش مقبولة.",
+      "usageNote": "Often used in legal or workplace contexts (e.g., 'sexual harassment', 'workplace harassment').",
+      "category": "Feelings & Emotions",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Crime",
+        "#SocialIssue",
+        "#Law",
+        "#Conflict"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Stress\".. الـ \"Harassment\" بيسبب \"Stress\" وتوتر شديد للضحية.",
+      "examples": {
+        "A1": "Stop the harassment now.",
+        "A2": "She reported the harassment to the police.",
+        "B1": "Workplace harassment is not allowed here.",
+        "B2": "They faced constant harassment from their neighbors.",
+        "C1": "The law defines sexual harassment very strictly.",
+        "C2": "Online harassment has become a pervasive issue in the digital age."
+      },
+      "collocations": [
+        "sexual harassment",
+        "police harassment",
+        "workplace harassment",
+        "face harassment"
+      ],
+      "synonyms": [
+        "persecution",
+        "intimidation",
+        "bullying",
+        "molestation"
+      ],
+      "antonyms": [
+        "support",
+        "protection",
+        "comfort"
+      ],
+      "relatedWords": {
+        "en": [
+          "harass",
+          "bully",
+          "intimidate",
+          "abuse"
+        ],
+        "ar": [
+          "يتحرش",
+          "يتنمر",
+          "يرهب",
+          "يسيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "harasser",
+        "verb": "harass",
+        "adj": "harassed",
+        "adv": ""
+      },
+      "arabicAr": "تحرش / مضايقة",
+      "frenchFr": "harcèlement",
+      "germanDe": "Belästigung",
+      "spanishEs": "acoso",
+      "chineseZh": "骚扰 (Sāorǎo)",
+      "russianRu": "домогательство",
+      "portuguesePt": "assédio",
+      "japaneseJa": "嫌がらせ (Iyagarase)",
+      "italianIt": "molestia",
+      "turkishTr": "taciz",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7237,
+      "wordEn": "high-profile",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌhaɪˈproʊ.faɪl",
+      "phoneticUk": "ˌhaɪˈprəʊ.faɪl",
+      "phoneticAr": "هَاي بْرُوفَايْل",
+      "translit": "Rafīʿ Al-Mustawā / Mashhūr",
+      "definitionEn": "Attracting much attention or publicity; famous and important.",
+      "definitionAr": "حاجة أو شخص مشهور جداً والناس كلها بتتكلم عنه، والأضواء مسلطة عليه.",
+      "usageNote": "Used for people, cases, or jobs that get a lot of media attention.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Fame",
+        "#Media",
+        "#Status",
+        "#Publicity"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"High\" \"عالي\" + \"Profile\" \"ملف/صورة\".. يعني حد الـ \"Profile\" بتاعه \"High\" والناس كلها عارفاه.",
+      "examples": {
+        "A1": "He is a high-profile star.",
+        "A2": "It was a high-profile wedding with many guests.",
+        "B1": "The lawyer took a high-profile case.",
+        "B2": "High-profile jobs often come with a lot of stress.",
+        "C1": "The scandal involved several high-profile politicians.",
+        "C2": "Maintaining privacy is difficult for high-profile individuals."
+      },
+      "collocations": [
+        "high-profile case",
+        "high-profile job",
+        "high-profile client",
+        "high-profile visit"
+      ],
+      "synonyms": [
+        "famous",
+        "prominent",
+        "renowned",
+        "celebrated"
+      ],
+      "antonyms": [
+        "low-profile",
+        "obscure",
+        "unknown"
+      ],
+      "relatedWords": {
+        "en": [
+          "celebrity",
+          "fame",
+          "publicity",
+          "spotlight"
+        ],
+        "ar": [
+          "شهرة",
+          "مشهور",
+          "دعاية",
+          "أضواء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "profile",
+        "verb": "profile",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "رفيع المستوى / مشهور",
+      "frenchFr": "très en vue",
+      "germanDe": "hochkarätig",
+      "spanishEs": "de alto perfil",
+      "chineseZh": "备受瞩目的 (Bèi shòu zhǔmù de)",
+      "russianRu": "широко известный",
+      "portuguesePt": "de destaque",
+      "japaneseJa": "注目の (Chūmoku no)",
+      "italianIt": "di alto profilo",
+      "turkishTr": "göz önünde olan",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 7238,
+      "wordEn": "homeland",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈhoʊm.lænd",
+      "phoneticUk": "ˈhəʊm.lænd",
+      "phoneticAr": "هُومْلانْد",
+      "translit": "Al-Waṭan",
+      "definitionEn": "A person's native land.",
+      "definitionAr": "الوطن الأم. البلد اللي اتولدت فيها أو بتحس إنك بتنتمي ليها وجذورك فيها.",
+      "usageNote": "Carries a stronger emotional weight than just 'country'.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Country",
+        "#Patriotism",
+        "#Origin",
+        "#Roots"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "واضحة.. \"Home\" \"بيت\" + \"Land\" \"أرض\".. هي الـ \"Land\" اللي بتعتبرها \"Home\".",
+      "examples": {
+        "A1": "I love my homeland.",
+        "A2": "She returned to her homeland after many years.",
+        "B1": "They fought to defend their homeland.",
+        "B2": "Refugees often dream of going back to their homeland.",
+        "C1": "The poem expresses a deep longing for the homeland.",
+        "C2": "National identity is deeply rooted in the concept of a homeland."
+      },
+      "collocations": [
+        "defend the homeland",
+        "return to homeland",
+        "homeland security",
+        "native homeland"
+      ],
+      "synonyms": [
+        "motherland",
+        "fatherland",
+        "native land",
+        "country of origin"
+      ],
+      "antonyms": [
+        "foreign land",
+        "exile"
+      ],
+      "relatedWords": {
+        "en": [
+          "patriot",
+          "native",
+          "citizen",
+          "nation"
+        ],
+        "ar": [
+          "وطني",
+          "أصلي",
+          "مواطن",
+          "أمة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "home",
+        "verb": "",
+        "adj": "home",
+        "adv": ""
+      },
+      "arabicAr": "الوطن",
+      "frenchFr": "patrie",
+      "germanDe": "Heimat",
+      "spanishEs": "patria",
+      "chineseZh": "祖国 (Zǔguó)",
+      "russianRu": "родина",
+      "portuguesePt": "pátria",
+      "japaneseJa": "祖国 (Sokoku)",
+      "italianIt": "patria",
+      "turkishTr": "anavatan",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7239,
+      "wordEn": "humanitarian",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "10",
+      "phoneticUs": "hjuˌmæn.ɪˈter.i.ən",
+      "phoneticUk": "hjuːˌmæn.ɪˈteə.ri.ən",
+      "phoneticAr": "هْيُومَانِتَارِيَان",
+      "translit": "ʾInsānī",
+      "definitionEn": "Concerned with or seeking to promote human welfare.",
+      "definitionAr": "إنساني. أي عمل أو شخص هدفه يساعد الناس ويخفف معاناتهم، بالذات في وقت الأزمات.",
+      "usageNote": "Often refers to aid given during wars or disasters (e.g., 'humanitarian aid').",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Charity",
+        "#Aid",
+        "#Welfare",
+        "#Kindness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Human\" \"إنسان\".. الـ \"Humanitarian\" هو اللي بيخدم الـ \"Humans\".",
+      "examples": {
+        "A1": "He is a humanitarian worker.",
+        "A2": "They sent humanitarian food to the poor.",
+        "B1": "The war caused a humanitarian crisis.",
+        "B2": "She received an award for her humanitarian efforts.",
+        "C1": "The UN provides humanitarian aid to conflict zones.",
+        "C2": "Strict adherence to humanitarian law is essential in modern warfare."
+      },
+      "collocations": [
+        "humanitarian aid",
+        "humanitarian crisis",
+        "humanitarian organization",
+        "humanitarian relief"
+      ],
+      "synonyms": [
+        "charitable",
+        "philanthropic",
+        "altruistic",
+        "humane"
+      ],
+      "antonyms": [
+        "inhumane",
+        "selfish",
+        "cruel"
+      ],
+      "relatedWords": {
+        "en": [
+          "human",
+          "humanity",
+          "humane",
+          "charity"
+        ],
+        "ar": [
+          "إنسان",
+          "بشرية",
+          "رحيم",
+          "خيري"
+        ]
+      },
+      "wordFamily": {
+        "noun": "humanity",
+        "verb": "humanize",
+        "adj": "human",
+        "adv": "humanely"
+      },
+      "arabicAr": "إنساني",
+      "frenchFr": "humanitaire",
+      "germanDe": "humanitär",
+      "spanishEs": "humanitario",
+      "chineseZh": "人道主义的 (Réndào zhǔyì de)",
+      "russianRu": "гуманитарный",
+      "portuguesePt": "humanitário",
+      "japaneseJa": "人道的な (Jindōteki na)",
+      "italianIt": "umanitario",
+      "turkishTr": "insani",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 7240,
+      "wordEn": "idiot",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈɪd.i.ət",
+      "phoneticUk": "ˈɪd.i.ət",
+      "phoneticAr": "إِدْيَات",
+      "translit": "Ghabī / Aḥmaq",
+      "definitionEn": "A stupid person.",
+      "definitionAr": "شخص غبي أو بيتصرف بسذاجة. كلمة بنقولها لما حد يعمل حاجة مش منطقية.",
+      "usageNote": "Informal and derogatory. Use with caution.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Insult",
+        "#Intelligence",
+        "#Stupidity",
+        "#Informal"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "كلمة \"Idiot\" شبه \"Idea\".. الـ \"Idiot\" هو اللي معندوش أي \"Idea\" \"فكرة\" عن اللي بيحصل.",
+      "examples": {
+        "A1": "Don't be an idiot.",
+        "A2": "I felt like an idiot when I fell.",
+        "B1": "He drove like an idiot and crashed the car.",
+        "B2": "Only an idiot would believe such a clear lie.",
+        "C1": "The movie portrays the main character as a lovable idiot.",
+        "C2": "His behavior was bordering on that of a complete idiot."
+      },
+      "collocations": [
+        "complete idiot",
+        "blithering idiot",
+        "useful idiot",
+        "act like an idiot"
+      ],
+      "synonyms": [
+        "fool",
+        "moron",
+        "imbecile",
+        "simpleton"
+      ],
+      "antonyms": [
+        "genius",
+        "intellectual",
+        "sage"
+      ],
+      "relatedWords": {
+        "en": [
+          "idiocy",
+          "idiotic",
+          "stupid",
+          "dumb"
+        ],
+        "ar": [
+          "بلاهة",
+          "أحمق",
+          "غبي",
+          "أبله"
+        ]
+      },
+      "wordFamily": {
+        "noun": "idiocy",
+        "verb": "",
+        "adj": "idiotic",
+        "adv": "idiotically"
+      },
+      "arabicAr": "غبي / أحمق",
+      "frenchFr": "idiot",
+      "germanDe": "Idiot",
+      "spanishEs": "idiota",
+      "chineseZh": "白痴 (Báichī)",
+      "russianRu": "idiot",
+      "portuguesePt": "idiota",
+      "japaneseJa": "馬鹿 (Baka)",
+      "italianIt": "idiota",
+      "turkishTr": "aptal",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7241,
+      "wordEn": "imagery",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈɪm.ɪdʒ.ri",
+      "phoneticUk": "ˈɪm.ɪdʒ.ər.i",
+      "phoneticAr": "إيمِيدْجْري",
+      "translit": "Ṣuwar Balāghiyya / Taṣwīr",
+      "definitionEn": "Visually descriptive or figurative language, especially in a literary work.",
+      "definitionAr": "الصور البلاغية أو التشبيهات اللي الكاتب بيستخدمها عشان يخليك تتخيل المشهد كأنك شايفه بعينك.",
+      "usageNote": "Mainly used in literature and art criticism.",
+      "category": "Mind & Thinking",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Literature",
+        "#Art",
+        "#Description",
+        "#Visuals"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Image\" \"صورة\".. الـ \"Imagery\" هو استخدام الكلام لرسم \"Images\" في خيالك.",
+      "examples": {
+        "A1": "The book has nice imagery.",
+        "A2": "The poet uses imagery of nature.",
+        "B1": "Her writing is full of colorful imagery.",
+        "B2": "The movie uses computer imagery to create monsters.",
+        "C1": "The poem's dark imagery reflects the author's sadness.",
+        "C2": "Religious imagery is pervasive throughout Renaissance art."
+      },
+      "collocations": [
+        "visual imagery",
+        "poetic imagery",
+        "satellite imagery",
+        "vivid imagery"
+      ],
+      "synonyms": [
+        "symbolism",
+        "representation",
+        "metaphor",
+        "depiction"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "image",
+          "imagine",
+          "visualize",
+          "picture"
+        ],
+        "ar": [
+          "صورة",
+          "يتخيل",
+          "يتصور",
+          "مشهد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "image",
+        "verb": "imagine",
+        "adj": "imaginative",
+        "adv": ""
+      },
+      "arabicAr": "صور بلاغية / تصوير",
+      "frenchFr": "imagerie",
+      "germanDe": "Bildsprache",
+      "spanishEs": "imaginería",
+      "chineseZh": "意象 (Yìxiàng)",
+      "russianRu": "образность",
+      "portuguesePt": "imagética",
+      "japaneseJa": "形象 (Keishō)",
+      "italianIt": "immaginario",
+      "turkishTr": "imgeleme",
+      "aiConfidence": 0.91
+    },
+    {
+      "id": 7242,
+      "wordEn": "indictment",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ɪnˈdaɪt.mənt",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْدَايْتْمَنْت",
+      "translit": "Lāʾiḥat Ittihām",
+      "definitionEn": "A formal charge or accusation of a serious crime.",
+      "definitionAr": "اتهام رسمي في المحكمة، أو دليل قوي على إن فيه حاجة غلط في النظام.",
+      "usageNote": "The 'c' is silent! Pronounced 'in-dite-ment'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Law",
+        "#Court",
+        "#Crime",
+        "#Justice"
+      ],
+      "register": "Formal",
+      "mnemonicAr": "في نصها كلمة \"Dict\" زي \"Dictate\" \"يملي\".. الـ \"Indictment\" هي الوثيقة اللي بتتملى فيها الاتهامات.",
+      "examples": {
+        "A1": "Wait for the indictment.",
+        "A2": "The indictment listed his crimes.",
+        "B1": "He faced an indictment for fraud.",
+        "B2": "The grand jury issued an indictment against the mayor.",
+        "C1": "The report serves as a damning indictment of the education system.",
+        "C2": "The prosecutor secured an indictment on multiple counts of corruption."
+      },
+      "collocations": [
+        "bring an indictment",
+        "damning indictment",
+        "federal indictment",
+        "sealed indictment"
+      ],
+      "synonyms": [
+        "charge",
+        "accusation",
+        "allegation",
+        "impeachment"
+      ],
+      "antonyms": [
+        "acquittal",
+        "exoneration"
+      ],
+      "relatedWords": {
+        "en": [
+          "indict",
+          "accuse",
+          "charge",
+          "prosecute"
+        ],
+        "ar": [
+          "يتهم",
+          "اتهام",
+          "يقاضي",
+          "ادعاء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "indicter",
+        "verb": "indict",
+        "adj": "indictable",
+        "adv": ""
+      },
+      "arabicAr": "لائحة اتهام",
+      "frenchFr": "acte d'accusation",
+      "germanDe": "Anklage",
+      "spanishEs": "acusación formal",
+      "chineseZh": "起诉书 (Qǐsù shū)",
+      "russianRu": "обвинительный акт",
+      "portuguesePt": "indiciamento",
+      "japaneseJa": "起訴 (Kiso)",
+      "italianIt": "rinvio a giudizio",
+      "turkishTr": "iddianame",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 7243,
+      "wordEn": "infamous",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈɪn.fə.məs",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْفَمَس",
+      "translit": "Sayyiʾ Al-Sumʿa",
+      "definitionEn": "Well known for some bad quality or deed.",
+      "definitionAr": "سيء السمعة. مشهور بس بحاجة وحشة، زي مجرم معروف أو حدث مأساوي.",
+      "usageNote": "Stress on the first syllable 'IN', not 'fame'. It's NOT pronounced 'in-famous'.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Reputation",
+        "#Crime",
+        "#Fame",
+        "#Notoriety"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "هي \"Famous\" \"مشهور\" بس بالشر.. الـ \"In\" هنا مش للنفي، دي للتوكيد على سوء السمعة.",
+      "examples": {
+        "A1": "He is an infamous thief.",
+        "A2": "That is an infamous old prison.",
+        "B1": "The city is infamous for its traffic jams.",
+        "B2": "He became infamous after the banking scandal.",
+        "C1": "The date of the attack will live in infamous memory.",
+        "C2": "She is the infamous leader of a notorious smuggling ring."
+      },
+      "collocations": [
+        "infamous crime",
+        "become infamous",
+        "infamous for",
+        "infamous liar"
+      ],
+      "synonyms": [
+        "notorious",
+        "disreputable",
+        "ill-famed",
+        "scandalous"
+      ],
+      "antonyms": [
+        "reputable",
+        "respected",
+        "honorable"
+      ],
+      "relatedWords": {
+        "en": [
+          "fame",
+          "famous",
+          "infamy",
+          "notoriety"
+        ],
+        "ar": [
+          "شهرة",
+          "مشهور",
+          "خزي",
+          "سوء سمعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "infamy",
+        "verb": "",
+        "adj": "",
+        "adv": "infamously"
+      },
+      "arabicAr": "سيء السمعة",
+      "frenchFr": "infâme",
+      "germanDe": "berüchtigt",
+      "spanishEs": "infame",
+      "chineseZh": "臭名昭著的 (Chòumíngzhāozhù de)",
+      "russianRu": "печально известный",
+      "portuguesePt": "infame",
+      "japaneseJa": "悪名高い (Akumei takai)",
+      "italianIt": "famigerato",
+      "turkishTr": "kötü şöhretli",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 7244,
+      "wordEn": "inmate",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈɪn.meɪt",
+      "phoneticUk": "ˈɪn.meɪt",
+      "phoneticAr": "إِنْمَايْت",
+      "translit": "Sajīn / Nazīl",
+      "definitionEn": "A person confined to an institution such as a prison or hospital.",
+      "definitionAr": "سجين أو نزيل. شخص عايش إجباري في مكان زي السجن أو مصحة نفسية.",
+      "usageNote": "Usually refers to prisoners.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Prison",
+        "#Hospital",
+        "#Confinement",
+        "#Crime"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"In\" \"في\" + \"Mate\" \"زميل\".. هو \"Mate\" \"زميلك\" اللي عايش معاك \"In\" \"جوه\" السجن.",
+      "examples": {
+        "A1": "The inmate is in his cell.",
+        "A2": "The prison has many inmates.",
+        "B1": "Inmates are allowed to exercise daily.",
+        "B2": "The new program helps inmates learn skills.",
+        "C1": "Overcrowding of inmates is a serious issue here.",
+        "C2": "The rehabilitation of inmates requires comprehensive social support."
+      },
+      "collocations": [
+        "prison inmate",
+        "death row inmate",
+        "fellow inmate",
+        "inmate population"
+      ],
+      "synonyms": [
+        "prisoner",
+        "convict",
+        "detainee",
+        "captive"
+      ],
+      "antonyms": [
+        "free person",
+        "warden",
+        "guard"
+      ],
+      "relatedWords": {
+        "en": [
+          "prison",
+          "jail",
+          "cell",
+          "confinement"
+        ],
+        "ar": [
+          "سجن",
+          "حبس",
+          "زنزانة",
+          "احتجاز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "سجين / نزيل",
+      "frenchFr": "détenu",
+      "germanDe": "Insasse",
+      "spanishEs": "recluso",
+      "chineseZh": "囚犯 (Qiúfàn)",
+      "russianRu": "заключённый",
+      "portuguesePt": "detento",
+      "japaneseJa": "収容者 (Shūyōsha)",
+      "italianIt": "detenuto",
+      "turkishTr": "mahkum",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7245,
+      "wordEn": "insertion",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ɪnˈsɝː.ʃən",
+      "phoneticUk": "ɪnˈsɜː.ʃən",
+      "phoneticAr": "إِنْسِيرْشَن",
+      "translit": "ʾIdrāj / ʾIdkhāl",
+      "definitionEn": "The action of inserting something.",
+      "definitionAr": "عملية إدخال أو إدراج حاجة جوه حاجة تانية، زي إضافة كلمة في نص أو وضع شريحة في جهاز.",
+      "usageNote": "Noun form of 'insert'.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Action",
+        "#Addition",
+        "#Placement",
+        "#Technical"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الفعل \"Insert\" \"يدخل\".. الـ \"Insertion\" هي عملية الإدخال نفسها.",
+      "examples": {
+        "A1": "The insertion of the key opened the door.",
+        "A2": "Check the insertion of the battery.",
+        "B1": "The insertion of a new clause changed the contract.",
+        "B2": "Surgical insertion of the device took two hours.",
+        "C1": "The text required the insertion of several footnotes.",
+        "C2": "The strategic insertion of troops turned the tide of the battle."
+      },
+      "collocations": [
+        "insertion point",
+        "data insertion",
+        "needle insertion",
+        "insertion order"
+      ],
+      "synonyms": [
+        "introduction",
+        "inclusion",
+        "addition",
+        "implantation"
+      ],
+      "antonyms": [
+        "removal",
+        "extraction",
+        "deletion"
+      ],
+      "relatedWords": {
+        "en": [
+          "insert",
+          "enter",
+          "input",
+          "place"
+        ],
+        "ar": [
+          "يدخل",
+          "يدرج",
+          "مدخلات",
+          "يضع"
+        ]
+      },
+      "wordFamily": {
+        "noun": "insert",
+        "verb": "insert",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "إدراج / إدخال",
+      "frenchFr": "insertion",
+      "germanDe": "Einfügung",
+      "spanishEs": "inserción",
+      "chineseZh": "插入 (Chārù)",
+      "russianRu": "вставка",
+      "portuguesePt": "inserção",
+      "japaneseJa": "挿入 (Sōnyū)",
+      "italianIt": "inserimento",
+      "turkishTr": "ekleme",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 7246,
+      "wordEn": "intriguing",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ɪnˈtriː.ɡɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْتْرِيجِينْج",
+      "translit": "Jādhibiyya / ʾIthāra",
+      "definitionEn": "The quality of being interesting or fascinating.",
+      "definitionAr": "الجاذبية أو الغموض اللي بيخلي الشيء مثير للاهتمام.",
+      "usageNote": "Rarely used as a pure noun; usually an adjective or gerund. Treat as 'the quality of intriguing'.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Interest",
+        "#Mystery",
+        "#Curiosity",
+        "#Fascination"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Trick\" \"خدعة\".. الحاجة الـ \"Intriguing\" فيها \"Trick\" بتخليك عايز تعرف سرها.",
+      "examples": {
+        "A1": "The story has an intriguing start.",
+        "A2": "I found the movie very intriguing.",
+        "B1": "It was an intriguing idea to visit the old castle.",
+        "B2": "The intriguing of the plot kept me reading all night.",
+        "C1": "There is an intriguing mystery surrounding his disappearance.",
+        "C2": "The philosophical intriguing of the argument was lost on the audience."
+      },
+      "collocations": [
+        "intriguing possibility",
+        "intriguing question",
+        "find intriguing",
+        "most intriguing"
+      ],
+      "synonyms": [
+        "fascination",
+        "interest",
+        "appeal",
+        "allure"
+      ],
+      "antonyms": [
+        "boredom",
+        "dullness"
+      ],
+      "relatedWords": {
+        "en": [
+          "intrigue",
+          "interest",
+          "curiosity",
+          "mystery"
+        ],
+        "ar": [
+          "فضول",
+          "اهتمام",
+          "غموض",
+          "سحر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "intrigue",
+        "verb": "intrigue",
+        "adj": "intriguing",
+        "adv": "intriguingly"
+      },
+      "arabicAr": "جاذبية / إثارة للاهتمام",
+      "frenchFr": "intrigant",
+      "germanDe": "Faszination",
+      "spanishEs": "intriga",
+      "chineseZh": "有趣 (Yǒuqù)",
+      "russianRu": "интрига",
+      "portuguesePt": "intriga",
+      "japaneseJa": "興味深いこと (Kyōmibukai koto)",
+      "italianIt": "intrigante",
+      "turkishTr": "ilgi çekici olma",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 7247,
+      "wordEn": "intriguing",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ɪnˈtriː.ɡɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْتْرِيجِينْج",
+      "translit": "Muthīr Lil-Ihtimām",
+      "definitionEn": "Arousing one's curiosity or interest; fascinating.",
+      "definitionAr": "مثير للاهتمام والفضول. حاجة بتشدك وعايز تعرف عنها أكتر لأنها غامضة أو ذكية.",
+      "usageNote": "Positive connotation mostly. Implies mystery + interest.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Interesting",
+        "#Mysterious",
+        "#Curious",
+        "#Attractive"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة \"Trick\".. حاجة فيها لغز بيشدك.",
+      "examples": {
+        "A1": "This is an intriguing book.",
+        "A2": "She has an intriguing smile.",
+        "B1": "The menu offered some intriguing choices.",
+        "B2": "His past is quite intriguing to me.",
+        "C1": "The scientist presented an intriguing theory about time.",
+        "C2": "It is an intriguing paradox that the more we learn, the less we know."
+      },
+      "collocations": [
+        "intriguing question",
+        "intriguing possibility",
+        "intriguing story",
+        "find it intriguing"
+      ],
+      "synonyms": [
+        "fascinating",
+        "interesting",
+        "captivating",
+        "compelling"
+      ],
+      "antonyms": [
+        "boring",
+        "dull",
+        "uninteresting"
+      ],
+      "relatedWords": {
+        "en": [
+          "intrigue",
+          "fascinate",
+          "curious",
+          "mystery"
+        ],
+        "ar": [
+          "يفتن",
+          "فضولي",
+          "غموض",
+          "سر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "intrigue",
+        "verb": "intrigue",
+        "adj": "",
+        "adv": "intriguingly"
+      },
+      "arabicAr": "مثير للاهتمام",
+      "frenchFr": "intrigant",
+      "germanDe": "faszinierend",
+      "spanishEs": "intrigante",
+      "chineseZh": "迷人的 (Mírén de)",
+      "russianRu": "интригующий",
+      "portuguesePt": "intrigante",
+      "japaneseJa": "興味深い (Kyōmibukai)",
+      "italianIt": "intrigante",
+      "turkishTr": "ilgi çekici",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7248,
+      "wordEn": "ironic",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "aɪˈrɑː.nɪk",
+      "phoneticUk": "aɪˈrɒn.ɪk",
+      "phoneticAr": "آيْرَانِك",
+      "translit": "Sākhir / Tahakkumī",
+      "definitionEn": "Using or characterized by irony; happening in the opposite way to what is expected.",
+      "definitionAr": "ساخر أو تهكمي. لما اللي يحصل يكون عكس اللي متوقعه تماماً، زي محطة إطفاء تتحرق.",
+      "usageNote": "Don't confuse with 'unfortunate'. Irony requires a contradiction/opposite.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Humor",
+        "#Contrast",
+        "#Literature",
+        "#Sarcasm"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Iron\" \"حديد\".. الموقف الـ \"Ironic\" بيبقى قاسي وصادم زي الـ \"Iron\" لأن الواقع بيصدمك عكس التوقعات.",
+      "examples": {
+        "A1": "It is ironic that he is late.",
+        "A2": "She gave an ironic smile.",
+        "B1": "It's ironic that the robber had his own car stolen.",
+        "B2": "His tone was ironic when he congratulated me.",
+        "C1": "The play takes an ironic look at modern marriage.",
+        "C2": "It is a tragically ironic twist of fate that the medicine caused the disease."
+      },
+      "collocations": [
+        "ironic twist",
+        "ironic smile",
+        "ironic sense of humor",
+        "bitterly ironic"
+      ],
+      "synonyms": [
+        "sarcastic",
+        "satirical",
+        "paradoxical",
+        "wry"
+      ],
+      "antonyms": [
+        "sincere",
+        "straightforward",
+        "expected"
+      ],
+      "relatedWords": {
+        "en": [
+          "irony",
+          "sarcasm",
+          "satire",
+          "humor"
+        ],
+        "ar": [
+          "سخرية",
+          "تهكم",
+          "هجاء",
+          "فكاهة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "irony",
+        "verb": "",
+        "adj": "",
+        "adv": "ironically"
+      },
+      "arabicAr": "ساخر",
+      "frenchFr": "ironique",
+      "germanDe": "ironisch",
+      "spanishEs": "irónico",
+      "chineseZh": "讽刺的 (Fěngcì de)",
+      "russianRu": "ироничный",
+      "portuguesePt": "irônico",
+      "japaneseJa": "皮肉な (Hiniku na)",
+      "italianIt": "ironico",
+      "turkishTr": "ironik",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 7249,
+      "wordEn": "landmark",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈlænd.mɑːrk",
+      "phoneticUk": "ˈlænd.mɑːk",
+      "phoneticAr": "لانْدْمَارْك",
+      "translit": "Maʿlam Bāriz",
+      "definitionEn": "An object or feature of a landscape that is easily seen and recognized.",
+      "definitionAr": "معلم بارز. مبنى أو مكان مشهور بيميز المدينة وبيساعدك تعرف مكانك، زي الأهرامات أو برج إيفل.",
+      "usageNote": "Also used metaphorically: 'A landmark decision' (historic/important).",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Tourism",
+        "#Geography",
+        "#History",
+        "#Navigation"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Land\" \"أرض\" + \"Mark\" \"علامة\".. هي \"Mark\" \"علامة\" مميزة في الـ \"Land\" \"الأرض\".",
+      "examples": {
+        "A1": "The tower is a famous landmark.",
+        "A2": "We met near the city landmark.",
+        "B1": "The Eiffel Tower is a Parisian landmark.",
+        "B2": "This building is a historic landmark protected by law.",
+        "C1": "The court's ruling was a landmark decision for human rights.",
+        "C2": "The discovery of DNA was a landmark in the history of science."
+      },
+      "collocations": [
+        "historic landmark",
+        "famous landmark",
+        "landmark decision",
+        "landmark case"
+      ],
+      "synonyms": [
+        "monument",
+        "milestone",
+        "feature",
+        "turning point"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "monument",
+          "sight",
+          "attraction",
+          "signpost"
+        ],
+        "ar": [
+          "أثر",
+          "مزار",
+          "علامة",
+          "نصب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "land",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "معلم بارز",
+      "frenchFr": "point de repère",
+      "germanDe": "Wahrzeichen",
+      "spanishEs": "punto de referencia",
+      "chineseZh": "地标 (Dìbiāo)",
+      "russianRu": "ориентир",
+      "portuguesePt": "marco",
+      "japaneseJa": "ランドマーク (Randomāku)",
+      "italianIt": "punto di riferimento",
+      "turkishTr": "dönüm noktası",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7250,
+      "wordEn": "lawsuit",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈlɑː.suːt",
+      "phoneticUk": "ˈlɔː.suːt",
+      "phoneticAr": "لأُوسُوت",
+      "translit": "Daʿwā Qaḍāʾiyya",
+      "definitionEn": "A claim or dispute brought to a court of law.",
+      "definitionAr": "دعوى قضائية. قضية بترفعها في المحكمة عشان تاخد حقك من حد أو تعويض.",
+      "usageNote": "You 'file' a lawsuit.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Law",
+        "#Court",
+        "#Legal",
+        "#Dispute"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Law\" \"قانون\" + \"Suit\" \"بدلة\".. المحامين بيلبسوا \"Suit\" \"بدل\" وهما شغالين في الـ \"Lawsuit\".",
+      "examples": {
+        "A1": "He lost the lawsuit.",
+        "A2": "She filed a lawsuit against the company.",
+        "B1": "The lawsuit cost them a lot of money.",
+        "B2": "They settled the lawsuit out of court.",
+        "C1": "The class-action lawsuit involves thousands of victims.",
+        "C2": "Frivolous lawsuits are clogging up the judicial system."
+      },
+      "collocations": [
+        "file a lawsuit",
+        "settle a lawsuit",
+        "civil lawsuit",
+        "face a lawsuit"
+      ],
+      "synonyms": [
+        "case",
+        "legal action",
+        "litigation",
+        "suit"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "lawyer",
+          "judge",
+          "court",
+          "sue"
+        ],
+        "ar": [
+          "محامي",
+          "قاضي",
+          "محكمة",
+          "يقاضي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "law",
+        "verb": "sue",
+        "adj": "lawful",
+        "adv": "lawfully"
+      },
+      "arabicAr": "دعوى قضائية",
+      "frenchFr": "procès",
+      "germanDe": "Klage",
+      "spanishEs": "demanda",
+      "chineseZh": "诉讼 (Sùsòng)",
+      "russianRu": "судебный иск",
+      "portuguesePt": "processo judicial",
+      "japaneseJa": "訴訟 (Soshō)",
+      "italianIt": "causa legale",
+      "turkishTr": "dava",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7251,
+      "wordEn": "legendary",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈledʒ.ən.der.i",
+      "phoneticUk": "ˈledʒ.ən.dri",
+      "phoneticAr": "لِيدْجَنْدَيري",
+      "translit": "ʾUsṭūrī",
+      "definitionEn": "Remarkable enough to be famous; very well known.",
+      "definitionAr": "أسطوري. شخص أو شيء عظيم جداً لدرجة إن الناس بتحكي عنه حكايات زي الأساطير.",
+      "usageNote": "Can mean 'mythical' (not real) or 'famous' (real but amazing).",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Fame",
+        "#History",
+        "#Myth",
+        "#Greatness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Legend\" \"أسطورة\".. لما حد يبقى \"Legendary\" بيبقى كأنه بطل من الأساطير.",
+      "examples": {
+        "A1": "He is a legendary player.",
+        "A2": "King Arthur is a legendary hero.",
+        "B1": "The band gave a legendary performance.",
+        "B2": "Her patience with children is legendary.",
+        "C1": "We visited the legendary city of Troy.",
+        "C2": "The singer's legendary status was cemented by her final album."
+      },
+      "collocations": [
+        "legendary hero",
+        "legendary status",
+        "legendary figure",
+        "legendary performance"
+      ],
+      "synonyms": [
+        "famous",
+        "mythical",
+        "fabled",
+        "renowned"
+      ],
+      "antonyms": [
+        "unknown",
+        "obscure",
+        "forgotten"
+      ],
+      "relatedWords": {
+        "en": [
+          "legend",
+          "myth",
+          "story",
+          "fame"
+        ],
+        "ar": [
+          "أسطورة",
+          "خرافة",
+          "حكاية",
+          "شهرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "legend",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أسطوري",
+      "frenchFr": "légendaire",
+      "germanDe": "legendär",
+      "spanishEs": "legendario",
+      "chineseZh": "传奇的 (Chuánqí de)",
+      "russianRu": "легендарный",
+      "portuguesePt": "lendário",
+      "japaneseJa": "伝説的な (Densetsuteki na)",
+      "italianIt": "leggendario",
+      "turkishTr": "efsanevi",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7252,
+      "wordEn": "lesbian",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈlez.bi.ən",
+      "phoneticUk": "ˈlez.bi.ən",
+      "phoneticAr": "لِيزْبِيَان",
+      "translit": "Mithliyya",
+      "definitionEn": "A woman who is sexually or romantically attracted to other women.",
+      "definitionAr": "مثلية الجنس. امرأة بتنجذب عاطفياً وجنسياً للنساء.",
+      "usageNote": "Refers to female homosexuality.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Identity",
+        "#Gender",
+        "#Society",
+        "#Relationships"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "She is a lesbian.",
+        "A2": "Lesbians fight for their rights.",
+        "B1": "The movie is about a lesbian couple.",
+        "B2": "She came out as a lesbian to her family.",
+        "C1": "The novel explores the complexity of lesbian identity.",
+        "C2": "Historical records of lesbian relationships are often suppressed."
+      },
+      "collocations": [
+        "lesbian couple",
+        "lesbian rights",
+        "lesbian community"
+      ],
+      "synonyms": [
+        "gay woman"
+      ],
+      "antonyms": [
+        "heterosexual"
+      ],
+      "relatedWords": {
+        "en": [
+          "gay",
+          "homosexual",
+          "queer",
+          "pride"
+        ],
+        "ar": [
+          "مثلي",
+          "مجتمع الميم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "lesbian",
+        "adv": ""
+      },
+      "arabicAr": "مثلية",
+      "frenchFr": "lesbienne",
+      "germanDe": "Lesbe",
+      "spanishEs": "lesbiana",
+      "chineseZh": "女同性恋者 (Nǚ tóngxìngliàn zhě)",
+      "russianRu": "лесбиянка",
+      "portuguesePt": "lésbica",
+      "japaneseJa": "レズビアン (Rezubian)",
+      "italianIt": "lesbica",
+      "turkishTr": "lezbiyen",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7253,
+      "wordEn": "lesbian",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈlez.bi.ən",
+      "phoneticUk": "ˈlez.bi.ən",
+      "phoneticAr": "لِيزْبِيَان",
+      "translit": "Mithlī",
+      "definitionEn": "Relating to women who are attracted to other women.",
+      "definitionAr": "متعلق بالمثلية الجنسية للنساء.",
+      "usageNote": "Adjective form.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Identity",
+        "#Relationships",
+        "#Social"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "They are in a lesbian relationship.",
+        "A2": "There is a lesbian bar nearby.",
+        "B1": "She supports lesbian rights.",
+        "B2": "The article discusses lesbian literature.",
+        "C1": "The cultural impact of lesbian feminism is significant.",
+        "C2": "Intersectional analysis of lesbian experiences is growing."
+      },
+      "collocations": [
+        "lesbian relationship",
+        "lesbian love",
+        "lesbian culture"
+      ],
+      "synonyms": [
+        "sapphic",
+        "gay"
+      ],
+      "antonyms": [
+        "straight",
+        "heterosexual"
+      ],
+      "relatedWords": {
+        "en": [
+          "gay",
+          "queer",
+          "pride"
+        ],
+        "ar": [
+          "مثلي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lesbian",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مثلي",
+      "frenchFr": "lesbienne",
+      "germanDe": "lesbisch",
+      "spanishEs": "lésbico",
+      "chineseZh": "女同性恋的 (Nǚ tóngxìngliàn de)",
+      "russianRu": "лесбийский",
+      "portuguesePt": "lésbico",
+      "japaneseJa": "レズビアンの (Rezubian no)",
+      "italianIt": "lesbico",
+      "turkishTr": "lezbiyen",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7254,
+      "wordEn": "lethal",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈliː.θəl",
+      "phoneticUk": "ˈliː.θəl",
+      "phoneticAr": "لِيثَال",
+      "translit": "Mumīt / Qātil",
+      "definitionEn": "Sufficient to cause death; very harmful or destructive.",
+      "definitionAr": "قاتل أو مميت. حاجة خطيرة جداً لدرجة إنها ممكن تسبب الوفاة.",
+      "usageNote": "Stronger than 'dangerous'. Implies death.",
+      "category": "General / Common",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Danger",
+        "#Death",
+        "#Weapon",
+        "#Poison"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "شبه كلمة \"Last\" \"أخير\".. الجرعة الـ \"Lethal\" هي الـ \"Last\" \"آخر\" حاجة هتاخدها في حياتك.",
+      "examples": {
+        "A1": "The snake bite is lethal.",
+        "A2": "That poison is lethal to rats.",
+        "B1": "Driving fast can be lethal.",
+        "B2": "The chemical is lethal in small doses.",
+        "C1": "The government approved the use of lethal force.",
+        "C2": "A lethal combination of drugs was found in his system."
+      },
+      "collocations": [
+        "lethal injection",
+        "lethal weapon",
+        "lethal dose",
+        "lethal force"
+      ],
+      "synonyms": [
+        "deadly",
+        "fatal",
+        "mortal",
+        "terminal"
+      ],
+      "antonyms": [
+        "harmless",
+        "safe",
+        "non-lethal"
+      ],
+      "relatedWords": {
+        "en": [
+          "death",
+          "kill",
+          "poison",
+          "danger"
+        ],
+        "ar": [
+          "موت",
+          "قتل",
+          "سم",
+          "خطر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "lethality",
+        "verb": "",
+        "adj": "",
+        "adv": "lethally"
+      },
+      "arabicAr": "مميت / قاتل",
+      "frenchFr": "mortel",
+      "germanDe": "tödlich",
+      "spanishEs": "letal",
+      "chineseZh": "致命的 (Zhìmìng de)",
+      "russianRu": "смертельный",
+      "portuguesePt": "letal",
+      "japaneseJa": "致死の (Chishi no)",
+      "italianIt": "letale",
+      "turkishTr": "ölümcül",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 7255,
+      "wordEn": "lifelong",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈlaɪf.lɑːŋ",
+      "phoneticUk": "ˈlaɪf.lɒŋ",
+      "phoneticAr": "لَايْف لُونْج",
+      "translit": "Madā Al-Ḥayā",
+      "definitionEn": "Lasting or remaining in a particular state throughout a person's life.",
+      "definitionAr": "مدى الحياة. حاجة مكملة معاك طول عمرك، زي صديق الطفولة أو مرض مزمن أو هواية.",
+      "usageNote": "Commonly used for friends, habits, or conditions.",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Duration",
+        "#Life",
+        "#Commitment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "واضحة.. \"Life\" \"حياة\" + \"Long\" \"طويل\".. يعني مستمر بطول الـ \"Life\".",
+      "examples": {
+        "A1": "He is my lifelong friend.",
+        "A2": "She has a lifelong dream to travel.",
+        "B1": "They are lifelong supporters of the team.",
+        "B2": "Lifelong learning is important for your career.",
+        "C1": "He suffers from a lifelong medical condition.",
+        "C2": "Her lifelong dedication to the cause was inspiring."
+      },
+      "collocations": [
+        "lifelong friend",
+        "lifelong learning",
+        "lifelong dream",
+        "lifelong member"
+      ],
+      "synonyms": [
+        "lifetime",
+        "permanent",
+        "enduring",
+        "constant"
+      ],
+      "antonyms": [
+        "temporary",
+        "short-term",
+        "fleeting"
+      ],
+      "relatedWords": {
+        "en": [
+          "life",
+          "forever",
+          "always",
+          "continue"
+        ],
+        "ar": [
+          "حياة",
+          "أبد",
+          "دائما",
+          "استمرار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "life",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مدى الحياة",
+      "frenchFr": "de toute une vie",
+      "germanDe": "lebenslang",
+      "spanishEs": "de toda la vida",
+      "chineseZh": "终身的 (Zhōngshēn de)",
+      "russianRu": "пожизненный",
+      "portuguesePt": "vitalício",
+      "japaneseJa": "生涯の (Shōgai no)",
+      "italianIt": "di tutta la vita",
+      "turkishTr": "hayat boyu",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7256,
+      "wordEn": "line-up",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈlaɪn.ʌp",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْن أَب",
+      "translit": "Yaṣṭaff / Yuraṣṣ",
+      "definitionEn": "To arrange people or things in a row; to organize or prepare.",
+      "definitionAr": "يصطف أو يوقف ناس في طابور. وممكن تيجي بمعنى يجهز أو يرتب لحاجة.",
+      "usageNote": "Phrasal verb from 'line'.",
+      "category": "General / Common",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Order",
+        "#Organization",
+        "#Queue",
+        "#Arrangement"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Line\" \"خط\" + \"Up\".. يعني اعملوا \"Line\" \"خط\" واقفين \"Up\".",
+      "examples": {
+        "A1": "Please line up here.",
+        "A2": "The teacher told the kids to line up.",
+        "B1": "Cars lined up for the ferry.",
+        "B2": "We managed to line up some great speakers for the event.",
+        "C1": "He lined up his shots carefully.",
+        "C2": "They have lined up considerable support for the proposal."
+      },
+      "collocations": [
+        "line up for",
+        "line up against",
+        "line up behind"
+      ],
+      "synonyms": [
+        "align",
+        "queue",
+        "arrange",
+        "organize"
+      ],
+      "antonyms": [
+        "scatter",
+        "disperse"
+      ],
+      "relatedWords": {
+        "en": [
+          "line",
+          "row",
+          "queue",
+          "order"
+        ],
+        "ar": [
+          "خط",
+          "صف",
+          "طابور",
+          "نظام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "line",
+        "verb": "line",
+        "adj": "lined",
+        "adv": ""
+      },
+      "arabicAr": "يصطف",
+      "frenchFr": "s'aligner",
+      "germanDe": "aufstellen",
+      "spanishEs": "alinear",
+      "chineseZh": "排队 (Páiduì)",
+      "russianRu": "выстраивать",
+      "portuguesePt": "alinhar",
+      "japaneseJa": "整列する (Seiretsu suru)",
+      "italianIt": "allineare",
+      "turkishTr": "sıraya girmek",
+      "aiConfidence": 0.93
+    },
+    {
+      "id": 7257,
+      "wordEn": "line-up",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "4",
+      "phoneticUs": "ˈlaɪn.ʌp",
+      "phoneticUk": null,
+      "phoneticAr": "لَايْن أَب",
+      "translit": "Tashkīla / Ṣaff",
+      "definitionEn": "A group of people or things brought together, especially a sports team or entertainers.",
+      "definitionAr": "تشكيلة الفريق أو قايمة العروض. مجموعة الناس اللي تم اختيارهم لحدث معين.",
+      "usageNote": "Common in sports (starting line-up) and music festivals.",
+      "category": "General / Common",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Sports",
+        "#Music",
+        "#Team",
+        "#Group"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الفكرة.. الناس اللي عاملين \"Line\" \"صف\" عشان يلعبوا أو يغنوا.",
+      "examples": {
+        "A1": "The team line-up is strong.",
+        "A2": "Look at the festival line-up.",
+        "B1": "He was not in the starting line-up today.",
+        "B2": "The police organized a line-up to identify the suspect.",
+        "C1": "The channel has a new line-up of shows for the fall.",
+        "C2": "With such a stellar line-up, the concert is bound to sell out."
+      },
+      "collocations": [
+        "starting line-up",
+        "festival line-up",
+        "police line-up",
+        "strong line-up"
+      ],
+      "synonyms": [
+        "list",
+        "team",
+        "roster",
+        "program"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "team",
+          "squad",
+          "cast",
+          "group"
+        ],
+        "ar": [
+          "فريق",
+          "طاقم",
+          "مجموعة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "line",
+        "verb": "line",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تشكيلة / قائمة",
+      "frenchFr": "alignement",
+      "germanDe": "Aufstellung",
+      "spanishEs": "alineación",
+      "chineseZh": "阵容 (Zhènróng)",
+      "russianRu": "состав",
+      "portuguesePt": "escalação",
+      "japaneseJa": "ラインナップ (Rainnappu)",
+      "italianIt": "formazione",
+      "turkishTr": "kadro",
+      "aiConfidence": 0.94
+    },
+    {
+      "id": 7258,
+      "wordEn": "listing",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈlɪs.tɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "لِسْتِينْج",
+      "translit": "Qāʾima / ʾIdrāj",
+      "definitionEn": "An entry in a list; the act of making a list.",
+      "definitionAr": "قائمة أو إدراج في قائمة. زي إعلان شقة للبيع في موقع عقارات، أو اسمك في دليل التليفون.",
+      "usageNote": "Common in real estate ('new listing') and directories.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Business",
+        "#RealEstate",
+        "#Data",
+        "#Organization"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"List\" \"قائمة\".. الـ \"Listing\" هو وضع الشيء في الـ \"List\".",
+      "examples": {
+        "A1": "I saw the listing online.",
+        "A2": "Check the TV listings for tonight.",
+        "B1": "We made a listing of all the items.",
+        "B2": "The real estate agent showed us a new listing.",
+        "C1": "The company sought a stock market listing.",
+        "C2": "The directory contains a comprehensive listing of all local businesses."
+      },
+      "collocations": [
+        "job listing",
+        "property listing",
+        "tv listing",
+        "listing price"
+      ],
+      "synonyms": [
+        "entry",
+        "record",
+        "list",
+        "register"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "list",
+          "item",
+          "catalog",
+          "directory"
+        ],
+        "ar": [
+          "قائمة",
+          "عنصر",
+          "كتالوج",
+          "دليل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "list",
+        "verb": "list",
+        "adj": "listed",
+        "adv": ""
+      },
+      "arabicAr": "قائمة / إدراج",
+      "frenchFr": "liste",
+      "germanDe": "Auflistung",
+      "spanishEs": "listado",
+      "chineseZh": "列表 (Lièbiǎo)",
+      "russianRu": "список",
+      "portuguesePt": "listagem",
+      "japaneseJa": "リスト (Risuto)",
+      "italianIt": "elenco",
+      "turkishTr": "listeleme",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 7259,
+      "wordEn": "long-standing",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈlɑːŋˌstæn.dɪŋ",
+      "phoneticUk": "ˈlɒŋˌstæn.dɪŋ",
+      "phoneticAr": "لُونْج سْتَانْدِينْج",
+      "translit": "Rāsikh / Qadīm",
+      "definitionEn": "Having existed or continued for a long time.",
+      "definitionAr": "راسخ أو بقاله زمن طويل. وصف لحاجة موجودة ومستمرة من فترة كبيرة، زي عادة أو اتفاق.",
+      "usageNote": "Usually implies stability or tradition.",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Tradition",
+        "#Duration",
+        "#History"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Long\" \"طويل\" + \"Standing\" \"واقف/قائم\".. يعني \"Standing\" \"قائم\" وموجود بقاله وقت \"Long\".",
+      "examples": {
+        "A1": "It is a long-standing rule.",
+        "A2": "They have a long-standing friendship.",
+        "B1": "This is a long-standing tradition in our family.",
+        "B2": "The two countries have a long-standing agreement.",
+        "C1": "We need to resolve this long-standing dispute.",
+        "C2": "His long-standing commitment to the project was finally rewarded."
+      },
+      "collocations": [
+        "long-standing tradition",
+        "long-standing relationship",
+        "long-standing problem",
+        "long-standing agreement"
+      ],
+      "synonyms": [
+        "established",
+        "enduring",
+        "traditional",
+        "persistent"
+      ],
+      "antonyms": [
+        "recent",
+        "new",
+        "short-lived"
+      ],
+      "relatedWords": {
+        "en": [
+          "time",
+          "tradition",
+          "history",
+          "old"
+        ],
+        "ar": [
+          "وقت",
+          "تقليد",
+          "تاريخ",
+          "قديم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "standing",
+        "verb": "stand",
+        "adj": "standing",
+        "adv": ""
+      },
+      "arabicAr": "منذ فترة طويلة / راسخ",
+      "frenchFr": "de longue date",
+      "germanDe": "langjährig",
+      "spanishEs": "de larga data",
+      "chineseZh": "长期的 (Chángqī de)",
+      "russianRu": "давний",
+      "portuguesePt": "de longa data",
+      "japaneseJa": "長年の (Naganen no)",
+      "italianIt": "di lunga data",
+      "turkishTr": "uzun süreli",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 7260,
+      "wordEn": "long-time",
+      "pos": "adj",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "ˈlɑːŋ.taɪm",
+      "phoneticUk": "ˈlɒŋ.taɪm",
+      "phoneticAr": "لُونْج تَايْم",
+      "translit": "Mundhu Waqt Ṭawīl",
+      "definitionEn": "Having had a specified role or identity for a long time.",
+      "definitionAr": "قديم أو من زمان. بتوصف حد بيعمل حاجة بقاله فترة طويلة.",
+      "usageNote": "Hyphenated when before a noun (e.g., 'a long-time friend').",
+      "category": "General / Common",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Duration",
+        "#Relationship",
+        "#Loyalty"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "\"Long time\" \"وقت طويل\".. واضحة جداً.",
+      "examples": {
+        "A1": "He is a long-time friend.",
+        "A2": "She is a long-time fan of the band.",
+        "B1": "A long-time resident of the city.",
+        "B2": "They are long-time rivals in business.",
+        "C1": "The long-time leader stepped down yesterday.",
+        "C2": "As a long-time observer of politics, he predicted the outcome."
+      },
+      "collocations": [
+        "long-time friend",
+        "long-time resident",
+        "long-time supporter",
+        "long-time partner"
+      ],
+      "synonyms": [
+        "veteran",
+        "established",
+        "devoted"
+      ],
+      "antonyms": [
+        "new",
+        "recent"
+      ],
+      "relatedWords": {
+        "en": [
+          "time",
+          "duration",
+          "period"
+        ],
+        "ar": [
+          "وقت",
+          "مدة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "time",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "منذ وقت طويل",
+      "frenchFr": "de longue date",
+      "germanDe": "langjährig",
+      "spanishEs": "antiguo",
+      "chineseZh": "长期的 (Chángqī de)",
+      "russianRu": "давний",
+      "portuguesePt": "de longa data",
+      "japaneseJa": "古くからの (Furuku kara no)",
+      "italianIt": "di vecchia data",
+      "turkishTr": "eski",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 7261,
+      "wordEn": "loom",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "luːm",
+      "phoneticUk": "luːm",
+      "phoneticAr": "لُوم",
+      "translit": "Nawl",
+      "definitionEn": "An apparatus for making fabric by weaving yarn or thread.",
+      "definitionAr": "النول. الآلة اليدوية أو الميكانيكية اللي بيستخدموها لنسج القماش.",
+      "usageNote": "Historical or industrial context usually.",
+      "category": "Objects & Tools",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Textile",
+        "#Machine",
+        "#Weaving",
+        "#Craft"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Loom\" قصيرة زي صوت المكنة.. \"Loom\" بتعمل قماش للـ \"Room\".",
+      "examples": {
+        "A1": "She uses a loom.",
+        "A2": "The loom makes cloth.",
+        "B1": "Weaving on a hand loom takes time.",
+        "B2": "The factory replaced the old looms with new machines.",
+        "C1": "The invention of the power loom changed the textile industry.",
+        "C2": "Traditional weavers still prefer the wooden loom for its precision."
+      },
+      "collocations": [
+        "weaving loom",
+        "power loom",
+        "hand loom"
+      ],
+      "synonyms": [
+        "weaving machine"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "weave",
+          "fabric",
+          "thread",
+          "textile"
+        ],
+        "ar": [
+          "ينسج",
+          "قماش",
+          "خيط",
+          "نسيج"
+        ]
+      },
+      "wordFamily": {
+        "noun": "loom",
+        "verb": "loom",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "نول",
+      "frenchFr": "métier à tisser",
+      "germanDe": "Webstuhl",
+      "spanishEs": "telar",
+      "chineseZh": "织布机 (Zhībùjī)",
+      "russianRu": "ткацкий станок",
+      "portuguesePt": "tear",
+      "japaneseJa": "織機 (Shokki)",
+      "italianIt": "telaio",
+      "turkishTr": "dokuma tezgahı",
+      "aiConfidence": 0.92
+    },
+    {
+      "id": 7262,
+      "wordEn": "loom",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "difficultyScore": "7",
+      "phoneticUs": "luːm",
+      "phoneticUk": "luːm",
+      "phoneticAr": "لُوم",
+      "translit": "Yalūḥ Fī Al-ʾUfuq",
+      "definitionEn": "To appear as a vague form, especially one that is large or threatening.",
+      "definitionAr": "يلوح في الأفق. يظهر بشكل غامض ومخيف من بعيد، زي عاصفة أو خطر بيقرب.",
+      "usageNote": "Often used for threats: 'Danger loomed'.",
+      "category": "Nature & Science",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Appearance",
+        "#Threat",
+        "#Shadow",
+        "#Future"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "تخيل \"Lion\" \"أسد\" بيعمل \"Loom\" \"بيظهر\" من الضلمة عشان يهجم.",
+      "examples": {
+        "A1": "The mountain looms ahead.",
+        "A2": "Dark clouds loomed over the city.",
+        "B1": "A crisis is looming in the economy.",
+        "B2": "The deadline loomed closer every day.",
+        "C1": "The threat of war loomed large in their minds.",
+        "C2": "A shadow loomed out of the fog, terrifying the sailors."
+      },
+      "collocations": [
+        "loom large",
+        "loom ahead",
+        "danger looms",
+        "darkness looms"
+      ],
+      "synonyms": [
+        "emerge",
+        "appear",
+        "hover",
+        "threaten"
+      ],
+      "antonyms": [
+        "recede",
+        "disappear",
+        "fade"
+      ],
+      "relatedWords": {
+        "en": [
+          "appear",
+          "threat",
+          "shadow",
+          "huge"
+        ],
+        "ar": [
+          "يظهر",
+          "تهديد",
+          "ظل",
+          "ضخم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "loom",
+        "verb": "loom",
+        "adj": "looming",
+        "adv": ""
+      },
+      "arabicAr": "يلوح في الأفق",
+      "frenchFr": "se profiler",
+      "germanDe": "sich abzeichnen",
+      "spanishEs": "avecindarse",
+      "chineseZh": "隐约出现 (Yǐnyuē chūxiàn)",
+      "russianRu": "маячить",
+      "portuguesePt": "pairar",
+      "japaneseJa": "不気味に現れる (Bukimi ni arawareru)",
+      "italianIt": "incombere",
+      "turkishTr": "belirmek",
+      "aiConfidence": 0.94
+    }
+  ]
+} 

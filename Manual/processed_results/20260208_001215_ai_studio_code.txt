@@ -1,0 +1,2195 @@
+{
+  "wordEntries": [
+    {
+      "id": 5613,
+      "wordEn": "evidently",
+      "pos": "adv",
+      "cefrLevel": "B2",
+      "difficultyScore": "10",
+      "phoneticUs": "ˈɛvɪdəntli",
+      "phoneticUk": null,
+      "phoneticAr": "إِفِدَنْتلي",
+      "translit": "Min al-wāḍiḥ / Bijalāʾ",
+      "definitionEn": "Clearly seen or understood; used to describe something that appears to be true based on signs.",
+      "definitionAr": "يعني بوضوح أو الظاهر كده. بنستخدمها لما يكون فيه دليل قدامنا بيأكد حاجة معينة، زي لما تقول 'واضح إنه زعلان' عشان شفته مكشر.",
+      "usageNote": "Often used as a sentence adverb to modify the whole statement, suggesting a logical deduction.",
+      "category": "Mind & Thinking",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Logic",
+        "#Observation",
+        "#Certainty"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بكلمة \"Evidence\" يعني 'دليل'.. لما يكون معاك دليل، الشيء بيكون \"Evidently\" واضح.",
+      "examples": {
+        "A1": "She is evidently very happy today.",
+        "A2": "Evidently, he did not understand the question.",
+        "B1": "They evidently decided to stay home because of the rain.",
+        "B2": "Evidently, the company is facing financial difficulties this year.",
+        "C1": "The policy was evidently designed to favor the wealthy.",
+        "C2": "He was evidently ill-at-ease during the interrogation."
+      },
+      "collocations": [
+        "evidently clear",
+        "quite evidently",
+        "self-evidently"
+      ],
+      "synonyms": [
+        "obviously",
+        "clearly",
+        "apparently",
+        "plainly"
+      ],
+      "antonyms": [
+        "doubtfully",
+        "obscurely"
+      ],
+      "relatedWords": {
+        "en": [
+          "evidence",
+          "evident"
+        ],
+        "ar": [
+          "دليل",
+          "واضح"
+        ]
+      },
+      "wordFamily": {
+        "noun": "evidence",
+        "verb": "evidence",
+        "adj": "evident",
+        "adv": "evidently"
+      },
+      "arabicAr": "من الواضح / بجلاء",
+      "frenchFr": "évidemment",
+      "germanDe": "offensichtlich",
+      "spanishEs": "evidentemente",
+      "chineseZh": "显然 (Xiǎn rán)",
+      "russianRu": "очевидно",
+      "portuguesePt": "evidentemente",
+      "japaneseJa": "明らかに (Akiraka ni)",
+      "italianIt": "evidentemente",
+      "turkishTr": "belli ki",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5614,
+      "wordEn": "blade",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "5",
+      "phoneticUs": "bleɪd",
+      "phoneticUk": null,
+      "phoneticAr": "بْلَايْد",
+      "translit": "Shafra",
+      "definitionEn": "The flat cutting edge of a knife, saw, or other tool or weapon.",
+      "definitionAr": "الجزء الحاد اللي بيقطع في السكينة أو المقص. أي حد قاطع بنسميه 'شفرة'.",
+      "usageNote": "Also commonly used for grass (a blade of grass) or machinery (propeller blade).",
+      "category": "Tools & Mechanics",
+      "primarySense": "Tool",
+      "semanticTags": [
+        "#Sharp",
+        "#Weapon",
+        "#Cut"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Blade\" قريبة من \"Bleed\" يعني 'ينزف'.. الـ \"Blade\" الحادة ممكن تخليك تنزف.",
+      "examples": {
+        "A1": "The knife has a sharp blade.",
+        "A2": "Be careful with the razor blade.",
+        "B1": "The fan blade is broken and making noise.",
+        "B2": "He wiped the blade of his sword.",
+        "C1": "Not a single blade of grass grew in the desert.",
+        "C2": "The turbine blades rotate at high velocity."
+      },
+      "collocations": [
+        "sharp blade",
+        "razor blade",
+        "shoulder blade",
+        "blade of grass"
+      ],
+      "synonyms": [
+        "edge",
+        "cutter",
+        "vane"
+      ],
+      "antonyms": [
+        "handle"
+      ],
+      "relatedWords": {
+        "en": [
+          "knife",
+          "cut",
+          "sharp"
+        ],
+        "ar": [
+          "سكين",
+          "قطع",
+          "حاد"
+        ]
+      },
+      "wordFamily": {
+        "noun": "blade",
+        "verb": "",
+        "adj": "bladed",
+        "adv": ""
+      },
+      "arabicAr": "شفرة",
+      "frenchFr": "lame",
+      "germanDe": "Klinge",
+      "spanishEs": "hoja",
+      "chineseZh": "刀片 (Dāo piàn)",
+      "russianRu": "лезвие",
+      "portuguesePt": "lâmina",
+      "japaneseJa": "刃 (Ha)",
+      "italianIt": "lama",
+      "turkishTr": "bıçak ağzı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5615,
+      "wordEn": "bowel",
+      "pos": "noun",
+      "cefrLevel": "C1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈbaʊəl",
+      "phoneticUk": null,
+      "phoneticAr": "بَاوَل",
+      "translit": "Al-amʿāʾ",
+      "definitionEn": "The tube inside the body where food goes after leaving the stomach; the intestine.",
+      "definitionAr": "الأمعاء اللي في بطن الإنسان. المكان اللي الأكل بيمر فيه وبيتهضم بعد المعدة.",
+      "usageNote": "Often used in medical contexts (bowel movement, bowel cancer). usually plural 'bowels' for the depths of something.",
+      "category": "Health & Senses",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Anatomy",
+        "#Body",
+        "#Medical"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Bowel\" قريبة من \"Bowl\" يعني 'سلطانية'.. تخيل الأمعاء ملفوفة زي الـ \"Bowl\" جوه البطن.",
+      "examples": {
+        "A1": "The doctor checked his stomach and bowel.",
+        "A2": "Eating fiber helps your bowel move.",
+        "B1": "He had surgery on his lower bowel.",
+        "B2": "Irritable bowel syndrome is a common condition.",
+        "C1": "The ship went down into the bowels of the ocean.",
+        "C2": "The disease causes inflammation of the large bowel."
+      },
+      "collocations": [
+        "bowel movement",
+        "bowel cancer",
+        "large bowel"
+      ],
+      "synonyms": [
+        "intestine",
+        "gut",
+        "entrails"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "stomach",
+          "digestion",
+          "colon"
+        ],
+        "ar": [
+          "معدة",
+          "هضم",
+          "قولون"
+        ]
+      },
+      "wordFamily": {
+        "noun": "bowel",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الأمعاء / أمعاء",
+      "frenchFr": "intestin",
+      "germanDe": "Darm",
+      "spanishEs": "intestino",
+      "chineseZh": "肠 (Cháng)",
+      "russianRu": "кишечник",
+      "portuguesePt": "intestino",
+      "japaneseJa": "腸 (Chō)",
+      "italianIt": "intestino",
+      "turkishTr": "bağırsak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5616,
+      "wordEn": "ad",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "4",
+      "phoneticUs": "æd",
+      "phoneticUk": null,
+      "phoneticAr": "آد",
+      "translit": "Iʿlān",
+      "definitionEn": "An advertisement; a notice or announcement in a public medium promoting a product.",
+      "definitionAr": "اختصار لكلمة إعلان. الصورة أو الفيديو اللي بيطلعلك عشان يخليك تشتري حاجة.",
+      "usageNote": "Informal short form of 'advertisement'. Very common in spoken English and internet contexts.",
+      "category": "Work & Business",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Marketing",
+        "#Media",
+        "#Business"
+      ],
+      "register": "Informal",
+      "mnemonicAr": "هي اختصار \"Advertisement\".. وافتكر إن الإعلان بيضيف \"Add\" معلومة جديدة ليك عن المنتج.",
+      "examples": {
+        "A1": "I saw an ad for a new car.",
+        "A2": "There are too many ads on TV.",
+        "B1": "They placed an ad in the local newspaper.",
+        "B2": "The company launched a new ad campaign.",
+        "C1": "We need to analyze the ad revenue for this quarter.",
+        "C2": "Subliminal messages in the ad were controversial."
+      },
+      "collocations": [
+        "TV ad",
+        "newspaper ad",
+        "place an ad",
+        "online ad"
+      ],
+      "synonyms": [
+        "advertisement",
+        "advert",
+        "commercial",
+        "promotion"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "marketing",
+          "brand",
+          "sponsor"
+        ],
+        "ar": [
+          "تسويق",
+          "علامة تجارية",
+          "راعي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "ad",
+        "verb": "advertise",
+        "adj": "advertised",
+        "adv": ""
+      },
+      "arabicAr": "إعلان",
+      "frenchFr": "pub",
+      "germanDe": "Anzeige",
+      "spanishEs": "anuncio",
+      "chineseZh": "广告 (Guǎng gào)",
+      "russianRu": "реклама",
+      "portuguesePt": "anúncio",
+      "japaneseJa": "広告 (Kōkoku)",
+      "italianIt": "annuncio",
+      "turkishTr": "reklam",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5617,
+      "wordEn": "amazed",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈmeɪzd",
+      "phoneticUk": null,
+      "phoneticAr": "أَمَايْزْد",
+      "translit": "Mundahish",
+      "definitionEn": "Greatly surprised; astonished; showing great wonder.",
+      "definitionAr": "مندهش جداً. لما تشوف حاجة مش متوقعها خالص وتنبهر بيها.",
+      "usageNote": "Usually followed by 'at' or 'by' (amazed at the view). Stronger than 'surprised'.",
+      "category": "Feelings & Emotions",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Surprise",
+        "#Wonder",
+        "#Reaction"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاي من كلمة \"Maze\" يعني 'متاهة'.. لما تكون في متاهة كبيرة بتكون \"Amazed\" ومذهول من تعقيدها.",
+      "examples": {
+        "A1": "I was amazed by the big city.",
+        "A2": "She was amazed to see him there.",
+        "B1": "We were amazed at how fast he learned.",
+        "B2": "I am amazed that you remember my name.",
+        "C1": "He stood amazed at the complexity of the machine.",
+        "C2": "The scientific community was amazed by the discovery."
+      },
+      "collocations": [
+        "totally amazed",
+        "amazed at",
+        "amazed to see"
+      ],
+      "synonyms": [
+        "astonished",
+        "astounded",
+        "surprised",
+        "shocked"
+      ],
+      "antonyms": [
+        "unimpressed",
+        "indifferent"
+      ],
+      "relatedWords": {
+        "en": [
+          "amazing",
+          "amazement",
+          "wonder"
+        ],
+        "ar": [
+          "مذهل",
+          "ذهول",
+          "عجب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "amazement",
+        "verb": "amaze",
+        "adj": "amazed",
+        "adv": "amazingly"
+      },
+      "arabicAr": "مندهش",
+      "frenchFr": "stupéfait",
+      "germanDe": "erstaunt",
+      "spanishEs": "asombrado",
+      "chineseZh": "惊讶 (Jīng yà)",
+      "russianRu": "изумлённый",
+      "portuguesePt": "maravilhado",
+      "japaneseJa": "驚いた (Odoroita)",
+      "italianIt": "stupito",
+      "turkishTr": "hayret etmiş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5618,
+      "wordEn": "annoyed",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "əˈnɔɪd",
+      "phoneticUk": null,
+      "phoneticAr": "أَنُويْد",
+      "translit": "Mutaḍāyiq",
+      "definitionEn": "Slightly angry; irritated.",
+      "definitionAr": "متضايق أو منزعج شوية. مش غضبان أوي، بس فيه حاجة معصباك.",
+      "usageNote": "You are annoyed 'with' a person, but annoyed 'at' or 'about' a situation.",
+      "category": "Feelings & Emotions",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Anger",
+        "#Irritation",
+        "#Mood"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Noise\" يعني 'دوشة'.. الدوشة بتخليك \"Annoyed\" ومتضايق.",
+      "examples": {
+        "A1": "She is annoyed with her brother.",
+        "A2": "I get annoyed when the bus is late.",
+        "B1": "He looked annoyed by the question.",
+        "B2": "Customers are annoyed about the price increase.",
+        "C1": "She was visibly annoyed by his constant interruptions.",
+        "C2": "He grew increasingly annoyed at the bureaucratic delays."
+      },
+      "collocations": [
+        "get annoyed",
+        "annoyed with",
+        "visibly annoyed"
+      ],
+      "synonyms": [
+        "irritated",
+        "bothered",
+        "vexed"
+      ],
+      "antonyms": [
+        "pleased",
+        "happy"
+      ],
+      "relatedWords": {
+        "en": [
+          "annoy",
+          "annoyance",
+          "irritate"
+        ],
+        "ar": [
+          "يزعج",
+          "إزعاج",
+          "يستفز"
+        ]
+      },
+      "wordFamily": {
+        "noun": "annoyance",
+        "verb": "annoy",
+        "adj": "annoyed",
+        "adv": "annoyingly"
+      },
+      "arabicAr": "متضايق",
+      "frenchFr": "agacé",
+      "germanDe": "verärgert",
+      "spanishEs": "molesto",
+      "chineseZh": "恼火 (Nǎo huǒ)",
+      "russianRu": "раздражённый",
+      "portuguesePt": "irritado",
+      "japaneseJa": "イライラした (Iraira shita)",
+      "italianIt": "infastidito",
+      "turkishTr": "kızgın",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5619,
+      "wordEn": "annoying",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "əˈnɔɪɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "أَنُويِنْج",
+      "translit": "Muzʿij",
+      "definitionEn": "Causing irritation or annoyance.",
+      "definitionAr": "مزعج. وصف للحاجة أو الشخص اللي بيسببلك الضيق.",
+      "usageNote": "Describes the cause (The noise is annoying), whereas 'annoyed' describes the feeling (I am annoyed).",
+      "category": "Feelings & Emotions",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Irritating",
+        "#Negative",
+        "#Quality"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس فكرة \"Noise\".. الصوت العالي ده \"Annoying\" جداً.",
+      "examples": {
+        "A1": "That loud noise is very annoying.",
+        "A2": "He has an annoying habit of chewing loudly.",
+        "B1": "It's annoying when the internet is slow.",
+        "B2": "I find his constant questions quite annoying.",
+        "C1": "The most annoying aspect of the job is the paperwork.",
+        "C2": "She has a piercingly annoying voice."
+      },
+      "collocations": [
+        "annoying habit",
+        "very annoying",
+        "find it annoying"
+      ],
+      "synonyms": [
+        "irritating",
+        "bothersome",
+        "maddening"
+      ],
+      "antonyms": [
+        "pleasant",
+        "delightful"
+      ],
+      "relatedWords": {
+        "en": [
+          "annoy",
+          "annoyed",
+          "pest"
+        ],
+        "ar": [
+          "يضايق",
+          "متضايق",
+          "آفة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "annoyance",
+        "verb": "annoy",
+        "adj": "annoying",
+        "adv": "annoyingly"
+      },
+      "arabicAr": "مزعج",
+      "frenchFr": "ennuyeux",
+      "germanDe": "ärgerlich",
+      "spanishEs": "molesto",
+      "chineseZh": "讨厌 (Tǎo yàn)",
+      "russianRu": "раздражающий",
+      "portuguesePt": "irritante",
+      "japaneseJa": "うっとうしい (Uttōshī)",
+      "italianIt": "fastidioso",
+      "turkishTr": "can sıkıcı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5620,
+      "wordEn": "apologize",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "əˈpɒləd͡ʒaɪz",
+      "phoneticUk": null,
+      "phoneticAr": "أَبُولُجَايْز",
+      "translit": "Yaʿtadhir",
+      "definitionEn": "To express regret for something that one has done wrong.",
+      "definitionAr": "يعتذر. لما تعمل حاجة غلط وتقول 'أنا آسف'.",
+      "usageNote": "You apologize 'to' a person 'for' a mistake.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Sorry",
+        "#Regret",
+        "#Politeness"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها كلمة \"Polo\".. لو كسرت عصاية الـ \"Polo\" بتاعة صاحبك لازم تعتذرله \"Apologize\".",
+      "examples": {
+        "A1": "I want to apologize to you.",
+        "A2": "He apologized for being late.",
+        "B1": "She apologized for the mistake in the report.",
+        "B2": "I must apologize for the inconvenience caused.",
+        "C1": "The company apologized publicly for the scandal.",
+        "C2": "He refused to apologize, standing by his controversial remarks."
+      },
+      "collocations": [
+        "apologize for",
+        "apologize to",
+        "sincerely apologize"
+      ],
+      "synonyms": [
+        "say sorry",
+        "express regret",
+        "atone"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "apology",
+          "sorry",
+          "regret"
+        ],
+        "ar": [
+          "اعتذار",
+          "آسف",
+          "ندم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "apology",
+        "verb": "apologize",
+        "adj": "apologetic",
+        "adv": "apologetically"
+      },
+      "arabicAr": "يعتذر",
+      "frenchFr": "s'excuser",
+      "germanDe": "sich entschuldigen",
+      "spanishEs": "disculparse",
+      "chineseZh": "道歉 (Dào qiàn)",
+      "russianRu": "извиняться",
+      "portuguesePt": "desculpar-se",
+      "japaneseJa": "謝る (Ayamaru)",
+      "italianIt": "scusarsi",
+      "turkishTr": "özür dilemek",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5621,
+      "wordEn": "breathing",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈbɹiːðɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "بْرِيذِينْج",
+      "translit": "Al-tanaffus",
+      "definitionEn": "The process of taking air into and expelling it from the lungs.",
+      "definitionAr": "عملية التنفس. دخول وخروج الهوا من الرئة.",
+      "usageNote": "Often used with adjectives like 'heavy', 'shallow', or 'deep'.",
+      "category": "Health & Senses",
+      "primarySense": "Process",
+      "semanticTags": [
+        "#Lungs",
+        "#Life",
+        "#Air"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Breathe\" يتنفس.. الـ \"Breathing\" هو العملية نفسها.",
+      "examples": {
+        "A1": "His breathing is very loud.",
+        "A2": "Deep breathing helps you relax.",
+        "B1": "She had difficulty breathing after the run.",
+        "B2": "Yoga focuses a lot on controlled breathing.",
+        "C1": "The patient's breathing became shallow and irregular.",
+        "C2": "Holotropic breathing is a technique used for therapy."
+      },
+      "collocations": [
+        "heavy breathing",
+        "difficulty breathing",
+        "stop breathing"
+      ],
+      "synonyms": [
+        "respiration",
+        "inhalation"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "breathe",
+          "breath",
+          "lung"
+        ],
+        "ar": [
+          "يتنفس",
+          "نفس",
+          "رئة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "breath",
+        "verb": "breathe",
+        "adj": "breathless",
+        "adv": "breathlessly"
+      },
+      "arabicAr": "التنفس",
+      "frenchFr": "respiration",
+      "germanDe": "Atmung",
+      "spanishEs": "respiración",
+      "chineseZh": "呼吸 (Hū xī)",
+      "russianRu": "дыхание",
+      "portuguesePt": "respiração",
+      "japaneseJa": "呼吸 (Kokyū)",
+      "italianIt": "respirazione",
+      "turkishTr": "nefes alma",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5622,
+      "wordEn": "campus",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈkæmpəs",
+      "phoneticUk": null,
+      "phoneticAr": "كَامْبَس",
+      "translit": "Ḥaram al-jāmiʿa",
+      "definitionEn": "The grounds and buildings of a university or college.",
+      "definitionAr": "الحرم الجامعي. الأرض والمباني اللي تبع الجامعة.",
+      "usageNote": "You live 'on campus' or 'off campus'.",
+      "category": "Education & Learning",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#University",
+        "#College",
+        "#Student"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "اربطها بـ \"Camp\" يعني 'معسكر'.. الجامعة زي المعسكر \"Campus\" للطلاب.",
+      "examples": {
+        "A1": "The campus is very big.",
+        "A2": "We met at the library on campus.",
+        "B1": "Living on campus is convenient for students.",
+        "B2": "The university is expanding its main campus.",
+        "C1": "Political activism is growing on college campuses.",
+        "C2": "The architecture of the campus reflects a gothic style."
+      },
+      "collocations": [
+        "on campus",
+        "off campus",
+        "campus life"
+      ],
+      "synonyms": [
+        "grounds",
+        "university grounds",
+        "precincts"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "university",
+          "college",
+          "dorm"
+        ],
+        "ar": [
+          "جامعة",
+          "كلية",
+          "سكن طلاب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "campus",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "حرم الجامعة",
+      "frenchFr": "campus",
+      "germanDe": "Campus",
+      "spanishEs": "campus",
+      "chineseZh": "校园 (Xiào yuán)",
+      "russianRu": "кампус",
+      "portuguesePt": "campus",
+      "japaneseJa": "キャンパス (Kyanpasu)",
+      "italianIt": "campus",
+      "turkishTr": "kampüs",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5623,
+      "wordEn": "centre",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsen.tə(ɹ)",
+      "phoneticUk": null,
+      "phoneticAr": "سِنْتَر",
+      "translit": "Markaz",
+      "definitionEn": "The middle point of a circle or sphere; a place where an activity is concentrated.",
+      "definitionAr": "المركز أو النص. النقطة اللي في نص الدايرة، أو المكان الرئيسي لنشاط معين زي 'مركز التسوق'.",
+      "usageNote": "Spelled 'center' in US English. 'Centre' is UK/International.",
+      "category": "Travel & Movement",
+      "primarySense": "Place",
+      "semanticTags": [
+        "#Middle",
+        "#Location",
+        "#Focus"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "هي كلمة \"Center\" المشهورة، زي السنتر التعليمي.",
+      "examples": {
+        "A1": "The table is in the centre of the room.",
+        "A2": "We went to the city centre.",
+        "B1": "She works at a call centre.",
+        "B2": "The centre of the debate was the budget.",
+        "C1": "The hotel is situated in the historic centre.",
+        "C2": "Gravity pulls objects towards the centre of the earth."
+      },
+      "collocations": [
+        "city centre",
+        "shopping centre",
+        "centre of attention"
+      ],
+      "synonyms": [
+        "middle",
+        "core",
+        "heart"
+      ],
+      "antonyms": [
+        "edge",
+        "periphery"
+      ],
+      "relatedWords": {
+        "en": [
+          "central",
+          "centralize",
+          "middle"
+        ],
+        "ar": [
+          "مركزي",
+          "يُركز",
+          "وسط"
+        ]
+      },
+      "wordFamily": {
+        "noun": "centre",
+        "verb": "centre",
+        "adj": "central",
+        "adv": "centrally"
+      },
+      "arabicAr": "مركز",
+      "frenchFr": "centre",
+      "germanDe": "Zentrum",
+      "spanishEs": "centro",
+      "chineseZh": "中心 (Zhōng xīn)",
+      "russianRu": "центр",
+      "portuguesePt": "centro",
+      "japaneseJa": "中心 (Chūshin)",
+      "italianIt": "centro",
+      "turkishTr": "merkez",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5624,
+      "wordEn": "centre",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈsen.tə(ɹ)",
+      "phoneticUk": null,
+      "phoneticAr": "سِنْتَر",
+      "translit": "Markaz",
+      "definitionEn": "To place in the middle; to focus or revolve around a topic.",
+      "definitionAr": "يركز أو يتمحور حوالين حاجة. لما تخلي حاجة هي الأساس في النص.",
+      "usageNote": "Usually used as 'centre on' or 'centre around'.",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Focus",
+        "#Align",
+        "#Position"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "يعني يخلي الحاجة في الـ \"Centre\".. يركز عليها.",
+      "examples": {
+        "A1": "Please centre the picture on the wall.",
+        "A2": "The story centres on a young boy.",
+        "B1": "Our discussion centred on the new project.",
+        "B2": "The investigation centres around the manager.",
+        "C1": "Her whole life centres on her children.",
+        "C2": "The argument is centred upon a misunderstanding of the law."
+      },
+      "collocations": [
+        "centre on",
+        "centre around"
+      ],
+      "synonyms": [
+        "focus",
+        "concentrate",
+        "revolve"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "central",
+          "concentration",
+          "focus"
+        ],
+        "ar": [
+          "مركزي",
+          "تركيز",
+          "بؤرة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "centre",
+        "verb": "centre",
+        "adj": "central",
+        "adv": "centrally"
+      },
+      "arabicAr": "مركز",
+      "frenchFr": "centrer",
+      "germanDe": "zentrieren",
+      "spanishEs": "centrar",
+      "chineseZh": "集中 (Jí zhōng)",
+      "russianRu": "сосредоточиваться",
+      "portuguesePt": "centrar",
+      "japaneseJa": "中心に置く (Chūshin ni oku)",
+      "italianIt": "incentrare",
+      "turkishTr": "odaklanmak",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5625,
+      "wordEn": "cheat",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "tʃiːt",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِيت",
+      "translit": "Yaghish",
+      "definitionEn": "A person who behaves dishonestly in order to gain an advantage.",
+      "definitionAr": "الشخص الغشاش. اللي بيغش في اللعب أو الامتحانات.",
+      "usageNote": "Can refer to the act or the person. 'Cheater' is also common for the person.",
+      "category": "Social Life & Communication",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Dishonesty",
+        "#Game",
+        "#Exam"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Sheet\" يعني ورقة.. اللي بيبص في الـ \"Sheet\" بتاع زميله يبقى \"Cheat\".",
+      "examples": {
+        "A1": "He is a cheat at cards.",
+        "A2": "Don't be a cheat, play fair.",
+        "B1": "Nobody likes playing with a cheat.",
+        "B2": "The tax office caught the cheat.",
+        "C1": "He was exposed as a cheat and a liar.",
+        "C2": "Academic cheats face severe penalties."
+      },
+      "collocations": [
+        "tax cheat",
+        "cheat sheet"
+      ],
+      "synonyms": [
+        "swindler",
+        "fraud",
+        "cheater"
+      ],
+      "antonyms": [
+        "honest person"
+      ],
+      "relatedWords": {
+        "en": [
+          "fraud",
+          "deception",
+          "lie"
+        ],
+        "ar": [
+          "احتيال",
+          "خداع",
+          "كذب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cheat",
+        "verb": "cheat",
+        "adj": "cheating",
+        "adv": ""
+      },
+      "arabicAr": "يغش",
+      "frenchFr": "tricheur",
+      "germanDe": "Betrüger",
+      "spanishEs": "tramposo",
+      "chineseZh": "骗子 (Piàn zi)",
+      "russianRu": "мошенник",
+      "portuguesePt": "trapaceiro",
+      "japaneseJa": "詐欺師 (Sagishi)",
+      "italianIt": "imbroglione",
+      "turkishTr": "hilekar",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 5626,
+      "wordEn": "cheat",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "tʃiːt",
+      "phoneticUk": null,
+      "phoneticAr": "تْشِيت",
+      "translit": "Yaghish",
+      "definitionEn": "To act dishonestly or unfairly in order to gain an advantage.",
+      "definitionAr": "يغش. سواء في امتحان، في لعبة، أو حتى يضحك على حد وياخد فلوسه.",
+      "usageNote": "Common contexts: exams (cheat on a test), relationships (cheat on a partner), games.",
+      "category": "Social Life & Communication",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Dishonesty",
+        "#Betrayal",
+        "#Unfair"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما قلنا.. تبص في الـ \"Sheet\" تبقى بتعمل \"Cheat\".",
+      "examples": {
+        "A1": "It is bad to cheat.",
+        "A2": "He tried to cheat on the test.",
+        "B1": "She cheated in the card game.",
+        "B2": "He was accused of cheating on his taxes.",
+        "C1": "They felt cheated by the high prices.",
+        "C2": "The athlete was banned for cheating the doping system."
+      },
+      "collocations": [
+        "cheat on",
+        "cheat at cards",
+        "cheat death"
+      ],
+      "synonyms": [
+        "deceive",
+        "swindle",
+        "defraud"
+      ],
+      "antonyms": [
+        "play fair"
+      ],
+      "relatedWords": {
+        "en": [
+          "deception",
+          "fraud",
+          "lie"
+        ],
+        "ar": [
+          "خداع",
+          "تزوير",
+          "كذب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cheat",
+        "verb": "cheat",
+        "adj": "cheating",
+        "adv": ""
+      },
+      "arabicAr": "يغش",
+      "frenchFr": "tricher",
+      "germanDe": "betrügen",
+      "spanishEs": "hacer trampa",
+      "chineseZh": "作弊 (Zuò bì)",
+      "russianRu": "жульничать",
+      "portuguesePt": "trair",
+      "japaneseJa": "カンニングする (Kanningu suru)",
+      "italianIt": "barare",
+      "turkishTr": "hile yapmak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5627,
+      "wordEn": "click",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "klɪk",
+      "phoneticUk": null,
+      "phoneticAr": "كْلِيك",
+      "translit": "Anqur",
+      "definitionEn": "A short, sharp sound; the act of pressing a button on a mouse.",
+      "definitionAr": "صوت التكة، أو ضغطة الماوس على الكمبيوتر.",
+      "usageNote": "In computing, we distinguish between 'left click' and 'right click'.",
+      "category": "Technology & Computing",
+      "primarySense": "Event",
+      "semanticTags": [
+        "#Sound",
+        "#Computer",
+        "#Mouse"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "صوت الـ \"Click\" بتاع الماوس.. أو 'كليك' يمين.",
+      "examples": {
+        "A1": "I heard a loud click.",
+        "A2": "Use a mouse click to open it.",
+        "B1": "With one click, you can buy it.",
+        "B2": "The door shut with a click.",
+        "C1": "The click of the camera shutter was annoying.",
+        "C2": "Pay-per-click advertising is expensive."
+      },
+      "collocations": [
+        "mouse click",
+        "double click",
+        "right click"
+      ],
+      "synonyms": [
+        "snap",
+        "tick",
+        "clack"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "press",
+          "button",
+          "select"
+        ],
+        "ar": [
+          "يضغط",
+          "زر",
+          "يختار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "click",
+        "verb": "click",
+        "adj": "clickable",
+        "adv": ""
+      },
+      "arabicAr": "انقر",
+      "frenchFr": "clic",
+      "germanDe": "Klick",
+      "spanishEs": "clic",
+      "chineseZh": "点击 (Diǎn jī)",
+      "russianRu": "щелчок",
+      "portuguesePt": "clique",
+      "japaneseJa": "クリック (Kurikku)",
+      "italianIt": "clic",
+      "turkishTr": "tık",
+      "aiConfidence": 0.9
+    },
+    {
+      "id": 5628,
+      "wordEn": "click",
+      "pos": "verb",
+      "cefrLevel": "B1",
+      "difficultyScore": "5",
+      "phoneticUs": "klɪk",
+      "phoneticUk": null,
+      "phoneticAr": "كْلِيك",
+      "translit": "Anqur",
+      "definitionEn": "To make a short sharp sound; to press a mouse button.",
+      "definitionAr": "ينقر أو يضغط على الماوس. وممكن معناها يعمل صوت تكة.",
+      "usageNote": "Can also mean 'to become clear' (suddenly it clicked) or 'to get along' (we clicked immediately).",
+      "category": "Technology & Computing",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#Select",
+        "#Computer",
+        "#Sound"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بتقول 'كليك' على اللينك.",
+      "examples": {
+        "A1": "Click here to start.",
+        "A2": "Click on the picture.",
+        "B1": "She clicked her fingers.",
+        "B2": "Suddenly, everything clicked and I understood.",
+        "C1": "The two of them clicked instantly.",
+        "C2": "The mechanism clicked into place."
+      },
+      "collocations": [
+        "click on",
+        "click through",
+        "double click"
+      ],
+      "synonyms": [
+        "tap",
+        "snap",
+        "select"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "mouse",
+          "link",
+          "button"
+        ],
+        "ar": [
+          "فأرة",
+          "رابط",
+          "زر"
+        ]
+      },
+      "wordFamily": {
+        "noun": "click",
+        "verb": "click",
+        "adj": "clickable",
+        "adv": ""
+      },
+      "arabicAr": "انقر",
+      "frenchFr": "cliquer",
+      "germanDe": "klicken",
+      "spanishEs": "hacer clic",
+      "chineseZh": "点击 (Diǎn jī)",
+      "russianRu": "щёлкать",
+      "portuguesePt": "clicar",
+      "japaneseJa": "クリックする (Kurikku suru)",
+      "italianIt": "cliccare",
+      "turkishTr": "tıklamak",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5629,
+      "wordEn": "confused",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "kənˈfjuːzd",
+      "phoneticUk": null,
+      "phoneticAr": "كَنْفْيُوزْد",
+      "translit": "Mushawwash",
+      "definitionEn": "Unable to think clearly; bewildered.",
+      "definitionAr": "مشوش أو محتار. لما تكون مش فاهم إيه اللي بيحصل أو مش عارف تاخد قرار.",
+      "usageNote": "Describes the person feeling the confusion. 'Confusing' describes the thing causing it.",
+      "category": "Mind & Thinking",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Uncertainty",
+        "#Chaos",
+        "#Mental"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها كلمة \"Fuse\".. كأن الفيوز ضرب في دماغك وبقيت \"Confused\" ومش فاهم حاجة.",
+      "examples": {
+        "A1": "I am confused about the time.",
+        "A2": "She looked confused by the map.",
+        "B1": "He gets confused when everyone talks at once.",
+        "B2": "I'm totally confused; can you explain again?",
+        "C1": "The elderly patient was confused and disoriented.",
+        "C2": "He offered a confused explanation for his absence."
+      },
+      "collocations": [
+        "totally confused",
+        "get confused",
+        "confused about"
+      ],
+      "synonyms": [
+        "puzzled",
+        "baffled",
+        "bewildered"
+      ],
+      "antonyms": [
+        "clear",
+        "certain"
+      ],
+      "relatedWords": {
+        "en": [
+          "confusion",
+          "confuse",
+          "confusing"
+        ],
+        "ar": [
+          "ارتباك",
+          "يربك",
+          "مربك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "confusion",
+        "verb": "confuse",
+        "adj": "confused",
+        "adv": "confusingly"
+      },
+      "arabicAr": "مشوش",
+      "frenchFr": "confus",
+      "germanDe": "verwirrt",
+      "spanishEs": "confundido",
+      "chineseZh": "困惑 (Kùn huò)",
+      "russianRu": "сбитый с толку",
+      "portuguesePt": "confuso",
+      "japaneseJa": "混乱した (Konran shita)",
+      "italianIt": "confuso",
+      "turkishTr": "kafası karışık",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5630,
+      "wordEn": "covered",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈkʌvə(ɹ)d",
+      "phoneticUk": null,
+      "phoneticAr": "كَفَرْد",
+      "translit": "Mughaṭṭāh",
+      "definitionEn": "The state of being protected, concealed, or sheltered.",
+      "definitionAr": "حالة التغطية أو الشيء المستور. (ملحوظة: الكلمة عادة صفة، لكن هنا بنشرحها كاسم حسب التصنيف).",
+      "usageNote": "Rarely used as a noun in standard English; likely refers to 'the covered' (objects/areas).",
+      "category": "Actions & Processes",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Protection",
+        "#Shelter",
+        "#Concealment"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Cover\" غطاء.. الشيء الـ \"Covered\" هو المتغطي.",
+      "examples": {
+        "A1": "The car is in the covered area.",
+        "A2": "She walked through the covered market.",
+        "B1": "We sat in a covered wagon.",
+        "B2": "The insurance provided a covered benefit.",
+        "C1": "They sought the covered walkway to avoid the rain.",
+        "C2": "The text refers to the divinely covered."
+      },
+      "collocations": [
+        "covered market",
+        "covered bridge",
+        "snow covered"
+      ],
+      "synonyms": [
+        "sheltered",
+        "protected",
+        "wrapped"
+      ],
+      "antonyms": [
+        "exposed",
+        "open"
+      ],
+      "relatedWords": {
+        "en": [
+          "cover",
+          "coverage",
+          "lid"
+        ],
+        "ar": [
+          "غطاء",
+          "تغطية",
+          "غلق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cover",
+        "verb": "cover",
+        "adj": "covered",
+        "adv": ""
+      },
+      "arabicAr": "مغطاة",
+      "frenchFr": "couvert",
+      "germanDe": "bedeckt",
+      "spanishEs": "cubierto",
+      "chineseZh": "覆盖 (Fù gài)",
+      "russianRu": "покрытый",
+      "portuguesePt": "coberto",
+      "japaneseJa": "覆われた (Ōwareta)",
+      "italianIt": "coperto",
+      "turkishTr": "kapalı",
+      "aiConfidence": 0.7
+    },
+    {
+      "id": 5631,
+      "wordEn": "covered",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈkʌvə(ɹ)d",
+      "phoneticUk": null,
+      "phoneticAr": "كَفَرْد",
+      "translit": "Mughaṭṭāh",
+      "definitionEn": "Put something on top of or in front of, especially in order to protect or conceal it.",
+      "definitionAr": "متغطي. يعني عليه حاجة بتداريه أو بتحميه.",
+      "usageNote": "Often followed by 'in' or 'with' (covered in snow, covered with dust).",
+      "category": "Actions & Processes",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Hidden",
+        "#Protected",
+        "#Layer"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Cover\".. يعني متغطي.",
+      "examples": {
+        "A1": "The ground is covered in snow.",
+        "A2": "Her face was covered with a scarf.",
+        "B1": "The cost is covered by insurance.",
+        "B2": "He was covered in mud after the game.",
+        "C1": "The furniture was covered to prevent dust accumulation.",
+        "C2": "The scandal was covered up by the administration."
+      },
+      "collocations": [
+        "covered with",
+        "covered in",
+        "fully covered"
+      ],
+      "synonyms": [
+        "coated",
+        "wrapped",
+        "concealed"
+      ],
+      "antonyms": [
+        "bare",
+        "exposed"
+      ],
+      "relatedWords": {
+        "en": [
+          "cover",
+          "covering",
+          "coverage"
+        ],
+        "ar": [
+          "يغطي",
+          "غطاء",
+          "شمول"
+        ]
+      },
+      "wordFamily": {
+        "noun": "cover",
+        "verb": "cover",
+        "adj": "covered",
+        "adv": ""
+      },
+      "arabicAr": "مغطاة",
+      "frenchFr": "couvert",
+      "germanDe": "bedeckt",
+      "spanishEs": "cubierto",
+      "chineseZh": "覆盖的 (Fù gài de)",
+      "russianRu": "покрытый",
+      "portuguesePt": "coberto",
+      "japaneseJa": "覆われた (Ōwareta)",
+      "italianIt": "coperto",
+      "turkishTr": "kaplı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5632,
+      "wordEn": "disappointed",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌdɪsəˈpɔɪntɪd",
+      "phoneticUk": null,
+      "phoneticAr": "دِسَبُويْنْتِد",
+      "translit": "Khāyib al-amal",
+      "definitionEn": "Sad or displeased because someone or something has failed to fulfill one's hopes.",
+      "definitionAr": "خايب أمله أو محبط. لما تكون مستني حاجة حلوة وتحصل حاجة وحشة.",
+      "usageNote": "Disappointed 'with' something, or 'in' a person.",
+      "category": "Feelings & Emotions",
+      "primarySense": "Emotion",
+      "semanticTags": [
+        "#Sadness",
+        "#Expectation",
+        "#Failure"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "عكس \"Appointed\" (مُعين في وظيفة).. لو اترفدت هتبقى \"Disappointed\".",
+      "examples": {
+        "A1": "I am disappointed.",
+        "A2": "She was disappointed with the food.",
+        "B1": "He was disappointed that you didn't come.",
+        "B2": "I'm very disappointed in your behavior.",
+        "C1": "The fans were bitterly disappointed by the loss.",
+        "C2": "He felt a disappointed resignation."
+      },
+      "collocations": [
+        "deeply disappointed",
+        "bitterly disappointed",
+        "disappointed in"
+      ],
+      "synonyms": [
+        "upset",
+        "let down",
+        "disheartened"
+      ],
+      "antonyms": [
+        "satisfied",
+        "pleased"
+      ],
+      "relatedWords": {
+        "en": [
+          "disappoint",
+          "disappointment",
+          "disappointing"
+        ],
+        "ar": [
+          "يخيب الأمل",
+          "خيبة أمل",
+          "مخيب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "disappointment",
+        "verb": "disappoint",
+        "adj": "disappointed",
+        "adv": "disappointingly"
+      },
+      "arabicAr": "خائب الأمل",
+      "frenchFr": "déçu",
+      "germanDe": "enttäuscht",
+      "spanishEs": "decepcionado",
+      "chineseZh": "失望 (Shī wàng)",
+      "russianRu": "разочарованный",
+      "portuguesePt": "desapontado",
+      "japaneseJa": "がっかりした (Gakkari shita)",
+      "italianIt": "deluso",
+      "turkishTr": "hayal kırıklığına uğramış",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5633,
+      "wordEn": "disappointing",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌdɪsəˈpɔɪntɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "دِسَبُويْنْتِينْج",
+      "translit": "Mukhayyib lil-āmāl",
+      "definitionEn": "The fact or state of failing to fulfill expectations.",
+      "definitionAr": "الشيء المخيب للآمال. بنستخدمها كاسم لوصف الحدث نفسه اللي زعلنا.",
+      "usageNote": "Usually an adjective, but can function as a noun in phrases like 'the disappointing of hopes'.",
+      "category": "Feelings & Emotions",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Failure",
+        "#Letdown",
+        "#BadNews"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "نفس الكلمة، بس دي بتوصف الشيء نفسه إنه \"Disappointing\".",
+      "examples": {
+        "A1": "The news was disappointing.",
+        "A2": "It was a disappointing day.",
+        "B1": "The movie ended up being a disappointing experience.",
+        "B2": "Despite the disappointing start, we finished well.",
+        "C1": "The most disappointing aspect was the lack of effort.",
+        "C2": "There was a general sensing of the disappointing of our ambitions."
+      },
+      "collocations": [
+        "disappointing results",
+        "disappointing news",
+        "highly disappointing"
+      ],
+      "synonyms": [
+        "letdown",
+        "failure",
+        "unsatisfactory"
+      ],
+      "antonyms": [
+        "success",
+        "delight"
+      ],
+      "relatedWords": {
+        "en": [
+          "disappoint",
+          "disappointment",
+          "bad"
+        ],
+        "ar": [
+          "يخيب",
+          "خيبة",
+          "سيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "disappointment",
+        "verb": "disappoint",
+        "adj": "disappointing",
+        "adv": "disappointingly"
+      },
+      "arabicAr": "مخيب للآمال",
+      "frenchFr": "décevant",
+      "germanDe": "enttäuschend",
+      "spanishEs": "decepcionante",
+      "chineseZh": "令人失望 (Lìng rén shī wàng)",
+      "russianRu": "разочаровывающий",
+      "portuguesePt": "decepcionante",
+      "japaneseJa": "期待外れ (Kitaihazure)",
+      "italianIt": "deludente",
+      "turkishTr": "hayal kırıklığı yaratan",
+      "aiConfidence": 0.85
+    },
+    {
+      "id": 5634,
+      "wordEn": "disappointing",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌdɪsəˈpɔɪntɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "دِسَبُويْنْتِينْج",
+      "translit": "Mukhayyib lil-āmāl",
+      "definitionEn": "Failing to fulfill someone's hopes or expectations.",
+      "definitionAr": "مخيب للآمال. بتوصف الحاجة اللي كنت متوقع منها كتير وطلعت أي كلام.",
+      "usageNote": "Describes the cause. 'The movie was disappointing' (so I was disappointed).",
+      "category": "Feelings & Emotions",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#BadQuality",
+        "#Sad",
+        "#Unsatisfactory"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الشيء اللي بيخليك \"Disappointed\" بنسميه \"Disappointing\".",
+      "examples": {
+        "A1": "The game was disappointing.",
+        "A2": "It is disappointing to lose.",
+        "B1": "We had a disappointing meal at that restaurant.",
+        "B2": "The company reported disappointing sales figures.",
+        "C1": "It is disappointing that no action has been taken.",
+        "C2": "The outcome of the negotiations was deeply disappointing."
+      },
+      "collocations": [
+        "disappointing results",
+        "very disappointing",
+        "a little disappointing"
+      ],
+      "synonyms": [
+        "unsatisfactory",
+        "lame",
+        "regrettable"
+      ],
+      "antonyms": [
+        "satisfying",
+        "encouraging"
+      ],
+      "relatedWords": {
+        "en": [
+          "disappointment",
+          "sad",
+          "bad"
+        ],
+        "ar": [
+          "خيبة أمل",
+          "حزين",
+          "سيء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "disappointment",
+        "verb": "disappoint",
+        "adj": "disappointing",
+        "adv": "disappointingly"
+      },
+      "arabicAr": "مخيب للآمال",
+      "frenchFr": "décevant",
+      "germanDe": "enttäuschend",
+      "spanishEs": "decepcionante",
+      "chineseZh": "令人失望的 (Lìng rén shī wàng de)",
+      "russianRu": "разочаровывающий",
+      "portuguesePt": "decepcionante",
+      "japaneseJa": "がっかりさせる (Gakkari saseru)",
+      "italianIt": "deludente",
+      "turkishTr": "hayal kırıklığı yaratan",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5635,
+      "wordEn": "documentary",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌdɒk.jəˈmɛn.tɹi",
+      "phoneticUk": null,
+      "phoneticAr": "دُكْيُمَنْتَرِي",
+      "translit": "Wathāʾiqī",
+      "definitionEn": "Consisting of official pieces of written, printed, or other matter.",
+      "definitionAr": "وثائقي. يعني متعلق بالمستندات والوثائق الحقيقية.",
+      "usageNote": "Usually refers to evidence or films.",
+      "category": "Social Life & Communication",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Documents",
+        "#Facts",
+        "#Evidence"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "جاية من \"Document\" وثيقة.. يعني حاجة معتمدة على الوثائق.",
+      "examples": {
+        "A1": "I like documentary films.",
+        "A2": "We watched a documentary about lions.",
+        "B1": "There is documentary evidence of the crime.",
+        "B2": "The documentary channel is very interesting.",
+        "C1": "He specializes in documentary photography.",
+        "C2": "The historian relied on documentary sources."
+      },
+      "collocations": [
+        "documentary film",
+        "documentary evidence",
+        "documentary channel"
+      ],
+      "synonyms": [
+        "factual",
+        "recorded",
+        "archival"
+      ],
+      "antonyms": [
+        "fictional"
+      ],
+      "relatedWords": {
+        "en": [
+          "document",
+          "documentation",
+          "record"
+        ],
+        "ar": [
+          "وثيقة",
+          "توثيق",
+          "سجل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "documentary",
+        "verb": "document",
+        "adj": "documentary",
+        "adv": ""
+      },
+      "arabicAr": "وثائقي",
+      "frenchFr": "documentaire",
+      "germanDe": "dokumentarisch",
+      "spanishEs": "documental",
+      "chineseZh": "纪录的 (Jì lù de)",
+      "russianRu": "документальный",
+      "portuguesePt": "documental",
+      "japaneseJa": "ドキュメンタリーの (Dokyumentarī no)",
+      "italianIt": "documentario",
+      "turkishTr": "belgesel",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5636,
+      "wordEn": "documentary",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˌdɒk.jəˈmɛn.tɹi",
+      "phoneticUk": null,
+      "phoneticAr": "دُكْيُمَنْتَرِي",
+      "translit": "Wathāʾiqī",
+      "definitionEn": "A movie or television program that provides a factual record or report.",
+      "definitionAr": "فيلم وثائقي. فيلم بيحكي قصة حقيقية أو معلومات علمية مش تمثيل.",
+      "usageNote": "Short for 'documentary film'.",
+      "category": "Art & Entertainment",
+      "primarySense": "Object",
+      "semanticTags": [
+        "#Film",
+        "#TV",
+        "#RealLife"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الفيلم اللي بيعرض حقائق \"Documents\" بنسميه \"Documentary\".",
+      "examples": {
+        "A1": "I saw a documentary on TV.",
+        "A2": "It was a documentary about animals.",
+        "B1": "Making a documentary takes a long time.",
+        "B2": "The documentary won several awards.",
+        "C1": "The film is a gritty documentary about urban life.",
+        "C2": "She is a renowned producer of nature documentaries."
+      },
+      "collocations": [
+        "watch a documentary",
+        "nature documentary",
+        "TV documentary"
+      ],
+      "synonyms": [
+        "factual film",
+        "report",
+        "feature"
+      ],
+      "antonyms": [
+        "fiction movie"
+      ],
+      "relatedWords": {
+        "en": [
+          "film",
+          "movie",
+          "series"
+        ],
+        "ar": [
+          "فيلم",
+          "سينما",
+          "مسلسل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "documentary",
+        "verb": "document",
+        "adj": "documentary",
+        "adv": ""
+      },
+      "arabicAr": "وثائقي",
+      "frenchFr": "documentaire",
+      "germanDe": "Dokumentarfilm",
+      "spanishEs": "documental",
+      "chineseZh": "纪录片 (Jì lù piàn)",
+      "russianRu": "документальный фильм",
+      "portuguesePt": "documentário",
+      "japaneseJa": "ドキュメンタリー (Dokyumentarī)",
+      "italianIt": "documentario",
+      "turkishTr": "belgesel",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5637,
+      "wordEn": "dressed",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈdɹɛst",
+      "phoneticUk": null,
+      "phoneticAr": "دْرِسْت",
+      "translit": "Yartadī",
+      "definitionEn": "The state of wearing clothes or being prepared.",
+      "definitionAr": "حالة ارتداء الملابس. (عادة تستخدم كصفة، لكن هنا بنشرح المفهوم كاسم).",
+      "usageNote": "As a noun, rare. Likely refers to 'the dressed' (prepared materials like stone or leather).",
+      "category": "Health & Senses",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Clothes",
+        "#Fashion",
+        "#Appearance"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Dress\" فستان أو لبس.. يعني لابس.",
+      "examples": {
+        "A1": "Get dressed now.",
+        "A2": "She is fully dressed.",
+        "B1": "The dressed stone looked beautiful.",
+        "B2": "He prefers dressed leather for his shoes.",
+        "C1": "The salad was served with dressed greens.",
+        "C2": "The finely dressed masonry of the cathedral."
+      },
+      "collocations": [
+        "get dressed",
+        "well dressed",
+        "fully dressed"
+      ],
+      "synonyms": [
+        "clothed",
+        "attired",
+        "prepared"
+      ],
+      "antonyms": [
+        "undressed",
+        "naked"
+      ],
+      "relatedWords": {
+        "en": [
+          "dress",
+          "clothing",
+          "wear"
+        ],
+        "ar": [
+          "فستان",
+          "ملابس",
+          "يلبس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "dress",
+        "verb": "dress",
+        "adj": "dressed",
+        "adv": ""
+      },
+      "arabicAr": "يرتدي",
+      "frenchFr": "habillé",
+      "germanDe": "gekleidet",
+      "spanishEs": "vestido",
+      "chineseZh": "穿着 (Chuān zhuó)",
+      "russianRu": "одетый",
+      "portuguesePt": "vestido",
+      "japaneseJa": "服を着た (Fuku o kita)",
+      "italianIt": "vestito",
+      "turkishTr": "giyinik",
+      "aiConfidence": 0.8
+    },
+    {
+      "id": 5638,
+      "wordEn": "dressed",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ˈdɹɛst",
+      "phoneticUk": null,
+      "phoneticAr": "دْرِسْت",
+      "translit": "Yartadī",
+      "definitionEn": "Wearing clothes; having clothes on.",
+      "definitionAr": "لابس هدومه. أو ممكن توصف الأكل إنه 'مجهز' زي السلطة اللي عليها صوص.",
+      "usageNote": "Common phrase: 'get dressed' (action of putting on clothes).",
+      "category": "Health & Senses",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Clothing",
+        "#Style",
+        "#Ready"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Dress\".. يعني لابس.",
+      "examples": {
+        "A1": "I am dressed and ready.",
+        "A2": "He was dressed in black.",
+        "B1": "She is always well dressed.",
+        "B2": "The crab was dressed and ready to eat.",
+        "C1": "The wound was cleaned and dressed.",
+        "C2": "He appeared impeccably dressed for the occasion."
+      },
+      "collocations": [
+        "well dressed",
+        "badly dressed",
+        "get dressed"
+      ],
+      "synonyms": [
+        "clad",
+        "clothed",
+        "wearing"
+      ],
+      "antonyms": [
+        "naked",
+        "undressed"
+      ],
+      "relatedWords": {
+        "en": [
+          "dress",
+          "outfit",
+          "garment"
+        ],
+        "ar": [
+          "لبس",
+          "طقم",
+          "رداء"
+        ]
+      },
+      "wordFamily": {
+        "noun": "dress",
+        "verb": "dress",
+        "adj": "dressed",
+        "adv": ""
+      },
+      "arabicAr": "يرتدي",
+      "frenchFr": "habillé",
+      "germanDe": "gekleidet",
+      "spanishEs": "vestido",
+      "chineseZh": "穿着衣服的 (Chuān zhuó yī fú de)",
+      "russianRu": "одетый",
+      "portuguesePt": "vestido",
+      "japaneseJa": "着ている (Kiteiru)",
+      "italianIt": "vestito",
+      "turkishTr": "giyinmiş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5639,
+      "wordEn": "educated",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "8",
+      "phoneticUs": "ˈɛdjuːkeɪtɪd",
+      "phoneticUk": null,
+      "phoneticAr": "إِدْيُوكَيْتِد",
+      "translit": "Mutaʿallimīn",
+      "definitionEn": "Having been educated; showing a high standard of learning.",
+      "definitionAr": "متعلم أو مثقف. شخص درس وعنده معرفة كويسة.",
+      "usageNote": "Can describe a person or a guess (an educated guess = based on knowledge).",
+      "category": "Education & Learning",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#School",
+        "#Knowledge",
+        "#Smart"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Education\" تعليم.. الشخص الـ \"Educated\" هو المتعلم.",
+      "examples": {
+        "A1": "He is an educated man.",
+        "A2": "She wants to get educated.",
+        "B1": "They are looking for educated workers.",
+        "B2": "It was an educated guess.",
+        "C1": "The debate was for an educated audience.",
+        "C2": "He spoke with an educated accent."
+      },
+      "collocations": [
+        "highly educated",
+        "well educated",
+        "educated guess"
+      ],
+      "synonyms": [
+        "learned",
+        "schooled",
+        "knowledgeable"
+      ],
+      "antonyms": [
+        "uneducated",
+        "ignorant"
+      ],
+      "relatedWords": {
+        "en": [
+          "education",
+          "educate",
+          "school"
+        ],
+        "ar": [
+          "تعليم",
+          "يعلم",
+          "مدرسة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "education",
+        "verb": "educate",
+        "adj": "educated",
+        "adv": "educationally"
+      },
+      "arabicAr": "متعلمين",
+      "frenchFr": "instruit",
+      "germanDe": "gebildet",
+      "spanishEs": "educado",
+      "chineseZh": "受过教育的 (Shòu guò jiào yù de)",
+      "russianRu": "образованный",
+      "portuguesePt": "educado",
+      "japaneseJa": "教養のある (Kyōyō no aru)",
+      "italianIt": "istruito",
+      "turkishTr": "eğitimli",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5640,
+      "wordEn": "engaged",
+      "pos": "adj",
+      "cefrLevel": "B1",
+      "difficultyScore": "6",
+      "phoneticUs": "ɛnˈɡeɪdʒd",
+      "phoneticUk": null,
+      "phoneticAr": "إِنْجَيْجْد",
+      "translit": "Murtabiṭ / Makhṭūb",
+      "definitionEn": "Having formally agreed to marry; busy or occupied.",
+      "definitionAr": "مخطوب (هيتجوز). أو مشغول (زي التليفون لما يدي مشغول).",
+      "usageNote": "Engaged 'to' a person. The phone line is 'engaged' (UK usage, US: busy).",
+      "category": "Social Life & Communication",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Marriage",
+        "#Busy",
+        "#Relationship"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "فيها \"Gage\".. زي ما تكون اديت \"Pledge\" أو وعد بالجواز.",
+      "examples": {
+        "A1": "She is engaged to get married.",
+        "A2": "They got engaged last week.",
+        "B1": "The phone line was engaged.",
+        "B2": "He is currently engaged in a meeting.",
+        "C1": "They are engaged in a legal dispute.",
+        "C2": "She remained intellectually engaged throughout her life."
+      },
+      "collocations": [
+        "get engaged",
+        "engaged to",
+        "engaged tone"
+      ],
+      "synonyms": [
+        "betrothed",
+        "busy",
+        "occupied"
+      ],
+      "antonyms": [
+        "single",
+        "free"
+      ],
+      "relatedWords": {
+        "en": [
+          "engagement",
+          "marry",
+          "ring"
+        ],
+        "ar": [
+          "خطوبة",
+          "يتزوج",
+          "خاتم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "engagement",
+        "verb": "engage",
+        "adj": "engaged",
+        "adv": "engagingly"
+      },
+      "arabicAr": "مرتبط",
+      "frenchFr": "fiancé",
+      "germanDe": "verlobt",
+      "spanishEs": "comprometido",
+      "chineseZh": "订婚 (Dìng hūn)",
+      "russianRu": "помолвленный",
+      "portuguesePt": "noivo",
+      "japaneseJa": "婚約した (Konyaku shita)",
+      "italianIt": "fidanzato",
+      "turkishTr": "nişanlı",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5641,
+      "wordEn": "fighting",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "7",
+      "phoneticUs": "ˈfaɪtɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "فَايْتِينْج",
+      "translit": "Al-qitāl",
+      "definitionEn": "The action of fighting; violence or conflict.",
+      "definitionAr": "القتال أو الخناق. لما الناس أو الجيوش يحاربوا بعض.",
+      "usageNote": "Can refer to physical combat or a struggle against something (fighting against cancer).",
+      "category": "Actions & Processes",
+      "primarySense": "Action",
+      "semanticTags": [
+        "#War",
+        "#Conflict",
+        "#Struggle"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Fight\" يحارب.. الـ \"Fighting\" هو الحرب نفسها.",
+      "examples": {
+        "A1": "Stop fighting!",
+        "A2": "There was fighting in the street.",
+        "B1": "He was tired of the constant fighting.",
+        "B2": "The fighting lasted for three days.",
+        "C1": "Heavy fighting broke out near the border.",
+        "C2": "Diplomatic efforts failed to end the fighting."
+      },
+      "collocations": [
+        "street fighting",
+        "heavy fighting",
+        "stop fighting"
+      ],
+      "synonyms": [
+        "combat",
+        "conflict",
+        "battle"
+      ],
+      "antonyms": [
+        "peace",
+        "agreement"
+      ],
+      "relatedWords": {
+        "en": [
+          "fight",
+          "fighter",
+          "war"
+        ],
+        "ar": [
+          "قتال",
+          "محارب",
+          "حرب"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fight",
+        "verb": "fight",
+        "adj": "fighting",
+        "adv": ""
+      },
+      "arabicAr": "القتال",
+      "frenchFr": "combat",
+      "germanDe": "Kampf",
+      "spanishEs": "lucha",
+      "chineseZh": "战斗 (Zhàn dòu)",
+      "russianRu": "бой",
+      "portuguesePt": "luta",
+      "japaneseJa": "戦い (Tatakai)",
+      "italianIt": "combattimento",
+      "turkishTr": "dövüş",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 5642,
+      "wordEn": "frightening",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "difficultyScore": "9",
+      "phoneticUs": "ˈfraɪtnɪŋ",
+      "phoneticUk": null,
+      "phoneticAr": "فْرَايْتْنِينْج",
+      "translit": "Mukhīf",
+      "definitionEn": "The act of causing fear; something that scares.",
+      "definitionAr": "الشيء المخيف أو عملية التخويف. (غالباً صفة، لكن هنا بنشرحها كاسم للشيء المرعب).",
+      "usageNote": "Usually an adjective (a frightening movie). As a noun, refers to the experience.",
+      "category": "Feelings & Emotions",
+      "primarySense": "State",
+      "semanticTags": [
+        "#Fear",
+        "#Scary",
+        "#Horror"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "من \"Fright\" رعب.. حاجة بتسبب الرعب.",
+      "examples": {
+        "A1": "It was a frightening noise.",
+        "A2": "The movie was very frightening.",
+        "B1": "She told a frightening story.",
+        "B2": "The speed of the car was frightening.",
+        "C1": "There is a frightening lack of resources.",
+        "C2": "The frightening reality of the situation dawned on them."
+      },
+      "collocations": [
+        "very frightening",
+        "frightening experience",
+        "frightening thought"
+      ],
+      "synonyms": [
+        "scary",
+        "terrifying",
+        "alarming"
+      ],
+      "antonyms": [
+        "calming",
+        "reassuring"
+      ],
+      "relatedWords": {
+        "en": [
+          "fright",
+          "frighten",
+          "fear"
+        ],
+        "ar": [
+          "رعب",
+          "يخيف",
+          "خوف"
+        ]
+      },
+      "wordFamily": {
+        "noun": "fright",
+        "verb": "frighten",
+        "adj": "frightening",
+        "adv": "frighteningly"
+      },
+      "arabicAr": "مخيف",
+      "frenchFr": "effrayant",
+      "germanDe": "beängstigend",
+      "spanishEs": "aterrador",
+      "chineseZh": "令人恐惧的 (Lìng rén kǒng jù de)",
+      "russianRu": "пугающий",
+      "portuguesePt": "assustador",
+      "japaneseJa": "恐ろしい (Osoroshī)",
+      "italianIt": "spaventoso",
+      "turkishTr": "korkutucu",
+      "aiConfidence": 0.9
+    }
+  ]
+} 

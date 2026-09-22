@@ -1,0 +1,1419 @@
+{
+  "wordEntries": [
+    {
+      "id": 136,
+      "wordEn": "than",
+      "pos": "conj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "ðæn",
+      "phoneticUk": null,
+      "phoneticAr": "ذَان",
+      "translit": "Min / 'An",
+      "definitionEn": "Used to introduce the second part of a comparison.",
+      "definitionAr": "كلمة بنستخدمها للمقارنة بين حاجتين، بمعنى 'من' أو 'عن' لما نقول حاجة أكبر أو أصغر من حاجة.",
+      "usageNote": "Do not confuse 'than' (comparison) with 'then' (time).",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Comparison",
+        "#Grammar",
+        "#Connector"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Than\" فيها حرف \"A\" زي كلمة \"After\".. يعني اللي بيجي بعدها هو اللي بنقارن بيه.",
+      "examples": {
+        "A1": "She is older than me.",
+        "A2": "I like tea more than coffee.",
+        "B1": "It is better to give than to receive.",
+        "B2": "The results were much better than we expected.",
+        "C1": "He is more of a poet than a musician.",
+        "C2": "Scarcely had we arrived than the storm broke."
+      },
+      "collocations": [
+        "more than",
+        "less than",
+        "rather than",
+        "better than"
+      ],
+      "synonyms": [
+        "except",
+        "besides"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "compare",
+          "contrast",
+          "ratio"
+        ],
+        "ar": [
+          "مقارنة",
+          "مقابل",
+          "نسبة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "مِن / عَن",
+      "frenchFr": "que",
+      "germanDe": "als",
+      "spanishEs": "que",
+      "chineseZh": "比 (Bǐ)",
+      "russianRu": "чем",
+      "portuguesePt": "do que",
+      "japaneseJa": "より (Yori)",
+      "italianIt": "di",
+      "turkishTr": "den/dan",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 137,
+      "wordEn": "more",
+      "pos": "adj",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "mɔːr",
+      "phoneticUk": null,
+      "phoneticAr": "مُور",
+      "translit": "Akthar / Mazīd",
+      "definitionEn": "A larger or extra amount of something.",
+      "definitionAr": "يعني كمية زيادة أو عدد أكبر من حاجة معينة.",
+      "usageNote": "Use 'more' with uncountable nouns or plural countable nouns.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Quantity",
+        "#Increase",
+        "#Math"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"More\" بتفكرنا بكلمة \"Mall\" \"مول\".. وإنت في المول بتعوز تشتري حاجات \"More\" و \"More\".",
+      "examples": {
+        "A1": "I want more water.",
+        "A2": "We need more time to finish.",
+        "B1": "There are more cars on the road today.",
+        "B2": "We need more detailed information.",
+        "C1": "The more money he makes, the more he spends.",
+        "C2": "Whatever the reason, more drastic measures are required."
+      },
+      "collocations": [
+        "more time",
+        "more money",
+        "many more",
+        "one more"
+      ],
+      "synonyms": [
+        "additional",
+        "extra",
+        "increased"
+      ],
+      "antonyms": [
+        "less",
+        "fewer"
+      ],
+      "relatedWords": {
+        "en": [
+          "addition",
+          "plus",
+          "extra"
+        ],
+        "ar": [
+          "إضافة",
+          "زائد",
+          "إضافي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "more",
+        "verb": "",
+        "adj": "more",
+        "adv": "more"
+      },
+      "arabicAr": "أكْثَر / مَزِيد",
+      "frenchFr": "plus de",
+      "germanDe": "mehr",
+      "spanishEs": "más",
+      "chineseZh": "更多 (Gèng duō)",
+      "russianRu": "больше",
+      "portuguesePt": "mais",
+      "japaneseJa": "もっと (Motto)",
+      "italianIt": "più",
+      "turkishTr": "daha fazla",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 138,
+      "wordEn": "more",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "mɔːr",
+      "phoneticUk": null,
+      "phoneticAr": "مُور",
+      "translit": "Al-mazīd / Akthar",
+      "definitionEn": "An extra amount or number of something.",
+      "definitionAr": "لما تستخدم الكلمة دي عشان تطلب زيادة من غير ما تذكر اسم الحاجة تاني.",
+      "usageNote": "Functions as a substitute for a noun phrase indicating quantity.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Pronoun",
+        "#Quantity",
+        "#General"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي لما تقول لواحد: هات \"More\".. يعني هات زيادة.",
+      "examples": {
+        "A1": "Please give me more.",
+        "A2": "I don't have any more.",
+        "B1": "More are coming to the party later.",
+        "B2": "Comparison shows that more is not always better.",
+        "C1": "He did more for the company than anyone else.",
+        "C2": "There is more to this issue than meets the eye."
+      },
+      "collocations": [
+        "do more",
+        "know more",
+        "say more"
+      ],
+      "synonyms": [
+        "extra",
+        "addition"
+      ],
+      "antonyms": [
+        "less"
+      ],
+      "relatedWords": {
+        "en": [
+          "plenty",
+          "lots"
+        ],
+        "ar": [
+          "وفرة",
+          "كثير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "more",
+        "verb": "",
+        "adj": "more",
+        "adv": "more"
+      },
+      "arabicAr": "المَزِيد / أكْثَر",
+      "frenchFr": "plus",
+      "germanDe": "mehr",
+      "spanishEs": "más",
+      "chineseZh": "更多 (Gèng duō)",
+      "russianRu": "больше",
+      "portuguesePt": "mais",
+      "japaneseJa": "もっと (Motto)",
+      "italianIt": "di più",
+      "turkishTr": "daha fazlası",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 139,
+      "wordEn": "more",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "mɔːr",
+      "phoneticUk": null,
+      "phoneticAr": "مُور",
+      "translit": "Mazīd min / Akthar",
+      "definitionEn": "A greater quantity or number of.",
+      "definitionAr": "بتيجي قبل الاسم عشان توضح إننا عايزين كمية أكبر منه.",
+      "usageNote": "Modifies a noun to indicate a greater magnitude.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Determiner",
+        "#Quantity",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I need more food.",
+        "A2": "Do you have more books?",
+        "B1": "We need more people to help us.",
+        "B2": "More research is needed on this topic.",
+        "C1": "She has more patience than I do.",
+        "C2": "With more resources, we could have succeeded."
+      },
+      "collocations": [
+        "more than",
+        "more people",
+        "more information"
+      ],
+      "synonyms": [
+        "additional",
+        "further"
+      ],
+      "antonyms": [
+        "less",
+        "fewer"
+      ],
+      "relatedWords": {
+        "en": [
+          "some",
+          "many"
+        ],
+        "ar": [
+          "بعض",
+          "كثير"
+        ]
+      },
+      "wordFamily": {
+        "noun": "more",
+        "verb": "",
+        "adj": "more",
+        "adv": "more"
+      },
+      "arabicAr": "مَزِيد مِن / أكْثَر",
+      "frenchFr": "plus de",
+      "germanDe": "mehr",
+      "spanishEs": "más",
+      "chineseZh": "更多的 (Gèng duō de)",
+      "russianRu": "больше",
+      "portuguesePt": "mais",
+      "japaneseJa": "より多くの (Yori ōku no)",
+      "italianIt": "più",
+      "turkishTr": "daha fazla",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 140,
+      "wordEn": "more",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "mɔːr",
+      "phoneticUk": null,
+      "phoneticAr": "مُور",
+      "translit": "Akthar",
+      "definitionEn": "Used to form the comparative of many adjectives and adverbs.",
+      "definitionAr": "بنستخدمها قبل الصفات الطويلة عشان نقول 'أكثر' جمالاً أو 'أكثر' صعوبة.",
+      "usageNote": "Essential for forming comparatives of multi-syllable adjectives.",
+      "category": "Grammar & Function",
+      "primarySense": "Attribute",
+      "semanticTags": [
+        "#Comparative",
+        "#Grammar",
+        "#Degree"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تحب توصف حاجة بزيادة، حط قبلها \"More\".. زي \"More\" beautiful.",
+      "examples": {
+        "A1": "This car is more expensive.",
+        "A2": "Please speak more slowly.",
+        "B1": "He is more intelligent than his brother.",
+        "B2": "The situation is more complex than it seems.",
+        "C1": "I couldn't agree more.",
+        "C2": "She was more sorrowful than angry."
+      },
+      "collocations": [
+        "more beautiful",
+        "more important",
+        "more likely",
+        "more often"
+      ],
+      "synonyms": [
+        "to a greater extent"
+      ],
+      "antonyms": [
+        "less"
+      ],
+      "relatedWords": {
+        "en": [
+          "most",
+          "very"
+        ],
+        "ar": [
+          "الأكثر",
+          "جداً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "more",
+        "verb": "",
+        "adj": "more",
+        "adv": "more"
+      },
+      "arabicAr": "أكْثَر",
+      "frenchFr": "plus",
+      "germanDe": "mehr",
+      "spanishEs": "más",
+      "chineseZh": "更 (Gèng)",
+      "russianRu": "более",
+      "portuguesePt": "mais",
+      "japaneseJa": "もっと (Motto)",
+      "italianIt": "più",
+      "turkishTr": "daha",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 141,
+      "wordEn": "about",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "əˈbaʊt",
+      "phoneticUk": null,
+      "phoneticAr": "أَبَاوت",
+      "translit": "Taqrīban / Ḥawālī",
+      "definitionEn": "A little more or less than; approximately.",
+      "definitionAr": "يعني 'تقريباً' أو 'حوالي'، بنستخدمها لما نكون مش متأكدين من الرقم بالظبط.",
+      "usageNote": "Often used with numbers, time, or quantities.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Estimation",
+        "#Numbers",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"About\" شبه \"A boat\" \"قارب\".. القارب بيمشي \"About\" \"حوالي\" 10 كيلو في الساعة.",
+      "examples": {
+        "A1": "It is about five o'clock.",
+        "A2": "There were about twenty people.",
+        "B1": "The movie is about to start.",
+        "B2": "We are about halfway through the project.",
+        "C1": "He was about to leave when the phone rang.",
+        "C2": "The town is about as dull as it gets."
+      },
+      "collocations": [
+        "about to",
+        "just about",
+        "about time"
+      ],
+      "synonyms": [
+        "approximately",
+        "around",
+        "roughly"
+      ],
+      "antonyms": [
+        "exactly",
+        "precisely"
+      ],
+      "relatedWords": {
+        "en": [
+          "near",
+          "almost"
+        ],
+        "ar": [
+          "قريب",
+          "تقريباً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "تَقْرِيباً / حَوَالِي",
+      "frenchFr": "environ",
+      "germanDe": "ungefähr",
+      "spanishEs": "aproximadamente",
+      "chineseZh": "大约 (Dà yuē)",
+      "russianRu": "около",
+      "portuguesePt": "cerca de",
+      "japaneseJa": "約 (Yaku)",
+      "italianIt": "circa",
+      "turkishTr": "yaklaşık",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 142,
+      "wordEn": "about",
+      "pos": "prep",
+      "cefrLevel": "A1",
+      "difficultyScore": "2",
+      "phoneticUs": "əˈbaʊt",
+      "phoneticUk": null,
+      "phoneticAr": "أَبَاوت",
+      "translit": "'An / Ḥawl",
+      "definitionEn": "On the subject of; concerning.",
+      "definitionAr": "بمعنى 'عن' أو 'بخصوص'، لما تتكلم عن موضوع أو شخص معين.",
+      "usageNote": "Indicates the topic or subject matter.",
+      "category": "General / Common",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Topic",
+        "#Preposition",
+        "#Context"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "لما تحكي حكاية \"About\" \"عن\" حد، إنت بتلف \"About\" \"حول\" الموضوع.",
+      "examples": {
+        "A1": "Tell me about yourself.",
+        "A2": "This book is about animals.",
+        "B1": "We talked about our plans.",
+        "B2": "There is something strange about him.",
+        "C1": "I am concerned about the implications of this decision.",
+        "C2": "Much has been written about the philosophy of science."
+      },
+      "collocations": [
+        "talk about",
+        "think about",
+        "worry about",
+        "know about"
+      ],
+      "synonyms": [
+        "regarding",
+        "concerning",
+        "on"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "topic",
+          "subject"
+        ],
+        "ar": [
+          "موضوع",
+          "مسألة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "عَن / حَوْل",
+      "frenchFr": "sur",
+      "germanDe": "über",
+      "spanishEs": "sobre",
+      "chineseZh": "关于 (Guān yú)",
+      "russianRu": "о",
+      "portuguesePt": "sobre",
+      "japaneseJa": "について (Ni tsuite)",
+      "italianIt": "su",
+      "turkishTr": "hakkında",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 143,
+      "wordEn": "now",
+      "pos": "adv",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "naʊ",
+      "phoneticUk": null,
+      "phoneticAr": "نَاو",
+      "translit": "Al-ān",
+      "definitionEn": "At the present time or moment.",
+      "definitionAr": "يعني 'دلوقتي' أو 'في اللحظة دي'.",
+      "usageNote": "Can refer to the immediate moment or the current period of time.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Present",
+        "#Urgency"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Now\" شبه صوت القطة \"Meow\".. القطة عايزة أكل \"Now\" \"دلوقتي\"!",
+      "examples": {
+        "A1": "I am busy now.",
+        "A2": "Where are you living now?",
+        "B1": "She should be here by now.",
+        "B2": "From now on, we must be careful.",
+        "C1": "Now is the winter of our discontent.",
+        "C2": "The once-thriving industry is now but a memory."
+      },
+      "collocations": [
+        "right now",
+        "just now",
+        "by now",
+        "from now on"
+      ],
+      "synonyms": [
+        "currently",
+        "at present",
+        "immediately"
+      ],
+      "antonyms": [
+        "then",
+        "later"
+      ],
+      "relatedWords": {
+        "en": [
+          "today",
+          "moment"
+        ],
+        "ar": [
+          "اليوم",
+          "لحظة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "الآن",
+      "frenchFr": "maintenant",
+      "germanDe": "jetzt",
+      "spanishEs": "ahora",
+      "chineseZh": "现在 (Xiàn zài)",
+      "russianRu": "сейчас",
+      "portuguesePt": "agora",
+      "japaneseJa": "今 (Ima)",
+      "italianIt": "adesso",
+      "turkishTr": "şimdi",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 144,
+      "wordEn": "now",
+      "pos": "conj",
+      "cefrLevel": "B1",
+      "difficultyScore": "1",
+      "phoneticUs": "naʊ",
+      "phoneticUk": null,
+      "phoneticAr": "نَاو",
+      "translit": "Bimā 'anna / Al-ān wa-qad",
+      "definitionEn": "As a consequence of the fact that; since.",
+      "definitionAr": "بمعنى 'بما أن' أو 'مدام'.. بنستخدمها عشان نربط سبب بنتيجة حصلت دلوقتي.",
+      "usageNote": "Often followed by 'that' (e.g., 'Now that...').",
+      "category": "Grammar & Function",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Reason",
+        "#Conjunction",
+        "#Logic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي ما بتقول: \"Now\" \"دلوقتي\" إننا خلصنا، نقدر نمشي.",
+      "examples": {
+        "A1": "Now I see, I understand.",
+        "A2": "Now you mention it, I do remember.",
+        "B1": "Now that you are here, we can start.",
+        "B2": "Now the rain has stopped, we can go outside.",
+        "C1": "Now that the crisis is over, we must rebuild.",
+        "C2": "Now that the premises have been established, the conclusion follows."
+      },
+      "collocations": [
+        "now that"
+      ],
+      "synonyms": [
+        "since",
+        "seeing that"
+      ],
+      "antonyms": [],
+      "relatedWords": {
+        "en": [
+          "because",
+          "as"
+        ],
+        "ar": [
+          "لأن",
+          "حيث"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "بِمَا أنَّ / الآنَ وقَد",
+      "frenchFr": "puisque",
+      "germanDe": "nun da",
+      "spanishEs": "ya que",
+      "chineseZh": "既然 (Jì rán)",
+      "russianRu": "теперь, когда",
+      "portuguesePt": "já que",
+      "japaneseJa": "今や (Imaya)",
+      "italianIt": "ora che",
+      "turkishTr": "mademki",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 145,
+      "wordEn": "last",
+      "pos": "adj",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "læst",
+      "phoneticUk": "lɑːst",
+      "phoneticAr": "لَاسْت",
+      "translit": "Akhīr / Māḍī",
+      "definitionEn": "Coming after all others in time or order.",
+      "definitionAr": "يعني 'الأخير' في الترتيب، أو 'الماضي' لما نتكلم عن الوقت زي السنة اللي فاتت.",
+      "usageNote": "Can mean 'final' (end of series) or 'previous' (most recent).",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Sequence",
+        "#Time",
+        "#Final"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "دي \"Last\" \"آخر\" مرة هقولك فيها الكلام ده! افتكر \"List\" \"قائمة\".. هو في آخر الـ List.",
+      "examples": {
+        "A1": "This is the last bus.",
+        "A2": "I saw him last week.",
+        "B1": "He was the last person to arrive.",
+        "B2": "This is your last chance.",
+        "C1": "The last thing I want is to cause trouble.",
+        "C2": "He paid his respects to the last remains of the empire."
+      },
+      "collocations": [
+        "last week",
+        "last year",
+        "last night",
+        "last chance"
+      ],
+      "synonyms": [
+        "final",
+        "previous",
+        "closing"
+      ],
+      "antonyms": [
+        "first",
+        "next"
+      ],
+      "relatedWords": {
+        "en": [
+          "end",
+          "finish"
+        ],
+        "ar": [
+          "نهاية",
+          "ختام"
+        ]
+      },
+      "wordFamily": {
+        "noun": "last",
+        "verb": "last",
+        "adj": "last",
+        "adv": "lastly"
+      },
+      "arabicAr": "أخِير / مَاضِي",
+      "frenchFr": "dernier",
+      "germanDe": "letzte",
+      "spanishEs": "último",
+      "chineseZh": "最后的 (Zuì hòu de)",
+      "russianRu": "последний",
+      "portuguesePt": "último",
+      "japaneseJa": "最後の (Saigo no)",
+      "italianIt": "ultimo",
+      "turkishTr": "son",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 146,
+      "wordEn": "last",
+      "pos": "verb",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "læst",
+      "phoneticUk": "lɑːst",
+      "phoneticAr": "لَاسْت",
+      "translit": "Yastamirr / Yadūm",
+      "definitionEn": "To continue for a specified period of time.",
+      "definitionAr": "يعني 'يستمر' أو 'يفضل موجود' لفترة معينة.",
+      "usageNote": "Focuses on duration or endurance.",
+      "category": "Time & Change",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Duration",
+        "#Endurance",
+        "#Time"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "الـ \"Elastic\" \"أستيك\" بيفضل يمط و \"Last\" \"يستمر\" معاك فترة طويلة.",
+      "examples": {
+        "A1": "The movie lasts two hours.",
+        "A2": "The meeting didn't last long.",
+        "B1": "Good shoes last a long time.",
+        "B2": "The food will last for three days.",
+        "C1": "The joy of the victory did not last.",
+        "C2": "These impressions last a lifetime."
+      },
+      "collocations": [
+        "last long",
+        "last forever",
+        "built to last"
+      ],
+      "synonyms": [
+        "continue",
+        "endure",
+        "persist"
+      ],
+      "antonyms": [
+        "end",
+        "stop"
+      ],
+      "relatedWords": {
+        "en": [
+          "duration",
+          "continuance"
+        ],
+        "ar": [
+          "مدة",
+          "استمرار"
+        ]
+      },
+      "wordFamily": {
+        "noun": "last",
+        "verb": "last",
+        "adj": "last",
+        "adv": "lastly"
+      },
+      "arabicAr": "يَسْتَمِرّ / يَدُوم",
+      "frenchFr": "durer",
+      "germanDe": "dauern",
+      "spanishEs": "durar",
+      "chineseZh": "持续 (Chí xù)",
+      "russianRu": "длиться",
+      "portuguesePt": "durar",
+      "japaneseJa": "続く (Tsuzuku)",
+      "italianIt": "durare",
+      "turkishTr": "sürmek",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 147,
+      "wordEn": "last",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "læst",
+      "phoneticUk": "lɑːst",
+      "phoneticAr": "لَاسْت",
+      "translit": "Al-akhīr / An-nihāyah",
+      "definitionEn": "The person or thing that comes at the end.",
+      "definitionAr": "الشخص أو الشيء اللي بيجي في الآخر.",
+      "usageNote": "Often used in phrases like 'at last' or 'the last of'.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#End",
+        "#Sequence",
+        "#Position"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "زي لما تقول: ده الـ \"Last\".. يعني ده الآخر.",
+      "examples": {
+        "A1": "He was the last to arrive.",
+        "A2": "At last, we are home.",
+        "B1": "We have seen the last of him.",
+        "B2": "This is the last of the milk.",
+        "C1": "He breathed his last.",
+        "C2": "She stuck with the project to the very last."
+      },
+      "collocations": [
+        "at last",
+        "to the last",
+        "the very last"
+      ],
+      "synonyms": [
+        "end",
+        "conclusion"
+      ],
+      "antonyms": [
+        "first",
+        "beginning"
+      ],
+      "relatedWords": {
+        "en": [
+          "finale",
+          "tail"
+        ],
+        "ar": [
+          "خاتمة",
+          "ذيل"
+        ]
+      },
+      "wordFamily": {
+        "noun": "last",
+        "verb": "last",
+        "adj": "last",
+        "adv": "lastly"
+      },
+      "arabicAr": "الآخِر / النِهَايَة",
+      "frenchFr": "dernier",
+      "germanDe": "Letzte",
+      "spanishEs": "último",
+      "chineseZh": "最后 (Zuì hòu)",
+      "russianRu": "конец",
+      "portuguesePt": "último",
+      "japaneseJa": "最後 (Saigo)",
+      "italianIt": "ultimo",
+      "turkishTr": "son",
+      "aiConfidence": 0.95
+    },
+    {
+      "id": 148,
+      "wordEn": "last",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "3",
+      "phoneticUs": "læst",
+      "phoneticUk": "lɑːst",
+      "phoneticAr": "لَاسْت",
+      "translit": "Akhīr / Sābiq",
+      "definitionEn": "Most recent; next before the present.",
+      "definitionAr": "بنستخدمها قبل الاسم عشان نحدد إنه 'الأخير' أو 'اللي فات'.",
+      "usageNote": "Identifies the specific instance immediately preceding the current one.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Time",
+        "#Determiner",
+        "#Past"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Last night was cold.",
+        "A2": "I saw her last Friday.",
+        "B1": "During the last few days, I've been busy.",
+        "B2": "This is the last time I will ask.",
+        "C1": "The last thing we need is more trouble.",
+        "C2": "In the last analysis, it is a matter of choice."
+      },
+      "collocations": [
+        "last time",
+        "last year",
+        "last minute"
+      ],
+      "synonyms": [
+        "past",
+        "preceding"
+      ],
+      "antonyms": [
+        "next"
+      ],
+      "relatedWords": {
+        "en": [
+          "recent",
+          "prior"
+        ],
+        "ar": [
+          "حديث",
+          "سابق"
+        ]
+      },
+      "wordFamily": {
+        "noun": "last",
+        "verb": "last",
+        "adj": "last",
+        "adv": "lastly"
+      },
+      "arabicAr": "أخِير / سَابِق",
+      "frenchFr": "dernier",
+      "germanDe": "letzte",
+      "spanishEs": "último",
+      "chineseZh": "上一个 (Shàng yī gè)",
+      "russianRu": "прошлый",
+      "portuguesePt": "último",
+      "japaneseJa": "この前の (Kono mae no)",
+      "italianIt": "scorso",
+      "turkishTr": "geçen",
+      "aiConfidence": 0.96
+    },
+    {
+      "id": 149,
+      "wordEn": "last",
+      "pos": "adv",
+      "cefrLevel": "A2",
+      "difficultyScore": "3",
+      "phoneticUs": "læst",
+      "phoneticUk": "lɑːst",
+      "phoneticAr": "لَاسْت",
+      "translit": "Akhīran",
+      "definitionEn": "After all others in order or time.",
+      "definitionAr": "يعني 'أخيراً' أو في نهاية الترتيب.",
+      "usageNote": "Describes when an action happened in a sequence.",
+      "category": "Numbers, Time & Math",
+      "primarySense": "Time",
+      "semanticTags": [
+        "#Sequence",
+        "#Order",
+        "#Adverb"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "He arrived last.",
+        "A2": "When did you see him last?",
+        "B1": "I spoke to her last on Tuesday.",
+        "B2": "Last but not least, I want to thank my team.",
+        "C1": "The image that appeared last was the most striking.",
+        "C2": "He is the man I would last expect to do such a thing."
+      },
+      "collocations": [
+        "last but not least",
+        "come last"
+      ],
+      "synonyms": [
+        "finally",
+        "at the end"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "relatedWords": {
+        "en": [
+          "ultimately",
+          "finally"
+        ],
+        "ar": [
+          "في النهاية",
+          "ختاماً"
+        ]
+      },
+      "wordFamily": {
+        "noun": "last",
+        "verb": "last",
+        "adj": "last",
+        "adv": "lastly"
+      },
+      "arabicAr": "أخِيراً",
+      "frenchFr": "en dernier",
+      "germanDe": "zuletzt",
+      "spanishEs": "por último",
+      "chineseZh": "最后 (Zuì hòu)",
+      "russianRu": "в последнюю очередь",
+      "portuguesePt": "por último",
+      "japaneseJa": "最後に (Saigo ni)",
+      "italianIt": "per ultimo",
+      "turkishTr": "son olarak",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 150,
+      "wordEn": "your",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "jʊr",
+      "phoneticUk": "jɔːr",
+      "phoneticAr": "يُور",
+      "translit": "Lak / Khāṣ bik",
+      "definitionEn": "Belonging to or associated with the person being addressed.",
+      "definitionAr": "حاجة بتاعتك إنت.. بنستخدمها عشان ننسب الملكية للشخص اللي بنكلمه.",
+      "usageNote": "Technically a possessive determiner, but often categorized broadly with pronouns.",
+      "category": "People & Relationships",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Possession",
+        "#Pronoun",
+        "#You"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Your\" شبه \"You\".. بس بنحط \"r\" عشان نقول إن الحاجة دي بتاعتك.",
+      "examples": {
+        "A1": "What is your name?",
+        "A2": "Is this your car?",
+        "B1": "Don't forget your passport.",
+        "B2": "I appreciate your help.",
+        "C1": "It is none of your business.",
+        "C2": "I beg your pardon?"
+      },
+      "collocations": [
+        "your name",
+        "your turn",
+        "your own"
+      ],
+      "synonyms": [
+        "thy"
+      ],
+      "antonyms": [
+        "my",
+        "his",
+        "her"
+      ],
+      "relatedWords": {
+        "en": [
+          "you",
+          "yours"
+        ],
+        "ar": [
+          "أنت",
+          "ملكك"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لَك / خَاص بِك",
+      "frenchFr": "ton / votre",
+      "germanDe": "dein / Ihr",
+      "spanishEs": "tu / su",
+      "chineseZh": "你的 (Nǐ de)",
+      "russianRu": "твой / ваш",
+      "portuguesePt": "teu / seu",
+      "japaneseJa": "あなたの (Anata no)",
+      "italianIt": "tuo / vostro",
+      "turkishTr": "senin / sizin",
+      "aiConfidence": 0.98
+    },
+    {
+      "id": 151,
+      "wordEn": "your",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "jʊr",
+      "phoneticUk": "jɔːr",
+      "phoneticAr": "يُور",
+      "translit": "K / Kum",
+      "definitionEn": "Belonging to the person or people being spoken to.",
+      "definitionAr": "ضمير الملكية للمخاطب (كاف الملكية)، زي 'كتابك' أو 'بيتكم'.",
+      "usageNote": "Always followed by a noun.",
+      "category": "People & Relationships",
+      "primarySense": "Relation",
+      "semanticTags": [
+        "#Possession",
+        "#Determiner",
+        "#Grammar"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "Wash your hands.",
+        "A2": "Where is your house?",
+        "B1": "Your opinion matters to us.",
+        "B2": "Keep your eyes on the road.",
+        "C1": "You must broaden your horizons.",
+        "C2": "Your argument is fundamentally flawed."
+      },
+      "collocations": [
+        "your family",
+        "your job",
+        "your life"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "my"
+      ],
+      "relatedWords": {
+        "en": [
+          "possessive",
+          "ownership"
+        ],
+        "ar": [
+          "ملكية",
+          "حيازة"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "كَ / كُم",
+      "frenchFr": "ton / votre",
+      "germanDe": "dein / Ihr",
+      "spanishEs": "tu / su",
+      "chineseZh": "你的 (Nǐ de)",
+      "russianRu": "твой / ваш",
+      "portuguesePt": "teu / seu",
+      "japaneseJa": "あなたの (Anata no)",
+      "italianIt": "tuo / vostro",
+      "turkishTr": "senin / sizin",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 152,
+      "wordEn": "me",
+      "pos": "pron",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "miː",
+      "phoneticUk": null,
+      "phoneticAr": "مِي",
+      "translit": "Anā / -nī",
+      "definitionEn": "Used by a speaker to refer to himself or herself as the object.",
+      "definitionAr": "ضمير المتكلم لما يكون مفعول به، زي الياء في 'كلمني' أو 'ساعدني'.",
+      "usageNote": "Use 'I' for the subject, 'me' for the object.",
+      "category": "People & Relationships",
+      "primarySense": "Person",
+      "semanticTags": [
+        "#Pronoun",
+        "#Self",
+        "#Object"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"Me\" شبه \"مِي\".. مين؟ أنا!",
+      "examples": {
+        "A1": "Look at me.",
+        "A2": "Give it to me.",
+        "B1": "He told me the truth.",
+        "B2": "It makes me feel happy.",
+        "C1": "Between you and me, I don't like it.",
+        "C2": "Let me clarify this point."
+      },
+      "collocations": [
+        "tell me",
+        "help me",
+        "excuse me"
+      ],
+      "synonyms": [
+        "myself"
+      ],
+      "antonyms": [
+        "you",
+        "him",
+        "her"
+      ],
+      "relatedWords": {
+        "en": [
+          "I",
+          "mine"
+        ],
+        "ar": [
+          "أنا",
+          "لي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "أَنَا / ي",
+      "frenchFr": "moi",
+      "germanDe": "mich / mir",
+      "spanishEs": "mí / me",
+      "chineseZh": "我 (Wǒ)",
+      "russianRu": "меня / мне",
+      "portuguesePt": "mim / me",
+      "japaneseJa": "私を (Watashi o)",
+      "italianIt": "me / mi",
+      "turkishTr": "beni / bana",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 153,
+      "wordEn": "no",
+      "pos": "noun",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "noʊ",
+      "phoneticUk": "nəʊ",
+      "phoneticAr": "نُو",
+      "translit": "Lā / Rafḍ",
+      "definitionEn": "A negative answer or decision.",
+      "definitionAr": "الرفض أو كلمة 'لا' نفسها لما نستخدمها كاسم، زي لما تقول 'أخدت لا كبيرة'.",
+      "usageNote": "Refers to the act of refusing or a negative vote.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Negation",
+        "#Refusal",
+        "#Vote"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": "كلمة \"No\" سهلة.. نون وواو \"نو\".. يعني لأ.",
+      "examples": {
+        "A1": "The answer is no.",
+        "A2": "There were two nos and three yeses.",
+        "B1": "I won't take no for an answer.",
+        "B2": "It was a definite no from the boss.",
+        "C1": "The noes have it (in a vote).",
+        "C2": "His response was a categorical no."
+      },
+      "collocations": [
+        "say no",
+        "vote no",
+        "big no"
+      ],
+      "synonyms": [
+        "denial",
+        "refusal"
+      ],
+      "antonyms": [
+        "yes",
+        "approval"
+      ],
+      "relatedWords": {
+        "en": [
+          "negative",
+          "negation"
+        ],
+        "ar": [
+          "سلب",
+          "نفي"
+        ]
+      },
+      "wordFamily": {
+        "noun": "no",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا / رَفْض",
+      "frenchFr": "non",
+      "germanDe": "Nein",
+      "spanishEs": "no",
+      "chineseZh": "不 (Bù)",
+      "russianRu": "нет",
+      "portuguesePt": "não",
+      "japaneseJa": "いいえ (Iie)",
+      "italianIt": "no",
+      "turkishTr": "hayır",
+      "aiConfidence": 0.97
+    },
+    {
+      "id": 154,
+      "wordEn": "no",
+      "pos": "excl",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "noʊ",
+      "phoneticUk": "nəʊ",
+      "phoneticAr": "نُو",
+      "translit": "Lā",
+      "definitionEn": "Used to give a negative response.",
+      "definitionAr": "كلمة 'لا' اللي بنقولها عشان نرفض حاجة أو نجاوب بالنفي.",
+      "usageNote": "Standard way to express disagreement or refusal.",
+      "category": "Social Life & Communication",
+      "primarySense": "Communication",
+      "semanticTags": [
+        "#Exclamation",
+        "#Refusal",
+        "#Basic"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "No, I don't want it.",
+        "A2": "Oh no! I forgot my keys.",
+        "B1": "No, that's not what I meant.",
+        "B2": "No way! I don't believe it.",
+        "C1": "No, no, a thousand times no!",
+        "C2": "No? You surprise me."
+      },
+      "collocations": [
+        "oh no",
+        "no way",
+        "no thanks"
+      ],
+      "synonyms": [
+        "nope",
+        "nah"
+      ],
+      "antonyms": [
+        "yes",
+        "yeah"
+      ],
+      "relatedWords": {
+        "en": [
+          "never",
+          "not"
+        ],
+        "ar": [
+          "أبداً",
+          "ليس"
+        ]
+      },
+      "wordFamily": {
+        "noun": "no",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا",
+      "frenchFr": "non",
+      "germanDe": "nein",
+      "spanishEs": "no",
+      "chineseZh": "不 (Bù)",
+      "russianRu": "нет",
+      "portuguesePt": "não",
+      "japaneseJa": "いいえ (Iie)",
+      "italianIt": "no",
+      "turkishTr": "hayır",
+      "aiConfidence": 0.99
+    },
+    {
+      "id": 155,
+      "wordEn": "no",
+      "pos": "det",
+      "cefrLevel": "A1",
+      "difficultyScore": "1",
+      "phoneticUs": "noʊ",
+      "phoneticUk": "nəʊ",
+      "phoneticAr": "نُو",
+      "translit": "Lā / Laysa",
+      "definitionEn": "Not any.",
+      "definitionAr": "بمعنى 'مفيش' أو 'لا يوجد'، بتيجي قبل الاسم عشان تنفي وجوده.",
+      "usageNote": "More emphatic than 'not any'.",
+      "category": "Quantity & Amount",
+      "primarySense": "Quantity",
+      "semanticTags": [
+        "#Negation",
+        "#Quantity",
+        "#Determiner"
+      ],
+      "register": "Neutral",
+      "mnemonicAr": null,
+      "examples": {
+        "A1": "I have no money.",
+        "A2": "There is no food left.",
+        "B1": "No problem, I can help.",
+        "B2": "He has no idea what to do.",
+        "C1": "It is no easy task.",
+        "C2": "There is no denying the facts."
+      },
+      "collocations": [
+        "no problem",
+        "no doubt",
+        "no way"
+      ],
+      "synonyms": [
+        "not any",
+        "zero"
+      ],
+      "antonyms": [
+        "some",
+        "all"
+      ],
+      "relatedWords": {
+        "en": [
+          "none",
+          "nothing"
+        ],
+        "ar": [
+          "لا شيء",
+          "عدم"
+        ]
+      },
+      "wordFamily": {
+        "noun": "no",
+        "verb": "",
+        "adj": "",
+        "adv": ""
+      },
+      "arabicAr": "لا / لَيْسَ",
+      "frenchFr": "aucun",
+      "germanDe": "kein",
+      "spanishEs": "ningún",
+      "chineseZh": "没有 (Méi yǒu)",
+      "russianRu": "нет",
+      "portuguesePt": "nenhum",
+      "japaneseJa": "ない (Nai)",
+      "italianIt": "nessun",
+      "turkishTr": "hiç",
+      "aiConfidence": 0.98
+    }
+  ]
+} 
